@@ -1,0 +1,254 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+  },
+  "book": {
+    "id": "bu-he-biao-ge-bi-kuai",
+    "seriesId": "sanzijing",
+    "title": "不和表哥比快",
+    "subtitle": "找到适合自己的那一小步",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "表哥带着一个拼好的模型来做客。禾禾把自己的木轨道搬出来，想让两辆车一起出发。",
+        "enText": "Her cousin came to visit with a model he had built. Hehe brought out her wooden tracks. She wanted their two vehicles to set off together.",
+        "illustrationPrompt": "客厅地毯上，表哥展示模型，禾禾抱着木轨道盒。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 客厅地毯上，表哥展示模型，禾禾抱着木轨道盒。. Narrative meaning for composition only; NEVER render words: 表哥带着一个拼好的模型来做客。禾禾把自己的木轨道搬出来，想让两辆车一起出发。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "她接上两段，再接弯弯的一段。咔哒，接头没有进去，弯轨翘起了一个角。",
+        "enText": "She joined two straight pieces, then added a curve. Click—no, it would not fit. One corner of the curve stuck up.",
+        "illustrationPrompt": "俯视三段木轨道，弯轨接头未对齐，蓝色火车放在旁边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-a0061d11-9375-416d-86da-43196044c7af.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 俯视三段木轨道，弯轨接头未对齐，蓝色火车放在旁边。. Narrative meaning for composition only; NEVER render words: 她接上两段，再接弯弯的一段。咔哒，接头没有进去，弯轨翘起了一个角。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 3,
+        "zhText": "爸爸走过来：“你看表哥，连这么复杂的都会拼了。你也快一点呀。”",
+        "enText": "Dad came over. “Look at your cousin! He can build something that complicated. Try to go a little faster.”",
+        "illustrationPrompt": "爸爸站在两个孩子旁，禾禾看向表哥手中的模型。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2ab3693a-e810-4cde-bea6-328958bdab40.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 爸爸站在两个孩子旁，禾禾看向表哥手中的模型。. Narrative meaning for composition only; NEVER render words: 爸爸走过来：“你看表哥，连这么复杂的都会拼了。你也快一点呀。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 4,
+        "zhText": "禾禾把弯轨翻过去，又翻回来。她不想再试了，把它推到了盒子底下。",
+        "enText": "Hehe turned the curved track over, then back again. She did not want to try anymore. She pushed it to the bottom of the box.",
+        "illustrationPrompt": "禾禾低头把弯轨藏进木盒，其余轨道停在地毯上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-a32805ab-0d31-4b61-80de-52126d8127e7.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. Girl Hehe feels sad and withdrawn after being compared: mouth CLOSED, brows slightly down, eyes looking downward, no smile. She is hiding the curved wooden rail in the box, not showing it proudly. Cousin sits quietly in background, mouth closed and concerned, no grinning. Preserve model construction vehicle and one blue train.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2f343c18-7e38-41b5-aced-631c0936d6d9.png"
+      },
+      {
+        "page": 5,
+        "zhText": "“我这个太简单了。”她说。表哥正要说话，爸爸先坐了下来。",
+        "enText": "“Mine is too simple,” she said. Her cousin was about to speak when Dad sat down beside her.",
+        "illustrationPrompt": "爸爸坐到地毯上，禾禾抱住木盒，表哥停下展示。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-1cd32a4d-a8bc-464d-9a56-049d354dce4f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 爸爸坐到地毯上，禾禾抱住木盒，表哥停下展示。. Narrative meaning for composition only; NEVER render words: “我这个太简单了。”她说。表哥正要说话，爸爸先坐了下来。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hehe is sad, quiet and withdrawn, mouth closed. She is NOT happily smiling or demonstrating a model. Cousin may listen quietly but does not grin at distress.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 6,
+        "zhText": "爸爸想了想：“刚才我把你和表哥比了。你本来想和我们一起玩，我却催你。”",
+        "enText": "Dad thought for a moment. “I compared you with your cousin. You wanted us to play together, and I hurried you.”",
+        "illustrationPrompt": "爸爸与禾禾平视，手放在膝上，模型留在表哥旁边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8192d0e9-e50d-4d4e-adf4-8b4c4cd9ba5e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 爸爸与禾禾平视，手放在膝上，模型留在表哥旁边。. Narrative meaning for composition only; NEVER render words: 爸爸想了想：“刚才我把你和表哥比了。你本来想和我们一起玩，我却催你。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hehe is sad, quiet and withdrawn, mouth closed. She is NOT happily smiling or demonstrating a model. Cousin may listen quietly but does not grin at distress.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 7,
+        "zhText": "“他一下就会。”禾禾小声说。“你们练过的东西不一样。”爸爸说，“我想先看看你卡在哪里。”",
+        "enText": "“He knows how straight away,” Hehe whispered. “You have practised different things,” Dad said. “I'd like to see where you're getting stuck.”",
+        "illustrationPrompt": "禾禾指向木盒，爸爸认真听，表哥安静坐在另一侧。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4d743e10-5675-45ad-a761-9480e4558a98.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 禾禾指向木盒，爸爸认真听，表哥安静坐在另一侧。. Narrative meaning for composition only; NEVER render words: “他一下就会。”禾禾小声说。“你们练过的东西不一样。”爸爸说，“我想先看看你卡在哪里。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hehe is sad, quiet and withdrawn, mouth closed. She is NOT happily smiling or demonstrating a model. Cousin may listen quietly but does not grin at distress.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 8,
+        "zhText": "禾禾拿回弯轨：“这里老翘起来。”爸爸没有接过去，先请她把两头放近。",
+        "enText": "Hehe brought back the curve. “This bit keeps sticking up.” Dad did not take it from her. He asked her to bring the two ends close together.",
+        "illustrationPrompt": "手部近景，两段轨道接头靠近，爸爸只指向连接处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-3e6a5806-3252-4a08-9035-76b7dc3f4461.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 手部近景，两段轨道接头靠近，爸爸只指向连接处。. Narrative meaning for composition only; NEVER render words: 禾禾拿回弯轨：“这里老翘起来。”爸爸没有接过去，先请她把两头放近。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 9,
+        "zhText": "“这个小凸头，要去找那个小洞。”禾禾看见了。她转了半圈，两个接头终于面对面。",
+        "enText": "“This little bump goes into that little hole.” Hehe could see it now. She turned the piece halfway around, until the ends faced each other.",
+        "illustrationPrompt": "弯轨转到正确方向，凸头与凹口清楚对应。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-77e289a1-ef7f-42f4-915d-930935c6ef5f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 弯轨转到正确方向，凸头与凹口清楚对应。. Narrative meaning for composition only; NEVER render words: “这个小凸头，要去找那个小洞。”禾禾看见了。她转了半圈，两个接头终于面对面。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 10,
+        "zhText": "她一只手按住直轨，一只手轻轻推。咔哒，这一次，两段都平平地躺下了。",
+        "enText": "She held the straight track down with one hand and gently pushed with the other. Click! This time both pieces lay flat.",
+        "illustrationPrompt": "禾禾双手连接木轨，接头平整落在地毯上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8da20037-0386-4f60-a8fe-e1bbc738efed.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 禾禾双手连接木轨，接头平整落在地毯上。. Narrative meaning for composition only; NEVER render words: 她一只手按住直轨，一只手轻轻推。咔哒，这一次，两段都平平地躺下了。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 11,
+        "zhText": "蓝色火车开过来了，停在轨道尽头。“还缺一段。”禾禾抬头看盒子。",
+        "enText": "The blue train came along and stopped at the end. “We need one more piece.” Hehe looked into the box.",
+        "illustrationPrompt": "火车停在三段轨道末端，盒里仍有短直轨。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f2f45a32-c542-40c0-a93e-eae6f58bc9cf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 火车停在三段轨道末端，盒里仍有短直轨。. Narrative meaning for composition only; NEVER render words: 蓝色火车开过来了，停在轨道尽头。“还缺一段。”禾禾抬头看盒子。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 12,
+        "zhText": "表哥递来一段短轨：“这一段行吗？”禾禾比了比：“行，车站放这里。”",
+        "enText": "Her cousin offered a short track. “Will this one work?” Hehe checked. “Yes. The station can go here.”",
+        "illustrationPrompt": "表哥把短直轨递给禾禾，禾禾选择小木屋位置。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e5018c7d-11ee-47c8-8e47-bcf54ab7d621.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 表哥把短直轨递给禾禾，禾禾选择小木屋位置。. Narrative meaning for composition only; NEVER render words: 表哥递来一段短轨：“这一段行吗？”禾禾比了比：“行，车站放这里。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 13,
+        "zhText": "他们一起加上车站。表哥想再接很长，禾禾说：“先这么长，我想试一趟。”",
+        "enText": "They added a station together. Her cousin wanted a much longer track. “Let's keep it this long first,” Hehe said. “I want to try one trip.”",
+        "illustrationPrompt": "短轨道旁放着木屋，表哥手中还有一段轨道，禾禾示意先停。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb1c014e-f849-4515-b209-219a36bfe888.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 短轨道旁放着木屋，表哥手中还有一段轨道，禾禾示意先停。. Narrative meaning for composition only; NEVER render words: 他们一起加上车站。表哥想再接很长，禾禾说：“先这么长，我想试一趟。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 14,
+        "zhText": "火车经过弯道，没有翻下来。禾禾用手指沿着接头，走了一小圈。",
+        "enText": "The train went around the curve without falling off. Hehe traced the new connection with her finger.",
+        "illustrationPrompt": "蓝色火车在弯轨上平稳行驶，禾禾查看刚接好的接头。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9ee5c909-e006-4436-9e3e-51d63bfeff4b.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 蓝色火车在弯轨上平稳行驶，禾禾查看刚接好的接头。. Narrative meaning for composition only; NEVER render words: 火车经过弯道，没有翻下来。禾禾用手指沿着接头，走了一小圈。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 15,
+        "zhText": "爸爸问：“今天哪一步和刚才不一样？”禾禾举起两只手：“我知道一只要先按住。”",
+        "enText": "Dad asked, “What did you do differently this time?” Hehe held up both hands. “I know one hand needs to hold it still first.”",
+        "illustrationPrompt": "禾禾演示按住与推入的动作，爸爸在旁看。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-20ada6c5-d185-4a31-ad41-96cd7aec109d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 禾禾演示按住与推入的动作，爸爸在旁看。. Narrative meaning for composition only; NEVER render words: 爸爸问：“今天哪一步和刚才不一样？”禾禾举起两只手：“我知道一只要先按住。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 16,
+        "zhText": "吃点心时，爸爸没有说谁更厉害。他问两个孩子，愿不愿意介绍各自做的东西。",
+        "enText": "At snack time, Dad did not say who was better. He asked whether each child would like to show what they had made.",
+        "illustrationPrompt": "餐桌边，两个孩子各放着自己的作品，爸爸邀请他们分享。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5f0ff343-c6c6-400f-a5d3-43f240824b94.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 餐桌边，两个孩子各放着自己的作品，爸爸邀请他们分享。. Narrative meaning for composition only; NEVER render words: 吃点心时，爸爸没有说谁更厉害。他问两个孩子，愿不愿意介绍各自做的东西。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      },
+      {
+        "page": 17,
+        "zhText": "表哥讲模型的轮子，禾禾讲弯轨的小洞。讲到自己的车站，她把声音放大了一点。",
+        "enText": "Her cousin talked about the model's wheels. Hehe talked about the little hole in the track. When she reached her station, her voice grew a little louder.",
+        "illustrationPrompt": "禾禾指着木车站介绍，表哥低头听，爸爸微笑。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fa0bc496-a487-4109-bd7e-0517ec5321a7.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Track piece that girl points to has become a giant vertical wall/ramp. Replace it with a SMALL flat curved wooden track laid at floor level with one clear connector hole; retain the small red-roof wooden station beside it. No standing track wall, no completed bridge yet. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6206e8f7-9eb2-4d80-bb68-d47b4db411a6.png"
+      },
+      {
+        "page": 18,
+        "zhText": "送表哥出门前，禾禾留下一段没接的轨道：“下次我想在这里，再添一座桥。”",
+        "enText": "Before her cousin left, Hehe saved one loose piece. “Next time, I want to add a bridge right here.”",
+        "illustrationPrompt": "禾禾把短直轨放在盒内明显位置，完整小车站留在地毯上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d328956-4071-4d22-89d0-89fcdd398914.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《不和表哥比快》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 禾禾，5 岁，黑色齐耳短发、杏黄上衣、绿色长裤；爸爸，短黑发、灰蓝衬衫；表哥，8 岁，短黑发、砖红上衣。核心道具为适合幼儿的大号木轨道、蓝色小火车和表哥的拼装模型。. THIS PAGE SCENE: 禾禾把短直轨放在盒内明显位置，完整小车站留在地毯上。. Narrative meaning for composition only; NEVER render words: 送表哥出门前，禾禾留下一段没接的轨道：“下次我想在这里，再添一座桥。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb160ea3-8795-4c9f-881d-fb2d5e4b57ab.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "把比较转成对具体过程的观察，帮助孩子辨认自己的进步。",
+      "reminder": "成人主动修正比较和催促，不要求孩子马上恢复积极；不用“你也有比别人强的地方”换一种比较。",
+      "questions": [
+        "禾禾把弯轨藏起来时，心里可能在想什么？",
+        "爸爸后来怎么了解她的难处？",
+        "你最近有哪一步，比以前顺手了一点？"
+      ],
+      "activity": "选一个孩子愿意做的小任务，成人只描述前后变化，例如“这次你先扶住了边”，不排快慢名次。",
+      "ageTips": {
+        "age4to5": "用“刚才”和“现在”的具体动作帮助理解，避免抽象地谈竞争。",
+        "age6to8": "邀请孩子自己选择想练的一小步，也允许今天先停。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 17,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子相处",
+        "家庭比较与看见个人进步"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  }
+}

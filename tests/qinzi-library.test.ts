@@ -18,8 +18,8 @@ const expandedBooks = () => plan.books.map(({ id }) => getBook("sanzijing", id)!
 describe("Approved parenting and skill stories", () => {
   it("ships ten approved 18-page bilingual books without changing the approved Chinese text", () => {
     expect(plan.approved).toBe(true);
-    expect(getSeries("sanzijing")).toMatchObject({ title: "亲子成长", bookCount: 16 });
-    expect(getPublishedBooks("sanzijing").slice(6).map((book) => book.id)).toEqual(plan.books.map(({ id }) => id));
+    expect(getSeries("sanzijing")).toMatchObject({ title: "亲子成长", bookCount: 26 });
+    expect(getPublishedBooks("sanzijing").slice(6, 16).map((book) => book.id)).toEqual(plan.books.map(({ id }) => id));
     let pageCount = 0;
     for (const [index, item] of plan.books.entries()) {
       const book = getBook("sanzijing", item.id);
@@ -90,7 +90,7 @@ describe("Approved parenting and skill stories", () => {
     const books = getPublishedBooks("sanzijing");
     const summaries = books.map((book) => createLibraryBookSummary(series, book));
     expect(groupLibraryBooksBySubseries(summaries).map((group) => ({ title: group.subseries?.title, count: group.books.length }))).toEqual([
-      { title: "三字经", count: 6 }, { title: "亲子相处", count: 5 }, { title: "学会新本领", count: 5 },
+      { title: "三字经", count: 6 }, { title: "亲子相处", count: 10 }, { title: "学会新本领", count: 10 },
     ]);
     expect(filterLibraryBooks(summaries, { query: "跳绳", filters: { category: "family-growth", seriesId: "sanzijing", language: "bilingual" } }).map((book) => book.id)).toContain("sheng-zi-shua-de-yi-sheng");
     const urls = sitemap().map((entry) => entry.url);

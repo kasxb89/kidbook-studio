@@ -1,0 +1,256 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+  },
+  "book": {
+    "id": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+    "seriesId": "sanzijing",
+    "title": "这张照片先问问我",
+    "subtitle": "留下回忆，也听见我的选择",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "宁宁用一张大大的绿纸做了顶帽子。帽尖歪向一边，像一片被风吹弯的叶子。",
+        "enText": "Ningning made a hat from a big sheet of green paper. Its tip leaned to one side, like a leaf bending in the wind.",
+        "illustrationPrompt": "桌上只有一顶绿色纸帽，宁宁整理弯曲的帽尖。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 桌上只有一顶绿色纸帽，宁宁整理弯曲的帽尖。. Narrative meaning for composition only; NEVER render words: 宁宁用一张大大的绿纸做了顶帽子。帽尖歪向一边，像一片被风吹弯的叶子。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "她戴着帽子走到镜子前，一步一晃。妈妈笑了：“我想拍下来，给外婆看看。”",
+        "enText": "She put it on and walked to the mirror, wobbling with each step. Mum smiled. “I'd like to take a picture to show Grandma.”",
+        "illustrationPrompt": "宁宁在落地镜前戴帽，妈妈拿起手机但尚未拍摄。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-35f55e33-d6cc-4a26-bce1-34dea57b8ff2.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 宁宁在落地镜前戴帽，妈妈拿起手机但尚未拍摄。. Narrative meaning for composition only; NEVER render words: 她戴着帽子走到镜子前，一步一晃。妈妈笑了：“我想拍下来，给外婆看看。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 3,
+        "zhText": "手机刚举起来，宁宁就把帽子拉低。“我不想拍脸。”妈妈放下了手机。",
+        "enText": "As soon as the phone went up, Ningning pulled the hat lower. “I don't want my face in it.” Mum lowered the phone.",
+        "illustrationPrompt": "宁宁帽沿遮住额头，妈妈把手机降到腰旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-900b6680-7214-4e42-a77e-f847265072b7.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 宁宁帽沿遮住额头，妈妈把手机降到腰旁。. Narrative meaning for composition only; NEVER render words: 手机刚举起来，宁宁就把帽子拉低。“我不想拍脸。”妈妈放下了手机。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 4,
+        "zhText": "“是今天不想拍，还是这顶帽子不想拍？”妈妈问。宁宁把帽子摘下来：“帽子可以，脸不要。”",
+        "enText": "“Don't you want a photo today, or don't you want one of this hat?” Mum asked. Ningning took it off. “The hat is okay. Not my face.”",
+        "illustrationPrompt": "母女坐到桌边，绿帽放在两人之间，手机屏幕朝下。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-19beb6a7-44a1-42ea-a4cf-71d651317b63.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. There must be exactly ONE physical green paper hat, resting on the table. Remove the hat from the girl's head, leaving her black pigtails visible. The girl has taken the hat off and speaks calmly with Mum, holding or pointing at the one hat on the table. Girl's hands no longer lifted over her head. Phone face down on table, Mum listens.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e641a41a-f470-4855-9d52-51358de332eb.png"
+      },
+      {
+        "page": 5,
+        "zhText": "妈妈点点头：“那我只拍帽子。拍好后你先看，再决定给不给外婆看。”",
+        "enText": "Mum nodded. “Then I'll photograph just the hat. You can look at the picture first and decide whether Grandma can see it.”",
+        "illustrationPrompt": "妈妈用手比出帽子范围，宁宁听，手机仍在桌上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-95a40692-8fd9-485d-8407-e6c95aa92982.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 妈妈用手比出帽子范围，宁宁听，手机仍在桌上。. Narrative meaning for composition only; NEVER render words: 妈妈点点头：“那我只拍帽子。拍好后你先看，再决定给不给外婆看。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 6,
+        "zhText": "宁宁把帽子放到椅子上。椅背太高，帽尖藏住了一半。",
+        "enText": "Ningning put the hat on a chair. The back of the chair was so tall that it hid half the tip.",
+        "illustrationPrompt": "绿色帽子在木椅上，弯帽尖被椅背挡住。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7d60e20b-c78d-48b2-99df-375857e0a26c.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 绿色帽子在木椅上，弯帽尖被椅背挡住。. Narrative meaning for composition only; NEVER render words: 宁宁把帽子放到椅子上。椅背太高，帽尖藏住了一半。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 7,
+        "zhText": "她换到矮桌上，妈妈蹲下来。屏幕里，帽子旁边多出了一双小脚。",
+        "enText": "She moved it to the low table. Mum crouched down. On the screen, a pair of little feet appeared beside the hat.",
+        "illustrationPrompt": "妈妈蹲下对准矮桌，手机取景中帽子与宁宁脚部可见，无可读界面。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-903cd907-7f19-41cd-87b2-faffb4cfccbf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 妈妈蹲下对准矮桌，手机取景中帽子与宁宁脚部可见，无可读界面。. Narrative meaning for composition only; NEVER render words: 她换到矮桌上，妈妈蹲下来。屏幕里，帽子旁边多出了一双小脚。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 8,
+        "zhText": "“脚也不要。”宁宁退到旁边，妈妈把镜头朝上挪了一点。",
+        "enText": "“Not my feet either.” Ningning stepped aside, and Mum moved the camera up a little.",
+        "illustrationPrompt": "宁宁站到画面外，手机取景范围只保留帽子和桌面。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-1bf9bdda-7b9e-4a84-b68d-50c52ade3637.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 宁宁站到画面外，手机取景范围只保留帽子和桌面。. Narrative meaning for composition only; NEVER render words: “脚也不要。”宁宁退到旁边，妈妈把镜头朝上挪了一点。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 9,
+        "zhText": "咔嚓。妈妈把照片递过来。宁宁放大帽尖：“这里翘翘的，拍到了。”",
+        "enText": "Click. Mum showed her the picture. Ningning zoomed in on the tip. “You got the curly bit!”",
+        "illustrationPrompt": "母女一起看手机内单张帽子照片，宁宁指向帽尖。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8552c1af-88ec-44f9-996e-26f6250edcf1.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 母女一起看手机内单张帽子照片，宁宁指向帽尖。. Narrative meaning for composition only; NEVER render words: 咔嚓。妈妈把照片递过来。宁宁放大帽尖：“这里翘翘的，拍到了。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 10,
+        "zhText": "她想了想：“我还想拍我扶着帽子的手。”妈妈问：“这一张，愿意让外婆看吗？”",
+        "enText": "She thought for a moment. “I'd also like a photo of my hands holding the hat.” Mum asked, “Would you like Grandma to see that one?”",
+        "illustrationPrompt": "宁宁双手扶住桌上帽沿，妈妈再次询问后准备拍摄。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7dec2da2-7874-45ed-8b46-04debfcf2b90.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 宁宁双手扶住桌上帽沿，妈妈再次询问后准备拍摄。. Narrative meaning for composition only; NEVER render words: 她想了想：“我还想拍我扶着帽子的手。”妈妈问：“这一张，愿意让外婆看吗？”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 11,
+        "zhText": "“愿意。手这样放。”宁宁把手指张开，扶住帽子两边，脸留在镜头外。",
+        "enText": "“Yes. I'll put my hands like this.” Ningning spread her fingers along the sides of the hat, keeping her face outside the picture.",
+        "illustrationPrompt": "近景只见绿帽与宁宁的双手，不出现人脸。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-990577b0-eaf8-46a4-af8b-6f921f40bb63.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 近景只见绿帽与宁宁的双手，不出现人脸。. Narrative meaning for composition only; NEVER render words: “愿意。手这样放。”宁宁把手指张开，扶住帽子两边，脸留在镜头外。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Hat is OFF the head, one single green hat only, exactly where THIS scene places it. No second hat. If phone displays a hat photograph that is a flat photo in the phone, not a second real hat.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 12,
+        "zhText": "拍好了，两张照片并排摆在屏幕上。宁宁选了有手的那张：“看起来像我在介绍它。”",
+        "enText": "When it was done, the two pictures sat side by side on the screen. Ningning chose the one with her hands. “It looks as if I'm showing it to her.”",
+        "illustrationPrompt": "手机中两张帽子缩略图，宁宁指向带双手的一张，无文字。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6544d897-ff59-45f9-b4aa-db0123d7ab26.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Phone comparison shows CHILD FACES, contradicting the agreed privacy boundary. Replace both phone thumbnails: left is ONLY green hat on table, right is ONLY same green hat held by two small hands. No face, head, body or feet in either photo. Girl chooses the hands photo. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-65740315-fa1f-4efa-b101-9a8641c5ca2a.png"
+      },
+      {
+        "page": 13,
+        "zhText": "妈妈又确认：“我把这一张发给外婆，我们家的小群里也发吗？”宁宁摇头：“先只给外婆。”",
+        "enText": "Mum checked again. “I'll send this one to Grandma. Shall I put it in our family group too?” Ningning shook her head. “Just Grandma for now.”",
+        "illustrationPrompt": "妈妈指着选中的照片询问，宁宁摇头，桌上实物帽子仍在。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c4631bce-e61f-491e-bee5-b4343f85b088.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Selected phone photo should be the green hat held by child hands, with no face/head/body/feet. Add the two small hands to the hat photo shown in the phone, without changing real hat on table or mother asking child about recipients. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5a6641d7-a712-4985-a9a1-de04c45761c8.png"
+      },
+      {
+        "page": 14,
+        "zhText": "“好，只给外婆。”妈妈发好，放下手机。帽子又回到了宁宁的头顶上。",
+        "enText": "“Okay. Just Grandma.” Mum sent it and put the phone down. The hat went back onto Ningning's head.",
+        "illustrationPrompt": "妈妈把手机放回桌面，宁宁重新戴绿帽。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f5767c4d-dbbe-4cf3-889f-e9069fdfbafb.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 妈妈把手机放回桌面，宁宁重新戴绿帽。. Narrative meaning for composition only; NEVER render words: “好，只给外婆。”妈妈发好，放下手机。帽子又回到了宁宁的头顶上。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 15,
+        "zhText": "晚上，外婆打来电话：“帽尖真像一片叶子！你是怎么让它弯起来的？”",
+        "enText": "That evening, Grandma called. “The tip really looks like a leaf! How did you make it bend?”",
+        "illustrationPrompt": "免提手机放在桌上，宁宁拿帽子演示，妈妈在旁听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-b1d2b9cf-d150-4afc-b320-8676ff37aa85.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 免提手机放在桌上，宁宁拿帽子演示，妈妈在旁听。. Narrative meaning for composition only; NEVER render words: 晚上，外婆打来电话：“帽尖真像一片叶子！你是怎么让它弯起来的？”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 16,
+        "zhText": "宁宁拿起剩下的绿纸，讲了好一会儿。外婆听见她的声音，也看见了她选的照片。",
+        "enText": "Ningning picked up the leftover paper and talked for quite a while. Grandma heard her voice and saw the picture she had chosen.",
+        "illustrationPrompt": "宁宁用平纸演示卷弯动作，绿帽放在旁边，不重复制作新帽。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e7bded69-1f3d-45c1-9de9-5a392fb384ea.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 宁宁用平纸演示卷弯动作，绿帽放在旁边，不重复制作新帽。. Narrative meaning for composition only; NEVER render words: 宁宁拿起剩下的绿纸，讲了好一会儿。外婆听见她的声音，也看见了她选的照片。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 17,
+        "zhText": "第二天，妈妈想拍她戴帽子看书，先问了一声。宁宁说：“现在想看书，晚点再说吧。”",
+        "enText": "The next day, Mum wanted a photo of her reading in the hat. She asked first. “I want to read now,” Ningning said. “Let's talk about it later.”",
+        "illustrationPrompt": "宁宁戴帽坐在软垫上读书，妈妈手持手机但未举起。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-29d60c04-123b-4353-806a-48579c0c6b81.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《这张照片先问问我》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤；妈妈，黑色低马尾、浅橙开衫。核心道具为绿色大纸帽、圆头儿童剪刀和妈妈的手机。手机画面不出现真实账号或可读文字。. THIS PAGE SCENE: 宁宁戴帽坐在软垫上读书，妈妈手持手机但未举起。. Narrative meaning for composition only; NEVER render words: 第二天，妈妈想拍她戴帽子看书，先问了一声。宁宁说：“现在想看书，晚点再说吧。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png"
+      },
+      {
+        "page": 18,
+        "zhText": "妈妈坐到旁边翻开自己的书。阳光落在绿帽上，谁也没有急着按下那个小圆点。",
+        "enText": "Mum sat beside her and opened her own book. Sunlight fell on the green hat. Neither of them hurried to press the little round button.",
+        "illustrationPrompt": "母女安静并排读书，手机收在侧桌上，绿帽受阳光照亮。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e048206d-7af3-44d4-98a6-9170fb131f1a.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Exactly ONE green paper hat, and it is ON the girl's HEAD as she continues reading. Remove hat from tabletop. Mum reads her own book beside girl, phone put away. Same hat with leaflike curled tip. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-52ad89e3-d068-4ee4-88d2-0525e8842eb5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8db0a10c-c786-4c93-a7c3-1a893c27b5dd.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "练习在拍摄和分享前分别询问，尊重孩子对照片范围和接收对象的选择。",
+      "reminder": "成人负责隐私与分享范围，不把“你同意过”当作永久许可；不以发照片换奖励，不公布姓名、学校或住址。",
+      "questions": [
+        "宁宁想让外婆看见什么，又不想拍什么？",
+        "拍照和把照片发出去，为什么要分别问？",
+        "你想怎样留下一个作品的回忆？"
+      ],
+      "activity": "给一件作品拍照，让孩子选择只拍作品、拍手或不拍；分享前由成人再确认对象和范围。",
+      "ageTips": {
+        "age4to5": "用“拍什么”和“给谁看”两个简短问题，孩子摇头就先停。",
+        "age6to8": "让孩子在成人陪同下检查照片背景，发现姓名牌等信息时重新取景。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 18,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子相处",
+        "拍照同意与尊重孩子的形象"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  }
+}

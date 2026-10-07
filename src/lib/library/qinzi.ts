@@ -11,6 +11,17 @@ import bicycle from "../../../content-drafts/qinzi/xiao-che-lun-man-man-zhuan.js
 import swimming from "../../../content-drafts/qinzi/yong-chi-li-de-yi-xiao-duan.json";
 import paperPlane from "../../../content-drafts/qinzi/zhi-fei-ji-fei-guo-lan-xian.json";
 
+import comparison from "../../../content-drafts/qinzi/bu-he-biao-ge-bi-kuai.json";
+import photoPermission from "../../../content-drafts/qinzi/zhe-zhang-zhao-pian-xian-wen-wen-wo.json";
+import cardboard from "../../../content-drafts/qinzi/wo-de-zhi-xiang-ming-tian-zai-chai.json";
+import harmonica from "../../../content-drafts/qinzi/ba-ba-ye-you-bu-hui-de-shi-hou.json";
+import grandfather from "../../../content-drafts/qinzi/wai-gong-zou-de-man-yi-dian.json";
+import shoelace from "../../../content-drafts/qinzi/xie-dai-rao-guo-xiao-shan-qiu.json";
+import chopsticks from "../../../content-drafts/qinzi/kuai-zi-jia-zhu-xiao-tuan-zi.json";
+import scissors from "../../../content-drafts/qinzi/jian-dao-yan-zhe-xiao-lu-zou.json";
+import beans from "../../../content-drafts/qinzi/hua-pen-li-de-yi-ke-dou.json";
+import kite from "../../../content-drafts/qinzi/feng-zheng-deng-yi-zhen-feng.json";
+
 type GrowthDraft = {
   book: Omit<LibraryBook, "pages"> & {
     pages: Array<Pick<LibraryBook["pages"][number], "page" | "zhText" | "enText" | "illustrationPrompt"> & {
@@ -22,6 +33,7 @@ type GrowthDraft = {
 
 const GROWTH_BOOKS: LibraryBook[] = [
   phone, goodbye, sibling, pause, promise, rope, basketball, bicycle, swimming, paperPlane,
+  comparison, photoPermission, cardboard, harmonica, grandfather, shoelace, chopsticks, scissors, beans, kite,
 ].filter(({ book }) => !book.comingSoon).map((source) => {
   const { book } = source as GrowthDraft;
   return {
@@ -45,7 +57,7 @@ export const QINZI_SERIES: LibrarySeries = {
   title: "亲子成长",
   subtitle: "在故事里练习爱、尊重与成长",
   description:
-    "面向 4–8 岁家庭的亲子成长故事，包含三字经、亲子相处和学会新本领。陪孩子认识情绪、理解关系，也在跳绳、拍篮球、骑车、游泳入门和折纸中慢慢掌握技能；每本提供双语正文、中文旁白与温和的共读锦囊。",
+    "面向 4–8 岁家庭的亲子成长故事，包含三字经、亲子相处和学会新本领。陪孩子认识情绪、理解关系，也在运动、动手创作、生活练习和种植观察中慢慢掌握技能；每本提供双语正文、中文旁白与温和的共读锦囊。",
   accent: "#8b5a3c",
   ageRange: "4–8 岁",
   bookCount: QINZI_BOOKS.filter((book) => !book.comingSoon).length,

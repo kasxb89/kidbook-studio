@@ -10,7 +10,12 @@ async function main() {
   if (!/^[a-z0-9-]+$/.test(bookId ?? "") || !Number.isInteger(page) || page < 1 || page > 18 || !path.isAbsolute(source ?? "")) {
     throw new Error("--book, --page 1–18, and an absolute --source are required");
   }
-  const batch = path.resolve("content-drafts/qinzi/batch-07-16");
+  const batchIndex = process.argv.indexOf("--batch");
+  const batchName = batchIndex < 0 ? "batch-07-16" : (process.argv[batchIndex + 1] ?? "");
+  if (!/^batch-\d+-\d+$/.test(batchName)) throw new Error("Invalid --batch directory");
+  const batch = path.resolve("content-drafts/qinzi", batchName);
+  const plan = JSON.parse(await readFile(path.join(batch, "plan.json"), "utf8"));
+  if (plan.approved !== true) throw new Error("Batch has not been approved");
   const queue: Array<{ book: string; page: number; prompt: string }> = JSON.parse(await readFile(path.join(batch, "image-prompts.json"), "utf8"));
   const job = queue.find((item) => item.book === bookId && item.page === page);
   if (!job) throw new Error("Image is outside the approved batch");
@@ -36,7 +41,7 @@ async function main() {
   if (index < 0) throw new Error("Page missing from manuscript");
   const editedFrom = args.includes("--replace") ? draft.book.pages[index].generatedSource : undefined;
   draft.book.pages[index] = { ...draft.book.pages[index], ...(editedFrom ? { editedFrom } : {}), imageStatus: "complete", generatedWith: "builtin-imagegen", generatedSource: source, generationPrompt: prompt };
-  if (page > 1) draft.book.pages[index].characterReference = draft.book.pages[0].generatedSource;
+  if (page > 1 && !args.includes("--replace")) draft.book.pages[index].characterReference = draft.book.pages[0].generatedSource;
   await writeFile(`${draftPath}.tmp`, JSON.stringify(draft, null, 2) + "\n");
   await rename(`${draftPath}.tmp`, draftPath);
   console.log(JSON.stringify({ book: bookId, page, saved: output, bytes: (await stat(output)).size }));

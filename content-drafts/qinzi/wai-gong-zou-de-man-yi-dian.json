@@ -1,0 +1,252 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+  },
+  "book": {
+    "id": "wai-gong-zou-de-man-yi-dian",
+    "seriesId": "sanzijing",
+    "title": "外公走得慢一点",
+    "subtitle": "让相处的步子也慢下来",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "星期六，小雨穿好运动鞋：“我们去看公园那座桥！”外公拿起手杖，妈妈带上水杯。",
+        "enText": "On Saturday, Xiaoyu put on her trainers. “Let's see the bridge in the park!” Grandpa picked up his walking stick, and Mum packed the water bottle.",
+        "illustrationPrompt": "门口三人准备出门，外公持手杖，妈妈提绿色水杯。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 门口三人准备出门，外公持手杖，妈妈提绿色水杯。. Narrative meaning for composition only; NEVER render words: 星期六，小雨穿好运动鞋：“我们去看公园那座桥！”外公拿起手杖，妈妈带上水杯。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "走到公园入口，小雨已经朝前跑了几步。妈妈叫她回来，一起走在没有车的步道上。",
+        "enText": "At the park entrance, Xiaoyu had already run a few steps ahead. Mum called her back, and they walked together on the path where there were no cars.",
+        "illustrationPrompt": "公园入口无车步道，小雨回到妈妈身边，外公在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e0fdc350-ea0d-40df-8227-b6b28480e688.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 公园入口无车步道，小雨回到妈妈身边，外公在旁。. Narrative meaning for composition only; NEVER render words: 走到公园入口，小雨已经朝前跑了几步。妈妈叫她回来，一起走在没有车的步道上。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 3,
+        "zhText": "外公的步子小小的。小雨走一段，又停一段：“桥是不是很远呀？”",
+        "enText": "Grandpa took small steps. Xiaoyu walked a little, then stopped a little. “Is the bridge very far?”",
+        "illustrationPrompt": "三人在宽步道上慢走，小雨回头看外公，远处桥模糊可见。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9201297b-0651-4c89-9c75-9f35f36d850d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 三人在宽步道上慢走，小雨回头看外公，远处桥模糊可见。. Narrative meaning for composition only; NEVER render words: 外公的步子小小的。小雨走一段，又停一段：“桥是不是很远呀？”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 4,
+        "zhText": "外公说：“今天我的腿有些累，得走慢一点。”妈妈指向前面的长椅：“累了就坐。”",
+        "enText": "“My legs feel tired today. I need to walk slowly,” Grandpa said. Mum pointed to a bench ahead. “We can sit whenever we need to.”",
+        "illustrationPrompt": "外公主动说明，妈妈指向近处长椅，小雨倾听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-27fe7b95-9e9d-4fbf-aa5e-5f0294ab8bde.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 外公主动说明，妈妈指向近处长椅，小雨倾听。. Narrative meaning for composition only; NEVER render words: 外公说：“今天我的腿有些累，得走慢一点。”妈妈指向前面的长椅：“累了就坐。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 5,
+        "zhText": "小雨低头踢了一下落叶：“我想快点到。”妈妈没有说她不懂事，先拉住她的小手。",
+        "enText": "Xiaoyu nudged a fallen leaf with her shoe. “I want to get there quickly.” Mum did not call her unkind. She took her little hand first.",
+        "illustrationPrompt": "小雨轻碰落叶，妈妈牵手，外公停在一旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0e6fcfe1-587c-4d2c-a86c-3b69d9434744.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 小雨轻碰落叶，妈妈牵手，外公停在一旁。. Narrative meaning for composition only; NEVER render words: 小雨低头踢了一下落叶：“我想快点到。”妈妈没有说她不懂事，先拉住她的小手。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 6,
+        "zhText": "“你很想看桥。”妈妈说，“外公也想出来坐坐。我们看看，两件事怎么安排。”",
+        "enText": "“You really want to see the bridge,” Mum said. “Grandpa wants to sit outside too. Let's see how we can arrange both wishes.”",
+        "illustrationPrompt": "妈妈蹲下与小雨商量，外公在长椅旁等候。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bd542203-8489-4167-ad9c-3fdda11730c2.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 妈妈蹲下与小雨商量，外公在长椅旁等候。. Narrative meaning for composition only; NEVER render words: “你很想看桥。”妈妈说，“外公也想出来坐坐。我们看看，两件事怎么安排。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 7,
+        "zhText": "他们先坐到长椅上。外公把手杖放稳，接过自己的水杯，小雨坐在妈妈另一边。",
+        "enText": "They sat on the bench first. Grandpa set his stick safely beside him and took his water bottle. Xiaoyu sat on Mum's other side.",
+        "illustrationPrompt": "三人坐长椅，外公手杖稳靠身旁，水杯在外公手中。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e6a0403a-7529-44e3-9ae2-167f57aefe18.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 三人坐长椅，外公手杖稳靠身旁，水杯在外公手中。. Narrative meaning for composition only; NEVER render words: 他们先坐到长椅上。外公把手杖放稳，接过自己的水杯，小雨坐在妈妈另一边。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 8,
+        "zhText": "树上忽然响起两声啾啾。外公抬头：“听，它又叫了。”小雨也把脚停住。",
+        "enText": "Two chirps came from the tree. Grandpa looked up. “Listen. There it is again.” Xiaoyu stopped swinging her feet.",
+        "illustrationPrompt": "长椅上三人仰头听鸟，树枝有一只普通小鸟。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-90b856b0-e50c-4938-a222-e5dc553c9a9f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 长椅上三人仰头听鸟，树枝有一只普通小鸟。. Narrative meaning for composition only; NEVER render words: 树上忽然响起两声啾啾。外公抬头：“听，它又叫了。”小雨也把脚停住。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 9,
+        "zhText": "“你看见它了吗？”小雨问。外公指着叶子间的一小团灰色，没有站起来追。",
+        "enText": "“Can you see it?” Xiaoyu asked. Grandpa pointed to a little grey shape among the leaves. He did not get up to chase it.",
+        "illustrationPrompt": "外公坐着指向叶隙小鸟，小雨沿方向看。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f906092a-7e66-4615-a5ef-b0b27bd08ab2.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 外公坐着指向叶隙小鸟，小雨沿方向看。. Narrative meaning for composition only; NEVER render words: “你看见它了吗？”小雨问。外公指着叶子间的一小团灰色，没有站起来追。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 10,
+        "zhText": "小雨看见了尾巴，没看见脑袋。她坐着等一会儿，小鸟自己跳到了更低的枝上。",
+        "enText": "Xiaoyu could see its tail, but not its head. She sat and waited. The bird hopped down onto a lower branch all by itself.",
+        "illustrationPrompt": "小鸟从叶隙移到低枝，三人仍坐原位观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5afecd8d-35e2-4f13-b2be-fe348b99c8d0.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 小鸟从叶隙移到低枝，三人仍坐原位观察。. Narrative meaning for composition only; NEVER render words: 小雨看见了尾巴，没看见脑袋。她坐着等一会儿，小鸟自己跳到了更低的枝上。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 11,
+        "zhText": "外公笑起来：“慢一点，有时能多看见一点。”小雨也笑，但她还惦记着那座桥。",
+        "enText": "Grandpa smiled. “Sometimes going slowly lets us see a little more.” Xiaoyu smiled too, though she was still thinking about the bridge.",
+        "illustrationPrompt": "外公与小雨看鸟微笑，小雨随后转头望远处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-62bd057e-0db5-43e7-9730-1081695f5391.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 外公与小雨看鸟微笑，小雨随后转头望远处。. Narrative meaning for composition only; NEVER render words: 外公笑起来：“慢一点，有时能多看见一点。”小雨也笑，但她还惦记着那座桥。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 12,
+        "zhText": "妈妈拿出公园地图。桥在很远的地方，近处有一棵大树，树下还有另一张椅子。",
+        "enText": "Mum took out the park map. The bridge was far away. A big tree was nearby, with another bench underneath.",
+        "illustrationPrompt": "妈妈展开无可读文字的图形地图，示意远桥与近树两处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5ef8d654-4d88-4049-b4a7-082848c42ddd.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 妈妈展开无可读文字的图形地图，示意远桥与近树两处。. Narrative meaning for composition only; NEVER render words: 妈妈拿出公园地图。桥在很远的地方，近处有一棵大树，树下还有另一张椅子。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 13,
+        "zhText": "外公说：“我今天想走到大树就回来。桥，改天你和妈妈可以再去。”",
+        "enText": "“Today I'd like to walk to the big tree and then go home,” Grandpa said. “You and Mum could see the bridge another day.”",
+        "illustrationPrompt": "外公指出近树方向，妈妈与小雨听，手杖在手边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-441a9ee8-3edd-47e3-abdc-12c4cff3afde.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 外公指出近树方向，妈妈与小雨听，手杖在手边。. Narrative meaning for composition only; NEVER render words: 外公说：“我今天想走到大树就回来。桥，改天你和妈妈可以再去。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 14,
+        "zhText": "小雨想了想：“那今天去大树。我想看看它的影子有多大。”妈妈把地图收好。",
+        "enText": "Xiaoyu thought for a moment. “Let's go to the tree today. I want to see how big its shadow is.” Mum put the map away.",
+        "illustrationPrompt": "小雨指向大树，妈妈收地图，三人准备起身。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4e784760-69a2-4037-a14e-267d855e270b.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 小雨指向大树，妈妈收地图，三人准备起身。. Narrative meaning for composition only; NEVER render words: 小雨想了想：“那今天去大树。我想看看它的影子有多大。”妈妈把地图收好。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 15,
+        "zhText": "妈妈扶着外公站稳。小雨等他们都准备好，才沿着树荫往前走。",
+        "enText": "Mum helped Grandpa stand steadily. Xiaoyu waited until they were both ready, then walked along the shady path.",
+        "illustrationPrompt": "妈妈提供外公同意的起身帮助，小雨在旁等待，不承担搀扶。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-88ea054d-4df0-4487-adbe-d7eb0641c067.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 妈妈提供外公同意的起身帮助，小雨在旁等待，不承担搀扶。. Narrative meaning for composition only; NEVER render words: 妈妈扶着外公站稳。小雨等他们都准备好，才沿着树荫往前走。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 16,
+        "zhText": "大树的影子盖住了整张椅子。小雨坐进去，举起手：“我的手也凉下来了。”",
+        "enText": "The tree's shadow covered the whole bench. Xiaoyu sat in it and held up her hand. “My hand feels cooler too.”",
+        "illustrationPrompt": "三人在大树下长椅休息，小雨举手感受阴凉。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e98d3ba8-a95d-4924-b673-89a03f006c3f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 三人在大树下长椅休息，小雨举手感受阴凉。. Narrative meaning for composition only; NEVER render words: 大树的影子盖住了整张椅子。小雨坐进去，举起手：“我的手也凉下来了。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 17,
+        "zhText": "回家路上，外公问桥留到哪一天。小雨说：“我和妈妈商量。今天我们看到了那只鸟。”",
+        "enText": "On the way home, Grandpa asked which day they would save the bridge for. “I'll plan it with Mum,” Xiaoyu said. “Today we saw that bird.”",
+        "illustrationPrompt": "三人沿平坦步道返回，外公与小雨聊天，妈妈随行。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d2c94ca1-ca8d-49a2-a0ad-b3be5c670280.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 三人沿平坦步道返回，外公与小雨聊天，妈妈随行。. Narrative meaning for composition only; NEVER render words: 回家路上，外公问桥留到哪一天。小雨说：“我和妈妈商量。今天我们看到了那只鸟。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      },
+      {
+        "page": 18,
+        "zhText": "晚上，小雨画了一棵树，树下坐着三个人。桥还没画，她先给外公留了一个带树荫的位置。",
+        "enText": "That evening, Xiaoyu drew a tree with three people sitting underneath. She had not drawn the bridge yet. First, she gave Grandpa a place in the shade.",
+        "illustrationPrompt": "家中桌旁小雨画树与三个简笔人物，妈妈在旁，画中无可读文字。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15a026d5-b306-4664-bca8-3a564a43c804.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《外公走得慢一点》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小雨，5 岁，黑色短发、淡黄裙、蓝色运动鞋；妈妈，低马尾、蓝灰上衣；外公，银灰短发、米白衬衫、棕色长裤，手持适合自己的手杖。道具为绿色水杯、公园长椅和近处的大树。. THIS PAGE SCENE: 家中桌旁小雨画树与三个简笔人物，妈妈在旁，画中无可读文字。. Narrative meaning for composition only; NEVER render words: 晚上，小雨画了一棵树，树下坐着三个人。桥还没画，她先给外公留了一个带树荫的位置。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b324594-ee0e-4d8c-bd02-6de6af527f02.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "听见不同身体状态与出行愿望，通过缩短路线和休息共同安排相处。",
+      "reminder": "长辈可明确表达身体需要，成人承担行程和照护；孩子可以失望，不用“孝顺”要求孩子放弃所有愿望，也不让孩子负责搀扶和照料。",
+      "questions": [
+        "小雨和外公今天各想做什么？",
+        "他们为什么改变了路线？",
+        "和家人一起出门时，可以先问哪些事情？"
+      ],
+      "activity": "计划一次短散步，每个人说一个愿望，由成人安排距离、休息点和返回方式，中途允许调整。",
+      "ageTips": {
+        "age4to5": "提前告诉孩子大约走到哪里，用一个近处地标表示路线。",
+        "age6to8": "邀请孩子看简单地图，提出两个可选路线，由成人判断是否适合家人。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 21,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子相处",
+        "理解长辈的节奏与共同陪伴"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "status": "resolved-and-reviewed",
+  "observations": [
+    {
+      "book": "kuai-zi-jia-zhu-xiao-tuan-zi",
+      "page": 1,
+      "issue": "Child already lifts a potato with chopsticks. This opening scene should show picking up the chopsticks; all food remains in the bowl before the first attempt.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-kuai-zi-jia-zhu-xiao-tuan-zi-1.txt",
+      "prompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. Opening scene BEFORE practice: remove all lifted food from child chopsticks. The child has just picked up a pair of short chopsticks, with tips hovering over the bowl and ALL potato pieces remaining inside his bowl. No food held or mouthful taken yet. Preserve spoon beside bowl and Grandma using only her own utensils.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ace4c03a-0888-4a18-a084-bcecee916fe9.png"
+    },
+    {
+      "book": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+      "page": 4,
+      "issue": "Two hats appear: one on head and one on table. Hat should be removed from head and only one hat on table.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e641a41a-f470-4855-9d52-51358de332eb.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-zhe-zhang-zhao-pian-xian-wen-wen-wo-4.txt",
+      "prompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. There must be exactly ONE physical green paper hat, resting on the table. Remove the hat from the girl's head, leaving her black pigtails visible. The girl has taken the hat off and speaks calmly with Mum, holding or pointing at the one hat on the table. Girl's hands no longer lifted over her head. Phone face down on table, Mum listens.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-19beb6a7-44a1-42ea-a4cf-71d651317b63.png"
+    },
+    {
+      "book": "bu-he-biao-ge-bi-kuai",
+      "page": 4,
+      "issue": "Child smiling while hiding track. Should be quiet, sad, withdrawn with closed mouth.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2f343c18-7e38-41b5-aced-631c0936d6d9.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-bu-he-biao-ge-bi-kuai-4.txt",
+      "prompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. Girl Hehe feels sad and withdrawn after being compared: mouth CLOSED, brows slightly down, eyes looking downward, no smile. She is hiding the curved wooden rail in the box, not showing it proudly. Cousin sits quietly in background, mouth closed and concerned, no grinning. Preserve model construction vehicle and one blue train.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-a32805ab-0d31-4b61-80de-52126d8127e7.png"
+    },
+    {
+      "book": "xie-dai-rao-guo-xiao-shan-qiu",
+      "page": 3,
+      "issue": "Laces cross between two shoes. Practise with the two ends belonging to one shoe; other shoe stays aside.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b56525d-e4b5-4107-89eb-ed31b8cefbea.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-xie-dai-rao-guo-xiao-shan-qiu-3.txt",
+      "prompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. The two ends of ONE lace belonging to ONE foreground shoe cross just above that same shoe tongue. Girl handles only this single shoe, trying the initial cross but NOT a knot or bow yet. Move the second shoe to Mum's side with its separate laces resting loosely, never crossed with the foreground shoe. Exactly two shoes total. Make laces short enough to be plausible, no long strands bridging between shoes.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b0d714f-7ca4-4efa-94b6-d49128939044.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 1,
+      "issue": "Child already cuts and car is a solid toy rather than folded paper. Opening should show the drawn uncut road and one folded blue paper car, scissors absent until page 2.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-1.txt",
+      "prompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. This is BEFORE scissors are introduced. Remove scissors entirely from this opening scene and replace the object in girl's hand with a blue drawing crayon. Paper road is drawn but COMPLETELY UNCUT. Girl has just drawn the wide curved road and looks at it. Replace solid blue toy car with ONE small hand-folded blue PAPER car with visible creases and flat paper wheel drawings. No wooden/plastic car. Mum may quietly watch.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2bf40a0f-120f-453a-a7b8-b6c4844757c6.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 3,
+      "issue": "Child runs with empty hands while Dad holds both kite and reel. Child must hold safe closed reel, adult helps kite, with line clear of body.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-091cc963-2b96-4263-a784-7f1eef062e98.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-3.txt",
+      "prompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. Child must hold the safe CLOSED REEL in one hand while taking only two little steps. Dad holds up ONLY the one blue swallow kite, NOT the reel. Show a single loose line connecting child reel to kite, clear of legs, fingers, body and clothing, never wrapped around hand. Kite is just settling towards grass, not flying high. Keep open flat grass, no roads or wires.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8d156250-0450-491d-9ca5-fc80bf463985.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 6,
+      "issue": "Kite is already flying high during the no-wind waiting stage. It must rest on grass, Dad explaining and both looking down at grounded kite, short cloth hanging limp.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4dbe77db-f920-492a-8b69-ec233beaa292.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-6.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact characters, hair, clothing, warm watercolor/gouache material and setting. Make only this narrative correction: Kite is already flying high during the no-wind waiting stage. It must rest on grass, Dad explaining and both looking down at grounded kite, short cloth hanging limp. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7f7e7036-7ad3-463b-a2b5-1e4a055f9075.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 8,
+      "issue": "Wind observation cloth is a huge kite tail. Dad should hold a separate SHORT 20 cm cloth strip gently blowing, kite stays grounded or held at waist, not flying yet.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d5180067-2c8e-4899-962b-a9fde64386ba.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-8.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact characters, hair, clothing, warm watercolor/gouache material and setting. Make only this narrative correction: Wind observation cloth is a huge kite tail. Dad should hold a separate SHORT 20 cm cloth strip gently blowing, kite stays grounded or held at waist, not flying yet. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-13040279-50c5-4081-9dee-8558cb353ce3.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 7,
+      "issue": "Change ONLY the practice pieces on the table: exactly TWO short STRAIGHT yellow paper strips with ONE straight blue line each, slight rough edges. No curved/wavy blue line or S-shaped strips. Big winding-road sheet nearby is still completely UNCUT. Girl points to a rough edge of short straight strip, scissors closed on table, same folded blue paper car.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6afd70fa-0d49-4a5e-aed5-74afa9034ff3.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/final-repair-jian-dao-yan-zhe-xiao-lu-zou-7.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve faces, hairstyles, clothes, watercolor/gouache style and surrounding setting. Change ONLY the practice pieces on the table: exactly TWO short STRAIGHT yellow paper strips with ONE straight blue line each, slight rough edges. No curved/wavy blue line or S-shaped strips. Big winding-road sheet nearby is still completely UNCUT. Girl points to a rough edge of short straight strip, scissors closed on table, same folded blue paper car. No text, letters, numbers, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6c12d62a-f8c5-4d68-9f78-ab430ba5fc89.png",
+      "repairHistory": [
+        {
+          "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-b751851d-05a6-407d-b1dd-989fd47e1ff8.png",
+          "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6afd70fa-0d49-4a5e-aed5-74afa9034ff3.png",
+          "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-7.txt"
+        }
+      ]
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 8,
+      "issue": "Child holds a completed curved road too early. Child should save the short straight practice strip and pick up the main UNcut curved-road sheet. No cut-out curved road until page 15.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5e76ea06-3e47-476b-83ff-1eb55b612624.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-8.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact characters, hair, clothing, warm watercolor/gouache material and setting. Make only this narrative correction: Child holds a completed curved road too early. Child should save the short straight practice strip and pick up the main UNcut curved-road sheet. No cut-out curved road until page 15. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-3274cd2a-4a47-4d49-a4d0-61023d47ac53.png"
+    },
+    {
+      "book": "kuai-zi-jia-zhu-xiao-tuan-zi",
+      "page": 10,
+      "issue": "This page is only practising opening chopsticks, BEFORE attempting a potato. Remove the potato from tips, place it back in the bowl. Child holds EMPTY chopstick tips slightly apart above bowl; Grandma watches.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2b4908f6-a4de-4baa-bbc1-181520971b36.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-kuai-zi-jia-zhu-xiao-tuan-zi-10.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes, setting and warm watercolor/gouache. Correct only this stage: This page is only practising opening chopsticks, BEFORE attempting a potato. Remove the potato from tips, place it back in the bowl. Child holds EMPTY chopstick tips slightly apart above bowl; Grandma watches. No text, letters, numbers, speech bubbles, logos, watermark, duplicate people or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9cefd374-4545-4cc2-9ce2-838d90102f5e.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 11,
+      "issue": "The two small boxes were nested INSIDE the big box on previous page. Put both small boxes inside the big box, not lined along the walkway. The big box alone rests against wall and child walks along the now-wide clear passage.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7fcace6d-e361-462c-a997-d1daf028421a.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-11.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes, setting and warm watercolor/gouache. Correct only this stage: The two small boxes were nested INSIDE the big box on previous page. Put both small boxes inside the big box, not lined along the walkway. The big box alone rests against wall and child walks along the now-wide clear passage. No text, letters, numbers, speech bubbles, logos, watermark, duplicate people or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bc658119-ba34-4dc4-92fb-f83202b38168.png"
+    },
+    {
+      "book": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+      "page": 12,
+      "issue": "Phone comparison shows CHILD FACES, contradicting the agreed privacy boundary. Replace both phone thumbnails: left is ONLY green hat on table, right is ONLY same green hat held by two small hands. No face, head, body or feet in either photo. Girl chooses the hands photo.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-65740315-fa1f-4efa-b101-9a8641c5ca2a.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-zhe-zhang-zhao-pian-xian-wen-wen-wo-12.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Phone comparison shows CHILD FACES, contradicting the agreed privacy boundary. Replace both phone thumbnails: left is ONLY green hat on table, right is ONLY same green hat held by two small hands. No face, head, body or feet in either photo. Girl chooses the hands photo. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6544d897-ff59-45f9-b4aa-db0123d7ab26.png"
+    },
+    {
+      "book": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+      "page": 13,
+      "issue": "Selected phone photo should be the green hat held by child hands, with no face/head/body/feet. Add the two small hands to the hat photo shown in the phone, without changing real hat on table or mother asking child about recipients.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5a6641d7-a712-4985-a9a1-de04c45761c8.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-zhe-zhang-zhao-pian-xian-wen-wen-wo-13.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Selected phone photo should be the green hat held by child hands, with no face/head/body/feet. Add the two small hands to the hat photo shown in the phone, without changing real hat on table or mother asking child about recipients. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c4631bce-e61f-491e-bee5-b4343f85b088.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 12,
+      "issue": "Two small boxes must already be INSIDE the big box after consolidation on page 10. Move both into big box. Keep basket beside the big box as this scene has it, clear floor outside. No mail slot yet.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c6e4f13d-c751-46e6-8aca-d3daf307400a.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-12.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Two small boxes must already be INSIDE the big box after consolidation on page 10. Move both into big box. Keep basket beside the big box as this scene has it, clear floor outside. No mail slot yet. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-25f1bdc5-f9e2-4df1-928d-ee45b2fabc51.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 13,
+      "issue": "Move the two small boxes INSIDE the big box; no small boxes outside. Basket of supplies is also placed inside big box. One envelope left at post office; child goes to dinner with clear walkway.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-cf1ce66b-c08b-48b0-9a96-d0f94989afd3.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-13.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Move the two small boxes INSIDE the big box; no small boxes outside. Basket of supplies is also placed inside big box. One envelope left at post office; child goes to dinner with clear walkway. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4681c58c-4c1d-4c46-8731-55a0cbd0f1ea.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 11,
+      "issue": "Girl must hold CLOSED REEL in her hands while accidentally paying out too much line. Move reel from Dad to child, no bare line gripped by girl, no line wrapped on body or hands. Dad nearby ready to assist. Kite just rises a little with slack curved line, not high.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-26e4e674-06a0-4a64-a6c7-a0454e5f0b8e.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-11.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Girl must hold CLOSED REEL in her hands while accidentally paying out too much line. Move reel from Dad to child, no bare line gripped by girl, no line wrapped on body or hands. Dad nearby ready to assist. Kite just rises a little with slack curved line, not high. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d83d733b-159e-4460-820a-51c0046b8529.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 12,
+      "issue": "Girl must hold the closed safe reel, with Dad gently assisting on that SAME reel to take in a little slack line. Neither girl grips bare flying line nor wraps it on fingers. Keep kite visibly low and beginning to descend with a slight wobble.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4ff7af6c-097c-4c7e-9fe6-7b2a467da8d6.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-12.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Girl must hold the closed safe reel, with Dad gently assisting on that SAME reel to take in a little slack line. Neither girl grips bare flying line nor wraps it on fingers. Keep kite visibly low and beginning to descend with a slight wobble. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ce56ead8-0de9-4831-9fd5-e23d333ef09b.png"
+    },
+    {
+      "book": "ba-ba-ye-you-bu-hui-de-shi-hou",
+      "page": 14,
+      "issue": "Remove the floating blue arrows around child's body. This is a natural single scene, no infographic symbols outside the flat instruction booklet. Keep father and child using empty hand gestures to describe breathing.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2ee3e9f3-5523-4911-9a51-6d5525f640a8.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-ba-ba-ye-you-bu-hui-de-shi-hou-14.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: Remove the floating blue arrows around child's body. This is a natural single scene, no infographic symbols outside the flat instruction booklet. Keep father and child using empty hand gestures to describe breathing. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2ee7dfe4-3ea1-40a6-a4a3-53d058750ef6.png"
+    },
+    {
+      "book": "hua-pen-li-de-yi-ke-dou",
+      "page": 13,
+      "issue": "Remove the visible bean on soil surface in the second pot and any drawn seed on the child's observation card. All beans were buried. First pot has only a tiny curled green shoot, NOT developed open leaves yet. Child draws ONE curled line on card, not a two-leaf plant.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4c200989-606a-4849-93cb-3cbfba4ea7c3.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-hua-pen-li-de-yi-ke-dou-13.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: Remove the visible bean on soil surface in the second pot and any drawn seed on the child's observation card. All beans were buried. First pot has only a tiny curled green shoot, NOT developed open leaves yet. Child draws ONE curled line on card, not a two-leaf plant. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-a98a0e22-e5ca-4c4d-923e-20c6f142e28f.png"
+    },
+    {
+      "book": "hua-pen-li-de-yi-ke-dou",
+      "page": 14,
+      "issue": "First pot must KEEP the tiny green shoot that appeared on page 12. Second pot remains only bare soil. Add the tiny curled shoot to first pot near child; do not remove it while moving pots.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2b68be6d-e9b9-48fe-bb65-e1ee80a38a98.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-hua-pen-li-de-yi-ke-dou-14.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: First pot must KEEP the tiny green shoot that appeared on page 12. Second pot remains only bare soil. Add the tiny curled shoot to first pot near child; do not remove it while moving pots. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-93778624-85a2-4407-9a8d-ad6dbd90e0ea.png"
+    },
+    {
+      "book": "hua-pen-li-de-yi-ke-dou",
+      "page": 15,
+      "issue": "Only FIRST pot has tiny seedling, SECOND pot is bare soil and has not sprouted. Remove seedling from second pot. Only two saucers total: one under first pot, the other held by Mum who pours leftover water into the basin, not a third saucer. Remove loose bean seeds from tabletop.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-04d607fa-cb4f-4b89-9533-e2bf5ea0a868.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-hua-pen-li-de-yi-ke-dou-15.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: Only FIRST pot has tiny seedling, SECOND pot is bare soil and has not sprouted. Remove seedling from second pot. Only two saucers total: one under first pot, the other held by Mum who pours leftover water into the basin, not a third saucer. Remove loose bean seeds from tabletop. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-48462314-31aa-44ea-8fb5-d07d3c466c7f.png"
+    },
+    {
+      "book": "xie-dai-rao-guo-xiao-shan-qiu",
+      "page": 17,
+      "issue": "This scene must be child SITTING and WEARING both blue shoes on her feet, with Mum crouched checking one overlong lace end before anyone stands up. Remove all shoes from tabletop, recompose wider at home doorway, exactly two blue shoes total on child feet. Same characters and clothes.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-88b208a0-8aa8-4453-8394-424ac87e11fd.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-xie-dai-rao-guo-xiao-shan-qiu-17.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: This scene must be child SITTING and WEARING both blue shoes on her feet, with Mum crouched checking one overlong lace end before anyone stands up. Remove all shoes from tabletop, recompose wider at home doorway, exactly two blue shoes total on child feet. Same characters and clothes. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-165a22a4-1f9b-41e6-856c-abe5633653b6.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 17,
+      "issue": "Post office is finished after page 14, so retain the FRONT mail slot and the SIDE retrieval opening on the same big box. Child tidies loose paper nearby with Mum, while two small boxes remain inside. Do not revert the finished mail box to a blank unfinished box.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-08cb1623-a3b2-4597-98ec-9ea700fa0c0d.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-17.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: Post office is finished after page 14, so retain the FRONT mail slot and the SIDE retrieval opening on the same big box. Child tidies loose paper nearby with Mum, while two small boxes remain inside. Do not revert the finished mail box to a blank unfinished box. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8dfcde95-ac0a-44a3-858e-74b4860e826f.png"
+    },
+    {
+      "book": "bu-he-biao-ge-bi-kuai",
+      "page": 17,
+      "issue": "Track piece that girl points to has become a giant vertical wall/ramp. Replace it with a SMALL flat curved wooden track laid at floor level with one clear connector hole; retain the small red-roof wooden station beside it. No standing track wall, no completed bridge yet.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6206e8f7-9eb2-4d80-bb68-d47b4db411a6.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-bu-he-biao-ge-bi-kuai-17.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Track piece that girl points to has become a giant vertical wall/ramp. Replace it with a SMALL flat curved wooden track laid at floor level with one clear connector hole; retain the small red-roof wooden station beside it. No standing track wall, no completed bridge yet. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fa0bc496-a487-4109-bd7e-0517ec5321a7.png"
+    },
+    {
+      "book": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+      "page": 18,
+      "issue": "Exactly ONE green paper hat, and it is ON the girl's HEAD as she continues reading. Remove hat from tabletop. Mum reads her own book beside girl, phone put away. Same hat with leaflike curled tip.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8db0a10c-c786-4c93-a7c3-1a893c27b5dd.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-zhe-zhang-zhao-pian-xian-wen-wen-wo-18.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Exactly ONE green paper hat, and it is ON the girl's HEAD as she continues reading. Remove hat from tabletop. Mum reads her own book beside girl, phone put away. Same hat with leaflike curled tip. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e048206d-7af3-44d4-98a6-9170fb131f1a.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 14,
+      "issue": "Mum cuts ONLY a NARROW HORIZONTAL letter slot in the FRONT upper half, roughly 18 cm wide and 2 cm tall, not a huge door. Box remains OPEN-TOP with two small boxes nested inside. Child stands at OPPOSITE side far from blade. Mum's supporting hand stays far from blade and outside cut path.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-3636d7d8-d516-42ae-a344-4073e79ea5ba.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-14.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Mum cuts ONLY a NARROW HORIZONTAL letter slot in the FRONT upper half, roughly 18 cm wide and 2 cm tall, not a huge door. Box remains OPEN-TOP with two small boxes nested inside. Child stands at OPPOSITE side far from blade. Mum's supporting hand stays far from blade and outside cut path. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-24376171-030e-4932-8bb0-c0898c41f3c6.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 15,
+      "issue": "Use same OPEN-TOP big box after page 14: ONE narrow horizontal mail slot on the FRONT, ONE small existing oval carry-handle opening on SIDE for retrieval, NOT closed-top new box with a top slot or big square door. Child inserts ONE envelope into narrow FRONT slot, Mum helps return it through oval side handle opening. No duplicate envelopes representing the same letter at two points simultaneously.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0eee0060-fffa-42bb-8734-8c96a64bc638.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-15.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Use same OPEN-TOP big box after page 14: ONE narrow horizontal mail slot on the FRONT, ONE small existing oval carry-handle opening on SIDE for retrieval, NOT closed-top new box with a top slot or big square door. Child inserts ONE envelope into narrow FRONT slot, Mum helps return it through oval side handle opening. No duplicate envelopes representing the same letter at two points simultaneously. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c8b7de3f-5dda-4ff0-926a-172cc3bc57b5.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 16,
+      "issue": "Retain completed OPEN-TOP post-office box with ONE narrow horizontal FRONT mail slot and one small oval SIDE retrieval opening. Add missing front slot visibly. Two small boxes remain inside. Mother posts and child returns ONE envelope in a natural single moment, no multiple duplicate envelopes in hands.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c634392e-38f9-4fcd-875d-1323cc767ab2.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-16.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Retain completed OPEN-TOP post-office box with ONE narrow horizontal FRONT mail slot and one small oval SIDE retrieval opening. Add missing front slot visibly. Two small boxes remain inside. Mother posts and child returns ONE envelope in a natural single moment, no multiple duplicate envelopes in hands. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f8733f1f-ba20-46a0-a20e-7c5af74cd967.png"
+    },
+    {
+      "book": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "page": 18,
+      "issue": "Retain completed OPEN-TOP post-office box with ONE narrow horizontal FRONT mail slot and small oval SIDE carry-handle retrieval opening. Add missing front slot visibly on big box wall. Two small boxes stay inside. Night-time corner against wall with WIDE empty walking path, child gently touches box before bed.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5faebdc8-d27b-476c-be9a-8bf227cc9ffb.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-wo-de-zhi-xiang-ming-tian-zai-chai-18.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Retain completed OPEN-TOP post-office box with ONE narrow horizontal FRONT mail slot and small oval SIDE carry-handle retrieval opening. Add missing front slot visibly on big box wall. Two small boxes stay inside. Night-time corner against wall with WIDE empty walking path, child gently touches box before bed. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-74f3a494-0fd5-4903-8c0d-5e4d1e1d1d54.png"
+    },
+    {
+      "book": "kuai-zi-jia-zhu-xiao-tuan-zi",
+      "page": 9,
+      "issue": "Child should practise empty chopstick tips hovering ABOVE the bowl edge, without touching food. KEEP several soft potato pieces in his bowl; do not remove all food or move it into an extra bowl. Spoon stays beside bowl, one pair of chopsticks each person.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bd9d639d-b2e5-4974-b9d0-08a3988e9fba.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-kuai-zi-jia-zhu-xiao-tuan-zi-9.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Child should practise empty chopstick tips hovering ABOVE the bowl edge, without touching food. KEEP several soft potato pieces in his bowl; do not remove all food or move it into an extra bowl. Spoon stays beside bowl, one pair of chopsticks each person. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-1b80f8f6-8c25-4218-bda7-098627fda96d.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 6,
+      "issue": "This page finishes the SHORT STRAIGHT practice cut. Replace curved paper being cut with a short narrow rectangle bearing ONE straight blue line. Child cuts along that straight line into two short straight strips. The big curved-road sheet remains COMPLETELY UNcut nearby. Paper car remains folded blue paper, not a solid toy.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6788f527-3c74-4d9e-ae95-b3b3e6f02dfc.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-6.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: This page finishes the SHORT STRAIGHT practice cut. Replace curved paper being cut with a short narrow rectangle bearing ONE straight blue line. Child cuts along that straight line into two short straight strips. The big curved-road sheet remains COMPLETELY UNcut nearby. Paper car remains folded blue paper, not a solid toy. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0350b9ea-3096-4210-b81b-43fed71107ee.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 15,
+      "issue": "Show ACTUAL cutting OUT of a continuous wide winding paper ROAD STRIP, 8–10 cm wide, from the yellow sheet, with blue road line down its center. Most of strip is cut free already, child makes final short snip at far end while holding paper FAR from blade. There is a small notch along one SIDE of strip, but road remains connected. Do not show a mostly uncut rectangular sheet.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e58fce0e-418e-44ec-958a-35c3424acaff.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-15.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Show ACTUAL cutting OUT of a continuous wide winding paper ROAD STRIP, 8–10 cm wide, from the yellow sheet, with blue road line down its center. Most of strip is cut free already, child makes final short snip at far end while holding paper FAR from blade. There is a small notch along one SIDE of strip, but road remains connected. Do not show a mostly uncut rectangular sheet. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6a6911fb-e045-48b0-afca-08462c517ef9.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 16,
+      "issue": "Replace large rectangular paper sheet with a separate continuous CUT-OUT wide yellow winding ROAD STRIP, 8–10 cm wide, following same gentle blue curve, with exposed wooden tabletop around BOTH sides. Keep small edge notch without splitting road. Child moves the folded blue PAPER car along strip, scissors already PUT AWAY and absent.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7ee45990-f438-471e-a8d5-89659afaf29f.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-16.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Replace large rectangular paper sheet with a separate continuous CUT-OUT wide yellow winding ROAD STRIP, 8–10 cm wide, following same gentle blue curve, with exposed wooden tabletop around BOTH sides. Keep small edge notch without splitting road. Child moves the folded blue PAPER car along strip, scissors already PUT AWAY and absent. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb4998de-365c-443a-a203-25356640d1b4.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 17,
+      "issue": "Keep separate cut-out yellow winding ROAD STRIP with small side notch, exposed table around both sides, and ONE folded blue paper car on it. No large rectangular road sheet. Child draws simple tree on separate leftover sheet, no cutting tools visible.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-dad5c7ee-40fa-46fd-b377-577b712ecc01.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-17.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Keep separate cut-out yellow winding ROAD STRIP with small side notch, exposed table around both sides, and ONE folded blue paper car on it. No large rectangular road sheet. Child draws simple tree on separate leftover sheet, no cutting tools visible. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-38cd776e-772e-4722-962c-57d75e986659.png"
+    },
+    {
+      "book": "jian-dao-yan-zhe-xiao-lu-zou",
+      "page": 18,
+      "issue": "Add ONE clearly visible continuous BLUE centre line following the gentle winding CUT-OUT yellow road strip, matching prior pages. Keep exposed wood on BOTH sides, same paper car and characters, tidy table. No other change.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-470d2eb8-ff2b-45a7-a7ad-da12d4214181.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/final-repair-jian-dao-yan-zhe-xiao-lu-zou-18.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve faces, hairstyles, clothes, watercolor/gouache style and surrounding setting. Add ONE clearly visible continuous BLUE centre line following the gentle winding CUT-OUT yellow road strip, matching prior pages. Keep exposed wood on BOTH sides, same paper car and characters, tidy table. No other change. No text, letters, numbers, speech bubbles, logos, watermark or panels.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fe912720-e965-418f-be75-0f34d6715833.png",
+      "repairHistory": [
+        {
+          "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-785b646b-7075-4612-94a6-79b609fc5b2f.png",
+          "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-470d2eb8-ff2b-45a7-a7ad-da12d4214181.png",
+          "promptFile": "content-drafts/qinzi/batch-17-26/repair-jian-dao-yan-zhe-xiao-lu-zou-18.txt"
+        }
+      ]
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 5,
+      "issue": "Wind indicator must be a SHORT separate 20 cm long cloth strip hanging LIMPLY from Dad's raised fingertips, NOT a several-metre kite tail. Grounded blue swallow kite with its two tails rests away from the tiny indicator. One closed reel safely collected nearby, no wind or flying kite.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fd6368b6-72b2-4ffa-a7a2-7c677aa50d05.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-5.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Wind indicator must be a SHORT separate 20 cm long cloth strip hanging LIMPLY from Dad's raised fingertips, NOT a several-metre kite tail. Grounded blue swallow kite with its two tails rests away from the tiny indicator. One closed reel safely collected nearby, no wind or flying kite. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-b684e8c2-fea7-4014-ba34-02ed84d188a9.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 14,
+      "issue": "Girl holds the ONE closed reel with both hands, Dad stands immediately nearby giving guidance, NOT holding a second reel. No bare line touched by girl or wrapped on fingers. Kite stays low and stable, child pays out only a short amount. Exactly one line connects reel to kite.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9c810aa7-e2c2-45b5-aad9-d5de856d993b.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-14.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Girl holds the ONE closed reel with both hands, Dad stands immediately nearby giving guidance, NOT holding a second reel. No bare line touched by girl or wrapped on fingers. Kite stays low and stable, child pays out only a short amount. Exactly one line connects reel to kite. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0e521184-0a87-471b-8ad7-c096df490947.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 15,
+      "issue": "Wind is weakening: kite visibly DESCENDS LOW, approaching ground. Dad helps at ONE closed reel near girl; girl points to a separate SHORT 20 cm cloth strip hanging limp in Dad's free hand. No high flying kite, no bare line held by child, no extra reels.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-01881389-f378-4325-a8ef-922ad36c3094.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-15.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Wind is weakening: kite visibly DESCENDS LOW, approaching ground. Dad helps at ONE closed reel near girl; girl points to a separate SHORT 20 cm cloth strip hanging limp in Dad's free hand. No high flying kite, no bare line held by child, no extra reels. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c5d8728c-21e6-4790-bddc-6ab384d1f1fd.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 17,
+      "issue": "Wind indicator child holds up is a separate SHORT 20 cm cloth strip, NOT kite tail and not bare line. The blue kite already rests safely on ground, line completely wound onto one closed reel with Dad. Child can touch wing with other hand. No loose flying line around hands.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2d61b66b-0484-498d-818b-caba0b1bfca6.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-17.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Wind indicator child holds up is a separate SHORT 20 cm cloth strip, NOT kite tail and not bare line. The blue kite already rests safely on ground, line completely wound onto one closed reel with Dad. Child can touch wing with other hand. No loose flying line around hands. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d10bc72-1465-47cb-b74d-1f4ced7ad736.png"
+    },
+    {
+      "book": "feng-zheng-deng-yi-zhen-feng",
+      "page": 18,
+      "issue": "Girl holds ONE SHORT separate 20 cm cloth strip, NOT a very long loose tail trailing behind. Dad carries a bag with the blue swallow kite and fully wound reel inside; no lines or tails drag on ground. Keep walking home calmly.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e0ab53bd-4eaa-405a-8526-c7843373e5cd.png",
+      "promptFile": "content-drafts/qinzi/batch-17-26/repair-feng-zheng-deng-yi-zhen-feng-18.txt",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Girl holds ONE SHORT separate 20 cm cloth strip, NOT a very long loose tail trailing behind. Dad carries a bag with the blue swallow kite and fully wound reel inside; no lines or tails drag on ground. Keep walking home calmly. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-10748bfa-8f30-4734-b4b8-f8a59bdb185a.png"
+    },
+    {
+      "book": "xie-dai-rao-guo-xiao-shan-qiu",
+      "page": 9,
+      "issue": "The attempted single-loop bow has FAILED at this early page. Remove any finished two-ear bow on practice shoe. Show ONLY one half-collapsed loose loop on shoe, other lace end dangling and girl opening one hand in frustration. Other shoe laces stay untied and separate. No completed bow on either shoe yet.",
+      "status": "resolved-and-reviewed",
+      "source": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d422bffc-d8c4-4893-b807-308fb25097c7.png",
+      "prompt": "Image 1 is the EDIT TARGET. Preserve faces, hairstyles, clothes, watercolor/gouache style and surrounding setting. The attempted single-loop bow has FAILED at this early page. Remove any finished two-ear bow on practice shoe. Show ONLY one half-collapsed loose loop on shoe, other lace end dangling and girl opening one hand in frustration. Other shoe laces stay untied and separate. No completed bow on either shoe yet. No text, letters, numbers, speech bubbles, logos, watermark or panels.",
+      "promptFile": "content-drafts/qinzi/batch-17-26/final-repair-xie-dai-rao-guo-xiao-shan-qiu-9.txt",
+      "repairedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8ace2884-204b-4b46-a480-d47e857c25bd.png"
+    }
+  ]
+}

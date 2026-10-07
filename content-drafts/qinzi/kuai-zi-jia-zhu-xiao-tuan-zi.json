@@ -1,0 +1,255 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+  },
+  "book": {
+    "id": "kuai-zi-jia-zhu-xiao-tuan-zi",
+    "seriesId": "sanzijing",
+    "title": "筷子夹住小团子",
+    "subtitle": "先放稳，再轻轻合起来",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "午饭有明明喜欢的炖土豆。圆圆的土豆块躺在碗里，他把小勺放在旁边，拿起一双短筷。",
+        "enText": "Lunch included Mingming's favourite stewed potatoes. The round pieces sat in his bowl. He put his spoon beside it and picked up a pair of short chopsticks.",
+        "illustrationPrompt": "餐桌蓝边碗中放温熟土豆块，明明取短筷，小勺在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ace4c03a-0888-4a18-a084-bcecee916fe9.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. Opening scene BEFORE practice: remove all lifted food from child chopsticks. The child has just picked up a pair of short chopsticks, with tips hovering over the bowl and ALL potato pieces remaining inside his bowl. No food held or mouthful taken yet. Preserve spoon beside bowl and Grandma using only her own utensils.\n",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 2,
+        "zhText": "两根筷子一长一短，筷尖碰不到一起。明明把土豆推到了碗的另一边。",
+        "enText": "One chopstick stuck out farther than the other. The tips would not meet. Mingming pushed a potato to the other side of the bowl.",
+        "illustrationPrompt": "手部近景两筷握位错开，熟土豆被推远。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-99a180a1-27c9-49be-8eae-98f854d4241f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 手部近景两筷握位错开，熟土豆被推远。. Narrative meaning for composition only; NEVER render words: 两根筷子一长一短，筷尖碰不到一起。明明把土豆推到了碗的另一边。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 3,
+        "zhText": "“它怎么老跑？”奶奶坐到旁边，先把自己的碗和筷子摆好。",
+        "enText": "“Why does it keep getting away?” Grandma sat beside him and set out her own bowl and chopsticks.",
+        "illustrationPrompt": "奶奶持自己的一双筷子示范，明明的餐具仍在自己面前。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f0d6794c-7d1b-436b-a165-17a0327628e7.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 奶奶持自己的一双筷子示范，明明的餐具仍在自己面前。. Narrative meaning for composition only; NEVER render words: “它怎么老跑？”奶奶坐到旁边，先把自己的碗和筷子摆好。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 4,
+        "zhText": "奶奶慢慢让两根筷尖靠齐：“先放得差不多长。握舒服一点，不用攥得紧紧的。”",
+        "enText": "Grandma slowly lined up the tips. “First, make them about the same length. Hold them comfortably. You don't need to squeeze so hard.”",
+        "illustrationPrompt": "奶奶手中两根短筷尖对齐，明明观察握法。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bd5a5509-5e9c-4e65-9bc8-cc361b1b8268.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 奶奶手中两根短筷尖对齐，明明观察握法。. Narrative meaning for composition only; NEVER render words: 奶奶慢慢让两根筷尖靠齐：“先放得差不多长。握舒服一点，不用攥得紧紧的。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 5,
+        "zhText": "明明照着摆，上面一根又滑下去。他把它放回去，手指越挤越紧。",
+        "enText": "Mingming copied her, but the top chopstick slipped down again. He put it back, squeezing his fingers tighter and tighter.",
+        "illustrationPrompt": "明明上筷下滑，手指紧绷，碗放桌上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9ab97e01-24e5-418e-832a-cad53995ef90.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明上筷下滑，手指紧绷，碗放桌上。. Narrative meaning for composition only; NEVER render words: 明明照着摆，上面一根又滑下去。他把它放回去，手指越挤越紧。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 6,
+        "zhText": "奶奶说：“手累了，先松一松。想吃饭，也可以用勺子。”明明先舀了一口。",
+        "enText": "“If your hand feels tired, relax it first,” Grandma said. “You can use your spoon when you want to eat.” Mingming took a spoonful.",
+        "illustrationPrompt": "明明放下筷子用勺吃放温土豆，奶奶等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-63161e1a-4eb8-4c95-b3d1-cd6f2a3578ad.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明放下筷子用勺吃放温土豆，奶奶等待。. Narrative meaning for composition only; NEVER render words: 奶奶说：“手累了，先松一松。想吃饭，也可以用勺子。”明明先舀了一口。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 7,
+        "zhText": "吃了几口，肚子没那么空了。他又拿起筷子：“这回先练动一根。”",
+        "enText": "After a few mouthfuls, his tummy did not feel so empty. He picked up the chopsticks again. “This time, I'll practise moving just one.”",
+        "illustrationPrompt": "明明再次取筷，勺子仍放触手可及处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d54a98e1-683f-44e8-816e-967fb4d3fc83.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明再次取筷，勺子仍放触手可及处。. Narrative meaning for composition only; NEVER render words: 吃了几口，肚子没那么空了。他又拿起筷子：“这回先练动一根。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 8,
+        "zhText": "奶奶用自己的筷子示范，下面一根放稳，上面一根轻轻动。筷尖一开，一合。",
+        "enText": "Grandma showed him with her own chopsticks. The lower one stayed steady while the upper one moved gently. The tips opened and closed.",
+        "illustrationPrompt": "奶奶示范下筷稳定与上筷开合，不接触明明的餐具。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-75b3ba9c-0d45-40ee-bb17-efb0957b69b9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 奶奶示范下筷稳定与上筷开合，不接触明明的餐具。. Narrative meaning for composition only; NEVER render words: 奶奶用自己的筷子示范，下面一根放稳，上面一根轻轻动。筷尖一开，一合。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 9,
+        "zhText": "明明先不碰土豆，试着让筷尖张开。两根一起动了，他停下来，重新放好下面那根。",
+        "enText": "Mingming tried opening the tips without touching a potato. Both sticks moved. He stopped and settled the lower one again.",
+        "illustrationPrompt": "明明在空碗边练开合，重新调整下筷支点。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-1b80f8f6-8c25-4218-bda7-098627fda96d.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Child should practise empty chopstick tips hovering ABOVE the bowl edge, without touching food. KEEP several soft potato pieces in his bowl; do not remove all food or move it into an extra bowl. Spoon stays beside bowl, one pair of chopsticks each person. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bd9d639d-b2e5-4974-b9d0-08a3988e9fba.png"
+      },
+      {
+        "page": 10,
+        "zhText": "再试一次，下面那根动得少了。上面那根像一扇小门，慢慢开了一个口。",
+        "enText": "He tried once more. The lower chopstick moved less. The upper one opened like a little door.",
+        "illustrationPrompt": "明明筷尖张开小幅间隙，下筷较稳定。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9cefd374-4545-4cc2-9ce2-838d90102f5e.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes, setting and warm watercolor/gouache. Correct only this stage: This page is only practising opening chopsticks, BEFORE attempting a potato. Remove the potato from tips, place it back in the bowl. Child holds EMPTY chopstick tips slightly apart above bowl; Grandma watches. No text, letters, numbers, speech bubbles, logos, watermark, duplicate people or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2b4908f6-a4de-4baa-bbc1-181520971b36.png"
+      },
+      {
+        "page": 11,
+        "zhText": "奶奶问想夹哪一块。明明挑了比较大的一块，轻轻碰住两边，没有立刻往上提。",
+        "enText": "Grandma asked which piece he wanted to pick up. Mingming chose a bigger one. He touched both sides gently, without lifting yet.",
+        "illustrationPrompt": "明明选一块较大软土豆，筷尖靠住两侧，食物仍在碗底。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ab5916cd-b099-475b-a911-489109ff4a34.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明选一块较大软土豆，筷尖靠住两侧，食物仍在碗底。. Narrative meaning for composition only; NEVER render words: 奶奶问想夹哪一块。明明挑了比较大的一块，轻轻碰住两边，没有立刻往上提。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 12,
+        "zhText": "他一提，土豆滚回碗里。“还没夹住。”明明看看筷尖，往两边的位置挪了一点。",
+        "enText": "When he lifted, the potato rolled back into the bowl. “I hadn't caught it yet.” Mingming looked at the tips and shifted them a little.",
+        "illustrationPrompt": "土豆落回碗内，明明调整筷尖位置，不出现飞出食物。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-699b0b03-f1ac-460e-8963-6cc50e2e56b0.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 土豆落回碗内，明明调整筷尖位置，不出现飞出食物。. Narrative meaning for composition only; NEVER render words: 他一提，土豆滚回碗里。“还没夹住。”明明看看筷尖，往两边的位置挪了一点。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Learning has NOT reached successful pickup yet: no potato may be lifted in chopsticks. Food stays in bowl, or is being eaten with spoon if this exact scene says spoon. Each person uses their own chopsticks.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 13,
+        "zhText": "这次，他先轻轻合拢，再抬一点点。土豆离开碗底，像坐上了一座小小的桥。",
+        "enText": "This time, he gently closed the tips first, then lifted a little. The potato rose from the bowl, as if resting on a tiny bridge.",
+        "illustrationPrompt": "筷子夹住软土豆略离碗底，明明手保持低位。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-00d0d328-c26d-47ec-9f22-43e117748773.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 筷子夹住软土豆略离碗底，明明手保持低位。. Narrative meaning for composition only; NEVER render words: 这次，他先轻轻合拢，再抬一点点。土豆离开碗底，像坐上了一座小小的桥。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 14,
+        "zhText": "明明把它送到嘴边，坐着慢慢吃。奶奶没有数成功了几口，只等他把这一口吃完。",
+        "enText": "Mingming brought it to his mouth and ate slowly, sitting down. Grandma did not count his successful bites. She waited for him to finish this one.",
+        "illustrationPrompt": "明明坐稳吃土豆，奶奶在旁吃自己的饭。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-b299cee4-944b-437d-ac95-223310dc4575.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明坐稳吃土豆，奶奶在旁吃自己的饭。. Narrative meaning for composition only; NEVER render words: 明明把它送到嘴边，坐着慢慢吃。奶奶没有数成功了几口，只等他把这一口吃完。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 15,
+        "zhText": "下一块还是掉了。明明笑了一下：“这块太滑。”他用勺子把它舀起来。",
+        "enText": "The next piece fell again. Mingming smiled a little. “This one's too slippery.” He scooped it up with his spoon.",
+        "illustrationPrompt": "明明切换小勺吃较滑土豆，筷子平放桌侧。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-015a1097-5c0c-4064-a7e2-12430d4fb991.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明切换小勺吃较滑土豆，筷子平放桌侧。. Narrative meaning for composition only; NEVER render words: 下一块还是掉了。明明笑了一下：“这块太滑。”他用勺子把它舀起来。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 16,
+        "zhText": "几天里，他有时夹两口，有时只练开合。饿的时候先吃，手累的时候就换小勺。",
+        "enText": "Over the next few days, sometimes he picked up two mouthfuls, and sometimes he only practised opening and closing. When hungry, he ate first. When tired, he used his spoon.",
+        "illustrationPrompt": "另一天餐桌，明明练一次开合后放筷用勺，奶奶陪餐。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c62fd4a8-aff5-445f-8e51-15b3c1a0bf68.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 另一天餐桌，明明练一次开合后放筷用勺，奶奶陪餐。. Narrative meaning for composition only; NEVER render words: 几天里，他有时夹两口，有时只练开合。饿的时候先吃，手累的时候就换小勺。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 17,
+        "zhText": "有一天，那块大土豆稳稳地到了嘴边。明明回头说：“我先放稳下面那根了。”",
+        "enText": "One day, a big potato piece reached his mouth steadily. Mingming said, “I made the lower chopstick stay still first.”",
+        "illustrationPrompt": "明明完成夹取后放下筷子说话，奶奶倾听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-98f184c1-1736-4fce-aedd-c67c27b3abad.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明完成夹取后放下筷子说话，奶奶倾听。. Narrative meaning for composition only; NEVER render words: 有一天，那块大土豆稳稳地到了嘴边。明明回头说：“我先放稳下面那根了。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      },
+      {
+        "page": 18,
+        "zhText": "饭后，他把自己的碗和餐具放到托盘里。勺子和筷子并排，明天都还可以用。",
+        "enText": "After lunch, he put his bowl and utensils on a tray. The spoon and chopsticks lay side by side. Tomorrow, he could use either one again.",
+        "illustrationPrompt": "明明把两种餐具置托盘，奶奶接过托盘，餐桌整洁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-953ac8f2-65fe-4cc7-aeac-570809580332.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《筷子夹住小团子》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 明明，6 岁，短黑发、橙黄上衣；奶奶，银灰短发、浅绿开衫。道具为两双适龄短筷、白色小勺、蓝边餐碗和已经放温的软土豆块；各用自己的餐具，不用不可食小物作餐桌练习。. THIS PAGE SCENE: 明明把两种餐具置托盘，奶奶接过托盘，餐桌整洁。. Narrative meaning for composition only; NEVER render words: 饭后，他把自己的碗和餐具放到托盘里。勺子和筷子并排，明天都还可以用。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5d846da1-20e3-45a2-97da-697db69a53c4.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "在吃饱和舒适的前提下，练习握持、开合和稳定夹取。",
+      "reminder": "使用适龄餐具、放温且适合孩子咀嚼的食物，坐稳进食；不边走边用筷子，不强迫固定握法，不把是否会用筷子当作懂事标准。",
+      "questions": [
+        "明明肚子饿的时候先用了什么？",
+        "哪一根筷子先放稳，会更容易试？",
+        "想练习又有点累时，可以怎么安排？"
+      ],
+      "activity": "正餐保留勺子，愿意时只用筷子夹几口较大软熟食物；由成人用自己的餐具示范，不用小珠子等物品混入餐桌。",
+      "ageTips": {
+        "age4to5": "先学舒适拿筷和开合，也可继续用勺，不要求夹取成功。",
+        "age6to8": "尝试描述哪根在动、哪根较稳，根据手型调整握法。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 23,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会新本领",
+        "使用筷子与温和练习"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  }
+}

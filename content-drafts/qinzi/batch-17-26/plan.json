@@ -1,0 +1,125 @@
+{
+  "status": "local-integration-validation",
+  "approved": true,
+  "preparedAt": "2026-10-07",
+  "seriesTitle": "亲子成长",
+  "runtimeSeriesId": "sanzijing",
+  "ageRange": "4–8 岁",
+  "reviewLanguage": "zh",
+  "totalBooks": 10,
+  "totalPages": 180,
+  "averagePages": 18,
+  "production": {
+    "contentApprovalRequired": true,
+    "finalTextLanguages": [
+      "zh",
+      "en"
+    ],
+    "images": {
+      "tool": "built-in-imagegen",
+      "startAfterContentApproval": true,
+      "format": "webp",
+      "width": 1200,
+      "height": 1200,
+      "maxBytes": 307200,
+      "characterReferenceRequired": true
+    },
+    "audio": {
+      "language": "zh",
+      "preGenerate": true,
+      "startAfterContentApproval": true,
+      "requiredBeforeReaderIntegration": true,
+      "reuseExistingTtsPipeline": true,
+      "pageTimelineRequired": true,
+      "contentHashRequired": true,
+      "decodeValidationRequired": true,
+      "externalBatchCallAuthorized": false,
+      "generatedWith": "macos-say-local",
+      "voice": "Tingting (中文（中国大陆）)"
+    },
+    "publicationAuthorized": false
+  },
+  "books": [
+    {
+      "id": "bu-he-biao-ge-bi-kuai",
+      "title": "不和表哥比快",
+      "order": 17,
+      "pages": 18,
+      "group": "亲子相处",
+      "topic": "家庭比较与看见个人进步"
+    },
+    {
+      "id": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+      "title": "这张照片先问问我",
+      "order": 18,
+      "pages": 18,
+      "group": "亲子相处",
+      "topic": "拍照同意与尊重孩子的形象"
+    },
+    {
+      "id": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "title": "我的纸箱明天再拆",
+      "order": 19,
+      "pages": 18,
+      "group": "亲子相处",
+      "topic": "家庭空间协商与尊重未完成作品"
+    },
+    {
+      "id": "ba-ba-ye-you-bu-hui-de-shi-hou",
+      "title": "爸爸也有不会的时候",
+      "order": 20,
+      "pages": 18,
+      "group": "亲子相处",
+      "topic": "成人示范承认未知与共同学习"
+    },
+    {
+      "id": "wai-gong-zou-de-man-yi-dian",
+      "title": "外公走得慢一点",
+      "order": 21,
+      "pages": 18,
+      "group": "亲子相处",
+      "topic": "理解长辈的节奏与共同陪伴"
+    },
+    {
+      "id": "xie-dai-rao-guo-xiao-shan-qiu",
+      "title": "鞋带绕过小山丘",
+      "order": 22,
+      "pages": 18,
+      "group": "学会新本领",
+      "topic": "系鞋带与分步练习"
+    },
+    {
+      "id": "kuai-zi-jia-zhu-xiao-tuan-zi",
+      "title": "筷子夹住小团子",
+      "order": 23,
+      "pages": 18,
+      "group": "学会新本领",
+      "topic": "使用筷子与温和练习"
+    },
+    {
+      "id": "jian-dao-yan-zhe-xiao-lu-zou",
+      "title": "剪刀沿着小路走",
+      "order": 24,
+      "pages": 18,
+      "group": "学会新本领",
+      "topic": "儿童剪刀与双手协作"
+    },
+    {
+      "id": "hua-pen-li-de-yi-ke-dou",
+      "title": "花盆里的一颗豆",
+      "order": 25,
+      "pages": 18,
+      "group": "学会新本领",
+      "topic": "种植观察与持续照料"
+    },
+    {
+      "id": "feng-zheng-deng-yi-zhen-feng",
+      "title": "风筝等一阵风",
+      "order": 26,
+      "pages": 18,
+      "group": "学会新本领",
+      "topic": "风筝入门与观察条件"
+    }
+  ],
+  "approvedAt": "2026-10-07"
+}

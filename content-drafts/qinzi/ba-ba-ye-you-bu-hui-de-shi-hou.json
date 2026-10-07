@@ -1,0 +1,253 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+  },
+  "book": {
+    "id": "ba-ba-ye-you-bu-hui-de-shi-hou",
+    "seriesId": "sanzijing",
+    "title": "爸爸也有不会的时候",
+    "subtitle": "一起查一查，一起试一试",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "果果打开礼物盒，里面是一只亮亮的小口琴。他把盒子搬到爸爸面前：“教我吹那首歌吧。”",
+        "enText": "Guoguo opened his present. Inside was a shiny little harmonica. He brought the box to Dad. “Teach me to play that song!”",
+        "illustrationPrompt": "餐桌上果果打开口琴盒，爸爸坐在旁边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 餐桌上果果打开口琴盒，爸爸坐在旁边。. Narrative meaning for composition only; NEVER render words: 果果打开礼物盒，里面是一只亮亮的小口琴。他把盒子搬到爸爸面前：“教我吹那首歌吧。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "爸爸拿起配套的小册子：“我也没有学过。我们先看看，怎么拿才舒服。”",
+        "enText": "Dad picked up the booklet that came with it. “I've never learned either. Let's first see how to hold it comfortably.”",
+        "illustrationPrompt": "爸爸翻看有图示的小册子，口琴放在果果面前。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e52af472-c56b-48c5-a17c-89ca7a88debf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 爸爸翻看有图示的小册子，口琴放在果果面前。. Narrative meaning for composition only; NEVER render words: 爸爸拿起配套的小册子：“我也没有学过。我们先看看，怎么拿才舒服。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 3,
+        "zhText": "果果愣了一下：“你也不会？”爸爸点头：“不会。但我愿意陪你慢慢学。”",
+        "enText": "Guoguo paused. “You don't know either?” Dad nodded. “No. But I'd like to learn slowly with you.”",
+        "illustrationPrompt": "父子平视，果果惊讶，爸爸坦然回应。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-639a9ec4-f03b-4e5a-9058-67e8021bbdec.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 父子平视，果果惊讶，爸爸坦然回应。. Narrative meaning for composition only; NEVER render words: 果果愣了一下：“你也不会？”爸爸点头：“不会。但我愿意陪你慢慢学。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 4,
+        "zhText": "果果把口琴倒着举起来。爸爸也拿不准，指着图：“这里看起来是在上面。”",
+        "enText": "Guoguo held the harmonica upside down. Dad was not sure yet either. He pointed at the picture. “It looks as if this side goes on top.”",
+        "illustrationPrompt": "果果口琴方向与图示相反，爸爸指向握法图。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-204685bd-9b51-4c98-a7b3-0e447bc6b0f6.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果口琴方向与图示相反，爸爸指向握法图。. Narrative meaning for composition only; NEVER render words: 果果把口琴倒着举起来。爸爸也拿不准，指着图：“这里看起来是在上面。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 5,
+        "zhText": "他们对着图转了转。果果用两只手托住两边，嘴巴轻轻靠近吹口。",
+        "enText": "They turned it to match the picture. Guoguo held each end and gently brought his mouth to the holes.",
+        "illustrationPrompt": "近景果果双手握正口琴，吹口方向正确，小册子展开。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ac8053be-c93b-4004-a553-9d313602b9d5.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 近景果果双手握正口琴，吹口方向正确，小册子展开。. Narrative meaning for composition only; NEVER render words: 他们对着图转了转。果果用两只手托住两边，嘴巴轻轻靠近吹口。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 6,
+        "zhText": "他使劲一吹，声音又响又乱，自己也吓了一跳。爸爸没有叫他立刻再吹。",
+        "enText": "He blew hard. The sound was loud and jumbled, and startled him too. Dad did not tell him to try again straight away.",
+        "illustrationPrompt": "果果被响声惊到并放低口琴，爸爸安静等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fe1aa233-2b4c-42da-969a-4f55ef355ba1.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果被响声惊到并放低口琴，爸爸安静等待。. Narrative meaning for composition only; NEVER render words: 他使劲一吹，声音又响又乱，自己也吓了一跳。爸爸没有叫他立刻再吹。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 7,
+        "zhText": "果果把口琴放下，喝了一口水：“它怎么一下出来这么多声音？”",
+        "enText": "Guoguo put it down and had some water. “Why did so many sounds come out at once?”",
+        "illustrationPrompt": "果果喝水休息，口琴在干净桌面，小册子在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-612cde3f-c2f1-46d6-b493-ee1d72d5d276.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果喝水休息，口琴在干净桌面，小册子在旁。. Narrative meaning for composition only; NEVER render words: 果果把口琴放下，喝了一口水：“它怎么一下出来这么多声音？”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 8,
+        "zhText": "爸爸看看说明：“嘴巴碰到几个小孔，可能就一起响。先不用急着吹歌。”",
+        "enText": "Dad checked the booklet. “If your mouth covers several holes, they may sound together. We don't have to play a song yet.”",
+        "illustrationPrompt": "爸爸指着孔位图示，果果看口琴上并排的小孔。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-666fb418-ddea-4294-b3c8-749214124c90.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 爸爸指着孔位图示，果果看口琴上并排的小孔。. Narrative meaning for composition only; NEVER render words: 爸爸看看说明：“嘴巴碰到几个小孔，可能就一起响。先不用急着吹歌。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 9,
+        "zhText": "果果缩小嘴巴，轻轻送一点气。声音还是有两个，却比刚才柔和了。",
+        "enText": "Guoguo made his mouth smaller and gently blew a little air. There were still two sounds, but they were softer than before.",
+        "illustrationPrompt": "果果轻吹，姿态放松，爸爸在旁用小幅手势表示轻一点。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-07e6d22f-cab7-467c-9462-d1c684fa07c3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果轻吹，姿态放松，爸爸在旁用小幅手势表示轻一点。. Narrative meaning for composition only; NEVER render words: 果果缩小嘴巴，轻轻送一点气。声音还是有两个，却比刚才柔和了。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 10,
+        "zhText": "他又试了一次。“刚才更响，这次更轻。”爸爸说，“你自己听到了吗？”",
+        "enText": "He tried once more. “The first one was louder, and this one was softer,” Dad said. “Could you hear it too?”",
+        "illustrationPrompt": "父子听果果吹奏，桌上物品保持原位。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-359e6d6b-0da7-4daa-b782-5eb939f30d61.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 父子听果果吹奏，桌上物品保持原位。. Narrative meaning for composition only; NEVER render words: 他又试了一次。“刚才更响，这次更轻。”爸爸说，“你自己听到了吗？”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 11,
+        "zhText": "果果点头，嘴角弯了一下。爸爸照着图，用手势演示慢慢呼气，没有去吹果果的口琴。",
+        "enText": "Guoguo nodded, with a little smile. Following the picture, Dad showed a slow outward breath with his hands. He did not use Guoguo's harmonica.",
+        "illustrationPrompt": "爸爸空手示范呼气动作，口琴始终由果果持有。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-64586eb0-d0ba-4bf8-965a-d4a44ae34d72.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 爸爸空手示范呼气动作，口琴始终由果果持有。. Narrative meaning for composition only; NEVER render words: 果果点头，嘴角弯了一下。爸爸照着图，用手势演示慢慢呼气，没有去吹果果的口琴。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 12,
+        "zhText": "小册子的下一张图，是轻轻吸气。果果先放下口琴，像闻花一样试了试。",
+        "enText": "The next picture showed a gentle inward breath. Guoguo put the harmonica down first and tried breathing in as if smelling a flower.",
+        "illustrationPrompt": "果果放下口琴用鼻子轻闻般理解吸气，爸爸指示下一张图。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-688b23c4-0d2c-421b-a212-11ba7054ead0.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果放下口琴用鼻子轻闻般理解吸气，爸爸指示下一张图。. Narrative meaning for composition only; NEVER render words: 小册子的下一张图，是轻轻吸气。果果先放下口琴，像闻花一样试了试。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 13,
+        "zhText": "他重新举起来，轻轻吹，再轻轻吸。咦，同一个位置，声音变了。",
+        "enText": "He picked it up again and gently breathed out, then in. Oh! In the same place, the sound changed.",
+        "illustrationPrompt": "果果在同一孔位交替轻吹轻吸，爸爸倾听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-14aa02ff-48f7-4aaf-acec-6542a44c3f28.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果在同一孔位交替轻吹轻吸，爸爸倾听。. Narrative meaning for composition only; NEVER render words: 他重新举起来，轻轻吹，再轻轻吸。咦，同一个位置，声音变了。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 14,
+        "zhText": "“一个往外，一个往里！”果果说。爸爸也听见了：“这两个，我们都分出来了。”",
+        "enText": "“One goes out, and one goes in!” Guoguo said. Dad heard it too. “We can both tell those two apart now.”",
+        "illustrationPrompt": "果果用手掌表示向外向内，口琴放低，父子微笑。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2ee7dfe4-3ea1-40a6-a4a3-53d058750ef6.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: Remove the floating blue arrows around child's body. This is a natural single scene, no infographic symbols outside the flat instruction booklet. Keep father and child using empty hand gestures to describe breathing. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2ee3e9f3-5523-4911-9a51-6d5525f640a8.png"
+      },
+      {
+        "page": 15,
+        "zhText": "果果想把两个声音连起来，吹着吹着又乱了。他看看爸爸：“还不能唱歌。”",
+        "enText": "Guoguo tried joining the two sounds, but they became jumbled again. He looked at Dad. “I still can't play the song.”",
+        "illustrationPrompt": "果果停下尝试，神情略失落，爸爸在同一位置听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f4f0ba5b-4fa3-43c6-9ac3-a1922fcd33d5.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果停下尝试，神情略失落，爸爸在同一位置听。. Narrative meaning for composition only; NEVER render words: 果果想把两个声音连起来，吹着吹着又乱了。他看看爸爸：“还不能唱歌。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 16,
+        "zhText": "爸爸说：“今天先听清这两个。整首歌，要学的还多呢。我们可以下次再找办法。”",
+        "enText": "Dad said, “Today, let's just listen to those two clearly. There's more to learn for a whole song. We can look for the next step another day.”",
+        "illustrationPrompt": "爸爸合上小册子一半，保留当前页，果果点头。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c1ddbee2-926d-4eda-891b-995382cecfaf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 爸爸合上小册子一半，保留当前页，果果点头。. Narrative meaning for composition only; NEVER render words: 爸爸说：“今天先听清这两个。整首歌，要学的还多呢。我们可以下次再找办法。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 17,
+        "zhText": "他们按说明擦好口琴外面，放回盒子。果果在小册子里夹了一张蓝纸，留住学到的那一页。",
+        "enText": "They cleaned the outside as the instructions said and put the harmonica away. Guoguo tucked a blue slip into the booklet to mark the page they had learned from.",
+        "illustrationPrompt": "果果擦拭并收纳口琴，爸爸帮扶盒子，蓝纸书签夹在图示页。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-99b269b8-85e3-40d2-add4-5f45eb5a7f13.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 果果擦拭并收纳口琴，爸爸帮扶盒子，蓝纸书签夹在图示页。. Narrative meaning for composition only; NEVER render words: 他们按说明擦好口琴外面，放回盒子。果果在小册子里夹了一张蓝纸，留住学到的那一页。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      },
+      {
+        "page": 18,
+        "zhText": "晚上，爸爸问最想记住什么。果果想了想：“你不会的时候，也可以和我一起听。”",
+        "enText": "That evening, Dad asked what he most wanted to remember. Guoguo thought for a moment. “When you don't know, you can still listen with me.”",
+        "illustrationPrompt": "父子坐在窗边聊天，口琴盒与带蓝书签的小册子放在桌上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f4115692-20aa-4dda-88dd-b36b42dc9e11.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《爸爸也有不会的时候》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 果果，6 岁，短黑发、浅绿卫衣、灰蓝长裤；爸爸，短黑发、米白上衣。道具为适龄十孔口琴、配套图示说明、一杯水；口琴只由果果使用，爸爸用手势示范，不共用吹口。. THIS PAGE SCENE: 父子坐在窗边聊天，口琴盒与带蓝书签的小册子放在桌上。. Narrative meaning for composition only; NEVER render words: 晚上，爸爸问最想记住什么。果果想了想：“你不会的时候，也可以和我一起听。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-15fb5e17-94eb-43d9-bb3a-0b2493691a34.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "示范坦然承认不会，借助适龄说明和观察一起学习。",
+      "reminder": "不把成人塑造成无所不知，也不让孩子承担教会成人的压力。选正规适龄口琴，按产品说明使用与清洁；吹口不共用，短时轻吹，疲累即停。",
+      "questions": [
+        "爸爸说自己不会之后，做了什么？",
+        "果果今天听出了哪一种变化？",
+        "遇到都不会的事，我们可以从哪里找帮助？"
+      ],
+      "activity": "选一个双方都不熟悉的低风险小任务，一起读图示，只尝试最初一小步，记下想继续了解的问题。",
+      "ageTips": {
+        "age4to5": "成人先筛选任务与说明，只保留一个简单观察，不要求孩子辨音。",
+        "age6to8": "邀请孩子提出一个问题，成人示范查说明或向有经验的人请教。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 20,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子相处",
+        "成人示范承认未知与共同学习"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  }
+}

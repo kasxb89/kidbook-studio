@@ -1,0 +1,255 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+  },
+  "book": {
+    "id": "xie-dai-rao-guo-xiao-shan-qiu",
+    "seriesId": "sanzijing",
+    "title": "鞋带绕过小山丘",
+    "subtitle": "松开重来，手指慢慢记住",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "安安的新鞋有两条长长的鞋带。她喜欢蓝色鞋面，也想试试那个像蝴蝶的结。",
+        "enText": "An'an's new shoes had long laces. She liked the blue uppers and wanted to try the knot that looked like a butterfly.",
+        "illustrationPrompt": "桌上一双蓝色运动鞋，安安坐着查看未系鞋带。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 桌上一双蓝色运动鞋，安安坐着查看未系鞋带。. Narrative meaning for composition only; NEVER render words: 安安的新鞋有两条长长的鞋带。她喜欢蓝色鞋面，也想试试那个像蝴蝶的结。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "妈妈把一只鞋放到桌上，鞋尖朝外：“先坐着练。系好、检查过，再穿出去。”",
+        "enText": "Mum put one shoe on the table, pointing away. “Let's practise sitting down. We'll put them on after the knots have been checked.”",
+        "illustrationPrompt": "妈妈摆正单只练习鞋，另一只放桌侧，安安双手空着。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c909fddf-ad77-4658-8cb3-758ebe77abb9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 妈妈摆正单只练习鞋，另一只放桌侧，安安双手空着。. Narrative meaning for composition only; NEVER render words: 妈妈把一只鞋放到桌上，鞋尖朝外：“先坐着练。系好、检查过，再穿出去。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 3,
+        "zhText": "安安把鞋带拉直，两条交叉。她一下拉到两边，交叉的地方又散开了。",
+        "enText": "An'an straightened the laces and crossed them. She pulled them apart at once, and the crossing came undone.",
+        "illustrationPrompt": "两条平鞋带在鞋面交叉但未穿过，安安左右拉动。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b0d714f-7ca4-4efa-94b6-d49128939044.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. The two ends of ONE lace belonging to ONE foreground shoe cross just above that same shoe tongue. Girl handles only this single shoe, trying the initial cross but NOT a knot or bow yet. Move the second shoe to Mum's side with its separate laces resting loosely, never crossed with the foreground shoe. Exactly two shoes total. Make laces short enough to be plausible, no long strands bridging between shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6b56525d-e4b5-4107-89eb-ed31b8cefbea.png"
+      },
+      {
+        "page": 4,
+        "zhText": "妈妈拿另一只鞋，慢慢示范：“这一头从下面过去，再拉开。”安安看着那个小洞。",
+        "enText": "Mum used the other shoe to show her slowly. “This end goes underneath, then you pull the ends apart.” An'an watched the little gap.",
+        "illustrationPrompt": "两只鞋分别在母女面前，妈妈示范起始交叉结。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-40ea1599-ff6e-4688-a626-8cd9e7d6def9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 两只鞋分别在母女面前，妈妈示范起始交叉结。. Narrative meaning for composition only; NEVER render words: 妈妈拿另一只鞋，慢慢示范：“这一头从下面过去，再拉开。”安安看着那个小洞。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 5,
+        "zhText": "她用一只手捏住交叉点，另一只把带头送过去。鞋面上，终于留住了一个小小的结。",
+        "enText": "She held the crossing with one hand and passed the end through with the other. At last, a little knot stayed on the shoe.",
+        "illustrationPrompt": "安安穿过带头并拉紧，鞋面只有起始结，没有蝴蝶结。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-223bdb1c-6707-4efe-8c54-cd026c79614f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 安安穿过带头并拉紧，鞋面只有起始结，没有蝴蝶结。. Narrative meaning for composition only; NEVER render words: 她用一只手捏住交叉点，另一只把带头送过去。鞋面上，终于留住了一个小小的结。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 6,
+        "zhText": "“第一步在这里。”妈妈说。安安松开，又做一次。这回不用妈妈指那个洞了。",
+        "enText": "“That's the first step,” Mum said. An'an untied it and tried again. This time Mum did not need to point out the gap.",
+        "illustrationPrompt": "安安重新练起始结，妈妈手放膝上，两只鞋仍各一只。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-93644885-51f0-4630-8f9c-78ef861289f8.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 安安重新练起始结，妈妈手放膝上，两只鞋仍各一只。. Narrative meaning for composition only; NEVER render words: “第一步在这里。”妈妈说。安安松开，又做一次。这回不用妈妈指那个洞了。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 7,
+        "zhText": "接着，她把一边鞋带弯起来，做成一个小耳朵。耳朵太大，几乎碰到了鞋尖。",
+        "enText": "Next, she bent one lace into a little ear. It was so big that it almost reached the toe of the shoe.",
+        "illustrationPrompt": "安安手中单个过大鞋带环，另一带头在侧。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-43ee747a-8a8c-4c2c-b4f9-1a9a6e4e08b3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 安安手中单个过大鞋带环，另一带头在侧。. Narrative meaning for composition only; NEVER render words: 接着，她把一边鞋带弯起来，做成一个小耳朵。耳朵太大，几乎碰到了鞋尖。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 8,
+        "zhText": "妈妈问：“缩小一点，手还捏得住吗？”安安让带子滑回来，指尖捏住耳朵底下。",
+        "enText": "Mum asked, “Can you make it smaller and still hold it?” An'an slid the lace back and pinched the bottom of the ear.",
+        "illustrationPrompt": "单个鞋带环缩小，安安捏住环根部。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-a4528181-7b0d-4b19-9c1d-415ec1537e80.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 单个鞋带环缩小，安安捏住环根部。. Narrative meaning for composition only; NEVER render words: 妈妈问：“缩小一点，手还捏得住吗？”安安让带子滑回来，指尖捏住耳朵底下。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 9,
+        "zhText": "另一条鞋带要绕过这个耳朵。安安一松手，耳朵倒了，绕过去的带子也落下来。",
+        "enText": "The other lace needed to go around that ear. When An'an let go, the ear fell over and the other lace dropped too.",
+        "illustrationPrompt": "第一次绕圈失败，鞋带环松散倒在鞋面。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8ace2884-204b-4b46-a480-d47e857c25bd.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve faces, hairstyles, clothes, watercolor/gouache style and surrounding setting. The attempted single-loop bow has FAILED at this early page. Remove any finished two-ear bow on practice shoe. Show ONLY one half-collapsed loose loop on shoe, other lace end dangling and girl opening one hand in frustration. Other shoe laces stay untied and separate. No completed bow on either shoe yet. No text, letters, numbers, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d422bffc-d8c4-4893-b807-308fb25097c7.png"
+      },
+      {
+        "page": 10,
+        "zhText": "“我的手不够多。”她叹气。妈妈笑了笑：“今天先练捏住这边，也可以停一会儿。”",
+        "enText": "“I haven't got enough hands,” she sighed. Mum smiled. “We can just practise holding this bit today. Or take a little break.”",
+        "illustrationPrompt": "安安放下双手休息，妈妈温和回应，鞋带保持松开。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2cdbf5d2-6d09-4c39-bafa-ac0dfae3dd34.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 安安放下双手休息，妈妈温和回应，鞋带保持松开。. Narrative meaning for composition only; NEVER render words: “我的手不够多。”她叹气。妈妈笑了笑：“今天先练捏住这边，也可以停一会儿。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 11,
+        "zhText": "第二天，妈妈先在另一只鞋上做给她看。一个耳朵站住，另一条绕过它，留下一个小洞。",
+        "enText": "The next day, Mum showed her on the other shoe. One ear stayed up. The other lace went around it, leaving a little gap.",
+        "illustrationPrompt": "妈妈用另一鞋示范单环绕圈，安安观察环后小洞。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-043a596c-4196-43fb-952a-93ce801d8a90.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 妈妈用另一鞋示范单环绕圈，安安观察环后小洞。. Narrative meaning for composition only; NEVER render words: 第二天，妈妈先在另一只鞋上做给她看。一个耳朵站住，另一条绕过它，留下一个小洞。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 12,
+        "zhText": "安安请妈妈帮忙捏住耳朵底下，自己把另一条鞋带的一小段弯起来，推过小洞。",
+        "enText": "An'an asked Mum to hold the bottom of the ear. She bent a small section of the other lace and pushed that folded bit through the gap.",
+        "illustrationPrompt": "妈妈仅扶单环底部，安安推入折起带段，带头仍留外侧。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-63f283b6-ca10-4f88-9bb5-1569f5a7984d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 妈妈仅扶单环底部，安安推入折起带段，带头仍留外侧。. Narrative meaning for composition only; NEVER render words: 安安请妈妈帮忙捏住耳朵底下，自己把另一条鞋带的一小段弯起来，推过小洞。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. No completed bow knot yet. Only show the exact incomplete shoelace stage described on this page. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 13,
+        "zhText": "洞那边，钻出第二个小耳朵。安安拉住两只耳朵，结一下收紧了。",
+        "enText": "A second little ear appeared on the other side. An'an took hold of both ears and pulled. The knot tightened.",
+        "illustrationPrompt": "安安拉两侧鞋带环，形成第一个蝴蝶结，两环大小不等。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f114a13c-1338-4768-93f0-1760cc7772ff.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 安安拉两侧鞋带环，形成第一个蝴蝶结，两环大小不等。. Narrative meaning for composition only; NEVER render words: 洞那边，钻出第二个小耳朵。安安拉住两只耳朵，结一下收紧了。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 14,
+        "zhText": "一边长，一边短。她放在桌上看了看：“已经有两边了，明天再调小一点。”",
+        "enText": "One side was long and the other short. She looked at it on the table. “There are two sides now. I'll try making them smaller tomorrow.”",
+        "illustrationPrompt": "鞋面蝴蝶结两环不均，安安观察，不急着拆。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-be60aca6-9a65-4c7a-8e23-4010012c8097.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 鞋面蝴蝶结两环不均，安安观察，不急着拆。. Narrative meaning for composition only; NEVER render words: 一边长，一边短。她放在桌上看了看：“已经有两边了，明天再调小一点。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 15,
+        "zhText": "过了几天，安安又从交叉开始。耳朵、绕圈、小洞，她每一步都停下来看看。",
+        "enText": "A few days later, An'an started with the crossing again. An ear, a wrap, a gap—she paused to look at each step.",
+        "illustrationPrompt": "安安独立按步骤重系单只鞋，妈妈在旁等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-95e4e467-8758-4ee0-a3cd-e3b6b4887521.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 安安独立按步骤重系单只鞋，妈妈在旁等待。. Narrative meaning for composition only; NEVER render words: 过了几天，安安又从交叉开始。耳朵、绕圈、小洞，她每一步都停下来看看。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 16,
+        "zhText": "最后一拉，两只耳朵都站起来了。这次还不一样大，却没有一碰就散。",
+        "enText": "With the final pull, both ears stood up. They were still different sizes, but a little touch did not undo them.",
+        "illustrationPrompt": "新蝴蝶结稍不均但稳定，安安轻碰查看。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-219d9c03-0f73-4515-8276-1e34c999490e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 新蝴蝶结稍不均但稳定，安安轻碰查看。. Narrative meaning for composition only; NEVER render words: 最后一拉，两只耳朵都站起来了。这次还不一样大，却没有一碰就散。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      },
+      {
+        "page": 17,
+        "zhText": "穿好鞋，妈妈检查松紧和带子长度，发现一头太长。她们一起调好，才站起来走。",
+        "enText": "After she put the shoes on, Mum checked the fit and the length of the ends. One end was too long. They adjusted it together before standing up.",
+        "illustrationPrompt": "安安坐着穿鞋，妈妈检查并调整过长带头，双脚仍未起身。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-165a22a4-1f9b-41e6-856c-abe5633653b6.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: This scene must be child SITTING and WEARING both blue shoes on her feet, with Mum crouched checking one overlong lace end before anyone stands up. Remove all shoes from tabletop, recompose wider at home doorway, exactly two blue shoes total on child feet. Same characters and clothes. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-88b208a0-8aa8-4453-8394-424ac87e11fd.png"
+      },
+      {
+        "page": 18,
+        "zhText": "门口，安安走了几步又停下，低头看看。“它还在。”她抬起脚，给妈妈看那只小蝴蝶。",
+        "enText": "By the door, An'an walked a few steps and stopped to look down. “It's still there.” She lifted her foot to show Mum the little butterfly.",
+        "illustrationPrompt": "门口平地安安停稳，低头查看系好的鞋带，妈妈陪在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-85ddf106-9efc-4cd4-b757-3700113a6dcb.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《鞋带绕过小山丘》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 安安，6 岁，两条低辫子、珊瑚色卫衣、藏青裤；妈妈，短黑发、米白衬衫。核心道具为一双蓝色低帮运动鞋、柔软平鞋带，练习时鞋放桌上，孩子不行走。. THIS PAGE SCENE: 门口平地安安停稳，低头查看系好的鞋带，妈妈陪在旁。. Narrative meaning for composition only; NEVER render words: 门口，安安走了几步又停下，低头看看。“它还在。”她抬起脚，给妈妈看那只小蝴蝶。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. Exactly two physical shoes total, one practice shoe in front of child and the other shoe aside or with Mum, NEVER more than a pair. Each shoe has its own one lace with two ends, never cross laces from different shoes.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8e83ef03-1fb4-410e-8d5b-5d1c9e38ed14.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "练习双手配合，把复杂动作拆成可重复的小步骤。",
+      "reminder": "先坐着用鞋练，不把鞋带缠在手指、身体或玩具颈部；成人检查牢固度和带尾长度后再行走。练习不是出门限时考试，可使用方便穿脱的鞋。",
+      "questions": [
+        "安安哪一步最容易松开？",
+        "妈妈帮忙的时候，安安自己做了什么？",
+        "如果今天只练一小步，你想练哪一步？"
+      ],
+      "activity": "把干净的鞋放桌上，先练交叉结；熟悉后成人慢速示范一个环、绕圈、推入折起带段，每次只补一段。",
+      "ageTips": {
+        "age4to5": "先做穿鞋、拉带和交叉动作，蝴蝶结可由成人完成。",
+        "age6to8": "用颜色不同的两端帮助区分动作，练好后共同检查松紧与带尾。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 22,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会新本领",
+        "系鞋带与分步练习"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  }
+}

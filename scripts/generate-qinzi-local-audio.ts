@@ -7,7 +7,10 @@ import type { BookAudio } from "../miniprogram/src/core/types";
 
 const voice = "Tingting (中文（中国大陆）)", rate = 170;
 const cache = path.resolve(".storybloom-cache/qinzi-local-audio");
-const batch = path.resolve("content-drafts/qinzi/batch-07-16");
+const batchIndex = process.argv.indexOf("--batch");
+const batchName = batchIndex < 0 ? "batch-07-16" : (process.argv[batchIndex + 1] ?? "");
+if (!/^batch-\d+-\d+$/.test(batchName)) throw new Error("Invalid --batch directory");
+const batch = path.resolve("content-drafts/qinzi", batchName);
 const manifestPath = path.resolve("content-drafts/qinzi/local-audio.json");
 const hash = (value: string) => createHash("sha256").update(value).digest("hex");
 const decode = (file: string) => execFileSync("ffmpeg", ["-v", "error", "-i", file, "-f", "s16le", "-ar", "24000", "-ac", "1", "pipe:1"], { maxBuffer: 64 * 1024 * 1024, stdio: "pipe" });

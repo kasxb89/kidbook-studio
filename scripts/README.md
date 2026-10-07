@@ -121,6 +121,20 @@ node --import tsx scripts/generate-qinzi-local-audio.ts
 
 全部插画、音频及整本视觉验收完成后，才把本批 `comingSoon` 改为 false 并接入读者入口。
 
+## 亲子成长第二批十本
+
+第二批确认稿保存在 `content-drafts/qinzi/batch-17-26/books/`，对应系列第 17–26 本，共 180 页。`plan.json` 记录内容确认，`bilingual-manuscript.md` 保存逐页双语生产稿，`image-prompts.json` 保存每页独立提示词。
+
+本地导入图片、生成整本联系图和 Mac 旁白时，显式选择第二批目录：
+
+```bash
+node --import tsx scripts/import-qinzi-batch-image.ts --batch batch-17-26 --book bu-he-biao-ge-bi-kuai --page 1 --source /absolute/path/to/generated.png
+node --import tsx scripts/generate-qinzi-contact-sheets.ts --batch batch-17-26
+node --import tsx scripts/generate-qinzi-local-audio.ts --batch batch-17-26
+```
+
+省略 `--batch` 时仍处理第一批 `batch-07-16`。第二批正文确认后开始生成资源，逐页图片、中文旁白及整本视觉复核全部完成后才启用读者入口。旁白沿用本机语音；本批没有新增第三方正文外发、上传或发布授权。
+
 ## import-library-image-grid.ts — 导入经审核的四格重绘图
 
 将一张严格的 2×2 正方形联系图切分为四张正式 1200×1200 WebP。默认不会覆盖已有资源；只有逐页审核后才加 `--replace`：

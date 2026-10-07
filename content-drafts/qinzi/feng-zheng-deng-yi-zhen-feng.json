@@ -1,0 +1,262 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+  },
+  "book": {
+    "id": "feng-zheng-deng-yi-zhen-feng",
+    "seriesId": "sanzijing",
+    "title": "风筝等一阵风",
+    "subtitle": "看一看风，再让线慢慢出去",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "宁宁抱着一只蓝色燕子风筝来到空地。她伸开两只手：“今天，它要到天上去。”",
+        "enText": "Ningning brought a blue swallow-shaped kite to the open field. She spread both arms. “Today, it's going into the sky.”",
+        "illustrationPrompt": "允许放飞的开阔平地，远离道路电线水域，无人群，父女携小风筝。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 允许放飞的开阔平地，远离道路电线水域，无人群，父女携小风筝。. Narrative meaning for composition only; NEVER render words: 宁宁抱着一只蓝色燕子风筝来到空地。她伸开两只手：“今天，它要到天上去。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "爸爸先看看四周，选了没有人的方向。宁宁站在旁边，等他确认可以开始。",
+        "enText": "Dad checked all around and chose a direction with nobody in the way. Ningning stood beside him until he said they could begin.",
+        "illustrationPrompt": "爸爸检查环境和风向，宁宁持封闭线轮等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c4eb4f88-d498-481b-a8c7-dcd686da389a.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 爸爸检查环境和风向，宁宁持封闭线轮等待。. Narrative meaning for composition only; NEVER render words: 爸爸先看看四周，选了没有人的方向。宁宁站在旁边，等他确认可以开始。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 3,
+        "zhText": "爸爸托住风筝，宁宁往前跑了两小步。燕子翘起来一点，又轻轻落回草地。",
+        "enText": "Dad held up the kite. Ningning took two little running steps. The swallow tipped up a little, then softly landed on the grass.",
+        "illustrationPrompt": "爸爸在后方协助托举，宁宁小步移动，小风筝落在近处草地。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8d156250-0450-491d-9ca5-fc80bf463985.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. Child must hold the safe CLOSED REEL in one hand while taking only two little steps. Dad holds up ONLY the one blue swallow kite, NOT the reel. Show a single loose line connecting child reel to kite, clear of legs, fingers, body and clothing, never wrapped around hand. Kite is just settling towards grass, not flying high. Keep open flat grass, no roads or wires.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-091cc963-2b96-4263-a784-7f1eef062e98.png"
+      },
+      {
+        "page": 4,
+        "zhText": "她还想一直往前跑，爸爸请她停稳：“先看看，是不是有风。”",
+        "enText": "She wanted to keep running, but Dad asked her to stop steadily. “First, let's see if there's any wind.”",
+        "illustrationPrompt": "宁宁停在平地，爸爸走近收住松线，风筝在地面。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-10b32e8b-4ba6-4c0e-b0de-1dc5101e0e28.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 宁宁停在平地，爸爸走近收住松线，风筝在地面。. Narrative meaning for composition only; NEVER render words: 她还想一直往前跑，爸爸请她停稳：“先看看，是不是有风。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 5,
+        "zhText": "爸爸拿出一根短布条。布条软软地垂着，没有朝哪边飘。",
+        "enText": "Dad took out a short strip of cloth. It hung softly down without blowing in any direction.",
+        "illustrationPrompt": "爸爸持短布条观察，布条自然下垂，风筝仍地面。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-b684e8c2-fea7-4014-ba34-02ed84d188a9.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Wind indicator must be a SHORT separate 20 cm long cloth strip hanging LIMPLY from Dad's raised fingertips, NOT a several-metre kite tail. Grounded blue swallow kite with its two tails rests away from the tiny indicator. One closed reel safely collected nearby, no wind or flying kite. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fd6368b6-72b2-4ffa-a7a2-7c677aa50d05.png"
+      },
+      {
+        "page": 6,
+        "zhText": "“这会儿风很小。”爸爸说。宁宁看看燕子：“那它不是不想飞？”",
+        "enText": "“The wind is very light now,” Dad said. Ningning looked at the swallow. “So it isn't that it doesn't want to fly?”",
+        "illustrationPrompt": "父女看布条与风筝，宁宁放松线轮握持。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7f7e7036-7ad3-463b-a2b5-1e4a055f9075.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact characters, hair, clothing, warm watercolor/gouache material and setting. Make only this narrative correction: Kite is already flying high during the no-wind waiting stage. It must rest on grass, Dad explaining and both looking down at grounded kite, short cloth hanging limp. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4dbe77db-f920-492a-8b69-ec233beaa292.png"
+      },
+      {
+        "page": 7,
+        "zhText": "爸爸笑了：“得有合适的风。先喝点水，等一会儿。”他们把线收好，坐到一旁。",
+        "enText": "Dad smiled. “We need suitable wind. Let's have some water and wait a little.” They gathered the line and sat to one side.",
+        "illustrationPrompt": "风筝与收好线轮在身边，父女安全休息喝水。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-25fc9d23-6618-448b-9cb9-2193431b52d3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 风筝与收好线轮在身边，父女安全休息喝水。. Narrative meaning for composition only; NEVER render words: 爸爸笑了：“得有合适的风。先喝点水，等一会儿。”他们把线收好，坐到一旁。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 8,
+        "zhText": "过了一阵，布条往同一边轻轻飘。爸爸又看了看天气和周围，站起来试试风。",
+        "enText": "After a while, the cloth gently blew in one direction. Dad checked the weather and their surroundings again, then stood up to feel the wind.",
+        "illustrationPrompt": "爸爸持布条朝一侧轻飘，天空平和，空地仍无人。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-13040279-50c5-4081-9dee-8558cb353ce3.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact characters, hair, clothing, warm watercolor/gouache material and setting. Make only this narrative correction: Wind observation cloth is a huge kite tail. Dad should hold a separate SHORT 20 cm cloth strip gently blowing, kite stays grounded or held at waist, not flying yet. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d5180067-2c8e-4899-962b-a9fde64386ba.png"
+      },
+      {
+        "page": 9,
+        "zhText": "爸爸安排好方向，托起燕子。宁宁拿着线轮，双脚站稳，线没有绕在手指上。",
+        "enText": "Dad chose their direction and held up the swallow. Ningning held the reel, standing steadily. The line was not wrapped around her fingers.",
+        "illustrationPrompt": "父女沿适宜风向站位，成人托筝，孩子正确握封闭线轮。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-edfbeff6-b72f-44f7-888e-a8bcc86ba1eb.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 父女沿适宜风向站位，成人托筝，孩子正确握封闭线轮。. Narrative meaning for composition only; NEVER render words: 爸爸安排好方向，托起燕子。宁宁拿着线轮，双脚站稳，线没有绕在手指上。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 10,
+        "zhText": "“先留一点线，我放开时，你看看它往哪里走。”爸爸说。宁宁盯着蓝色翅膀。",
+        "enText": "“Let out a little line first. When I let go, watch where it goes,” Dad said. Ningning watched the blue wings.",
+        "illustrationPrompt": "短距离风筝线伸展，爸爸托筝准备放手，宁宁看风筝。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-af60653e-5253-4c14-a1c8-b974afe3094e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 短距离风筝线伸展，爸爸托筝准备放手，宁宁看风筝。. Narrative meaning for composition only; NEVER render words: “先留一点线，我放开时，你看看它往哪里走。”爸爸说。宁宁盯着蓝色翅膀。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 11,
+        "zhText": "燕子离开爸爸的手，往上抬了一小段。宁宁一高兴，多放了一截，线又松下来。",
+        "enText": "The swallow left Dad's hands and rose a little. Ningning was excited and let out too much line. It became slack again.",
+        "illustrationPrompt": "风筝初升较低，线因过快放出形成轻弧，爸爸近旁监督。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d83d733b-159e-4460-820a-51c0046b8529.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Girl must hold CLOSED REEL in her hands while accidentally paying out too much line. Move reel from Dad to child, no bare line gripped by girl, no line wrapped on body or hands. Dad nearby ready to assist. Kite just rises a little with slack curved line, not high. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-26e4e674-06a0-4a64-a6c7-a0454e5f0b8e.png"
+      },
+      {
+        "page": 12,
+        "zhText": "风筝晃了晃，开始往下。爸爸帮她收回一点线：“不急，先让这段稳住。”",
+        "enText": "The kite wobbled and began to come down. Dad helped her reel in a little. “No hurry. Let's keep this bit steady first.”",
+        "illustrationPrompt": "爸爸协助握线轮适度收线，风筝仍在低空可控范围。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ce56ead8-0de9-4831-9fd5-e23d333ef09b.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Girl must hold the closed safe reel, with Dad gently assisting on that SAME reel to take in a little slack line. Neither girl grips bare flying line nor wraps it on fingers. Keep kite visibly low and beginning to descend with a slight wobble. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4ff7af6c-097c-4c7e-9fe6-7b2a467da8d6.png"
+      },
+      {
+        "page": 13,
+        "zhText": "宁宁慢慢转动线轮，眼睛没有离开燕子。翅膀摆了两下，又朝上走了一点。",
+        "enText": "Ningning turned the reel slowly, watching the swallow. Its wings swayed twice, then rose a little again.",
+        "illustrationPrompt": "孩子缓慢控制封闭线轮，爸爸旁边守护，蓝筝重新轻升。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb72cf26-824e-42dc-ba0c-8ca7ec4af360.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 孩子缓慢控制封闭线轮，爸爸旁边守护，蓝筝重新轻升。. Narrative meaning for composition only; NEVER render words: 宁宁慢慢转动线轮，眼睛没有离开燕子。翅膀摆了两下，又朝上走了一点。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 14,
+        "zhText": "“现在可以再放一点。”爸爸说。宁宁放一小段就停，像给燕子留一条慢慢走的路。",
+        "enText": "“Now you can let out a little more,” Dad said. Ningning released a short length and paused, as if giving the swallow a path to travel slowly.",
+        "illustrationPrompt": "小风筝在较低稳定高度，线轮放出小段，父女站定不奔跑。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0e521184-0a87-471b-8ad7-c096df490947.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Girl holds the ONE closed reel with both hands, Dad stands immediately nearby giving guidance, NOT holding a second reel. No bare line touched by girl or wrapped on fingers. Kite stays low and stable, child pays out only a short amount. Exactly one line connects reel to kite. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-9c810aa7-e2c2-45b5-aad9-d5de856d993b.png"
+      },
+      {
+        "page": 15,
+        "zhText": "风变小了，燕子又往下落。这一次，宁宁没有追着跑：“布条也垂下来了。”",
+        "enText": "The wind grew weaker, and the swallow began to come down. This time Ningning did not chase it. “The cloth is hanging down too.”",
+        "illustrationPrompt": "布条垂下，风筝缓缓下降，孩子停稳指出变化，成人协助。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c5d8728c-21e6-4790-bddc-6ab384d1f1fd.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Wind is weakening: kite visibly DESCENDS LOW, approaching ground. Dad helps at ONE closed reel near girl; girl points to a separate SHORT 20 cm cloth strip hanging limp in Dad's free hand. No high flying kite, no bare line held by child, no extra reels. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-01881389-f378-4325-a8ef-922ad36c3094.png"
+      },
+      {
+        "page": 16,
+        "zhText": "爸爸帮她慢慢收线，把燕子带回空地。他们没有让线落到旁边人的脚下。",
+        "enText": "Dad helped her reel in slowly and bring the swallow back to the field. They kept the line from trailing where someone might walk.",
+        "illustrationPrompt": "空地无人穿行，成人协助收线，小风筝平稳落近处，不留散线。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bf0ede81-5397-46b5-9c89-410fb0f85b73.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《风筝等一阵风》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 宁宁，6 岁，两条短辫子、湖蓝上衣、米白长裤、运动鞋；爸爸，短黑发、浅灰外套。道具为小型蓝色燕子风筝、适龄封闭线轮、短布条；场景为当地允许放飞、远离道路、电线、水边与人群的开阔平地。成人全程控制环境和线，不追失控风筝。. THIS PAGE SCENE: 空地无人穿行，成人协助收线，小风筝平稳落近处，不留散线。. Narrative meaning for composition only; NEVER render words: 爸爸帮她慢慢收线，把燕子带回空地。他们没有让线落到旁边人的脚下。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png"
+      },
+      {
+        "page": 17,
+        "zhText": "宁宁摸摸翅膀：“今天它飞了一小会儿。”爸爸问下次先看什么，她举起那根短布条。",
+        "enText": "Ningning touched a wing. “It flew for a little while today.” Dad asked what she would check first next time. She held up the strip of cloth.",
+        "illustrationPrompt": "宁宁看落地风筝并举短布条，线轮收好。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d10bc72-1465-47cb-b74d-1f4ced7ad736.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Wind indicator child holds up is a separate SHORT 20 cm cloth strip, NOT kite tail and not bare line. The blue kite already rests safely on ground, line completely wound onto one closed reel with Dad. Child can touch wing with other hand. No loose flying line around hands. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2d61b66b-0484-498d-818b-caba0b1bfca6.png"
+      },
+      {
+        "page": 18,
+        "zhText": "回家的袋子里，燕子收好了，布条也在。宁宁已经想好：下次先看风，再问爸爸可不可以放。",
+        "enText": "The swallow and the cloth were packed in the bag for home. Ningning knew her plan: next time, look at the wind first, then ask Dad if they could fly.",
+        "illustrationPrompt": "父女离开空地，成人提装有风筝和线轮的袋子，宁宁持短布条。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-10748bfa-8f30-4734-b4b8-f8a59bdb185a.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Girl holds ONE SHORT separate 20 cm cloth strip, NOT a very long loose tail trailing behind. Dad carries a bag with the blue swallow kite and fully wound reel inside; no lines or tails drag on ground. Keep walking home calmly. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6d115ea5-7b57-4bf1-9992-1852c45f112d.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e0ab53bd-4eaa-405a-8526-c7843373e5cd.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "了解技能也受环境条件影响，练习观察风、站稳和在成人协助下少量收放线。",
+      "reminder": "放飞前由成人确认当地规定、天气和安全空地，远离电线、道路、水域及人群；使用适龄装备，线不缠身体，遇强风或雷雨停止，不追逐失控风筝。不以高度或时间评价孩子。",
+      "questions": [
+        "第一次没飞起来，布条是什么样子？",
+        "宁宁后来为什么一小段一小段放线？",
+        "风变小时，他们怎么把风筝收回来？"
+      ],
+      "activity": "先在安全地点观察短布条，成人判断是否适合放飞；合适时使用小型风筝，由成人协助完成一次低高度短放飞。",
+      "ageTips": {
+        "age4to5": "主要负责看布条、认风向和收拾，成人操作风筝线。",
+        "age6to8": "在成人近旁帮助下试短距离收放线，描述风变大或变小时的观察。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 26,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会新本领",
+        "风筝入门与观察条件"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  }
+}

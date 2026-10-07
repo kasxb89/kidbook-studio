@@ -25,7 +25,7 @@ describe("Sanzijing parenting library", () => {
 
     expect(series).toMatchObject({
       title: "亲子成长",
-      bookCount: 16,
+      bookCount: 26,
       ageRange: "4–8 岁",
     });
     expect(books.map(({ id, pages }) => ({ id, pages: pages.length }))).toEqual(

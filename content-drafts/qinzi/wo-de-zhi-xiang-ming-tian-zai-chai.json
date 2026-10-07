@@ -1,0 +1,260 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+  },
+  "book": {
+    "id": "wo-de-zhi-xiang-ming-tian-zai-chai",
+    "seriesId": "sanzijing",
+    "title": "我的纸箱明天再拆",
+    "subtitle": "一起为没做完的作品找个位置",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "小满把一个大纸箱放到客厅，又在前面摆了两个小盒子。“我的邮局今天开门。”",
+        "enText": "Xiaoman put a big cardboard box in the living room, with two smaller boxes in front. “My post office is open today.”",
+        "illustrationPrompt": "客厅大纸箱与两个小盒排成邮局，牛皮纸信封放桌上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 客厅大纸箱与两个小盒排成邮局，牛皮纸信封放桌上。. Narrative meaning for composition only; NEVER render words: 小满把一个大纸箱放到客厅，又在前面摆了两个小盒子。“我的邮局今天开门。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery."
+      },
+      {
+        "page": 2,
+        "zhText": "他把信封送进小盒，又拿出来。大箱子上还差一个投信口，他想留到明天做。",
+        "enText": "He put an envelope into a small box and took it out again. The big box still needed a letter slot. He wanted to make that tomorrow.",
+        "illustrationPrompt": "小满试着摆放信封，大箱正面完整没有开口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-3c5292e6-4444-487a-8572-78b34cbb44f1.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 小满试着摆放信封，大箱正面完整没有开口。. Narrative meaning for composition only; NEVER render words: 他把信封送进小盒，又拿出来。大箱子上还差一个投信口，他想留到明天做。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 3,
+        "zhText": "晚饭做好了。妈妈端着碗绕了两次，还是过不去：“这里挡住路了，要收一下。”",
+        "enText": "Dinner was ready. Mum tried to carry the bowls around the boxes twice, but could not get through. “This is blocking the way. We need to clear some space.”",
+        "illustrationPrompt": "妈妈在被纸箱占据的过道前停下，餐桌在另一边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-11f84978-d0a7-47bf-aaba-2a90c35f501b.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 妈妈在被纸箱占据的过道前停下，餐桌在另一边。. Narrative meaning for composition only; NEVER render words: 晚饭做好了。妈妈端着碗绕了两次，还是过不去：“这里挡住路了，要收一下。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 4,
+        "zhText": "小满张开手臂挡在箱子前：“不能拆！我还没有做完。”",
+        "enText": "Xiaoman spread his arms in front of the box. “Don't take it apart! I haven't finished.”",
+        "illustrationPrompt": "小满护住纸箱，妈妈把碗放到安全桌面再走近。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8b649a28-3877-4585-ba35-7d692ec85256.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 小满护住纸箱，妈妈把碗放到安全桌面再走近。. Narrative meaning for composition only; NEVER render words: 小满张开手臂挡在箱子前：“不能拆！我还没有做完。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 5,
+        "zhText": "妈妈蹲下来：“你想明天接着做。我也需要一条走路不会绊到的路。”",
+        "enText": "Mum crouched down. “You want to carry on tomorrow. I also need a path where nobody will trip.”",
+        "illustrationPrompt": "母子在箱旁平视，狭窄过道及地面纸料可见。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-a3de2950-a4d9-421f-aaed-a0112adc3eaf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 母子在箱旁平视，狭窄过道及地面纸料可见。. Narrative meaning for composition only; NEVER render words: 妈妈蹲下来：“你想明天接着做。我也需要一条走路不会绊到的路。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 6,
+        "zhText": "小满看看箱子后面：“移到沙发上呢？”妈妈摇头：“那里晚上也要坐人。”",
+        "enText": "Xiaoman looked behind the boxes. “Can it go on the sofa?” Mum shook her head. “We need to sit there this evening.”",
+        "illustrationPrompt": "小满指向沙发，妈妈示意沙发座位需要保留。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5dd29a4c-248a-4a31-9138-091bf3085d6a.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 小满指向沙发，妈妈示意沙发座位需要保留。. Narrative meaning for composition only; NEVER render words: 小满看看箱子后面：“移到沙发上呢？”妈妈摇头：“那里晚上也要坐人。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 7,
+        "zhText": "他们沿着客厅走了一圈。靠墙有一小块空地，不挡门，也不挡柜子。",
+        "enText": "They walked around the room together. There was a little empty space by the wall, away from the door and the cupboard.",
+        "illustrationPrompt": "母子查看靠墙空位，门口和柜门前通路保持开阔。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-d5d35fb1-6840-4239-a903-0f5761ae629a.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 母子查看靠墙空位，门口和柜门前通路保持开阔。. Narrative meaning for composition only; NEVER render words: 他们沿着客厅走了一圈。靠墙有一小块空地，不挡门，也不挡柜子。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The big cardboard box has NO front mail slot until page 14. Keep it as an unfinished box, not a finished toy building or painted postbox.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 8,
+        "zhText": "“邮局放得下吗？”小满拖来一个小盒比了比，大箱子还伸出去一截。",
+        "enText": "“Will the post office fit?” Xiaoman brought a small box to check. The big one still stuck out a little.",
+        "illustrationPrompt": "小盒靠墙，大箱边缘超出空位，小满蹲下观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-561a2573-713c-42d0-aa2b-75a868d2996c.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 小盒靠墙，大箱边缘超出空位，小满蹲下观察。. Narrative meaning for composition only; NEVER render words: “邮局放得下吗？”小满拖来一个小盒比了比，大箱子还伸出去一截。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The big cardboard box has NO front mail slot until page 14. Keep it as an unfinished box, not a finished toy building or painted postbox.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 9,
+        "zhText": "妈妈问：“你最想留下哪一部分？”小满拍拍大箱：“投信口还要开在这里。”",
+        "enText": "Mum asked, “Which part do you most want to keep?” Xiaoman patted the big box. “The letter slot is going here.”",
+        "illustrationPrompt": "小满拍大箱正面，两个小盒在旁，妈妈听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f40cd9bf-f33b-4809-8a7a-470293d74d45.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 小满拍大箱正面，两个小盒在旁，妈妈听。. Narrative meaning for composition only; NEVER render words: 妈妈问：“你最想留下哪一部分？”小满拍拍大箱：“投信口还要开在这里。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The big cardboard box has NO front mail slot until page 14. Keep it as an unfinished box, not a finished toy building or painted postbox.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 10,
+        "zhText": "两个小盒可以收进大箱里。小满先取出信封，妈妈帮他把空箱转了个方向。",
+        "enText": "The two small boxes could go inside the big one. Xiaoman took out the envelopes first. Mum helped him turn the empty box around.",
+        "illustrationPrompt": "妈妈转动空大箱，小满把两小盒嵌入其中，信封在手上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-488cee75-9185-4049-9da6-76232632e9a3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《我的纸箱明天再拆》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 小满，5 岁，短黑发、砖红条纹上衣、藏青裤；妈妈，短卷发、浅灰上衣。道具为一个大纸箱、两个小纸盒、牛皮纸信封、纸胶带；纸箱无订钉，所有切割由成人完成。. THIS PAGE SCENE: 妈妈转动空大箱，小满把两小盒嵌入其中，信封在手上。. Narrative meaning for composition only; NEVER render words: 两个小盒可以收进大箱里。小满先取出信封，妈妈帮他把空箱转了个方向。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The big cardboard box has NO front mail slot until page 14. Keep it as an unfinished box, not a finished toy building or painted postbox.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png"
+      },
+      {
+        "page": 11,
+        "zhText": "这下放得下了。大箱靠着墙，前面留出一条宽宽的路，小满走过去试了一次。",
+        "enText": "Now it fitted. The big box stood against the wall, with a wide path in front. Xiaoman walked along the path to try it.",
+        "illustrationPrompt": "纸箱邮局靠墙，通往餐桌的过道畅通，小满沿路行走。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bc658119-ba34-4dc4-92fb-f83202b38168.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes, setting and warm watercolor/gouache. Correct only this stage: The two small boxes were nested INSIDE the big box on previous page. Put both small boxes inside the big box, not lined along the walkway. The big box alone rests against wall and child walks along the now-wide clear passage. No text, letters, numbers, speech bubbles, logos, watermark, duplicate people or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7fcace6d-e361-462c-a997-d1daf028421a.png"
+      },
+      {
+        "page": 12,
+        "zhText": "“能留到什么时候？”妈妈问。“明天点心后，我把投信口做好，再收剩下的纸。”",
+        "enText": "“How long shall we keep it here?” Mum asked. “Tomorrow after our snack, I'll finish the slot and tidy the leftover paper.”",
+        "illustrationPrompt": "母子在靠墙邮局旁商量，碎纸和胶带集中在材料篮中。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-25f1bdc5-f9e2-4df1-928d-ee45b2fabc51.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Two small boxes must already be INSIDE the big box after consolidation on page 10. Move both into big box. Keep basket beside the big box as this scene has it, clear floor outside. No mail slot yet. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c6e4f13d-c751-46e6-8aca-d3daf307400a.png"
+      },
+      {
+        "page": 13,
+        "zhText": "他们把胶带和纸放进篮子。小满给邮局留下一封信，才坐到餐桌边。",
+        "enText": "They put the tape and paper into a basket. Xiaoman left one letter at the post office, then went to the dining table.",
+        "illustrationPrompt": "材料篮放在箱内，单个信封放箱上，小满走向餐桌。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4681c58c-4c1d-4c46-8731-55a0cbd0f1ea.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothing, watercolor/gouache material and setting. Make only this correction: Move the two small boxes INSIDE the big box; no small boxes outside. Basket of supplies is also placed inside big box. One envelope left at post office; child goes to dinner with clear walkway. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-cf1ce66b-c08b-48b0-9a96-d0f94989afd3.png"
+      },
+      {
+        "page": 14,
+        "zhText": "第二天下午，妈妈按小满画的位置开了一个口。他扶着箱子另一边，离工具远远的。",
+        "enText": "The next afternoon, Mum cut a slot where Xiaoman had marked it. He held the other side of the box, well away from the tool.",
+        "illustrationPrompt": "成人独自切割正面投信口，孩子站在无工具的另一侧，切割由成人控制。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-24376171-030e-4932-8bb0-c0898c41f3c6.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Mum cuts ONLY a NARROW HORIZONTAL letter slot in the FRONT upper half, roughly 18 cm wide and 2 cm tall, not a huge door. Box remains OPEN-TOP with two small boxes nested inside. Child stands at OPPOSITE side far from blade. Mum's supporting hand stays far from blade and outside cut path. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-3636d7d8-d516-42ae-a344-4073e79ea5ba.png"
+      },
+      {
+        "page": 15,
+        "zhText": "小满把一封信送进去，从箱子侧面的开口取出来。“现在两边都能用了。”",
+        "enText": "Xiaoman put a letter through the slot and took it out of the opening in the side. “Now both sides work.”",
+        "illustrationPrompt": "小满操作前方投信口与侧面既有开口，同一信封传递。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c8b7de3f-5dda-4ff0-926a-172cc3bc57b5.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Use same OPEN-TOP big box after page 14: ONE narrow horizontal mail slot on the FRONT, ONE small existing oval carry-handle opening on SIDE for retrieval, NOT closed-top new box with a top slot or big square door. Child inserts ONE envelope into narrow FRONT slot, Mum helps return it through oval side handle opening. No duplicate envelopes representing the same letter at two points simultaneously. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0eee0060-fffa-42bb-8734-8c96a64bc638.png"
+      },
+      {
+        "page": 16,
+        "zhText": "妈妈也投来一封。小满把它递回去，邮局里来来回回忙了一小阵。",
+        "enText": "Mum posted a letter too. Xiaoman handed it back. For a little while, letters kept coming and going.",
+        "illustrationPrompt": "母子分站箱子两侧玩送信游戏，地面通路清晰。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-f8733f1f-ba20-46a0-a20e-7c5af74cd967.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Retain completed OPEN-TOP post-office box with ONE narrow horizontal FRONT mail slot and one small oval SIDE retrieval opening. Add missing front slot visibly. Two small boxes remain inside. Mother posts and child returns ONE envelope in a natural single moment, no multiple duplicate envelopes in hands. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-c634392e-38f9-4fcd-875d-1323cc767ab2.png"
+      },
+      {
+        "page": 17,
+        "zhText": "点心后，小满把碎纸放好。“我还想再留一天。”妈妈和他看看墙边，又约好明晚整理。",
+        "enText": "After their snack, Xiaoman gathered the scraps. “I'd like to keep it one more day.” Mum looked at the space with him, and they agreed to check it again tomorrow evening.",
+        "illustrationPrompt": "小满整理废纸，母子查看占用的靠墙区域并商量新期限。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-8dfcde95-ac0a-44a3-858e-74b4860e826f.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve characters, faces, hair, clothes and watercolor/gouache style. Make only this precise correction, recomposing only when required: Post office is finished after page 14, so retain the FRONT mail slot and the SIDE retrieval opening on the same big box. Child tidies loose paper nearby with Mum, while two small boxes remain inside. Do not revert the finished mail box to a blank unfinished box. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-08cb1623-a3b2-4597-98ec-9ea700fa0c0d.png"
+      },
+      {
+        "page": 18,
+        "zhText": "睡前经过客厅，小满没有护住整个房间。他摸了摸墙边的邮局，给走路的人留着一条小路。",
+        "enText": "On his way to bed, Xiaoman did not guard the whole room. He touched the post office by the wall. There was still a little path for everyone to walk through.",
+        "illustrationPrompt": "夜间客厅，纸箱邮局整齐靠墙，宽过道从前景通向门口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-74f3a494-0fd5-4903-8c0d-5e4d1e1d1d54.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Retain completed OPEN-TOP post-office box with ONE narrow horizontal FRONT mail slot and small oval SIDE carry-handle retrieval opening. Add missing front slot visibly on big box wall. Two small boxes stay inside. Night-time corner against wall with WIDE empty walking path, child gently touches box before bed. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0430ff0d-036f-47cc-a0b3-5b29e698470f.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5faebdc8-d27b-476c-be9a-8bf227cc9ffb.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "把作品保留和家庭通行需求一起说清楚，协商位置、范围和复查时间。",
+      "reminder": "不突然拆掉作品，也不把所有公共空间无限期让给作品；期限可以再协商，不把毁掉作品当作惩罚。纸箱切割由成人完成。",
+      "questions": [
+        "小满想留下什么，妈妈需要什么？",
+        "他们做了哪些变化，才让邮局放得下？",
+        "你有哪件没做完的东西，需要一起找个位置？"
+      ],
+      "activity": "用纸胶带标出一小块作品暂存区，和孩子约一个一起查看的时间，挑选要保留的关键部分。",
+      "ageTips": {
+        "age4to5": "成人提供两个实际可用的位置，帮助移动，不要求孩子自己处理大箱子。",
+        "age6to8": "让孩子量一量或用步子比较空间，共同写下复查日期。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 19,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子相处",
+        "家庭空间协商与尊重未完成作品"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  }
+}

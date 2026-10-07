@@ -1,0 +1,168 @@
+{
+  "status": "reviewed",
+  "reviewedAt": "2026-10-07",
+  "method": "All 180 pages inspected in numbered contact sheets; revised pages checked again after targeted edits.",
+  "books": [
+    {
+      "id": "bu-he-biao-ge-bi-kuai",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        4,
+        17
+      ]
+    },
+    {
+      "id": "zhe-zhang-zhao-pian-xian-wen-wen-wo",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        4,
+        12,
+        13,
+        18
+      ]
+    },
+    {
+      "id": "wo-de-zhi-xiang-ming-tian-zai-chai",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "ba-ba-ye-you-bu-hui-de-shi-hou",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        14
+      ]
+    },
+    {
+      "id": "wai-gong-zou-de-man-yi-dian",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": []
+    },
+    {
+      "id": "xie-dai-rao-guo-xiao-shan-qiu",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        3,
+        9,
+        17
+      ]
+    },
+    {
+      "id": "kuai-zi-jia-zhu-xiao-tuan-zi",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        1,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "jian-dao-yan-zhe-xiao-lu-zou",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        1,
+        6,
+        7,
+        8,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "hua-pen-li-de-yi-ke-dou",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "feng-zheng-deng-yi-zhen-feng",
+      "pages": 18,
+      "checked": [
+        "character-and-outfit-consistency",
+        "story-stage-and-props",
+        "no-readable-text-or-watermarks",
+        "age-appropriate-actions"
+      ],
+      "correctedPages": [
+        3,
+        5,
+        6,
+        8,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18
+      ]
+    }
+  ]
+}

@@ -4,7 +4,10 @@ import path from "node:path";
 import sharp from "sharp";
 
 async function main() {
-  const batch = path.resolve("content-drafts/qinzi/batch-07-16");
+  const batchIndex = process.argv.indexOf("--batch");
+  const batchName = batchIndex < 0 ? "batch-07-16" : (process.argv[batchIndex + 1] ?? "");
+  if (!/^batch-\d+-\d+$/.test(batchName)) throw new Error("Invalid --batch directory");
+  const batch = path.resolve("content-drafts/qinzi", batchName);
   const plan = JSON.parse(await readFile(path.join(batch, "plan.json"), "utf8"));
   const partial = process.argv.includes("--partial");
   const selectedIndex = process.argv.indexOf("--book");

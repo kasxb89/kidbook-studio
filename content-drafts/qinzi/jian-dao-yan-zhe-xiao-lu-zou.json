@@ -1,0 +1,260 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved Chinese text, bilingual pages, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery",
+    "characterReferenceSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+  },
+  "book": {
+    "id": "jian-dao-yan-zhe-xiao-lu-zou",
+    "seriesId": "sanzijing",
+    "title": "剪刀沿着小路走",
+    "subtitle": "每剪一点，纸也转一点",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "朵朵画了一条宽宽的弯路。蓝纸小车等在旁边，她想把路剪下来，铺到桌上。",
+        "enText": "Duoduo drew a wide, winding road. A blue paper car waited beside it. She wanted to cut out the road and lay it on the table.",
+        "illustrationPrompt": "桌上淡黄纸有粗蓝宽弯线，单辆蓝纸车在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-2bf40a0f-120f-453a-a7b8-b6c4844757c6.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the same faces, hair, clothes, warm watercolor/gouache material and setting. Make the precise narrative correction below. One depiction of each person. No text, letters, numbers, panels, speech bubbles, logo or watermark. This is BEFORE scissors are introduced. Remove scissors entirely from this opening scene and replace the object in girl's hand with a blue drawing crayon. Paper road is drawn but COMPLETELY UNCUT. Girl has just drawn the wide curved road and looks at it. Replace solid blue toy car with ONE small hand-folded blue PAPER car with visible creases and flat paper wheel drawings. No wooden/plastic car. Mum may quietly watch.\n",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 2,
+        "zhText": "妈妈拿来圆头儿童剪刀，先和她坐好：“剪的时候看着这里，拿纸的手离刀口远一点。”",
+        "enText": "Mum brought her round-tipped children's scissors and sat down with her. “Watch where you're cutting. Keep the hand holding the paper away from the blades.”",
+        "illustrationPrompt": "母女坐桌前，妈妈指示安全手位，剪刀闭合放纸侧。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-12325c13-39af-4d74-a3fc-d053ca638cfb.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 母女坐桌前，妈妈指示安全手位，剪刀闭合放纸侧。. Narrative meaning for composition only; NEVER render words: 妈妈拿来圆头儿童剪刀，先和她坐好：“剪的时候看着这里，拿纸的手离刀口远一点。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 3,
+        "zhText": "朵朵把手指放好，剪刀张开又合拢。咔嚓，纸边多了一个小口子。",
+        "enText": "Duoduo placed her fingers in the handles and opened and closed the scissors. Snip! A little cut appeared at the edge of the paper.",
+        "illustrationPrompt": "近景适龄剪刀从纸边剪入一小口，另一手远离刀口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-ea362683-cea5-4496-ab74-b8dd96546fe7.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 近景适龄剪刀从纸边剪入一小口，另一手远离刀口。. Narrative meaning for composition only; NEVER render words: 朵朵把手指放好，剪刀张开又合拢。咔嚓，纸边多了一个小口子。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 4,
+        "zhText": "她急着往前推，纸皱起来，剪刀没有再走。“我想一下到那里。”她指着弯处。",
+        "enText": "She hurried to push forward. The paper crumpled and the scissors stopped. “I want to get all the way there.” She pointed at the bend.",
+        "illustrationPrompt": "剪刀停在皱纸处，朵朵指向远弯，刀口闭合。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-abaaad45-d221-4d11-9f66-9d56193e55b3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 剪刀停在皱纸处，朵朵指向远弯，刀口闭合。. Narrative meaning for composition only; NEVER render words: 她急着往前推，纸皱起来，剪刀没有再走。“我想一下到那里。”她指着弯处。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 5,
+        "zhText": "妈妈把一小条纸放近：“先剪这个短短的直路，张开一点，剪一点。”",
+        "enText": "Mum brought a small strip closer. “Try this short, straight road first. Open a little, then cut a little.”",
+        "illustrationPrompt": "新短纸条有直线，原弯路纸与蓝纸车保留旁边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7ba64f25-4700-4545-9660-a54359cd4d95.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 新短纸条有直线，原弯路纸与蓝纸车保留旁边。. Narrative meaning for composition only; NEVER render words: 妈妈把一小条纸放近：“先剪这个短短的直路，张开一点，剪一点。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 6,
+        "zhText": "咔嚓，咔嚓。朵朵每次只剪一小口，直纸条慢慢分成了两边。",
+        "enText": "Snip, snip. Duoduo cut a little at a time. Slowly, the straight strip separated into two pieces.",
+        "illustrationPrompt": "朵朵用小幅开合沿短直线剪，拿纸手远离刀口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0350b9ea-3096-4210-b81b-43fed71107ee.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: This page finishes the SHORT STRAIGHT practice cut. Replace curved paper being cut with a short narrow rectangle bearing ONE straight blue line. Child cuts along that straight line into two short straight strips. The big curved-road sheet remains COMPLETELY UNcut nearby. Paper car remains folded blue paper, not a solid toy. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6788f527-3c74-4d9e-ae95-b3b3e6f02dfc.png"
+      },
+      {
+        "page": 7,
+        "zhText": "剪到最后，纸条轻轻落下来。她看看两个边：“这里还有小牙齿。”",
+        "enText": "At the end, the strip dropped softly. She looked at the edges. “There are little teeth here.”",
+        "illustrationPrompt": "两半短纸条放桌面，剪口略有毛边小缺口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6c12d62a-f8c5-4d68-9f78-ab430ba5fc89.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve faces, hairstyles, clothes, watercolor/gouache style and surrounding setting. Change ONLY the practice pieces on the table: exactly TWO short STRAIGHT yellow paper strips with ONE straight blue line each, slight rough edges. No curved/wavy blue line or S-shaped strips. Big winding-road sheet nearby is still completely UNCUT. Girl points to a rough edge of short straight strip, scissors closed on table, same folded blue paper car. No text, letters, numbers, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6afd70fa-0d49-4a5e-aed5-74afa9034ff3.png"
+      },
+      {
+        "page": 8,
+        "zhText": "“它已经分开了。”妈妈说。朵朵把那条小路放好，重新拿起画着弯线的纸。",
+        "enText": "“It's separated now,” Mum said. Duoduo saved the little road and picked up the paper with the curved line again.",
+        "illustrationPrompt": "朵朵保留试剪纸条，重新摆正主画纸，妈妈等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-3274cd2a-4a47-4d49-a4d0-61023d47ac53.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact characters, hair, clothing, warm watercolor/gouache material and setting. Make only this narrative correction: Child holds a completed curved road too early. Child should save the short straight practice strip and pick up the main UNcut curved-road sheet. No cut-out curved road until page 15. One depiction of each person. No text, numbers, letters, captions, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-5e76ea06-3e47-476b-83ff-1eb55b612624.png"
+      },
+      {
+        "page": 9,
+        "zhText": "剪刀走到弯处，还是想一直往前。朵朵停下来：“它不会自己拐弯。”",
+        "enText": "At the bend, the scissors still wanted to go straight ahead. Duoduo stopped. “They don't turn by themselves.”",
+        "illustrationPrompt": "剪刀停在主纸弯道起点，蓝线继续向一侧弯。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-47afdc03-3acb-4168-9df1-7522fb4cdc80.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 剪刀停在主纸弯道起点，蓝线继续向一侧弯。. Narrative meaning for composition only; NEVER render words: 剪刀走到弯处，还是想一直往前。朵朵停下来：“它不会自己拐弯。”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The blue car is a small handmade FOLDED PAPER car, with visible creases and flat paper wheel drawings, NOT a solid wooden/plastic toy. There are only two scissors if adult uses her own demonstration scissors in this scene; otherwise one pair.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 10,
+        "zhText": "妈妈用自己的纸示范，剪一点，停一下，拿纸的手把纸慢慢转过来。",
+        "enText": "Mum showed her on her own paper. Cut a little, pause, then slowly turn the paper with the hand holding it.",
+        "illustrationPrompt": "妈妈使用自己一张示范纸与剪刀，展示转纸，朵朵观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-dc87d29b-0186-4b18-b955-d96eed4e5a6f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 妈妈使用自己一张示范纸与剪刀，展示转纸，朵朵观察。. Narrative meaning for composition only; NEVER render words: 妈妈用自己的纸示范，剪一点，停一下，拿纸的手把纸慢慢转过来。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The blue car is a small handmade FOLDED PAPER car, with visible creases and flat paper wheel drawings, NOT a solid wooden/plastic toy. There are only two scissors if adult uses her own demonstration scissors in this scene; otherwise one pair.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 11,
+        "zhText": "朵朵把剪刀停住，先让纸转一点。那条弯线又来到了刀口前面。",
+        "enText": "Duoduo stopped the scissors and turned the paper a little first. The curved line came back in front of the blades.",
+        "illustrationPrompt": "朵朵刀口闭合，另一手从远处转动纸，弯线对准刀口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-0e6374fe-accd-454a-8aec-525be1a81522.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 朵朵刀口闭合，另一手从远处转动纸，弯线对准刀口。. Narrative meaning for composition only; NEVER render words: 朵朵把剪刀停住，先让纸转一点。那条弯线又来到了刀口前面。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The blue car is a small handmade FOLDED PAPER car, with visible creases and flat paper wheel drawings, NOT a solid wooden/plastic toy. There are only two scissors if adult uses her own demonstration scissors in this scene; otherwise one pair.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 12,
+        "zhText": "她剪一小口，再转一点。路没有整整齐齐，却开始跟着那条弯线往旁边走。",
+        "enText": "She cut a little and turned a little. The edge was not perfectly smooth, but it began following the curve to the side.",
+        "illustrationPrompt": "主纸沿宽弯线形成粗糙弧边，纸转动轨迹清晰。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-dc3d37c1-4232-43a2-9afc-5365f9057f34.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 主纸沿宽弯线形成粗糙弧边，纸转动轨迹清晰。. Narrative meaning for composition only; NEVER render words: 她剪一小口，再转一点。路没有整整齐齐，却开始跟着那条弯线往旁边走。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The blue car is a small handmade FOLDED PAPER car, with visible creases and flat paper wheel drawings, NOT a solid wooden/plastic toy. There are only two scissors if adult uses her own demonstration scissors in this scene; otherwise one pair.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 13,
+        "zhText": "转得太多，一小块路边剪掉了。朵朵看看那个缺口，把剪刀放在桌上。",
+        "enText": "She turned too far and cut a little notch in the road's edge. Duoduo looked at the notch and put the scissors on the table.",
+        "illustrationPrompt": "纸路一侧出现小缺口，剪刀闭合置桌。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-4e3df9eb-f21c-4b32-8b47-bcbcec6bcbba.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 纸路一侧出现小缺口，剪刀闭合置桌。. Narrative meaning for composition only; NEVER render words: 转得太多，一小块路边剪掉了。朵朵看看那个缺口，把剪刀放在桌上。. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The blue car is a small handmade FOLDED PAPER car, with visible creases and flat paper wheel drawings, NOT a solid wooden/plastic toy. There are only two scissors if adult uses her own demonstration scissors in this scene; otherwise one pair.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 14,
+        "zhText": "“我的路破了。”她说。妈妈问：“你想从这里继续，还是今天先留着？”",
+        "enText": "“My road is torn,” she said. Mum asked, “Would you like to carry on from here, or leave it for today?”",
+        "illustrationPrompt": "朵朵指着缺口，妈妈提供选择，不代剪。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-cd932e85-ed39-4c42-b8e4-a835e33e365f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve character identity, hair, clothes and watercolor material, but RECOMPOSE THIS SCENE FROM SCRATCH with a different camera angle appropriate to the scene. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《剪刀沿着小路走》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER AND PROP LOCK: 朵朵，5 岁，齐耳短发、珊瑚粉开衫、奶白长裤；妈妈，浅绿外套、齐肩黑发。道具为适龄圆头儿童剪刀、淡黄纸、粗蓝色宽弯线和一辆事先折好的蓝纸小车。无车载文字，练习坐在桌前。. THIS PAGE SCENE: 朵朵指着缺口，妈妈提供选择，不代剪。. Narrative meaning for composition only; NEVER render words: “我的路破了。”她说。妈妈问：“你想从这里继续，还是今天先留着？”. Show only characters participating in THIS EXACT SCENE, not every named character. Respect this precise story stage; do not show later finished objects early. One depiction of each person, natural anatomy and physically plausible hands and actions. Consistent face, hair, clothes and key prop colours. Do not copy incidental props from a reference scene. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Never duplicate the same physical prop: there is only ONE green paper hat, ONE harmonica, ONE blue train, and exactly TWO blue shoes when those props occur. If the child holds the hat, there is NO second hat on the table or head. Blank flat smartphone backs; phones appear only in scenes that state a phone. Remove unrelated objects from the reference composition. The named scene is the only action to illustrate. The blue car is a small handmade FOLDED PAPER car, with visible creases and flat paper wheel drawings, NOT a solid wooden/plastic toy. There are only two scissors if adult uses her own demonstration scissors in this scene; otherwise one pair.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png"
+      },
+      {
+        "page": 15,
+        "zhText": "朵朵摸摸纸边：“继续。这边还很宽。”她慢慢剪完剩下的路，才放好剪刀。",
+        "enText": "Duoduo touched the edge. “I'll carry on. It's still wide here.” She slowly finished the road, then put the scissors away.",
+        "illustrationPrompt": "朵朵沿剩余宽线完成剪切，路保持连通，剪刀随后闭合。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-6a6911fb-e045-48b0-afca-08462c517ef9.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Show ACTUAL cutting OUT of a continuous wide winding paper ROAD STRIP, 8–10 cm wide, from the yellow sheet, with blue road line down its center. Most of strip is cut free already, child makes final short snip at far end while holding paper FAR from blade. There is a small notch along one SIDE of strip, but road remains connected. Do not show a mostly uncut rectangular sheet. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-e58fce0e-418e-44ec-958a-35c3424acaff.png"
+      },
+      {
+        "page": 16,
+        "zhText": "蓝纸小车从直处走到弯处，经过那个缺口时，朵朵轻轻把它往里挪了挪。",
+        "enText": "The blue paper car went from the straight part to the bend. At the notch, Duoduo gently moved it a little farther in.",
+        "illustrationPrompt": "蓝纸车在完成的连续纸路上，绕过边缘缺口，无新汽车。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-eb4998de-365c-443a-a203-25356640d1b4.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Replace large rectangular paper sheet with a separate continuous CUT-OUT wide yellow winding ROAD STRIP, 8–10 cm wide, following same gentle blue curve, with exposed wooden tabletop around BOTH sides. Keep small edge notch without splitting road. Child moves the folded blue PAPER car along strip, scissors already PUT AWAY and absent. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-7ee45990-f438-471e-a8d5-89659afaf29f.png"
+      },
+      {
+        "page": 17,
+        "zhText": "她用剩下的纸画了一棵树，先不剪：“明天，我还想练一个更缓的弯。”",
+        "enText": "She drew a tree on some leftover paper but did not cut it yet. “Tomorrow, I'd like to try a gentler curve.”",
+        "illustrationPrompt": "桌上纸路与纸车，朵朵在另一纸片画简单树，剪刀收起。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-38cd776e-772e-4722-962c-57d75e986659.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve exact faces, hair, clothes, warm watercolor/gouache style and setting. Correct only this precise story stage; recompose objects when necessary: Keep separate cut-out yellow winding ROAD STRIP with small side notch, exposed table around both sides, and ONE folded blue paper car on it. No large rectangular road sheet. Child draws simple tree on separate leftover sheet, no cutting tools visible. One depiction per person. No text, letters, numbers, captions, panels, floating symbols, speech bubbles, logos or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-dad5c7ee-40fa-46fd-b377-577b712ecc01.png"
+      },
+      {
+        "page": 18,
+        "zhText": "收好碎纸，朵朵把弯路铺回桌面。小车绕了一圈，她也记住了：纸，可以跟着手慢慢转。",
+        "enText": "After tidying the scraps, Duoduo laid out the road again. The car made a trip around it. She remembered too: her hand could slowly turn the paper.",
+        "illustrationPrompt": "整洁桌面摆纸路和蓝纸车，母女看完成作品，工具已收纳。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-fe912720-e965-418f-be75-0f34d6715833.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Preserve faces, hairstyles, clothes, watercolor/gouache style and surrounding setting. Add ONE clearly visible continuous BLUE centre line following the gentle winding CUT-OUT yellow road strip, matching prior pages. Keep exposed wood on BOTH sides, same paper car and characters, tidy table. No other change. No text, letters, numbers, speech bubbles, logos, watermark or panels.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-bbccca68-bba5-421e-ba38-5f411a141deb.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a113dd-2507-7262-8b52-2300624b701c/exec-470d2eb8-ff2b-45a7-a7ad-da12d4214181.png"
+      }
+    ],
+    "parentGuide": {
+      "goal": "练习小幅开合和转纸，感受双手在不同动作中的配合。",
+      "reminder": "成人近旁监督，使用适龄圆头剪刀并按惯用手选择；孩子坐稳，只剪纸，另一手远离刀口。不边走边剪，传递前闭合刀口，由成人保管。",
+      "questions": [
+        "弯路为什么不能一直往前剪？",
+        "朵朵后来哪只手多做了一个动作？",
+        "路边有缺口时，她怎么决定继续？"
+      ],
+      "activity": "成人画短直线和宽缓弯线，先试一小段；孩子愿意时再转纸剪弯，把不规则纸条用作道路。",
+      "ageTips": {
+        "age4to5": "可先练剪开宽纸条或撕纸，成人帮助稳住远离刀口的纸边。",
+        "age6to8": "尝试比较两种缓弯线，描述转纸时什么角度更顺手。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-07",
+    "order": 24,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会新本领",
+        "儿童剪刀与双手协作"
+      ],
+      "estimatedMinutes": 3
+    },
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  }
+}

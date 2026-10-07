@@ -1,0 +1,256 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "men-kou-de-zai-jian-xiao-yi-shi",
+    "seriesId": "sanzijing",
+    "title": "门口的再见小仪式",
+    "subtitle": "想念可以跟着我一起走进去",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "用稳定可预测的告别支持分别，并接纳孩子反复出现的想念。",
+      "reminder": "不把不哭当作成功标准，不偷偷离开；接送承诺按实际安排表达，持续明显不适时与老师共同调整支持。",
+      "questions": [
+        "朵朵进门以后，谁陪着她？",
+        "她想妈妈的时候做了什么？",
+        "我们的再见仪式可以有哪些小动作？"
+      ],
+      "activity": "选两三个简短动作，练习一次告别；与照护者约好接应方式，用孩子能理解的生活节点说明重见时间。",
+      "ageTips": {
+        "age4to5": "使用点心后等生活节点，允许抱抱和哭泣。",
+        "age6to8": "让孩子选择进门后的第一件事，放学后听感受，不考核告别表现。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 8,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子关系",
+        "入园分别与稳定的告别"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "幼儿园门口有一棵桂花树。每天走到树下，朵朵的脚步就慢了下来。",
+        "enText": "An osmanthus tree grew by the kindergarten gate. Every morning, Duoduo slowed down when she reached it.",
+        "illustrationPrompt": "清晨幼儿园门口，桂花树下朵朵拉着妈妈的手，脚步放缓。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 清晨幼儿园门口，桂花树下朵朵拉着妈妈的手，脚步放缓。. Narrative meaning for composition only; never render words: 幼儿园门口有一棵桂花树。每天走到树下，朵朵的脚步就慢了下来。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book."
+      },
+      {
+        "page": 2,
+        "zhText": "别的小朋友背着书包走进去了。朵朵把妈妈的手攥得更紧：“今天可以陪我进去吗？”",
+        "enText": "Other children walked inside with their backpacks. Duoduo held Mama's hand more tightly. ‘Can you come in with me today?’",
+        "illustrationPrompt": "朵朵紧握妈妈的手，其他孩子在老师接应下走向教室。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3a81926f-268f-48d0-ba5f-725a47fb828b.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵紧握妈妈的手，其他孩子在老师接应下走向教室。. Narrative meaning for composition only; never render words: 别的小朋友背着书包走进去了。朵朵把妈妈的手攥得更紧：“今天可以陪我进去吗？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 3,
+        "zhText": "妈妈蹲下来：“你还想和我待在一起。”朵朵点点头，眼泪落在了开衫上。",
+        "enText": "Mama crouched down. ‘You wish we could stay together a little longer.’ Duoduo nodded, and tears fell onto her cardigan.",
+        "illustrationPrompt": "妈妈蹲下听孩子说话，朵朵流泪，背景保持安静温和。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cf76dc49-625a-439d-b6e8-d5db89b9761c.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Add clearly visible small tears on Duoduo's cheeks and coral cardigan; her mouth is closed and sad. Mama crouches at eye level and listens gently. Keep the same gate, yellow backpack and duck charm.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fec4f2d4-487a-46e6-b1e3-8eb77d281284.png"
+      },
+      {
+        "page": 4,
+        "zhText": "老师走过来，没有拉她的手。“昨天的小桥还在窗边。你准备好了，我陪你去看看。”",
+        "enText": "Her teacher came over without taking her hand. ‘Yesterday's little bridge is still by the window. When you're ready, I'll go and look with you.’",
+        "illustrationPrompt": "老师站在适当距离指向窗边，朵朵仍和妈妈牵手。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1271c830-df4c-48be-93a9-ca3b4be4abca.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 老师站在适当距离指向窗边，朵朵仍和妈妈牵手。. Narrative meaning for composition only; never render words: 老师走过来，没有拉她的手。“昨天的小桥还在窗边。你准备好了，我陪你去看看。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 5,
+        "zhText": "妈妈说：“今天我送到门口，下午点心以后来接你。老师会在这里陪你。”",
+        "enText": "‘Today I'll say goodbye at the gate,’ Mama said. ‘I'll come back after your afternoon snack. Your teacher will stay with you here.’",
+        "illustrationPrompt": "妈妈明确说明接送安排，老师在旁等待，窗里能看见小桥。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-8110478d-888e-4885-9bb1-c57c1aea179e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈明确说明接送安排，老师在旁等待，窗里能看见小桥。. Narrative meaning for composition only; never render words: 妈妈说：“今天我送到门口，下午点心以后来接你。老师会在这里陪你。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 6,
+        "zhText": "“再抱一次。”朵朵说。妈妈张开手臂，把她轻轻抱住。书包上的小鸭子挤在中间。",
+        "enText": "‘One more hug,’ Duoduo said. Mama opened her arms and gently held her. The little duck on her backpack nestled between them.",
+        "illustrationPrompt": "母女在门口拥抱，黄色书包上的小鸭挂件露在两人之间。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-f081a7b2-640d-4fd2-a68a-51b9f9761d72.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 母女在门口拥抱，黄色书包上的小鸭挂件露在两人之间。. Narrative meaning for composition only; never render words: “再抱一次。”朵朵说。妈妈张开手臂，把她轻轻抱住。书包上的小鸭子挤在中间。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 7,
+        "zhText": "她们一起商量：抱一下，碰一下手心，再挥挥手。三件小事，做完就说再见。",
+        "enText": "Together, they made a plan: one hug, one palm-to-palm touch, and one wave. After those three little things, they would say goodbye.",
+        "illustrationPrompt": "母女练习碰手心，老师微笑等待，不出现编号或文字。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ca1dcae3-c4be-4eec-bd8c-1732450e019c.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Duoduo touches palms with MAMA in the sage-green jacket, NOT the teacher. Mama crouches facing child and raises one palm; child raises her matching palm. Teacher in blue apron waits nearby with hands resting on knees, not touching child's palms. Keep same gate and characters.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-42e4bf93-e4cf-45c5-92f7-d526d5b18988.png"
+      },
+      {
+        "page": 8,
+        "zhText": "朵朵挥了手，又想追上去。老师蹲到她身边：“你想妈妈了。我们可以在这里站一会儿。”",
+        "enText": "Duoduo waved, then wanted to run after Mama. Her teacher crouched beside her. ‘You're missing Mama. We can stand here for a little while.’",
+        "illustrationPrompt": "妈妈已走向园外，老师蹲在朵朵身旁，孩子朝门口望。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a4cd19bb-55b6-40dc-a9cd-d790d9668135.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈已走向园外，老师蹲在朵朵身旁，孩子朝门口望。. Narrative meaning for composition only; never render words: 朵朵挥了手，又想追上去。老师蹲到她身边：“你想妈妈了。我们可以在这里站一会儿。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 9,
+        "zhText": "妈妈在约好的地方回头挥手，然后继续往前走。她没有偷偷消失，也没有一次次折回来。",
+        "enText": "Mama turned to wave from their agreed spot, then kept walking. She did not slip away secretly or keep coming back.",
+        "illustrationPrompt": "园外固定位置的妈妈回头挥手，老师和朵朵仍在门内。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-f0913ef0-cda1-4a0e-9822-4dfcb9fcebf3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 园外固定位置的妈妈回头挥手，老师和朵朵仍在门内。. Narrative meaning for composition only; never render words: 妈妈在约好的地方回头挥手，然后继续往前走。她没有偷偷消失，也没有一次次折回来。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 10,
+        "zhText": "朵朵的眼泪还没有停。老师陪她坐在窗边，递来纸巾。那座小桥就放在旁边。",
+        "enText": "Duoduo was still crying. Her teacher sat with her by the window and offered a tissue. The little bridge stood nearby.",
+        "illustrationPrompt": "老师和朵朵坐在窗边矮凳上，纸巾及木头小桥在近处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-31637e19-84da-4bf5-8075-323e94870180.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 老师和朵朵坐在窗边矮凳上，纸巾及木头小桥在近处。. Narrative meaning for composition only; never render words: 朵朵的眼泪还没有停。老师陪她坐在窗边，递来纸巾。那座小桥就放在旁边。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 11,
+        "zhText": "一辆木头小车滑过桥面。朵朵伸出手，在桥的另一头接住它。",
+        "enText": "A wooden car rolled over the bridge. Duoduo reached out and caught it at the other end.",
+        "illustrationPrompt": "朵朵一只手接住从桥上滑下的木头小车，脸上仍带泪痕。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-55107eee-3952-4553-a83f-d1ea6c8a62f7.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Redraw the play setting as INSIDE a kindergarten classroom beside a window. Remove Mama entirely: she has already left. Duoduo and teacher only. The wooden bridge is a SMALL TOY about 25 cm long on a dry low table, NOT a life-size outdoor bridge. Child catches a small wooden car at toy bridge end. No pond, water, stones, vegetation or real bridge on table.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7c0164d6-6274-47e4-9d2e-024af8ff1885.png"
+      },
+      {
+        "page": 12,
+        "zhText": "“这里还缺一条路。”她小声说。老师把积木盒挪近一点：“你想铺到哪里？”",
+        "enText": "‘It needs a road here,’ she whispered. Her teacher moved the blocks closer. ‘Where would you like the road to go?’",
+        "illustrationPrompt": "老师把积木盒推近，朵朵看着桥尾准备接出一条路。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-52162b2d-9096-48cc-b06a-242dc7dd96d0.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Keep only Duoduo and teacher INSIDE the classroom by a window. Use a SMALL wooden toy bridge on a dry low table. Teacher moves a box of plain wooden toy blocks close to the child, who begins adding a short block road to bridge end. No Mama, no real bridge, pond, water, rocks or shrubs on table. Bridge stays a tabletop toy.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-369c892f-36e6-48e9-9366-d86dfec433a8.png"
+      },
+      {
+        "page": 13,
+        "zhText": "路一直铺到了小屋前。朵朵玩了一会儿，又想妈妈了，就请老师陪自己看看窗外。",
+        "enText": "The road reached a little house. Duoduo played for a while, then missed Mama again. She asked her teacher to look out of the window with her.",
+        "illustrationPrompt": "小桥接出积木路通往小屋，朵朵与老师一起看窗外。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e9ea186c-b7a9-494b-bcfc-415fa9907fec.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Keep only Duoduo and teacher INSIDE the classroom looking through a window together. The dry low table nearby has a SMALL toy wooden bridge, a completed short wooden-block road and one toy house. Remove all actual water, garden landscaping, pond and life-size bridges. Classroom shelf and simple toys are fine.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-df162306-007b-44e3-be48-17d74377cc8c.png"
+      },
+      {
+        "page": 14,
+        "zhText": "下午点心吃完，妈妈来了。朵朵跑过去：“我哭了，也搭了一条很长的路！”",
+        "enText": "After the afternoon snack, Mama came back. Duoduo ran over. ‘I cried, and I built a really long road!’",
+        "illustrationPrompt": "点心后妈妈来到接送处，朵朵朝她跑来，老师在后方目送。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-47285372-4a52-46dc-a31b-cb6f4e1a8d0d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 点心后妈妈来到接送处，朵朵朝她跑来，老师在后方目送。. Narrative meaning for composition only; never render words: 下午点心吃完，妈妈来了。朵朵跑过去：“我哭了，也搭了一条很长的路！”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 15,
+        "zhText": "妈妈接住她：“原来今天有眼泪，也有长长的路。两件事都可以告诉我。”",
+        "enText": "Mama welcomed her into her arms. ‘So today had tears and a long road. You can tell me about both.’",
+        "illustrationPrompt": "妈妈抱起或蹲下拥住朵朵，认真听她描述一天。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cc1aa8c8-f06c-46de-a6a5-656f4c926710.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈抱起或蹲下拥住朵朵，认真听她描述一天。. Narrative meaning for composition only; never render words: 妈妈接住她：“原来今天有眼泪，也有长长的路。两件事都可以告诉我。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 16,
+        "zhText": "第二天，朵朵还是有点舍不得。她把手心举起来：“今天也照昨天那样，可以吗？”",
+        "enText": "The next morning, Duoduo still felt a little sad to say goodbye. She held up her palm. ‘Can we do it just like yesterday?’",
+        "illustrationPrompt": "次日同一桂花树下，朵朵举起手心，妈妈蹲下回应。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a1c0be8c-ec09-4aee-bf2c-fe71cbc78c1e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 次日同一桂花树下，朵朵举起手心，妈妈蹲下回应。. Narrative meaning for composition only; never render words: 第二天，朵朵还是有点舍不得。她把手心举起来：“今天也照昨天那样，可以吗？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 17,
+        "zhText": "抱一下，碰一下，挥挥手。朵朵擦擦眼睛，和老师一起走向窗边。",
+        "enText": "One hug, one touch, and one wave. Duoduo wiped her eyes and walked toward the window with her teacher.",
+        "illustrationPrompt": "朵朵与老师走向教室窗边，园外妈妈挥手，动作不强拉。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-84eb3ca1-2087-4280-bebc-382eb51b3993.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵与老师走向教室窗边，园外妈妈挥手，动作不强拉。. Narrative meaning for composition only; never render words: 抱一下，碰一下，挥挥手。朵朵擦擦眼睛，和老师一起走向窗边。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      },
+      {
+        "page": 18,
+        "zhText": "小桥还在那里。朵朵放上一辆车：“今天，它要去更远一点的地方。”",
+        "enText": "The bridge was still there. Duoduo put a car on it. ‘Today it's going a little farther.’",
+        "illustrationPrompt": "朵朵在窗边给木头小车铺出更长的积木路，老师安静陪伴。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a3322148-a10b-45dd-b274-1de25d76faea.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《门口的再见小仪式》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵在窗边给木头小车铺出更长的积木路，老师安静陪伴。. Narrative meaning for composition only; never render words: 小桥还在那里。朵朵放上一辆车：“今天，它要去更远一点的地方。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7cf1a70e-2a41-4ea4-a8c3-787e4a307a89.png"
+      }
+    ],
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Duoduo is a 4-year-old Chinese girl, straight chin-length black hair, coral-pink cardigan, cream pinafore dress, yellow backpack with tiny duck charm. Mama has shoulder-length black hair, sage-green jacket. Teacher has a low black ponytail and pale-blue apron. Small wooden bridge by classroom window.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

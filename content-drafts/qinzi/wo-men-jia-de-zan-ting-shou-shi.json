@@ -1,0 +1,252 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "wo-men-jia-de-zan-ting-shou-shi",
+    "seriesId": "sanzijing",
+    "title": "我们家的暂停手势",
+    "subtitle": "有不同想法时，也能好好在一起",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "由成人示范暂停、回来沟通和修复，让孩子知道成人分歧不由自己负责。",
+      "reminder": "暂停不是冷落或失联；成人说明去向与返回时间。孩子可以表达害怕，但不承担提醒、调停或安抚成人的工作。",
+      "questions": [
+        "安安为什么想取消去公园？",
+        "爸爸妈妈停下来以后做了什么？",
+        "听见急急的声音时，你希望大人怎样陪你？"
+      ],
+      "activity": "在平静时约定一个暂停手势，由成人演练一次暂停与按时返回；请孩子选择暂停时愿意做的普通活动。",
+      "ageTips": {
+        "age4to5": "直接说明你没有做错，分歧由大人处理，并提供近处陪伴。",
+        "age6to8": "讨论分歧与关系的区别，不把孩子纳入成人争议的裁决。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 10,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子关系",
+        "家庭分歧与成人的情绪责任"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "星期五晚上，安安把绿色小背包放在桌边。她想装上放大镜，周末去公园找叶子。",
+        "enText": "On Friday evening, Anan put her green backpack beside the table. She wanted to pack a magnifying glass and look for leaves at the park.",
+        "illustrationPrompt": "餐桌旁安安把放大镜放入绿色小背包，父母准备讨论周末。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 餐桌旁安安把放大镜放入绿色小背包，父母准备讨论周末。. Narrative meaning for composition only; never render words: 星期五晚上，安安把绿色小背包放在桌边。她想装上放大镜，周末去公园找叶子。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book."
+      },
+      {
+        "page": 2,
+        "zhText": "妈妈想去看外婆，爸爸想去公园。“上周已经去过了。”“可是这次早就说好了。”",
+        "enText": "Mama wanted to visit Grandma, and Dad wanted to go to the park. ‘We visited last week.’ ‘But we planned this outing already.’",
+        "illustrationPrompt": "父母坐在餐桌两侧提出不同安排，安安在中间听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-286ec961-5f8a-4625-8a36-81a3dc92ffbf.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Remove the two floating thought-bubbles and all floating pictures above parents. Keep only the family discussing weekend around the table. Mama explains a wish calmly with an open hand and Dad responds, child listens. No extra grandmother portrait, inset scenes or diagrams.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ae07823d-5bed-4d8d-9063-f10e797f3f68.png"
+      },
+      {
+        "page": 3,
+        "zhText": "两个人都急着说下一句。桌上的茶已经不冒热气，声音却越来越大。",
+        "enText": "Both hurried to say the next thing. The tea on the table stopped steaming, but their voices grew louder.",
+        "illustrationPrompt": "父母说话急促但不威胁，茶杯放桌上，安安逐渐收紧肩膀。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e89964af-619d-4a5b-8c1a-69d018c70be2.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父母说话急促但不威胁，茶杯放桌上，安安逐渐收紧肩膀。. Narrative meaning for composition only; never render words: 两个人都急着说下一句。桌上的茶已经不冒热气，声音却越来越大。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 4,
+        "zhText": "安安抱起背包：“要不，我不去找叶子了。”她的声音小得像背包里的一粒纽扣。",
+        "enText": "Anan hugged her backpack. ‘Maybe I won't look for leaves.’ Her voice was as small as a button hidden inside the bag.",
+        "illustrationPrompt": "安安抱住背包低声说话，父母的目光开始转向她。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-63fc4142-79aa-4d39-ab60-71d143becbb9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安抱住背包低声说话，父母的目光开始转向她。. Narrative meaning for composition only; never render words: 安安抱起背包：“要不，我不去找叶子了。”她的声音小得像背包里的一粒纽扣。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 5,
+        "zhText": "妈妈停住了。爸爸也放下手：“我们的声音让你担心了，是吗？”安安点点头。",
+        "enText": "Mama stopped. Dad lowered his hands too. ‘Did our voices make you feel worried?’ Anan nodded.",
+        "illustrationPrompt": "父母暂停争论并放松双手，爸爸坐到安安近旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-03c01dc2-f79a-40e2-a91b-ca80e5ea25d4.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父母暂停争论并放松双手，爸爸坐到安安近旁。. Narrative meaning for composition only; never render words: 妈妈停住了。爸爸也放下手：“我们的声音让你担心了，是吗？”安安点点头。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 6,
+        "zhText": "“你不用取消想去的地方，让我们不吵。”妈妈说，“商量周末，是大人也要练习的事。”",
+        "enText": "‘You don't have to give up your wish to stop our argument,’ Mama said. ‘Making plans together is something grown-ups need to practise too.’",
+        "illustrationPrompt": "妈妈对安安说明责任，安安仍抱着绿色背包。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7b8ebe01-2410-49c2-8f5a-e0fad7fc12b8.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈对安安说明责任，安安仍抱着绿色背包。. Narrative meaning for composition only; never render words: “你不用取消想去的地方，让我们不吵。”妈妈说，“商量周末，是大人也要练习的事。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 7,
+        "zhText": "爸爸张开手掌：“我需要先停一会儿，喝口水。”妈妈也点头。桌边终于安静了一些。",
+        "enText": "Dad opened his palm. ‘I need a short pause and some water.’ Mama nodded. The table grew a little quieter.",
+        "illustrationPrompt": "爸爸做张开手掌的暂停手势，妈妈点头，水杯放在近处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1beeb6f9-6695-4356-a7d8-63969142fca5.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸做张开手掌的暂停手势，妈妈点头，水杯放在近处。. Narrative meaning for composition only; never render words: 爸爸张开手掌：“我需要先停一会儿，喝口水。”妈妈也点头。桌边终于安静了一些。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 8,
+        "zhText": "爸爸对安安说：“我去窗边坐五分钟，还会回来。你愿意留在这里，还是和妈妈一起画画？”",
+        "enText": "Dad told Anan, ‘I'll sit by the window for five minutes, then come back. Would you like to stay here, or draw with Mama?’",
+        "illustrationPrompt": "爸爸指向房间内窗边椅子，妈妈在桌边取出画纸供孩子选择。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fa317acf-251c-4197-90e9-17866d9de68a.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸指向房间内窗边椅子，妈妈在桌边取出画纸供孩子选择。. Narrative meaning for composition only; never render words: 爸爸对安安说：“我去窗边坐五分钟，还会回来。你愿意留在这里，还是和妈妈一起画画？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 9,
+        "zhText": "安安想画一片大叶子。妈妈陪她找彩笔，没有请她去劝爸爸，也没有让她选谁说得对。",
+        "enText": "Anan wanted to draw a big leaf. Mama helped find the crayons. She did not ask Anan to persuade Dad or decide who was right.",
+        "illustrationPrompt": "母女在桌边挑彩笔画叶子，爸爸在远处窗边安静喝水。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c5725e85-e2fd-41b7-aceb-67f995767393.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 母女在桌边挑彩笔画叶子，爸爸在远处窗边安静喝水。. Narrative meaning for composition only; never render words: 安安想画一片大叶子。妈妈陪她找彩笔，没有请她去劝爸爸，也没有让她选谁说得对。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 10,
+        "zhText": "五分钟后，爸爸回到桌边：“刚才我打断了你。你先说完，我听听你为什么想去外婆家。”",
+        "enText": "Five minutes later, Dad returned. ‘I interrupted you earlier. Please finish telling me why you want to visit Grandma. I'll listen.’",
+        "illustrationPrompt": "爸爸回到原座位，妈妈开始说话，安安继续画叶子。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a2267984-3238-4f39-bc63-1a870fc43c72.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸回到原座位，妈妈开始说话，安安继续画叶子。. Narrative meaning for composition only; never render words: 五分钟后，爸爸回到桌边：“刚才我打断了你。你先说完，我听听你为什么想去外婆家。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 11,
+        "zhText": "妈妈说：“外婆的新眼镜到了，我想帮她看看戴得合不合适。”爸爸这次没有抢着接话。",
+        "enText": "‘Her new glasses are ready,’ Mama said. ‘I want to help her check how they fit.’ This time, Dad did not rush to answer.",
+        "illustrationPrompt": "妈妈说明探望外婆的原因，爸爸专注听，安安坐在旁边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a7425481-5717-4065-84eb-4f559730ddc0.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈说明探望外婆的原因，爸爸专注听，安安坐在旁边。. Narrative meaning for composition only; never render words: 妈妈说：“外婆的新眼镜到了，我想帮她看看戴得合不合适。”爸爸这次没有抢着接话。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 12,
+        "zhText": "爸爸说：“我记得答应过安安去公园，不想又改掉。”安安从画纸上抬起头。",
+        "enText": "Dad said, ‘I remember promising Anan the park. I didn't want to change that again.’ Anan looked up from her drawing.",
+        "illustrationPrompt": "爸爸说明顾虑，安安抬头看他，绿色背包靠在椅边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1192f2ec-3d3e-481f-a369-8c0f1741bca4.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸说明顾虑，安安抬头看他，绿色背包靠在椅边。. Narrative meaning for composition only; never render words: 爸爸说：“我记得答应过安安去公园，不想又改掉。”安安从画纸上抬起头。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 13,
+        "zhText": "“我们刚才都只顾着自己的那一件事。”妈妈说。她把两件事放到一起，重新想了想。",
+        "enText": "‘We were each thinking only about our own part,’ Mama said. She put the two wishes together and thought again.",
+        "illustrationPrompt": "父母在同一侧查看行程，画面不使用可读文字或复杂日历。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d38a51a2-43f5-4cba-ad8b-ddae8449782f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父母在同一侧查看行程，画面不使用可读文字或复杂日历。. Narrative meaning for composition only; never render words: “我们刚才都只顾着自己的那一件事。”妈妈说。她把两件事放到一起，重新想了想。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 14,
+        "zhText": "他们先问外婆方便的时间，再决定上午去探望，下午到附近公园待一会儿。",
+        "enText": "They checked when Grandma was free, then planned to visit in the morning and spend a little time at a nearby park that afternoon.",
+        "illustrationPrompt": "妈妈打电话确认外婆时间，爸爸与安安整理野餐布和小背包。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-6d96c616-deaa-4f7c-9e7e-a90a1d771f84.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈打电话确认外婆时间，爸爸与安安整理野餐布和小背包。. Narrative meaning for composition only; never render words: 他们先问外婆方便的时间，再决定上午去探望，下午到附近公园待一会儿。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 15,
+        "zhText": "爸爸问：“这样走两处，你会不会累？”安安想了想：“公园不用很大，有叶子就行。”",
+        "enText": "‘Will two stops make you tired?’ Dad asked. Anan thought. ‘The park doesn't have to be big. It just needs leaves.’",
+        "illustrationPrompt": "爸爸向安安确认体力与安排，孩子指着自己的叶子画回答。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c6ccfa39-5d5a-43d2-9d15-08ba6f54f2c2.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸向安安确认体力与安排，孩子指着自己的叶子画回答。. Narrative meaning for composition only; never render words: 爸爸问：“这样走两处，你会不会累？”安安想了想：“公园不用很大，有叶子就行。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 16,
+        "zhText": "睡前，他们约好：谁觉得声音太急，可以说“暂停”，也可以举起手掌，然后约个回来聊的时间。",
+        "enText": "Before bed, they made a plan: anyone could say ‘pause’ or open a palm when the voices became too hurried. Then they would agree when to talk again.",
+        "illustrationPrompt": "一家三口在沙发边试做张开手掌的暂停手势，气氛平静。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3bff9b9b-df1f-469b-a728-9dbb6e991a81.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 一家三口在沙发边试做张开手掌的暂停手势，气氛平静。. Narrative meaning for composition only; never render words: 睡前，他们约好：谁觉得声音太急，可以说“暂停”，也可以举起手掌，然后约个回来聊的时间。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 17,
+        "zhText": "第二天，外婆戴着新眼镜，认真看了安安的大叶子。下午，真叶子落在了野餐布上。",
+        "enText": "The next day, Grandma wore her new glasses to admire Anan's big leaf. That afternoon, a real leaf landed on their picnic blanket.",
+        "illustrationPrompt": "下午公园场景，父母与安安坐在野餐布上，布面落下一片叶子。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-45816d45-e3a0-40ed-88fe-cbde02f3a74e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 下午公园场景，父母与安安坐在野餐布上，布面落下一片叶子。. Narrative meaning for composition only; never render words: 第二天，外婆戴着新眼镜，认真看了安安的大叶子。下午，真叶子落在了野餐布上。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      },
+      {
+        "page": 18,
+        "zhText": "安安把叶子放进背包。爸爸妈妈还在商量晚饭，这次她听见的，是一句说完，再接一句。",
+        "enText": "Anan put it in her backpack. Mama and Dad were still planning dinner, but this time she heard one whole sentence, then the next.",
+        "illustrationPrompt": "安安收好叶子，父母在旁轮流说话，公园夕光柔和。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-680211a5-6bbd-459b-ba1c-52416afd7b11.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《我们家的暂停手势》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安收好叶子，父母在旁轮流说话，公园夕光柔和。. Narrative meaning for composition only; never render words: 安安把叶子放进背包。爸爸妈妈还在商量晚饭，这次她听见的，是一句说完，再接一句。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-b584a4fd-bac9-457d-9c25-19a7f15a82cf.png"
+      }
+    ],
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Anan is a 6-year-old Chinese girl, two low black pigtails, coral sweatshirt, navy overalls. Mama has short black hair, cream top. Dad has short black hair, round glasses, pale-blue shirt. Green small backpack, magnifying glass, picnic blanket.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

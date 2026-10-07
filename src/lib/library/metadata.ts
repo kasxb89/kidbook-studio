@@ -38,8 +38,8 @@ const SERIES_DEFAULTS: Record<
     bedtimeSuitable: true,
   },
   sanzijing: {
-    category: "classic",
-    tags: ["三字经", "国学启蒙", "亲子共读", "家庭成长"],
+    category: "family-growth",
+    tags: ["亲子成长", "亲子共读", "家庭成长"],
     bedtimeSuitable: false,
   },
   qiche: {

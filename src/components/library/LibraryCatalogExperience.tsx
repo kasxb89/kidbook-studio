@@ -14,6 +14,7 @@ import {
 } from "@/lib/reading-progress";
 import ReadingSyncControl from "@/components/library/ReadingSyncControl";
 import LibraryCatalogCard from "@/components/library/LibraryCatalogCard";
+import LibraryBookGroups from "@/components/library/LibraryBookGroups";
 import LibraryScrollRestorer from "@/components/library/LibraryScrollRestorer";
 import { rememberLibraryReturnPosition } from "@/lib/library/navigation";
 
@@ -302,9 +303,11 @@ export default function LibraryCatalogExperience({
                     <p>{item.subtitle}</p>
                   </div>
                 </header>
-                <div className="library-home-row">
-                  {allSeriesBooks.map((book) => renderCard(book, true, true))}
-                </div>
+                <LibraryBookGroups
+                  books={allSeriesBooks}
+                  renderBook={(book) => renderCard(book, true, true)}
+                  headingLevel="h4"
+                />
               </section>
             );
           })}

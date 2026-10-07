@@ -1,0 +1,252 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "sheng-zi-shua-de-yi-sheng",
+    "seriesId": "sanzijing",
+    "title": "绳子唰的一声",
+    "subtitle": "从跨过去，到轻轻跳起来",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "把跳绳拆成调绳、甩绳、跨绳、小幅跳与配合，再逐渐尝试连续跳。",
+      "reminder": "选择空旷平整场地和合脚运动鞋，按身高调绳；不追次数、不拉孩子手臂跳，疲劳或不适就休息。",
+      "questions": [
+        "安安第一次为什么没跳过去？",
+        "她把哪几件事分开练了？",
+        "哪一种提醒会让你更容易再试一次？"
+      ],
+      "activity": "检查场地与绳长，先练甩到身前停住、跨过去；孩子愿意时再尝试单次跳过，每次以舒服的小段练习结束。",
+      "ageTips": {
+        "age4to5": "可以只做跨绳与节奏小游戏，不要求连续跳绳。",
+        "age6to8": "邀请孩子描述哪一次更顺，按自己的节奏尝试连续跳，不与别人排名。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 12,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会技能",
+        "学跳绳与分步练习"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "小满的绳子唰地划过头顶，又唰地绕过脚下。安安抱着自己的黄绳子：“我也想这样跳。”",
+        "enText": "Xiaoman's rope swished over her head, then under her feet. Anan hugged her yellow rope. ‘I want to jump like that too.’",
+        "illustrationPrompt": "平整空旷操场上，小满跳绳，安安站在安全距离外看，妈妈在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square 1:1 children's picture-book illustration for page 1 of 《绳子唰的一声》, no panels. Warm contemporary Chinese watercolor and gouache, textured paper, gentle natural faces, soft afternoon light, readable action. Character lock: Anan is a 6-year-old Chinese girl with two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. THIS PAGE'S SCENE: At a flat empty school playground Xiaoman is skillfully jumping her purple rope with natural correct hand and foot posture. Anan stands a safe distance away holding her own coiled bright yellow jump rope against her chest, watching with curious hopeful eyes. Mama stands near Anan. One depiction of each character, no duplicates, no movement ghosts. Full-bleed square wide establishing illustration. Keep enough space around each rope for safe practice. No text, letters, numbers, captions, logos, borders or watermark.\n"
+      },
+      {
+        "page": 2,
+        "zhText": "她用力一甩，绳子落在脚尖前。脚还没跳起来，手已经急着甩第二圈了。",
+        "enText": "She swung hard, and the rope landed in front of her toes. Before her feet could jump, her hands hurried into another turn.",
+        "illustrationPrompt": "安安第一次甩绳，黄色绳子停在脚尖前，动作尚未协调。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-8d281466-48b4-40d6-bf45-f847033fbe01.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安第一次甩绳，黄色绳子停在脚尖前，动作尚未协调。. Narrative meaning for composition only; never render words: 她用力一甩，绳子落在脚尖前。脚还没跳起来，手已经急着甩第二圈了。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 3,
+        "zhText": "绳子缠住鞋边，安安停下来：“我的脚总是慢一步。”妈妈陪她把绳子放平。",
+        "enText": "The rope caught beside her shoe. Anan stopped. ‘My feet are always one step late.’ Mama helped lay the rope flat.",
+        "illustrationPrompt": "安安站稳解开鞋边的绳子，妈妈在旁不催促，地面无障碍。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-53ce4104-bb1f-4754-9024-ebec5078e327.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安站稳解开鞋边的绳子，妈妈在旁不催促，地面无障碍。. Narrative meaning for composition only; never render words: 绳子缠住鞋边，安安停下来：“我的脚总是慢一步。”妈妈陪她把绳子放平。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 4,
+        "zhText": "妈妈请她踩住绳子中间，按她的身高调到合适的长度。安安再试，身后不再拖着长长的一截。",
+        "enText": "Mama asked her to stand on the middle of the rope and adjusted its length to fit her. When Anan tried again, there was no long extra length trailing behind.",
+        "illustrationPrompt": "妈妈按安安身高检查绳长，安安脚踩绳中点，两手提绳柄。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c9332e17-e79e-45f0-b386-1fa8a24257ac.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈按安安身高检查绳长，安安脚踩绳中点，两手提绳柄。. Narrative meaning for composition only; never render words: 妈妈请她踩住绳子中间，按她的身高调到合适的长度。安安再试，身后不再拖着长长的一截。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 5,
+        "zhText": "“先不连着跳。”妈妈说。安安把绳子放在身后，慢慢甩到前面，等它落在脚前。",
+        "enText": "‘We don't need to jump continuously yet,’ Mama said. Anan put the rope behind her and slowly swung it forward, waiting for it to land by her feet.",
+        "illustrationPrompt": "安安将绳从身后转向身前，妈妈看动作，黄色绳落在脚前。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-2abf4318-d6d4-4fe9-a910-b155e58af261.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安将绳从身后转向身前，妈妈看动作，黄色绳落在脚前。. Narrative meaning for composition only; never render words: “先不连着跳。”妈妈说。安安把绳子放在身后，慢慢甩到前面，等它落在脚前。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 6,
+        "zhText": "绳子落稳了，她双脚轻轻跨过去。甩一次，跨一次，小满在旁边给她留出位置。",
+        "enText": "Once it was still, she stepped gently over it. One swing, one step. Xiaoman left plenty of room beside her.",
+        "illustrationPrompt": "安安跨过平放地面的黄绳，小满在另一侧留足间距。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ce77aa10-eca4-4e0a-ae80-1eab7fd69ecd.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安跨过平放地面的黄绳，小满在另一侧留足间距。. Narrative meaning for composition only; never render words: 绳子落稳了，她双脚轻轻跨过去。甩一次，跨一次，小满在旁边给她留出位置。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 7,
+        "zhText": "第二次来操场，安安先把绳子放下，试着轻轻跳。鞋底一离开地面，就落回原来的地方。",
+        "enText": "On their next visit, Anan put down the rope and tried little jumps. Her shoes rose just above the ground and landed in the same place.",
+        "illustrationPrompt": "另一日安安不拿绳进行小幅原地跳跃，黄绳放在远离脚边的位置。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-f97a366d-1664-44de-aacf-cea43289f612.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 另一日安安不拿绳进行小幅原地跳跃，黄绳放在远离脚边的位置。. Narrative meaning for composition only; never render words: 第二次来操场，安安先把绳子放下，试着轻轻跳。鞋底一离开地面，就落回原来的地方。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 8,
+        "zhText": "她没跳很高，也没有跑到前面。妈妈学着她的动作：“像一粒玉米，轻轻弹一下。”",
+        "enText": "She did not jump very high or move forward. Mama copied her. ‘Like one little kernel of corn making a gentle pop.’",
+        "illustrationPrompt": "母女并排做小幅轻跳，双膝自然微弯，运动场保持空旷。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d95670fe-ac3b-44f5-b784-d1c1aff65042.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. This is the NO-ROPE jumping practice stage. Remove ALL ropes and handles from Mama's and Anan's hands. They make little gentle jumps with empty hands and relaxed bent elbows. Put Anan's yellow rope neatly coiled safely OFF the practice area on a bench in background. No purple rope anywhere. Keep outfits and empty flat playground.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0448f841-c459-4038-aa40-633f234e4711.png"
+      },
+      {
+        "page": 9,
+        "zhText": "安安重新拿起绳子。绳子从身后转过来，她看见它快到脚前，轻轻一跳。",
+        "enText": "Anan picked up the rope again. It swung from behind her. When it was almost at her feet, she made a little jump.",
+        "illustrationPrompt": "侧面拍安安甩绳与小幅起跳，黄色绳即将从双脚下通过。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3877123d-cdeb-4166-a75d-19093c8993e3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 侧面拍安安甩绳与小幅起跳，黄色绳即将从双脚下通过。. Narrative meaning for composition only; never render words: 安安重新拿起绳子。绳子从身后转过来，她看见它快到脚前，轻轻一跳。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 10,
+        "zhText": "唰！绳子过去了。安安站稳，睁大眼睛：“刚才，我跳过去了！”",
+        "enText": "Swish! The rope went through. Anan landed steadily and opened her eyes wide. ‘I jumped over it!’",
+        "illustrationPrompt": "黄绳完成一次通过落在身后，安安双脚站稳露出惊喜。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7de85f18-dd7b-4f1f-9f41-b8c4b032ec27.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 黄绳完成一次通过落在身后，安安双脚站稳露出惊喜。. Narrative meaning for composition only; never render words: 唰！绳子过去了。安安站稳，睁大眼睛：“刚才，我跳过去了！”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 11,
+        "zhText": "下一次，绳子又碰到了鞋子。安安有点泄气：“刚才明明会了，怎么又不会了？”",
+        "enText": "The next time, the rope touched her shoe again. Anan felt discouraged. ‘I could do it just now. Why can't I do it again?’",
+        "illustrationPrompt": "下一次黄绳轻触鞋前，安安停住皱眉，妈妈蹲在旁边观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-87c6629d-e65b-4609-8e4f-b88c1d2cc244.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 下一次黄绳轻触鞋前，安安停住皱眉，妈妈蹲在旁边观察。. Narrative meaning for composition only; never render words: 下一次，绳子又碰到了鞋子。安安有点泄气：“刚才明明会了，怎么又不会了？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 12,
+        "zhText": "妈妈问：“刚才顺的时候，手和脚是怎样等在一起的？”安安放慢动作，又找到了那一下。",
+        "enText": "Mama asked, ‘When it felt smooth, how did your hands and feet wait for each other?’ Anan slowed down and found that little moment again.",
+        "illustrationPrompt": "安安慢慢回试甩绳和起跳，妈妈用开放手势提示回想，不代替跳。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e048b597-ec95-4e19-abd8-fddf7f5ce655.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安慢慢回试甩绳和起跳，妈妈用开放手势提示回想，不代替跳。. Narrative meaning for composition only; never render words: 妈妈问：“刚才顺的时候，手和脚是怎样等在一起的？”安安放慢动作，又找到了那一下。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 13,
+        "zhText": "她的胳膊酸了。三个人坐到树荫下喝水，黄绳子在地上弯成一条安静的小河。",
+        "enText": "Her arms felt tired. The three of them sat in the shade to drink water. The yellow rope curved on the ground like a quiet stream.",
+        "illustrationPrompt": "母女与小满在树荫下休息喝水，黄绳摆在空处，不阻挡通道。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-6703d04c-0ef0-4456-bad3-8d3ad8f1f493.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 母女与小满在树荫下休息喝水，黄绳摆在空处，不阻挡通道。. Narrative meaning for composition only; never render words: 她的胳膊酸了。三个人坐到树荫下喝水，黄绳子在地上弯成一条安静的小河。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 14,
+        "zhText": "又一个下午，安安试着不停下来。第一下过去，第二下绳子慢了，她就站稳重新开始。",
+        "enText": "Another afternoon, Anan tried going on without stopping. The first jump worked, but the rope slowed on the second. She stood steadily and began again.",
+        "illustrationPrompt": "新一日安安尝试连续跳，绳子停住后双脚稳稳落地。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-52bbd885-2722-4e63-8a63-0a15c9940df5.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 新一日安安尝试连续跳，绳子停住后双脚稳稳落地。. Narrative meaning for composition only; never render words: 又一个下午，安安试着不停下来。第一下过去，第二下绳子慢了，她就站稳重新开始。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 15,
+        "zhText": "小满没有喊“快一点”，只在自己跳的时候，给安安听绳子落地的声音。唰，唰，唰。",
+        "enText": "Xiaoman did not call, ‘Go faster!’ She simply let Anan hear her own rope touching the ground. Swish, swish, swish.",
+        "illustrationPrompt": "小满在足够距离外按自己的节奏跳，安安站旁边听和观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-6523bbe6-8ef0-49a1-a703-7a26fb2400c8.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小满在足够距离外按自己的节奏跳，安安站旁边听和观察。. Narrative meaning for composition only; never render words: 小满没有喊“快一点”，只在自己跳的时候，给安安听绳子落地的声音。唰，唰，唰。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 16,
+        "zhText": "安安照自己的节奏试了试。一下，两下，三下！第三下以后，她笑着把绳子停下来。",
+        "enText": "Anan tried her own rhythm. One, two, three! After the third jump, she smiled and stopped the rope.",
+        "illustrationPrompt": "安安完成短暂连续跳后站稳停绳，妈妈与小满在旁微笑。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-874d007c-6f7d-4189-88da-53298bd59947.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安完成短暂连续跳后站稳停绳，妈妈与小满在旁微笑。. Narrative meaning for composition only; never render words: 安安照自己的节奏试了试。一下，两下，三下！第三下以后，她笑着把绳子停下来。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 17,
+        "zhText": "回家时，妈妈问还想不想再跳。安安摇摇头：“今天够了。下一次，我还想找那个唰的声音。”",
+        "enText": "On the way home, Mama asked if she wanted any more jumps. Anan shook her head. ‘That's enough today. Next time, I want to find that swishing sound again.’",
+        "illustrationPrompt": "安安卷好黄绳准备离开，妈妈听她决定，小满在远处挥手。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-632dc148-4cfa-4166-8b10-5109c4b1848f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 安安卷好黄绳准备离开，妈妈听她决定，小满在远处挥手。. Narrative meaning for composition only; never render words: 回家时，妈妈问还想不想再跳。安安摇摇头：“今天够了。下一次，我还想找那个唰的声音。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      },
+      {
+        "page": 18,
+        "zhText": "黄绳子挂在门边。安安经过时，轻轻碰了碰绳柄。她知道，那三声唰，是自己一点点练出来的。",
+        "enText": "The yellow rope hung by the door. As Anan passed, she gently touched a handle. Those three swishes were something she had learnt, little by little.",
+        "illustrationPrompt": "温暖门厅，黄绳整齐挂在低钩，安安轻触绳柄，运动鞋已放好。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-15164239-765e-482e-83c4-26bf22807cca.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《绳子唰的一声》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 温暖门厅，黄绳整齐挂在低钩，安安轻触绳柄，运动鞋已放好。. Narrative meaning for composition only; never render words: 黄绳子挂在门边。安安经过时，轻轻碰了碰绳柄。她知道，那三声唰，是自己一点点练出来的。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d88a2414-6b26-4b3c-b7e7-ae851bd54fab.png"
+      }
+    ],
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Anan is a 6-year-old Chinese girl, two low black pigtails, coral sports sweatshirt, navy trousers, white sneakers. Xiaoman is another 6-year-old Chinese girl with short black hair, pale-purple sports sweatshirt and purple jump rope. Mama has shoulder-length black hair, sage-green sports jacket, grey trousers. Anan uses bright yellow jump rope.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

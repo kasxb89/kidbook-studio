@@ -1,0 +1,254 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "yong-chi-li-de-yi-xiao-duan",
+    "seriesId": "sanzijing",
+    "title": "泳池里的一小段",
+    "subtitle": "在有人守护的水里，慢慢认识身体",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "在专业教学和近距保护下认识水、表达暂停，逐步体验蹬腿与浮水。",
+      "reminder": "这是入门故事，不代表已能独立游泳；选择正规课程与合格教练，成人保持看护，浮具不能替代保护，不强迫入水或憋气比赛。",
+      "questions": [
+        "朵朵不舒服时怎样告诉教练？",
+        "她每次下水前要等谁？",
+        "哪一小步让她更愿意再来一次？"
+      ],
+      "activity": "在干燥安全的地方，练习向教练表达我想停、请扶着我等需要；水中动作由合格教练按实际情况指导。",
+      "ageTips": {
+        "age4to5": "以适应水和清楚求助为主，是否进入课程由家庭与教练判断。",
+        "age6to8": "关注真实掌握的动作与安全规则，理解会一点与能独立应对水域的区别。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 15,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会技能",
+        "游泳入门与说出需要"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "泳池里的水闪着亮光。朵朵戴好泳帽，拉着妈妈的手：“我想学，可水好多呀。”",
+        "enText": "The pool water shimmered. Duoduo put on her swimming cap and held Mama's hand. ‘I want to learn, but there's so much water.’",
+        "illustrationPrompt": "正规泳池观察区入口，朵朵穿泳衣泳帽牵妈妈，教练在浅水区等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 正规泳池观察区入口，朵朵穿泳衣泳帽牵妈妈，教练在浅水区等待。. Narrative meaning for composition only; never render words: 泳池里的水闪着亮光。朵朵戴好泳帽，拉着妈妈的手：“我想学，可水好多呀。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book."
+      },
+      {
+        "page": 2,
+        "zhText": "教练迎过来，先带她熟悉池边。“要等大人陪同才能下水，在这里慢慢走，不跑。”",
+        "enText": "Her teacher welcomed her and showed her the poolside. ‘Wait for an adult to go into the water with you. Walk slowly here; don't run.’",
+        "illustrationPrompt": "教练陪朵朵在池边防滑通道慢走，妈妈在指定位置目送。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3415194c-0214-40ff-9212-b307fcec4381.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. This page takes place BEFORE entering the water. Move both child and adult instructor onto the DRY non-slip poolside walkway, slowly walking beside the railing. Child's feet are fully on dry deck, NOT in water or on submerged steps. Instructor is beside her pointing out the safe walking route, Mama watches from designated area. Keep cap, goggles and sports swimwear. No running.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d3bad5ee-c4a5-452e-a2d1-542f0c839dd2.png"
+      },
+      {
+        "page": 3,
+        "zhText": "朵朵坐在池边，把脚伸进水里。教练站在她身前的水中，陪她看脚趾变成模糊的小影子。",
+        "enText": "Duoduo sat at the edge with her feet in the water. Her teacher stood in front of her in the pool, watching her toes turn into little blurry shadows.",
+        "illustrationPrompt": "教练在浅水中面对池边坐着的朵朵，孩子双脚刚入水，近距保护。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-bd18a4d5-e1e5-41cc-a046-088c8cca7a31.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 教练在浅水中面对池边坐着的朵朵，孩子双脚刚入水，近距保护。. Narrative meaning for composition only; never render words: 朵朵坐在池边，把脚伸进水里。教练站在她身前的水中，陪她看脚趾变成模糊的小影子。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 4,
+        "zhText": "“凉凉的。”朵朵缩了一下，又把脚放回去。教练等着，没有拉她下来。",
+        "enText": "‘It's cool.’ Duoduo pulled her feet back, then put them in again. Her teacher waited without pulling her into the water.",
+        "illustrationPrompt": "朵朵坐稳慢慢适应水温，教练在面前等待，不拉拽。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0f3dd833-7584-48b5-8a2d-cc408facb923.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵坐稳慢慢适应水温，教练在面前等待，不拉拽。. Narrative meaning for composition only; never render words: “凉凉的。”朵朵缩了一下，又把脚放回去。教练等着，没有拉她下来。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 5,
+        "zhText": "准备好以后，朵朵扶着扶手，从台阶一级级走下去。教练在旁边，水只到她的腰附近。",
+        "enText": "When she was ready, Duoduo held the rail and walked down the steps. Her teacher stayed beside her, and the water reached around her waist.",
+        "illustrationPrompt": "朵朵握扶手沿浅水台阶入水，教练紧邻保护，水位到腰附近。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-71201ec3-92f6-48e9-a21d-15b306fb17e0.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵握扶手沿浅水台阶入水，教练紧邻保护，水位到腰附近。. Narrative meaning for composition only; never render words: 准备好以后，朵朵扶着扶手，从台阶一级级走下去。教练在旁边，水只到她的腰附近。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 6,
+        "zhText": "她捧起一点水，吹出一圈圈小波纹。“不用赶着把脸放进去，”教练说，“我们先认识水。”",
+        "enText": "She cupped a little water and blew small ripples. ‘There's no hurry to put your face in,’ her teacher said. ‘Let's get to know the water first.’",
+        "illustrationPrompt": "朵朵在浅水中站稳捧水轻吹，教练在侧前方随手可及。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-765be2dd-2776-4689-ba9e-793a4bbfd41b.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵在浅水中站稳捧水轻吹，教练在侧前方随手可及。. Narrative meaning for composition only; never render words: 她捧起一点水，吹出一圈圈小波纹。“不用赶着把脸放进去，”教练说，“我们先认识水。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 7,
+        "zhText": "朵朵看着教练把嘴靠近水面，呼出一串小泡泡。她问：“泡泡是从嘴里出去的吗？”",
+        "enText": "Duoduo watched her teacher bring her mouth near the surface and breathe out little bubbles. ‘Do the bubbles come out of your mouth?’ she asked.",
+        "illustrationPrompt": "教练在孩子面前示范嘴贴近水面呼气，朵朵站稳观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-31042a2f-a8c1-4302-b98d-ee00ce2dffd8.png",
+        "generationPrompt": "Use case: illustration-story. Generate a square full-bleed warm watercolor and gouache children's picture-book illustration explaining a swimming lesson. Input image 1 is a reference for the ADULT swim instructor's face, white swim cap, dark-blue sports swimwear and the watercolor material only. Show ONLY this adult professional instructor in a close-up from shoulders upward at the shallow teaching pool surface. She bends gently and brings her mouth to the water surface, exhaling a small cluster of clear bubbles as a beginner breathing demonstration. Natural respectful teaching scene, hands visible at the water surface. The viewpoint is that of her student watching from nearby; no child or other person needs to be visible in this close-up. Shimmering calm blue water, bright pool windows behind, clearly readable small bubbles. No words, numbers, captions, signs, split panels, logo or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 8,
+        "zhText": "她也试了一下，水花碰到鼻尖。朵朵马上抬头：“我想先擦擦脸。”教练递来小毛巾。",
+        "enText": "She tried too, but a splash touched her nose. Duoduo lifted her head at once. ‘I'd like to wipe my face.’ Her teacher offered a little towel.",
+        "illustrationPrompt": "朵朵立即抬头站稳，教练近旁递毛巾，未强行按头入水。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a8475a49-24aa-4611-8d91-c8c277bcbe37.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵立即抬头站稳，教练近旁递毛巾，未强行按头入水。. Narrative meaning for composition only; never render words: 她也试了一下，水花碰到鼻尖。朵朵马上抬头：“我想先擦擦脸。”教练递来小毛巾。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 9,
+        "zhText": "那天，她只试了几次泡泡，就到池边休息。妈妈听她说：“我今天和水说了一点点话。”",
+        "enText": "That day, she tried bubbles just a few times, then rested outside the pool. She told Mama, ‘Today I had a little conversation with the water.’",
+        "illustrationPrompt": "朵朵已离水裹着毛巾坐休息凳，妈妈认真听，教练在旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-833daee7-be92-45c9-b74b-e2cf07a473c3.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵已离水裹着毛巾坐休息凳，妈妈认真听，教练在旁。. Narrative meaning for composition only; never render words: 那天，她只试了几次泡泡，就到池边休息。妈妈听她说：“我今天和水说了一点点话。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 10,
+        "zhText": "下一次上课，泡泡顺了一些。朵朵扶住池边，跟着教练试着让腿在水里轻轻动。",
+        "enText": "At the next lesson, the bubbles came more easily. Duoduo held the pool edge and tried gently moving her legs with her teacher's help.",
+        "illustrationPrompt": "第二次课程，朵朵双手扶池边，教练在近旁支撑引导蹬腿。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-45d806d2-b9e8-4239-877c-aae1163eae1e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 第二次课程，朵朵双手扶池边，教练在近旁支撑引导蹬腿。. Narrative meaning for composition only; never render words: 下一次上课，泡泡顺了一些。朵朵扶住池边，跟着教练试着让腿在水里轻轻动。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 11,
+        "zhText": "起初，脚尖把水打得很高。教练扶稳她，示范更小的动作，朵朵慢慢找到不那么费劲的踢法。",
+        "enText": "At first, her feet sent splashes high into the air. Her teacher supported her and showed smaller movements. Duoduo slowly found a less tiring kick.",
+        "illustrationPrompt": "教练在水中近距保护并示范小幅蹬腿，朵朵扶边观察调整。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-5ab7d183-6892-4116-91eb-f4b24abb32d2.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 教练在水中近距保护并示范小幅蹬腿，朵朵扶边观察调整。. Narrative meaning for composition only; never render words: 起初，脚尖把水打得很高。教练扶稳她，示范更小的动作，朵朵慢慢找到不那么费劲的踢法。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 12,
+        "zhText": "又过了几次课，教练带来黄色浮条。“今天想试试身体浮起来，还是再练池边蹬腿？”",
+        "enText": "After a few more lessons, her teacher brought a yellow pool noodle. ‘Would you like to feel your body float today, or practise kicking at the edge again?’",
+        "illustrationPrompt": "另一次浅水课程，教练拿黄色浮条提供选择，朵朵站在近处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-6b95844a-296a-4176-bcc5-d4f46cd76a44.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 另一次浅水课程，教练拿黄色浮条提供选择，朵朵站在近处。. Narrative meaning for composition only; never render words: 又过了几次课，教练带来黄色浮条。“今天想试试身体浮起来，还是再练池边蹬腿？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 13,
+        "zhText": "朵朵选了浮条。教练帮她放好，近近地托住她。脚离开池底时，她赶紧说：“请先扶着我。”",
+        "enText": "Duoduo chose the noodle. Her teacher placed it carefully and supported her close by. As her feet left the floor, Duoduo said, ‘Please keep holding me first.’",
+        "illustrationPrompt": "教练正确放置浮条并托住朵朵身体，孩子刚刚尝试浮起，头在水上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a05f6471-7879-4c9b-86b7-f3f53e65a796.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 教练正确放置浮条并托住朵朵身体，孩子刚刚尝试浮起，头在水上。. Narrative meaning for composition only; never render words: 朵朵选了浮条。教练帮她放好，近近地托住她。脚离开池底时，她赶紧说：“请先扶着我。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 14,
+        "zhText": "“我在这里。”教练说。朵朵轻轻蹬腿，黄色浮条动了，身体也跟着向前挪了一点。",
+        "enText": "‘I'm right here,’ her teacher said. Duoduo kicked gently. The yellow noodle moved, and her body moved forward a little too.",
+        "illustrationPrompt": "朵朵借浮条小幅蹬腿，教练近旁托护随行，只在浅水区移动。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-8da81713-a2da-48da-a1fe-54646917bca9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵借浮条小幅蹬腿，教练近旁托护随行，只在浅水区移动。. Narrative meaning for composition only; never render words: “我在这里。”教练说。朵朵轻轻蹬腿，黄色浮条动了，身体也跟着向前挪了一点。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 15,
+        "zhText": "她停下来，站回池底，喘口气：“原来动小一点，也能往前走。”",
+        "enText": "She stopped and stood on the pool floor to catch her breath. ‘Even little movements can help me go forward.’",
+        "illustrationPrompt": "朵朵重新站稳浅水池底，手扶浮条，教练近旁陪她休息。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d953a930-724e-449b-ba2a-fbe5eada0461.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 朵朵重新站稳浅水池底，手扶浮条，教练近旁陪她休息。. Narrative meaning for composition only; never render words: 她停下来，站回池底，喘口气：“原来动小一点，也能往前走。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 16,
+        "zhText": "最后一回，朵朵借着浮条，在教练近旁保护下向前游了一小段。到池边时，她先稳稳扶住了边沿。",
+        "enText": "On her last turn, Duoduo used the noodle and swam a short way with her teacher protecting her close by. At the edge, she held on firmly first.",
+        "illustrationPrompt": "朵朵借浮条完成短距蹬腿前进后抓稳池边，教练紧邻，未呈现独立游泳。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7c12dc5e-2410-4f5a-ba4c-3fb2f5c8cd6f.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Remove Mama entirely from this lesson frame, including her reflection or legs in water. Keep child using yellow pool noodle to reach pool edge and hold edge firmly, and adult instructor right beside her within immediate reach. Only child and instructor in shallow teaching pool, clear safe supervised learning scene.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0a1e7dfe-6d81-4f9a-8071-6b8a1f3515a1.png"
+      },
+      {
+        "page": 17,
+        "zhText": "妈妈来接她，朵朵指指那一小段：“今天我用腿，带自己过来了。教练一直在旁边。”",
+        "enText": "When Mama came to collect her, Duoduo pointed at that little stretch. ‘Today my legs brought me over there. My teacher stayed beside me.’",
+        "illustrationPrompt": "课程结束朵朵披毛巾在指定离池处告诉妈妈进步，教练近旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-312cb8e4-86d8-459c-bc03-10e22109d201.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《泳池里的一小段》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 课程结束朵朵披毛巾在指定离池处告诉妈妈进步，教练近旁。. Narrative meaning for composition only; never render words: 妈妈来接她，朵朵指指那一小段：“今天我用腿，带自己过来了。教练一直在旁边。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png"
+      },
+      {
+        "page": 18,
+        "zhText": "她把泳帽叠进袋子：“下一次，我还要等教练一起下水。”袋子里的黄毛巾，像藏住了一小片阳光。",
+        "enText": "She folded her cap into the bag. ‘Next time, I'll wait for my teacher before getting in again.’ The yellow towel looked like a little piece of sunshine.",
+        "illustrationPrompt": "更衣后朵朵与妈妈收好泳帽及黄色毛巾，泳池入口在远处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d9979ea4-5575-4c1b-8d70-c82b5ec9707f.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Child has CHANGED INTO ordinary clothes after swimming: a cream short-sleeved T-shirt, coral shorts and simple sandals, no swimsuit visible. Preserve her face and short black hair. She folds coral swimming cap into open bag containing yellow towel beside Mama, at dry bench away from pool edge. Teacher can be distant in background. No goggles on child's head.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-de178d6d-e2f8-4c1d-913e-2e2630fd7986.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3549cba7-322a-4205-8219-8c90c6b06ab0.png"
+      }
+    ],
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Duoduo is a 5-year-old Chinese girl, coral-pink swim cap, pale-blue one-piece swimsuit, transparent swimming goggles. Qualified female instructor wears dark-blue swimsuit, white swim cap, always within immediate reach whenever child is in water. Mama wears cream top, sage-green trousers and stays out of water in designated observation area. Yellow pool noodle. Shallow supervised teaching pool, waist-deep when standing. No child alone in water.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

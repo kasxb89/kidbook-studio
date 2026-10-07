@@ -1,0 +1,251 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "lan-qiu-dong-dong-hui-lai-le",
+    "seriesId": "sanzijing",
+    "title": "篮球咚咚回来了",
+    "subtitle": "先让手和球慢慢认识",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "从合适球具与稳定站姿开始，通过单次拍接逐渐练习原地连续拍球。",
+      "reminder": "用适合孩子手掌和力量的球，检查地面与间距，不打手纠正、不追固定次数；滚球由成人照看，不追到车道。",
+      "questions": [
+        "小一点的球给乐乐带来了什么帮助？",
+        "球歪了的时候，他发现了什么？",
+        "你愿意先练拍一次接住，还是连续试两下？"
+      ],
+      "activity": "在空旷平整处，用小篮球轮流练拍一次接住，成人慢速示范；由孩子选择何时尝试连续拍与休息。",
+      "ageTips": {
+        "age4to5": "以抱球、滚球、单次拍接等球感游戏为主。",
+        "age6to8": "先让原地拍球更稳定，再在具备条件时逐步增加移动，不把年龄当作必须达标的期限。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 13,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会技能",
+        "学拍篮球与观察调整"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "球场上，阿远一边走，一边把球拍得咚咚响。乐乐跟着听，觉得那像一队小鼓手。",
+        "enText": "On the court, Ayuan walked along, bouncing his ball with a steady thump. Lele listened. It sounded like a little marching band.",
+        "illustrationPrompt": "球场一角阿远慢走运球，乐乐与爸爸在边外观察，背景人少。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 球场一角阿远慢走运球，乐乐与爸爸在边外观察，背景人少。. Narrative meaning for composition only; never render words: 球场上，阿远一边走，一边把球拍得咚咚响。乐乐跟着听，觉得那像一队小鼓手。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book."
+      },
+      {
+        "page": 2,
+        "zhText": "乐乐抱起一个大篮球，手指还没张开，球就滑到了肚子前。它比想象中重一些。",
+        "enText": "Lele picked up a big basketball. Before he could spread his fingers, it slipped toward his tummy. It was heavier than he expected.",
+        "illustrationPrompt": "乐乐两手抱较大篮球感到费力，爸爸在近处看他的手。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e97d4925-4bf5-4752-adfd-8542b39cb821.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐两手抱较大篮球感到费力，爸爸在近处看他的手。. Narrative meaning for composition only; never render words: 乐乐抱起一个大篮球，手指还没张开，球就滑到了肚子前。它比想象中重一些。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 3,
+        "zhText": "爸爸换来一个适合小手的球。乐乐抱了抱：“这个，我能稳稳拿住。”",
+        "enText": "Dad found a ball that fitted smaller hands. Lele hugged it. ‘I can hold this one firmly.’",
+        "illustrationPrompt": "爸爸收好大球，乐乐双手稳抱橙色儿童小篮球。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9bed0ade-0deb-460e-b2e4-4acd1d4eaaf1.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸收好大球，乐乐双手稳抱橙色儿童小篮球。. Narrative meaning for composition only; never render words: 爸爸换来一个适合小手的球。乐乐抱了抱：“这个，我能稳稳拿住。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 4,
+        "zhText": "他想边走边拍。脚往前跑，手往旁边推，球一下滚到了远处的长凳边。",
+        "enText": "He wanted to walk and bounce at once. His feet ran forward and his hand pushed sideways. The ball rolled toward a bench far away.",
+        "illustrationPrompt": "乐乐尝试走动拍球，小篮球在安全球场内滚向远处长凳。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-721a77b8-d05f-4420-87d9-9796da164f13.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐尝试走动拍球，小篮球在安全球场内滚向远处长凳。. Narrative meaning for composition only; never render words: 他想边走边拍。脚往前跑，手往旁边推，球一下滚到了远处的长凳边。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 5,
+        "zhText": "“它不肯跟着我。”乐乐追上去，把球抱回来。爸爸问：“先站在这里，听它弹一次好吗？”",
+        "enText": "‘It won't come with me.’ Lele fetched it and hugged it again. Dad asked, ‘Shall we stay here and listen to one bounce first?’",
+        "illustrationPrompt": "爸爸陪乐乐捡回球，指向球场空旷固定位置。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fe90bbae-6341-44c6-b95e-598348fa4a2e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸陪乐乐捡回球，指向球场空旷固定位置。. Narrative meaning for composition only; never render words: “它不肯跟着我。”乐乐追上去，把球抱回来。爸爸问：“先站在这里，听它弹一次好吗？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 6,
+        "zhText": "乐乐双脚站开一点，轻轻弯膝，把球往下送。咚！球弹起来，他用两只手接住。",
+        "enText": "Lele placed his feet a little apart and gently bent his knees. He sent the ball down. Thump! It rose, and he caught it with both hands.",
+        "illustrationPrompt": "乐乐稳站微弯膝，球向地面弹起，准备双手接住，爸爸侧旁观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ef05c026-9103-4d32-b878-c7bce60a1c24.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐稳站微弯膝，球向地面弹起，准备双手接住，爸爸侧旁观察。. Narrative meaning for composition only; never render words: 乐乐双脚站开一点，轻轻弯膝，把球往下送。咚！球弹起来，他用两只手接住。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 7,
+        "zhText": "他又试了一次。这回球弹向鞋边。乐乐低头看：“我刚才把它推歪了。”",
+        "enText": "He tried again. This time, the ball bounced toward his shoe. Lele looked down. ‘I pushed it sideways that time.’",
+        "illustrationPrompt": "小篮球弹向乐乐鞋子旁，他停住观察落点，不边追边拍。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9a0d0204-88d9-42dd-ba50-27a1a5c61764.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小篮球弹向乐乐鞋子旁，他停住观察落点，不边追边拍。. Narrative meaning for composition only; never render words: 他又试了一次。这回球弹向鞋边。乐乐低头看：“我刚才把它推歪了。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 8,
+        "zhText": "爸爸示范了一下：手张开，手指自然分开，轻轻把球向下压。球回来，手也跟着轻轻动。",
+        "enText": "Dad showed him: open the hand, let the fingers spread naturally, and gently press the ball downward. When it comes back, let the hand move with it.",
+        "illustrationPrompt": "爸爸用同一个小篮球慢速示范掌指动作，乐乐在侧面看。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7d72575a-b176-475f-810b-6791ed8c6379.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸用同一个小篮球慢速示范掌指动作，乐乐在侧面看。. Narrative meaning for composition only; never render words: 爸爸示范了一下：手张开，手指自然分开，轻轻把球向下压。球回来，手也跟着轻轻动。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 9,
+        "zhText": "乐乐试着不再狠狠打它。一下，接住；再一下，再接住。球越来越常回到手边。",
+        "enText": "Lele tried without hitting so hard. One bounce, then catch. Another bounce, then catch. More often now, the ball returned to his hands.",
+        "illustrationPrompt": "乐乐做单次拍球后双手接住的练习，表情专注放松。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-821b3425-b520-42ae-9e1f-68321eba8cb4.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐做单次拍球后双手接住的练习，表情专注放松。. Narrative meaning for composition only; never render words: 乐乐试着不再狠狠打它。一下，接住；再一下，再接住。球越来越常回到手边。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 10,
+        "zhText": "等球弹起来，他轻轻送了第二下。咚，咚！第三下没跟上，球停在了脚前。",
+        "enText": "When the ball rose, he gently sent it down again. Thump, thump! He missed the third bounce, and the ball stopped by his feet.",
+        "illustrationPrompt": "乐乐初次尝试两下连续拍，球最终停在脚前，爸爸等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0ad6fcf7-2f3a-4a98-9f67-cde023d0f39b.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐初次尝试两下连续拍，球最终停在脚前，爸爸等待。. Narrative meaning for composition only; never render words: 等球弹起来，他轻轻送了第二下。咚，咚！第三下没跟上，球停在了脚前。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 11,
+        "zhText": "乐乐抱着球笑了：“刚才有两声！”爸爸也笑：“你等到它回来了，才拍下一下。”",
+        "enText": "Lele hugged the ball and laughed. ‘There were two thumps!’ Dad smiled. ‘You waited for it to come back before the next bounce.’",
+        "illustrationPrompt": "父子一起回顾两次拍球的节奏，乐乐抱球笑，爸爸不计分。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-16d0c996-7699-4224-bdcd-7dc24d6d0f1d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子一起回顾两次拍球的节奏，乐乐抱球笑，爸爸不计分。. Narrative meaning for composition only; never render words: 乐乐抱着球笑了：“刚才有两声！”爸爸也笑：“你等到它回来了，才拍下一下。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 12,
+        "zhText": "拍久了，小手有点累。乐乐把球放到脚边，和爸爸去长凳上喝水。",
+        "enText": "After a while, his hands felt tired. Lele put the ball beside his feet, then went with Dad to the bench for water.",
+        "illustrationPrompt": "父子坐长凳喝水，小篮球稳放在凳旁，场地通道畅通。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1cc7a62e-6cdb-426f-a1ba-02d5c65da0bb.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子坐长凳喝水，小篮球稳放在凳旁，场地通道畅通。. Narrative meaning for composition only; never render words: 拍久了，小手有点累。乐乐把球放到脚边，和爸爸去长凳上喝水。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 13,
+        "zhText": "第二次来，乐乐一急，球又跑了。他抱回来，先做一次“拍下去，接回来”。",
+        "enText": "On their second visit, Lele hurried and the ball ran away again. He brought it back and began with one bounce and one catch.",
+        "illustrationPrompt": "另一天球场，乐乐重新做单次拍接练习，衣着与小篮球保持一致。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-004fd5c2-a232-4b4f-9673-2aaec07a20e9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 另一天球场，乐乐重新做单次拍接练习，衣着与小篮球保持一致。. Narrative meaning for composition only; never render words: 第二次来，乐乐一急，球又跑了。他抱回来，先做一次“拍下去，接回来”。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 14,
+        "zhText": "慢下来以后，球像认出了他的手。一下，两下，三下，乐乐没有挪动脚。",
+        "enText": "As he slowed down, the ball seemed to recognise his hand. One, two, three. Lele's feet stayed in place.",
+        "illustrationPrompt": "乐乐原地稳定拍球，橙色小篮球在同一侧弹起，不表现走动运球。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ff15bb8d-8999-48fb-a2e7-703efc6de4b8.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐原地稳定拍球，橙色小篮球在同一侧弹起，不表现走动运球。. Narrative meaning for composition only; never render words: 慢下来以后，球像认出了他的手。一下，两下，三下，乐乐没有挪动脚。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 15,
+        "zhText": "阿远走过来，站在另一块空地上。两个人的球声，有时一起响，有时一前一后。",
+        "enText": "Ayuan came over and stood in another clear space. Their ball sounds sometimes matched and sometimes took turns.",
+        "illustrationPrompt": "两个同龄孩子相隔足够距离各自拍球，爸爸在外围观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-636e90be-9921-4778-91db-a5972db5055d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 两个同龄孩子相隔足够距离各自拍球，爸爸在外围观察。. Narrative meaning for composition only; never render words: 阿远走过来，站在另一块空地上。两个人的球声，有时一起响，有时一前一后。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 16,
+        "zhText": "乐乐连续拍了五下，把球抱住。阿远问要不要试着走，乐乐说：“我还想先站稳练练。”",
+        "enText": "Lele bounced five times in a row and caught the ball. Ayuan asked if he wanted to try walking. ‘I'd like to practise standing steadily first,’ Lele said.",
+        "illustrationPrompt": "乐乐拍完短段后抱球，阿远停球询问，两人站在空场地。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e6f2a938-2373-4bbf-a624-a9d207669a73.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐拍完短段后抱球，阿远停球询问，两人站在空场地。. Narrative meaning for composition only; never render words: 乐乐连续拍了五下，把球抱住。阿远问要不要试着走，乐乐说：“我还想先站稳练练。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 17,
+        "zhText": "爸爸把空水瓶收进袋子，乐乐又拍了一小段。这次，他留心的不是数，而是球回来的时候。",
+        "enText": "While Dad put the empty water bottle away, Lele tried another short turn. This time, he listened less to the count and watched when the ball came back.",
+        "illustrationPrompt": "爸爸收水瓶，乐乐做一小段原地拍球，目光留意球的回弹。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-5b2fea62-461a-4d9f-8802-8f617f16cdec.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸收水瓶，乐乐做一小段原地拍球，目光留意球的回弹。. Narrative meaning for composition only; never render words: 爸爸把空水瓶收进袋子，乐乐又拍了一小段。这次，他留心的不是数，而是球回来的时候。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      },
+      {
+        "page": 18,
+        "zhText": "回家路上，球安静地躺在网袋里。乐乐轻轻敲着自己的膝盖：咚，咚，明天再一起玩。",
+        "enText": "On the way home, the ball rested in its net bag. Lele tapped his knees softly. Thump, thump. They could play again tomorrow.",
+        "illustrationPrompt": "父子离开球场，爸爸提装球网袋，乐乐轻敲膝盖回想节奏。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-930b3c8d-9178-4212-843d-342aa26888a5.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《篮球咚咚回来了》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子离开球场，爸爸提装球网袋，乐乐轻敲膝盖回想节奏。. Narrative meaning for composition only; never render words: 回家路上，球安静地躺在网袋里。乐乐轻轻敲着自己的膝盖：咚，咚，明天再一起玩。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cb905b5e-51d5-4b76-9e7e-85f05716a0c1.png"
+      }
+    ],
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sports sweatshirt, teal trousers, white sneakers. Dad wears pale-blue sports top, dark-grey trousers. Ayuan is a 5-year-old Chinese boy, short black hair, green sports shirt. Lele uses small orange child-sized basketball, not oversized adult ball except in page 2.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "status": "local-integration-validation",
+  "approved": true,
+  "preparedAt": "2026-10-06",
+  "seriesTitle": "亲子成长",
+  "runtimeSeriesId": "sanzijing",
+  "ageRange": "4–8 岁",
+  "reviewLanguage": "zh",
+  "totalBooks": 10,
+  "totalPages": 180,
+  "averagePages": 18,
+  "production": {
+    "contentApprovalRequired": true,
+    "finalTextLanguages": [
+      "zh",
+      "en"
+    ],
+    "images": {
+      "tool": "built-in-imagegen",
+      "startAfterContentApproval": true,
+      "format": "webp",
+      "width": 1200,
+      "height": 1200,
+      "maxBytes": 307200,
+      "characterReferenceRequired": true
+    },
+    "audio": {
+      "language": "zh",
+      "preGenerate": true,
+      "startAfterContentApproval": true,
+      "requiredBeforeReaderIntegration": true,
+      "reuseExistingTtsPipeline": true,
+      "pageTimelineRequired": true,
+      "contentHashRequired": true,
+      "decodeValidationRequired": true,
+      "generatedWith": "macos-say-local",
+      "voice": "Tingting (中文（中国大陆）)",
+      "externalBatchCallAuthorized": false
+    },
+    "publicationAuthorized": false
+  },
+  "books": [
+    {
+      "id": "ba-ba-de-shou-ji-xian-shui-yi-hui-er",
+      "title": "爸爸的手机先睡一会儿",
+      "order": 7,
+      "pages": 18,
+      "group": "亲子关系",
+      "topic": "专注陪伴与家庭约定"
+    },
+    {
+      "id": "men-kou-de-zai-jian-xiao-yi-shi",
+      "title": "门口的再见小仪式",
+      "order": 8,
+      "pages": 18,
+      "group": "亲子关系",
+      "topic": "入园分别与稳定的告别"
+    },
+    {
+      "id": "mei-mei-lai-le-wo-hai-zai-zhe-li",
+      "title": "妹妹来了，我还在这里",
+      "order": 9,
+      "pages": 18,
+      "group": "亲子关系",
+      "topic": "手足关系与被看见的需要"
+    },
+    {
+      "id": "wo-men-jia-de-zan-ting-shou-shi",
+      "title": "我们家的暂停手势",
+      "order": 10,
+      "pages": 18,
+      "group": "亲子关系",
+      "topic": "家庭分歧与成人的情绪责任"
+    },
+    {
+      "id": "na-ge-yue-ding-mei-you-zuo-dao",
+      "title": "那个约定没有做到",
+      "order": 11,
+      "pages": 18,
+      "group": "亲子关系",
+      "topic": "成人失约后的承认与补救"
+    },
+    {
+      "id": "sheng-zi-shua-de-yi-sheng",
+      "title": "绳子唰的一声",
+      "order": 12,
+      "pages": 18,
+      "group": "学会技能",
+      "topic": "学跳绳与分步练习"
+    },
+    {
+      "id": "lan-qiu-dong-dong-hui-lai-le",
+      "title": "篮球咚咚回来了",
+      "order": 13,
+      "pages": 18,
+      "group": "学会技能",
+      "topic": "学拍篮球与观察调整"
+    },
+    {
+      "id": "xiao-che-lun-man-man-zhuan",
+      "title": "小车轮，慢慢转",
+      "order": 14,
+      "pages": 18,
+      "group": "学会技能",
+      "topic": "学骑自行车与安全的掌控感"
+    },
+    {
+      "id": "yong-chi-li-de-yi-xiao-duan",
+      "title": "泳池里的一小段",
+      "order": 15,
+      "pages": 18,
+      "group": "学会技能",
+      "topic": "游泳入门与说出需要"
+    },
+    {
+      "id": "zhi-fei-ji-fei-guo-lan-xian",
+      "title": "纸飞机飞过蓝线",
+      "order": 16,
+      "pages": 18,
+      "group": "学会技能",
+      "topic": "学折纸与动手解决问题"
+    }
+  ],
+  "approvedAt": "2026-10-06"
+}

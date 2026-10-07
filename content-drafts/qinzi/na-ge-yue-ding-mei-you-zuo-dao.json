@@ -1,0 +1,254 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "na-ge-yue-ding-mei-you-zuo-dao",
+    "seriesId": "sanzijing",
+    "title": "那个约定没有做到",
+    "subtitle": "失望需要被听见，承诺需要被认真对待",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "帮助成人承认失约、听见失望，并用核实后的安排与行动修复信任。",
+      "reminder": "不以礼物、食物或马上道歉换取孩子停止难过；无法保证的安排先说明，提醒与兑现由成人负责。",
+      "questions": [
+        "乐乐等木偶戏时做了哪些准备？",
+        "为什么吃面不能马上代替木偶戏？",
+        "一个约定做不到时，你希望先听见什么？"
+      ],
+      "activity": "挑一件近期可以兑现的小事，成人核实条件后约定；若变化，提前说明并邀请孩子参与可行的后续安排。",
+      "ageTips": {
+        "age4to5": "用具体活动与生活节点解释变化，允许孩子继续难过。",
+        "age6to8": "讨论想做与已确认能做的区别，成人演示如何核实而非把提醒交给孩子。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 11,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子关系",
+        "成人失约后的承认与补救"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "星期三，爸爸说：“周日带你去看木偶戏。”乐乐把一颗小星星贴在日历上。",
+        "enText": "On Wednesday, Dad said, ‘I'll take you to the puppet show on Sunday.’ Lele stuck a little star on the calendar.",
+        "illustrationPrompt": "父子在家庭日历旁贴星星，橙色小背包挂在低钩上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for page 1. Keep father and boy identity, clothing, pose, orange backpack, calendar position, room and watercolor style. Remove the entire miniature puppet theatre and puppets from the shelf; replace with plain closed books with blank spines. Calendar must be a completely blank grid with EXACTLY ONE yellow star sticker, the one the boy is currently touching. Remove every other sticker and all tiny writing from the calendar. No text or numbers anywhere. Keep the boy in the act of putting on that single star.\n"
+      },
+      {
+        "page": 2,
+        "zhText": "星期四，他问木偶会不会眨眼睛。星期五，他把想带的小手帕放进了橙色背包。",
+        "enText": "On Thursday, he asked whether puppets could blink. On Friday, he packed his little handkerchief in his orange backpack.",
+        "illustrationPrompt": "乐乐把小手帕放进橙色背包，脸上充满期待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-83efa087-b60b-4f29-8c89-43c15d294124.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐把小手帕放进橙色背包，脸上充满期待。. Narrative meaning for composition only; never render words: 星期四，他问木偶会不会眨眼睛。星期五，他把想带的小手帕放进了橙色背包。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 3,
+        "zhText": "到了周日，他早早穿好鞋。爸爸拿出手机订票，忽然停住：“这一场已经没有票了。”",
+        "enText": "On Sunday, he put his shoes on early. Dad took out his phone to book tickets, then stopped. ‘This show has sold out.’",
+        "illustrationPrompt": "门口乐乐穿好鞋等待，爸爸查看手机后神情迟疑。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ce51ce7b-3ee5-4bf6-bdad-f93a8e10a4db.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 门口乐乐穿好鞋等待，爸爸查看手机后神情迟疑。. Narrative meaning for composition only; never render words: 到了周日，他早早穿好鞋。爸爸拿出手机订票，忽然停住：“这一场已经没有票了。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 4,
+        "zhText": "乐乐看着日历上的星星：“可是你说好了。”他没有把背包放下来。",
+        "enText": "Lele looked at the star on the calendar. ‘But you promised.’ He kept his backpack on.",
+        "illustrationPrompt": "乐乐背着橙色包望向日历星星，爸爸站在身旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-dc9bd1c4-72c2-496d-be81-949f89cc06fc.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐背着橙色包望向日历星星，爸爸站在身旁。. Narrative meaning for composition only; never render words: 乐乐看着日历上的星星：“可是你说好了。”他没有把背包放下来。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 5,
+        "zhText": "爸爸赶紧说：“那我们去吃你喜欢的面吧？”乐乐摇头：“我今天想看的是木偶戏。”",
+        "enText": "Dad quickly said, ‘Shall we have your favourite noodles instead?’ Lele shook his head. ‘Today I wanted the puppet show.’",
+        "illustrationPrompt": "爸爸试着提出别的活动，乐乐摇头并抓紧背包肩带。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-597ca127-d31a-47e5-995c-aa4fd7ca8650.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸试着提出别的活动，乐乐摇头并抓紧背包肩带。. Narrative meaning for composition only; never render words: 爸爸赶紧说：“那我们去吃你喜欢的面吧？”乐乐摇头：“我今天想看的是木偶戏。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 6,
+        "zhText": "爸爸把手机放下：“对，我忘了提前订票。不是你记错了，是我没有把答应的事办好。”",
+        "enText": "Dad put down his phone. ‘You're right. I forgot to book the tickets early. You remembered correctly. I didn't take care of what I promised.’",
+        "illustrationPrompt": "爸爸放下手机蹲到孩子面前，认真承认疏忽。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-f616533b-1137-4fcb-bf9f-fe67887ca9bc.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸放下手机蹲到孩子面前，认真承认疏忽。. Narrative meaning for composition only; never render words: 爸爸把手机放下：“对，我忘了提前订票。不是你记错了，是我没有把答应的事办好。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 7,
+        "zhText": "“我等了好多天。”乐乐的眼泪一颗颗掉下来。爸爸坐在旁边，没有再介绍别的好玩地方。",
+        "enText": "‘I've waited so many days.’ Lele's tears fell, one after another. Dad sat beside him without suggesting more fun places.",
+        "illustrationPrompt": "乐乐坐在门边小凳哭泣，爸爸安静坐在旁边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1131d621-fc54-4314-8292-457777859d13.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐坐在门边小凳哭泣，爸爸安静坐在旁边。. Narrative meaning for composition only; never render words: “我等了好多天。”乐乐的眼泪一颗颗掉下来。爸爸坐在旁边，没有再介绍别的好玩地方。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 8,
+        "zhText": "过了一会儿，乐乐问：“今天真的看不了了吗？”爸爸查清楚以后，轻轻点头。",
+        "enText": "After a while, Lele asked, ‘Is there really no way to see it today?’ Dad checked carefully, then gently nodded.",
+        "illustrationPrompt": "爸爸核对场次信息后回应，屏幕无可读文字，孩子认真看他。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9eca83e7-51f3-4c95-8805-7cbaea1b243e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸核对场次信息后回应，屏幕无可读文字，孩子认真看他。. Narrative meaning for composition only; never render words: 过了一会儿，乐乐问：“今天真的看不了了吗？”爸爸查清楚以后，轻轻点头。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 9,
+        "zhText": "“对不起。”爸爸说，“我想补上，但你现在还难过，也不用马上说没关系。”",
+        "enText": "‘I'm sorry,’ Dad said. ‘I'd like to make it up to you. You're still upset, and you don't have to say it's all right now.’",
+        "illustrationPrompt": "爸爸与乐乐面对面交谈，孩子眼睛仍红，书包放在脚边。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0083f251-11a0-4b5f-8f53-bed7337babe0.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸与乐乐面对面交谈，孩子眼睛仍红，书包放在脚边。. Narrative meaning for composition only; never render words: “对不起。”爸爸说，“我想补上，但你现在还难过，也不用马上说没关系。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 10,
+        "zhText": "乐乐把小手帕攥在手里：“我还想看那只会唱歌的木偶。”爸爸问：“愿意看看下一场吗？”",
+        "enText": "Lele squeezed his handkerchief. ‘I still want to see the puppet that sings.’ Dad asked, ‘Would you like to look at the next show?’",
+        "illustrationPrompt": "乐乐握着手帕表达仍想看戏，爸爸询问后拿起手机。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c3f65e5a-3254-45cc-954b-62f064adc5c1.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐握着手帕表达仍想看戏，爸爸询问后拿起手机。. Narrative meaning for composition only; never render words: 乐乐把小手帕攥在手里：“我还想看那只会唱歌的木偶。”爸爸问：“愿意看看下一场吗？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 11,
+        "zhText": "这次，爸爸先查时间，确认那天能去，再把票买好。乐乐坐在旁边，等他全部办完。",
+        "enText": "This time, Dad checked the date, made sure they could go, and bought the tickets. Lele sat beside him until it was all done.",
+        "illustrationPrompt": "父子一起核对下一场，爸爸完成购票，乐乐在身边观察。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-f0edd24a-71a0-4f01-ac1e-f352f20258f8.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子一起核对下一场，爸爸完成购票，乐乐在身边观察。. Narrative meaning for composition only; never render words: 这次，爸爸先查时间，确认那天能去，再把票买好。乐乐坐在旁边，等他全部办完。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only ONE star sticker.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 12,
+        "zhText": "他们在下周日贴上另一颗星星。爸爸把出发时间也记下来：“到时候，我负责提醒我们。”",
+        "enText": "They put another star on the following Sunday. Dad noted when to leave too. ‘I'll be responsible for reminding us.’",
+        "illustrationPrompt": "爸爸在家庭日历下一周位置贴星星，孩子看着，不显示具体文字。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9762b9aa-1d5b-459f-9ec2-077f9840d4d1.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Correct calendar: exactly TWO yellow star stickers should be in the SAME vertical column, with the second star ONE calendar row BELOW the first, showing next week's same weekday. Dad points to the new lower star. Completely blank grid without writing or digits.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-13cb751f-ba05-4d11-8501-01981eca22c2.png"
+      },
+      {
+        "page": 13,
+        "zhText": "今天的下午还很长。乐乐说：“我想先在家待着。”爸爸陪他把背包放回小挂钩。",
+        "enText": "There was still a long afternoon ahead. ‘I'd like to stay home first,’ Lele said. Dad helped him hang his backpack on its little hook.",
+        "illustrationPrompt": "父子把橙色背包挂回低钩，门口的鞋摆好。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-6ecee93f-6f3e-40e3-bea0-82aa22464d15.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子把橙色背包挂回低钩，门口的鞋摆好。. Narrative meaning for composition only; never render words: 今天的下午还很长。乐乐说：“我想先在家待着。”爸爸陪他把背包放回小挂钩。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only TWO star stickers.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 14,
+        "zhText": "窗外有人骑车经过。乐乐拿出两只袜子，给它们安上纸眼睛：“这个木偶还不会唱歌。”",
+        "enText": "Someone cycled past the window. Lele found two socks and added paper eyes. ‘This puppet doesn't know how to sing yet.’",
+        "illustrationPrompt": "乐乐用干净袜子与纸眼睛做简易手偶，爸爸在旁递材料。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a840f5b7-17cf-4b95-92a4-2868bcb79c9e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐用干净袜子与纸眼睛做简易手偶，爸爸在旁递材料。. Narrative meaning for composition only; never render words: 窗外有人骑车经过。乐乐拿出两只袜子，给它们安上纸眼睛：“这个木偶还不会唱歌。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only TWO star stickers.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 15,
+        "zhText": "爸爸用低低的声音唱了一句。乐乐笑了一下，又说：“不过，我还是想去剧院。”",
+        "enText": "Dad sang a line in a low voice. Lele smiled a little, then said, ‘But I still want to go to the theatre.’",
+        "illustrationPrompt": "爸爸戴着袜子手偶轻声表演，乐乐微笑但仍认真表达愿望。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7e9cd5a5-64fd-425e-9ec4-704e5a16b7b8.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Replace the shop-bought rabbit and dog puppets with the homemade sock puppets from page 14: ONE grey-and-cream striped sock and ONE navy-blue sock, each with only simple flat round paper eyes, NO ears, fur, animal noses or professionally made features. Dad wears these plain socks on hands while singing gently, boy watches.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-5f8eb8cf-c8f5-4c42-b616-df5825c31cca.png"
+      },
+      {
+        "page": 16,
+        "zhText": "“我记着。”爸爸说。下一周，他提前准备好票，按约好的时间来叫乐乐出发。",
+        "enText": "‘I remember,’ Dad said. The following week, he had the tickets ready and called Lele to leave at the time they had agreed.",
+        "illustrationPrompt": "下一周门口爸爸带好票与随身袋，乐乐取下橙色背包。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e93add14-a183-45d2-88bc-55d8c4887882.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 下一周门口爸爸带好票与随身袋，乐乐取下橙色背包。. Narrative meaning for composition only; never render words: “我记着。”爸爸说。下一周，他提前准备好票，按约好的时间来叫乐乐出发。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. NO puppet theatre, stage, miniature theatre or costumed puppets at home; only plain sock hand-puppets in pages 14 and 15. If calendar is visible it has only TWO star stickers.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 17,
+        "zhText": "剧院里灯暗下来，一只木偶从小窗后探出头。乐乐赶紧轻碰爸爸：“它真的会眨眼睛！”",
+        "enText": "The theatre lights dimmed, and a puppet peeped from a little window. Lele nudged Dad. ‘It really can blink!’",
+        "illustrationPrompt": "父子坐在剧院观众席，台上木偶从小窗探头，灯光温和不吓人。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a66f56bb-5ce4-477c-a2ee-0fee204e8edf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《那个约定没有做到》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子坐在剧院观众席，台上木偶从小窗探头，灯光温和不吓人。. Narrative meaning for composition only; never render words: 剧院里灯暗下来，一只木偶从小窗后探出头。乐乐赶紧轻碰爸爸：“它真的会眨眼睛！”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. If calendar is visible it has only TWO star stickers.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png"
+      },
+      {
+        "page": 18,
+        "zhText": "回家路上，乐乐一路学着木偶唱歌。走到那颗旧星星前，爸爸说：“谢谢你把失望告诉我。”",
+        "enText": "Lele sang like the puppet all the way home. By the old calendar star, Dad said, ‘Thank you for telling me how disappointed you felt.’",
+        "illustrationPrompt": "回到家门口，乐乐开心模仿木偶，父子看见日历上的两颗星星。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c4acc2d4-559d-4641-993a-ea29ec6c57e8.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Remove the miniature puppet theatre and puppet from the home shelf, replacing it with plain closed books with blank spines. Keep child imitating a singing puppet through body gesture, Dad listening, orange backpack and calendar with exactly TWO vertically aligned stars. No actual stage at home.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-0940446c-558e-4554-8cbb-2aa3b8f0729c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-344db86c-302e-4170-9aa9-8692b23099fd.png"
+      }
+    ],
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Lele is a 5-year-old Chinese boy, short black hair, mustard-yellow sweatshirt, teal trousers. Dad has short black hair, pale-blue shirt, dark-grey trousers. Orange backpack, small calendar with star-shaped stickers but no readable text, puppet theatre.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

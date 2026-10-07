@@ -1,0 +1,254 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "xiao-che-lun-man-man-zhuan",
+    "seriesId": "sanzijing",
+    "title": "小车轮，慢慢转",
+    "subtitle": "出发之前，先认识怎样停下来",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "建立出发与停车的掌控感，从低速滑行、踩踏板到宽缓转弯逐步练习。",
+      "reminder": "由成人检查车况、尺寸、手闸与合适头盔，选择无车辆的封闭平地；不突然松手、不推车加速，不把学会短段骑行视为可上道路。",
+      "questions": [
+        "小禾为什么先练停车？",
+        "爸爸松手前做了什么？",
+        "如果想停下来，你希望陪你的人怎样做？"
+      ],
+      "activity": "先在合适场地认识车闸并练低速停稳，成人全程近旁支持；按孩子的准备程度逐渐增加滑行距离和缓弯。",
+      "ageTips": {
+        "age4to5": "根据发展与车型选择适合的滑行游戏，不要求踩踏板独立骑。",
+        "age6to8": "练习出发、慢行与停车，后续场地选择和交通安全仍由成人负责。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 14,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "学会技能",
+        "学骑自行车与安全的掌控感"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "薄荷绿的小车停在院子里。小禾摸摸车铃：“它能带我走很远吗？”爸爸说：“我们先从这里开始。”",
+        "enText": "The mint-green bicycle stood in the courtyard. Xiaohe touched its bell. ‘Can it take me a long way?’ ‘Let's begin right here,’ Dad said.",
+        "illustrationPrompt": "封闭平整院子入口，小禾看薄荷绿自行车，黄色头盔放在爸爸手上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png",
+        "generationPrompt": "Use case: illustration-story. Asset: one complete square children's picture-book page 1 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 封闭平整院子入口，小禾看薄荷绿自行车，黄色头盔放在爸爸手上。. Narrative meaning for composition only; never render words: 薄荷绿的小车停在院子里。小禾摸摸车铃：“它能带我走很远吗？”爸爸说：“我们先从这里开始。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book."
+      },
+      {
+        "page": 2,
+        "zhText": "爸爸调好车座，小禾坐上去，两只脚都能稳稳踩到地面。头盔的扣带也检查好了。",
+        "enText": "Dad adjusted the seat. When Xiaohe sat down, both feet could reach the ground firmly. Dad checked the helmet strap too.",
+        "illustrationPrompt": "爸爸检查已戴好头盔的扣带，小禾坐车座双脚稳触地。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3df64b82-2f20-4706-bed0-16ad4c19137f.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Adjust low saddle and pose so Xiaohe is SITTING on saddle straddling bicycle with BOTH orange shoes flat on the ground on opposite sides of frame. Neither foot on a pedal. Dad checks the correctly fastened yellow helmet strap. Keep mint bicycle size appropriate for child.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-bb77465a-9d19-43f3-8f5c-96e1438f0b3a.png"
+      },
+      {
+        "page": 3,
+        "zhText": "“骑出去以后，怎么停呢？”小禾问。爸爸陪他捏捏车闸，推着车试了试。",
+        "enText": "‘How do I stop after I start?’ Xiaohe asked. Dad helped him squeeze the brakes and try them while pushing the bicycle.",
+        "illustrationPrompt": "小禾戴头盔与爸爸并排推车，手轻捏两侧车闸感受停止。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9337024b-7391-4fb6-a93c-87a4367e7b76.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾戴头盔与爸爸并排推车，手轻捏两侧车闸感受停止。. Narrative meaning for composition only; never render words: “骑出去以后，怎么停呢？”小禾问。爸爸陪他捏捏车闸，推着车试了试。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 4,
+        "zhText": "车停住了。爸爸指指前面的树影：“今天只在这片没有车辆的平地练，不去路上。”",
+        "enText": "The bicycle stopped. Dad pointed to the tree's shadow. ‘Today we'll practise on this flat space, with no vehicles. We won't go onto the road.’",
+        "illustrationPrompt": "空旷封闭练习区域，爸爸指出树影边界，无车辆、无斜坡和道路。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c4131ff1-afb0-4102-a628-933d96225fb4.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 空旷封闭练习区域，爸爸指出树影边界，无车辆、无斜坡和道路。. Narrative meaning for composition only; never render words: 车停住了。爸爸指指前面的树影：“今天只在这片没有车辆的平地练，不去路上。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 5,
+        "zhText": "小禾先不踩踏板，用两只脚把车轻轻往前推。爸爸走在旁边，留出他落脚的位置。",
+        "enText": "Xiaohe left the pedals alone at first and gently pushed forward with both feet. Dad walked beside him, leaving room for his feet to land.",
+        "illustrationPrompt": "小禾双脚推车低速滑行，爸爸侧旁走，不挡脚与车轮。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7c32e465-08ff-4740-a0a1-aac5bec7607c.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Child must be SEATED on lowered saddle STRADDLING the mint bicycle, pushing himself gently along with BOTH FEET contacting flat ground, NOT walking beside bicycle. No feet on pedals at this stage. Dad walks beside child with clear room for child's feet and no pushing of bicycle. Correctly fastened yellow helmet stays.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-dc9cc255-849d-4601-8a74-a59ac7e5b26c.png"
+      },
+      {
+        "page": 6,
+        "zhText": "到了树影前，他轻轻捏闸。车慢下来，双脚落地。小禾回头：“我把它停住了！”",
+        "enText": "Before the shadow, he squeezed the brakes gently. The bicycle slowed, and his feet touched down. Xiaohe looked back. ‘I stopped it!’",
+        "illustrationPrompt": "小禾低速捏闸后双脚着地，爸爸在旁看，头盔扣带清楚。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-94ae02cc-1112-4cf3-ba8b-b94791380f12.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾低速捏闸后双脚着地，爸爸在旁看，头盔扣带清楚。. Narrative meaning for composition only; never render words: 到了树影前，他轻轻捏闸。车慢下来，双脚落地。小禾回头：“我把它停住了！”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 7,
+        "zhText": "又滑了几趟，小禾把脚短短地抬起来。车晃了一下，他马上落脚，又稳稳站住。",
+        "enText": "After a few more glides, Xiaohe lifted his feet briefly. The bicycle wobbled. He put his feet down at once and stood steadily again.",
+        "illustrationPrompt": "小禾短暂滑行后双脚重新着地，爸爸在近处随时支持。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d0ae0213-e435-41f8-8483-7cf5ae5b4507.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾短暂滑行后双脚重新着地，爸爸在近处随时支持。. Narrative meaning for composition only; never render words: 又滑了几趟，小禾把脚短短地抬起来。车晃了一下，他马上落脚，又稳稳站住。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 8,
+        "zhText": "“刚才有点怕。”他说。爸爸问：“要坐一会儿，还是再滑一小段？”小禾选了喝水。",
+        "enText": "‘That felt a little scary,’ he said. Dad asked, ‘A rest, or another little glide?’ Xiaohe chose a drink of water.",
+        "illustrationPrompt": "父子在场边长凳休息喝水，自行车稳停在旁，小禾仍戴头盔。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9c1854b3-fd51-4880-8d8a-943487a1b806.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子在场边长凳休息喝水，自行车稳停在旁，小禾仍戴头盔。. Narrative meaning for composition only; never render words: “刚才有点怕。”他说。爸爸问：“要坐一会儿，还是再滑一小段？”小禾选了喝水。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 9,
+        "zhText": "下一次来，小禾又从滑行开始。树影比上次挪远了，他能滑过的路也长了一点。",
+        "enText": "Next time, Xiaohe began with gliding again. The tree's shadow had shifted farther away, and his glides grew a little longer too.",
+        "illustrationPrompt": "另一天同一封闭院子，小禾戴头盔沿直线滑行，爸爸跟在侧旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7c30c8a8-3d38-472c-ab95-e4690f922c17.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. This page is still GLIDING before pedalling is introduced. Child is seated on low saddle, with both orange feet lifted very slightly above ground and AWAY from the pedals after a foot push. Pedals empty. Dad walks nearby without holding or pushing. Helmet properly fastened. Smooth flat enclosed courtyard.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-790b0fff-7a8f-4ca0-a1e5-20ea7f03f8a4.png"
+      },
+      {
+        "page": 10,
+        "zhText": "他把一只脚放上踏板：“这次，能先扶一下车座吗？”爸爸答应：“要松手时，我先告诉你。”",
+        "enText": "He put one foot on a pedal. ‘Could you hold the seat for a little while?’ Dad agreed. ‘I'll tell you before I let go.’",
+        "illustrationPrompt": "小禾一脚上踏板另一脚触地，爸爸轻扶车座后端并先说明。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ad5881a1-a5a0-4408-a128-fde5a837a541.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾一脚上踏板另一脚触地，爸爸轻扶车座后端并先说明。. Narrative meaning for composition only; never render words: 他把一只脚放上踏板：“这次，能先扶一下车座吗？”爸爸答应：“要松手时，我先告诉你。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 11,
+        "zhText": "一脚踩下去，另一脚跟上来。车轮向前转了。爸爸说“我要松手了”，小禾点点头。",
+        "enText": "One foot pressed down, and the other followed. The wheels turned forward. ‘I'm going to let go,’ Dad said. Xiaohe nodded.",
+        "illustrationPrompt": "小禾开始踩踏板低速直行，爸爸侧旁轻扶车座准备依约松手。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-20642c1b-9ccc-4742-bbb6-d59b6594383f.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾开始踩踏板低速直行，爸爸侧旁轻扶车座准备依约松手。. Narrative meaning for composition only; never render words: 一脚踩下去，另一脚跟上来。车轮向前转了。爸爸说“我要松手了”，小禾点点头。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 12,
+        "zhText": "手松开以后，小禾又踩了几圈。到了树影前，他慢慢捏闸，停稳后把脚放到地上。",
+        "enText": "After Dad let go, Xiaohe pedalled a few more turns. Before the shadow, he squeezed the brakes gently and put his feet down once he had stopped.",
+        "illustrationPrompt": "小禾独立短段直行后在树影前缓缓刹停，爸爸侧旁双手未扶车。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-2c372737-c872-4563-97d2-aebd7fea2efc.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 12 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾独立短段直行后在树影前缓缓刹停，爸爸侧旁双手未扶车。. Narrative meaning for composition only; never render words: 手松开以后，小禾又踩了几圈。到了树影前，他慢慢捏闸，停稳后把脚放到地上。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 13,
+        "zhText": "“我会出发，也会停了！”小禾笑起来。今天最后一趟，他只练把车停在一片落叶旁。",
+        "enText": "‘I can start, and I can stop!’ Xiaohe smiled. On his last turn that day, he simply practised stopping beside a fallen leaf.",
+        "illustrationPrompt": "小禾在大块平地上练定点低速停车，落叶在地面，爸爸旁观。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cdd80493-f76d-4826-8dee-cc556e9a1f36.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾在大块平地上练定点低速停车，落叶在地面，爸爸旁观。. Narrative meaning for composition only; never render words: “我会出发，也会停了！”小禾笑起来。今天最后一趟，他只练把车停在一片落叶旁。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 14,
+        "zhText": "又过了几次练习，爸爸摆了两个软标志，留出宽宽的弯。小禾推着车，先走了一遍。",
+        "enText": "After several more practices, Dad set out two soft markers with a wide curve between them. Xiaohe walked the route, pushing his bicycle first.",
+        "illustrationPrompt": "宽间距两个低软标志围成大弯，小禾戴头盔推车熟悉路线。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1f1281bc-ab12-4ad6-93c5-ad204f70fc2e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 宽间距两个低软标志围成大弯，小禾戴头盔推车熟悉路线。. Narrative meaning for composition only; never render words: 又过了几次练习，爸爸摆了两个软标志，留出宽宽的弯。小禾推着车，先走了一遍。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 15,
+        "zhText": "他慢慢骑向弯道，眼睛看着想去的方向。车头一点点转过去，没有急急地拐。",
+        "enText": "He rode slowly toward the bend, looking where he wanted to go. The handlebar turned little by little, without a sudden twist.",
+        "illustrationPrompt": "小禾低速沿宽弯转向，目光看前方，爸爸在练习区域侧边陪同。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-8282dd51-54e9-4957-9a31-089c4b6fceaf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾低速沿宽弯转向，目光看前方，爸爸在练习区域侧边陪同。. Narrative meaning for composition only; never render words: 他慢慢骑向弯道，眼睛看着想去的方向。车头一点点转过去，没有急急地拐。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 16,
+        "zhText": "第一次，他提前停了。第二次，轮子绕过标志，回到了爸爸身边。“这个弯，我骑过来了！”",
+        "enText": "The first time, he stopped early. The second time, the wheels curved around the marker and returned to Dad. ‘I rode around that bend!’",
+        "illustrationPrompt": "小禾完成宽缓转弯后在爸爸身边双脚落地停稳，标志未倒。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-56b353d8-3fd3-455a-8fc4-991ce84424f4.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾完成宽缓转弯后在爸爸身边双脚落地停稳，标志未倒。. Narrative meaning for composition only; never render words: 第一次，他提前停了。第二次，轮子绕过标志，回到了爸爸身边。“这个弯，我骑过来了！”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 17,
+        "zhText": "小禾指着远处的门：“以后能骑出去吗？”爸爸说：“等准备好了，再去适合骑车的地方，我陪着你。”",
+        "enText": "Xiaohe pointed at the gate. ‘Can we ride outside one day?’ ‘When we're ready, we'll find a suitable place,’ Dad said. ‘I'll come with you.’",
+        "illustrationPrompt": "小禾停在封闭院内指向外门，爸爸说明后续安排，没有驶上道路。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cd5158c8-966c-43c2-9cd8-2310693f8019.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾停在封闭院内指向外门，爸爸说明后续安排，没有驶上道路。. Narrative meaning for composition only; never render words: 小禾指着远处的门：“以后能骑出去吗？”爸爸说：“等准备好了，再去适合骑车的地方，我陪着你。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      },
+      {
+        "page": 18,
+        "zhText": "回家前，他又骑过那个宽宽的弯，在爸爸身旁停好。铃铛轻轻响了一下：这趟路，到了。",
+        "enText": "Before going home, he rode around the wide curve once more and stopped beside Dad. The bell rang softly. This little journey was complete.",
+        "illustrationPrompt": "小禾戴头盔在爸爸身边稳停车，薄荷绿自行车车铃近景，练习场夕光。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3c4ff13f-6acb-4c13-809b-d84695dfaeff.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《小车轮，慢慢转》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾戴头盔在爸爸身边稳停车，薄荷绿自行车车铃近景，练习场夕光。. Narrative meaning for composition only; never render words: 回家前，他又骑过那个宽宽的弯，在爸爸身旁停好。铃铛轻轻响了一下：这趟路，到了。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d042a7f4-8cdc-4063-9aab-560f09e4aeca.png"
+      }
+    ],
+    "subseries": {
+      "id": "learning-skills",
+      "title": "学会新本领"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Xiaohe is a 6-year-old Chinese boy, black bowl cut, olive-green sports top, beige trousers, orange sports shoes. Dad wears grey-blue sports top, dark-grey trousers. Mint-green child-sized bicycle with two handbrakes and NO training wheels. In every mounted/riding/pushing practice scene Xiaohe wears correctly fastened yellow bicycle helmet. Flat enclosed practice courtyard, no road traffic, no slopes.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

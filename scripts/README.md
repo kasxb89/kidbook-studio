@@ -94,6 +94,33 @@ node --import tsx scripts/generate-library-contact-sheets.ts \
 
 输出为 `content-drafts/<seriesId>/<bookId>/contact-sheet.jpg`。脚本只读取既有 WebP；页码不连续或缺页会报错，不会把不完整插图标记为已验收。
 
+## 亲子成长新增十本
+
+已确认的中文正文和分镜保存在 `content-drafts/qinzi/batch-07-16/books/`，双语生产稿位于 `content-drafts/qinzi/<bookId>.json`。本批 10 本，每本 18 页，分为亲子相处与学会新本领；正式资源继续使用历史路径 `public/library/sanzijing/`，保留阅读记录与旧书链接。
+
+插画使用内置 imagegen，逐页生成；每本第 1 页作为人物与画风参考。`image-prompts.json` 保存初始提示词，各书页面的 `generationPrompt` 与 `generatedSource` 保存实际生成记录。新图片导入命令：
+
+```bash
+node --import tsx scripts/import-qinzi-batch-image.ts \
+  --book sheng-zi-shua-de-yi-sheng --page 2 --source /absolute/path/to/generated.png
+```
+
+导入为 1200×1200、最多 300 KiB 的 WebP，默认拒绝覆盖；复核后替换本批图片可使用 `--replace`。中文旁白沿用百炼 TTS，运行前需确认已获准把本批正文发送给该服务：
+
+```bash
+node --conditions=react-server --import tsx scripts/generate-qinzi-batch-audio.ts
+```
+
+脚本要求计划已确认，复用内容寻址的逐页缓存，验证解码结果与非静音，写入本地 MP3 和 `content-drafts/qinzi/local-audio.json` 的逐页时间轴；不上传、不部署。
+
+本批在百炼正文外发授权未确认时，使用 Mac 本机已经安装的中文语音提前生成旁白。该流程不读取服务凭据、不把正文发送到第三方，旁白清单记录 `generatedWith: macos-say-local`、语音和语速：
+
+```bash
+node --import tsx scripts/generate-qinzi-local-audio.ts
+```
+
+全部插画、音频及整本视觉验收完成后，才把本批 `comingSoon` 改为 false 并接入读者入口。
+
 ## import-library-image-grid.ts — 导入经审核的四格重绘图
 
 将一张严格的 2×2 正方形联系图切分为四张正式 1200×1200 WebP。默认不会覆盖已有资源；只有逐页审核后才加 `--replace`：

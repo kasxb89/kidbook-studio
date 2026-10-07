@@ -1,5 +1,5 @@
 import type { StoryPage } from "@/types";
-import type { LibraryBook, LibrarySeries } from "@/types/library";
+import type { LibraryBook, LibrarySubseries } from "@/types/library";
 
 type PageDraft = { zh: string; en: string; scene: string };
 
@@ -429,21 +429,15 @@ const LEARNING_PAGES = makePages(
   ],
 );
 
-export const SANZIJING_SERIES: LibrarySeries = {
+export const SANZIJING_SUBSERIES: LibrarySubseries = {
   id: "sanzijing",
-  title: "三字经·亲子成长",
-  subtitle: "读古人的三字句，练今天的爱、尊重与成长",
-  description:
-    "面向 4–8 岁家庭的《三字经》主题选读：保留经典原文，用现代儿童故事讲习惯、关系、情绪、品格与学习，并给家长一份不说教的共读锦囊。",
-  accent: "#8b5a3c",
-  ageRange: "4–8 岁",
-  bookCount: 6,
+  title: "三字经",
 };
 
 export const SANZIJING_BOOKS: LibraryBook[] = [
   {
     id: HABITS_ID,
-    seriesId: SANZIJING_SERIES.id,
+    seriesId: "sanzijing",
     title: "习惯会慢慢长大",
     subtitle: "不用贴标签，把一件小事练成自然",
     origin: "《三字经》开篇",
@@ -486,7 +480,7 @@ export const SANZIJING_BOOKS: LibraryBook[] = [
   },
   {
     id: SUPPORT_ID,
-    seriesId: SANZIJING_SERIES.id,
+    seriesId: "sanzijing",
     title: "陪孩子把路走长",
     subtitle: "支持不是催促，是一起找到下一小步",
     origin: "《三字经》孟母教子段",
@@ -526,7 +520,7 @@ export const SANZIJING_BOOKS: LibraryBook[] = [
   },
   {
     id: RESPECT_ID,
-    seriesId: SANZIJING_SERIES.id,
+    seriesId: "sanzijing",
     title: "爱家人，也尊重自己",
     subtitle: "关心是双向的，分享也需要愿意",
     origin: "《三字经》礼仪与亲情段",
@@ -570,7 +564,7 @@ export const SANZIJING_BOOKS: LibraryBook[] = [
   },
   {
     id: EMOTIONS_ID,
-    seriesId: SANZIJING_SERIES.id,
+    seriesId: "sanzijing",
     title: "每一种心情都有名字",
     subtitle: "情绪都可以来，行动要保证安全",
     origin: "《三字经》七情段",
@@ -610,7 +604,7 @@ export const SANZIJING_BOOKS: LibraryBook[] = [
   },
   {
     id: VALUES_ID,
-    seriesId: SANZIJING_SERIES.id,
+    seriesId: "sanzijing",
     title: "善良、诚实和有分寸",
     subtitle: "做错以后，还可以承认、补救和重建信任",
     origin: "《三字经》五常段",
@@ -650,7 +644,7 @@ export const SANZIJING_BOOKS: LibraryBook[] = [
   },
   {
     id: LEARNING_ID,
-    seriesId: SANZIJING_SERIES.id,
+    seriesId: "sanzijing",
     title: "会读、会想，也会玩",
     subtitle: "学习有方法，休息和游戏也是方法的一部分",
     origin: "《三字经》训蒙与学习段",
@@ -691,4 +685,12 @@ export const SANZIJING_BOOKS: LibraryBook[] = [
     order: 6,
     metadata: { personalizationEnabled: false },
   },
-];
+].map((book): LibraryBook => ({
+  ...book,
+  subseries: SANZIJING_SUBSERIES,
+  metadata: {
+    category: "classic",
+    tags: ["三字经", "国学启蒙", "亲子共读", "家庭成长"],
+    ...book.metadata,
+  },
+}));

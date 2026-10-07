@@ -1,4 +1,9 @@
-import type { LibraryBook, LibraryBookMetadata, LibrarySeries } from "@/types/library";
+import type {
+  LibraryBook,
+  LibraryBookMetadata,
+  LibrarySeries,
+  LibrarySubseries,
+} from "@/types/library";
 import { getLibraryContentId } from "./content-id";
 import { resolveLibraryBookMetadata } from "./metadata";
 
@@ -8,6 +13,7 @@ export type LibraryBookSummary = {
   seriesId: string;
   seriesTitle: string;
   seriesAccent: string;
+  subseries?: LibrarySubseries;
   title: string;
   subtitle: string;
   href: string;
@@ -31,6 +37,7 @@ export function createLibraryBookSummary(
     seriesId: series.id,
     seriesTitle: series.title,
     seriesAccent: series.accent,
+    ...(book.subseries ? { subseries: book.subseries } : {}),
     title: book.title,
     subtitle: book.subtitle,
     href: `/library/${series.id}/${book.id}`,
@@ -45,6 +52,7 @@ export function createLibraryBookSummary(
       book.subtitle,
       series.title,
       series.subtitle,
+      book.subseries?.title,
       book.question,
       book.origin,
       book.moral?.zh,
@@ -67,4 +75,21 @@ export function createLibraryBookSummary(
       .filter(Boolean)
       .join(" "),
   };
+}
+
+export function groupLibraryBooksBySubseries(books: LibraryBookSummary[]) {
+  const groups = new Map<
+    string | undefined,
+    { subseries?: LibrarySubseries; books: LibraryBookSummary[] }
+  >();
+  for (const book of books) {
+    const key = book.subseries?.id;
+    const group = groups.get(key);
+    if (group) {
+      group.books.push(book);
+    } else {
+      groups.set(key, { subseries: book.subseries, books: [book] });
+    }
+  }
+  return Array.from(groups.values());
 }

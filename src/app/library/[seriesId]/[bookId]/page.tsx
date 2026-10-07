@@ -174,6 +174,7 @@ export default async function LibraryBookPage({
       <header className="library-hero library-book-hero">
         <p className="library-kicker" style={{ color: series.accent }}>
           {series.title}
+          {book.subseries ? ` · ${book.subseries.title}` : ""}
           {book.episodeNumber ? ` · 第 ${book.episodeNumber} 回` : ""} ·{" "}
           {book.ageLabel}
         </p>
@@ -328,7 +329,11 @@ export default async function LibraryBookPage({
         <section className="library-parent-guide" aria-labelledby="library-parent-guide-title">
           <header>
             <p>给大人的共读锦囊</p>
-            <h2 id="library-parent-guide-title">这次不考背诵，练一种生活能力</h2>
+            <h2 id="library-parent-guide-title">
+              {book.seriesId === "sanzijing" && !book.classic
+                ? "读完故事，一起试一件小事"
+                : "这次不考背诵，练一种生活能力"}
+            </h2>
           </header>
           <div className="library-parent-guide-grid">
             <article>

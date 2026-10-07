@@ -1,0 +1,256 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "ba-ba-de-shou-ji-xian-shui-yi-hui-er",
+    "seriesId": "sanzijing",
+    "title": "爸爸的手机先睡一会儿",
+    "subtitle": "给彼此一段能好好在一起的时间",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "把专注陪伴落实为可兑现的小段时间，必要打断时说明并回来继续。",
+      "reminder": "手机和工作都不是敌人；成人负责安排时间与重要来电，不让孩子监督成人或争取关注。",
+      "questions": [
+        "乐乐怎么发现爸爸没有看见？",
+        "如果陪伴必须暂停，可以怎样告诉对方？",
+        "你想和我一起做的一件小事是什么？"
+      ],
+      "activity": "一起挑选十到十五分钟和一种小游戏，成人放好手机；遇到必要中断时说明原因，回来兑现剩余陪伴。",
+      "ageTips": {
+        "age4to5": "用篮子和一件小玩具表示陪伴时间，不要求孩子理解工作细节。",
+        "age6to8": "一起讨论重要来电和普通消息的区别，由成人负责执行约定。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 7,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子关系",
+        "专注陪伴与家庭约定"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "乐乐把三个纸盒连在一起，搭出一条长长的隧道。蓝色小汽车正等着第一次出发。",
+        "enText": "Lele joined three cardboard boxes into a long tunnel. His blue toy car was waiting for its very first trip.",
+        "illustrationPrompt": "客厅全景，乐乐跪坐地毯上，三段纸盒隧道与蓝色小汽车清楚可见。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for page 1. Keep the father and boy faces, clothes, blue toy car, three connected cardboard boxes, cozy room and watercolor style exactly consistent. Remove the wicker phone basket and phone from the side table entirely: the basket is introduced only on page 9 and must not appear here. Replace that area with the plain wooden side table. Everything else stays unchanged. No text, letters, numbers or watermark.\n"
+      },
+      {
+        "page": 2,
+        "zhText": "“爸爸，你来当司机！”爸爸坐到地毯上，接过小车。乐乐赶紧趴到隧道的另一头。",
+        "enText": "‘Dad, you can be the driver!’ Dad sat on the rug and took the car. Lele hurried to the far end of the tunnel.",
+        "illustrationPrompt": "父子分坐隧道两端，爸爸手握蓝色小车，乐乐期待地望向洞口。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-915fca60-6638-49b9-9c80-716a52605dea.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子分坐隧道两端，爸爸手握蓝色小车，乐乐期待地望向洞口。. Narrative meaning for composition only; never render words: “爸爸，你来当司机！”爸爸坐到地毯上，接过小车。乐乐赶紧趴到隧道的另一头。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. There is NO phone basket yet. A phone may be in Dad's hand only when scene says he looks at it. No sleeping phone or basket.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 3,
+        "zhText": "叮！手机响了。爸爸低头看了一眼，小车停在入口，迟迟没有开过来。",
+        "enText": "Ding! Dad's phone rang. He glanced down, and the car stayed at the entrance. It did not come through.",
+        "illustrationPrompt": "爸爸低头查看手机，小车停在纸盒入口，另一端的乐乐仍在等待。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-26dae610-d889-4aa5-a5fd-b6e11e3ef6c8.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Make ONE precise correction only: the single blue toy car must NOT be sitting on top of any cardboard box. Remove it from the box roof and place that same single blue car on the RUG immediately beside the LARGE OPEN TUNNEL END at the RIGHT FOREGROUND of the image, near Dad's right-side position, waiting to enter. There must be exactly one car. Preserve all people, facial expressions, phone, clothing, three boxes, camera view and watercolor style unchanged. No extra car, text or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-2e8ef421-bc6d-43f4-b00e-850264fb2bf8.png"
+      },
+      {
+        "page": 4,
+        "zhText": "“到了吗？”乐乐问。爸爸说“马上”，手指却还在手机上滑来滑去。",
+        "enText": "‘Is it here yet?’ Lele asked. ‘Just a moment,’ Dad said, still moving his finger across the screen.",
+        "illustrationPrompt": "从隧道出口看向乐乐的脸，背景爸爸仍拿着手机。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3569487e-79ac-41ba-aab8-46b984c30ef9.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Recompose into a medium-wide diagonal view showing the boy impatiently peering into the NEAR EXIT, his EMPTY hands resting on rug, waiting for the car. Dad at the opposite FAR ENTRANCE looks at his phone. The ONLY blue car stays beside Dad at that far entrance; no car by or in the boy's hands. No baskets.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-94af748f-8947-408e-9838-85462f3ce255.png"
+      },
+      {
+        "page": 5,
+        "zhText": "乐乐把出口举高一点：“这里有一座山。”爸爸随口说：“好漂亮。”他没有抬头。",
+        "enText": "Lele lifted the exit a little. ‘There's a hill here.’ ‘That looks lovely,’ Dad said without looking up.",
+        "illustrationPrompt": "乐乐用积木垫高出口，爸爸目光仍朝手机，手中小车未前进。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-94667cd6-cda2-4e2f-aa25-6393fa7d3028.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Remove the block WALL completely and remove the extra blue car on floor. The boy lifts the near EXIT end of the cardboard tunnel onto TWO simple support blocks, touching the box itself. Dad is still distracted by phone at far ENTRANCE. Exactly ONE blue toy car is parked by Dad at that far entrance, not in two places.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1260cda7-afca-4f09-9581-fcb0a5727103.png"
+      },
+      {
+        "page": 6,
+        "zhText": "乐乐慢慢放下纸盒。“你没有看见。”他把小车收回自己身边，坐着不动了。",
+        "enText": "Lele slowly lowered the box. ‘You didn't see it.’ He took the car back and sat very still.",
+        "illustrationPrompt": "乐乐抱着小车坐在隧道旁，纸盒出口已经放回地毯。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-f26774f6-0462-4423-a7b6-3a7465d103e1.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 乐乐抱着小车坐在隧道旁，纸盒出口已经放回地毯。. Narrative meaning for composition only; never render words: 乐乐慢慢放下纸盒。“你没有看见。”他把小车收回自己身边，坐着不动了。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. There is NO phone basket yet. A phone may be in Dad's hand only when scene says he looks at it. No sleeping phone or basket.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 7,
+        "zhText": "爸爸这才抬起头。他看看长隧道，又看看乐乐：“你等我一起玩，我却一直在看手机。”",
+        "enText": "At last, Dad looked up. He looked at the tunnel and then at Lele. ‘You were waiting to play together, but I kept looking at my phone.’",
+        "illustrationPrompt": "爸爸放低手机，转身面对乐乐，两人保持平等视线。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-ea727abe-9cef-4454-9926-6a5a8983f36e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸放低手机，转身面对乐乐，两人保持平等视线。. Narrative meaning for composition only; never render words: 爸爸这才抬起头。他看看长隧道，又看看乐乐：“你等我一起玩，我却一直在看手机。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. There is NO phone basket yet. A phone may be in Dad's hand only when scene says he looks at it. No sleeping phone or basket.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 8,
+        "zhText": "“我等了好多次。”乐乐说。爸爸点点头：“对不起。这一趟，我想从入口重新来。”",
+        "enText": "‘I waited lots of times,’ Lele said. Dad nodded. ‘I'm sorry. I'd like to start this trip again, from the entrance.’",
+        "illustrationPrompt": "爸爸双手空着放在膝上，乐乐认真说话，小车仍在孩子手中。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-34f4fde6-ab0d-470d-9526-cd2d3de98f8d.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸双手空着放在膝上，乐乐认真说话，小车仍在孩子手中。. Narrative meaning for composition only; never render words: “我等了好多次。”乐乐说。爸爸点点头：“对不起。这一趟，我想从入口重新来。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. There is NO phone basket yet. A phone may be in Dad's hand only when scene says he looks at it. No sleeping phone or basket.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 9,
+        "zhText": "他们找来一个小篮子。乐乐铺好软布：“手机先在这里睡一会儿吧。”",
+        "enText": "They found a little basket. Lele lined it with a soft cloth. ‘The phone can have a little sleep here.’",
+        "illustrationPrompt": "父子把软布铺进浅棕篮子，篮子放在一旁矮柜上。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-2c67b665-0cdd-4617-ac61-6e54663489bf.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 9 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子把软布铺进浅棕篮子，篮子放在一旁矮柜上。. Narrative meaning for composition only; never render words: 他们找来一个小篮子。乐乐铺好软布：“手机先在这里睡一会儿吧。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 10,
+        "zhText": "爸爸设好十五分钟提醒，开了免打扰：“这段时间，我陪你搭。重要来电会有单独的铃声。”",
+        "enText": "Dad set a fifteen-minute reminder and turned on Do Not Disturb. ‘This is our building time. Important calls will have their own ring.’",
+        "illustrationPrompt": "爸爸把手机放入篮子，乐乐回到隧道旁，手机屏幕不出现可读文字。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-db40dde1-845f-4aa0-bc2f-33111499f5c9.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 10 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸把手机放入篮子，乐乐回到隧道旁，手机屏幕不出现可读文字。. Narrative meaning for composition only; never render words: 爸爸设好十五分钟提醒，开了免打扰：“这段时间，我陪你搭。重要来电会有单独的铃声。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 11,
+        "zhText": "这一次，小车真的开进去了。咕噜，咕噜——乐乐跟着车声，一路爬到出口。",
+        "enText": "This time, the car really went into the tunnel. Rumble, rumble! Lele crawled beside it, all the way to the exit.",
+        "illustrationPrompt": "父子在地毯两端共同推动小车通过隧道，乐乐沿旁边爬行。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-23a9ce79-a051-4359-b37f-6d19c3337436.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 11 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子在地毯两端共同推动小车通过隧道，乐乐沿旁边爬行。. Narrative meaning for composition only; never render words: 这一次，小车真的开进去了。咕噜，咕噜——乐乐跟着车声，一路爬到出口。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 12,
+        "zhText": "出口太低，小车卡住了。爸爸也趴下来：“原来这辆车，差一点就要碰到车顶呀！”",
+        "enText": "The exit was too low, and the car got stuck. Dad lay down to look. ‘Oh! The roof is almost touching the top of the car.’",
+        "illustrationPrompt": "父子一起趴在地毯观察小车卡在低矮出口的位置。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-71c1bd5e-d2d4-4a06-9df9-37270f9040ed.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Show the ONE blue toy car clearly STUCK at the low tunnel exit: its roof just touches the cardboard top of a too-low opening, front partly emerged and rear inside. Boy and Dad lie on rug examining this obstacle. The opening must be smaller than the car's height, with no free gap above the car roof. No raised blocks yet.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-94483353-2ab0-41ec-a5e1-3d1975a6faf2.png"
+      },
+      {
+        "page": 13,
+        "zhText": "乐乐换上两块更高的积木。爸爸扶住纸盒，小车终于带着一粒木珠，顺利送到了车站。",
+        "enText": "Lele chose two taller blocks. Dad held the box steady, and the car delivered a wooden bead safely to the station.",
+        "illustrationPrompt": "爸爸扶稳抬高的纸盒，乐乐接到车上载着的一粒大木珠。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-36d50f0f-8ee0-452f-ab29-ed931ce34bf6.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Raise the tunnel EXIT nearest the boy on TWO taller solid wooden support blocks. Dad holds this raised exit steady from the side, and boy receives the ONLY blue toy car just emerging from this RAISED EXIT with ONE large round wooden bead on its roof. Opposite entrance can rest on rug. Keep car, hands and supports physically plausible.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1c0a6b09-1f0f-44c4-8b04-1de77c40ef3e.png"
+      },
+      {
+        "page": 14,
+        "zhText": "特殊铃声忽然响了。爸爸听完电话说：“奶奶买菜回来了，我要去楼下帮她提东西。”",
+        "enText": "Suddenly, the special ring sounded. After the call, Dad said, ‘Grandma is downstairs with the groceries. I need to help carry them.’",
+        "illustrationPrompt": "爸爸站在篮子旁接重要来电，地毯上的乐乐抬头听说明。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-7716e376-1225-4388-90b9-6c4e0f436d5e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸站在篮子旁接重要来电，地毯上的乐乐抬头听说明。. Narrative meaning for composition only; never render words: 特殊铃声忽然响了。爸爸听完电话说：“奶奶买菜回来了，我要去楼下帮她提东西。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 15,
+        "zhText": "“可是还没玩完。”乐乐抓住小车。爸爸蹲下：“是呀。你想留在这里，还是一起去接奶奶？”",
+        "enText": "‘But we haven't finished.’ Lele held the car tightly. Dad crouched down. ‘That's true. Would you like to stay here, or come and meet Grandma?’",
+        "illustrationPrompt": "爸爸蹲到孩子面前说明情况，乐乐握着小车，隧道保持原样。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c3f7054e-c2a8-4a7c-8c92-ef9ee7090145.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸蹲到孩子面前说明情况，乐乐握着小车，隧道保持原样。. Narrative meaning for composition only; never render words: “可是还没玩完。”乐乐抓住小车。爸爸蹲下：“是呀。你想留在这里，还是一起去接奶奶？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 16,
+        "zhText": "乐乐想一起去。他们把隧道留在地毯上，约好回来以后，再送一趟货。",
+        "enText": "Lele wanted to go too. They left the tunnel on the rug and agreed to make one more delivery when they came back.",
+        "illustrationPrompt": "父子穿鞋准备出门，门内可以看见完整保留的纸盒隧道。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-78067aca-74f8-4074-a612-7309d957d146.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 16 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子穿鞋准备出门，门内可以看见完整保留的纸盒隧道。. Narrative meaning for composition only; never render words: 乐乐想一起去。他们把隧道留在地毯上，约好回来以后，再送一趟货。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 17,
+        "zhText": "回到家，爸爸先把菜放好，又把手机放回小篮子。“司机回来了，下一站在哪儿？”",
+        "enText": "Back home, Dad put the groceries away and returned his phone to the basket. ‘The driver is back! Where's our next stop?’",
+        "illustrationPrompt": "购物袋已经放好，爸爸再次把手机入篮并坐回地毯。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-2711ecb3-b69a-4111-90b1-834da59a50d5.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 购物袋已经放好，爸爸再次把手机入篮并坐回地毯。. Narrative meaning for composition only; never render words: 回到家，爸爸先把菜放好，又把手机放回小篮子。“司机回来了，下一站在哪儿？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      },
+      {
+        "page": 18,
+        "zhText": "乐乐把出口转向爸爸：“下一站，在你这边。”这一次，他一抬头，就碰上了爸爸的目光。",
+        "enText": "Lele turned the exit toward Dad. ‘The next stop is over there.’ This time, when he looked up, Dad was looking right back.",
+        "illustrationPrompt": "纸盒出口朝向爸爸，父子隔着隧道微笑对视，蓝色小车驶向爸爸。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c31dc9d0-0cca-4fea-854f-32e35b303f4e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《爸爸的手机先睡一会儿》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 纸盒出口朝向爸爸，父子隔着隧道微笑对视，蓝色小车驶向爸爸。. Narrative meaning for composition only; never render words: 乐乐把出口转向爸爸：“下一站，在你这边。”这一次，他一抬头，就碰上了爸爸的目光。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-fddf9ac6-4820-4971-b3b4-8794805992d5.png"
+      }
+    ],
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Lele is a 5-year-old Chinese boy, soft short black hair, mustard-yellow sweatshirt, teal trousers, white sneakers. Dad has short black hair, sky-blue shirt, dark-grey trousers. Blue toy car, cardboard box tunnel, light-brown phone basket.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

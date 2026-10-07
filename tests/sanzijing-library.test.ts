@@ -4,9 +4,10 @@ import sharp from "sharp";
 import { describe, expect, it } from "vitest";
 import sitemap from "@/app/sitemap";
 import { getBook, getPublishedBooks, getSeries } from "@/lib/library";
-import { createLibraryBookSummary } from "@/lib/library/catalog";
+import { createLibraryBookSummary, groupLibraryBooksBySubseries } from "@/lib/library/catalog";
 import { filterLibraryBooks } from "@/lib/library/discovery";
 import { getLibraryStorySpecByContentId } from "@/lib/library/personalization";
+import type { LibraryBook } from "@/types/library";
 
 const EXPECTED_BOOKS = [
   { id: "xi-guan-hui-man-man-zhang-da", pages: 12 },
@@ -18,13 +19,13 @@ const EXPECTED_BOOKS = [
 ] as const;
 
 describe("Sanzijing parenting library", () => {
-  it("publishes six ordered variable-length bilingual books", () => {
+  it("retains six ordered classic books within the expanded parenting series", () => {
     const series = getSeries("sanzijing");
-    const books = getPublishedBooks("sanzijing");
+    const books = getPublishedBooks("sanzijing").filter((book) => book.subseries?.id === "sanzijing");
 
     expect(series).toMatchObject({
-      title: "三字经·亲子成长",
-      bookCount: 6,
+      title: "亲子成长",
+      bookCount: 16,
       ageRange: "4–8 岁",
     });
     expect(books.map(({ id, pages }) => ({ id, pages: pages.length }))).toEqual(
@@ -32,6 +33,7 @@ describe("Sanzijing parenting library", () => {
     );
 
     for (const [index, book] of books.entries()) {
+      expect(book.subseries).toEqual({ id: "sanzijing", title: "三字经" });
       expect(book.order).toBe(index + 1);
       expect(book.comingSoon).not.toBe(true);
       expect(book.pages.map((page) => page.page)).toEqual(
@@ -49,8 +51,40 @@ describe("Sanzijing parenting library", () => {
     }
   });
 
+  it("accepts independent growth stories without labelling them as Sanzijing", () => {
+    const series = getSeries("sanzijing")!;
+    const classic = getPublishedBooks("sanzijing")[0];
+    const growthStory: LibraryBook = {
+      id: "new-growth-story",
+      seriesId: series.id,
+      title: "一起慢慢长大",
+      subtitle: "一个新的亲子故事",
+      pages: classic.pages,
+      ageLabel: "4–8 岁",
+      publishedAt: "2026-10-06",
+      order: 7,
+    };
+    const summaries = [classic, growthStory].map((book) =>
+      createLibraryBookSummary(series, book),
+    );
+    expect(summaries[0].metadata.category).toBe("classic");
+    expect(summaries[1].metadata.category).toBe("family-growth");
+    expect(summaries[1].metadata.tags).not.toContain("三字经");
+    expect(summaries[1].subseries).toBeUndefined();
+    expect(groupLibraryBooksBySubseries(summaries).map((group) => ({
+      title: group.subseries?.title,
+      ids: group.books.map((book) => book.id),
+    }))).toEqual([
+      { title: "三字经", ids: [classic.id] },
+      { title: undefined, ids: [growthStory.id] },
+    ]);
+    expect(summaries[0].href).toBe(`/library/sanzijing/${classic.id}`);
+    expect(filterLibraryBooks(summaries, { query: "亲子成长" })).toHaveLength(2);
+    expect(filterLibraryBooks(summaries, { query: "三字经" }).map((book) => book.id)).toEqual([classic.id]);
+  });
+
   it("requires reviewed classic context and a complete Chinese parent guide", () => {
-    for (const book of getPublishedBooks("sanzijing")) {
+    for (const book of getPublishedBooks("sanzijing").filter((book) => book.subseries?.id === "sanzijing")) {
       expect(book.classic?.workTitle).toBe("《三字经》");
       expect(book.classic?.originalLines.length).toBeGreaterThan(0);
       expect(book.classic?.childExplanation.zh).toBeTruthy();

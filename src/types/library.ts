@@ -61,6 +61,11 @@ export interface LibrarySeries {
   comingSoon?: boolean;
 }
 
+export interface LibrarySubseries {
+  id: string;
+  title: string;
+}
+
 export type LibraryCategory =
   | "idiom"
   | "proverb"
@@ -87,6 +92,8 @@ export interface LibraryBook {
   /** URL slug, e.g. "shou-zhu-dai-tu" */
   id: string;
   seriesId: string;
+  /** Optional grouping within a broader series, e.g. 三字经 within 亲子成长. */
+  subseries?: LibrarySubseries;
   /** e.g. 「守株待兔」 */
   title: string;
   subtitle: string;

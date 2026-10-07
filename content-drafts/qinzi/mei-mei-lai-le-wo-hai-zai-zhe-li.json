@@ -1,0 +1,256 @@
+{
+  "_draft": "REVIEWED LOCAL EDITION — approved text, built-in illustrations and pre-generated local narration; not uploaded or deployed",
+  "book": {
+    "id": "mei-mei-lai-le-wo-hai-zai-zhe-li",
+    "seriesId": "sanzijing",
+    "title": "妹妹来了，我还在这里",
+    "subtitle": "喜欢妹妹，也可以想要自己的位置",
+    "origin": "StoryBloom 原创亲子成长故事",
+    "parentGuide": {
+      "goal": "让年长孩子拥有稳定的关注、物品空间和表达复杂感受的机会。",
+      "reminder": "不要求因为年长就让步、照护或立刻喜欢婴儿；照护安全由成人负责，专属时间按家庭实际轮换安排。",
+      "questions": [
+        "小禾想让家人看见什么？",
+        "红椅子回来以后，他有什么变化？",
+        "你希望我们留出哪段属于你的时间？"
+      ],
+      "activity": "由孩子选择一处作品位置和一项短时共同活动，成人明确照护分工；允许孩子调整是否参加合照或互动。",
+      "ageTips": {
+        "age4to5": "用具体物品和动作表达陪伴，靠近婴儿时由成人在旁。",
+        "age6to8": "讨论哪些是自愿帮忙，哪些是成人责任，记录可以兑现的陪伴安排。"
+      }
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-06",
+    "order": 9,
+    "comingSoon": false,
+    "metadata": {
+      "category": "family-growth",
+      "personalizationEnabled": false,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "tags": [
+        "亲子成长",
+        "亲子共读",
+        "亲子关系",
+        "手足关系与被看见的需要"
+      ],
+      "estimatedMinutes": 3
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "妹妹来到家里以后，客厅多了一张小床。小禾的红椅子被挪到了窗帘旁边。",
+        "enText": "After the baby came home, a little cot appeared in the living room. Xiaohe's red chair was moved beside the curtains.",
+        "illustrationPrompt": "客厅添了婴儿床，红色小椅子被挪到窗帘旁，小禾站着看。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for page 1. Preserve the boy, red chair by curtain, cot shape, baby identity, cozy room and watercolor style. Correct ONLY the cot interior: baby lies FLAT SUPINE on a firm flat mattress with a plain fitted sheet. Remove ALL pillow, padded cot bumpers, loose bedding, blankets and toys inside the cot; clear plain wooden bars must be exposed. Remove the hanging mobile over cot. Baby may wear a cream romper. Remove wooden block toy train from foreground table because the later train is cardboard and not introduced yet. Keep all other room elements and boy unchanged. No text or watermark.\n"
+      },
+      {
+        "page": 2,
+        "zhText": "“看，妹妹打哈欠了！”“看，妹妹握住手指了！”小禾拿着纸板火车，等大家转过头。",
+        "enText": "‘Look, she's yawning!’ ‘Look, she's holding my finger!’ Xiaohe held his cardboard train and waited for everyone to turn around.",
+        "illustrationPrompt": "父母关注躺在婴儿床里的妹妹，小禾在一旁举着纸板火车。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-a447a372-780d-4016-b329-5adb465539b6.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 2 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父母关注躺在婴儿床里的妹妹，小禾在一旁举着纸板火车。. Narrative meaning for composition only; never render words: “看，妹妹打哈欠了！”“看，妹妹握住手指了！”小禾拿着纸板火车，等大家转过头。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 3,
+        "zhText": "爸爸想拍一张合照：“小禾，站在妹妹旁边。”小禾没有过去，把火车藏到了身后。",
+        "enText": "Dad wanted a family photo. ‘Xiaohe, stand beside your sister.’ Xiaohe stayed where he was and hid the train behind his back.",
+        "illustrationPrompt": "爸爸准备拍照，妈妈在婴儿床旁，小禾站得稍远并藏起火车。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-351a7238-9e54-450d-bd9d-fe84f3bf914e.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 3 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸准备拍照，妈妈在婴儿床旁，小禾站得稍远并藏起火车。. Narrative meaning for composition only; never render words: 爸爸想拍一张合照：“小禾，站在妹妹旁边。”小禾没有过去，把火车藏到了身后。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 4,
+        "zhText": "“是不是只有妹妹才好看？”小禾问。妈妈放下手里的小毛巾，朝他看过来。",
+        "enText": "‘Is she the only one you want to look at?’ Xiaohe asked. Mama put down the little towel and turned toward him.",
+        "illustrationPrompt": "小禾皱眉发问，妈妈放下毛巾认真转向他，妹妹仍在床内。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-932951ce-4158-4ef1-b9f3-a55f972f2147.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 4 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾皱眉发问，妈妈放下毛巾认真转向他，妹妹仍在床内。. Narrative meaning for composition only; never render words: “是不是只有妹妹才好看？”小禾问。妈妈放下手里的小毛巾，朝他看过来。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 5,
+        "zhText": "“这些天，我们总在忙妹妹。”妈妈说，“你的火车想给我们看，红椅子也被挪走了。”",
+        "enText": "‘We've been so busy with your sister,’ Mama said. ‘You wanted to show us your train, and your red chair was moved away too.’",
+        "illustrationPrompt": "妈妈蹲下与小禾说话，画面同时保留红椅子与火车。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-5cc3ed3b-279b-431d-b00f-867618165062.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 5 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妈妈蹲下与小禾说话，画面同时保留红椅子与火车。. Narrative meaning for composition only; never render words: “这些天，我们总在忙妹妹。”妈妈说，“你的火车想给我们看，红椅子也被挪走了。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 6,
+        "zhText": "小禾的嘴巴扁了：“我也想坐在你旁边。我不想每天都等。”",
+        "enText": "Xiaohe's mouth trembled. ‘I want to sit beside you too. I don't want to wait every day.’",
+        "illustrationPrompt": "小禾靠近妈妈表达委屈，妈妈双手开放，未要求拥抱妹妹。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-40340188-e242-473d-b6d5-235331aae521.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 6 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾靠近妈妈表达委屈，妈妈双手开放，未要求拥抱妹妹。. Narrative meaning for composition only; never render words: 小禾的嘴巴扁了：“我也想坐在你旁边。我不想每天都等。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 7,
+        "zhText": "妈妈拍拍身边的位置：“来。”小禾坐过去。他的头靠在妈妈胳膊上，靠了好久。",
+        "enText": "Mama patted the place beside her. ‘Come here.’ Xiaohe sat down and rested his head against her arm for a long time.",
+        "illustrationPrompt": "母子在沙发上安静依偎，爸爸在旁照看妹妹。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-423c7a66-eecd-41ef-93f8-006107e23454.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 7 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 母子在沙发上安静依偎，爸爸在旁照看妹妹。. Narrative meaning for composition only; never render words: 妈妈拍拍身边的位置：“来。”小禾坐过去。他的头靠在妈妈胳膊上，靠了好久。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 8,
+        "zhText": "爸爸把红椅子搬回来，又给火车腾出一层低矮的架子：“这里留给你的作品。”",
+        "enText": "Dad brought back the red chair and cleared a low shelf for the train. ‘This space is for the things you make.’",
+        "illustrationPrompt": "爸爸搬回红椅子并清出低架，小禾把纸板火车放上去。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-73ef13ef-694b-4edf-ae86-812a18153be4.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 8 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸搬回红椅子并清出低架，小禾把纸板火车放上去。. Narrative meaning for composition only; never render words: 爸爸把红椅子搬回来，又给火车腾出一层低矮的架子：“这里留给你的作品。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 9,
+        "zhText": "他们约好，晚饭后爸爸陪小禾搭车站。妹妹需要照顾时，妈妈先接过去。",
+        "enText": "They agreed that Dad would build a station with Xiaohe after dinner. Mama would care for the baby if she needed them then.",
+        "illustrationPrompt": "一家人商量安排，爸爸指向积木车站，妈妈坐在妹妹身旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-e2e4c6e8-679a-48b4-9bf8-58756c26ef10.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Remove the complete station and track layout. Father and boy are only PLANNING their evening activity, with loose plain WOODEN blocks scattered on rug and the existing handmade corrugated cardboard train resting nearby. Mother cares for baby in background. No assembled station or track yet. Baby flat on back on fitted sheet in clear cot without pillow, bumpers or loose bedding.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-304776f4-0518-46a7-9ca9-a8c2dfb81b24.png"
+      },
+      {
+        "page": 10,
+        "zhText": "第一晚，小禾刚搭起屋顶，妹妹就哭了。爸爸站起一半，又看了看妈妈。",
+        "enText": "On the first evening, Xiaohe had just put up the roof when the baby cried. Dad started to stand, then looked at Mama.",
+        "illustrationPrompt": "车站屋顶刚放好，爸爸半起身，妈妈转向婴儿床。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-d57a93b7-8801-4ab4-ba65-e828f07edfc2.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Replace cardboard station with a SIMPLE station made of plain WOODEN blocks: four short wood block pillars and one flat red wooden roof beam JUST placed by child. Keep only the TRAIN made of corrugated cardboard. Dad is half-rising and looks back at Mama who approaches crying baby in clear safe cot. No complex tracks or extra cardboard buildings.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-6c709307-781e-4def-9c24-44092d575c7d.png"
+      },
+      {
+        "page": 11,
+        "zhText": "妈妈抱起妹妹：“这一会儿我来。”爸爸坐回红椅子旁：“站长，屋顶还差哪一块？”",
+        "enText": "Mama picked up the baby. ‘I'll take this turn.’ Dad sat back beside the red chair. ‘Station master, which roof block do we need?’",
+        "illustrationPrompt": "妈妈抱着妹妹在背景轻轻安抚，爸爸留在小禾的积木车站旁。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-9570be1a-2e48-4e1c-9459-d7d3c20aef77.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Replace the cardboard buildings and elaborate track layout with a SMALL simple WOODEN-block station: four block pillars and a roof still missing ONE last block, a few loose wood blocks nearby. Keep the one long cardboard train. Dad stays beside boy by red chair asking about missing roof piece. Mama cradles baby in background with head supported. No other baby, no cardboard station.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1157bdf3-0489-4792-8750-21ee4d9b583b.png"
+      },
+      {
+        "page": 12,
+        "zhText": "小禾把最后一块积木递给爸爸。车站亮堂堂的，终于装得下他那辆长火车了。",
+        "enText": "Xiaohe handed Dad the last block. The bright, roomy station could finally hold his long train.",
+        "illustrationPrompt": "父子合作完成车站，纸板长火车进入站台，红椅子在近处。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1d086bfa-ae1e-4c6c-b5dc-0ca5e9cd2d11.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET for this picture-book page. Preserve the exact character faces, hairstyles, clothing colors, warm watercolor/gouache material and overall setting. Make only the described narrative correction. One depiction of each character. No text, letters, numbers, captions, panels, logo or watermark. Replace the entire cardboard station structure and cardboard piece in child's hand with a SIMPLE plain WOODEN-block station wide enough for the long cardboard train: four short block pillars and a flat red wooden roof. Boy hands Dad ONE last plain wood block to finish roof. The TRAIN alone stays handmade cardboard. Red chair stays nearby. No elaborate track network.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-173e01d0-4a00-4dd6-9fed-9390d5484104.png"
+      },
+      {
+        "page": 13,
+        "zhText": "有时候，小禾还是会说：“我现在不喜欢妹妹。”爸爸听着：“你今天又等得太久了吧？”",
+        "enText": "Sometimes Xiaohe still said, ‘I don't like my sister right now.’ Dad listened. ‘Was the waiting too long again today?’",
+        "illustrationPrompt": "小禾在沙发旁说出不喜欢，爸爸坐在同一高度认真倾听。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-3f4c5951-e5f3-47c6-b53a-b0818b9cc80c.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 13 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 小禾在沙发旁说出不喜欢，爸爸坐在同一高度认真倾听。. Narrative meaning for composition only; never render words: 有时候，小禾还是会说：“我现在不喜欢妹妹。”爸爸听着：“你今天又等得太久了吧？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 14,
+        "zhText": "爸爸问：“你想让我陪你，还是先一个人待会儿？”小禾说：“先坐着，别走。”",
+        "enText": "Dad asked, ‘Would you like me beside you, or some time on your own?’ ‘Just sit here first,’ Xiaohe said. ‘Please don't go.’",
+        "illustrationPrompt": "父子在地毯上并排坐着，爸爸不触碰孩子手中的玩具。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-1b548c95-e5c0-4902-a52a-ba99abad9588.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 14 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 父子在地毯上并排坐着，爸爸不触碰孩子手中的玩具。. Narrative meaning for composition only; never render words: 爸爸问：“你想让我陪你，还是先一个人待会儿？”小禾说：“先坐着，别走。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 15,
+        "zhText": "过了几天，妹妹醒着看天花板。小禾拿来一张大大的蓝纸：“她也想看我的车站吗？”",
+        "enText": "A few days later, the baby lay awake looking up. Xiaohe brought a big sheet of blue paper. ‘Would she like to see my station too?’",
+        "illustrationPrompt": "妹妹在床内清醒躺着，小禾在成人陪同下拿着大幅蓝色车站画。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-af6afde1-c278-4fa3-ab0e-a683018b2d1a.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 15 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 妹妹在床内清醒躺着，小禾在成人陪同下拿着大幅蓝色车站画。. Narrative meaning for composition only; never render words: 过了几天，妹妹醒着看天花板。小禾拿来一张大大的蓝纸：“她也想看我的车站吗？”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 16,
+        "zhText": "妈妈扶好纸，让妹妹远远地看。小禾学着火车叫：“呜——”妹妹的小脚动了一下。",
+        "enText": "Mama held the paper safely outside the cot so the baby could see. Xiaohe made a train sound. ‘Whooo!’ His sister moved one little foot.",
+        "illustrationPrompt": "妈妈在婴儿床外扶住大画纸，小禾站在旁模仿火车，妹妹轻动脚。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c7a765a8-09ec-4d86-8555-6b1a4ff894dd.png",
+        "generationPrompt": "Image 1 is the EDIT TARGET. Change ONLY the color of the large sheet of paper held by Mama from white/cream to a saturated medium BLUE. Keep the same red, green and blue train drawing clearly visible on this blue paper. Preserve Mama, boy, baby, poses, empty safe cot, red chair, paper dimensions, drawing shapes and warm watercolor style exactly unchanged. This must be a BLUE paper sheet, not white. No text or watermark.\n",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png",
+        "editedFrom": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-c30336db-4f58-42a0-a36e-19f970cc9282.png"
+      },
+      {
+        "page": 17,
+        "zhText": "“今天拍照吗？”小禾问，“我要拿着火车。”爸爸笑了：“好，你来选站在哪里。”",
+        "enText": "‘Shall we take a photo today?’ Xiaohe asked. ‘I want to hold my train.’ Dad smiled. ‘You can choose where to sit.’",
+        "illustrationPrompt": "爸爸准备相机，小禾手拿火车选择位置，妈妈安全抱着妹妹。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-115dc19d-f2a9-4be2-9c20-ca0ac1dfa659.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 17 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 爸爸准备相机，小禾手拿火车选择位置，妈妈安全抱着妹妹。. Narrative meaning for composition only; never render words: “今天拍照吗？”小禾问，“我要拿着火车。”爸爸笑了：“好，你来选站在哪里。”. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      },
+      {
+        "page": 18,
+        "zhText": "照片里，妹妹靠着妈妈，小禾坐在红椅子上。长长的火车从他手里，开向了大家。",
+        "enText": "In the photo, the baby rested against Mama and Xiaohe sat on his red chair. His long train stretched from his hands toward everyone.",
+        "illustrationPrompt": "全家合照构图，妈妈抱妹妹，爸爸在旁，小禾坐红椅子展示长火车。",
+        "imageStatus": "complete",
+        "generatedWith": "builtin-imagegen",
+        "generatedSource": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-cfc4b0d3-fbd8-4fcc-91d8-7d8445bc8969.png",
+        "generationPrompt": "Input image 1 is a CHARACTER AND STYLE REFERENCE ONLY, not an edit target. Preserve its character identity, clothing and watercolor material; create a new composition for THIS PAGE'S SCENE. Use case: illustration-story. Asset: one complete square children's picture-book page 18 of 《妹妹来了，我还在这里》. Style: Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image. CHARACTER LOCK: Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.. Include only the characters participating in THIS PAGE'S SCENE, not every named character. THIS PAGE'S SCENE: 全家合照构图，妈妈抱妹妹，爸爸在旁，小禾坐红椅子展示长火车。. Narrative meaning for composition only; never render words: 照片里，妹妹靠着妈妈，小禾坐在红椅子上。长长的火车从他手里，开向了大家。. Respect this precise stage of the story; objects must not advance to a later completed state. Constraints: no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery. Natural anatomy and correct physical actions. One depiction of each person. Consistent face, hairstyle, clothing and key object colors across the book. Depict ONLY the people and props stated in this exact scene. Character locks specify appearance, not mandatory presence. Do not copy incidental background props from the reference image. Cot safety: baby lies flat on back on a firm plain fitted sheet only, empty cot interior without pillow, bumpers, blankets, toys or loose bedding. No infant sitting unsupported. Child's long train is handmade corrugated CARDBOARD, NOT wooden blocks.",
+        "characterReference": "/Users/valleylmh/.codex/generated_images/01a1118a-7c3c-7421-9c43-2b53dfd17a39/exec-866797e6-8de8-425f-bce1-0d65b91f9e9c.png"
+      }
+    ],
+    "subseries": {
+      "id": "family-relationships",
+      "title": "亲子相处"
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium children's picture-book illustration, warm contemporary Chinese watercolor and gouache, textured paper, rounded natural proportions, expressive gentle faces, soft daylight, full-bleed square 1:1 composition, single scene per image",
+    "characterConsistency": "Xiaohe is a 5-year-old Chinese boy, black bowl cut, olive-green shirt, beige trousers. Baby sister wears cream romper, always safely supported by Mama or lying on her back in clear cot. Mama has low black ponytail, warm cream top. Dad wears grey-blue shirt. Red little chair, cardboard train.",
+    "negative": "no text, letters, numbers, captions, signs, speech bubbles, calligraphy, logos, watermark, border, panels, duplicates, movement ghosts, shame, threatening gestures, unsafe actions or scary imagery"
+  }
+}

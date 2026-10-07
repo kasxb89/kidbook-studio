@@ -10206,6 +10206,31 @@ a.library-book-card:hover {
   gap: 32px;
 }
 
+.library-book-groups {
+  display: grid;
+  gap: 24px;
+}
+
+.library-subseries-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.library-subseries-heading h2,
+.library-subseries-heading h4 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.library-subseries-heading span {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 .library-series-overview-item {
   scroll-margin-top: 76px;
 }

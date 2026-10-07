@@ -10,6 +10,7 @@ import {
   type ReadingProgressRecord,
 } from "@/lib/reading-progress";
 import LibraryCatalogCard from "@/components/library/LibraryCatalogCard";
+import LibraryBookGroups from "@/components/library/LibraryBookGroups";
 import LibraryScrollRestorer from "@/components/library/LibraryScrollRestorer";
 
 export default function LibrarySeriesExperience({
@@ -77,18 +78,21 @@ export default function LibrarySeriesExperience({
         </div>
       </section>
 
-      <section className="library-home-row" aria-label="系列书目">
-        {publishedBooks.map((book) => (
-          <LibraryCatalogCard
-            key={book.contentId}
-            book={book}
-            progress={progressMap.get(book.contentId)}
-            favorite={keys.has(createFavoriteKey("library", book.contentId))}
-            onToggleFavorite={() => toggle("library", book.contentId)}
-            compact
-            minimal
-          />
-        ))}
+      <section aria-label="系列书目">
+        <LibraryBookGroups
+          books={publishedBooks}
+          renderBook={(book) => (
+            <LibraryCatalogCard
+              key={book.contentId}
+              book={book}
+              progress={progressMap.get(book.contentId)}
+              favorite={keys.has(createFavoriteKey("library", book.contentId))}
+              onToggleFavorite={() => toggle("library", book.contentId)}
+              compact
+              minimal
+            />
+          )}
+        />
       </section>
     </>
   );

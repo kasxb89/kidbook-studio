@@ -1,0 +1,2307 @@
+[
+  {
+    "id": "liu-an-hua-ming",
+    "title": "柳暗花明",
+    "subtitle": "山路尽头的小村庄",
+    "order": 81,
+    "origin": "语出陆游《游山西村》“山重水复疑无路，柳暗花明又一村”；本书依据诗意作儿童化改编。",
+    "adaptationNote": "山间行旅依据诗意展开；问路、歇脚、村中相遇及对话属于创作补充，不作为诗人生平事实。",
+    "moral": {
+      "zh": "遇到困难，先停下来看看、问问；新的办法有时就在转弯之后。",
+      "en": "When the way seems difficult, pause, look around, and ask. Another possibility may be just around the bend."
+    },
+    "idiomMeaning": {
+      "zh": "比喻在困难、曲折之后，出现新的转机或希望。",
+      "en": "A new possibility or hope appears after a difficult or uncertain stretch."
+    },
+    "everydayExample": {
+      "zh": "我们试了新的办法，事情终于柳暗花明了。",
+      "en": "We tried another approach, and a new possibility finally opened up."
+    },
+    "visualAnchor": "Ancient southern Chinese spring countryside, rounded green hills, a broad safe stone path winding between low bamboo and rocks, willow trees, pink peach blossoms, a small whitewashed village with dark gray tiled roofs. No steep cliff or danger. Fixed recurring cast: Lu You, a gentle adult Chinese poet about 50, oval face, short neat black-and-gray beard, dark hair in a low topknot, soft moss-green cross-collar robe, cream sash, brown cloth shoes, a small tan cloth shoulder bundle and smooth wooden walking stick; one friendly elderly Chinese villager, round face, silver low bun, warm ochre cross-collar robe, dark brown sash and cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "春天，陆游想去山间的小村庄走一走，看看田野和人家。",
+        "en": "One spring day, Lu You set out to visit a village among the hills and enjoy its fields and homes.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet stands at the start of a broad stone path among fresh spring fields; village remains hidden behind hills, no villager yet."
+      },
+      {
+        "page": 2,
+        "zh": "他背上小布包，拿起木杖，沿着石头小路慢慢出发。",
+        "en": "He took his cloth bundle and walking stick and followed the stone path at an easy pace.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Full-body poet walking comfortably along the broad stone footpath with fixed tan bundle and wooden stick, gentle morning light."
+      },
+      {
+        "page": 3,
+        "zh": "路边的麦苗绿油油的。风一吹，像有人轻轻抚过田野。",
+        "en": "Green shoots filled the fields. A breeze brushed over them like a gentle hand.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet pauses beside a vivid green field, robe hem and young plants stirred by soft spring breeze; low hills beyond."
+      },
+      {
+        "page": 4,
+        "zh": "走过小桥，溪水从脚下流过，山上的鸟儿叫得清清亮亮。",
+        "en": "He crossed a little bridge above a stream, listening to clear birdsong from the hills.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet crosses a low broad stone bridge over a shallow stream; green hillside in the distance, no live bird characters visible."
+      },
+      {
+        "page": 5,
+        "zh": "前面一座山，后面又一座山。小路弯弯的，看不到村庄。",
+        "en": "One hill stood beyond another. The winding path gave him no glimpse of the village.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Wide view of poet on safe stone path curving through layered low green hills; no village or villagers visible yet."
+      },
+      {
+        "page": 6,
+        "zh": "绕过一片竹林，小路又转了个弯，藏到了大石头后面。",
+        "en": "Beyond a bamboo grove, the path curved again and disappeared behind a large rock.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet approaches a large rounded rock and low bamboo beside the broad path; path disappears around rock, not a cliff or dead end."
+      },
+      {
+        "page": 7,
+        "zh": "陆游停住脚步：“是不是走错了？前面好像没有路了。”",
+        "en": "Lu You stopped. “Have I taken a wrong turn? I can't see a way ahead.”",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet pauses thoughtfully on the stone path before the rounded rock, brow gently puzzled, no frightened expression or unsafe terrain.",
+        "imageFile": "7-v2.webp"
+      },
+      {
+        "page": 8,
+        "zh": "他没有钻进不熟悉的草丛，而是坐在路旁，歇了歇脚。",
+        "en": "He stayed out of the unfamiliar undergrowth and sat beside the path to rest.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet sits calmly on a low smooth stone beside the established safe path, walking stick across knees, tan bundle still on shoulder."
+      },
+      {
+        "page": 9,
+        "zh": "歇了一会儿，他听着溪水，仔细看见几级石阶绕向另一边。",
+        "en": "After resting, he listened to the stream and noticed a few stone steps curving around the rock.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet notices three broad low stone steps continuing safely around the rounded rock beside a shallow stream; no villager or village yet."
+      },
+      {
+        "page": 10,
+        "zh": "他沿着石阶慢慢走。大石头后面，果然还有一段平坦的小路。",
+        "en": "He followed the steps slowly. Beyond the rock, a level path continued after all.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet reaches the level path beyond the rounded rock, relaxed posture, bamboo opening slightly but no village in sight."
+      },
+      {
+        "page": 11,
+        "zh": "忽然，远处传来人说话的声音。陆游抬起头，望向前方。",
+        "en": "Then voices carried from farther ahead. Lu You looked up along the path.",
+        "castCodes": [
+          "P"
+        ],
+        "prompt": "Poet turns attentively toward a sunlit bend while standing on level path; off-scene voices only, no extra live characters."
+      },
+      {
+        "page": 12,
+        "zh": "一位村民正从路口走来，笑着问：“你是来村里做客的吗？”",
+        "en": "An elderly villager came around the bend. “Are you coming to visit our village?” she asked.",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Poet meets the elderly ochre-robed villager on broad level path; both faces visible, willow and village still out of frame."
+      },
+      {
+        "page": 13,
+        "zh": "“是呀，可我刚才找不到路了。”陆游说。村民指了指前面的弯。",
+        "en": "“Yes, but I couldn't find the way,” said Lu You. The villager pointed toward the next bend.",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Villager gently points along the existing path around next low hill while poet listens, no village or final revelation visible yet."
+      },
+      {
+        "page": 14,
+        "zh": "两人转过山弯，长长的柳枝垂下来，嫩绿的叶子轻轻摇晃。",
+        "en": "They rounded the bend together. Long willow branches swayed with fresh green leaves.",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Poet and villager emerge under hanging green willow branches at a gentle bend; peach blossoms beginning to appear, village mostly screened."
+      },
+      {
+        "page": 15,
+        "zh": "柳树旁，桃花开得正好。花枝后面，一座小村庄亮了起来。",
+        "en": "Peach blossoms glowed beside the willows. Beyond them, a little village opened into view.",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Wide joyful reveal of poet and villager beneath willows and pink peach blossoms looking toward small whitewashed gray-tiled village, generous depth and light."
+      },
+      {
+        "page": 16,
+        "zh": "村民领他进了村。门前有花，桌上有茶，陆游坐下歇了歇脚。",
+        "en": "The villager welcomed him to her home. Flowers stood by the door, and tea waited on the table.",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Poet and villager at her simple village doorway with two plain tea bowls on low wooden table and flower pots; only the two recurring people, no extra friend."
+      },
+      {
+        "page": 17,
+        "zh": "陆游想起一路的曲折，轻轻吟道：“山重水复疑无路，柳暗花明又一村。”",
+        "en": "Thinking of the winding journey, Lu You said, “Beyond hills and streams with no path in sight, willows and blossoms reveal another village.”",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Poet speaks reflectively to villager over tea at the doorway, distant willows and peach blossoms behind; no printed poem or writing anywhere."
+      },
+      {
+        "page": 18,
+        "zh": "看似没有路的时候，转过一个弯，新的景色也许就在前面。",
+        "en": "When the way seems closed, another bend may reveal a new possibility ahead.",
+        "castCodes": [
+          "P",
+          "V"
+        ],
+        "prompt": "Hopeful closing wide scene: poet and villager stand comfortably beneath village willows looking back toward winding green hills, calm welcoming smiles."
+      }
+    ]
+  },
+  {
+    "id": "fu-jing-qing-zui",
+    "title": "负荆请罪",
+    "subtitle": "将军登门来道歉",
+    "order": 82,
+    "origin": "依据《史记·廉颇蔺相如列传》廉颇向蔺相如负荆请罪的典故作儿童化改编。",
+    "adaptationNote": "保留避让、顾全赵国与主动认错的核心；对话与日常场景为改编。荆条作为传统认错象征，人物始终着衣，不表现惩罚或伤害。",
+    "moral": {
+      "zh": "弄清事情再判断；做错了，诚恳道歉，并用行动修复关系。",
+      "en": "Understand before judging. If you make a mistake, apologize sincerely and put things right through your actions."
+    },
+    "idiomMeaning": {
+      "zh": "比喻主动承认自己的错误，向对方诚恳道歉。",
+      "en": "To admit one’s mistake and sincerely ask the person one has hurt for forgiveness."
+    },
+    "everydayExample": {
+      "zh": "他知道误会了朋友，主动登门道歉，颇有负荆请罪的诚意。",
+      "en": "After realizing he had misjudged his friend, he went to apologize with real sincerity."
+    },
+    "visualAnchor": "Ancient Zhao state, warm packed-earth courtyard, simple timber gate, wide streets and restrained palace veranda. A small bundle of three smooth leafless branches tied in tan cloth is shown ONLY during the apology, not earlier. No sharp thorns, exposed skin, weapons, or punishment. Fixed recurring cast: Lian Po, a sturdy Chinese adult general about 50, square face, thick brows, neat short dark-gray beard, dark high bun, rust-red cross-collar robe under simple brown lamellar shoulder armor, dark brown sash and boots; Lin Xiangru, a calm Chinese adult official about 40, slender oval face, clean-shaven, neat dark topknot, indigo cross-collar robe, cream sash and dark cloth shoes; one Chinese adult attendant about 30, round clean-shaven face, low dark bun, plain sage-green robe and brown sash.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "很久以前，赵国有位将军，名叫廉颇。他为守护赵国出了许多力。",
+        "en": "Long ago, the state of Zhao had a general named Lian Po. He had worked hard to protect his country.",
+        "castCodes": [
+          "L"
+        ],
+        "prompt": "Clothed general stands at a simple Zhao city gateway surveying a peaceful landscape; no weapons or fighting, establish rust-red robe and brown shoulder armor."
+      },
+      {
+        "page": 2,
+        "zh": "还有一位大臣，名叫蔺相如。他勇敢地同秦国交涉，维护了赵国的利益。",
+        "en": "Another official, Lin Xiangru, had spoken bravely with the state of Qin to protect Zhao's interests.",
+        "castCodes": [
+          "X"
+        ],
+        "prompt": "Calm indigo-robed official stands on a restrained palace veranda, speaking with composed confidence; no other people, no weapons or conflict."
+      },
+      {
+        "page": 3,
+        "zh": "赵王赞赏蔺相如，给了他很高的官位，排在廉颇前面。",
+        "en": "The ruler of Zhao praised Lin Xiangru and gave him a position above Lian Po's.",
+        "castCodes": [
+          "L",
+          "X"
+        ],
+        "prompt": "Official and general stand on palace veranda, official slightly ahead in ceremonial order, general looks uneasy; king remains off scene, exactly two people."
+      },
+      {
+        "page": 4,
+        "zh": "廉颇心里不服气：“我也做了许多事，为什么他排在我前面？”",
+        "en": "Lian Po felt upset. “I've done so much too. Why should he stand ahead of me?”",
+        "castCodes": [
+          "L"
+        ],
+        "prompt": "General stands in his courtyard speaking with dissatisfied but restrained expression, hands open, no threats or weapons."
+      },
+      {
+        "page": 5,
+        "zh": "他把这些不满说了出来。消息很快传到了蔺相如那里。",
+        "en": "He spoke openly about his frustration, and the news soon reached Lin Xiangru.",
+        "castCodes": [
+          "X",
+          "A"
+        ],
+        "prompt": "Sage-robed attendant quietly brings news to indigo-robed official in a calm timber courtyard; only these two, no branches."
+      },
+      {
+        "page": 6,
+        "zh": "蔺相如听完，没有回去争吵。他想先让大家冷静下来。",
+        "en": "Lin Xiangru listened without answering with an argument. He wanted everyone to calm down first.",
+        "castCodes": [
+          "X",
+          "A"
+        ],
+        "prompt": "Official listens thoughtfully to attendant at low courtyard table, gentle composed face, no confrontation or punishment."
+      },
+      {
+        "page": 7,
+        "zh": "一次，两人在街上远远碰见。蔺相如转进旁边的小巷，让开了路。",
+        "en": "One day, they saw each other along a street. Lin Xiangru stepped into a side lane and let the general pass.",
+        "castCodes": [
+          "L",
+          "X"
+        ],
+        "prompt": "Wide safe ancient street with general farther along main street and official respectfully moving into adjacent broad side lane; no hiding in fear, no carts or branches."
+      },
+      {
+        "page": 8,
+        "zh": "廉颇以为他害怕了，心里更觉得自己有道理。",
+        "en": "Lian Po thought the official was afraid and felt even more certain that he was right.",
+        "castCodes": [
+          "L"
+        ],
+        "prompt": "General alone on broad street, thoughtful yet overly confident expression, side lane behind, no official or attendant visible."
+      },
+      {
+        "page": 9,
+        "zh": "身边的人也问蔺相如：“您为什么总让着廉将军呢？”",
+        "en": "An attendant asked Lin Xiangru, “Why do you keep giving way to General Lian?”",
+        "castCodes": [
+          "X",
+          "A"
+        ],
+        "prompt": "Attendant respectfully questions official in quiet courtyard, both standing as equals in a conversation, no kneeling."
+      },
+      {
+        "page": 10,
+        "zh": "蔺相如说：“我连秦王都不怕，也不是怕廉将军。”",
+        "en": "Lin Xiangru replied, “I was not afraid to face the ruler of Qin. Nor am I afraid of the general.”",
+        "castCodes": [
+          "X",
+          "A"
+        ],
+        "prompt": "Official responds calmly with an open-hand gesture while attendant listens, restrained timber architecture, no flashback or ruler."
+      },
+      {
+        "page": 11,
+        "zh": "“将军守护边疆，我在朝中尽力。赵国需要我们各自的本领。”",
+        "en": "“The general protects our borders, and I serve at court. Zhao needs both of our strengths.”",
+        "castCodes": [
+          "X",
+          "A"
+        ],
+        "prompt": "Official and attendant look toward peaceful distant city wall from a courtyard opening, no general or soldiers, quiet shared reflection."
+      },
+      {
+        "page": 12,
+        "zh": "“如果我们只顾争高低，反而会让赵国少了一份力量。”",
+        "en": "“If we spend our energy competing with each other, our country will lose some of that strength.”",
+        "castCodes": [
+          "X",
+          "A"
+        ],
+        "prompt": "Official speaks thoughtfully at low table, attendant attentive, warm balanced composition with no diagrams or fantasy symbols."
+      },
+      {
+        "page": 13,
+        "zh": "这些话传到廉颇耳中。他站在院里，久久没有说话。",
+        "en": "When Lian Po heard this, he stood silently in his courtyard for a long time.",
+        "castCodes": [
+          "L",
+          "A"
+        ],
+        "prompt": "Attendant has finished relaying the words and stands beside quietly reflective general in his courtyard; no apology branches yet."
+      },
+      {
+        "page": 14,
+        "zh": "原来，蔺相如让路，是为了顾全大局，并不是轻看自己。",
+        "en": "He realized that Lin Xiangru had stepped aside for their country's sake, not out of disrespect.",
+        "castCodes": [
+          "L"
+        ],
+        "prompt": "General alone reflecting beneath courtyard tree, softened brows and humble expression, no branches, official or imagined scene."
+      },
+      {
+        "page": 15,
+        "zh": "廉颇想：“是我没有弄清楚，就说了伤人的话。我得亲自去道歉。”",
+        "en": "“I judged before I understood and spoke hurtfully,” he thought. “I must apologize myself.”",
+        "castCodes": [
+          "L"
+        ],
+        "prompt": "General resolves to apologize, stands upright with one hand on chest in courtyard, no branches yet, hopeful gentle light."
+      },
+      {
+        "page": 16,
+        "zh": "他背上一小束荆条，来到蔺相如门前，表明自己诚恳认错的心意。",
+        "en": "Carrying a small bundle of branches as a sign of his sincere regret, he went to Lin Xiangru's gate.",
+        "castCodes": [
+          "L"
+        ],
+        "prompt": "Clothed general stands at official's timber gate with exactly three smooth leafless branches tied in tan cloth on his back; no sharp thorns, no bare skin, no kneeling."
+      },
+      {
+        "page": 17,
+        "zh": "“是我错怪了你，还说了不好的话。”廉颇认真地说，“请接受我的道歉。”",
+        "en": "“I misjudged you and spoke unkindly,” Lian Po said. “Please accept my apology.”",
+        "castCodes": [
+          "L",
+          "X"
+        ],
+        "prompt": "General sincerely apologizes to official at gate, small cloth-tied smooth branch bundle on back, both upright, respectful eye contact."
+      },
+      {
+        "page": 18,
+        "zh": "蔺相如迎上前，接过荆条：“谢谢你愿意说清楚。我们一起为赵国尽力吧。”",
+        "en": "Lin Xiangru came forward and took the branches. “Thank you for speaking honestly. Let us work together for Zhao.”",
+        "castCodes": [
+          "L",
+          "X"
+        ],
+        "prompt": "Official gently receives the cloth-tied bundle of three smooth branches from clothed general at doorway; warm reconciliation without punishment."
+      },
+      {
+        "page": 19,
+        "zh": "从此，两人互相尊重、彼此支持，成了很好的朋友。",
+        "en": "From then on, they respected and supported each other and became close friends.",
+        "castCodes": [
+          "L",
+          "X"
+        ],
+        "prompt": "General and official walk side by side through a peaceful broad Zhao street, branch bundle left behind and absent, relaxed equal friendship."
+      },
+      {
+        "page": 20,
+        "zh": "后来，人们用“负荆请罪”，形容主动认错、诚恳道歉。",
+        "en": "Later, “carrying branches to ask forgiveness” came to mean admitting a mistake and apologizing sincerely.",
+        "castCodes": [
+          "L",
+          "X"
+        ],
+        "prompt": "Closing courtyard conversation between general and official over two tea bowls, no branches or writing, genuine respectful friendship."
+      }
+    ]
+  },
+  {
+    "id": "san-si-er-xing",
+    "title": "三思而行",
+    "subtitle": "去集市前想一想",
+    "order": 83,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "人物和送布情节为虚构的古代生活故事；“三思”指认真考虑，不要求机械地想三次。",
+    "moral": {
+      "zh": "先了解情况，也听听伙伴的需要，再作合适的决定。",
+      "en": "Find out what is needed, listen to your companions, and then choose a suitable plan."
+    },
+    "idiomMeaning": {
+      "zh": "形容做事之前认真思考、考虑清楚，再采取行动。",
+      "en": "To think a decision through before acting."
+    },
+    "everydayExample": {
+      "zh": "出发前我们看看路线和天气，三思而行。",
+      "en": "Before leaving, let’s consider the route and weather and think our plan through."
+    },
+    "visualAnchor": "Ancient Chinese village courtyard, a broad level dirt footpath and a quiet village market. Fixed props: a rectangular blue cloth parcel containing folded cloth, a small light wicker basket, a folded piece of plain oilpaper, a gourd water flask and a folded route sketch showing paths but no words. The cloth parcel remains at home until departure; only the grandfather carries the parcel. No steep slopes, dangerous river crossings or modern picnic gear. Fixed recurring cast: A Heng, a Chinese boy about 8 with a round face, dark eyes, dark hair in a small topknot, ochre cross-collar robe, cream sash and brown cloth shoes; his Chinese grandfather about 65 with a short gray beard, gray hair in a low topknot, indigo cross-collar robe, tan sash and dark cloth shoes; Xiao Zhu, a Chinese girl about 8 with an oval face, dark eyes, two low dark hair buns tied with cream cords, dusty-rose cross-collar robe, cream sash and brown cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "清早，祖父把一匹蓝布折好，准备送到镇上的集市。",
+        "en": "Early one morning, Grandfather folded a length of blue cloth to take to the town market.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather folds the blue cloth on a low courtyard table while A Heng watches; no packed parcel or route sketch yet."
+      },
+      {
+        "page": 2,
+        "zh": "阿衡抱来小篮子：“我也去！走山坡上的路，肯定最快。”",
+        "en": "A Heng brought a small basket. “I'll come too! The hillside path must be the quickest.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Heng eagerly lifts an empty light wicker basket beside grandfather and the folded blue cloth at home."
+      },
+      {
+        "page": 3,
+        "zh": "他刚要催祖父出发，祖父却抬头看了看远处的山坡。",
+        "en": "He was about to hurry Grandfather along, but Grandfather looked toward the distant slope.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather calmly looks toward a low distant hill from the courtyard; A Heng leans forward eagerly, cloth still on table."
+      },
+      {
+        "page": 4,
+        "zh": "“昨夜下过雨。路虽然近，走起来是不是也方便呢？”",
+        "en": "“It rained last night. The path is short, but will it be easy to walk?”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather points toward damp earth near the courtyard gate; both remain at home, no hill climbing."
+      },
+      {
+        "page": 5,
+        "zh": "阿衡停下来。路边的泥土湿湿的，鞋底一踩，就沾上了一点泥。",
+        "en": "A Heng paused. The ground by the gate was wet, and a little mud clung to his shoe.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Heng examines a small muddy mark on his cloth shoe at the level courtyard gate; grandfather stands beside him."
+      },
+      {
+        "page": 6,
+        "zh": "这时，小竹提着一只小篮子来了，她也想和大家一起去。",
+        "en": "Just then, Xiao Zhu arrived with a little basket. She wanted to come along too.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Xiao Zhu enters the courtyard carrying an empty light wicker basket; A Heng and grandfather welcome her."
+      },
+      {
+        "page": 7,
+        "zh": "“我的脚有点酸，今天想慢慢走。”小竹轻声说。",
+        "en": "“My feet feel a little sore today. I'd like to walk slowly,” Xiao Zhu said.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Xiao Zhu speaks gently beside the low courtyard table; A Heng listens and grandfather watches attentively."
+      },
+      {
+        "page": 8,
+        "zh": "阿衡想了想：“原来，选路还要看看同行的人。”",
+        "en": "A Heng thought for a moment. “We should think about the people coming with us too.”",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "A Heng turns thoughtfully toward Xiao Zhu; grandfather rests a hand beside the still-unwrapped folded blue cloth."
+      },
+      {
+        "page": 9,
+        "zh": "祖父拿出画着几条小路的纸，三个人围到桌边。",
+        "en": "Grandfather brought out a sketch of the paths, and all three gathered around the table.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Grandfather unfolds a plain route sketch showing colored paths without words; the two children look from opposite sides."
+      },
+      {
+        "page": 10,
+        "zh": "山坡路较近，另一条路绕过田边，宽一些，也平一些。",
+        "en": "The hillside path was shorter. Another path went around the fields and was wider and flatter.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Close view of grandfather indicating two unwritten routes on the sketch while both children observe; no travel scene yet."
+      },
+      {
+        "page": 11,
+        "zh": "“走田边这条吧。”阿衡说，“多走一点，大家都能从容些。”",
+        "en": "“Let's take the field path,” said A Heng. “It's longer, but we can all walk comfortably.”",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "A Heng points toward the broad route on the sketch, Xiao Zhu smiles and grandfather nods calmly."
+      },
+      {
+        "page": 12,
+        "zh": "三个人又看了看天。云还没有散，祖父取来一张油纸。",
+        "en": "They looked at the sky again. Clouds remained, so Grandfather fetched a sheet of oilpaper.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Grandfather holds a folded plain oilpaper sheet beside the blue cloth; children look up at light clouds above the courtyard."
+      },
+      {
+        "page": 13,
+        "zh": "祖父把蓝布包好。阿衡摸了摸包角，确认油纸把布护住了。",
+        "en": "Grandfather wrapped the cloth. A Heng checked that the oilpaper protected its corners.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Grandfather completes the rectangular blue cloth parcel with oilpaper protection; A Heng lightly checks a corner, Xiao Zhu watches."
+      },
+      {
+        "page": 14,
+        "zh": "小竹带上清水，阿衡装好两块饼，小篮子一点也不沉。",
+        "en": "Xiao Zhu packed water, and A Heng added two flatbreads. Their little baskets stayed light.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Children place a gourd flask and cloth-wrapped flatbread in their light baskets; grandfather lifts the wrapped parcel."
+      },
+      {
+        "page": 15,
+        "zh": "“路选好了，东西备好了，咱们出发吧！”祖父笑着说。",
+        "en": "“We've chosen our path and packed what we need. Now we're ready,” Grandfather said with a smile.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "All three pause together at the courtyard gate, grandfather holding the blue parcel and children carrying light baskets."
+      },
+      {
+        "page": 16,
+        "zh": "田边的路很平，三个人并肩慢慢走，谁也不用赶着追。",
+        "en": "The field path was level. They walked together, and nobody had to hurry to catch up.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "All three walk comfortably along the broad level path beside green fields; grandfather alone carries the blue parcel.",
+        "imageFile": "16-v2.webp"
+      },
+      {
+        "page": 17,
+        "zh": "走了一会儿，大家在树荫下歇脚。阿衡把饼分给小竹。",
+        "en": "After a while, they rested under a tree. A Heng shared his flatbread with Xiao Zhu.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "All three rest on a low roadside bench under a tree; children share plain flatbread, blue parcel beside grandfather."
+      },
+      {
+        "page": 18,
+        "zh": "到了集市，蓝布干干净净。祖父把它稳稳地放在铺子的桌上。",
+        "en": "At the market, the cloth was clean and dry. Grandfather set the parcel on the shop's table.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Grandfather places the intact blue parcel on a quiet cloth-shop table while the children stand beside him; no shopkeeper shown."
+      },
+      {
+        "page": 19,
+        "zh": "阿衡看看小竹，又看看祖父：“想清楚再出发，果然舒服多了。”",
+        "en": "A Heng looked at Xiao Zhu and Grandfather. “Thinking first made our trip much easier.”",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "The three smile together beside the cloth-shop table after delivering the parcel, children still holding their baskets."
+      },
+      {
+        "page": 20,
+        "zh": "三思而行，是行动以前，认真想想条件，也想想身边的人。",
+        "en": "To think before acting means considering the situation and the people around you.",
+        "castCodes": [
+          "C",
+          "G",
+          "F"
+        ],
+        "prompt": "Quiet closing view of all three walking comfortably through a spacious ancient market lane, only the recurring cast visible.",
+        "imageFile": "20-v2.webp"
+      }
+    ]
+  },
+  {
+    "id": "qi-xin-xie-li",
+    "title": "齐心协力",
+    "subtitle": "村口的小戏台",
+    "order": 84,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "古代村落和人物为虚构；合作体现商量顺序、协调行动和互相支持。搬动低平台、安装幕布由木匠负责，孩子参与轻便布置。",
+    "moral": {
+      "zh": "先商量共同目标和顺序，再互相配合，每个人都能贡献力量。",
+      "en": "Agree on the goal and order of work, then support one another so everyone can contribute."
+    },
+    "idiomMeaning": {
+      "zh": "形容大家同心合作，共同用力完成一件事情。",
+      "en": "To work together with a shared purpose and coordinated effort."
+    },
+    "everydayExample": {
+      "zh": "大家齐心协力，把演出的场地布置好了。",
+      "en": "Everyone worked together to get the performance space ready."
+    },
+    "visualAnchor": "Ancient Chinese village square beside a timber storage shed. Fixed props: one finished low sturdy rectangular four-legged wooden platform, two wide red cloth curtains, low wooden benches and a wicker basket of paper flowers. The platform is never built or enlarged during the story; only the adult carpenter handles moving it and attaching curtains. Children arrange light items at ground level. No power tools, climbing, printed posters or unlisted villagers. Fixed recurring cast: A Cheng, a Chinese boy about 8 with rounded cheeks, dark eyes, a neat small topknot, golden-ochre cross-collar robe, moss-green sash and brown cloth shoes; A He, a Chinese girl about 8 with an oval face, dark eyes, two low dark hair buns tied with cream cords, dusty-rose cross-collar robe, cream sash and brown cloth shoes; A Yuan, a Chinese boy about 8 with a slightly narrow face, dark eyes, a small topknot, teal cross-collar robe, cream sash and dark cloth shoes; Master Zhou, a Chinese carpenter about 45 with a square friendly face, a short neat black beard, a dark topknot, indigo cross-collar robe and a plain rust-brown cloth apron.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "村里的节日快到了，阿澄、阿禾和阿远想演一出小戏。",
+        "en": "The village festival was coming, and A Cheng, A He and A Yuan wanted to put on a little play.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y"
+        ],
+        "prompt": "The three children talk excitedly in the empty ancient village square; storage shed nearby, stage still inside."
+      },
+      {
+        "page": 2,
+        "zh": "周师傅做好了一座矮矮的小戏台，就放在村口的木棚里。",
+        "en": "Master Zhou had made a low wooden stage and kept it in the shed by the village gate.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Master Zhou shows the children the finished low four-legged platform inside the timber shed, no curtains installed."
+      },
+      {
+        "page": 3,
+        "zh": "阿澄抱来纸花，阿禾拿出红布，阿远搬来两只轻便的小凳子。",
+        "en": "A Cheng brought paper flowers, A He found red cloth, and A Yuan carried two light little stools.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y"
+        ],
+        "prompt": "The three children gather paper flowers, folded red cloth curtains and small light stools beside the shed; platform stays inside."
+      },
+      {
+        "page": 4,
+        "zh": "大家都急着开始。纸花堆在门边，红布摊开，小路反倒挤起来。",
+        "en": "Everyone hurried to begin. Flowers and cloth crowded the doorway, leaving little room to pass.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y"
+        ],
+        "prompt": "The children pause beside loosely arranged light decorations at the shed doorway; wide safe path remains visible, platform untouched."
+      },
+      {
+        "page": 5,
+        "zh": "周师傅走过来问：“先做哪一件，后做哪一件，商量过了吗？”",
+        "en": "Master Zhou asked, “Have you decided what needs to happen first, and what comes next?”",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Master Zhou speaks calmly with the three children beside the shed, gesturing toward the waiting platform and folded decorations."
+      },
+      {
+        "page": 6,
+        "zh": "三个人停下来，围坐在小凳子旁，说起各自想好的办法。",
+        "en": "The children paused and gathered by the little stools to share their ideas.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Children sit or crouch comfortably beside small stools while Master Zhou listens; all decorations remain in the basket or folded."
+      },
+      {
+        "page": 7,
+        "zh": "“先把戏台放好。”阿禾说，“幕布和纸花晚一点再挂。”",
+        "en": "“Let's put the stage in place first,” said A He. “The curtains and flowers can wait.”",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "A He points to a clear level spot in the village square while the others listen; stage still in shed."
+      },
+      {
+        "page": 8,
+        "zh": "“我把门边收整齐。”阿澄说。阿远也把小凳子移到一旁。",
+        "en": "“I'll clear the doorway,” said A Cheng. A Yuan moved the little stools aside too.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "A Cheng places paper flowers in a wicker basket, A Yuan moves a light stool, A He folds red cloth; Master Zhou waits."
+      },
+      {
+        "page": 9,
+        "zh": "周师傅把矮戏台移到空地上，仔细检查四条腿有没有放稳。",
+        "en": "Master Zhou moved the low stage into the square and checked that all four legs stood firmly.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Master Zhou steadies the finished low platform in the square; all three children watch from the clear ground beside it."
+      },
+      {
+        "page": 10,
+        "zh": "等戏台放稳，阿禾和阿远展开红布，请周师傅帮忙挂好。",
+        "en": "Once the stage was steady, A He and A Yuan unfolded the curtains for Master Zhou to hang.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Children hold the loose lower edges of the red cloth at ground level while Master Zhou attaches curtains to simple low supports."
+      },
+      {
+        "page": 11,
+        "zh": "阿澄捧着纸花走来，先问大家：“放在两边，好不好？”",
+        "en": "A Cheng brought the paper flowers. “Shall we place them at the sides?” he asked.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "A Cheng offers a wicker basket of paper flowers beside the stage; red curtains now hung, others look toward both sides."
+      },
+      {
+        "page": 12,
+        "zh": "“好呀！”阿禾扶住花串，阿远递来细绳，大家一起把它理顺。",
+        "en": "“Yes!” A He held the flower garland while A Yuan passed cord, and they straightened it together.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Children straighten one light paper-flower garland at ground level while Master Zhou helps attach it to the stage side."
+      },
+      {
+        "page": 13,
+        "zh": "小凳子一排排放好，中间留出一条宽宽的路，来去都方便。",
+        "en": "They arranged the little stools in rows, leaving a wide path through the middle.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Children arrange only small light stools on level ground; Master Zhou checks the wide central aisle, stage complete behind them."
+      },
+      {
+        "page": 14,
+        "zh": "阿远在幕布后试着说台词。红布一晃，阿禾听不清最后几个字。",
+        "en": "A Yuan tried his lines behind the curtain, but A He could not hear the last few words clearly.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y"
+        ],
+        "prompt": "A Yuan speaks beside the red curtain while A He and A Cheng listen from the front row of small stools."
+      },
+      {
+        "page": 15,
+        "zh": "他们又商量好，谁先开口，谁来接话，幕布什么时候打开。",
+        "en": "They agreed who would speak first, who would answer, and when the curtain would open.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y"
+        ],
+        "prompt": "The three children discuss their speaking order beside the completed low stage, fingers gesturing without written signs."
+      },
+      {
+        "page": 16,
+        "zh": "阿澄忘了一句，阿禾轻轻接上。阿远等一等，也跟上了。",
+        "en": "A Cheng forgot a line, so A He gently helped. A Yuan waited a moment and joined in.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y"
+        ],
+        "prompt": "All three rehearse together on the very low stable platform, A He offering a gentle spoken cue; no audience crowd."
+      },
+      {
+        "page": 17,
+        "zh": "练完以后，三个人一起看了看戏台：每一样东西都在合适的地方。",
+        "en": "After rehearsing, they looked at the stage together. Everything was in a useful place.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Children and Master Zhou admire the completed stage from the clear central aisle, curtains and flower garland orderly."
+      },
+      {
+        "page": 18,
+        "zh": "周师傅坐在台前，笑着说：“你们不仅一起做，还一起想。”",
+        "en": "Master Zhou sat in front of the stage. “You worked together, and you thought together too.”",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Master Zhou sits on a low bench speaking warmly to the three children gathered beside the stage."
+      },
+      {
+        "page": 19,
+        "zh": "红幕布缓缓打开，小戏开始了。三个人相互看看，都笑了。",
+        "en": "The red curtain opened slowly, and the play began. The children exchanged happy smiles.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Three children begin their little play on the low platform as Master Zhou watches from a nearby low bench; no other people."
+      },
+      {
+        "page": 20,
+        "zh": "齐心协力，是朝着同一个目标，商量好顺序，也互相帮一把。",
+        "en": "Working together means sharing a goal, agreeing on a plan, and helping one another.",
+        "castCodes": [
+          "C",
+          "H",
+          "Y",
+          "M"
+        ],
+        "prompt": "Warm closing scene of all four beside the complete village stage, paper flowers and neatly arranged stools, calm shared pride."
+      }
+    ]
+  },
+  {
+    "id": "yin-di-zhi-yi",
+    "title": "因地制宜",
+    "subtitle": "院子里的三块地",
+    "order": 85,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "古代庭院、阿芷和祖母为虚构；通过光照、湿度与排水差异理解成语，种植安排为简化的儿童故事。",
+    "moral": {
+      "zh": "先观察不同的条件，再选择适合的安排，不必让所有地方都一样。",
+      "en": "Observe how conditions differ and choose what fits; every place need not be treated in the same way."
+    },
+    "idiomMeaning": {
+      "zh": "根据当地的具体条件，选择合适的办法。",
+      "en": "To choose a suitable method for the particular conditions of a place."
+    },
+    "everydayExample": {
+      "zh": "这块地比较阴，我们因地制宜，种些喜欢半阴的植物。",
+      "en": "This patch is shady, so we’ll choose plants that suit its conditions."
+    },
+    "visualAnchor": "Ancient Chinese home courtyard with exactly three fixed garden beds: a sunny raised well-drained bed beside a low wall, a moist well-drained bed beside a large clay water jar, and a cool partly shaded bed under a tree. Fixed plants: yellow chrysanthemums for the sunny bed, green mint for the moist bed and broad-leaf hostas with pale lilac flowers for the shaded bed. Small clay watering jug, wooden plant pots and a blunt wooden hand shovel. Blooming plants appear only after the story time jump. Fixed recurring cast: A Zhi, a Chinese girl about 7 with a round face, dark eyes, two low dark hair buns tied with plum cords, pale-apricot cross-collar robe, sage-green short cloth apron and brown cloth shoes; her Chinese grandmother about 65 with a gentle round face, silver hair in a low bun, indigo cross-collar robe, beige cloth apron and dark cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "阿芷家的院子里，有三块空地。她想把院子种得绿油油的。",
+        "en": "There were three empty garden beds in A Zhi's courtyard. She wanted to fill them with plants.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi and grandmother survey exactly three bare garden beds in the ancient courtyard, clay jar and shade tree fixed in place."
+      },
+      {
+        "page": 2,
+        "zh": "“三块地都种一样的花，多整齐呀！”阿芷捧着小木盆说。",
+        "en": "“The same flowers in every bed would look so neat!” said A Zhi, holding a wooden plant pot.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi holds an empty wooden plant pot beside grandmother; all three beds remain bare, no flowers planted yet."
+      },
+      {
+        "page": 3,
+        "zh": "祖母没有急着动手：“先看看，这三块地是不是一样。”",
+        "en": "Grandmother did not begin planting. “First, let's see whether these places are alike.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandmother invites A Zhi to observe the courtyard beds; clay watering jug and blunt wooden hand shovel rest on a low bench."
+      },
+      {
+        "page": 4,
+        "zh": "早晨，墙边的空地晒着太阳，树下却有一片凉凉的影子。",
+        "en": "In the morning, sunlight reached the bed by the wall, while the tree cast a cool shadow.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The two observe the sunlit bare raised bed by the wall and the separate shaded bare bed beneath the tree."
+      },
+      {
+        "page": 5,
+        "zh": "到了午后，墙边还是亮亮的，树下的泥土摸起来凉一些。",
+        "en": "By afternoon, the wall bed was still bright, and the soil beneath the tree felt cooler.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi lightly touches soil in the shaded bare bed while grandmother stands nearby; warm afternoon sun illuminates the wall bed."
+      },
+      {
+        "page": 6,
+        "zh": "水缸旁的地，土里留着一点水分，表面却没有积水。",
+        "en": "The soil beside the water jar held some moisture, but there was no puddle on top.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandmother and A Zhi examine the moist well-drained bare bed beside the large clay jar, no standing water."
+      },
+      {
+        "page": 7,
+        "zh": "阿芷看了又看：“原来，有的地方亮，有的地方凉，还有的湿一点。”",
+        "en": "A Zhi looked again. “Some places are brighter, some cooler, and some a little damper.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi gestures thoughtfully toward the three different bare beds while grandmother listens, no plant growth yet."
+      },
+      {
+        "page": 8,
+        "zh": "祖母拿来几盆小苗：菊花、薄荷，还有叶子宽宽的玉簪。",
+        "en": "Grandmother brought young chrysanthemums, mint, and broad-leaf hostas in small pots.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandmother sets three types of small unblooming potted plants on the courtyard bench; A Zhi examines leaves attentively."
+      },
+      {
+        "page": 9,
+        "zh": "“咱们院里的菊花爱晒太阳。”祖母说，“墙边这块地就合适。”",
+        "en": "“Our chrysanthemums enjoy the sun,” said Grandmother. “The bed beside the wall will suit them.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandmother holds an unblooming chrysanthemum pot beside the sunny bare raised bed; other plant pots stay on the bench."
+      },
+      {
+        "page": 10,
+        "zh": "阿芷把菊花小苗放在墙边，轻轻拢好周围的土。",
+        "en": "A Zhi planted the young chrysanthemums by the wall and gently settled the soil around them.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi gently plants small green chrysanthemum seedlings in the sunny bed, grandmother assists; no yellow blooms yet."
+      },
+      {
+        "page": 11,
+        "zh": "薄荷放在水缸旁。这里留得住水分，土也松松的。",
+        "en": "They planted the mint beside the water jar, where the loose soil held useful moisture.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The two plant young mint in the moist well-drained jar-side bed; small chrysanthemum seedlings visible by wall, hostas still potted."
+      },
+      {
+        "page": 12,
+        "zh": "玉簪放在树荫边，早晨有一点阳光，午后就凉快了。",
+        "en": "The hostas went by the tree, where they caught some morning light and afternoon shade.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The two plant young broad-leaf hostas at the tree's partly shaded edge; no lilac flowers yet, other two beds newly planted."
+      },
+      {
+        "page": 13,
+        "zh": "祖母浇水，阿芷看着水慢慢渗下去，没有一口气倒太多。",
+        "en": "Grandmother watered gently, and A Zhi watched the water soak in rather than pouring too much.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandmother pours a little water from the clay jug onto new plants while A Zhi observes the moist soil, no puddles."
+      },
+      {
+        "page": 14,
+        "zh": "往后的日子，阿芷每天都来看看：叶子精神吗？土干不干？",
+        "en": "In the days that followed, A Zhi checked the leaves and felt whether the soil was dry.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi and grandmother inspect slightly grown green leaves in the three beds on a later morning, flowers still absent."
+      },
+      {
+        "page": 15,
+        "zh": "有一次，墙边的土先干了，祖母便给那里多添了一点水。",
+        "en": "One day the wall bed dried sooner, so Grandmother gave that bed a little extra water.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandmother waters the drier sunny bed with the clay jug; A Zhi compares it with the still-moist mint bed."
+      },
+      {
+        "page": 16,
+        "zh": "一段日子过去，菊花开了，薄荷长高了，玉簪也伸出了花穗。",
+        "en": "As time passed, chrysanthemums bloomed, mint grew taller, and hostas sent up flower stalks.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "After a clear story time jump, all three beds thrive: yellow chrysanthemums, tall green mint and hostas with pale lilac blooms."
+      },
+      {
+        "page": 17,
+        "zh": "阿芷笑了：“三块地不用一样，院子也能长得很好看。”",
+        "en": "A Zhi smiled. “The beds don't have to be alike for the courtyard to be beautiful.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Zhi and grandmother admire the three different thriving beds, clay jug resting on the low bench, relaxed smiles.",
+        "imageFile": "17-v2.webp"
+      },
+      {
+        "page": 18,
+        "zh": "因地制宜，是先看清一个地方的条件，再选合适的办法。",
+        "en": "Choosing what suits a place begins with noticing its conditions.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Wide closing scene of grandmother and A Zhi in the coherent ancient courtyard with exactly three distinct healthy garden beds.",
+        "imageFile": "18-v2.webp"
+      }
+    ]
+  },
+  {
+    "id": "ju-yi-fan-san",
+    "title": "举一反三",
+    "subtitle": "学会一个结以后",
+    "order": 86,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "古代小镇、若舟与叔父为虚构；把一种方法迁移到相似情境时，需要观察、尝试和调整，不把一种绳结写成万能方法。",
+    "moral": {
+      "zh": "学会以后，想想哪里相似、哪里不同，再尝试把方法用过去。",
+      "en": "After learning a method, notice what is similar and what is different before trying it elsewhere."
+    },
+    "idiomMeaning": {
+      "zh": "从一件事情学到方法，进而理解或解决其他类似的事情。",
+      "en": "To apply what one learns from one example to other similar situations."
+    },
+    "everydayExample": {
+      "zh": "学会分这一篮果子后，她举一反三，也会分另一篮了。",
+      "en": "After learning to share one basket of fruit, she applied the same idea to another."
+    },
+    "visualAnchor": "Ancient Chinese home workroom with a low wooden table. Fixed props: soft blue cotton cord, two plain clothbound books without lettering, a small yellow cloth gift bundle, a light wicker basket and a rolled plain sleeping mat. Only gentle low-load tying for domestic objects. No neck loops, climbing, tying people or modern paper gift wrap; the basket handle is never replaced with a load-bearing knot. Fixed recurring cast: Ruo Zhou, a Chinese boy about 8 with an oval face, dark eyes, a neat small topknot, teal cross-collar robe, golden-ochre sash and brown cloth shoes; his Chinese uncle about 40 with a friendly oval face, short neat black beard, dark topknot, plum-purple cross-collar robe, cream sash and dark cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "若舟要把两本书送到隔壁，书叠在一起，走两步就散开了。",
+        "en": "Ruo Zhou needed to take two books next door, but they slipped apart as he walked.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou holds two plain unlettered clothbound books slipping slightly apart beside the low home worktable; uncle nearby."
+      },
+      {
+        "page": 2,
+        "zh": "叔父拿来一根软绳：“先把书放稳，我教你打一个结。”",
+        "en": "His uncle brought a soft cord. “Set the books down, and I'll show you a knot.”",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Uncle lays a loose blue cotton cord beside the two books on the table; Ruo Zhou watches closely."
+      },
+      {
+        "page": 3,
+        "zh": "绳子绕过书，交叉、绕回，再留出两个小绳圈。",
+        "en": "The cord went around the books, crossed over, and formed two little loops.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Close view of uncle's human hands demonstrating a simple blue cord bow around the book stack while the child watches.",
+        "imageFile": "3-v2.webp"
+      },
+      {
+        "page": 4,
+        "zh": "若舟照着试了一遍，一松手，绳圈又滑开了。",
+        "en": "Ruo Zhou tried it himself, but the loops slipped loose when he let go.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou gently tries the blue bow on the stacked books; loose loops rest on the table, uncle calmly observing.",
+        "imageFile": "4-v2.webp"
+      },
+      {
+        "page": 5,
+        "zh": "“别急，看看哪一边没收住。”叔父把动作放慢了些。",
+        "en": "“Take your time. Look for the loose side,” said his uncle, showing the movement more slowly.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Uncle slowly demonstrates the loose side of the blue cotton bow to the attentive child at the low table.",
+        "imageFile": "5-v2.webp"
+      },
+      {
+        "page": 6,
+        "zh": "若舟重新试，轻轻拉住两边。这回，两本书稳稳地待在一起。",
+        "en": "Ruo Zhou tried again and gently tightened both sides. This time, the books stayed together.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou holds the small tied book stack securely with a neat blue bow; uncle smiles, no other tied objects yet.",
+        "imageFile": "6-v2.webp"
+      },
+      {
+        "page": 7,
+        "zh": "他把书送到隔壁，回来时发现桌上多了一个黄色布包。",
+        "en": "After taking the books next door, he returned to find a little yellow cloth bundle on the table.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou returns to the home worktable where a loose yellow cloth gift bundle sits; the delivered books are absent.",
+        "imageFile": "7-v2.webp"
+      },
+      {
+        "page": 8,
+        "zh": "“这也要系好。”叔父说，“你想想，刚才的办法能用吗？”",
+        "en": "“This needs tying too,” said his uncle. “Could your new method help here?”",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Uncle points toward the loose corners of the yellow cloth bundle while Ruo Zhou studies it, blue cord beside it.",
+        "imageFile": "8-v2.webp"
+      },
+      {
+        "page": 9,
+        "zh": "若舟没有立刻动手。他看看布包，又想想刚才叠好的书。",
+        "en": "Ruo Zhou paused to compare the bundle with the stack of books he had just tied.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "The child thoughtfully examines the yellow cloth bundle on the table while uncle waits patiently; no imagined book inset.",
+        "imageFile": "9-v2.webp"
+      },
+      {
+        "page": 10,
+        "zh": "“都是轻轻的东西，都要把外面拢住。”他拿起了绳子。",
+        "en": "“Both are light, and both need holding together,” he said, picking up the cord.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou lifts the soft blue cord beside the untied yellow cloth bundle, uncle watching; focus on careful observation.",
+        "imageFile": "10-v2.webp"
+      },
+      {
+        "page": 11,
+        "zh": "布包比书圆一些，他把绳子绕得宽一点，再打好那个结。",
+        "en": "The bundle was rounder than the books, so he left more room before tying the same bow.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou ties a gentle blue cotton bow around the small rounded yellow cloth bundle, uncle helps steady it.",
+        "imageFile": "11-v2.webp"
+      },
+      {
+        "page": 12,
+        "zh": "叔父轻轻提了提，布包没有散。“会用，也要试一试才知道。”",
+        "en": "His uncle lifted it gently. “Try it and check whether it works.” The bundle held together.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Uncle gently tests the tied small yellow cloth bundle by lifting it just above the low table, child watches.",
+        "imageFile": "12-v2.webp"
+      },
+      {
+        "page": 13,
+        "zh": "后来，若舟看到一只小篮子，篮边系的布带松了。",
+        "en": "Later, Ruo Zhou noticed a loose decorative cloth ribbon on the side of a little basket.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "The child notices a loose plain cloth ribbon on a light wicker basket resting on the low table; yellow gift bundle nearby.",
+        "imageFile": "13-v2.webp"
+      },
+      {
+        "page": 14,
+        "zh": "他用刚学的办法，把轻轻的布带系好，又检查有没有滑开。",
+        "en": "He used his new method to tie the light ribbon, then checked that it did not slip.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Ruo Zhou ties a blue bow securing only a light decorative cloth ribbon to the basket side; handle remains intact and unchanged."
+      },
+      {
+        "page": 15,
+        "zh": "院角还放着一卷厚席子。若舟抱来绳子，绕了一圈，却太短了。",
+        "en": "A thick rolled mat stood in the corner. Ruo Zhou tried the cord, but it was too short.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "The child places a short loose blue cotton cord around a large rolled plain sleeping mat; it clearly cannot reach around."
+      },
+      {
+        "page": 16,
+        "zh": "“这回条件不同。”叔父说，“先换根合适的绳子，再试。”",
+        "en": "“This object is different,” said his uncle. “Choose a suitable cord before trying again.”",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Uncle shows a longer plain cotton cord beside the mat while Ruo Zhou compares it with the short blue cord."
+      },
+      {
+        "page": 17,
+        "zh": "若舟笑了：“我懂了。学会一个办法，还要看哪里像，哪里不一样。”",
+        "en": "Ruo Zhou smiled. “A method can help again, if I notice what is alike and what is different.”",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Child and uncle smile beside the low table with the tied yellow gift bundle and ribboned wicker basket; mat remains in corner."
+      },
+      {
+        "page": 18,
+        "zh": "举一反三，是从一件事学到方法，再试着理解其他相似的事。",
+        "en": "Learning from one example can help us understand other similar situations.",
+        "castCodes": [
+          "C",
+          "U"
+        ],
+        "prompt": "Warm closing scene of Ruo Zhou and uncle examining a neat blue bow at the ancient worktable, simple tied domestic objects nearby.",
+        "imageFile": "18-v2.webp"
+      }
+    ]
+  },
+  {
+    "id": "you-bei-wu-huan",
+    "title": "有备无患",
+    "subtitle": "出门前的小行囊",
+    "order": 87,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "阿宁一家与访亲情节为虚构的古代生活故事；用品针对已知行程和天气准备，出行始终有母亲陪伴。",
+    "moral": {
+      "zh": "了解要去哪里和可能遇到什么，带上合适的东西，遇事更从容。",
+      "en": "Know where you are going and what may happen, and pack useful things so you can respond calmly."
+    },
+    "idiomMeaning": {
+      "zh": "事先做好适当准备，就能减少困难或不便。",
+      "en": "Suitable preparations can reduce difficulties when they arise."
+    },
+    "everydayExample": {
+      "zh": "今天可能下雨，我们带上雨衣，有备无患。",
+      "en": "It may rain today, so we’ll take raincoats and be prepared."
+    },
+    "visualAnchor": "Ancient Chinese family courtyard, a broad safe village path with a low roadside shelter, and grandmother’s tiled-roof home. Fixed travel props: a small red cloth bundle carried by the child, a gourd water flask, plain cloth-wrapped flatbread and a large folded plain oilpaper rain umbrella carried by the mother. Light rain only. The umbrella has a warm-ochre paper canopy with plain bamboo ribs and covers both mother and child. Grandmother appears only at her home. Fixed recurring cast: A Ning, a Chinese girl about 7 with rounded cheeks, dark eyes, two small low dark hair buns tied with red cords, sky-blue cross-collar robe, cream sash and brown cloth shoes; her Chinese mother about 32 with a calm oval face, dark eyes, black hair in a low bun, moss-green cross-collar robe, tan sash, brown cloth shoes and a tan cloth shoulder satchel; her Chinese grandmother about 65 with a round smiling face, silver hair in a low bun, warm-ochre cross-collar robe, cream sash and dark cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "今天，阿宁要跟母亲去邻村，看望好些日子没见的祖母。",
+        "en": "Today A Ning and her mother were going to the next village to visit Grandmother.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Ning and mother stand beside their home courtyard table, looking toward the broad village path; grandmother absent."
+      },
+      {
+        "page": 2,
+        "zh": "她把一个小红包袱摊在桌上，恨不得马上出门。",
+        "en": "She spread a little red cloth on the table, eager to leave at once.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "The child unfolds a small red cloth on the low table while mother smiles, no packed bundle or umbrella yet."
+      },
+      {
+        "page": 3,
+        "zh": "母亲看看天边的云：“今天路上可能有小雨，咱们准备一下。”",
+        "en": "Mother looked at the clouds. “We may meet a little rain today. Let's prepare.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother and child look up at soft clouds above the courtyard; red bundle cloth still spread on table."
+      },
+      {
+        "page": 4,
+        "zh": "阿宁问：“那要把屋里的东西都带上吗？”母亲笑着摇摇头。",
+        "en": "“Should we take everything in the house?” asked A Ning. Mother smiled and shook her head.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Ning gestures curiously toward simple household items while mother answers calmly; no overflowing luggage."
+      },
+      {
+        "page": 5,
+        "zh": "“想想去哪儿、走多久，再带上用得着的东西。”",
+        "en": "“Think about where we're going and how long we'll walk. Then choose useful things.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother explains beside the low table, indicating the nearby village through the courtyard gate, child listening."
+      },
+      {
+        "page": 6,
+        "zh": "母亲取出油纸伞，展开看看，又仔细检查伞面和伞骨。",
+        "en": "Mother opened an oilpaper umbrella and checked its canopy and bamboo ribs.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother opens the plain warm-ochre oilpaper umbrella in the courtyard while the child examines its intact bamboo ribs."
+      },
+      {
+        "page": 7,
+        "zh": "阿宁把清水装进小葫芦：“走累了，可以喝一点。”",
+        "en": "A Ning filled a little gourd flask. “We'll have water when we need a rest.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "The child fills a small gourd flask at the courtyard clay jar with mother's help; checked umbrella now folded nearby."
+      },
+      {
+        "page": 8,
+        "zh": "母亲包好两块饼，阿宁把它们和小葫芦放在红布中央。",
+        "en": "Mother wrapped two flatbreads, and A Ning placed them with the flask on the red cloth.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Ning arranges plain cloth-wrapped flatbreads and a small gourd flask on the red cloth; mother steadies the table edge."
+      },
+      {
+        "page": 9,
+        "zh": "她试着拎了拎，包袱轻轻的，装的东西也没有晃来晃去。",
+        "en": "She tested the little bundle. It was light, and the things inside stayed in place.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Ning gently lifts the newly tied small red cloth bundle just above the table while mother watches.",
+        "imageFile": "9-v2.webp"
+      },
+      {
+        "page": 10,
+        "zh": "母亲带上给祖母的布料，背好行囊，牵着阿宁出了门。",
+        "en": "Mother packed the cloth for Grandmother, took her satchel, and walked out with A Ning.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother and child leave the courtyard together, mother with tan cloth satchel and folded oilpaper umbrella, child holding red bundle."
+      },
+      {
+        "page": 11,
+        "zh": "村路宽宽的。阿宁边走边数路旁的柳树，很快就走了一小段。",
+        "en": "The village path was wide. A Ning counted the willows as they walked together.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother and child walk side by side along the broad level path beside willow trees; umbrella remains folded.",
+        "imageFile": "11-v2.webp"
+      },
+      {
+        "page": 12,
+        "zh": "走到路边的小亭子，两个人坐下歇脚，分着吃了饼。",
+        "en": "They rested in a little roadside shelter and shared the flatbread.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother and child sit in the low roadside shelter sharing plain flatbread, gourd flask and red bundle beside them."
+      },
+      {
+        "page": 13,
+        "zh": "几滴雨落在亭檐上，滴答，滴答。阿宁抬头看了看。",
+        "en": "A few raindrops tapped the shelter roof. A Ning looked up to listen.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "The two remain seated beneath the shelter roof as light rain begins outside; folded umbrella beside mother's satchel."
+      },
+      {
+        "page": 14,
+        "zh": "母亲打开油纸伞，把阿宁拢在身边。两个人慢慢往前走。",
+        "en": "Mother opened the umbrella and kept A Ning close. They continued at an easy pace.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother holds the opened warm-ochre oilpaper umbrella over herself and child as they walk together through a light shower.",
+        "imageFile": "14-v3.webp"
+      },
+      {
+        "page": 15,
+        "zh": "到了邻村，祖母就在门口迎他们：“快进来，茶已经温好了。”",
+        "en": "Grandmother greeted them at her doorway. “Come in. The tea is warm.”",
+        "castCodes": [
+          "C",
+          "M",
+          "G"
+        ],
+        "prompt": "Grandmother welcomes mother and child at a simple tiled-roof doorway; opened umbrella still protects the arriving pair.",
+        "imageFile": "15-v2.webp"
+      },
+      {
+        "page": 16,
+        "zh": "阿宁把包袱放下，母亲收好伞，大家围坐在桌边。",
+        "en": "A Ning put down her bundle, Mother folded the umbrella, and they gathered around the table.",
+        "castCodes": [
+          "C",
+          "M",
+          "G"
+        ],
+        "prompt": "All three sit around grandmother's low wooden table with plain tea bowls; folded umbrella and red bundle rest near the door."
+      },
+      {
+        "page": 17,
+        "zh": "“幸好提前想过！”阿宁说。祖母笑着给她倒了一碗温水。",
+        "en": "“I'm glad we thought ahead!” said A Ning. Grandmother poured her a bowl of warm water.",
+        "castCodes": [
+          "C",
+          "M",
+          "G"
+        ],
+        "prompt": "Grandmother pours warm water into a plain bowl for A Ning while mother smiles; quiet welcoming home interior."
+      },
+      {
+        "page": 18,
+        "zh": "有备无患，是先做合适的准备，遇到小变化，也能从容应对。",
+        "en": "Useful preparations help us respond calmly when small changes come along.",
+        "castCodes": [
+          "C",
+          "M",
+          "G"
+        ],
+        "prompt": "Warm closing scene of the family relaxing together at the low table as gentle rain falls beyond the doorway, ancient clothing clear."
+      }
+    ]
+  },
+  {
+    "id": "xun-xu-jian-jin",
+    "title": "循序渐进",
+    "subtitle": "小学徒的第一幅山水",
+    "order": 88,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "古代画室、景行与师父为虚构；练习可拆成合适的小步，允许休息、求助和各自的节奏，画法不是唯一标准。",
+    "moral": {
+      "zh": "把想学的事情分成合适的小步，慢慢练习，进步可以有自己的节奏。",
+      "en": "Break a new skill into manageable steps and practice at your own pace."
+    },
+    "idiomMeaning": {
+      "zh": "按照合适的顺序，一步一步地学习或前进。",
+      "en": "To learn or progress gradually in a suitable order."
+    },
+    "everydayExample": {
+      "zh": "先练简单的，再试复杂的，我们循序渐进地学。",
+      "en": "We’ll begin with simpler parts and move gradually to harder ones."
+    },
+    "visualAnchor": "Ancient Chinese painting studio with timber lattice windows, one low broad wooden worktable and an adjacent safe courtyard overlooking low green hills. Fixed props: plain cream rice-paper sheets, wooden-handled ink brushes, one dark inkstone, a small ceramic water bowl and a folded plain cloth. Painting develops from simple strokes to branches and stones, then a small ink-wash landscape; no written characters, seals or signatures. No modern easel, paint tubes or school uniform. Fixed recurring cast: Jing Xing, a Chinese girl about 8 with an oval face, dark eyes, two low dark hair buns tied with ochre cords, slate-blue cross-collar robe, ochre sash and brown cloth shoes; her Chinese female painting teacher about 60 with a gentle oval face, silver hair in a low bun, cream cross-collar robe, dark moss-green cloth apron and dark cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "景行走进画室，看见师父的山水画，眼睛一下子亮了。",
+        "en": "Jing Xing entered the studio and brightened at the sight of her teacher's landscape painting.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl and teacher admire an unsigned ink-wash landscape in the ancient studio; brushes and blank rice paper on the low table."
+      },
+      {
+        "page": 2,
+        "zh": "山、树、小溪都在纸上。她也想画一幅这么丰富的画。",
+        "en": "Hills, trees and a stream filled the paper. She wanted to paint a landscape like that too.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Jing Xing looks closely at the teacher's simple completed landscape, then turns toward her own blank paper."
+      },
+      {
+        "page": 3,
+        "zh": "景行拿起笔，山画在这里，树挤在那里，溪水却没地方流了。",
+        "en": "She picked up her brush. Hills went here and trees there, but no space remained for the stream.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "The child paints a crowded early landscape with overlapping hills and trees but no stream; teacher watches without interrupting.",
+        "imageFile": "3-v2.webp"
+      },
+      {
+        "page": 4,
+        "zh": "她停下笔，小声说：“怎么一想画好多东西，就乱起来了？”",
+        "en": "She put down her brush. “Why does it get muddled when I try to paint everything at once?”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Jing Xing pauses thoughtfully beside the crowded practice painting, brush resting safely on the table, teacher listening.",
+        "imageFile": "4-v2.webp"
+      },
+      {
+        "page": 5,
+        "zh": "师父把一张新纸铺平：“想学的东西多，可以一小步一小步来。”",
+        "en": "Her teacher laid out fresh paper. “You can learn a little part at a time.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher lays a fresh blank rice-paper sheet beside the crowded attempt; girl sits attentively at the low table."
+      },
+      {
+        "page": 6,
+        "zh": "她先教景行蘸一点墨，试试笔尖轻轻落下，再慢慢提起。",
+        "en": "First she showed Jing Xing how to take a little ink and lift the brush gently from the paper.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher demonstrates one simple light-to-dark brushstroke using the inkstone; girl watches the wooden-handled brush tip."
+      },
+      {
+        "page": 7,
+        "zh": "景行练了几笔，有的粗，有的细，像小路，也像树枝。",
+        "en": "Jing Xing practiced strokes, some thick and some thin, like little paths and branches.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "The girl's practice sheet contains only several simple ink strokes of differing widths, no letters, trees or finished landscape yet."
+      },
+      {
+        "page": 8,
+        "zh": "师父说：“看看哪一笔最顺手，再试着画一根小树枝。”",
+        "en": "“Notice which stroke feels comfortable,” said her teacher. “Then try a little branch.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher points toward a smooth practice stroke while the girl begins one small bare branch on a separate sheet."
+      },
+      {
+        "page": 9,
+        "zh": "景行添了一根，又添一根，小树枝渐渐伸展开了。",
+        "en": "She added one branch, then another, until a little tree began to spread across the paper.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl carefully adds a second and third branching ink line to the small tree sketch; no hills or stream yet."
+      },
+      {
+        "page": 10,
+        "zh": "接着，她试着画石头。转转笔尖，石头就有了圆圆的边。",
+        "en": "Next she tried painting stones, turning the brush to give them rounded edges.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl practices two rounded ink stones on a fresh small sheet while teacher watches; branch sketch remains beside it."
+      },
+      {
+        "page": 11,
+        "zh": "练了一会儿，景行甩甩手。师父请她站起来，到院里歇歇。",
+        "en": "After practicing, Jing Xing stretched her hand. Her teacher invited her into the courtyard for a break.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher and girl step into the safe level courtyard, leaving the practice sheets and brushes inside the studio."
+      },
+      {
+        "page": 12,
+        "zh": "远处的山一层层排开，树也没有都挤在同一个地方。",
+        "en": "The distant hills rose in layers, and the trees were not crowded into one place.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "The two observe low layered green hills and separated trees from the courtyard, no steep overlook or extra people."
+      },
+      {
+        "page": 13,
+        "zh": "“原来，纸上也可以留些空地方。”景行想到了刚才的小溪。",
+        "en": "“There can be empty spaces on the paper too,” said Jing Xing, remembering her stream.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl gestures thoughtfully toward the open space between low hills while teacher listens in the courtyard."
+      },
+      {
+        "page": 14,
+        "zh": "回到画室，她先画远山，再画近处的树，给溪水留下一条路。",
+        "en": "Back inside, she painted distant hills and a nearby tree, leaving a path for the stream.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl begins a fresh small landscape with low distant hills and one nearby tree, a clear blank winding space reserved for water.",
+        "imageFile": "14-v2.webp"
+      },
+      {
+        "page": 15,
+        "zh": "这次，她没有急着添满。一笔一笔，画面慢慢清楚起来。",
+        "en": "This time she did not rush to fill the paper. Stroke by stroke, the scene grew clearer.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl carefully adds a few rounded stones to the developing hills-and-tree painting, stream area still mostly unpainted."
+      },
+      {
+        "page": 16,
+        "zh": "溪水弯弯地流过，树下放着两块石头。景行轻轻放下笔。",
+        "en": "A stream curved past two stones beneath the tree. Jing Xing gently set down her brush.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "The girl's small ink-wash landscape is now complete with low hills, one tree, a winding stream and two stones; brush laid down."
+      },
+      {
+        "page": 17,
+        "zh": "“我还想再学一点。”她说。师父笑了：“明天，我们接着来。”",
+        "en": "“I'd like to learn a little more,” she said. Her teacher smiled. “We'll continue tomorrow.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Girl and teacher admire the completed small landscape beside the low table, calm pride and rested hands."
+      },
+      {
+        "page": 18,
+        "zh": "循序渐进，是把要学的事分成合适的小步，按自己的节奏慢慢进步。",
+        "en": "Learning gradually means taking manageable steps and finding a pace that suits you.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Warm closing scene of girl and teacher at the studio table with practice strokes, branch sketch and completed small landscape separately arranged."
+      }
+    ]
+  },
+  {
+    "id": "jing-yi-qiu-jing",
+    "title": "精益求精",
+    "subtitle": "纸鸢又稳了一点",
+    "order": 89,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "古代纸鸢作坊、安笙与祖父为虚构；改进从已经能飞的作品开始，以观察和小幅调整为主，也保留休息和享受成果。",
+    "moral": {
+      "zh": "先欣赏已有的成果，再找到值得改进的一点，试一试更好的办法。",
+      "en": "Appreciate what already works, then choose one useful improvement and try it."
+    },
+    "idiomMeaning": {
+      "zh": "已经做得很好，还希望通过改进做得更好。",
+      "en": "To improve something that already works well."
+    },
+    "everydayExample": {
+      "zh": "她在做好的作品上又改进了一点，真是精益求精。",
+      "en": "She improved her already good work a little further."
+    },
+    "visualAnchor": "Ancient Chinese paper-kite workroom and a broad level open meadow. Fixed prop: one turquoise diamond-shaped paper kite on a thin bamboo cross-frame, a warm-yellow wooden string reel and one cream cloth ribbon tail with three red bow tabs. The kite already exists and flies at the beginning. Adjustments affect only the tail balance and string tie placement. No new kite, sharp tools used by the child, storms, steep hills, roads or overhead wires. Fixed recurring cast: An Sheng, a Chinese boy about 8 with a round face, dark eyes, a neat small topknot, sky-blue cross-collar robe, rust-red sash and brown cloth shoes; his Chinese grandfather about 65 with a short neat gray beard, gray hair in a low topknot, moss-green cross-collar robe, tan cloth apron and dark cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "安笙和祖父做了一只蓝绿色纸鸢，竹骨轻，纸面也平整。",
+        "en": "An Sheng and Grandfather had made a turquoise paper kite with a light bamboo frame and smooth paper.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy and grandfather admire the finished turquoise diamond paper kite at the worktable, cream tail with three red bow tabs attached."
+      },
+      {
+        "page": 2,
+        "zh": "他们来到村外的空地。安笙轻轻放线，纸鸢一下子飞了起来。",
+        "en": "In the open meadow, An Sheng let out the line, and the kite rose into the air.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy holds the warm-yellow wooden reel while the completed turquoise kite rises above the broad level meadow, grandfather beside him."
+      },
+      {
+        "page": 3,
+        "zh": "“飞起来啦！”他仰着头，笑得眼睛都弯了。",
+        "en": "“It's flying!” he cried, looking up with a wide smile.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "An Sheng looks up joyfully at the flying turquoise diamond kite, grandfather smiling nearby; tail retains three red bow tabs."
+      },
+      {
+        "page": 4,
+        "zh": "风轻轻一转，纸鸢往左晃一下，又往右晃一下。",
+        "en": "As the breeze shifted, the kite swayed left and then right.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The same kite tilts gently in the light breeze, child holds reel steadily and grandfather observes from beside him."
+      },
+      {
+        "page": 5,
+        "zh": "安笙看了一会儿：“它已经能飞了，能不能再稳一点呢？”",
+        "en": "An Sheng watched. “It flies already. Could we help it fly a little more steadily?”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy speaks thoughtfully to grandfather while keeping the reel steady, slightly swaying kite visible above open meadow."
+      },
+      {
+        "page": 6,
+        "zh": "祖父没有马上改：“先看看，它往哪边晃，尾带又在哪里。”",
+        "en": "Grandfather did not change it at once. “First watch its movement and where the tail sits.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather and boy observe the kite's cream tail and gentle tilt together, no tools or changes yet."
+      },
+      {
+        "page": 7,
+        "zh": "安笙慢慢收线，把纸鸢带回桌边，仔细看了看尾带。",
+        "en": "An Sheng reeled it in slowly and carried it to the table to examine the tail.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The two examine the returned turquoise kite lying flat on the low worktable, wooden reel beside it."
+      },
+      {
+        "page": 8,
+        "zh": "一只红布结偏到了一边，尾带也有些歪。",
+        "en": "One red bow tab leaned to the side, and the cream tail sat a little crooked.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Close view of one crooked red bow tab on the kite's cream ribbon tail as boy and grandfather look down together."
+      },
+      {
+        "page": 9,
+        "zh": "祖父扶住纸鸢，安笙把布结理平，只调整了这一小处。",
+        "en": "Grandfather steadied the kite, and An Sheng straightened the bow, changing only that small part.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather steadies the same kite while the child gently straightens one red bow tab; frame and paper unchanged."
+      },
+      {
+        "page": 10,
+        "zh": "再到空地上试，纸鸢晃得小了一些，安笙看得更仔细了。",
+        "en": "Back in the meadow, the kite swayed less. An Sheng watched even more carefully.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy tests the same kite above the level meadow with grandfather beside him; tail now straight, gentle remaining tilt."
+      },
+      {
+        "page": 11,
+        "zh": "风稳的时候，它还会稍稍侧身。两个人决定再看一看线结。",
+        "en": "Even in a steady breeze it leaned a little, so they decided to check the line's knot.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The two observe a small consistent lean in the kite during light steady wind, boy holds reel calmly."
+      },
+      {
+        "page": 12,
+        "zh": "回到桌边，祖父指着竹骨交会处：“这里左右差了一点。”",
+        "en": "At the table, Grandfather pointed where the bamboo ribs met. “The tie is slightly off-center.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather indicates the slightly off-center string tie on the turquoise kite's bamboo cross-frame, child looking closely."
+      },
+      {
+        "page": 13,
+        "zh": "安笙请祖父帮忙，把线结挪正，又轻轻拉一拉，看看松不松。",
+        "en": "With Grandfather's help, An Sheng centered the tie and gently checked that it held.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather helps the boy adjust only the string tie toward the bamboo frame center, both hands working gently with no sharp tools."
+      },
+      {
+        "page": 14,
+        "zh": "纸面没有换，竹骨也没有换。他们只改了刚才发现的小地方。",
+        "en": "They kept the same paper and frame, adjusting just the small part they had noticed.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The same intact turquoise kite rests on the table after the tie adjustment, cream tail and three red bow tabs unchanged."
+      },
+      {
+        "page": 15,
+        "zh": "第三次来到空地，安笙慢慢放线。纸鸢稳稳地迎着风。",
+        "en": "On their third visit to the meadow, An Sheng released the line slowly. The kite faced the breeze steadily.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy launches the same turquoise kite smoothly above the open meadow while grandfather watches; no numbers or written labels."
+      },
+      {
+        "page": 16,
+        "zh": "它还是那只纸鸢，却比刚才飞得更从容了。",
+        "en": "It was still the same kite, but now it flew more smoothly.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Wide view of the same turquoise diamond kite flying steadily with straight cream tail, boy and grandfather comfortably below."
+      },
+      {
+        "page": 17,
+        "zh": "祖父说：“先观察，再改一点，再试试看，这就有了进步。”",
+        "en": "“Observe, make a small change, and test it again,” said Grandfather. “That's how we improve.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather speaks warmly to the boy holding the reel as the stable kite flies in clear afternoon light."
+      },
+      {
+        "page": 18,
+        "zh": "安笙记住了线结的位置：“下次做纸鸢，我也要仔细看看这里。”",
+        "en": "An Sheng remembered the tie's position. “Next time I make a kite, I'll check that part too.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "After retrieving the kite, boy examines the centered tie beside grandfather on the level grass, reel laid nearby."
+      },
+      {
+        "page": 19,
+        "zh": "玩了一会儿，两个人收好纸鸢，坐在草边歇脚，聊着今天的发现。",
+        "en": "After enjoying it, they packed the kite and rested beside the meadow, talking about what they had learned.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy and grandfather rest comfortably on a low meadow bench with the intact kite and wooden reel safely beside them."
+      },
+      {
+        "page": 20,
+        "zh": "精益求精，是在已经做好的基础上，找到值得改进的一点，再试一试。",
+        "en": "Improving good work begins with finding one useful change and trying it thoughtfully.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Warm closing view of boy and grandfather admiring their intact turquoise paper kite beside the craft workroom, quiet satisfied smiles."
+      }
+    ]
+  },
+  {
+    "id": "shi-jin-bu-mei",
+    "title": "拾金不昧",
+    "subtitle": "集市边的钱袋",
+    "order": 90,
+    "origin": "依据成语含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "古代集市、阿礼与祖父为虚构；由熟悉的大人协助寻找失主并核对钱袋特征，孩子始终与祖父在一起。",
+    "moral": {
+      "zh": "捡到别人的财物，请可靠的大人协助保管和寻找失主。",
+      "en": "If you find someone’s lost property, ask a trusted adult to help keep it safe and find its owner."
+    },
+    "idiomMeaning": {
+      "zh": "拾到别人遗失的钱财，不据为己有。",
+      "en": "To return lost money or valuables rather than keeping them."
+    },
+    "everydayExample": {
+      "zh": "她把捡到的钱包交给工作人员，真是拾金不昧。",
+      "en": "She handed the wallet she found to a staff member instead of keeping it."
+    },
+    "visualAnchor": "Quiet ancient Chinese market lane with simple timber stalls, folded cloth and a low wooden bench. Fixed lost item: a plum-purple drawstring cloth money bag, tan drawstring and a small cream crescent-shaped patch on the reverse. The hidden patch is not shown until the owner describes it. A few old brass coins remain inside; no public counting of coins. A plain unpainted wooden spinning top is at a toy stall. The boy stays beside grandfather; no unlisted market crowds. Fixed recurring cast: A Li, a Chinese boy about 7 with a round face, dark eyes, a small neat topknot, mustard-yellow cross-collar robe, teal sash and brown cloth shoes; his Chinese grandfather about 65 with a gentle square face, short gray beard, gray hair in a low topknot, sand-colored cross-collar robe, brown sash, dark cloth shoes and a brown cloth shoulder bag; a Chinese woman cloth seller about 40 with a round face, dark eyes, black hair in a low bun, pale-cream cross-collar robe, indigo cloth apron and brown cloth shoes.",
+    "ageLabel": "4-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "生活智慧",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "阿礼跟祖父来到集市，路旁摆着布料、陶碗，还有小小的木陀螺。",
+        "en": "A Li and Grandfather went to the market, past cloth, clay bowls and little wooden spinning tops.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy and grandfather walk through a quiet ancient market lane with timber stalls displaying folded cloth, clay bowls and plain wooden tops."
+      },
+      {
+        "page": 2,
+        "zh": "阿礼在木陀螺旁多看了两眼，才跟着祖父继续走。",
+        "en": "A Li lingered to look at a spinning top, then continued beside Grandfather.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy looks thoughtfully at one plain wooden spinning top while grandfather waits close beside him, no other market people."
+      },
+      {
+        "page": 3,
+        "zh": "走到小凳子旁，他发现地上躺着一个紫色钱袋。",
+        "en": "Beside a low bench, he spotted a purple money bag on the ground.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy notices the plum-purple drawstring bag beside a low market bench, grandfather nearby; cream reverse patch completely hidden."
+      },
+      {
+        "page": 4,
+        "zh": "钱袋鼓鼓的，细绳系得紧紧的。阿礼把它拾了起来。",
+        "en": "The bag was full, with its cord tied shut. A Li picked it up.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy gently picks up the closed purple bag while grandfather stands beside him; only plain front of bag visible, no coins or patch."
+      },
+      {
+        "page": 5,
+        "zh": "他又想起刚才的木陀螺，心里冒出一个小小的念头。",
+        "en": "He remembered the spinning top, and a small tempting thought crossed his mind.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy pauses with the closed bag and glances toward the distant wooden top stall, grandfather still beside him; no imagined inset."
+      },
+      {
+        "page": 6,
+        "zh": "可是，这个钱袋是谁掉的呢？丢东西的人，一定正着急。",
+        "en": "But who had lost this bag? Its owner might be worried and searching for it.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy looks thoughtfully at the closed bag and then up toward grandfather, hidden patch facing away."
+      },
+      {
+        "page": 7,
+        "zh": "阿礼把钱袋递给祖父：“不是咱们的，得找找是谁丢的。”",
+        "en": "A Li handed the bag to Grandfather. “It isn't ours. We should find its owner.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy hands the still-closed purple bag to grandfather beside the low bench, patch hidden and no coins shown."
+      },
+      {
+        "page": 8,
+        "zh": "祖父点点头，和阿礼留在原处，又看看附近有没有人在寻找。",
+        "en": "Grandfather nodded. They stayed nearby and watched for someone searching.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather and boy wait together beside the same market bench, bag safely in grandfather's hands, no patch or extra people visible."
+      },
+      {
+        "page": 9,
+        "zh": "不一会儿，一位卖布的大娘沿着路走来，低头看着地面。",
+        "en": "Soon a woman who sold cloth came along, searching the ground as she walked.",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "The woman cloth seller approaches looking down at the market lane; grandfather holds bag out of her immediate view, boy beside him."
+      },
+      {
+        "page": 10,
+        "zh": "“我的钱袋掉了，就在这附近。”大娘的声音有些着急。",
+        "en": "“I've lost my money bag somewhere near here,” she said, sounding worried.",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Woman explains her loss to grandfather and boy beside the bench, her worried expression gentle; hidden patch remains unseen."
+      },
+      {
+        "page": 11,
+        "zh": "祖父问：“你的袋子是什么样？有没有特别的地方？”",
+        "en": "Grandfather asked, “What does your bag look like? Does it have a special mark?”",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Grandfather asks a calm question while keeping the bag's reverse out of view, woman answers and boy listens."
+      },
+      {
+        "page": 12,
+        "zh": "“紫色的，背面补着一小块月牙形的浅布。”大娘比画着说。",
+        "en": "“It's purple, with a little pale crescent-shaped patch on the back,” she explained.",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Woman describes a crescent shape with her hands while grandfather listens; the bag's patch is still not revealed."
+      },
+      {
+        "page": 13,
+        "zh": "祖父转过钱袋，果然有一块小月牙。大娘一下子认了出来。",
+        "en": "Grandfather turned the bag over. There was the little crescent patch, and the woman recognized it.",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Grandfather turns the purple bag to reveal the cream crescent patch for the first time, woman relieved and child attentive."
+      },
+      {
+        "page": 14,
+        "zh": "核对清楚后，祖父把钱袋交还给大娘，阿礼也松了一口气。",
+        "en": "After checking it carefully, Grandfather returned the bag, and A Li felt relieved too.",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Grandfather returns the closed plum-purple bag with visible crescent patch to the relieved cloth seller, child standing close beside him."
+      },
+      {
+        "page": 15,
+        "zh": "“谢谢你们，我找了好一会儿呢！”大娘把钱袋收好，连连道谢。",
+        "en": "“Thank you! I've been searching for a while,” she said, putting the bag safely away.",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Woman holds her recovered bag securely and thanks grandfather and boy beside the quiet timber market stall."
+      },
+      {
+        "page": 16,
+        "zh": "阿礼笑了：“原来，把东西还回去，心里也会暖暖的。”",
+        "en": "A Li smiled. “Giving it back feels warm inside too.”",
+        "castCodes": [
+          "C",
+          "G",
+          "W"
+        ],
+        "prompt": "Boy smiles warmly toward the cloth seller while grandfather rests a gentle hand near his shoulder, bag safely with its owner."
+      },
+      {
+        "page": 17,
+        "zh": "祖父牵着他往前走。木陀螺还在铺子里，丢钱的人却不再着急了。",
+        "en": "Grandfather walked on with him. The top stayed in the shop, but the bag's owner was no longer worried.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Boy and grandfather walk together down the spacious market lane, wooden top still on its stall, woman now out of scene."
+      },
+      {
+        "page": 18,
+        "zh": "拾金不昧，是拾到别人遗失的钱财，妥善保管，再设法归还。",
+        "en": "Returning lost property means keeping it safe and helping it reach its owner.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Quiet closing view of boy and grandfather walking hand in hand through the ancient market, relaxed satisfied expressions, no money bag."
+      }
+    ]
+  }
+]

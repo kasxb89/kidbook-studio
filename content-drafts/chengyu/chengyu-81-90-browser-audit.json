@@ -1,0 +1,1500 @@
+{
+  "checkedAt": "2026-10-10T12:55:45.982Z",
+  "browser": "Tabbit",
+  "books": [
+    {
+      "bookId": "liu-an-hua-ming",
+      "playing": {
+        "src": "/library/chengyu/liu-an-hua-ming/zh-e215105a6b7d5afa.mp3",
+        "currentTime": 0.316184,
+        "duration": 104.58,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.346986,
+        "paused": true
+      },
+      "seekPage": 9,
+      "seek": {
+        "currentTime": 44.24491,
+        "paused": false
+      },
+      "expectedSeek": 44.232,
+      "end": {
+        "src": "/library/chengyu/liu-an-hua-ming/zh-e215105a6b7d5afa.mp3",
+        "currentTime": 104.58,
+        "duration": 104.58,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/7-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/liu-an-hua-ming/18.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "fu-jing-qing-zui",
+      "playing": {
+        "src": "/library/chengyu/fu-jing-qing-zui/zh-46ca7ff19bacbd1a.mp3",
+        "currentTime": 0.309597,
+        "duration": 111.06,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.342584,
+        "paused": true
+      },
+      "seekPage": 10,
+      "seek": {
+        "currentTime": 49.376,
+        "paused": false
+      },
+      "expectedSeek": 49.356,
+      "end": {
+        "src": "/library/chengyu/fu-jing-qing-zui/zh-46ca7ff19bacbd1a.mp3",
+        "currentTime": 111.06,
+        "duration": 111.06,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/20.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/19.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/fu-jing-qing-zui/20.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "san-si-er-xing",
+      "playing": {
+        "src": "/library/chengyu/san-si-er-xing/zh-103e1f0b3bfcba6c.mp3",
+        "currentTime": 0.306205,
+        "duration": 106.98,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.340371,
+        "paused": true
+      },
+      "seekPage": 10,
+      "seek": {
+        "currentTime": 45.924,
+        "paused": false
+      },
+      "expectedSeek": 45.924,
+      "end": {
+        "src": "/library/chengyu/san-si-er-xing/zh-103e1f0b3bfcba6c.mp3",
+        "currentTime": 106.98,
+        "duration": 106.98,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/san-si-er-xing/20-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/16-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/19.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/san-si-er-xing/20-v2.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "qi-xin-xie-li",
+      "playing": {
+        "src": "/library/chengyu/qi-xin-xie-li/zh-ac114f2542104985.mp3",
+        "currentTime": 0.307318,
+        "duration": 113.556,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.341318,
+        "paused": true
+      },
+      "seekPage": 10,
+      "seek": {
+        "currentTime": 49.951128,
+        "paused": false
+      },
+      "expectedSeek": 49.932,
+      "end": {
+        "src": "/library/chengyu/qi-xin-xie-li/zh-ac114f2542104985.mp3",
+        "currentTime": 113.556,
+        "duration": 113.556,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/20.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/19.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/qi-xin-xie-li/20.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "yin-di-zhi-yi",
+      "playing": {
+        "src": "/library/chengyu/yin-di-zhi-yi/zh-be82aa59f7b5738a.mp3",
+        "currentTime": 0.309271,
+        "duration": 98.22,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.342128,
+        "paused": true
+      },
+      "seekPage": 9,
+      "seek": {
+        "currentTime": 45.763122,
+        "paused": false
+      },
+      "expectedSeek": 45.744,
+      "end": {
+        "src": "/library/chengyu/yin-di-zhi-yi/zh-be82aa59f7b5738a.mp3",
+        "currentTime": 98.22,
+        "duration": 98.22,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/18-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/17-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/yin-di-zhi-yi/18-v2.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "ju-yi-fan-san",
+      "playing": {
+        "src": "/library/chengyu/ju-yi-fan-san/zh-3d761207f5ded763.mp3",
+        "currentTime": 0.312969,
+        "duration": 99.492,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.344426,
+        "paused": true
+      },
+      "seekPage": 9,
+      "seek": {
+        "currentTime": 42.759159,
+        "paused": false
+      },
+      "expectedSeek": 42.744,
+      "end": {
+        "src": "/library/chengyu/ju-yi-fan-san/zh-3d761207f5ded763.mp3",
+        "currentTime": 99.492,
+        "duration": 99.492,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/18-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/3-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/4-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/5-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/6-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/7-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/8-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/9-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/10-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/11-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/12-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/13-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/ju-yi-fan-san/18-v2.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "you-bei-wu-huan",
+      "playing": {
+        "src": "/library/chengyu/you-bei-wu-huan/zh-4e50e2807c402ee7.mp3",
+        "currentTime": 0.305772,
+        "duration": 95.844,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.34161,
+        "paused": true
+      },
+      "seekPage": 9,
+      "seek": {
+        "currentTime": 39.88135,
+        "paused": false
+      },
+      "expectedSeek": 39.864,
+      "end": {
+        "src": "/library/chengyu/you-bei-wu-huan/zh-4e50e2807c402ee7.mp3",
+        "currentTime": 95.844,
+        "duration": 95.844,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/9-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/11-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/14-v3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/15-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/you-bei-wu-huan/18.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "xun-xu-jian-jin",
+      "playing": {
+        "src": "/library/chengyu/xun-xu-jian-jin/zh-1c08aaef141e8bd6.mp3",
+        "currentTime": 0.309524,
+        "duration": 103.692,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.342891,
+        "paused": true
+      },
+      "seekPage": 9,
+      "seek": {
+        "currentTime": 45.834932,
+        "paused": false
+      },
+      "expectedSeek": 45.816,
+      "end": {
+        "src": "/library/chengyu/xun-xu-jian-jin/zh-1c08aaef141e8bd6.mp3",
+        "currentTime": 103.692,
+        "duration": 103.692,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/3-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/4-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/14-v2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/xun-xu-jian-jin/18.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "jing-yi-qiu-jing",
+      "playing": {
+        "src": "/library/chengyu/jing-yi-qiu-jing/zh-5545e5cbaf7c5d1e.mp3",
+        "currentTime": 0.309585,
+        "duration": 107.892,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.34114,
+        "paused": true
+      },
+      "seekPage": 10,
+      "seek": {
+        "currentTime": 46.756916,
+        "paused": false
+      },
+      "expectedSeek": 46.74,
+      "end": {
+        "src": "/library/chengyu/jing-yi-qiu-jing/zh-5545e5cbaf7c5d1e.mp3",
+        "currentTime": 107.892,
+        "duration": 107.892,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/20.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/19.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/jing-yi-qiu-jing/20.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    },
+    {
+      "bookId": "shi-jin-bu-mei",
+      "playing": {
+        "src": "/library/chengyu/shi-jin-bu-mei/zh-9830bebf57e3c764.mp3",
+        "currentTime": 0.322975,
+        "duration": 97.068,
+        "paused": false,
+        "error": null
+      },
+      "pause": {
+        "currentTime": 0.352945,
+        "paused": true
+      },
+      "seekPage": 9,
+      "seek": {
+        "currentTime": 41.73164,
+        "paused": false
+      },
+      "expectedSeek": 41.712,
+      "end": {
+        "src": "/library/chengyu/shi-jin-bu-mei/zh-9830bebf57e3c764.mp3",
+        "currentTime": 97.068,
+        "duration": 97.068,
+        "ended": true,
+        "paused": true,
+        "readyState": 4,
+        "error": null
+      },
+      "mobile": {
+        "overflow": false,
+        "width": 390,
+        "documentWidth": 390
+      },
+      "images": [
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/18.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/1.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/2.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/3.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/4.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/5.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/6.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/7.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/8.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/9.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/10.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/11.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/12.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/13.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/14.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/15.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/16.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/17.webp",
+          "complete": true,
+          "width": 1024
+        },
+        {
+          "src": "/library/chengyu/shi-jin-bu-mei/18.webp",
+          "complete": true,
+          "width": 1024
+        }
+      ],
+      "range": {
+        "status": 206,
+        "type": "audio/mpeg",
+        "length": 1024
+      }
+    }
+  ],
+  "mediaResponses": [
+    {
+      "url": "/library/chengyu/liu-an-hua-ming/zh-e215105a6b7d5afa.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/fu-jing-qing-zui/zh-46ca7ff19bacbd1a.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/san-si-er-xing/zh-103e1f0b3bfcba6c.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/qi-xin-xie-li/zh-ac114f2542104985.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/yin-di-zhi-yi/zh-be82aa59f7b5738a.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/ju-yi-fan-san/zh-3d761207f5ded763.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/you-bei-wu-huan/zh-4e50e2807c402ee7.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/xun-xu-jian-jin/zh-1c08aaef141e8bd6.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/jing-yi-qiu-jing/zh-5545e5cbaf7c5d1e.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "url": "/library/chengyu/shi-jin-bu-mei/zh-9830bebf57e3c764.mp3",
+      "status": 206,
+      "type": "audio/mpeg"
+    }
+  ],
+  "cloudNarrationRequests": 0,
+  "browserErrors": [],
+  "representativeNaturalFullPlayback": {
+    "paused": {
+      "paused": true,
+      "currentTime": 6.112469
+    },
+    "mediaResponses": [
+      {
+        "url": "/library/chengyu/liu-an-hua-ming/zh-e215105a6b7d5afa.mp3",
+        "status": 206,
+        "type": "audio/mpeg"
+      }
+    ],
+    "browserErrors": [],
+    "bookId": "liu-an-hua-ming",
+    "cloudNarrationRequests": 0,
+    "naturalFullPlayback": true,
+    "pagesAutomaticallyAdvanced": 18,
+    "checkedAt": "2026-10-10T13:00:38.976Z",
+    "autoAdvancedToSecondPage": true,
+    "continuedFromPause": true,
+    "end": {
+      "paused": true,
+      "loop": false,
+      "currentTime": 104.58,
+      "src": "/library/chengyu/liu-an-hua-ming/zh-e215105a6b7d5afa.mp3",
+      "muted": true,
+      "duration": 104.58,
+      "ended": true,
+      "readyState": 4,
+      "error": null,
+      "playbackRate": 1
+    },
+    "desktop": {
+      "viewport": 1280,
+      "document": 1280,
+      "overflow": false
+    }
+  },
+  "mobilePreview": "chengyu-81-90-mobile-preview.png",
+  "updatedAt": "2026-10-10T13:06:24.674698+00:00"
+}

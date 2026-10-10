@@ -1,0 +1,90 @@
+{
+  "batch": "chengyu-81-90",
+  "reviewer": "Codex visual review",
+  "humanReviewed": false,
+  "books": [
+    {
+      "bookId": "liu-an-hua-ming",
+      "pages": 18,
+      "accepted": true,
+      "contactSheet": "contact-sheets/liu-an-hua-ming.jpg",
+      "reviewSource": "prior accepted generation records from this task",
+      "notes": "保留本任务前序已完成的逐页视觉检查。选定的修图包括柳暗花明第7页、三思而行第16与20页；无需重复生成。"
+    },
+    {
+      "bookId": "fu-jing-qing-zui",
+      "pages": 20,
+      "accepted": true,
+      "contactSheet": "contact-sheets/fu-jing-qing-zui.jpg",
+      "reviewSource": "prior accepted generation records from this task",
+      "notes": "保留本任务前序已完成的逐页视觉检查。选定的修图包括柳暗花明第7页、三思而行第16与20页；无需重复生成。"
+    },
+    {
+      "bookId": "san-si-er-xing",
+      "pages": 20,
+      "accepted": true,
+      "contactSheet": "contact-sheets/san-si-er-xing.jpg",
+      "reviewSource": "prior accepted generation records from this task",
+      "notes": "保留本任务前序已完成的逐页视觉检查。选定的修图包括柳暗花明第7页、三思而行第16与20页；无需重复生成。"
+    },
+    {
+      "bookId": "qi-xin-xie-li",
+      "pages": 20,
+      "accepted": true,
+      "contactSheet": "contact-sheets/qi-xin-xie-li.jpg",
+      "reviewSource": "prior accepted generation records from this task",
+      "notes": "保留本任务前序已完成的逐页视觉检查。选定的修图包括柳暗花明第7页、三思而行第16与20页；无需重复生成。"
+    },
+    {
+      "bookId": "yin-di-zhi-yi",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-10T08:30:47.222386+00:00",
+      "contactSheet": "contact-sheets/yin-di-zhi-yi.jpg",
+      "notes": "已逐页查看18张完整院落场景并检查整本缩略图；观察、种苗、浇水和生长时间线一致，16页起开花。17、18页已替换为v2，修正蔬菜误画为菊花、薄荷和玉簪。人物身份与古代服饰一致；此为AI视觉检查，尚未真人编辑审核。"
+    },
+    {
+      "bookId": "ju-yi-fan-san",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-10T11:27:36.114938+00:00",
+      "contactSheet": "contact-sheets/ju-yi-fan-san.jpg",
+      "notes": "逐页检查18张完整古代家居场景。两本书数量、细绳和布包未系到系好的顺序已修正，篮子布带与粗席子体现方法迁移及条件变化；17页补齐。选定12处v2修图，其余保留初版。AI视觉检查，尚未真人编辑审核。"
+    },
+    {
+      "bookId": "you-bei-wu-huan",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-10T12:37:18.309589+00:00",
+      "contactSheet": "contact-sheets/you-bei-wu-huan.jpg",
+      "notes": "逐页检查18张完整古代庭院、村路、路亭和祖母家场景，人物与服饰连贯。准备、检查伞面、装水和饼、休息与应对小雨的时间顺序一致。9、11、14、15页补好与前后页一致的红布包袱，14页选择v3去除多余手部；其余保留原图。AI视觉检查，尚未真人编辑或实体设备审核。"
+    },
+    {
+      "bookId": "xun-xu-jian-jin",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-10T12:03:43.602155+00:00",
+      "contactSheet": "contact-sheets/xun-xu-jian-jin.jpg",
+      "notes": "18页完整古代画室及院落实景。3、4页改为拥挤的初次墨画，14页改为初步布局，与笔画、树枝、石头练习及留白的渐进过程一致。人物与服饰一致；AI视觉审核，真人共读审核尚未进行。"
+    },
+    {
+      "bookId": "jing-yi-qiu-jing",
+      "pages": 20,
+      "accepted": true,
+      "checkedAt": "2026-10-10T12:04:27.643802+00:00",
+      "contactSheet": "contact-sheets/jing-yi-qiu-jing.jpg",
+      "notes": "逐页检查20张完整古代作坊与村外空地场景；蓝绿色菱形纸鸢、三只红布结和黄色木线轮保持一致，观察尾带、微调布结、调整线结与重复试飞过程符合正文。无文字标记或现代工具，人物一致。AI视觉检查，尚未真人编辑审核。"
+    },
+    {
+      "bookId": "shi-jin-bu-mei",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-10T12:28:39.767247+00:00",
+      "contactSheet": "contact-sheets/shi-jin-bu-mei.jpg",
+      "notes": "逐页查看18张完整古代集市场景，放大核对11、12、13页钱袋：正面在13页前为纯紫色，浅色绳结不是月牙标记，13页才首次露出月牙补丁；归还后钱袋由失主保管，17、18页完全不出现。人物身份、服饰和市场背景连贯；AI视觉检查，尚未真人编辑审核。"
+    }
+  ],
+  "updatedAt": "2026-10-10T12:37:18.309589+00:00",
+  "reviewedPages": 188,
+  "acceptedBooks": 10
+}

@@ -1,0 +1,39 @@
+{
+  "scope": "chengyu-81-90 local production",
+  "books": 10,
+  "bodyImages": 188,
+  "covers": 10,
+  "chineseAudioBooks": 10,
+  "audioSeconds": 1038.384,
+  "tests": {
+    "command": "npx vitest run tests/chengyu-second-batch.test.ts tests/chengyu-common-idioms.test.ts tests/chengyu-proverbs.test.ts tests/library-book-audio.test.ts tests/library-discovery.test.ts tests/home-library-featured.test.ts",
+    "files": 6,
+    "passed": 21,
+    "failed": 0
+  },
+  "typeScriptNoEmit": true,
+  "diffWhitespaceCheck": true,
+  "productionBuildRun": false,
+  "committed": true,
+  "uploaded": false,
+  "deployed": false,
+  "humanEditorialReview": false,
+  "physicalDeviceAcceptance": false,
+  "assetReport": "chengyu-81-90-assets-report.json",
+  "coverAudit": "chengyu-81-90-cover-audit.json",
+  "audioAudit": "chengyu-81-90-audio-audit.json",
+  "browserAudit": "chengyu-81-90-browser-audit.json",
+  "browserVerifiedBooks": 10,
+  "normalMp3EndingVerifiedBooks": 10,
+  "mobileViewport": {
+    "width": 390,
+    "height": 844,
+    "horizontalOverflow": false
+  },
+  "naturalFullPlaybackVerified": true,
+  "temporaryNarrationRequests": 0,
+  "mobilePreview": "chengyu-81-90-mobile-preview.png",
+  "updatedAt": "2026-10-10T13:06:24.674243+00:00",
+  "commitMode": "local Git commit",
+  "committedAt": "2026-10-10T13:59:27.333276+00:00"
+}

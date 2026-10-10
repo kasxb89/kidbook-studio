@@ -1,0 +1,85 @@
+{
+  "books": 10,
+  "covers": [
+    {
+      "bookId": "liu-an-hua-ming",
+      "bytes": 248898,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "fu-jing-qing-zui",
+      "bytes": 138946,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "san-si-er-xing",
+      "bytes": 156392,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "qi-xin-xie-li",
+      "bytes": 174980,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "yin-di-zhi-yi",
+      "bytes": 205022,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "ju-yi-fan-san",
+      "bytes": 142746,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "you-bei-wu-huan",
+      "bytes": 217288,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "xun-xu-jian-jin",
+      "bytes": 149380,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "jing-yi-qiu-jing",
+      "bytes": 142374,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    },
+    {
+      "bookId": "shi-jin-bu-mei",
+      "bytes": 166088,
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "verified": true
+    }
+  ]
+}

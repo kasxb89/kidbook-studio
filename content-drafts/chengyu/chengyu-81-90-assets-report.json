@@ -1,0 +1,112 @@
+[
+  {
+    "id": "liu-an-hua-ming",
+    "title": "柳暗花明",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 4583562,
+    "audioBytes": 837357,
+    "audioSeconds": 104.58,
+    "audioVerified": true
+  },
+  {
+    "id": "fu-jing-qing-zui",
+    "title": "负荆请罪",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 2925434,
+    "audioBytes": 889197,
+    "audioSeconds": 111.06,
+    "audioVerified": true
+  },
+  {
+    "id": "san-si-er-xing",
+    "title": "三思而行",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3604562,
+    "audioBytes": 856557,
+    "audioSeconds": 106.98,
+    "audioVerified": true
+  },
+  {
+    "id": "qi-xin-xie-li",
+    "title": "齐心协力",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3403616,
+    "audioBytes": 909165,
+    "audioSeconds": 113.556,
+    "audioVerified": true
+  },
+  {
+    "id": "yin-di-zhi-yi",
+    "title": "因地制宜",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3634636,
+    "audioBytes": 786477,
+    "audioSeconds": 98.22,
+    "audioVerified": true
+  },
+  {
+    "id": "ju-yi-fan-san",
+    "title": "举一反三",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2572262,
+    "audioBytes": 796653,
+    "audioSeconds": 99.492,
+    "audioVerified": true
+  },
+  {
+    "id": "you-bei-wu-huan",
+    "title": "有备无患",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2987030,
+    "audioBytes": 767469,
+    "audioSeconds": 95.844,
+    "audioVerified": true
+  },
+  {
+    "id": "xun-xu-jian-jin",
+    "title": "循序渐进",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2643414,
+    "audioBytes": 830253,
+    "audioSeconds": 103.692,
+    "audioVerified": true
+  },
+  {
+    "id": "jing-yi-qiu-jing",
+    "title": "精益求精",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3431232,
+    "audioBytes": 863853,
+    "audioSeconds": 107.892,
+    "audioVerified": true
+  },
+  {
+    "id": "shi-jin-bu-mei",
+    "title": "拾金不昧",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3193232,
+    "audioBytes": 777261,
+    "audioSeconds": 97.068,
+    "audioVerified": true
+  }
+]

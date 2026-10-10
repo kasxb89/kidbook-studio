@@ -1,0 +1,1439 @@
+{
+  "batch": "chengyu-81-90",
+  "provider": "qwen-audio-3.0-tts-plus",
+  "voice": "longanlingxin",
+  "books": 10,
+  "pages": 188,
+  "seconds": 1038.384,
+  "humanReviewed": false,
+  "browserVerified": true,
+  "checks": [
+    {
+      "id": "liu-an-hua-ming",
+      "contentHash": "e215105a6b7d5afa2edfa822f7ede879f431d9dcf9b0cd5d6d6ed07111246cd8",
+      "declaredSeconds": 104.58,
+      "decodedSeconds": 104.58,
+      "bytes": 837357,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 5.964,
+          "peak": 12508,
+          "rms": 2310.407,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 5.076,
+          "peak": 12830,
+          "rms": 2334.726,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 5.724,
+          "peak": 11056,
+          "rms": 2437.096,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 6.036,
+          "peak": 10834,
+          "rms": 2223.282,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 5.964,
+          "peak": 9649,
+          "rms": 2169.999,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.316,
+          "peak": 14677,
+          "rms": 2353.566,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 5.316,
+          "peak": 11773,
+          "rms": 2268.645,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 4.836,
+          "peak": 12126,
+          "rms": 2049.254,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.484,
+          "peak": 12753,
+          "rms": 2081.893,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.628,
+          "peak": 13097,
+          "rms": 2286.377,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.724,
+          "peak": 15704,
+          "rms": 2128.811,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.148,
+          "peak": 12792,
+          "rms": 2241.313,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 6.588,
+          "peak": 11037,
+          "rms": 2254.938,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 6.108,
+          "peak": 11530,
+          "rms": 2292.465,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.868,
+          "peak": 15409,
+          "rms": 2537.791,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 6.348,
+          "peak": 12015,
+          "rms": 2245.056,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 8.124,
+          "peak": 13441,
+          "rms": 2332.822,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.328,
+          "peak": 14323,
+          "rms": 2190.359,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "fu-jing-qing-zui",
+      "contentHash": "46ca7ff19bacbd1adddd831594e104de717958ab7c73239bc99da3be8aa6ae84",
+      "declaredSeconds": 111.06,
+      "decodedSeconds": 111.06,
+      "bytes": 889197,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 6.444,
+          "peak": 10745,
+          "rms": 2377.835,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 6.348,
+          "peak": 11774,
+          "rms": 2359.333,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 5.076,
+          "peak": 12312,
+          "rms": 2286.858,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 5.556,
+          "peak": 17069,
+          "rms": 2427.126,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 4.908,
+          "peak": 12229,
+          "rms": 2255.064,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.148,
+          "peak": 12590,
+          "rms": 2316.688,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 6.516,
+          "peak": 11181,
+          "rms": 2232.749,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 4.356,
+          "peak": 11398,
+          "rms": 2191.773,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.004,
+          "peak": 10795,
+          "rms": 2443.278,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 4.836,
+          "peak": 10831,
+          "rms": 2210.153,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.796,
+          "peak": 12909,
+          "rms": 2124.5,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.244,
+          "peak": 12464,
+          "rms": 2330.932,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.004,
+          "peak": 11051,
+          "rms": 2071.113,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.628,
+          "peak": 11328,
+          "rms": 2383.638,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 6.036,
+          "peak": 14847,
+          "rms": 2415.723,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 6.276,
+          "peak": 13012,
+          "rms": 2200.309,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 6.276,
+          "peak": 10982,
+          "rms": 2082.09,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 6.588,
+          "peak": 15042,
+          "rms": 2398.142,
+          "nonSilent": true
+        },
+        {
+          "page": 19,
+          "seconds": 5.004,
+          "peak": 10155,
+          "rms": 1992.1,
+          "nonSilent": true
+        },
+        {
+          "page": 20,
+          "seconds": 5.016,
+          "peak": 12528,
+          "rms": 2306.835,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "san-si-er-xing",
+      "contentHash": "103e1f0b3bfcba6caff6e4adf0b39296ce486f2a44813c697c25c243b1c3b93d",
+      "declaredSeconds": 106.98,
+      "decodedSeconds": 106.98,
+      "bytes": 856557,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 5.388,
+          "peak": 10219,
+          "rms": 2064.875,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 5.076,
+          "peak": 19795,
+          "rms": 2225.829,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 5.148,
+          "peak": 13552,
+          "rms": 2152.639,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 4.836,
+          "peak": 11677,
+          "rms": 2230.09,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 5.964,
+          "peak": 15536,
+          "rms": 2028.591,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.244,
+          "peak": 11698,
+          "rms": 2086.71,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 4.908,
+          "peak": 10576,
+          "rms": 2300.194,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 4.764,
+          "peak": 20426,
+          "rms": 2242.933,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 4.596,
+          "peak": 11889,
+          "rms": 2196.975,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.316,
+          "peak": 10137,
+          "rms": 2012.42,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.148,
+          "peak": 13070,
+          "rms": 2088.466,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.556,
+          "peak": 11752,
+          "rms": 2094.506,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.964,
+          "peak": 14701,
+          "rms": 2165.733,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.868,
+          "peak": 14049,
+          "rms": 1981.231,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.004,
+          "peak": 13220,
+          "rms": 2099.13,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 5.556,
+          "peak": 11917,
+          "rms": 2166.879,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 5.244,
+          "peak": 17750,
+          "rms": 2392.551,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.796,
+          "peak": 12122,
+          "rms": 2242.653,
+          "nonSilent": true
+        },
+        {
+          "page": 19,
+          "seconds": 5.868,
+          "peak": 18704,
+          "rms": 2251.885,
+          "nonSilent": true
+        },
+        {
+          "page": 20,
+          "seconds": 5.736,
+          "peak": 11383,
+          "rms": 2059.724,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "qi-xin-xie-li",
+      "contentHash": "ac114f25421049854acc5a71fc8434ba8365971da7d75002e5394aa1ce4ea455",
+      "declaredSeconds": 113.556,
+      "decodedSeconds": 113.556,
+      "bytes": 909165,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 5.244,
+          "peak": 13823,
+          "rms": 2077.45,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 5.484,
+          "peak": 12598,
+          "rms": 2212.509,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 6.036,
+          "peak": 17532,
+          "rms": 2206.078,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 6.684,
+          "peak": 13372,
+          "rms": 2075.067,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 5.388,
+          "peak": 10868,
+          "rms": 2090.004,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.148,
+          "peak": 9627,
+          "rms": 1920.623,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 5.076,
+          "peak": 15194,
+          "rms": 1938.321,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 5.316,
+          "peak": 14942,
+          "rms": 2217.0,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.556,
+          "peak": 12961,
+          "rms": 2224.659,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.868,
+          "peak": 12831,
+          "rms": 2128.982,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.004,
+          "peak": 18540,
+          "rms": 2158.493,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.964,
+          "peak": 15488,
+          "rms": 1958.935,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 6.108,
+          "peak": 12447,
+          "rms": 2155.601,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 6.108,
+          "peak": 22651,
+          "rms": 2169.5,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.316,
+          "peak": 11228,
+          "rms": 1885.662,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 6.204,
+          "peak": 16018,
+          "rms": 2049.139,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 5.868,
+          "peak": 12056,
+          "rms": 2082.029,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.484,
+          "peak": 11716,
+          "rms": 1976.336,
+          "nonSilent": true
+        },
+        {
+          "page": 19,
+          "seconds": 6.516,
+          "peak": 11405,
+          "rms": 2061.192,
+          "nonSilent": true
+        },
+        {
+          "page": 20,
+          "seconds": 5.184,
+          "peak": 11437,
+          "rms": 2063.519,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "yin-di-zhi-yi",
+      "contentHash": "be82aa59f7b5738a8695e54fb5169ac4f0bd1cefcc3f2844cde4b0eb2b5a4652",
+      "declaredSeconds": 98.22,
+      "decodedSeconds": 98.22,
+      "bytes": 786477,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 5.244,
+          "peak": 18671,
+          "rms": 2128.103,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 5.724,
+          "peak": 11512,
+          "rms": 1841.127,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 5.556,
+          "peak": 11662,
+          "rms": 2052.045,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 5.964,
+          "peak": 12081,
+          "rms": 2236.165,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 5.148,
+          "peak": 15172,
+          "rms": 2409.606,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.484,
+          "peak": 10841,
+          "rms": 2128.415,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 6.828,
+          "peak": 20802,
+          "rms": 2298.946,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 5.796,
+          "peak": 13530,
+          "rms": 2181.018,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.076,
+          "peak": 14698,
+          "rms": 2166.974,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 4.764,
+          "peak": 19949,
+          "rms": 2312.846,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 4.908,
+          "peak": 13677,
+          "rms": 2360.907,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.004,
+          "peak": 11125,
+          "rms": 2159.772,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.244,
+          "peak": 13667,
+          "rms": 2326.544,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.796,
+          "peak": 12832,
+          "rms": 2133.272,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.628,
+          "peak": 11452,
+          "rms": 2306.133,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 6.276,
+          "peak": 13421,
+          "rms": 2160.269,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 4.836,
+          "peak": 18160,
+          "rms": 2102.172,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 4.944,
+          "peak": 13063,
+          "rms": 2073.753,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "ju-yi-fan-san",
+      "contentHash": "3d761207f5ded763de9d66b5f1d1225ed5215b67075a75fa42d9289faa6ddfe8",
+      "declaredSeconds": 99.492,
+      "decodedSeconds": 99.492,
+      "bytes": 796653,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 5.868,
+          "peak": 12928,
+          "rms": 2301.201,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 4.764,
+          "peak": 13003,
+          "rms": 2164.788,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 5.316,
+          "peak": 13106,
+          "rms": 2157.047,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 4.596,
+          "peak": 9766,
+          "rms": 2083.854,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 5.628,
+          "peak": 13113,
+          "rms": 2330.15,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.868,
+          "peak": 10802,
+          "rms": 2323.172,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 5.148,
+          "peak": 12917,
+          "rms": 2328.625,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 5.556,
+          "peak": 11609,
+          "rms": 2031.464,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.388,
+          "peak": 17455,
+          "rms": 2472.471,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 4.836,
+          "peak": 15413,
+          "rms": 2267.511,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.388,
+          "peak": 12595,
+          "rms": 2158.219,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.796,
+          "peak": 11825,
+          "rms": 2163.231,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 4.908,
+          "peak": 12926,
+          "rms": 2298.377,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.556,
+          "peak": 14567,
+          "rms": 2098.58,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 6.996,
+          "peak": 13716,
+          "rms": 2168.134,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 5.244,
+          "peak": 12387,
+          "rms": 2136.975,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 7.068,
+          "peak": 12486,
+          "rms": 2149.68,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.568,
+          "peak": 13919,
+          "rms": 2138.448,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "you-bei-wu-huan",
+      "contentHash": "4e50e2807c402ee73747b933626a2e31a15f31a14c8eba244ba683b273bcdec0",
+      "declaredSeconds": 95.844,
+      "decodedSeconds": 95.844,
+      "bytes": 767469,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 4.764,
+          "peak": 11240,
+          "rms": 2223.422,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 4.428,
+          "peak": 13204,
+          "rms": 2398.902,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 5.628,
+          "peak": 10602,
+          "rms": 2380.18,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 5.388,
+          "peak": 15212,
+          "rms": 2314.709,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 4.524,
+          "peak": 13267,
+          "rms": 2178.384,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.628,
+          "peak": 13545,
+          "rms": 1967.03,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 4.428,
+          "peak": 20487,
+          "rms": 2354.741,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 5.076,
+          "peak": 10973,
+          "rms": 2375.946,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.244,
+          "peak": 12560,
+          "rms": 2245.434,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.316,
+          "peak": 12287,
+          "rms": 2290.757,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 6.588,
+          "peak": 12529,
+          "rms": 2288.13,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 4.764,
+          "peak": 12438,
+          "rms": 1911.715,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.796,
+          "peak": 19210,
+          "rms": 2102.548,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.724,
+          "peak": 11395,
+          "rms": 2160.657,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.796,
+          "peak": 12410,
+          "rms": 2035.29,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 5.316,
+          "peak": 19858,
+          "rms": 2271.355,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 5.628,
+          "peak": 11516,
+          "rms": 1990.741,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.808,
+          "peak": 13946,
+          "rms": 2525.029,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "xun-xu-jian-jin",
+      "contentHash": "1c08aaef141e8bd6002b045a9034be216759fed1f49c550fe780b4c559aa623a",
+      "declaredSeconds": 103.692,
+      "decodedSeconds": 103.692,
+      "bytes": 830253,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 5.316,
+          "peak": 10674,
+          "rms": 2039.199,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 6.444,
+          "peak": 12152,
+          "rms": 1955.118,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 6.516,
+          "peak": 9342,
+          "rms": 2083.517,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 5.316,
+          "peak": 11006,
+          "rms": 2080.396,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 5.796,
+          "peak": 11805,
+          "rms": 1967.172,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.628,
+          "peak": 11813,
+          "rms": 2152.159,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 5.964,
+          "peak": 9260,
+          "rms": 1728.837,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 4.836,
+          "peak": 11375,
+          "rms": 2090.995,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.724,
+          "peak": 12388,
+          "rms": 2122.872,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.628,
+          "peak": 12608,
+          "rms": 2102.495,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.388,
+          "peak": 12013,
+          "rms": 2030.086,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.244,
+          "peak": 12958,
+          "rms": 2259.671,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.796,
+          "peak": 13498,
+          "rms": 2225.779,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.868,
+          "peak": 13328,
+          "rms": 2117.404,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.868,
+          "peak": 11999,
+          "rms": 2262.061,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 6.588,
+          "peak": 10833,
+          "rms": 2056.392,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 5.724,
+          "peak": 11327,
+          "rms": 1989.097,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 6.048,
+          "peak": 13324,
+          "rms": 2203.232,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "jing-yi-qiu-jing",
+      "contentHash": "5545e5cbaf7c5d1e3862a53a2c31356c7ff37eb3704a452cf84ed793385f1cd7",
+      "declaredSeconds": 107.892,
+      "decodedSeconds": 107.892,
+      "bytes": 863853,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 6.204,
+          "peak": 19750,
+          "rms": 2010.642,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 5.964,
+          "peak": 12087,
+          "rms": 2130.677,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 4.116,
+          "peak": 13064,
+          "rms": 2019.67,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 5.244,
+          "peak": 15484,
+          "rms": 2212.965,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 4.764,
+          "peak": 14386,
+          "rms": 2294.509,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.316,
+          "peak": 12953,
+          "rms": 2269.694,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 5.628,
+          "peak": 20056,
+          "rms": 2255.437,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 4.116,
+          "peak": 11562,
+          "rms": 2307.178,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.388,
+          "peak": 17261,
+          "rms": 1960.46,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.628,
+          "peak": 14594,
+          "rms": 2124.843,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 5.244,
+          "peak": 11105,
+          "rms": 2193.859,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.556,
+          "peak": 11936,
+          "rms": 2102.453,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.484,
+          "peak": 17952,
+          "rms": 2302.269,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.964,
+          "peak": 10969,
+          "rms": 2298.201,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 6.036,
+          "peak": 13730,
+          "rms": 2483.894,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 4.116,
+          "peak": 13598,
+          "rms": 2204.066,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 5.628,
+          "peak": 12739,
+          "rms": 1893.793,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.556,
+          "peak": 20059,
+          "rms": 2204.691,
+          "nonSilent": true
+        },
+        {
+          "page": 19,
+          "seconds": 5.964,
+          "peak": 15495,
+          "rms": 2262.69,
+          "nonSilent": true
+        },
+        {
+          "page": 20,
+          "seconds": 5.976,
+          "peak": 9984,
+          "rms": 1934.371,
+          "nonSilent": true
+        }
+      ]
+    },
+    {
+      "id": "shi-jin-bu-mei",
+      "contentHash": "9830bebf57e3c764df96d502d0f423fda1f634a874c1a1308c204ddcc1250518",
+      "declaredSeconds": 97.068,
+      "decodedSeconds": 97.068,
+      "bytes": 777261,
+      "pageStartsVerified": true,
+      "completeDecode": true,
+      "pages": [
+        {
+          "page": 1,
+          "seconds": 6.108,
+          "peak": 18626,
+          "rms": 2118.143,
+          "nonSilent": true
+        },
+        {
+          "page": 2,
+          "seconds": 4.764,
+          "peak": 17972,
+          "rms": 2105.676,
+          "nonSilent": true
+        },
+        {
+          "page": 3,
+          "seconds": 4.908,
+          "peak": 12587,
+          "rms": 2088.75,
+          "nonSilent": true
+        },
+        {
+          "page": 4,
+          "seconds": 4.764,
+          "peak": 14660,
+          "rms": 1914.825,
+          "nonSilent": true
+        },
+        {
+          "page": 5,
+          "seconds": 4.524,
+          "peak": 11466,
+          "rms": 2358.43,
+          "nonSilent": true
+        },
+        {
+          "page": 6,
+          "seconds": 5.388,
+          "peak": 13085,
+          "rms": 2358.847,
+          "nonSilent": true
+        },
+        {
+          "page": 7,
+          "seconds": 4.908,
+          "peak": 18267,
+          "rms": 2193.893,
+          "nonSilent": true
+        },
+        {
+          "page": 8,
+          "seconds": 6.348,
+          "peak": 11546,
+          "rms": 2297.784,
+          "nonSilent": true
+        },
+        {
+          "page": 9,
+          "seconds": 5.004,
+          "peak": 14890,
+          "rms": 2398.075,
+          "nonSilent": true
+        },
+        {
+          "page": 10,
+          "seconds": 5.316,
+          "peak": 17853,
+          "rms": 2112.118,
+          "nonSilent": true
+        },
+        {
+          "page": 11,
+          "seconds": 4.764,
+          "peak": 13834,
+          "rms": 2344.332,
+          "nonSilent": true
+        },
+        {
+          "page": 12,
+          "seconds": 5.964,
+          "peak": 15919,
+          "rms": 2265.673,
+          "nonSilent": true
+        },
+        {
+          "page": 13,
+          "seconds": 5.556,
+          "peak": 11496,
+          "rms": 2339.34,
+          "nonSilent": true
+        },
+        {
+          "page": 14,
+          "seconds": 5.484,
+          "peak": 13503,
+          "rms": 2031.006,
+          "nonSilent": true
+        },
+        {
+          "page": 15,
+          "seconds": 5.628,
+          "peak": 12084,
+          "rms": 2270.396,
+          "nonSilent": true
+        },
+        {
+          "page": 16,
+          "seconds": 5.628,
+          "peak": 19048,
+          "rms": 2125.323,
+          "nonSilent": true
+        },
+        {
+          "page": 17,
+          "seconds": 6.348,
+          "peak": 11104,
+          "rms": 2017.74,
+          "nonSilent": true
+        },
+        {
+          "page": 18,
+          "seconds": 5.664,
+          "peak": 12809,
+          "rms": 2170.705,
+          "nonSilent": true
+        }
+      ]
+    }
+  ],
+  "browserAudit": "chengyu-81-90-browser-audit.json"
+}

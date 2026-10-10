@@ -12,6 +12,7 @@ import latestChengyuDrafts from "../../../content-drafts/chengyu/chengyu-31-40.j
 import nextChengyuDrafts from "../../../content-drafts/chengyu/chengyu-41-50.json";
 import proverbDrafts from "../../../content-drafts/chengyu/chengyu-51-60.json";
 import commonIdiomDrafts from "../../../content-drafts/chengyu/chengyu-71-80.json";
+import secondCommonIdiomDrafts from "../../../content-drafts/chengyu/chengyu-81-90.json";
 
 // 首批 50 本均已完成文字、插图验收并正式发布。
 
@@ -290,7 +291,7 @@ function anchoredDraftToBook(draft: AnchoredBookDraft): LibraryBook {
 }
 
 function commonIdiomDraftToBook(
-  draft: (typeof commonIdiomDrafts)[number],
+  draft: (typeof commonIdiomDrafts)[number] | (typeof secondCommonIdiomDrafts)[number],
 ): LibraryBook {
   const ready = draft.draftStatus === "complete-local";
   const book = anchoredDraftToBook({
@@ -404,6 +405,7 @@ export const CHENGYU_BOOKS: LibraryBook[] = [
   ...(nextChengyuDrafts as AnchoredBookDraft[]).map(anchoredDraftToBook),
   ...(proverbDrafts as AnchoredBookDraft[]).filter(draft => !draft.metadata?.tags?.includes("谚语故事")).map(anchoredDraftToBook),
   ...commonIdiomDrafts.map(commonIdiomDraftToBook),
+  ...secondCommonIdiomDrafts.map(commonIdiomDraftToBook),
 ];
 
 export const CHENGYU_SERIES: LibrarySeries = {

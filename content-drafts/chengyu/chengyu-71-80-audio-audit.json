@@ -1,0 +1,1306 @@
+{
+  "batch": "chengyu-71-80",
+  "checkedAt": "2026-10-10",
+  "provider": "qwen-audio-3.0-tts-plus",
+  "voice": "longanlingxin",
+  "language": "zh",
+  "status": "passed",
+  "books": 10,
+  "pages": 192,
+  "seconds": 1187.424,
+  "checks": [
+    "current-text contentHash",
+    "exact local URL",
+    "increasing pageStarts",
+    "complete MP3 decode and duration match",
+    "all page segments contain audio"
+  ],
+  "reports": [
+    {
+      "id": "ban-tu-er-fei",
+      "title": "半途而废",
+      "url": "/library/chengyu/ban-tu-er-fei/zh-8fc1cd2589e8c0c3.mp3",
+      "contentHash": "8fc1cd2589e8c0c3cccb8b90692fe6f7b94f0e5f1c151fd6f03db984970eb8cf",
+      "fileSha256": "733a6cc331397182604a4d147dd685d5d77afd40cbc1e65df006f56facacac28",
+      "bytes": 967725,
+      "pages": 20,
+      "seconds": 120.876,
+      "decodedSeconds": 120.876,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 5.796,
+          "peak": 20658,
+          "rms": 2510.73
+        },
+        {
+          "page": 2,
+          "seconds": 5.004,
+          "peak": 12306,
+          "rms": 2204.98
+        },
+        {
+          "page": 3,
+          "seconds": 5.388,
+          "peak": 10253,
+          "rms": 2053.32
+        },
+        {
+          "page": 4,
+          "seconds": 5.148,
+          "peak": 15872,
+          "rms": 2244.37
+        },
+        {
+          "page": 5,
+          "seconds": 4.836,
+          "peak": 12415,
+          "rms": 1979.42
+        },
+        {
+          "page": 6,
+          "seconds": 5.556,
+          "peak": 13460,
+          "rms": 2221.27
+        },
+        {
+          "page": 7,
+          "seconds": 6.276,
+          "peak": 11775,
+          "rms": 2375.75
+        },
+        {
+          "page": 8,
+          "seconds": 5.484,
+          "peak": 11966,
+          "rms": 1969.64
+        },
+        {
+          "page": 9,
+          "seconds": 5.628,
+          "peak": 13121,
+          "rms": 2183.19
+        },
+        {
+          "page": 10,
+          "seconds": 5.796,
+          "peak": 12620,
+          "rms": 2154.86
+        },
+        {
+          "page": 11,
+          "seconds": 7.236,
+          "peak": 9800,
+          "rms": 2008.95
+        },
+        {
+          "page": 12,
+          "seconds": 5.484,
+          "peak": 14982,
+          "rms": 2208.71
+        },
+        {
+          "page": 13,
+          "seconds": 5.556,
+          "peak": 11336,
+          "rms": 2086.36
+        },
+        {
+          "page": 14,
+          "seconds": 6.108,
+          "peak": 10875,
+          "rms": 2282.45
+        },
+        {
+          "page": 15,
+          "seconds": 6.924,
+          "peak": 12051,
+          "rms": 2250.39
+        },
+        {
+          "page": 16,
+          "seconds": 7.788,
+          "peak": 11946,
+          "rms": 1895.15
+        },
+        {
+          "page": 17,
+          "seconds": 6.588,
+          "peak": 10953,
+          "rms": 1961.82
+        },
+        {
+          "page": 18,
+          "seconds": 6.756,
+          "peak": 13458,
+          "rms": 2229.51
+        },
+        {
+          "page": 19,
+          "seconds": 6.036,
+          "peak": 13067,
+          "rms": 2279.48
+        },
+        {
+          "page": 20,
+          "seconds": 7.488,
+          "peak": 11077,
+          "rms": 2189.07
+        }
+      ]
+    },
+    {
+      "id": "yi-nuo-qian-jin",
+      "title": "一诺千金",
+      "url": "/library/chengyu/yi-nuo-qian-jin/zh-b59daf62979a9d42.mp3",
+      "contentHash": "b59daf62979a9d42a7dedb8e488291a76a0c5758c673da0388625762a27fee5c",
+      "fileSha256": "419600fed71e78d7c2e10b448541fa992bf0a63b3e6f018b427c0394528e8239",
+      "bytes": 1101357,
+      "pages": 22,
+      "seconds": 137.58,
+      "decodedSeconds": 137.58,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 5.556,
+          "peak": 11693,
+          "rms": 1977.43
+        },
+        {
+          "page": 2,
+          "seconds": 5.868,
+          "peak": 11205,
+          "rms": 1970.36
+        },
+        {
+          "page": 3,
+          "seconds": 6.108,
+          "peak": 12569,
+          "rms": 2073.69
+        },
+        {
+          "page": 4,
+          "seconds": 6.684,
+          "peak": 12762,
+          "rms": 1997.44
+        },
+        {
+          "page": 5,
+          "seconds": 5.724,
+          "peak": 12377,
+          "rms": 1985.95
+        },
+        {
+          "page": 6,
+          "seconds": 6.516,
+          "peak": 13387,
+          "rms": 2078.82
+        },
+        {
+          "page": 7,
+          "seconds": 6.828,
+          "peak": 12387,
+          "rms": 2095.93
+        },
+        {
+          "page": 8,
+          "seconds": 6.588,
+          "peak": 12246,
+          "rms": 2169.81
+        },
+        {
+          "page": 9,
+          "seconds": 6.828,
+          "peak": 11774,
+          "rms": 2082.76
+        },
+        {
+          "page": 10,
+          "seconds": 5.388,
+          "peak": 13422,
+          "rms": 2562.02
+        },
+        {
+          "page": 11,
+          "seconds": 5.316,
+          "peak": 13035,
+          "rms": 2157.03
+        },
+        {
+          "page": 12,
+          "seconds": 6.036,
+          "peak": 12610,
+          "rms": 2190.5
+        },
+        {
+          "page": 13,
+          "seconds": 5.076,
+          "peak": 12782,
+          "rms": 2034.7
+        },
+        {
+          "page": 14,
+          "seconds": 6.756,
+          "peak": 12555,
+          "rms": 2182.49
+        },
+        {
+          "page": 15,
+          "seconds": 6.108,
+          "peak": 12245,
+          "rms": 2038.81
+        },
+        {
+          "page": 16,
+          "seconds": 6.516,
+          "peak": 13135,
+          "rms": 2332.05
+        },
+        {
+          "page": 17,
+          "seconds": 6.828,
+          "peak": 13789,
+          "rms": 2265.23
+        },
+        {
+          "page": 18,
+          "seconds": 5.796,
+          "peak": 13500,
+          "rms": 2212.86
+        },
+        {
+          "page": 19,
+          "seconds": 5.796,
+          "peak": 12169,
+          "rms": 2027.72
+        },
+        {
+          "page": 20,
+          "seconds": 7.404,
+          "peak": 13147,
+          "rms": 2181.59
+        },
+        {
+          "page": 21,
+          "seconds": 6.756,
+          "peak": 16472,
+          "rms": 2185.14
+        },
+        {
+          "page": 22,
+          "seconds": 7.104,
+          "peak": 18023,
+          "rms": 2157.63
+        }
+      ]
+    },
+    {
+      "id": "xue-zhong-song-tan",
+      "title": "雪中送炭",
+      "url": "/library/chengyu/xue-zhong-song-tan/zh-50d1eac957396e9a.mp3",
+      "contentHash": "50d1eac957396e9a29832eedc73af78f26384539d9f7342c54ec2168f55b1908",
+      "fileSha256": "8ead246cfc3ba2d12d1d51c4242ab4e174ac06a0c60f902216cc6a560de414a7",
+      "bytes": 971373,
+      "pages": 20,
+      "seconds": 121.332,
+      "decodedSeconds": 121.332,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 6.108,
+          "peak": 11478,
+          "rms": 2349.6
+        },
+        {
+          "page": 2,
+          "seconds": 6.036,
+          "peak": 13021,
+          "rms": 2199.7
+        },
+        {
+          "page": 3,
+          "seconds": 6.996,
+          "peak": 13090,
+          "rms": 2153.08
+        },
+        {
+          "page": 4,
+          "seconds": 6.108,
+          "peak": 11812,
+          "rms": 2297.89
+        },
+        {
+          "page": 5,
+          "seconds": 6.828,
+          "peak": 13092,
+          "rms": 2261.12
+        },
+        {
+          "page": 6,
+          "seconds": 5.148,
+          "peak": 11767,
+          "rms": 2132.71
+        },
+        {
+          "page": 7,
+          "seconds": 5.556,
+          "peak": 16229,
+          "rms": 2153.46
+        },
+        {
+          "page": 8,
+          "seconds": 6.204,
+          "peak": 12627,
+          "rms": 2395.31
+        },
+        {
+          "page": 9,
+          "seconds": 4.836,
+          "peak": 10612,
+          "rms": 2173.06
+        },
+        {
+          "page": 10,
+          "seconds": 5.796,
+          "peak": 11857,
+          "rms": 2140.15
+        },
+        {
+          "page": 11,
+          "seconds": 5.724,
+          "peak": 12895,
+          "rms": 2232.45
+        },
+        {
+          "page": 12,
+          "seconds": 5.484,
+          "peak": 11652,
+          "rms": 2344.35
+        },
+        {
+          "page": 13,
+          "seconds": 6.444,
+          "peak": 11621,
+          "rms": 2122.47
+        },
+        {
+          "page": 14,
+          "seconds": 4.908,
+          "peak": 11450,
+          "rms": 2221.74
+        },
+        {
+          "page": 15,
+          "seconds": 6.828,
+          "peak": 13698,
+          "rms": 2413.37
+        },
+        {
+          "page": 16,
+          "seconds": 6.348,
+          "peak": 12762,
+          "rms": 2160.72
+        },
+        {
+          "page": 17,
+          "seconds": 5.388,
+          "peak": 13394,
+          "rms": 2564.35
+        },
+        {
+          "page": 18,
+          "seconds": 6.996,
+          "peak": 12132,
+          "rms": 2284.22
+        },
+        {
+          "page": 19,
+          "seconds": 7.068,
+          "peak": 14892,
+          "rms": 2223.93
+        },
+        {
+          "page": 20,
+          "seconds": 6.528,
+          "peak": 12488,
+          "rms": 2087.96
+        }
+      ]
+    },
+    {
+      "id": "qu-chang-bu-duan",
+      "title": "取长补短",
+      "url": "/library/chengyu/qu-chang-bu-duan/zh-4830fd51c430ab53.mp3",
+      "contentHash": "4830fd51c430ab53098a62cc9b43194153719bee7dfaa5f4e39a880a2e2fdf39",
+      "fileSha256": "25314d1f8a6c962768e2223ed9814744b52710e4b83aad442c1d7f9691a8bdbe",
+      "bytes": 985965,
+      "pages": 20,
+      "seconds": 123.156,
+      "decodedSeconds": 123.156,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 5.964,
+          "peak": 11797,
+          "rms": 2396.36
+        },
+        {
+          "page": 2,
+          "seconds": 5.964,
+          "peak": 10987,
+          "rms": 2003.09
+        },
+        {
+          "page": 3,
+          "seconds": 6.828,
+          "peak": 12060,
+          "rms": 2300.77
+        },
+        {
+          "page": 4,
+          "seconds": 7.068,
+          "peak": 12393,
+          "rms": 2215.47
+        },
+        {
+          "page": 5,
+          "seconds": 6.276,
+          "peak": 10548,
+          "rms": 2085.42
+        },
+        {
+          "page": 6,
+          "seconds": 7.164,
+          "peak": 12199,
+          "rms": 2052.94
+        },
+        {
+          "page": 7,
+          "seconds": 5.796,
+          "peak": 11359,
+          "rms": 1973.39
+        },
+        {
+          "page": 8,
+          "seconds": 5.484,
+          "peak": 15669,
+          "rms": 2321.82
+        },
+        {
+          "page": 9,
+          "seconds": 5.388,
+          "peak": 10997,
+          "rms": 2187.7
+        },
+        {
+          "page": 10,
+          "seconds": 5.484,
+          "peak": 13951,
+          "rms": 2176.94
+        },
+        {
+          "page": 11,
+          "seconds": 6.444,
+          "peak": 12741,
+          "rms": 2337.82
+        },
+        {
+          "page": 12,
+          "seconds": 5.628,
+          "peak": 18768,
+          "rms": 2395.03
+        },
+        {
+          "page": 13,
+          "seconds": 7.404,
+          "peak": 12179,
+          "rms": 2261.21
+        },
+        {
+          "page": 14,
+          "seconds": 5.148,
+          "peak": 10858,
+          "rms": 2207.98
+        },
+        {
+          "page": 15,
+          "seconds": 6.348,
+          "peak": 11128,
+          "rms": 2297.91
+        },
+        {
+          "page": 16,
+          "seconds": 5.484,
+          "peak": 13909,
+          "rms": 2018.05
+        },
+        {
+          "page": 17,
+          "seconds": 6.036,
+          "peak": 14297,
+          "rms": 2098.34
+        },
+        {
+          "page": 18,
+          "seconds": 5.964,
+          "peak": 15551,
+          "rms": 2494.94
+        },
+        {
+          "page": 19,
+          "seconds": 5.556,
+          "peak": 12448,
+          "rms": 2315.45
+        },
+        {
+          "page": 20,
+          "seconds": 7.728,
+          "peak": 13918,
+          "rms": 2330.8
+        }
+      ]
+    },
+    {
+      "id": "jiang-xin-bi-xin",
+      "title": "将心比心",
+      "url": "/library/chengyu/jiang-xin-bi-xin/zh-9b8e5e50c7dfa2cb.mp3",
+      "contentHash": "9b8e5e50c7dfa2cbd3c62aab0cba420aa4007b3c7d1eedac438316997a0341d6",
+      "fileSha256": "b69da21a4fdde7a41c9c7df5d7dda8442f77c15981459c0332a821ff81f709c9",
+      "bytes": 922413,
+      "pages": 18,
+      "seconds": 115.212,
+      "decodedSeconds": 115.212,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 6.924,
+          "peak": 12248,
+          "rms": 1992.26
+        },
+        {
+          "page": 2,
+          "seconds": 6.036,
+          "peak": 12189,
+          "rms": 2174.31
+        },
+        {
+          "page": 3,
+          "seconds": 6.036,
+          "peak": 15601,
+          "rms": 2278.61
+        },
+        {
+          "page": 4,
+          "seconds": 5.868,
+          "peak": 14330,
+          "rms": 2000.65
+        },
+        {
+          "page": 5,
+          "seconds": 6.204,
+          "peak": 13232,
+          "rms": 2187.57
+        },
+        {
+          "page": 6,
+          "seconds": 6.828,
+          "peak": 10694,
+          "rms": 2207.44
+        },
+        {
+          "page": 7,
+          "seconds": 5.724,
+          "peak": 10847,
+          "rms": 2316.92
+        },
+        {
+          "page": 8,
+          "seconds": 6.516,
+          "peak": 13320,
+          "rms": 2067.61
+        },
+        {
+          "page": 9,
+          "seconds": 7.068,
+          "peak": 11460,
+          "rms": 2076.43
+        },
+        {
+          "page": 10,
+          "seconds": 7.476,
+          "peak": 11810,
+          "rms": 2253.5
+        },
+        {
+          "page": 11,
+          "seconds": 5.724,
+          "peak": 10151,
+          "rms": 1829.16
+        },
+        {
+          "page": 12,
+          "seconds": 5.964,
+          "peak": 12003,
+          "rms": 2069.28
+        },
+        {
+          "page": 13,
+          "seconds": 6.036,
+          "peak": 13637,
+          "rms": 2324.28
+        },
+        {
+          "page": 14,
+          "seconds": 6.348,
+          "peak": 11434,
+          "rms": 2241.52
+        },
+        {
+          "page": 15,
+          "seconds": 6.348,
+          "peak": 10238,
+          "rms": 1913.17
+        },
+        {
+          "page": 16,
+          "seconds": 6.828,
+          "peak": 10902,
+          "rms": 2166.8
+        },
+        {
+          "page": 17,
+          "seconds": 6.108,
+          "peak": 12558,
+          "rms": 2322.12
+        },
+        {
+          "page": 18,
+          "seconds": 7.176,
+          "peak": 11991,
+          "rms": 2385.44
+        }
+      ]
+    },
+    {
+      "id": "yi-ju-liang-de",
+      "title": "一举两得",
+      "url": "/library/chengyu/yi-ju-liang-de/zh-1ff5f2c4ae99e5c3.mp3",
+      "contentHash": "1ff5f2c4ae99e5c36755baeb44459c3ff5c0938ff7fb302f3e653956b8278a63",
+      "fileSha256": "d85bc2fcac508af3ff0b6eb40663407d9ad8c0332f3e03951a90a9c72b1ea1d9",
+      "bytes": 1067949,
+      "pages": 20,
+      "seconds": 133.404,
+      "decodedSeconds": 133.404,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 7.404,
+          "peak": 10942,
+          "rms": 2086.92
+        },
+        {
+          "page": 2,
+          "seconds": 6.444,
+          "peak": 10962,
+          "rms": 2099.93
+        },
+        {
+          "page": 3,
+          "seconds": 5.964,
+          "peak": 12710,
+          "rms": 1989.68
+        },
+        {
+          "page": 4,
+          "seconds": 5.628,
+          "peak": 12166,
+          "rms": 2229.13
+        },
+        {
+          "page": 5,
+          "seconds": 8.364,
+          "peak": 12489,
+          "rms": 2285.54
+        },
+        {
+          "page": 6,
+          "seconds": 6.444,
+          "peak": 11013,
+          "rms": 2241.07
+        },
+        {
+          "page": 7,
+          "seconds": 5.796,
+          "peak": 11482,
+          "rms": 2164.04
+        },
+        {
+          "page": 8,
+          "seconds": 6.756,
+          "peak": 11667,
+          "rms": 2169.44
+        },
+        {
+          "page": 9,
+          "seconds": 6.036,
+          "peak": 11236,
+          "rms": 2152.49
+        },
+        {
+          "page": 10,
+          "seconds": 7.476,
+          "peak": 11258,
+          "rms": 2495.49
+        },
+        {
+          "page": 11,
+          "seconds": 6.348,
+          "peak": 14997,
+          "rms": 2059.84
+        },
+        {
+          "page": 12,
+          "seconds": 6.924,
+          "peak": 12988,
+          "rms": 2081.9
+        },
+        {
+          "page": 13,
+          "seconds": 5.556,
+          "peak": 13103,
+          "rms": 2234.16
+        },
+        {
+          "page": 14,
+          "seconds": 6.924,
+          "peak": 12533,
+          "rms": 2472.42
+        },
+        {
+          "page": 15,
+          "seconds": 6.828,
+          "peak": 11704,
+          "rms": 2372.03
+        },
+        {
+          "page": 16,
+          "seconds": 7.404,
+          "peak": 12036,
+          "rms": 2005.38
+        },
+        {
+          "page": 17,
+          "seconds": 6.588,
+          "peak": 13905,
+          "rms": 2296.39
+        },
+        {
+          "page": 18,
+          "seconds": 6.996,
+          "peak": 10532,
+          "rms": 2134.94
+        },
+        {
+          "page": 19,
+          "seconds": 6.828,
+          "peak": 12495,
+          "rms": 2192.55
+        },
+        {
+          "page": 20,
+          "seconds": 6.696,
+          "peak": 14495,
+          "rms": 2171.73
+        }
+      ]
+    },
+    {
+      "id": "jing-jing-you-tiao",
+      "title": "井井有条",
+      "url": "/library/chengyu/jing-jing-you-tiao/zh-539a7d246e138c50.mp3",
+      "contentHash": "539a7d246e138c50e808d8c2301920fbaef4efcd6fec00d513c6ed98fd157331",
+      "fileSha256": "091ebe269dfb3ae5c21982749496d1f4519926e355d5fb7407cdfbd7f8b25a1d",
+      "bytes": 898413,
+      "pages": 18,
+      "seconds": 112.212,
+      "decodedSeconds": 112.212,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 6.204,
+          "peak": 11931,
+          "rms": 2255.35
+        },
+        {
+          "page": 2,
+          "seconds": 6.996,
+          "peak": 11848,
+          "rms": 2137.23
+        },
+        {
+          "page": 3,
+          "seconds": 6.036,
+          "peak": 13597,
+          "rms": 2198.8
+        },
+        {
+          "page": 4,
+          "seconds": 5.628,
+          "peak": 13468,
+          "rms": 2011.37
+        },
+        {
+          "page": 5,
+          "seconds": 5.556,
+          "peak": 14895,
+          "rms": 2263.03
+        },
+        {
+          "page": 6,
+          "seconds": 5.316,
+          "peak": 11962,
+          "rms": 2216.61
+        },
+        {
+          "page": 7,
+          "seconds": 5.868,
+          "peak": 11277,
+          "rms": 2160.98
+        },
+        {
+          "page": 8,
+          "seconds": 6.588,
+          "peak": 14107,
+          "rms": 2237.19
+        },
+        {
+          "page": 9,
+          "seconds": 5.556,
+          "peak": 14298,
+          "rms": 2154.47
+        },
+        {
+          "page": 10,
+          "seconds": 5.388,
+          "peak": 13685,
+          "rms": 2146.14
+        },
+        {
+          "page": 11,
+          "seconds": 6.588,
+          "peak": 11858,
+          "rms": 2134.29
+        },
+        {
+          "page": 12,
+          "seconds": 6.036,
+          "peak": 14148,
+          "rms": 2221.21
+        },
+        {
+          "page": 13,
+          "seconds": 5.244,
+          "peak": 15778,
+          "rms": 2159.13
+        },
+        {
+          "page": 14,
+          "seconds": 7.068,
+          "peak": 13237,
+          "rms": 2257.41
+        },
+        {
+          "page": 15,
+          "seconds": 6.828,
+          "peak": 13750,
+          "rms": 2381.06
+        },
+        {
+          "page": 16,
+          "seconds": 7.476,
+          "peak": 13514,
+          "rms": 2281.49
+        },
+        {
+          "page": 17,
+          "seconds": 5.628,
+          "peak": 12042,
+          "rms": 1981.3
+        },
+        {
+          "page": 18,
+          "seconds": 8.208,
+          "peak": 13884,
+          "rms": 2331.45
+        }
+      ]
+    },
+    {
+      "id": "shi-ban-gong-bei",
+      "title": "事半功倍",
+      "url": "/library/chengyu/shi-ban-gong-bei/zh-54a8c80da826f8c6.mp3",
+      "contentHash": "54a8c80da826f8c634a09a0fbe3d380d440574f5474a4c0345e4c0cb49ac0680",
+      "fileSha256": "9d66955ff482a79d74807caed9ebc6a188c295858141dacc4d6de0c8e489ac8d",
+      "bytes": 908589,
+      "pages": 20,
+      "seconds": 113.484,
+      "decodedSeconds": 113.484,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 5.388,
+          "peak": 11237,
+          "rms": 2254.21
+        },
+        {
+          "page": 2,
+          "seconds": 4.428,
+          "peak": 13329,
+          "rms": 2200.4
+        },
+        {
+          "page": 3,
+          "seconds": 5.964,
+          "peak": 12847,
+          "rms": 2088.03
+        },
+        {
+          "page": 4,
+          "seconds": 5.964,
+          "peak": 11565,
+          "rms": 2379.13
+        },
+        {
+          "page": 5,
+          "seconds": 5.724,
+          "peak": 13663,
+          "rms": 2016.67
+        },
+        {
+          "page": 6,
+          "seconds": 6.516,
+          "peak": 13229,
+          "rms": 2279.2
+        },
+        {
+          "page": 7,
+          "seconds": 5.004,
+          "peak": 11838,
+          "rms": 2047.76
+        },
+        {
+          "page": 8,
+          "seconds": 5.796,
+          "peak": 11180,
+          "rms": 2268.8
+        },
+        {
+          "page": 9,
+          "seconds": 4.188,
+          "peak": 11554,
+          "rms": 2336.88
+        },
+        {
+          "page": 10,
+          "seconds": 4.668,
+          "peak": 9759,
+          "rms": 2252.39
+        },
+        {
+          "page": 11,
+          "seconds": 6.684,
+          "peak": 12438,
+          "rms": 2084.93
+        },
+        {
+          "page": 12,
+          "seconds": 6.684,
+          "peak": 12769,
+          "rms": 2251.85
+        },
+        {
+          "page": 13,
+          "seconds": 5.796,
+          "peak": 11459,
+          "rms": 2205.56
+        },
+        {
+          "page": 14,
+          "seconds": 5.868,
+          "peak": 10324,
+          "rms": 2290.97
+        },
+        {
+          "page": 15,
+          "seconds": 6.516,
+          "peak": 12925,
+          "rms": 2311.05
+        },
+        {
+          "page": 16,
+          "seconds": 5.796,
+          "peak": 12049,
+          "rms": 2341.52
+        },
+        {
+          "page": 17,
+          "seconds": 6.444,
+          "peak": 12354,
+          "rms": 2125.08
+        },
+        {
+          "page": 18,
+          "seconds": 4.764,
+          "peak": 13441,
+          "rms": 2347.7
+        },
+        {
+          "page": 19,
+          "seconds": 6.108,
+          "peak": 13103,
+          "rms": 2223.86
+        },
+        {
+          "page": 20,
+          "seconds": 5.184,
+          "peak": 13159,
+          "rms": 2233.74
+        }
+      ]
+    },
+    {
+      "id": "de-yi-wang-xing",
+      "title": "得意忘形",
+      "url": "/library/chengyu/de-yi-wang-xing/zh-8cf90e0d7fe907af.mp3",
+      "contentHash": "8cf90e0d7fe907afa122a3cfb4f67f0e3713fb6a998ec612722c6ae2cfcdb4c9",
+      "fileSha256": "a07c899bcb1e797e808a4ddf4042f77ffaed84059c05e0347b194011c467697f",
+      "bytes": 870381,
+      "pages": 18,
+      "seconds": 108.708,
+      "decodedSeconds": 108.708,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 6.444,
+          "peak": 15397,
+          "rms": 2301.67
+        },
+        {
+          "page": 2,
+          "seconds": 5.484,
+          "peak": 11603,
+          "rms": 2113.81
+        },
+        {
+          "page": 3,
+          "seconds": 5.868,
+          "peak": 13851,
+          "rms": 2086.49
+        },
+        {
+          "page": 4,
+          "seconds": 5.388,
+          "peak": 13774,
+          "rms": 2379.25
+        },
+        {
+          "page": 5,
+          "seconds": 4.908,
+          "peak": 14216,
+          "rms": 2011.71
+        },
+        {
+          "page": 6,
+          "seconds": 5.484,
+          "peak": 12398,
+          "rms": 2090.03
+        },
+        {
+          "page": 7,
+          "seconds": 5.796,
+          "peak": 19897,
+          "rms": 2130.5
+        },
+        {
+          "page": 8,
+          "seconds": 6.516,
+          "peak": 14262,
+          "rms": 2277.41
+        },
+        {
+          "page": 9,
+          "seconds": 5.724,
+          "peak": 12831,
+          "rms": 2088.45
+        },
+        {
+          "page": 10,
+          "seconds": 5.724,
+          "peak": 13329,
+          "rms": 2259.55
+        },
+        {
+          "page": 11,
+          "seconds": 5.724,
+          "peak": 11593,
+          "rms": 2063.86
+        },
+        {
+          "page": 12,
+          "seconds": 5.484,
+          "peak": 10778,
+          "rms": 2114.33
+        },
+        {
+          "page": 13,
+          "seconds": 6.204,
+          "peak": 13929,
+          "rms": 2241.01
+        },
+        {
+          "page": 14,
+          "seconds": 7.884,
+          "peak": 13075,
+          "rms": 2177.42
+        },
+        {
+          "page": 15,
+          "seconds": 5.796,
+          "peak": 10689,
+          "rms": 2141.73
+        },
+        {
+          "page": 16,
+          "seconds": 6.756,
+          "peak": 11752,
+          "rms": 2105.24
+        },
+        {
+          "page": 17,
+          "seconds": 6.588,
+          "peak": 13053,
+          "rms": 2068.66
+        },
+        {
+          "page": 18,
+          "seconds": 6.936,
+          "peak": 12969,
+          "rms": 2133.21
+        }
+      ]
+    },
+    {
+      "id": "mang-ren-mo-xiang",
+      "title": "盲人摸象",
+      "url": "/library/chengyu/mang-ren-mo-xiang/zh-d2fb29cac31d0b8d.mp3",
+      "contentHash": "d2fb29cac31d0b8d211bef421deb2b07e521e55de46e80027d93f109724f8b20",
+      "fileSha256": "ce7c3b334ae8fa9f0ed742e07a1fafacd42987f71dc6a172786a5b6dd3fe6e7f",
+      "bytes": 812397,
+      "pages": 16,
+      "seconds": 101.46,
+      "decodedSeconds": 101.46,
+      "pageSegments": [
+        {
+          "page": 1,
+          "seconds": 5.868,
+          "peak": 12549,
+          "rms": 2194.33
+        },
+        {
+          "page": 2,
+          "seconds": 8.916,
+          "peak": 15541,
+          "rms": 2131.4
+        },
+        {
+          "page": 3,
+          "seconds": 5.556,
+          "peak": 12259,
+          "rms": 2438.2
+        },
+        {
+          "page": 4,
+          "seconds": 5.964,
+          "peak": 18216,
+          "rms": 2152.09
+        },
+        {
+          "page": 5,
+          "seconds": 5.388,
+          "peak": 16020,
+          "rms": 2321.82
+        },
+        {
+          "page": 6,
+          "seconds": 5.484,
+          "peak": 18564,
+          "rms": 2321.24
+        },
+        {
+          "page": 7,
+          "seconds": 5.796,
+          "peak": 16300,
+          "rms": 2264.82
+        },
+        {
+          "page": 8,
+          "seconds": 5.628,
+          "peak": 12749,
+          "rms": 2103.32
+        },
+        {
+          "page": 9,
+          "seconds": 6.588,
+          "peak": 16438,
+          "rms": 2078.2
+        },
+        {
+          "page": 10,
+          "seconds": 6.036,
+          "peak": 13704,
+          "rms": 2557.0
+        },
+        {
+          "page": 11,
+          "seconds": 6.756,
+          "peak": 14920,
+          "rms": 2361.14
+        },
+        {
+          "page": 12,
+          "seconds": 5.388,
+          "peak": 11229,
+          "rms": 2412.48
+        },
+        {
+          "page": 13,
+          "seconds": 7.644,
+          "peak": 13169,
+          "rms": 2110.39
+        },
+        {
+          "page": 14,
+          "seconds": 6.348,
+          "peak": 16664,
+          "rms": 1952.38
+        },
+        {
+          "page": 15,
+          "seconds": 7.236,
+          "peak": 12946,
+          "rms": 2246.59
+        },
+        {
+          "page": 16,
+          "seconds": 6.864,
+          "peak": 12533,
+          "rms": 2354.56
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "未进行教师听审或真人发音验收。",
+    "浏览器共享阅读器播放与翻页联动已通过检查，见 browser-audit 文件；未进行实体手机验收。"
+  ]
+}

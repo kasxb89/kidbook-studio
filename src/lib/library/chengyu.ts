@@ -11,6 +11,7 @@ import newestChengyuDrafts from "../../../content-drafts/chengyu/chengyu-21-30.j
 import latestChengyuDrafts from "../../../content-drafts/chengyu/chengyu-31-40.json";
 import nextChengyuDrafts from "../../../content-drafts/chengyu/chengyu-41-50.json";
 import proverbDrafts from "../../../content-drafts/chengyu/chengyu-51-60.json";
+import commonIdiomDrafts from "../../../content-drafts/chengyu/chengyu-71-80.json";
 
 // 首批 50 本均已完成文字、插图验收并正式发布。
 
@@ -228,7 +229,7 @@ const BA_MIAO_ZHU_ZHANG_PAGES: Array<{
 
 function toStoryPages(
   bookId: string,
-  items: Array<{ zh: string; en: string; prompt: string }>,
+  items: Array<{ zh: string; en: string; prompt: string; imageFile?: string }>,
   imageStatus: NonNullable<StoryPage["imageStatus"]> = "complete",
 ): StoryPage[] {
   return items.map((item, index) => ({
@@ -236,13 +237,13 @@ function toStoryPages(
     zhText: item.zh,
     enText: item.en,
     illustrationPrompt: item.prompt,
-    imageUrl: `/library/chengyu/${bookId}/${index + 1}.webp`,
+    imageUrl: `/library/chengyu/${bookId}/${item.imageFile ?? `${index + 1}.webp`}`,
     imageStatus,
   }));
 }
 
 type ReviewedBookDraft = Omit<LibraryBook, "seriesId" | "pages"> & {
-  pages: Array<{ zh: string; en: string; prompt: string }>;
+  pages: Array<{ zh: string; en: string; prompt: string; imageFile?: string }>;
 };
 
 function reviewedDraftToBook(draft: ReviewedBookDraft): LibraryBook {
@@ -255,7 +256,7 @@ function reviewedDraftToBook(draft: ReviewedBookDraft): LibraryBook {
 
 type AnchoredBookDraft = Omit<ReviewedBookDraft, "pages"> & {
   visualAnchor: string;
-  pages: Array<{ zh: string; en: string; prompt: string }>;
+  pages: Array<{ zh: string; en: string; prompt: string; imageFile?: string }>;
 };
 
 const CHENGYU_IMAGE_STYLE =
@@ -286,6 +287,26 @@ function anchoredDraftToBook(draft: AnchoredBookDraft): LibraryBook {
     metadata: draft.metadata,
     pages,
   });
+}
+
+function commonIdiomDraftToBook(
+  draft: (typeof commonIdiomDrafts)[number],
+): LibraryBook {
+  const ready = draft.draftStatus === "complete-local";
+  const book = anchoredDraftToBook({
+    ...draft,
+    // 制作日期用于本地目录排序；线上部署另行执行。
+    publishedAt: draft.createdAt,
+    metadata: { ...draft.metadata, category: "idiom" },
+  });
+
+  return {
+    ...book,
+    comingSoon: !ready,
+    pages: ready
+      ? book.pages
+      : book.pages.map(page => ({ ...page, imageStatus: "pending" as const })),
+  };
 }
 
 export const CHENGYU_BOOKS: LibraryBook[] = [
@@ -382,6 +403,7 @@ export const CHENGYU_BOOKS: LibraryBook[] = [
   ...(latestChengyuDrafts as AnchoredBookDraft[]).map(anchoredDraftToBook),
   ...(nextChengyuDrafts as AnchoredBookDraft[]).map(anchoredDraftToBook),
   ...(proverbDrafts as AnchoredBookDraft[]).filter(draft => !draft.metadata?.tags?.includes("谚语故事")).map(anchoredDraftToBook),
+  ...commonIdiomDrafts.map(commonIdiomDraftToBook),
 ];
 
 export const CHENGYU_SERIES: LibrarySeries = {

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ban-tu-er-fei",
+    "title": "半途而废",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3082040,
+    "audioBytes": 967725,
+    "audioSeconds": 120.876,
+    "audioVerified": true
+  },
+  {
+    "id": "yi-nuo-qian-jin",
+    "title": "一诺千金",
+    "pages": 22,
+    "images": 22,
+    "missing": [],
+    "imageBytes": 4254962,
+    "audioBytes": 1101357,
+    "audioSeconds": 137.58,
+    "audioVerified": true
+  },
+  {
+    "id": "xue-zhong-song-tan",
+    "title": "雪中送炭",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3854330,
+    "audioBytes": 971373,
+    "audioSeconds": 121.332,
+    "audioVerified": true
+  },
+  {
+    "id": "qu-chang-bu-duan",
+    "title": "取长补短",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3162862,
+    "audioBytes": 985965,
+    "audioSeconds": 123.156,
+    "audioVerified": true
+  },
+  {
+    "id": "jiang-xin-bi-xin",
+    "title": "将心比心",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3377760,
+    "audioBytes": 922413,
+    "audioSeconds": 115.212,
+    "audioVerified": true
+  },
+  {
+    "id": "yi-ju-liang-de",
+    "title": "一举两得",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 4807306,
+    "audioBytes": 1067949,
+    "audioSeconds": 133.404,
+    "audioVerified": true
+  },
+  {
+    "id": "jing-jing-you-tiao",
+    "title": "井井有条",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3314078,
+    "audioBytes": 898413,
+    "audioSeconds": 112.212,
+    "audioVerified": true
+  },
+  {
+    "id": "shi-ban-gong-bei",
+    "title": "事半功倍",
+    "pages": 20,
+    "images": 20,
+    "missing": [],
+    "imageBytes": 3041482,
+    "audioBytes": 908589,
+    "audioSeconds": 113.484,
+    "audioVerified": true
+  },
+  {
+    "id": "de-yi-wang-xing",
+    "title": "得意忘形",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2839146,
+    "audioBytes": 870381,
+    "audioSeconds": 108.708,
+    "audioVerified": true
+  },
+  {
+    "id": "mang-ren-mo-xiang",
+    "title": "盲人摸象",
+    "pages": 16,
+    "images": 16,
+    "missing": [],
+    "imageBytes": 3118360,
+    "audioBytes": 812397,
+    "audioSeconds": 101.46,
+    "audioVerified": true
+  }
+]

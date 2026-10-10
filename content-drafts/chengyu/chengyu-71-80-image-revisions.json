@@ -1,0 +1,248 @@
+{
+  "tool": "built-in imagegen",
+  "createdAt": "2026-10-10",
+  "revisions": [
+    {
+      "bookId": "jiang-xin-bi-xin",
+      "page": 2,
+      "mode": "revision",
+      "imageFile": "2-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-c98a1988-bd8b-4d12-ac7f-da63b2de4436.png",
+      "imageUrl": "/library/chengyu/jiang-xin-bi-xin/2-v2.webp",
+      "reason": "灯笼在第七页才首次带来",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY this existing square picture-book illustration. Remove the physical BLUE moon-decorated paper lantern from the table and from Bear's paws. If Bear holds it, leave the paws in a natural empty talking gesture. Keep any small lantern IDEA ICON painted on the planning sheet. Preserve all three friends' exact faces, outfits, expressions and positions, the table, planning sheet, pinecone, background and warm handcrafted 3D style. This is an early planning scene; the physical new lantern has not been brought yet. Add nothing. No visible words or numbers.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jiang-xin-bi-xin",
+      "page": 1,
+      "mode": "revision",
+      "imageFile": "1-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-32a7bf85-ad7c-4170-98e2-d625eae9084c.png",
+      "imageUrl": "/library/chengyu/jiang-xin-bi-xin/1-v2.webp",
+      "reason": "灯笼在第七页才首次带来",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY this existing square picture-book illustration. Remove the physical BLUE moon-decorated paper lantern from the table and from Bear's paws. If Bear holds it, leave the paws in a natural empty talking gesture. Keep any small lantern IDEA ICON painted on the planning sheet. Preserve all three friends' exact faces, outfits, expressions and positions, the table, planning sheet, pinecone, background and warm handcrafted 3D style. This is an early planning scene; the physical new lantern has not been brought yet. Add nothing. No visible words or numbers.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jiang-xin-bi-xin",
+      "page": 5,
+      "mode": "revision",
+      "imageFile": "5-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-55192f68-ace4-408d-a61b-8ea99d65f27d.png",
+      "imageUrl": "/library/chengyu/jiang-xin-bi-xin/5-v2.webp",
+      "reason": "灯笼在第七页才首次带来",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY this existing square picture-book illustration. Remove the physical BLUE moon-decorated paper lantern from the table and from Bear's paws. If Bear holds it, leave the paws in a natural empty talking gesture. Keep any small lantern IDEA ICON painted on the planning sheet. Preserve all three friends' exact faces, outfits, expressions and positions, the table, planning sheet, pinecone, background and warm handcrafted 3D style. This is an early planning scene; the physical new lantern has not been brought yet. Add nothing. No visible words or numbers.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jiang-xin-bi-xin",
+      "page": 6,
+      "mode": "revision",
+      "imageFile": "6-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-4558271f-0b17-46a6-af21-6613a6a8c9ff.png",
+      "imageUrl": "/library/chengyu/jiang-xin-bi-xin/6-v2.webp",
+      "reason": "灯笼在第七页才首次带来",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY this existing square picture-book illustration. Remove the physical BLUE moon-decorated paper lantern from the table and from Bear's paws. If Bear holds it, leave the paws in a natural empty talking gesture. Keep any small lantern IDEA ICON painted on the planning sheet. Preserve all three friends' exact faces, outfits, expressions and positions, the table, planning sheet, pinecone, background and warm handcrafted 3D style. This is an early planning scene; the physical new lantern has not been brought yet. Add nothing. No visible words or numbers.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 2,
+      "mode": "revision",
+      "imageFile": "2-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-1abd9102-ab05-4891-a683-d54828b06041.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/2-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 3,
+      "mode": "revision",
+      "imageFile": "3-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-0fdcea44-2ce9-4ca3-92e7-433c442bde5d.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/3-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 4,
+      "mode": "revision",
+      "imageFile": "4-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-495d0431-d649-478b-b18f-0315ef7b69a0.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/4-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 5,
+      "mode": "revision",
+      "imageFile": "5-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-479de5cd-b88f-4148-8cbc-6834402e0840.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/5-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 6,
+      "mode": "revision",
+      "imageFile": "6-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-750f35cb-1269-4140-98a5-ac0efd81f7d3.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/6-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 7,
+      "mode": "revision",
+      "imageFile": "7-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-a7b708d5-1c78-46bb-ba38-00a034d2a1ee.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/7-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 8,
+      "mode": "revision",
+      "imageFile": "8-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-2fbe6f7c-2056-47ea-8569-d81d7ff705e6.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/8-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jing-jing-you-tiao",
+      "page": 9,
+      "mode": "revision",
+      "imageFile": "9-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-63890dc2-ec97-45c0-921f-d5a3f595e3c2.png",
+      "imageUrl": "/library/chengyu/jing-jing-you-tiao/9-v2.webp",
+      "reason": "抽屉图标在第十页才贴上",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the background seed cabinet in this existing square picture-book illustration. ALL six drawer fronts must be plain natural wood with their small handles, WITHOUT picture labels, stickers, carrots, pea drawings, flower icons or badges. Remove these drawer-front icons completely, leaving clean wood. Preserve the cabinet's geometry and location. Preserve the exact rabbit character faces, clothing, poses, hands, mixed storage box, tools, seeds and packets. Keep the picture icons on PAPER SEED PACKETS wherever they already appear; change only the cabinet drawer fronts. Same warm handcrafted 3D picture-book style. No new objects, letters, numbers or text.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "yi-ju-liang-de",
+      "page": 18,
+      "mode": "revision",
+      "imageFile": "18-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-ff3d5e1f-bd16-4698-ad0d-5ec3fa29df9e.png",
+      "imageUrl": "/library/chengyu/yi-ju-liang-de/18-v2.webp",
+      "reason": "腐熟确认发生在初夏",
+      "prompt": "Use case: lighting-weather\nChange ONLY the seasonal foliage in this existing square picture-book illustration. The scene occurs in EARLY SUMMER, so replace the orange/red autumn leaves on all background trees with fresh natural GREEN summer foliage. Keep the sky, sunlight, composition, every character, fur color, clothing, faces, poses, the dark finished compost, wooden compost box and garden unchanged. In particular, do not recolor Bear's brown fur or ochre vest. Same warm handcrafted 3D art. No new objects, captions, letters or numbers.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "ban-tu-er-fei",
+      "page": 8,
+      "mode": "missing",
+      "imageFile": "8.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-42385edb-d99b-41ec-855b-7598d09ecb1a.png",
+      "imageUrl": "/library/chengyu/ban-tu-er-fei/8.webp",
+      "reason": "补齐返家页",
+      "prompt": "Use case: illustration-story\nOne square warm handcrafted 3D picture-book scene. A traveler returns to his simple ancient Chinese cottage in daylight. Show exactly TWO fully clothed ADULT villagers, age 26: the man wears a moss-green cross-collar robe and navy sash, has the same black topknot and oval friendly face as the reference; the woman wears a dusty-rose cross-collar robe and cream sash with the same low black hair bun and round friendly face. They stand a few steps apart on either side of the open doorway, smiling and waving hello. The man carries his small brown cloth travel bundle. Use the reference only for their exact identities, clothing and warm clay/felt illustration style. This is a simple friendly return-home moment. One complete square scene, no words, captions, panels or additional people.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "yi-nuo-qian-jin",
+      "page": 5,
+      "mode": "missing",
+      "imageFile": "5.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-b065e63a-18c1-4181-8232-16ced5ddfceb.png",
+      "imageUrl": "/library/chengyu/yi-nuo-qian-jin/5.webp",
+      "reason": "补齐集市邀请页",
+      "prompt": "Use case: illustration-story\nOne square warm handcrafted 3D children's story illustration. Outside a cozy woodland cottage, exactly TWO friendly animal characters talk: the same young russet Fox from the reference, cream muzzle and tail tip, teal waistcoat; a young white Rabbit in a peach dress, carrying a plain wicker basket. Rabbit gestures toward the village path as she invites Fox to visit a weekend market. Fox listens with interest. The reference is for Fox's exact face, costume and warm tactile clay/felt art style ONLY. Do not copy its hedgehog, puppet booth or invitation card. No hedgehog, puppets, stage or market stalls in this scene. No text, letters, numbers or speech bubbles.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "de-yi-wang-xing",
+      "page": 9,
+      "mode": "revision",
+      "imageFile": "9-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-48a0afe3-ab46-443e-89d2-4b763c19e991.png",
+      "imageUrl": "/library/chengyu/de-yi-wang-xing/9-v2.webp",
+      "reason": "旧画只有花和茎，新画在第十四页后才增加两片叶子",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the plant DRAWING on the OLD WRINKLED cream paper in this square picture-book illustration. Remove the TWO painted green LEAVES from its green stem, leaving the YELLOW flower, flower center, petals and a simple bare green stem intact. Fill the small painted-leaf areas with the same wrinkled cream paper texture. The old paper MUST remain wrinkled and wet, with the existing droplets; do not repair or replace the paper. Preserve every live character's exact face, clothes, pose, paws, the blue bowl, orange bubble ring, wiping cloth, pencils, table, outdoor trees and natural foliage. Change ONLY the painted leaves on the old paper. Keep the original lighting, composition and warm handcrafted 3D style. No visible text, no new objects.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "de-yi-wang-xing",
+      "page": 10,
+      "mode": "revision",
+      "imageFile": "10-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-eb0e7fb1-88ec-4ab3-ae97-4cb15e284c20.png",
+      "imageUrl": "/library/chengyu/de-yi-wang-xing/10-v2.webp",
+      "reason": "旧画只有花和茎，新画在第十四页后才增加两片叶子",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the plant DRAWING on the OLD WRINKLED cream paper in this square picture-book illustration. Remove the TWO painted green LEAVES from its green stem, leaving the YELLOW flower, flower center, petals and a simple bare green stem intact. Fill the small painted-leaf areas with the same wrinkled cream paper texture. The old paper MUST remain wrinkled and wet, with the existing droplets; do not repair or replace the paper. Preserve every live character's exact face, clothes, pose, paws, the blue bowl, orange bubble ring, wiping cloth, pencils, table, outdoor trees and natural foliage. Change ONLY the painted leaves on the old paper. Keep the original lighting, composition and warm handcrafted 3D style. No visible text, no new objects.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "de-yi-wang-xing",
+      "page": 11,
+      "mode": "revision",
+      "imageFile": "11-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-e31043f4-219d-4c0e-b6fe-483ca4651243.png",
+      "imageUrl": "/library/chengyu/de-yi-wang-xing/11-v2.webp",
+      "reason": "旧画只有花和茎，新画在第十四页后才增加两片叶子",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the plant DRAWING on the OLD WRINKLED cream paper in this square picture-book illustration. Remove the TWO painted green LEAVES from its green stem, leaving the YELLOW flower, flower center, petals and a simple bare green stem intact. Fill the small painted-leaf areas with the same wrinkled cream paper texture. The old paper MUST remain wrinkled and wet, with the existing droplets; do not repair or replace the paper. Preserve every live character's exact face, clothes, pose, paws, the blue bowl, orange bubble ring, wiping cloth, pencils, table, outdoor trees and natural foliage. Change ONLY the painted leaves on the old paper. Keep the original lighting, composition and warm handcrafted 3D style. No visible text, no new objects.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "jiang-xin-bi-xin",
+      "page": 3,
+      "mode": "revision",
+      "imageFile": "3-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-8ed7902d-574b-47e7-94b5-942b8fde5fe6.png",
+      "imageUrl": "/library/chengyu/jiang-xin-bi-xin/3-v2.webp",
+      "reason": "蓝灯笼在第七页才首次带来",
+      "prompt": "Use case: precise-object-edit\nRemove ONLY the physical blue paper lantern standing at the left edge of the wooden table. Fill its small area naturally with the same wooden tabletop. Preserve the three animal friends, faces, costumes, paws, map, pinecone, tent and surrounding garden exactly. This early scene discusses camping plans before the new lantern is brought. No new object or visible text. Keep the original square warm handcrafted 3D picture-book illustration.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "de-yi-wang-xing",
+      "page": 12,
+      "mode": "revision",
+      "imageFile": "12-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-c50d18b7-cf0f-4e16-a71e-57d594516ff6.png",
+      "imageUrl": "/library/chengyu/de-yi-wang-xing/12-v2.webp",
+      "reason": "旧画只有花和茎，新画在第十四页后才增加两片叶子",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the plant DRAWING on the OLD WRINKLED cream paper in this square picture-book illustration. Remove the TWO painted green LEAVES from its green stem, leaving the YELLOW flower, flower center, petals and a simple bare green stem intact. Fill the small painted-leaf areas with the same wrinkled cream paper texture. The old paper MUST remain wrinkled and wet, with the existing droplets; do not repair or replace the paper. Preserve every live character's exact face, clothes, pose, paws, the blue bowl, orange bubble ring, wiping cloth, pencils, table, outdoor trees and natural foliage. Change ONLY the painted leaves on the old paper. Keep the original lighting, composition and warm handcrafted 3D style. No visible text, no new objects.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "de-yi-wang-xing",
+      "page": 13,
+      "mode": "revision",
+      "imageFile": "13-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-ef810e0e-af59-4be8-8457-7b2a35a8fa7f.png",
+      "imageUrl": "/library/chengyu/de-yi-wang-xing/13-v2.webp",
+      "reason": "旧画只有花和茎，新画在第十四页后才增加两片叶子",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the plant DRAWING on the OLD WRINKLED cream paper in this square picture-book illustration. Remove the TWO painted green LEAVES from its green stem, leaving the YELLOW flower, flower center, petals and a simple bare green stem intact. Fill the small painted-leaf areas with the same wrinkled cream paper texture. The old paper MUST remain wrinkled and wet, with the existing droplets; do not repair or replace the paper. Preserve every live character's exact face, clothes, pose, paws, the blue bowl, orange bubble ring, wiping cloth, pencils, table, outdoor trees and natural foliage. Change ONLY the painted leaves on the old paper. Keep the original lighting, composition and warm handcrafted 3D style. No visible text, no new objects.",
+      "review": "accepted"
+    },
+    {
+      "bookId": "de-yi-wang-xing",
+      "page": 18,
+      "mode": "revision",
+      "imageFile": "18-v2.webp",
+      "sourcePath": "/Users/valleylmh/.codex/generated_images/01a12137-803b-7073-8e33-f0452da8da70/exec-6479fc25-fae2-48d3-b1bd-777e92d7dca6.png",
+      "imageUrl": "/library/chengyu/de-yi-wang-xing/18-v2.webp",
+      "reason": "旧画只有花和茎，新画在第十四页后才增加两片叶子",
+      "prompt": "Use case: precise-object-edit\nEdit ONLY the plant DRAWING on the OLD WRINKLED cream paper lying flat in the lower-left foreground in this square picture-book illustration. Remove the TWO painted green LEAVES from its green stem, leaving the YELLOW flower, flower center, petals and a simple bare green stem intact. Fill the small painted-leaf areas with the same wrinkled cream paper texture. The old paper MUST remain wrinkled; do not repair or replace the paper. The NEW clean drawing held upright by Rabbit must KEEP its two green leaves, untouched. Preserve every live character's exact face, clothes, pose, paws, the blue bowl, orange bubble ring, wiping cloth, pencils, table, outdoor trees and natural foliage. Change ONLY the painted leaves on the old paper. Keep the original lighting, composition and warm handcrafted 3D style. No visible text, no new objects.",
+      "review": "accepted"
+    }
+  ]
+}

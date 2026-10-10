@@ -1,6 +1,7 @@
 import "server-only";
 import { createHash } from "node:crypto";
 import manifest from "../../miniprogram/chinese-audio-manifest.json";
+import commonIdiomManifest from "../../content-drafts/chengyu/chengyu-71-80-audio.json";
 import latestProverbManifest from "../../content-drafts/chengyu/chengyu-66-70-audio.json";
 import nextLocalManifest from "../../content-drafts/chengyu/chengyu-61-65-audio.json";
 import localManifest from "../../content-drafts/chengyu/chengyu-51-60-audio.json";
@@ -20,7 +21,7 @@ export function getLibraryChineseAudio(seriesId: string, bookId: string, pages: 
   const key = `${assetSeriesId}/${bookId}`;
   const audio = (manifest as Record<string, BookAudio>)[key];
   if (audio?.contentHash === hash && validBookAudio(audio, pages.length)) return audio;
-  const local = (qinziLocalManifest as Record<string, BookAudio>)[key] ?? (richangLocalManifest as Record<string, BookAudio>)[key] ?? (latestProverbManifest as Record<string, BookAudio>)[key] ?? (haoqiLocalManifest as Record<string, BookAudio>)[key] ?? (qicheLocalManifest as Record<string, BookAudio>)[key] ?? (nextLocalManifest as Record<string, BookAudio>)[key] ?? (localManifest as Record<string, BookAudio>)[key];
+  const local = (commonIdiomManifest as Record<string, BookAudio>)[key] ?? (qinziLocalManifest as Record<string, BookAudio>)[key] ?? (richangLocalManifest as Record<string, BookAudio>)[key] ?? (latestProverbManifest as Record<string, BookAudio>)[key] ?? (haoqiLocalManifest as Record<string, BookAudio>)[key] ?? (qicheLocalManifest as Record<string, BookAudio>)[key] ?? (nextLocalManifest as Record<string, BookAudio>)[key] ?? (localManifest as Record<string, BookAudio>)[key];
   // Bundled files are served by the current site, including localhost previews.
   // Validate their exact content-addressed path before reusing the timing validator.
   if (local?.contentHash === hash &&

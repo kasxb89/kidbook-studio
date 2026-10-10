@@ -19,7 +19,7 @@ async function main() {
     const missing: number[] = [], tiles = [];
     let imageBytes = 0;
     for (let index = 0; index < book.pages.length; index++) {
-      const filename = path.join(root, "public/library/chengyu", book.id, `${index + 1}.webp`);
+      const filename = path.join(root, "public/library/chengyu", book.id, book.pages[index].imageFile ?? `${index + 1}.webp`);
       try {
         const bytes = await readFile(filename);
         const info = await sharp(bytes).metadata();

@@ -1,0 +1,172 @@
+{
+  "batch": "chengyu-71-80",
+  "checkedAt": "2026-10-10",
+  "status": "passed",
+  "books": 10,
+  "pages": 192,
+  "checks": {
+    "approvedTitleOrder": true,
+    "uniqueBookIds": true,
+    "noExistingTitleOrIdConflict": true,
+    "consecutivePageNumbers": true,
+    "nonemptyBilingualTextAndScenes": true,
+    "noDuplicatePageTextWithinBook": true,
+    "childReadAloudLengthScreen": true,
+    "markdownMatchesStructuredText": true,
+    "creationDateDistinctFromPublication": true,
+    "promptKitMatchesPageScenesAndExactCast": true,
+    "selectedVersionedArtworkExists": true
+  },
+  "sha256InputNote": "zhTextSha256 is SHA-256 of UTF-8 Chinese page text joined by LF; not an audio contentHash.",
+  "files": {
+    "chengyu-71-80.json": "149059bbf767df6c052a92488243c9f68297da1be5895badd14b95de96776f6c",
+    "chengyu-71-80-manuscript.md": "ccc13ff18a169c2755c1f30604f8a19f71e261f11bb79c0d8d43df0168bc08a1",
+    "chengyu-71-80-image-prompts.json": "ebf926abbac83d1b5d54e4bdd10c7ab64aaedd03f1ed3c4ae10c23c555df01ae"
+  },
+  "bookReports": [
+    {
+      "id": "ban-tu-er-fei",
+      "title": "半途而废",
+      "pages": 20,
+      "zhCharacterRange": [
+        21,
+        36
+      ],
+      "enWordRange": [
+        13,
+        23
+      ],
+      "zhTextSha256": "26ed0e57a7fb9effdae0a41d34320d283a0a2eb854d1ab6bfaf6e7750a6215b7"
+    },
+    {
+      "id": "yi-nuo-qian-jin",
+      "title": "一诺千金",
+      "pages": 22,
+      "zhCharacterRange": [
+        25,
+        34
+      ],
+      "enWordRange": [
+        12,
+        20
+      ],
+      "zhTextSha256": "ee3a00b159ab745e6f3b331891f33179ec0a6198a21601fa2576f04a13ebf267"
+    },
+    {
+      "id": "xue-zhong-song-tan",
+      "title": "雪中送炭",
+      "pages": 20,
+      "zhCharacterRange": [
+        21,
+        32
+      ],
+      "enWordRange": [
+        11,
+        23
+      ],
+      "zhTextSha256": "2c1890ad7a6674f567e2636219329f21792c01a78430f400ff0ad52ca4dde701"
+    },
+    {
+      "id": "qu-chang-bu-duan",
+      "title": "取长补短",
+      "pages": 20,
+      "zhCharacterRange": [
+        22,
+        38
+      ],
+      "enWordRange": [
+        12,
+        19
+      ],
+      "zhTextSha256": "74e81acdb88b590d8ac0ff3fafc1c442169844fda793f945a405ef6d65b817ee"
+    },
+    {
+      "id": "jiang-xin-bi-xin",
+      "title": "将心比心",
+      "pages": 18,
+      "zhCharacterRange": [
+        25,
+        34
+      ],
+      "enWordRange": [
+        13,
+        22
+      ],
+      "zhTextSha256": "f32b546ea9abf7e9006ec423c5b582c96ea0a09f9ee0b68a9a1aa06b5a949a85"
+    },
+    {
+      "id": "yi-ju-liang-de",
+      "title": "一举两得",
+      "pages": 20,
+      "zhCharacterRange": [
+        25,
+        36
+      ],
+      "enWordRange": [
+        14,
+        21
+      ],
+      "zhTextSha256": "9cd3b6b01d82aceee73131e37231d1ea99221cbeb5514b78169f794b11157dfc"
+    },
+    {
+      "id": "jing-jing-you-tiao",
+      "title": "井井有条",
+      "pages": 18,
+      "zhCharacterRange": [
+        25,
+        37
+      ],
+      "enWordRange": [
+        13,
+        23
+      ],
+      "zhTextSha256": "4fd5aa8fa20663434d8cb5f291c0537171a3a895d98ad255aa44133300329588"
+    },
+    {
+      "id": "shi-ban-gong-bei",
+      "title": "事半功倍",
+      "pages": 20,
+      "zhCharacterRange": [
+        22,
+        31
+      ],
+      "enWordRange": [
+        13,
+        21
+      ],
+      "zhTextSha256": "986869b395a073c330f49ebb6119b79a13cb02a8a78f3222833f37be60d5dad6"
+    },
+    {
+      "id": "de-yi-wang-xing",
+      "title": "得意忘形",
+      "pages": 18,
+      "zhCharacterRange": [
+        21,
+        37
+      ],
+      "enWordRange": [
+        11,
+        24
+      ],
+      "zhTextSha256": "229c85e47d9abe9bdd6f49b558e697ad7c2dca7e60be07691cd28b8c73e8066b"
+    },
+    {
+      "id": "mang-ren-mo-xiang",
+      "title": "盲人摸象",
+      "pages": 16,
+      "zhCharacterRange": [
+        24,
+        37
+      ],
+      "enWordRange": [
+        11,
+        25
+      ],
+      "zhTextSha256": "fc2f391508d069ef3eacf3ce33756bf4c7265504e7df982f08e3157044c98b8f"
+    }
+  ],
+  "limitations": [
+    "未进行教师内容复核或儿童共读反馈。",
+    "技术验证不代表教师听审或真机验收。"
+  ]
+}

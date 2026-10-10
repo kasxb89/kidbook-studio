@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-10-10",
+  "browser": "Tabbit",
+  "scope": "native MP3 playback and shared book reader",
+  "asset": "/library/chengyu/ban-tu-er-fei/zh-8fc1cd2589e8c0c3.mp3",
+  "duration": 120.876,
+  "observedPlayingPosition": 35.76,
+  "seekTarget": 94.008,
+  "seekPassedPositionThreshold": 95.008,
+  "endState": {
+    "currentTime": 120.876,
+    "duration": 120.876,
+    "ended": true,
+    "paused": true,
+    "loop": false,
+    "playbackRate": 1,
+    "readyState": 4,
+    "error": null
+  },
+  "muted": true,
+  "checks": {
+    "actualBrowserPlayback": true,
+    "middlePageSeek": true,
+    "normalEndObserved": true,
+    "sharedReaderAutoAdvance": true,
+    "sharedReaderPageSeek": true,
+    "usesPregeneratedChineseAudio": true,
+    "sharedReaderStopsOnFinalPage": true,
+    "mobileViewportNoHorizontalOverflow": true
+  },
+  "limitations": [
+    "技术检查不代替真人发音听审或儿童共读反馈。",
+    "未进行实体手机验收。"
+  ],
+  "readerPlayback": {
+    "bookId": "yi-nuo-qian-jin",
+    "duration": 137.58,
+    "initialObservedTime": 2.844349,
+    "autoAdvancedToPage": 2,
+    "seekToPage": 12,
+    "seekObservedTime": 67.409059,
+    "cloudNarrationRequests": 0,
+    "mediaHttpStatus": 206,
+    "browserErrors": []
+  },
+  "mobileReader": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "bookId": "yi-nuo-qian-jin",
+    "lastPage": 22,
+    "lastPageObservedTime": 130.486873,
+    "duration": 137.58,
+    "finalObservedTime": 137.58,
+    "ended": true,
+    "paused": true,
+    "readerState": "ended",
+    "audioError": null,
+    "horizontalOverflow": false,
+    "documentWidth": 390
+  }
+}

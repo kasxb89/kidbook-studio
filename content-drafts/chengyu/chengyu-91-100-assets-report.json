@@ -1,0 +1,112 @@
+[
+  {
+    "id": "wen-gu-zhi-xin",
+    "title": "温故知新",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2753528,
+    "audioBytes": 780525,
+    "audioSeconds": 97.476,
+    "audioVerified": true
+  },
+  {
+    "id": "bu-chi-xia-wen",
+    "title": "不耻下问",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2817148,
+    "audioBytes": 820461,
+    "audioSeconds": 102.468,
+    "audioVerified": true
+  },
+  {
+    "id": "ji-si-guang-yi",
+    "title": "集思广益",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3264580,
+    "audioBytes": 832365,
+    "audioSeconds": 103.956,
+    "audioVerified": true
+  },
+  {
+    "id": "jian-ting-ze-ming",
+    "title": "兼听则明",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3022270,
+    "audioBytes": 759213,
+    "audioSeconds": 94.812,
+    "audioVerified": true
+  },
+  {
+    "id": "shi-shi-qiu-shi",
+    "title": "实事求是",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3188538,
+    "audioBytes": 820653,
+    "audioSeconds": 102.492,
+    "audioVerified": true
+  },
+  {
+    "id": "liang-li-er-xing",
+    "title": "量力而行",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2872548,
+    "audioBytes": 795309,
+    "audioSeconds": 99.324,
+    "audioVerified": true
+  },
+  {
+    "id": "chi-zhi-yi-heng",
+    "title": "持之以恒",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 3259250,
+    "audioBytes": 857133,
+    "audioSeconds": 107.052,
+    "audioVerified": true
+  },
+  {
+    "id": "jian-xian-si-qi",
+    "title": "见贤思齐",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2595224,
+    "audioBytes": 812973,
+    "audioSeconds": 101.532,
+    "audioVerified": true
+  },
+  {
+    "id": "li-shang-wang-lai",
+    "title": "礼尚往来",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2944698,
+    "audioBytes": 801261,
+    "audioSeconds": 100.068,
+    "audioVerified": true
+  },
+  {
+    "id": "kai-cheng-bu-gong",
+    "title": "开诚布公",
+    "pages": 18,
+    "images": 18,
+    "missing": [],
+    "imageBytes": 2458082,
+    "audioBytes": 868461,
+    "audioSeconds": 108.468,
+    "audioVerified": true
+  }
+]

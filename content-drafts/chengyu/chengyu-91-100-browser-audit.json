@@ -1,0 +1,79 @@
+{
+  "batch": "chengyu-91-100",
+  "checkedAt": "2026-10-11T02:31:44.983090+00:00",
+  "books": 10,
+  "pagesPerBook": 18,
+  "cloudRequests": [],
+  "results": [
+    {
+      "id": "wen-gu-zhi-xin",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/wen-gu-zhi-xin/zh-af6bfef27908610d.mp3",
+      "duration": 97.476,
+      "pausedCleanly": true
+    },
+    {
+      "id": "bu-chi-xia-wen",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/bu-chi-xia-wen/zh-b2b32c36b977d72a.mp3",
+      "duration": 102.468,
+      "pausedCleanly": true
+    },
+    {
+      "id": "ji-si-guang-yi",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/ji-si-guang-yi/zh-2c196267430f7dbd.mp3",
+      "duration": 103.956,
+      "pausedCleanly": true
+    },
+    {
+      "id": "jian-ting-ze-ming",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/jian-ting-ze-ming/zh-fbc769faddc99c9e.mp3",
+      "duration": 94.812,
+      "pausedCleanly": true
+    },
+    {
+      "id": "shi-shi-qiu-shi",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/shi-shi-qiu-shi/zh-971379a9ae62b7b1.mp3",
+      "duration": 102.492,
+      "pausedCleanly": true
+    },
+    {
+      "id": "liang-li-er-xing",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/liang-li-er-xing/zh-c48ae48e512b71eb.mp3",
+      "duration": 99.324,
+      "pausedCleanly": true
+    },
+    {
+      "id": "chi-zhi-yi-heng",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/chi-zhi-yi-heng/zh-21fed11322b2d278.mp3",
+      "duration": 107.052,
+      "pausedCleanly": true
+    },
+    {
+      "id": "jian-xian-si-qi",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/jian-xian-si-qi/zh-d38bc0b03e2f0d5b.mp3",
+      "duration": 101.532,
+      "pausedCleanly": true
+    },
+    {
+      "id": "li-shang-wang-lai",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/li-shang-wang-lai/zh-d7dfb043721dbf29.mp3",
+      "duration": 100.068,
+      "pausedCleanly": true
+    },
+    {
+      "id": "kai-cheng-bu-gong",
+      "page18ImageLoaded": true,
+      "audioUrl": "/library/chengyu/kai-cheng-bu-gong/zh-6fc9396e5f25f2f9.mp3",
+      "duration": 108.468,
+      "pausedCleanly": true
+    }
+  ]
+}

@@ -38,7 +38,7 @@ describe("second batch of ancient-character idiom picture books", () => {
   });
 
   it("serves the selected art and includes these ten books in the existing idiom library", () => {
-    expect(getSeries("chengyu")?.bookCount).toBe(74);
+    expect(getSeries("chengyu")?.bookCount).toBe(84);
     expect(getSeries("yanyu")?.bookCount).toBe(16);
     for (const draft of drafts) {
       const book = getBook("chengyu", draft.id);

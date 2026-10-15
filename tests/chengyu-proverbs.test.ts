@@ -31,7 +31,7 @@ const latestBooks = asBooks(latestDrafts);
 describe("approved proverb and eight-character idiom books", () => {
   it("separates proverbs from idioms while preserving complete artwork", () => {
     expect(getSeries("chengyu")?.title).toBe("成语故事");
-    expect(getSeries("chengyu")?.bookCount).toBe(74);
+    expect(getSeries("chengyu")?.bookCount).toBe(84);
     expect(getSeries("yanyu")?.title).toBe("谚语故事");
     expect(getSeries("yanyu")?.bookCount).toBe(16);
     for (const draft of [...books, ...nextBooks, ...latestBooks]) {

@@ -1,0 +1,2248 @@
+[
+  {
+    "id": "wen-gu-zhi-xin",
+    "title": "温故知新",
+    "subtitle": "旧书里的新发现",
+    "order": 91,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "阿祁、先生与整理竹筹的情节为虚构。通过重看旧记录、重做配对数物练习，发现摆放间距与数量不同，表现复习带来的新理解。",
+    "moral": {
+      "zh": "重做熟悉的练习时，也可以问问为什么，发现从前没想明白的地方。",
+      "en": "When you revisit a familiar lesson, ask why and notice something you did not understand before."
+    },
+    "idiomMeaning": {
+      "zh": "复习已经学过的知识，从中获得新的理解。",
+      "en": "Review what you have learned and gain a fresh understanding."
+    },
+    "everydayExample": {
+      "zh": "把旧课重看一遍，又有了新发现，这就是温故知新。",
+      "en": "Reviewing an old lesson and discovering something new is learning afresh from what we already know."
+    },
+    "visualAnchor": "Complete ancient Chinese village school with timber pillars, gray tiled roof, latticed windows, low wooden desks and a sunlit level courtyard. Warm rounded tactile 3D picture-book art. A Qi and his teacher keep the exact same faces, robes and hairstyles. Recurring props: one ochre clothbound notebook with simple object sketches but no readable writing; four plain wooden blocks and four slender bamboo counting rods; one shallow wicker tray. No modern school objects.",
+    "characterSpecs": {
+      "C": "A Qi, a Chinese boy about 8 with a round face, dark eyes, a small neat black topknot, muted teal cross-collar robe, beige cloth sash and brown cloth shoes.",
+      "T": "His Chinese male teacher about 50 with an oval face, a short black-and-gray beard and dark low topknot, slate-blue cross-collar robe, cream sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "阿祁在书架下找出一本旧小记，封面的布角已经软软的。",
+        "en": "A Qi found an old notebook beneath the bookshelf. Its cloth cover was soft at the corners.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy retrieves the ochre clothbound notebook beside the teacher in the complete ancient village school.",
+        "imageFile": "1-v2.webp"
+      },
+      {
+        "page": 2,
+        "zh": "“这是我从前学数东西时用的。”他抱着小记坐到先生身边。",
+        "en": "“I used this when I first learned to count things,” he said, sitting beside his teacher.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy sits with the closed old notebook beside teacher at the low wooden desk.",
+        "imageFile": "2-v2.webp"
+      },
+      {
+        "page": 3,
+        "zh": "书里画着小木块和竹筹，阿祁一下子想起了以前的练习。",
+        "en": "Sketches of wooden blocks and bamboo rods reminded A Qi of an earlier lesson.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Both inspect simple unlettered block-and-rod sketches in the opened ochre notebook.",
+        "imageFile": "3-v2.webp"
+      },
+      {
+        "page": 4,
+        "zh": "先生拿来四块小木块，又把四根竹筹轻轻放在桌上。",
+        "en": "The teacher brought four wooden blocks and laid four bamboo rods on the table.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher places exactly four plain wooden blocks and four bamboo rods on the desk, notebook open nearby."
+      },
+      {
+        "page": 5,
+        "zh": "阿祁把一根筹放在一块木块旁边，很快就排好了四对。",
+        "en": "A Qi placed one rod beside each block. Soon there were four matching pairs.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy arranges exactly four block-and-rod pairs while teacher observes; no extra rods or blocks."
+      },
+      {
+        "page": 6,
+        "zh": "“这个我会！”阿祁笑了。先生问：“为什么一块配一根呢？”",
+        "en": "“I know this!” A Qi smiled. “Why match one rod with one block?” asked the teacher.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher asks gently as boy smiles beside the four completed pairs.",
+        "imageFile": "6-v2.webp"
+      },
+      {
+        "page": 7,
+        "zh": "阿祁想了想：“这样，每一块都能点到，也不会点两次。”",
+        "en": "A Qi thought. “Then I can count every block without counting one twice.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy considers the four matched pairs, one hand pointing to a single pair, teacher listening."
+      },
+      {
+        "page": 8,
+        "zh": "先生没有添木块，只把它们之间的空隙拉大了一点。",
+        "en": "Without adding any blocks, the teacher spread them a little farther apart.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher spaces the same four blocks farther apart; keep the same four rods and no additional objects."
+      },
+      {
+        "page": 9,
+        "zh": "阿祁望着长长的一排，小声说：“看起来，好像多了些。”",
+        "en": "A Qi looked at the longer row. “It looks as though there are more.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy studies the longer row of the same four blocks with a thoughtful expression."
+      },
+      {
+        "page": 10,
+        "zh": "“先别急着说多了。”先生请他再用竹筹配一配。",
+        "en": "“Let's check before deciding,” said the teacher. “Match the rods with them again.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher gestures toward the four bamboo rods beside the widened row of four wooden blocks."
+      },
+      {
+        "page": 11,
+        "zh": "阿祁一块一块地配。四根竹筹刚好用完，没有多，也没有少。",
+        "en": "A Qi matched them one by one. All four rods fitted, with none extra or missing.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy completes four widely spaced matching pairs, checking each carefully."
+      },
+      {
+        "page": 12,
+        "zh": "他又把木块拢近些，点了一遍，还是原来的四块。",
+        "en": "He moved the blocks closer and counted again. There were still the same four.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy brings the four blocks closer and checks them; four rods remain visibly accounted for."
+      },
+      {
+        "page": 13,
+        "zh": "“原来，摆得长一些，不等于东西变多了。”阿祁抬起头。",
+        "en": "“So a longer row does not mean there are more things!” A Qi looked up.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy looks up toward teacher after comparing the compact arrangement with the earlier wide spacing, one coherent scene."
+      },
+      {
+        "page": 14,
+        "zh": "先生笑着点头：“从前学的办法，还能帮你想明白新的问题。”",
+        "en": "The teacher nodded. “A lesson you already know can help you understand a new question.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher nods beside boy and the four block-and-rod pairs on the low school desk.",
+        "imageFile": "14-v2.webp"
+      },
+      {
+        "page": 15,
+        "zh": "阿祁重新翻开旧小记。这回，他想的不只是怎样排好竹筹。",
+        "en": "A Qi opened the old notebook again. This time, he thought beyond arranging the rods.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy revisits the unlettered notebook sketches with the teacher, four blocks and rods still on the table.",
+        "imageFile": "15-v2.webp"
+      },
+      {
+        "page": 16,
+        "zh": "他还想看看：这些办法为什么有用，换个样子又会怎样。",
+        "en": "He wanted to know why the method worked and what happened when things were arranged differently.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Boy thoughtfully compares notebook sketches with the same four real blocks and rods."
+      },
+      {
+        "page": 17,
+        "zh": "午后的光落在旧书上。阿祁觉得，熟悉的一页也有新的发现。",
+        "en": "Afternoon light fell across the old book. A familiar page had brought him a fresh discovery.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Warm closing school scene with both people and the opened ochre notebook, sunlight through lattice windows."
+      },
+      {
+        "page": 18,
+        "zh": "温故知新，是重温已经学过的知识，从中获得新的理解。",
+        "en": "Reviewing what we have learned can bring us a new understanding.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Both calmly revisit the old notebook at the low desk, the same four matching pairs neatly nearby."
+      }
+    ]
+  },
+  {
+    "id": "bu-chi-xia-wen",
+    "title": "不耻下问",
+    "subtitle": "年纪小，也能教我",
+    "order": 92,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "文青、小蓁和先生为虚构人物。采用向年纪更小的熟悉同伴请教折纸的情境；“不耻”指愿意谦虚请教，不对不会的孩子作羞辱或能力排名。",
+    "moral": {
+      "zh": "每个人都有会做的事，向年纪小的人认真请教，也能学到新办法。",
+      "en": "Everyone knows something. Asking someone younger can help us learn a new way."
+    },
+    "idiomMeaning": {
+      "zh": "向比自己年纪小、地位低或学识不如自己的人请教，不觉得可耻。",
+      "en": "Be willing to learn from someone younger, of lower status, or with less knowledge than yourself, without feeling ashamed."
+    },
+    "everydayExample": {
+      "zh": "弟弟会的折法我还不会，我向他请教，也是不耻下问。",
+      "en": "My younger brother knows a fold I do not. I can learn by asking him."
+    },
+    "visualAnchor": "An ancient village school's quiet level courtyard with timber veranda, gray tiled roof, stone paving and one low wooden folding table. Warm rounded tactile 3D picture-book style. Fixed characters Wen Qing in moss green, Xiao Zhen in pale apricot, and teacher in indigo. Paper boats use plain pale-ochre paper only: one boy's unfinished boat and one younger girl's finished boat, later the boy's improved boat. No water or launching scene.",
+    "characterSpecs": {
+      "C": "Wen Qing, a Chinese boy about 8 with an oval face, dark eyes and neat small topknot, moss-green cross-collar robe, cream sash and brown cloth shoes.",
+      "Y": "Xiao Zhen, a Chinese girl about 6 with a round face, dark eyes and two low buns tied with plum cords, pale-apricot cross-collar robe, dusty-rose sash and brown cloth shoes.",
+      "T": "A Chinese female teacher about 45 with a gentle oval face and dark low hair bun, indigo cross-collar robe, beige sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "文青坐在院里的小桌旁，想折一只底边平平的纸舟。",
+        "en": "Wen Qing sat at the little courtyard table, hoping to fold a paper boat with a flat base.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Boy begins folding plain pale-ochre paper at a low table in the ancient school courtyard."
+      },
+      {
+        "page": 2,
+        "zh": "纸角绕来绕去，他刚把一边压好，另一边又松开了。",
+        "en": "He folded and pressed the corners, but one side loosened whenever he fixed the other.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Boy examines his partly folded pale-ochre paper boat with one loose corner."
+      },
+      {
+        "page": 3,
+        "zh": "文青再试一次，纸舟还是歪歪的，摆在桌上站不稳。",
+        "en": "He tried again. The crooked boat still would not sit steadily on the table.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Boy sets his unstable unfinished paper boat on the table; no finished boat of his yet."
+      },
+      {
+        "page": 4,
+        "zh": "小蓁从廊下走来，把自己折好的小纸舟放到桌边。",
+        "en": "Xiao Zhen came from the veranda and placed her finished little boat beside him.",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Younger girl arrives with one neat completed pale-ochre paper boat; boy's loose boat stays separate."
+      },
+      {
+        "page": 5,
+        "zh": "她的纸舟底边平平，轻轻放下，就稳稳地停在那里。",
+        "en": "Her boat had a flat base. It sat steadily when she set it down.",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Both study girl's neat stable boat beside boy's partly loose boat, full courtyard background."
+      },
+      {
+        "page": 6,
+        "zh": "文青看了看她，又看了看自己的纸角，想问，却没开口。",
+        "en": "Wen Qing looked at her, then at his loose corner. He wanted to ask but stayed quiet.",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Boy hesitates thoughtfully beside younger girl and their two differently finished paper boats."
+      },
+      {
+        "page": 7,
+        "zh": "“她比我小……”文青心里嘀咕，“向她问，会不会不好意思？”",
+        "en": "“She's younger than I am,” he thought. “Would it feel embarrassing to ask her?”",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Boy quietly considers asking the younger girl; no speech bubbles or imagined inset."
+      },
+      {
+        "page": 8,
+        "zh": "先生走到桌旁，笑着说：“年纪小的人，也会有你还不会的事。”",
+        "en": "The teacher joined them. “Someone younger may know something you have not learned yet.”",
+        "castCodes": [
+          "C",
+          "Y",
+          "T"
+        ],
+        "prompt": "Indigo-robed teacher joins both children at the folding table, their two boats still distinct."
+      },
+      {
+        "page": 9,
+        "zh": "文青点点头，转向小蓁：“你能教我，怎样把这个角折稳吗？”",
+        "en": "Wen Qing nodded. “Could you show me how to make this corner stay in place?”",
+        "castCodes": [
+          "C",
+          "Y",
+          "T"
+        ],
+        "prompt": "Older boy politely asks younger girl, pointing at one loose corner of his own boat; teacher listens."
+      },
+      {
+        "page": 10,
+        "zh": "“可以呀。”小蓁把自己的纸舟轻轻展开，指给他看先折哪边。",
+        "en": "“Of course.” Xiao Zhen gently opened her boat to show him which side to fold first.",
+        "castCodes": [
+          "C",
+          "Y",
+          "T"
+        ],
+        "prompt": "Younger girl partially unfolds her own pale-ochre paper boat to demonstrate the first fold."
+      },
+      {
+        "page": 11,
+        "zh": "文青认真看着，一步没有看清，便请她再慢慢做一遍。",
+        "en": "Wen Qing watched carefully. When he missed a step, he asked her to show it slowly again.",
+        "castCodes": [
+          "C",
+          "Y",
+          "T"
+        ],
+        "prompt": "Girl repeats one simple fold slowly while boy watches attentively, teacher nearby.",
+        "imageFile": "11-v2.webp"
+      },
+      {
+        "page": 12,
+        "zh": "小蓁先对齐两条边，再压住小角。文青照着她的办法试了试。",
+        "en": "Xiao Zhen aligned two edges and pressed the little corner. Wen Qing tried it the same way.",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Both children align paper edges at the low table; boy's boat is still being corrected."
+      },
+      {
+        "page": 13,
+        "zh": "这一次，小角没有滑开。文青轻轻压平底边，又检查了一遍。",
+        "en": "This time the corner stayed put. Wen Qing flattened the base and checked it once more.",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Boy smooths the base of his nearly completed pale-ochre boat while girl watches."
+      },
+      {
+        "page": 14,
+        "zh": "他把纸舟放在桌上，慢慢松开手。小纸舟终于站稳了。",
+        "en": "He placed the boat on the table and slowly let go. At last it sat steadily.",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Boy's newly improved paper boat stands steadily; girl's re-folded boat is beside it."
+      },
+      {
+        "page": 15,
+        "zh": "“谢谢你！”文青笑了，“刚才不好意思问，差点错过这个办法。”",
+        "en": "“Thank you!” Wen Qing smiled. “I almost missed your helpful idea because I was shy about asking.”",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Boy warmly thanks younger girl beside their two stable paper boats, complete courtyard scene.",
+        "imageFile": "15-v2.webp"
+      },
+      {
+        "page": 16,
+        "zh": "小蓁也笑了：“下次我有不会的，也想来问问你。”",
+        "en": "Xiao Zhen smiled too. “When I need help, I'd like to ask you as well.”",
+        "castCodes": [
+          "C",
+          "Y"
+        ],
+        "prompt": "Younger girl smiles back at boy, both hands relaxed near their two finished paper boats.",
+        "imageFile": "16-v2.webp"
+      },
+      {
+        "page": 17,
+        "zh": "两只纸舟并排停着。文青觉得，认真请教，比闷着头发愁好多了。",
+        "en": "The boats sat side by side. Asking carefully felt much better than worrying alone.",
+        "castCodes": [
+          "C",
+          "Y",
+          "T"
+        ],
+        "prompt": "Teacher and both children admire the two completed paper boats at the courtyard table."
+      },
+      {
+        "page": 18,
+        "zh": "不耻下问，是向比自己年幼或地位、学识不如自己的人请教，也不觉得可耻。",
+        "en": "We need not feel ashamed to learn from someone younger, of lower status, or with less knowledge than ourselves.",
+        "castCodes": [
+          "C",
+          "Y",
+          "T"
+        ],
+        "prompt": "Warm closing courtyard scene of children sharing what they know while the teacher listens."
+      }
+    ]
+  },
+  {
+    "id": "ji-si-guang-yi",
+    "title": "集思广益",
+    "subtitle": "读书亭怎样更舒服",
+    "order": 93,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "若宁、伙伴、祖母与村口读书亭为虚构。讨论着重收集、比较和综合不同需要；安装遮阳布与稳固木凳由木匠完成，孩子只参与轻便布置。",
+    "moral": {
+      "zh": "先听听大家各自发现了什么，再把适合的想法放在一起，办法会更周全。",
+      "en": "Listen to what others have noticed and combine the ideas that fit to make a more thoughtful plan."
+    },
+    "idiomMeaning": {
+      "zh": "集中大家的想法，让办法更完善。",
+      "en": "Bring together different people's ideas to make a better plan."
+    },
+    "everydayExample": {
+      "zh": "怎样布置共读角？大家集思广益，一起想个周全的办法。",
+      "en": "How should we arrange our reading corner? Let's gather ideas and make a thoughtful plan."
+    },
+    "visualAnchor": "Ancient village entrance with one low timber reading pavilion on level stone paving, gray tiled roof, broad safe walking path, surrounding willow shade and complete courtyard background. Fixed pale-yellow-robed Ruo Ning, rust-robed boy friend, plum-robed grandmother, indigo-robed carpenter. Props: one low bench, one cream side awning which is absent until carpenter installs it, one light wicker book basket. No text on diagrams or books and no child installation work.",
+    "characterSpecs": {
+      "C": "Ruo Ning, a Chinese girl about 8 with rounded cheeks, dark eyes and two low dark buns tied with teal cords, pale-yellow cross-collar robe, teal sash and brown cloth shoes.",
+      "F": "Her Chinese boy friend about 8 with a round face and small dark topknot, rust-orange cross-collar robe, cream sash and brown cloth shoes.",
+      "G": "Her Chinese grandmother about 65 with a gentle round face and silver low bun, plum cross-collar robe, tan apron and dark cloth shoes.",
+      "W": "A Chinese carpenter about 40 with an oval face, short beard and neat dark topknot, indigo cross-collar robe, beige cloth apron and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "村口有座小亭子，若宁和伙伴想在这里放几本书，让人坐下读一读。",
+        "en": "There was a little pavilion at the village entrance. Ruo Ning and her friend hoped to make it a reading spot.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Two children discuss the still-undecorated timber pavilion on a level village path."
+      },
+      {
+        "page": 2,
+        "zh": "午后的阳光斜斜照进来。若宁刚坐下，就抬手挡了挡眼睛。",
+        "en": "Afternoon sunlight slanted inside. Ruo Ning raised a hand to shade her eyes as she sat down.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Girl experiences slanting sunshine on the undecorated pavilion's low bench, boy nearby."
+      },
+      {
+        "page": 3,
+        "zh": "“挂一块布，把这一边遮住吧。”她想，遮住太阳就舒服了。",
+        "en": "“Let's hang some cloth on this side,” she suggested. Shade would make reading more comfortable.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Girl points toward the sunlit side; no awning or hanging cloth is installed yet."
+      },
+      {
+        "page": 4,
+        "zh": "伙伴站到另一边，发现风正从亭子两侧轻轻穿过去。",
+        "en": "Her friend stood on the other side and felt a breeze passing through the pavilion.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Boy notices a gentle cross-breeze through the pavilion's open sides, girl listens."
+      },
+      {
+        "page": 5,
+        "zh": "“遮住这一边，风还能从哪里进来呢？”他把自己的想法说出来。",
+        "en": "“If we shade this side, where will the breeze come in?” he asked.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "The rust-robed boy considers where the breeze could enter if the sunny side is shaded; Ruo Ning listens inside the open timber pavilion, no awning yet."
+      },
+      {
+        "page": 6,
+        "zh": "若宁想了想：“原来，我只顾着挡太阳，还没想到风怎么进来呢。”",
+        "en": "Ruo Ning thought. “I was thinking about the sun. I hadn’t considered where the breeze would come in.”",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Girl considers both shade and airflow while looking around the open pavilion."
+      },
+      {
+        "page": 7,
+        "zh": "祖母来歇脚，慢慢坐下：“凳子也要稳，脚下的路得留出来。”",
+        "en": "Grandmother stopped to rest. “The bench must be steady, and the path should stay clear.”",
+        "castCodes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "prompt": "Grandmother joins children and carefully checks the low pavilion bench and clear level path."
+      },
+      {
+        "page": 8,
+        "zh": "她指指亭口。来往的人经过这里，需要有地方慢慢走过去。",
+        "en": "She pointed to the entrance. People passing by needed enough room to walk through.",
+        "castCodes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "prompt": "Grandmother gestures toward the empty broad entrance path; no extra passersby or crowd."
+      },
+      {
+        "page": 9,
+        "zh": "若宁没有马上决定。她请大家说说，各自最在意的是什么。",
+        "en": "Ruo Ning did not decide at once. She asked what mattered most to each of them.",
+        "castCodes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "prompt": "Three people calmly share priorities in the undecorated pavilion."
+      },
+      {
+        "page": 10,
+        "zh": "他们把几条想法放在一起：遮阳、通风、坐稳，还要留出通路。",
+        "en": "They brought their ideas together: shade, a breeze, steady seating, and a clear path.",
+        "castCodes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "prompt": "Three people compare a simple unlettered layout sketch showing bench, open path and one shaded side."
+      },
+      {
+        "page": 11,
+        "zh": "木匠听完，走进亭子看了看：“只遮最晒的那一侧，怎么样？”",
+        "en": "A carpenter listened and looked around. “What if we shade only the sunniest side?”",
+        "castCodes": [
+          "C",
+          "F",
+          "G",
+          "W"
+        ],
+        "prompt": "Carpenter joins the three people, surveying the still-open pavilion; no installed awning yet."
+      },
+      {
+        "page": 12,
+        "zh": "“另一侧留着风口，凳子靠里面，亭口也不放东西。”大家点点头。",
+        "en": "“Leave the other side open, move the bench inward, and keep the entrance clear.” Everyone nodded.",
+        "castCodes": [
+          "C",
+          "F",
+          "G",
+          "W"
+        ],
+        "prompt": "Four people agree on the simple arrangement, indicating shaded side and open entrance without doing heavy work."
+      },
+      {
+        "page": 13,
+        "zh": "木匠把遮阳布装稳，又检查木凳。孩子们在旁边等他做完。",
+        "en": "The carpenter secured the shade cloth and checked the bench. The children waited until he finished.",
+        "castCodes": [
+          "C",
+          "F",
+          "W"
+        ],
+        "prompt": "Adult carpenter installs one cream side awning and steadies the low bench; children watch from a clear space."
+      },
+      {
+        "page": 14,
+        "zh": "若宁和伙伴只搬来轻轻的书篮，把书摆到伸手就能拿到的地方。",
+        "en": "Ruo Ning and her friend brought a light book basket and put it within easy reach.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "After adult installation, children arrange one light wicker book basket beside the bench."
+      },
+      {
+        "page": 15,
+        "zh": "太阳再斜过来时，读书的地方有了影子，风也还轻轻吹着。",
+        "en": "When the sun slanted in again, the reading spot was shaded, and a breeze still passed through.",
+        "castCodes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "prompt": "Grandmother and children test the completed pavilion with one side shaded and the other side open."
+      },
+      {
+        "page": 16,
+        "zh": "祖母坐得稳稳的。亭口留着宽宽的路，走过去也很方便。",
+        "en": "Grandmother sat comfortably on the steady bench. The wide entrance remained easy to pass through.",
+        "castCodes": [
+          "C",
+          "F",
+          "G"
+        ],
+        "prompt": "Grandmother sits on the secured bench; children observe the completely clear level entrance path."
+      },
+      {
+        "page": 17,
+        "zh": "若宁笑了：“每个人多想一点，我们的办法就周全一些。”",
+        "en": "Ruo Ning smiled. “Each person's thought helped us make a more complete plan.”",
+        "castCodes": [
+          "C",
+          "F",
+          "G",
+          "W"
+        ],
+        "prompt": "Warm finished reading-pavilion scene with all four people, single cream awning and book basket."
+      },
+      {
+        "page": 18,
+        "zh": "集思广益，是把大家的想法汇集起来，让办法更完善。",
+        "en": "Bringing different people's ideas together can make a plan better.",
+        "castCodes": [
+          "C",
+          "F",
+          "G",
+          "W"
+        ],
+        "prompt": "All four calmly admire the finished pavilion arrangement, with shade, airflow, steady bench and clear path visible."
+      }
+    ]
+  },
+  {
+    "id": "jian-ting-ze-ming",
+    "title": "兼听则明",
+    "subtitle": "纸灯到底去了哪里",
+    "order": 94,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "以雨后寻找借来纸灯的原创情节说明兼听则明。两位孩子描述不同时间发生的移动，先生帮助听完并核对先后，再到廊下查看；不同说法不自动等于谁在说谎。纸灯始终未点亮。",
+    "moral": {
+      "zh": "先听完不同的经过，再核对时间和现场，事情才容易看清。",
+      "en": "Listen to different accounts, then check the timing and what is there to understand what happened."
+    },
+    "idiomMeaning": {
+      "zh": "多听不同方面的意见与经过，才更容易了解事情。",
+      "en": "Listening to different accounts and views can help us understand a situation more clearly."
+    },
+    "everydayExample": {
+      "zh": "两位同学说的经过不一样，先分别听完再核对，兼听则明。",
+      "en": "Two classmates tell different parts of a story. Listening to both and checking what happened helps us understand it."
+    },
+    "visualAnchor": "An ancient Chinese village bookroom after a light shower, timber pillars, gray tiled eaves, a level stone courtyard and covered veranda. Warm rounded tactile 3D picture-book art with complete scenic backgrounds. One cream round bamboo-framed paper lamp with one indigo tassel, always unlit. One low wooden lamp rack near the outer eaves, one indoor table by the latticed window, one sheltered wooden drying peg beneath the veranda. Lamp moves from rack to window table at the start of rain, then to veranda peg after rain stops; no duplicate lamps. Flashbacks show that earlier location only.",
+    "characterSpecs": {
+      "C": "Jing He, a Chinese boy about 8 with rounded cheeks, dark eyes and a small neat black topknot, chestnut-brown cross-collar robe, cream sash and brown cloth shoes.",
+      "F": "Xiao You, a Chinese girl about 7 with an oval face, dark eyes and two low black buns tied with pale-blue cords, dusty-rose cross-collar robe, pale-blue sash and brown cloth shoes.",
+      "T": "Their Chinese male teacher about 50 with a gentle oval face, short gray beard and dark low topknot, muted-indigo cross-collar robe, cream sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "雨停了，景和想把借来的小纸灯收好，却发现灯架空空的。",
+        "en": "After the rain, Jing He went to put away the borrowed paper lamp. Its rack was empty.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "After rain, Jing He examines the empty low lamp rack beneath the bookroom eaves; damp courtyard stones and full tiled veranda in view."
+      },
+      {
+        "page": 2,
+        "zh": "他向窗边的小桌走去：“我记得，纸灯放在这里。”",
+        "en": "He went to the table by the window. “I remember the lamp was here.”",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Jing He looks at the empty indoor window table; lattice, shelves and open doorway to the veranda form a complete room."
+      },
+      {
+        "page": 3,
+        "zh": "小悠听见了，说：“我看到它在廊下，不在窗边呀。”",
+        "en": "Xiao You heard him. “I saw it on the veranda, not by the window.”",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Xiao You points toward the sheltered veranda while Jing He stands beside the empty window table.",
+        "imageFile": "3-v2.webp"
+      },
+      {
+        "page": 4,
+        "zh": "景和皱起眉：“可我明明看见了。”两个人都有些疑惑。",
+        "en": "“But I saw it there,” Jing He said, frowning. Both children were puzzled.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "The children exchange puzzled looks beside the window table, neither angry; warm bookroom and wet courtyard beyond.",
+        "imageFile": "4-v2.webp"
+      },
+      {
+        "page": 5,
+        "zh": "先生请他们坐下：“先把经过说完，看看是不是同一个时候。”",
+        "en": "The teacher invited them to sit. “Tell me what happened. Were you looking at the same time?”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Teacher sits with both children at a low desk in the bookroom, inviting a calm conversation.",
+        "imageFile": "5-v2.webp"
+      },
+      {
+        "page": 6,
+        "zh": "景和先说：“刚下雨时，灯还在檐边，纸角被雨飘湿了。”",
+        "en": "Jing He began. “When the rain started, the lamp was near the eaves. Rain dampened one edge.”",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Single earlier-time scene: Jing He sees the unlit cream lamp on its low rack near the eaves as a few raindrops dampen its paper edge."
+      },
+      {
+        "page": 7,
+        "zh": "“我把它拿进来，放到窗边小桌上，然后去收院里的书篮。”",
+        "en": "“I brought it inside and put it on the window table. Then I went to collect the book basket.”",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Earlier-time scene: Jing He places the single lamp on the indoor window table; courtyard book basket visible beyond."
+      },
+      {
+        "page": 8,
+        "zh": "先生点点头，又转向小悠：“后来，你看到了什么？”",
+        "en": "The teacher nodded and turned to Xiao You. “What did you see later?”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Present bookroom conversation: teacher listens to Xiao You while Jing He waits beside them.",
+        "imageFile": "8-v2.webp"
+      },
+      {
+        "page": 9,
+        "zh": "小悠说：“等雨停了，我来到窗边，纸灯的边缘还潮潮的。”",
+        "en": "“After the rain stopped, I came to the window,” said Xiao You. “The lamp's edge was still damp.”",
+        "castCodes": [
+          "F"
+        ],
+        "prompt": "Single earlier-time scene after rain: Xiao You checks the lamp's damp edge on the window table; rain has stopped outdoors."
+      },
+      {
+        "page": 10,
+        "zh": "“我问过先生，就把它移到有屋檐遮着的廊下，让风吹一吹。”",
+        "en": "“I asked our teacher, then moved it to the sheltered veranda so the breeze could dry it.”",
+        "castCodes": [
+          "F",
+          "T"
+        ],
+        "prompt": "Earlier-time scene: Xiao You carefully hangs the single unlit lamp on the low sheltered veranda peg, teacher nearby; no rain reaches it."
+      },
+      {
+        "page": 11,
+        "zh": "景和听完，轻轻点头：“原来，你说的是后来的事。”",
+        "en": "Jing He nodded. “So you were telling me what happened afterward.”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Present conversation: Jing He listens with a relaxed face as Xiao You finishes; full low-desk bookroom."
+      },
+      {
+        "page": 12,
+        "zh": "小悠也明白了：“你说的窗边，是我移灯以前的地方。”",
+        "en": "Xiao You understood too. “The window table was where it was before I moved it.”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Xiao You gestures gently toward the window table during the present conversation, with Jing He and teacher listening."
+      },
+      {
+        "page": 13,
+        "zh": "先生把先后串起来：“先从灯架到窗边，再从窗边到廊下。”",
+        "en": "The teacher put the events in order. “First, from the rack to the table. Then, to the veranda.”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Teacher gestures from the empty rack toward the table and veranda doorway; no diagram or duplicate lamp."
+      },
+      {
+        "page": 14,
+        "zh": "“我们再去看看吧。”三个人沿着平平的廊子走过去。",
+        "en": "“Let's go and check.” The three of them walked along the level veranda.",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Teacher and children walk along a broad level covered veranda toward the sheltered drying peg."
+      },
+      {
+        "page": 15,
+        "zh": "小纸灯果然挂在那里，靛蓝的小流苏被风轻轻吹动。",
+        "en": "There was the lamp. Its little indigo tassel swayed gently in the breeze.",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "The single unlit cream lamp hangs from the sheltered peg, indigo tassel moving; three people have found it."
+      },
+      {
+        "page": 16,
+        "zh": "先生摸摸纸边，等它干了，再和孩子们一起把灯收好。",
+        "en": "The teacher checked the paper edge. Once it was dry, they put the lamp away together.",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Later on the covered veranda, teacher checks the now-dry lamp as the children wait; empty rack visible nearby."
+      },
+      {
+        "page": 17,
+        "zh": "景和笑了：“只听一段，我就只知道纸灯走过的一段路。”",
+        "en": "Jing He smiled. “Hearing only one part tells me only part of the lamp's journey.”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Jing He smiles with Xiao You and teacher beside the lamp returned to its low rack under dry eaves."
+      },
+      {
+        "page": 18,
+        "zh": "兼听则明，是多听不同方面的意见和经过，再核对，才能看得更清楚。",
+        "en": "Listening to different views and accounts, then checking the facts, helps us understand more clearly.",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Calm complete bookroom and veranda scene, both children listening to one another beside the teacher, single stored unlit lamp in background."
+      }
+    ]
+  },
+  {
+    "id": "shi-shi-qiu-shi",
+    "title": "实事求是",
+    "subtitle": "水缸真的漏了吗",
+    "order": 95,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "以茶坊水缸水量变化的原创故事说明依据实际情况判断。先检查缸身与地面，再在无人取水的一小段时间内核对水位，并查看取水和添水经过；结论限于当天观察，不把干地面当作绝不漏水的证明。",
+    "moral": {
+      "zh": "猜测可以提醒我们去查一查，判断却要有查清的事实作依据。",
+      "en": "A guess can give us something to check, but our judgment should be based on facts we have checked."
+    },
+    "idiomMeaning": {
+      "zh": "从实际情况出发，依据查清的事实判断和处理事情。",
+      "en": "Start with the actual situation and use checked facts to make judgments and decide what to do."
+    },
+    "everydayExample": {
+      "zh": "种子没发芽，先看看土和水的实际情况，再找原因，这就是实事求是。",
+      "en": "When seeds have not sprouted, check the soil and water before deciding why."
+    },
+    "visualAnchor": "Complete ancient village tea shop courtyard and interior with gray tiles, timber doorway, low stone paving, wooden tea table and kettle stand. Warm rounded tactile 3D illustration. One waist-high dark-brown ceramic water jar, one long bamboo ladle used only by grandfather, one large cream ceramic teapot, one stoneware kettle and one small illustrated water-use notebook without readable letters. Grandfather handles all water transfer; child observes beside him, never leans into jar. Fixed water level is compared to a small damp-clay marker outside the jar while nobody draws or refills water; then jar is refilled later.",
+    "characterSpecs": {
+      "C": "A Heng, a Chinese boy about 7 with a round face, dark eyes and a small black topknot, ochre cross-collar robe, cream sash and brown cloth shoes.",
+      "G": "His Chinese grandfather about 65 with a broad gentle face, a short gray beard and silver low topknot, muted olive cross-collar robe, tan cloth apron and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "茶坊刚忙过一阵，祖父揭开水缸盖，发现水比早上少了许多。",
+        "en": "After a busy spell at the tea shop, Grandfather lifted the jar lid. Much less water remained than that morning.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather lifts the dark-brown water jar lid in the tea shop courtyard, A Heng nearby; empty tea cups on indoor table."
+      },
+      {
+        "page": 2,
+        "zh": "阿衡睁大眼：“水少得这么快，会不会是缸漏了？”",
+        "en": "A Heng's eyes widened. “Could the jar be leaking? The water has gone down so fast!”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Heng points from a safe distance toward the water jar, grandfather listening beside him; full courtyard."
+      },
+      {
+        "page": 3,
+        "zh": "祖父没有马上点头：“这是个猜想，我们看看实际情况。”",
+        "en": "Grandfather did not agree at once. “That's a guess. Let's check what is happening.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather calmly invites A Heng to inspect with him beside the jar and timber tea shop doorway."
+      },
+      {
+        "page": 4,
+        "zh": "他们绕着水缸看了一圈。缸身没有看见裂口，地面也没有水迹。",
+        "en": "They looked around the jar. They saw no crack in its sides and no wet patch on the ground.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Both inspect the outside of the single jar on dry level stone paving; child stays upright beside adult."
+      },
+      {
+        "page": 5,
+        "zh": "阿衡刚想说“不漏”，祖父提醒：“这些还不能让我们下结论。”",
+        "en": "A Heng was about to say it wasn't leaking. Grandfather said, “We need more than that to decide.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather gently explains beside the intact visible jar and dry paving, A Heng considering."
+      },
+      {
+        "page": 6,
+        "zh": "祖父用一小团湿泥，在缸外与当前水面同高的地方做了记号。",
+        "en": "Grandfather placed a little damp clay outside the jar, level with the water inside.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather places a small damp-clay marker on the exterior of the jar at its current water level; A Heng observes from beside him."
+      },
+      {
+        "page": 7,
+        "zh": "接下来的一小段时间，他们不取水，也不添水，等着看水位。",
+        "en": "For a little while, they took no water out and added none. They waited to check the level.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "The jar rests undisturbed with exterior marker, ladle laid on a stand; A Heng and grandfather wait in the shady courtyard."
+      },
+      {
+        "page": 8,
+        "zh": "两人坐在院边，翻开今天的用水小记，先看早上添了多少水。",
+        "en": "They sat nearby with the day's water-use notes and checked how much water had been added that morning.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Both examine simple vessel sketches in the small notebook at a low courtyard table; jar with marker remains visible."
+      },
+      {
+        "page": 9,
+        "zh": "“今天开门早，我还没添满，就有客人来了。”祖父想起来了。",
+        "en": "“We opened early today,” Grandfather remembered. “Customers arrived before I had filled the jar.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather recalls the morning while pointing to notebook sketches; present-time tea courtyard, no imaginary extra vessels."
+      },
+      {
+        "page": 10,
+        "zh": "阿衡又指着小记：“这里多画了一壶，今天多泡了一壶茶。”",
+        "en": "A Heng pointed to another sketch. “There's an extra teapot here. You made an extra pot of tea today.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Heng indicates an additional teapot sketch in the notebook, grandfather listening; one actual cream teapot on the tea table."
+      },
+      {
+        "page": 11,
+        "zh": "祖父还想起，开门后他取过水，冲洗茶壶，也擦过几张茶桌。",
+        "en": "Grandfather also remembered using water to rinse the teapot and wipe several tea tables after opening.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather speaks beside the tea table with rinsed teapot and folded damp wiping cloth; A Heng holds the notebook."
+      },
+      {
+        "page": 12,
+        "zh": "过了一会儿，他们再看水缸，水面仍和刚才的记号一样高。",
+        "en": "After a while, they checked the jar again. The water was still level with the mark.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather checks inside the jar against the exterior clay marker; A Heng observes safely beside him."
+      },
+      {
+        "page": 13,
+        "zh": "祖父说：“刚才没有取水时，水位没变。今天还少添了、多用了。”",
+        "en": "Grandfather said, “The level stayed steady while we left it alone. Today we also added less and used more.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather connects the marker observation to notebook sketches at the jar; A Heng listens."
+      },
+      {
+        "page": 14,
+        "zh": "“这些事实合起来，能解释这次水为什么少得快。”",
+        "en": "“Together, those facts explain why the water went down so quickly this time.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Both stand by the steady jar, notebook open on nearby low table; thoughtful calm tea shop scene."
+      },
+      {
+        "page": 15,
+        "zh": "阿衡点头：“先查清楚，再判断。不能听见一个猜想就认定了。”",
+        "en": "A Heng nodded. “Check first, then decide. Hearing a guess does not make it true.”",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Heng responds with an understanding expression beside grandfather and jar in full courtyard."
+      },
+      {
+        "page": 16,
+        "zh": "祖父把水添到平日的位置。小记里，也记下了这次添水。",
+        "en": "Grandfather refilled the jar to its usual level and added the refill to the notes.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "Grandfather refills the single jar using a water pail; A Heng updates a simple refill sketch at the low table, no readable writing."
+      },
+      {
+        "page": 17,
+        "zh": "两人商量，以后取水、添水都记清，若水位再变，再仔细查。",
+        "en": "They agreed to keep clear notes of water taken and added, and check carefully if the level changed again.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "They review the notebook beside the refilled jar; bamboo ladle on adult-height stand and complete tea shop background."
+      },
+      {
+        "page": 18,
+        "zh": "实事求是，是从实际情况出发，依据查清的事实判断和做事。",
+        "en": "Start with the actual situation, and use checked facts to decide what to think and do.",
+        "castCodes": [
+          "C",
+          "G"
+        ],
+        "prompt": "A Heng and grandfather calmly close the notebook beside the refilled ceramic jar in the sunlit tea courtyard."
+      }
+    ]
+  },
+  {
+    "id": "liang-li-er-xing",
+    "title": "量力而行",
+    "subtitle": "合适的小竹篮",
+    "order": 96,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "原创古代集市出行情节。阿沐在母亲扶稳篮子的情况下试提，发现整篮不适合当前能力，便分装并求助；只带轻软布包，与母亲同行。结尾保留逐渐成长后再尝试合适挑战的愿望。",
+    "moral": {
+      "zh": "先试着了解自己的能力，再调整分量、方法或请人帮忙，也能把事情做好。",
+      "en": "Notice what you can manage, then adjust the load or method, or ask for help to get the job done."
+    },
+    "idiomMeaning": {
+      "zh": "根据自己的能力和当前条件，选择合适的事情与做法。",
+      "en": "Choose what to do and how to do it according to your abilities and present circumstances."
+    },
+    "everydayExample": {
+      "zh": "搬书时，我先选自己提得稳的小篮，重的请大人帮忙，这叫量力而行。",
+      "en": "When carrying books, I choose a small basket I can hold steadily and ask an adult to help with the heavy ones."
+    },
+    "visualAnchor": "Ancient Chinese village home courtyard, broad level village path and shaded market cloth stall, complete gray-tile and timber backgrounds. Warm rounded tactile 3D picture-book art. One large plain wicker basket with a broad arched handle and one smaller wicker basket with a matching small handle. Exactly two light soft cloth bundles, one cream and one pale-blue, and one heavier lidded brown ceramic pot. Initially all three props are in the large basket; then both bundles move to small basket while pot remains in large basket. Mother steadies test lift and always carries the pot; child only carries small basket. No cliff, rushing or child alone.",
+    "characterSpecs": {
+      "C": "A Mu, a Chinese girl about 7 with round cheeks, dark eyes and two low black buns tied with ochre cords, pale-mint cross-collar robe, ochre sash and brown cloth shoes.",
+      "M": "Her Chinese mother about 35 with an oval face, dark eyes and a tidy low black bun, muted plum cross-collar robe, cream sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "阿沐要和母亲去集市。院里的大竹篮，装着两个布包和一只陶罐。",
+        "en": "A Mu was going to the market with Mother. A large basket held two cloth bundles and a pottery pot.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu and mother prepare in the full tiled home courtyard; large basket on level paving holds cream and pale-blue bundles and lidded brown pot, empty small basket nearby."
+      },
+      {
+        "page": 2,
+        "zh": "“今天让我提吧！”阿沐走到篮边，想把这一篮都带上。",
+        "en": "“Let me carry it today!” A Mu wanted to take the whole basket.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu eagerly approaches the loaded large basket, mother kneeling beside it in the home courtyard."
+      },
+      {
+        "page": 3,
+        "zh": "母亲先扶稳篮子：“试一试，看看这个分量合不合适。”",
+        "en": "Mother steadied it. “Try it and see whether this load feels right for you.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother holds the loaded basket firmly on the ground as A Mu tests its handle; all props remain visible."
+      },
+      {
+        "page": 4,
+        "zh": "阿沐握住提手，刚提起一点，手臂就绷紧了，篮子也歪向一边。",
+        "en": "A Mu gripped the handle. Lifting it a little strained her arms, and the basket tipped to one side.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Basket rises only slightly from level paving during supervised test, mother supporting its side and base; A Mu feels strain."
+      },
+      {
+        "page": 5,
+        "zh": "母亲扶着篮底，和她一起放回地上。陶罐还稳稳留在篮里。",
+        "en": "Mother supported the base, and they set it down together. The pot stayed safely inside.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Both lower the large basket together to level paving, mother supporting base; intact closed pot and both bundles inside."
+      },
+      {
+        "page": 6,
+        "zh": "阿沐有些失落：“我想帮忙，可这样走到集市，一定很吃力。”",
+        "en": "A Mu felt disappointed. “I want to help, but carrying this to the market would be very hard.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu sits beside mother and grounded basket, hands relaxed, disappointed face; complete home courtyard."
+      },
+      {
+        "page": 7,
+        "zh": "“帮忙也可以换个办法。”母亲把旁边的小竹篮拿了过来。",
+        "en": "“There are other ways to help.” Mother brought over the small basket.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother places the empty matching small basket beside the large basket and A Mu."
+      },
+      {
+        "page": 8,
+        "zh": "她把两个轻软的布包取出来：“这些放小篮里，试试看呢？”",
+        "en": "She took out the two light cloth bundles. “What if we put these in the small basket?”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother transfers the cream and pale-blue soft bundles to the small basket; single brown pot remains in large one."
+      },
+      {
+        "page": 9,
+        "zh": "阿沐把布包摆好，握住小篮的提手。这回，两只脚都站得稳稳的。",
+        "en": "A Mu settled the bundles and held the small handle. This time, she stood steadily.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu stands upright carrying the small basket with both bundles; mother beside the large basket containing pot."
+      },
+      {
+        "page": 10,
+        "zh": "她在院里慢慢走了几步，手臂不紧，篮子也没有摇来摇去。",
+        "en": "She took a few slow steps across the courtyard. Her arms felt comfortable, and the basket stayed steady.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu takes slow steps on level courtyard paving with stable small basket; mother watches nearby."
+      },
+      {
+        "page": 11,
+        "zh": "母亲问：“这个分量怎么样？”阿沐笑着说：“我提得稳！”",
+        "en": "“How does that load feel?” Mother asked. “I can hold it steadily!” A Mu smiled.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother checks in with smiling A Mu, who holds the small basket comfortably; large pot basket nearby."
+      },
+      {
+        "page": 12,
+        "zh": "大竹篮和陶罐由母亲提着。阿沐带上小篮，两人一起出门。",
+        "en": "Mother carried the large basket with the pot. A Mu took the small one, and they set off together.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother with large pot basket and A Mu with small two-bundle basket leave the timber home gate together."
+      },
+      {
+        "page": 13,
+        "zh": "村路宽宽平平。阿沐跟在母亲身边，累了就到路旁歇一歇。",
+        "en": "The village path was wide and level. A Mu walked beside Mother, resting at the side when she felt tired.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Both rest beside a broad level village path beneath a tree, baskets set securely down with fixed contents."
+      },
+      {
+        "page": 14,
+        "zh": "到了集市，母亲先放好陶罐。阿沐把两个布包交到摊位上。",
+        "en": "At the market, Mother set down the pot. A Mu delivered the two bundles to the stall.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "At a shaded cloth stall, mother sets the pot on a stable low surface while A Mu places both bundles beside it; baskets emptying."
+      },
+      {
+        "page": 15,
+        "zh": "“我也把东西送到了！”她看看小篮，心里亮堂堂的。",
+        "en": "“I helped bring things here too!” Looking at her little basket, A Mu felt happy.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu smiles at empty small basket beside mother; both bundles and pot now safely at the cloth stall."
+      },
+      {
+        "page": 16,
+        "zh": "母亲笑了：“选好自己能承担的部分，也是在认真把事情做好。”",
+        "en": "Mother smiled. “Choosing the part you can manage is a good way to do your share.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother speaks warmly to A Mu at the shaded stall with all delivered objects in view."
+      },
+      {
+        "page": 17,
+        "zh": "阿沐说：“等我能提得更稳了，再和你一起试试新的分量。”",
+        "en": "“When I can carry more steadily, I'd like to try a new load with you,” said A Mu.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Mu and mother talk beside the empty small basket on broad level market paving, full ancient stall background."
+      },
+      {
+        "page": 18,
+        "zh": "量力而行，是按自己的能力和眼前的条件，选择合适的做法。",
+        "en": "Choose a suitable way to act, taking account of your abilities and the situation you are in.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother and A Mu stand together at the shaded stall, small and large empty baskets beside delivered cloth and pot."
+      }
+    ]
+  },
+  {
+    "id": "chi-zhi-yi-heng",
+    "title": "持之以恒",
+    "subtitle": "每天一点笛声",
+    "order": 97,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "原创竹笛学习故事，以数日到几周的明确时间推进表现持续练习。师父帮助安排适量练习，允许休息并在之后继续；最终进步来自一段时间的积累。逐页正文只叙述练习体验，不提供真实乐器技法或笛曲教学。",
+    "moral": {
+      "zh": "持续做合适的练习，累时休息，再回来继续，进步会慢慢积累。",
+      "en": "Keep practicing in a way that suits you, rest when you need to, and return. Progress builds over time."
+    },
+    "idiomMeaning": {
+      "zh": "把一件值得做的事持续地做下去。",
+      "en": "Keep working steadily over time at something worth doing."
+    },
+    "everydayExample": {
+      "zh": "我每天练一小会儿写字，过些日子再看，比以前稳了，这就是持之以恒。",
+      "en": "I practice writing for a little while each day. After some time, my writing grows steadier."
+    },
+    "visualAnchor": "Ancient village courtyard with flowering shrub, gray tiled roofs, timber veranda and a quiet low pavilion on broad level paving. Warm rounded tactile 3D art with complete scenic backgrounds. Yun Sheng has one pale bamboo flute tied with a short blue cord and one cream cloth wrap. Teacher has one darker bamboo flute without a cord. Two low wooden stools and a ceramic cup on side table. Flutes stay distinct, no magical musical notes, no readable sheet music. Different daylight and shrub blossoms suggest clearly separated days and several weeks; safe relaxed seated practice, no forced endurance.",
+    "characterSpecs": {
+      "C": "Yun Sheng, a Chinese boy about 8 with an oval face, dark eyes and neat black topknot, muted sky-blue cross-collar robe, cream sash and brown cloth shoes.",
+      "T": "His Chinese male flute teacher about 50 with a gentle square face, dark eyes, a short salt-and-pepper beard and low dark topknot, warm-gray cross-collar robe, muted brown sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "清晨，云生听见师父在院里吹笛。一段短短的小曲，轻轻飘过花枝。",
+        "en": "One morning, Yun Sheng heard his teacher play the flute. A short tune drifted past the flowering branches.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher plays his darker bamboo flute seated in the complete courtyard; Yun Sheng listens near flowering shrub."
+      },
+      {
+        "page": 2,
+        "zh": "“我也想学这一段。”云生拿出自己的竹笛，坐到小凳上。",
+        "en": "“I'd like to learn that tune.” Yun Sheng took out his bamboo flute and sat on a little stool.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng unwraps his pale bamboo flute with blue cord on a low stool beside the teacher; cream wrap on side table."
+      },
+      {
+        "page": 3,
+        "zh": "师父慢慢领他试。开头几声接上了，云生开心地眨眨眼。",
+        "en": "His teacher helped him try it slowly. The first few sounds came together, and Yun Sheng beamed.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng tries playing seated as teacher listens supportively in the bright courtyard."
+      },
+      {
+        "page": 4,
+        "zh": "可是吹到中间，他忽然停住。再试一次，还是在那儿断了。",
+        "en": "But he stopped in the middle. He tried again and broke off at the same place.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng pauses with pale flute lowered, thoughtful teacher beside him; full courtyard and stools."
+      },
+      {
+        "page": 5,
+        "zh": "云生低头看着笛子：“这段曲子，我是不是一直也学不会？”",
+        "en": "Yun Sheng looked down at his flute. “Will I ever be able to learn this tune?”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng looks worriedly at the pale flute in his lap while teacher listens, flowering courtyard."
+      },
+      {
+        "page": 6,
+        "zh": "师父说：“今天才开始呢。每天练一小会儿，给自己一些日子。”",
+        "en": "“You only started today,” said his teacher. “Practice a little each day, and give yourself time.”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher explains gently while Yun Sheng listens seated on low stool, flute at rest."
+      },
+      {
+        "page": 7,
+        "zh": "他们商量，每次先练容易停住的小段，再试着和前后连起来。",
+        "en": "They agreed to practice the part where he stopped, then try joining it to the parts around it.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Both consider a modest practice plan with their flutes resting across laps; no readable notation."
+      },
+      {
+        "page": 8,
+        "zh": "第二天，云生又来院里。那一段还不顺，他就慢慢练了一会儿。",
+        "en": "The next day, Yun Sheng returned to the courtyard. That part was still uneven, so he practiced slowly for a while.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "New morning light: Yun Sheng practices on same stool, teacher listening; pale blue-cord flute consistent."
+      },
+      {
+        "page": 9,
+        "zh": "练了一会儿，他觉得累了。师父请他放下笛子，喝口水。",
+        "en": "After a while, he felt tired. His teacher asked him to set down the flute and drink some water.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng rests with ceramic water cup, pale flute on cream cloth atop side table; teacher beside him."
+      },
+      {
+        "page": 10,
+        "zh": "休息好了，他又试了一小段，然后把笛子收好，留着明天继续。",
+        "en": "After resting, he tried a little more, then wrapped up his flute, ready to continue tomorrow.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng wraps the pale flute in cream cloth after short practice, teacher nodding in sunlit courtyard."
+      },
+      {
+        "page": 11,
+        "zh": "第三天、第四天，院门又轻轻打开。云生带着笛子，按约定来练。",
+        "en": "On the third and fourth days, the courtyard gate opened again. Yun Sheng came with his flute as planned.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Single fourth-day scene: Yun Sheng enters the full courtyard carrying wrapped pale flute; teacher welcomes him, blossoms slightly changed."
+      },
+      {
+        "page": 12,
+        "zh": "有一天进步多一点，有一天少一点。他都把合适的练习做完。",
+        "en": "Some days brought more progress than others. Each day, he finished the amount of practice that suited him.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Later day in courtyard: Yun Sheng practices calmly seated beside teacher, steady natural lighting and changed shrub buds."
+      },
+      {
+        "page": 13,
+        "zh": "过了一周，原来总停住的地方，已经能接得更稳一些了。",
+        "en": "After a week, he could play more steadily through the place where he used to stop.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "One week later, Yun Sheng plays a short passage with relaxed focus, teacher quietly listening in courtyard."
+      },
+      {
+        "page": 14,
+        "zh": "云生还没有吹完整，却愿意再来。他知道，一天的练习会接着一天。",
+        "en": "He could not yet play the whole tune, but he wanted to return. Each day's practice added to the last.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng sets wrapped flute ready on side table at the end of practice, smiling thoughtfully toward teacher."
+      },
+      {
+        "page": 15,
+        "zh": "又过了几周，师父陪他来到安静的小亭，听他把小曲再试一遍。",
+        "en": "A few more weeks passed. His teacher joined him in a quiet pavilion to hear him try the tune again.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Several weeks later, both sit on low stools in a quiet ancient pavilion with broad level path and leafy village background."
+      },
+      {
+        "page": 16,
+        "zh": "这一次，开头接着中间，中间接着结尾，小曲终于完整地吹出来了。",
+        "en": "This time, the beginning flowed into the middle, and the middle into the ending. He played the whole tune.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng completes the tune on pale flute in pavilion, teacher listening with quiet smile; no drawn notes."
+      },
+      {
+        "page": 17,
+        "zh": "云生笑着抱住笛子：“原来，前些日子的一点点，都留在这里了。”",
+        "en": "Yun Sheng hugged his flute and smiled. “All those little bits of practice have added up!”",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Yun Sheng happily holds his pale flute after finishing, teacher smiles beside him in complete shaded pavilion."
+      },
+      {
+        "page": 18,
+        "zh": "持之以恒，是把值得做的事持续做下去，让一天天的努力积累起来。",
+        "en": "Keep at something worth doing, so that your efforts can build up over time.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Teacher and Yun Sheng prepare to leave pavilion together, pale flute safely wrapped and darker flute distinct; calm whole village scene."
+      }
+    ]
+  },
+  {
+    "id": "jian-xian-si-qi",
+    "title": "见贤思齐",
+    "subtitle": "我也想这样细心",
+    "order": 98,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "原创画坊共用毛笔故事。青禾先看见并理解同伴照顾共用物品的好习惯，再主动学习，并在急着去玩时继续做到。学习的是体贴、细心的品行，不比较画作高低，不模仿外貌。",
+    "moral": {
+      "zh": "看见别人做得好的地方，想想它为什么可贵，再把它变成自己的行动。",
+      "en": "Notice a good quality in someone, understand why it matters, and practice it yourself."
+    },
+    "idiomMeaning": {
+      "zh": "看到别人可贵的品行或长处，愿意向他学习，让自己进步。",
+      "en": "When you notice someone's admirable qualities, want to learn from them and improve yourself."
+    },
+    "everydayExample": {
+      "zh": "同伴总把借来的东西收好，我也想学着这样细心，这就是见贤思齐。",
+      "en": "My friend takes care of things they borrow. I want to learn that thoughtful habit too."
+    },
+    "visualAnchor": "Complete ancient village painting workshop with low timber tables, a fixed wooden hanging brush rack by a latticed window, gray tiled veranda and level courtyard. Warm rounded tactile 3D picture-book style. One shared tan bamboo-handled brush with dark bristles, one blue-gray ceramic brush-washing bowl and one plain unlettered sheet per painting scene. Brush is used by Yun Chuan first, washed and returned bristles-down to rack, then borrowed by Qing He and returned; later Qing He repeats the habit. One small brown-feather shuttlecock appears only in later-day courtyard play. No modern paint tubes, writing or ranking displays.",
+    "characterSpecs": {
+      "C": "Qing He, a Chinese girl about 8 with an oval face, dark eyes and two low black buns tied with pale-green cords, soft lavender cross-collar robe, pale-green sash and brown cloth shoes.",
+      "F": "Yun Chuan, a Chinese boy about 8 with rounded cheeks, dark eyes and a neat small black topknot, muted jade-green cross-collar robe, cream sash and brown cloth shoes.",
+      "T": "Their Chinese female painting teacher about 45 with a gentle round face and dark low hair bun, warm-ochre cross-collar robe, muted plum sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "画坊里，青禾看着允川画完最后一片叶子。窗外的风轻轻吹进来。",
+        "en": "In the painting workshop, Qing He watched Yun Chuan paint the last leaf. A breeze came through the window.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Yun Chuan finishes a simple leaf painting with shared tan bamboo brush at low table, Qing He nearby; complete ancient workshop."
+      },
+      {
+        "page": 2,
+        "zh": "允川没有马上离开，而是端来笔洗，把借来的毛笔清理好。",
+        "en": "Yun Chuan did not leave at once. He brought the washing bowl and cleaned the brush he had borrowed.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Yun Chuan gently rinses shared brush in blue-gray ceramic bowl, Qing He watches beside low table."
+      },
+      {
+        "page": 3,
+        "zh": "他理好笔毛，轻轻挂回窗边的共用笔架，让笔尖朝下。",
+        "en": "He straightened the bristles and hung the brush back on the shared rack, with its tip pointing down.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Yun Chuan hangs the single shared brush bristles-down on fixed wooden rack by window, Qing He observing."
+      },
+      {
+        "page": 4,
+        "zh": "青禾问：“你为什么每次都这样收好？放在桌上，不也可以吗？”",
+        "en": "“Why do you always put it away like that?” Qing He asked. “Couldn't you leave it on the table?”",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Qing He asks Yun Chuan beside rack holding clean brush; bowl on nearby low table, full workshop."
+      },
+      {
+        "page": 5,
+        "zh": "允川说：“下一位想借笔，就不用到处找，也不用先洗旧颜色。”",
+        "en": "“The next person won't have to search for it or wash out the old color first,” Yun Chuan said.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Yun Chuan explains the benefit while gesturing to the clean brush at its fixed place; Qing He listens."
+      },
+      {
+        "page": 6,
+        "zh": "青禾想画一朵花，向师父借笔。果然，走到笔架前就找到了。",
+        "en": "Qing He asked her teacher to borrow the brush to paint a flower. She found it right on the rack.",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Qing He requests shared brush from teacher by window rack, Yun Chuan nearby; one brush only."
+      },
+      {
+        "page": 7,
+        "zh": "笔毛清清爽爽，青禾很快就能动手。她忽然懂得了允川的细心。",
+        "en": "The bristles were clean, so Qing He could begin straight away. She understood Yun Chuan's thoughtfulness.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Qing He starts a simple flower painting using shared brush at low table, clean bowl and rack visible."
+      },
+      {
+        "page": 8,
+        "zh": "“你多收好一会儿，就让后来的人方便了。”青禾对允川说。",
+        "en": "“Taking a little time to put things away helps the next person,” she told Yun Chuan.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Qing He speaks to Yun Chuan across workshop table, flower painting in progress and brush held at rest."
+      },
+      {
+        "page": 9,
+        "zh": "她也想学这个习惯：“今天画完，我也把借来的笔照顾好。”",
+        "en": "She wanted to learn that habit. “When I finish today, I'll take care of the borrowed brush too.”",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Qing He makes a thoughtful decision beside her flower painting, teacher and Yun Chuan listening."
+      },
+      {
+        "page": 10,
+        "zh": "画好了，青禾端来笔洗。师父在旁边，提醒她动作轻一点。",
+        "en": "When she finished, Qing He brought the washing bowl. Her teacher reminded her to be gentle.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Qing He washes shared brush in blue-gray bowl while teacher supervises gently at low table."
+      },
+      {
+        "page": 11,
+        "zh": "她清理好毛笔，再走到窗边，把它挂回大家约定的位置。",
+        "en": "She cleaned the brush, then hung it by the window in the place everyone had agreed on.",
+        "castCodes": [
+          "C",
+          "T"
+        ],
+        "prompt": "Qing He returns shared brush bristles-down to fixed rack, teacher nearby; complete workshop."
+      },
+      {
+        "page": 12,
+        "zh": "看着整齐的笔架，青禾觉得，自己也能把这份细心接过来。",
+        "en": "Looking at the tidy rack, Qing He felt she could make that thoughtfulness her own.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "Qing He smiles thoughtfully at single clean brush hanging neatly in the fixed place, full window and workshop background."
+      },
+      {
+        "page": 13,
+        "zh": "过了几天，她又借笔画画。刚画完，允川就在院里招手叫她去玩。",
+        "en": "A few days later, she borrowed the brush again. As she finished, Yun Chuan waved from the courtyard, inviting her to play.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Later-day workshop: Qing He finishes another simple painting, shared brush in hand; Yun Chuan waves from courtyard holding one brown-feather shuttlecock."
+      },
+      {
+        "page": 14,
+        "zh": "青禾很想马上跑出去，可一看手里的笔，她想起了下一个借笔的人。",
+        "en": "Qing He wanted to hurry outside. But seeing the brush in her hand, she thought of its next user.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Qing He pauses at table with used brush, looking toward courtyard friend; fixed rack and washing bowl visible."
+      },
+      {
+        "page": 15,
+        "zh": "“等我把笔收好，就来！”她先清理毛笔，再挂回笔架。",
+        "en": "“I'll come when I've put the brush away!” She cleaned it and hung it back first.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Qing He returns clean shared brush bristles-down after washing; Yun Chuan waits at courtyard doorway with shuttlecock."
+      },
+      {
+        "page": 16,
+        "zh": "青禾来到院里，笑着说：“现在，下一位也能方便地用了。”",
+        "en": "Qing He joined him in the courtyard. “Now it will be ready for the next person,” she said, smiling.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Qing He joins Yun Chuan on level courtyard paving, shuttlecock resting in his hand; workshop brush rack visible through doorway."
+      },
+      {
+        "page": 17,
+        "zh": "她从允川身上学到的细心，已经不只是羡慕，而是自己会做的事。",
+        "en": "The thoughtfulness she admired in Yun Chuan had become something she practiced herself.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Both children begin gentle shuttlecock play on level paving, shared clean brush hanging in distant workshop."
+      },
+      {
+        "page": 18,
+        "zh": "见贤思齐，是看见别人可贵的品行或长处，愿意学习，让自己进步。",
+        "en": "When you see a good quality in someone, want to learn from it and improve yourself.",
+        "castCodes": [
+          "C",
+          "F",
+          "T"
+        ],
+        "prompt": "Qing He and Yun Chuan pause smiling in complete courtyard, teacher at workshop doorway beside tidy shared brush rack.",
+        "imageFile": "18-v2.webp"
+      }
+    ]
+  },
+  {
+    "id": "li-shang-wang-lai",
+    "title": "礼尚往来",
+    "subtitle": "书签与小香囊",
+    "order": 99,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "原创庭院互赠心意故事。阿锦先表达感谢，再自愿按表姐的喜好做一份小礼物；书签和香囊不比较价值，不形成必须回礼的债。孩子负责选布、搭配干花，母亲负责裁剪、缝合和收好针剪。",
+    "moral": {
+      "zh": "珍惜别人送来的心意，也可以用自己愿意表达的方式回应。",
+      "en": "Appreciate someone's kindness, and respond in a thoughtful way you freely choose."
+    },
+    "idiomMeaning": {
+      "zh": "在礼貌交往中，用真诚的心意回应别人的善意。",
+      "en": "Respond to kindness with sincere thoughtfulness in your relationships with others."
+    },
+    "everydayExample": {
+      "zh": "朋友送我亲手做的小卡片，我也想为他做一张，表达感谢和惦记，礼尚往来。",
+      "en": "A friend gives me a handmade card. I choose to make one for them too, to show thanks and care."
+    },
+    "visualAnchor": "Full ancient Chinese family courtyard with gray tiled roof, timber veranda, low wooden table and a flowering osmanthus shrub. Warm rounded tactile 3D picture-book style. One handmade pale-cream paper bookmark decorated with one simple painted leaf, short plum cord, no writing; one ochre clothbound book without readable text. One pale-teal cloth piece becomes one small pale-teal sachet tied with cream cord; one shallow dish of dried golden osmanthus flowers. Mother alone cuts and sews, then puts needle and scissors in closed sewing box. Child chooses materials and dried flowers. No duplicate gifts, money or value comparison.",
+    "characterSpecs": {
+      "C": "A Jin, a Chinese boy about 7 with a round face, dark eyes and a small black topknot, pale-ochre cross-collar robe, muted teal sash and brown cloth shoes.",
+      "F": "His older cousin Lian Ning, a Chinese girl about 11 with an oval face, dark eyes and a tidy black half-up bun tied with a plum cord, soft peach cross-collar robe, plum sash and brown cloth shoes.",
+      "M": "His Chinese mother about 35 with rounded cheeks, dark eyes and a neat low black bun, muted teal cross-collar robe, cream sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "午后，表姐莲宁来到院里，递给阿锦一枚亲手做的小书签。",
+        "en": "One afternoon, his cousin Lian Ning came to the courtyard and handed A Jin a bookmark she had made.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Lian Ning gives A Jin single cream bookmark with painted leaf and plum cord in complete sunlit courtyard."
+      },
+      {
+        "page": 2,
+        "zh": "浅浅的纸面上画着一片叶子，短短的紫绳垂在书签边。",
+        "en": "A leaf was painted on the pale paper, with a short plum-colored cord at one end.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "A Jin admires bookmark held in his hands beside Lian Ning; full low table and ancient courtyard background."
+      },
+      {
+        "page": 3,
+        "zh": "阿锦把它夹进常看的书里：“谢谢你！以后就容易找到读到哪里了。”",
+        "en": "A Jin tucked it into his favorite book. “Thank you! Now I can easily find where I stopped reading.”",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "A Jin places the single leaf bookmark in ochre clothbound book on courtyard table, Lian Ning smiling."
+      },
+      {
+        "page": 4,
+        "zh": "莲宁笑着说：“知道你喜欢读书，就想给你做一个。”",
+        "en": "“I know you like reading, so I wanted to make one for you,” Lian Ning said.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Lian Ning explains gently while A Jin holds the bookmarked book at low courtyard table."
+      },
+      {
+        "page": 5,
+        "zh": "表姐走后，阿锦摸摸书签，想起她做叶子、配绳子时的心意。",
+        "en": "After she left, A Jin touched the bookmark and thought about the care she had put into it.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "After cousin leaves, A Jin thoughtfully touches the bookmark in open book at courtyard table."
+      },
+      {
+        "page": 6,
+        "zh": "他对母亲说：“我也想做点她喜欢的小东西，让她知道我惦记她。”",
+        "en": "He told Mother, “I'd like to make something she enjoys, so she knows I'm thinking of her too.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Jin talks to mother beside bookmarked book, complete veranda and courtyard surroundings."
+      },
+      {
+        "page": 7,
+        "zh": "母亲问：“你记得莲宁喜欢什么吗？”阿锦望向院里的桂花树。",
+        "en": "“What does Lian Ning like?” Mother asked. A Jin looked toward the osmanthus tree in the courtyard.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother and A Jin look toward flowering osmanthus shrub beside their low table."
+      },
+      {
+        "page": 8,
+        "zh": "“她喜欢桂花的香味！上次闻到干花，还轻轻笑了呢。”",
+        "en": "“She loves the smell of osmanthus! Last time she smelled the dried flowers, she smiled.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Jin shares his memory with mother near osmanthus shrub; no flashback or additional cousin."
+      },
+      {
+        "page": 9,
+        "zh": "母亲拿出一小盘晒干的桂花。阿锦选了柔软的青色布。",
+        "en": "Mother brought a small dish of dried osmanthus flowers. A Jin chose some soft teal cloth.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother sets shallow dish of golden dried flowers on table; A Jin selects single pale-teal cloth piece."
+      },
+      {
+        "page": 10,
+        "zh": "“做个小香囊，好吗？”阿锦问。母亲点头：“我们一起做。”",
+        "en": "“Could we make a little sachet?” A Jin asked. Mother nodded. “Let's make it together.”",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Both plan a small sachet with selected teal cloth and dish of dried flowers at full courtyard table."
+      },
+      {
+        "page": 11,
+        "zh": "母亲裁好布，缝成小袋。阿锦在旁边挑拣干花，等袋子做好。",
+        "en": "Mother cut and sewed the cloth into a little pouch. A Jin sorted dried flowers beside her as he waited.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother alone cuts and sews selected teal cloth; A Jin sorts dried flowers well away from tools at table."
+      },
+      {
+        "page": 12,
+        "zh": "他把干花轻轻放进袋里，不塞得太满，让小袋摸起来软软的。",
+        "en": "He gently filled the pouch with dried flowers, leaving it soft rather than packing it too tightly.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "A Jin puts golden dried flowers into the single open teal pouch; mother supervises, sewing tools set aside."
+      },
+      {
+        "page": 13,
+        "zh": "母亲收好针剪，再帮他扎上米白绳。一个小香囊做成了。",
+        "en": "Mother put away the needle and scissors, then helped tie a cream cord around the finished sachet.",
+        "castCodes": [
+          "C",
+          "M"
+        ],
+        "prompt": "Mother closes sewing box, then ties cream cord around finished pale-teal sachet beside A Jin; full table scene."
+      },
+      {
+        "page": 14,
+        "zh": "第二天，莲宁又来时，阿锦把香囊送给她：“里面是你喜欢的花香。”",
+        "en": "When Lian Ning visited the next day, A Jin gave her the sachet. “It has the flower scent you like.”",
+        "castCodes": [
+          "C",
+          "F",
+          "M"
+        ],
+        "prompt": "Next day courtyard: A Jin gives cousin single completed pale-teal sachet, bookmarked book remains on table, mother nearby."
+      },
+      {
+        "page": 15,
+        "zh": "莲宁轻轻闻了闻：“你还记得我的喜好。谢谢你！”",
+        "en": "Lian Ning smelled it gently. “You remembered what I like. Thank you!”",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Lian Ning gently smells pale-teal sachet while A Jin smiles, complete courtyard and flowering shrub."
+      },
+      {
+        "page": 16,
+        "zh": "阿锦笑了：“你想到我爱读书，我也想把一点心意送给你。”",
+        "en": "A Jin smiled. “You thought of my love of books. I wanted to send you some care too.”",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "A Jin speaks to cousin at table with his bookmarked book; she holds the single sachet."
+      },
+      {
+        "page": 17,
+        "zh": "书签留在阿锦的书里，香囊带在莲宁身边，两份小心意暖暖的。",
+        "en": "The bookmark stayed in A Jin's book, and Lian Ning kept the sachet with her. Both gifts carried warmth.",
+        "castCodes": [
+          "C",
+          "F"
+        ],
+        "prompt": "Both sit in courtyard, A Jin with bookmarked book and cousin holding sachet, no duplicate gifts."
+      },
+      {
+        "page": 18,
+        "zh": "礼尚往来，是珍惜别人的善意，也用真诚的心意回应。",
+        "en": "Appreciate another person's kindness, and respond with sincere thoughtfulness.",
+        "castCodes": [
+          "C",
+          "F",
+          "M"
+        ],
+        "prompt": "A Jin, cousin and mother share warm conversation around courtyard table, book with bookmark and single sachet visible."
+      }
+    ]
+  },
+  {
+    "id": "kai-cheng-bu-gong",
+    "title": "开诚布公",
+    "subtitle": "把话说清楚",
+    "order": 100,
+    "origin": "依据成语常用含义创作的原创古代生活故事，并非该成语的历史典故。",
+    "adaptationNote": "原创姐弟共用画册故事。阿澄为防潮收起画册却没有解释，引起误会；祖母支持平和表达与共同事情有关的顾虑和需要，两人一起约定取用与照顾办法。坦诚限于这件共同事情，不要求公开全部私人想法，也不靠指责、强迫认错推动情节。",
+    "moral": {
+      "zh": "有共同的事情，就把相关的担心和需要说清，再一起商量办法。",
+      "en": "When something concerns you both, explain your worries and needs clearly, then find a way forward together."
+    },
+    "idiomMeaning": {
+      "zh": "带着诚意，把与共同事情有关的想法坦白地说清。",
+      "en": "Speak sincerely and openly about the thoughts and concerns relevant to something you share."
+    },
+    "everydayExample": {
+      "zh": "我们一起做手工时，各自把担心和想法说清，再商量分工，这就是开诚布公。",
+      "en": "When we make something together, we explain our concerns and ideas openly before agreeing on how to share the work."
+    },
+    "visualAnchor": "Complete ancient Chinese family room at dusk after a rain shower, timber beams, latticed window, low dry shared reading table farther inside and a small unlocked wooden chest in a dry corner. Warm rounded tactile 3D art. One shared cream clothbound picture album with a small painted plum-colored flower on cover, simple pictures inside and no readable text. First album is moved from a window-side surface into chest; after conversation it is taken to dry inner table, then returned to chest. One cream hand towel for drying hands. No fire, magical effects, locks or coercive confrontation; calm siblings and grandmother.",
+    "characterSpecs": {
+      "C": "A Cheng, a Chinese boy about 7 with rounded cheeks, dark eyes and a small neat black topknot, muted terracotta cross-collar robe, cream sash and brown cloth shoes.",
+      "S": "His older sister Yu An, a Chinese girl about 10 with an oval face, dark eyes and two tidy low black buns tied with navy cords, muted periwinkle cross-collar robe, navy sash and brown cloth shoes.",
+      "G": "Their Chinese grandmother about 65 with a gentle round face and silver low hair bun, muted olive cross-collar robe, beige sash and dark cloth shoes."
+    },
+    "ageLabel": "5-8 岁",
+    "createdAt": "2026-10-10",
+    "draftStatus": "complete-local",
+    "metadata": {
+      "category": "idiom",
+      "tags": [
+        "成语故事",
+        "古代生活",
+        "亲子共读"
+      ],
+      "personalizationEnabled": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zh": "傍晚，窗边飘进几滴雨。阿澄看见共用画册还放在那里，赶紧走过去。",
+        "en": "At dusk, a few raindrops came through the window. A Cheng hurried over to their shared picture album.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "A Cheng notices a few raindrops near the single cream picture album on window-side surface; full ancient timber family room."
+      },
+      {
+        "page": 2,
+        "zh": "他把画册收进干燥的小木箱，合上箱盖，却忘了告诉姐姐。",
+        "en": "He put the album in a dry wooden chest and closed the lid, forgetting to tell his sister.",
+        "castCodes": [
+          "C"
+        ],
+        "prompt": "A Cheng places the single plum-flower-cover album inside the unlocked chest in dry corner, rain outside latticed window."
+      },
+      {
+        "page": 3,
+        "zh": "姐姐语安来到桌边，想和他一起看画册，却没有找到。",
+        "en": "His sister Yu An came to read with him, but she could not find the album.",
+        "castCodes": [
+          "C",
+          "S"
+        ],
+        "prompt": "Yu An looks at empty window-side surface with A Cheng nearby, closed wooden chest in dry corner."
+      },
+      {
+        "page": 4,
+        "zh": "“先别拿，我收起来了。”阿澄说。语安听着，以为他不愿分享。",
+        "en": "“Don't take it yet. I've put it away,” said A Cheng. Yu An thought he did not want to share.",
+        "castCodes": [
+          "C",
+          "S"
+        ],
+        "prompt": "A Cheng speaks briefly beside closed chest; Yu An looks uncertain at empty reading surface, full dusk room."
+      },
+      {
+        "page": 5,
+        "zh": "她轻轻坐到一旁，心里有些闷。阿澄也不知道她为什么不高兴。",
+        "en": "She sat down quietly, feeling upset. A Cheng did not know why she was unhappy.",
+        "castCodes": [
+          "C",
+          "S"
+        ],
+        "prompt": "Yu An sits quietly on low stool, A Cheng puzzled nearby; chest closed, rain easing beyond window."
+      },
+      {
+        "page": 6,
+        "zh": "祖母看见了，陪他们坐下：“关于这本画册，你们各自在想什么？”",
+        "en": "Grandmother sat with them. “What are each of you thinking about the album?”",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Grandmother invites both siblings to sit together by dry inner table for a calm conversation."
+      },
+      {
+        "page": 7,
+        "zh": "阿澄说：“刚才有雨飘进来，我怕画册被淋湿，才把它收进箱子。”",
+        "en": "A Cheng said, “Rain came in, and I was afraid the album would get wet. That's why I put it away.”",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "A Cheng explains his concern, gently pointing from latticed window toward closed chest; grandmother and sister listen."
+      },
+      {
+        "page": 8,
+        "zh": "语安抬起头：“我想和你一起看，却不知道你收起来是为了什么。”",
+        "en": "Yu An looked up. “I wanted to read with you, but I didn't know why you had put it away.”",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Yu An calmly explains her wish to A Cheng and grandmother beside dry inner reading table."
+      },
+      {
+        "page": 9,
+        "zh": "阿澄又说：“你刚洗完手，我还担心手上的水滴会留在纸上。”",
+        "en": "A Cheng added, “You had just washed your hands. I was also worried about water getting on the pages.”",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "A Cheng explains gently as Yu An glances at her still-damp hands; cream hand towel nearby, full room."
+      },
+      {
+        "page": 10,
+        "zh": "“那我先把手擦干。”语安说，“下次收在哪里，也告诉我，好吗？”",
+        "en": "“I'll dry my hands first,” said Yu An. “Could you also tell me where you put it next time?”",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Yu An reaches for the cream hand towel, speaking calmly with brother and grandmother."
+      },
+      {
+        "page": 11,
+        "zh": "阿澄点头：“好。它是我们一起看的，我不是想一个人藏着。”",
+        "en": "A Cheng nodded. “Yes. It's for us both. I wasn't trying to keep it to myself.”",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "A Cheng reassures sister beside grandmother at dry table, chest remains closed in background."
+      },
+      {
+        "page": 12,
+        "zh": "听完彼此的话，两人的眉头都松开了。原来，担心和需要可以说清楚。",
+        "en": "After listening to each other, both relaxed. They could explain their worries and what they needed.",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Both siblings look relieved while grandmother listens at low inner table, evening room softened after rain."
+      },
+      {
+        "page": 13,
+        "zh": "祖母问：“怎样既能一起看，又能照顾好画册？”他们指向屋里的干桌子。",
+        "en": "“How can you read together and care for the album?” Grandmother asked. They pointed to the dry table inside.",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Grandmother and siblings consider the dry shared reading table safely farther from latticed window."
+      },
+      {
+        "page": 14,
+        "zh": "他们约好：擦干手，在干桌上一起看；读完收回木箱，挪了位置就告诉对方。",
+        "en": "They agreed to dry their hands, read at the dry table, return the album afterward, and tell each other if they moved it.",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "The siblings agree beside dry table, cream hand towel and closed wooden chest visible; no written rule sheet."
+      },
+      {
+        "page": 15,
+        "zh": "两人先把手擦干。阿澄打开箱子，拿出那本熟悉的画册。",
+        "en": "They dried their hands. A Cheng opened the chest and took out the familiar album.",
+        "castCodes": [
+          "C",
+          "S"
+        ],
+        "prompt": "Both siblings with dry hands retrieve single cream plum-flower-cover album from unlocked chest; towel rests nearby."
+      },
+      {
+        "page": 16,
+        "zh": "画册摊在桌上，语安指着一幅花园图。阿澄挨着她，笑着看下去。",
+        "en": "The album lay open on the table. Yu An pointed to a garden picture, and A Cheng read beside her, smiling.",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Siblings read simple garden picture together at dry inner table, grandmother nearby, full ancient room."
+      },
+      {
+        "page": 17,
+        "zh": "读完，他们一起收好画册。阿澄说：“把话说清，我们就更容易一起用了。”",
+        "en": "They put the album away together. “Explaining things makes it easier to share,” said A Cheng.",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Siblings return single picture album to chest together, grandmother smiling beside them in calm dusk room."
+      },
+      {
+        "page": 18,
+        "zh": "开诚布公，是带着诚意，把共同事情里的想法和顾虑坦白地说清。",
+        "en": "Speak sincerely and openly about the thoughts and concerns that matter to something you share.",
+        "castCodes": [
+          "C",
+          "S",
+          "G"
+        ],
+        "prompt": "Both siblings and grandmother talk warmly beside closed album chest and dry reading table, complete evening home background."
+      }
+    ]
+  }
+]

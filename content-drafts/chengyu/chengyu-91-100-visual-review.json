@@ -1,0 +1,90 @@
+{
+  "batch": "chengyu-91-100",
+  "reviewer": "Codex visual review",
+  "humanReviewed": false,
+  "updatedAt": "2026-10-11T02:25:54.042373+00:00",
+  "reviewedPages": 180,
+  "acceptedBooks": 10,
+  "books": [
+    {
+      "bookId": "wen-gu-zhi-xin",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/wen-gu-zhi-xin.jpg",
+      "notes": "保留前序逐页审图记录，所选v2页与四木块四算筹教学情节保持一致。"
+    },
+    {
+      "bookId": "bu-chi-xia-wen",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/bu-chi-xia-wen.jpg",
+      "notes": "核对18页当前所选图：1–3页只有文青，4页小蓁出现，8页起先生指导，12–16页两人折纸，17–18页先生回到画面；纸舟始终在桌上，没有放船入水。旧待导入1–5图人物提前出现，已排除。"
+    },
+    {
+      "bookId": "ji-si-guang-yi",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/ji-si-guang-yi.jpg",
+      "notes": "核对18页完整亭子场景：前6页只有两名孩子，祖母7页出现，木匠11页出现，遮阳布13页才安装，后续放书和共读；旧待导入1–2图额外人物已排除。"
+    },
+    {
+      "bookId": "jian-ting-ze-ming",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/jian-ting-ze-ming.jpg",
+      "notes": "核对18页所选书房与廊下场景、人物出场、纸灯从檐边到窗边到廊下再收回的顺序；6–7与9–10页为先后回忆；1–5与8、11页没有纸灯，12页背景只有一只，13–18页也无重复。"
+    },
+    {
+      "bookId": "shi-shi-qiu-shi",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/shi-shi-qiu-shi.jpg",
+      "notes": "逐张生成检查并核对整本缩略图。1–5页水缸无标记，6页祖父贴小团湿泥，7–15页仅一处不规则泥标记；不取不添水等待后核对，成人负责取水与补水，孩子观察记录；干燥地面、无现代量具或文字标签。"
+    },
+    {
+      "bookId": "liang-li-er-xing",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/liang-li-er-xing.jpg",
+      "notes": "逐页检查18张完整古代庭院、村路与集市布摊场景：1–5页在母亲扶稳下试提大篮，6–11页将两个布包移入小篮试提，12–13页母女同行与路旁休息，14–18页将陶罐与两个布包送到布摊后双篮腾空。人物、服饰与道具数量连贯。"
+    },
+    {
+      "bookId": "chi-zhi-yi-heng",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/chi-zhi-yi-heng.jpg",
+      "notes": "逐张生成检查并核对18页缩略图。第1页孩子仅聆听，2页才拿出浅笛；成人深笛与孩子浅笛保持区分，9页喝水休息、10页包笛、11页另一天重新练习、14页休息；没有催迫持续训练，古代完整庭院和人物一致。"
+    },
+    {
+      "bookId": "jian-xian-si-qi",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/jian-xian-si-qi.jpg",
+      "notes": "逐页检查18张完整古代画坊与庭院场景：1–5页允川用完清洗并笔尖朝下挂回共用毛笔，6–12页青禾借笔、清洗并挂回，13–15页改日画完先洗笔挂回再出门，16–18页庭院踢毽子且第18页已选定v2移除背景多余毛笔。"
+    },
+    {
+      "bookId": "li-shang-wang-lai",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/li-shang-wang-lai.jpg",
+      "notes": "逐页检查18张完整古代庭院场景：1–5页阿锦与表姐看手制书签，6–8页与母亲商量心意，9–13页选青色布料与干花、由母亲缝合香囊，14–18页送给表姐并共同珍惜。人物出场、服饰与道具时间线一致。"
+    },
+    {
+      "bookId": "kai-cheng-bu-gong",
+      "pages": 18,
+      "accepted": true,
+      "checkedAt": "2026-10-11T02:25:54.042373+00:00",
+      "contactSheet": "contact-sheets/kai-cheng-bu-gong.jpg",
+      "notes": "逐页检查18张傍晚雨后古代家居场景：1–2页阿澄把梅花封面画册收进干燥木箱，3–5页姐弟误会，6–14页祖母陪姐弟在屋里干桌旁把防雨与湿手顾虑说清（画册始终在合上的木箱内），15–17页擦干手取出同一本画册共读后收回，18页温馨收尾。"
+    }
+  ]
+}

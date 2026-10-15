@@ -83,6 +83,10 @@ const ALL_CHENGYU_BOOK_IDS = [
   ...CHENGYU_BOOK_IDS,
   ...PROVERB_BOOK_IDS.slice(6),
   ...COMMON_CHENGYU_BOOK_IDS,
+  "liu-an-hua-ming", "fu-jing-qing-zui", "san-si-er-xing", "qi-xin-xie-li", "yin-di-zhi-yi",
+  "ju-yi-fan-san", "you-bei-wu-huan", "xun-xu-jian-jin", "jing-yi-qiu-jing", "shi-jin-bu-mei",
+  "wen-gu-zhi-xin", "bu-chi-xia-wen", "ji-si-guang-yi", "jian-ting-ze-ming", "shi-shi-qiu-shi",
+  "liang-li-er-xing", "chi-zhi-yi-heng", "jian-xian-si-qi", "li-shang-wang-lai", "kai-cheng-bu-gong",
 ];
 const XIYOUJI_BOOK_IDS = [
   "shi-hou-chu-shi",

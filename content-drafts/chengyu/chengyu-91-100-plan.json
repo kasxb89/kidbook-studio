@@ -1,0 +1,346 @@
+{
+  "batch": "chengyu-91-100",
+  "batchNumber": 3,
+  "seriesId": "chengyu",
+  "title": "第三批成语故事绘本选题方案",
+  "createdDate": "2026-10-10",
+  "status": "manuscripts-ready",
+  "selectionConfirmed": true,
+  "totalBooks": 10,
+  "plannedBodyPages": 180,
+  "targetAge": "5–8岁亲子共读",
+  "textLanguages": [
+    "zh",
+    "en"
+  ],
+  "artDirection": "古代中国人物为主，温暖、圆润、手工质感的3D绘本画风；每页都是与当页情节对应的完整场景背景。",
+  "sourcePolicy": "均依据成语常用含义创作原创古代生活故事；虚构人物和情节不作为成语历史典故或古人真实生平。",
+  "productionRules": [
+    "先确定人物与关键道具的外形，再编写逐页场景和角色名单。",
+    "保持人物衣着、道具数量、形状、颜色以及剧情出场顺序一致。",
+    "封面与正文都使用完整背景；人物设定图仅作制作参考。",
+    "允许求助、休息和重新尝试，不设置能力排名或强迫比较。",
+    "页数为选题阶段的18页/本目标，完整稿按情节需要复核。"
+  ],
+  "confirmationScope": "确认这10个选题及故事方向后，再写第三批完整中英双语稿。",
+  "generation": {
+    "manuscriptsReady": true,
+    "imagesGenerated": 0,
+    "audioGenerated": 0,
+    "catalogIntegrated": false,
+    "manuscriptsWritten": 10,
+    "bilingualPagesWritten": 180
+  },
+  "narrationPlan": {
+    "provider": "qwen-audio-3.0-tts-plus",
+    "voice": "longanlingxin",
+    "mode": "提前生成中文MP3并建立逐页时间索引",
+    "authorizationStatus": "user-confirmed",
+    "approvalTiming": "完整中文正文形成后，按本批具体稿件确认发送百炼的范围。",
+    "authorizationNote": "用户确认第三批10本中文正文发送百炼，沿用既定模型与音色。"
+  },
+  "existingCatalogCheck": {
+    "chengyuBookCount": 74,
+    "duplicateTitles": [],
+    "duplicateIds": []
+  },
+  "books": [
+    {
+      "order": 91,
+      "id": "wen-gu-zhi-xin",
+      "title": "温故知新",
+      "storyTitle": "旧书里的新发现",
+      "meaning": "复习已经学过的知识，从中获得新的理解。",
+      "cast": "8岁学童阿祁与先生",
+      "setting": "古代书塾、整理算筹的木桌",
+      "synopsis": "阿祁翻出以前的数物小记，起初只想照着再做一遍。先生请他边复习边想一想，为什么要把相同的物品放在一起。阿祁重新摆放算筹，发现旧方法还能帮助自己看清哪里少了一件，在复习中懂得从前没想明白的地方。",
+      "arc": [
+        "重看旧小记",
+        "按旧方法尝试",
+        "先生引导解释原因",
+        "对照实际摆放发现新理解",
+        "说出这次懂得的地方"
+      ],
+      "meaningGuard": "重点放在重温与理解，不写成单纯背熟旧知识，也不把知识迁移本身当作全篇中心。",
+      "keyProps": [
+        "无可读文字的小记册",
+        "固定样式的竹算筹",
+        "低木桌"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 92,
+      "id": "bu-chi-xia-wen",
+      "title": "不耻下问",
+      "storyTitle": "年纪小，也能教我",
+      "meaning": "向比自己年纪小、地位低或学识不如自己的人请教，不觉得可耻。",
+      "cast": "8岁文青、6岁小蓁与旁观的先生",
+      "setting": "书塾旁的小院、纸舟桌",
+      "synopsis": "文青想折一只稳稳的小纸舟，却总有一角松开。他看见年纪更小的小蓁折得很好，最初有些不好意思问。后来他认真请教，把没懂的地方问清，还谢谢小蓁的示范，明白年龄不是拒绝向别人学习的理由。",
+      "arc": [
+        "纸舟一角松开",
+        "看见小蓁会折",
+        "犹豫是否开口",
+        "礼貌请教并尝试",
+        "感谢帮助"
+      ],
+      "meaningGuard": "必须体现向更小或身份普通的熟悉者请教，而非泛泛鼓励提问；不嘲笑不会的孩子。",
+      "keyProps": [
+        "同色方形折纸",
+        "纸舟从未完成到完成的状态",
+        "低木桌"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 93,
+      "id": "ji-si-guang-yi",
+      "title": "集思广益",
+      "storyTitle": "读书亭怎样更舒服",
+      "meaning": "集中大家的想法，让办法更完善。",
+      "cast": "若宁与伙伴、祖母、负责布置的木匠",
+      "setting": "夏日古代村口读书亭",
+      "synopsis": "村口准备布置一处小小的读书亭。若宁想到遮太阳，伙伴想到留风口，祖母提醒凳子要坐得稳、让路过的人也好歇脚。大家把这些想法摆在一起，比较条件后形成一个兼顾不同需要的安排，由大人负责安装。",
+      "arc": [
+        "发现单个方案不周全",
+        "收集不同意见",
+        "比较各自解决的问题",
+        "合并适合的想法",
+        "使用读书亭检验安排"
+      ],
+      "meaningGuard": "强调讨论和综合想法，区别于齐心协力中协商后的共同执行；不要求每个想法都无条件采用。",
+      "keyProps": [
+        "未安装到安装好的侧面遮阳布",
+        "低木凳",
+        "书册篮"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 94,
+      "id": "jian-ting-ze-ming",
+      "title": "兼听则明",
+      "storyTitle": "纸灯到底去了哪里",
+      "meaning": "多听不同方面的意见与经过，才更容易了解事情。",
+      "cast": "景和、小悠与先生",
+      "setting": "雨后的书屋、晾纸灯的廊下",
+      "synopsis": "一盏借来的小纸灯不在原来的位置，景和和小悠说出了不同的去向。先生请他们分别讲清自己是什么时候看到的，不急着判断谁错。大家把两个时段的经过合起来，才知道纸灯后来移到了廊下晾干。",
+      "arc": [
+        "发现纸灯位置变了",
+        "听见两种说法",
+        "分别听完经过",
+        "补齐时间顺序",
+        "找到纸灯并理解全貌"
+      ],
+      "meaningGuard": "多听不等于相信每一句话；需要结合时间、情境与可核对的经过，不给孩子贴说谎标签。",
+      "keyProps": [
+        "同一盏未点亮的小纸灯",
+        "原来的灯架",
+        "廊下晾置位置"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 95,
+      "id": "shi-shi-qiu-shi",
+      "title": "实事求是",
+      "storyTitle": "水缸真的漏了吗",
+      "meaning": "从实际情况出发，依据查清的事实判断和处理事情。",
+      "cast": "7岁阿衡与茶坊祖父",
+      "setting": "古代茶坊、院中陶水缸",
+      "synopsis": "茶坊觉得水缸里的水少得比平时快，有人猜是水缸漏了。阿衡跟祖父检查水缸和地面，也回看当天取水、添水的经过。了解实际用水情况后，他们再判断原因，不把最先听到的猜测当作结论。",
+      "arc": [
+        "听到漏水的猜测",
+        "暂缓下判断",
+        "检查实际情况",
+        "对照取水添水经过",
+        "按事实说明原因与安排"
+      ],
+      "meaningGuard": "证据要能对应结论，不能仅凭地面干燥就断言水缸一定不漏；区别于兼听则明的多方叙述。",
+      "keyProps": [
+        "同一陶水缸",
+        "竹水勺",
+        "茶壶与无可读文字的用水小记"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 96,
+      "id": "liang-li-er-xing",
+      "title": "量力而行",
+      "storyTitle": "合适的小竹篮",
+      "meaning": "根据自己的能力和当前条件，选择合适的事情与做法。",
+      "cast": "7岁阿沐与母亲",
+      "setting": "家中小院、宽平村路、集市",
+      "synopsis": "阿沐跟母亲去集市，想把东西都装进一个大竹篮，提起来却不稳。她把自己要带的轻物分到合适的小篮，重的部分请母亲帮忙，稳稳地走完这一趟，也给自己留下以后再尝试新难度的机会。",
+      "arc": [
+        "想把篮子装得很满",
+        "尝试后发现不稳",
+        "分装并请大人帮助",
+        "选择适合的分量",
+        "完成出行并保留以后挑战的愿望"
+      ],
+      "meaningGuard": "量力不等于永远只做容易的事，不比较谁力气大，不让孩子独自搬重物或独自出行。",
+      "keyProps": [
+        "固定外形的大竹篮与小竹篮",
+        "轻软布包",
+        "分装前后物品状态"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 97,
+      "id": "chi-zhi-yi-heng",
+      "title": "持之以恒",
+      "storyTitle": "每天一点笛声",
+      "meaning": "把一件值得做的事持续地做下去。",
+      "cast": "8岁云生与教授竹笛的师父",
+      "setting": "晴日庭院、安静村边小亭",
+      "synopsis": "云生喜欢一段短短的笛曲，初学时却总在同一处停住。师父帮他把练习安排得合适，累时休息，之后继续回来练。经过一段日子，云生终于能把熟悉的小曲吹完整，也懂得进步来自持续、合适的练习。",
+      "arc": [
+        "喜欢小曲并开始学",
+        "遇到同一处困难",
+        "采用合适的小段练习",
+        "允许休息后继续",
+        "经过明确时间跳转吹完整曲子"
+      ],
+      "meaningGuard": "强调长期坚持，区别于单纯把难度拆小；不宣扬不休息、不顾疲劳的练习。配音只叙述故事，不冒充真实笛曲教学。",
+      "keyProps": [
+        "同一支竹笛",
+        "师父的竹笛",
+        "低坐凳"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 98,
+      "id": "jian-xian-si-qi",
+      "title": "见贤思齐",
+      "storyTitle": "我也想这样细心",
+      "meaning": "看到别人可贵的品行或长处，愿意向他学习，让自己进步。",
+      "cast": "8岁青禾、细心的同伴与师父",
+      "setting": "古代小画坊、共用笔架",
+      "synopsis": "青禾看见同伴每次用完借来的毛笔，都会清理好、放回约定的位置，下一位使用的人也很方便。她愿意学着这样做，忙着去玩时也会先把借来的东西照顾好，逐渐养成自己认可的好习惯。",
+      "arc": [
+        "注意到同伴的好习惯",
+        "理解这个习惯帮助了谁",
+        "选择向同伴学习",
+        "在新的时刻主动做到",
+        "看到自己的进步"
+      ],
+      "meaningGuard": "学习可贵品质，不攀比作品与排名，也不把模仿别人外表当作见贤思齐。",
+      "keyProps": [
+        "同一支借用的毛笔",
+        "笔洗",
+        "固定位置的共用笔架"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 99,
+      "id": "li-shang-wang-lai",
+      "title": "礼尚往来",
+      "storyTitle": "书签与小香囊",
+      "meaning": "在礼貌交往中，用真诚的心意回应别人的善意。",
+      "cast": "7岁阿锦、表姐与帮助缝合的母亲",
+      "setting": "午后庭院、干花与布料小桌",
+      "synopsis": "阿锦收到表姐亲手做的小书签，想用自己的心意回应。她和母亲搭配干花、选布做一个小香囊，送给喜欢花香的表姐。两人珍惜彼此的惦记，而不比较哪份礼物更贵、更大。",
+      "arc": [
+        "收到亲手做的书签",
+        "想回应这份心意",
+        "了解表姐的喜好",
+        "完成适合的小香囊",
+        "互相感谢并珍惜"
+      ],
+      "meaningGuard": "不把收礼写成必须偿还的债，不攀比价格；裁剪缝合由大人完成，孩子参与选择与搭配。",
+      "keyProps": [
+        "无可读文字的小书签",
+        "同色布料与未完成到完成的香囊",
+        "干花小盘"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    },
+    {
+      "order": 100,
+      "id": "kai-cheng-bu-gong",
+      "title": "开诚布公",
+      "storyTitle": "把话说清楚",
+      "meaning": "带着诚意，把与共同事情有关的想法坦白地说清。",
+      "cast": "7岁阿澄、姐姐语安与祖母",
+      "setting": "傍晚古代家居、存放共用画册的小木箱",
+      "synopsis": "阿澄怕共用画册被雨水或湿手弄坏，把画册收了起来，却没有解释。姐姐以为他不愿一起看，两个人都有些闷闷的。祖母请他们把与画册有关的担心和需要说清，大家商量出共同取用、照顾画册的办法。",
+      "arc": [
+        "好意没有说清造成误会",
+        "双方各有担心",
+        "在平和的谈话中说明想法",
+        "形成双方都懂的安排",
+        "共同使用并减少误会"
+      ],
+      "meaningGuard": "坦诚不是要求孩子公开全部私人想法；只讨论共同事情相关的顾虑，不通过指责或强迫认错推动故事。",
+      "keyProps": [
+        "同一本无可读文字的画册",
+        "小木箱",
+        "干净的共读桌"
+      ],
+      "targetPages": 18,
+      "storyKind": "原创古代生活故事",
+      "selectionStatus": "confirmed",
+      "published": false,
+      "manuscriptStatus": "ready",
+      "actualBodyPages": 18
+    }
+  ],
+  "confirmationNote": "用户确认这10本，开始写双语稿。",
+  "confirmedAt": "2026-10-10T14:17:26.038408+00:00",
+  "manuscriptsReadyAt": "2026-10-10T14:26:49.830790+00:00",
+  "manuscriptFile": "chengyu-91-100-manuscript.md",
+  "structuredDraftFile": "chengyu-91-100.json",
+  "contentAudit": "chengyu-91-100-content-audit.json",
+  "humanEditorialReview": false
+}

@@ -1,0 +1,221 @@
+{
+  "batch": "chengyu-91-100",
+  "checkedAt": "2026-10-10T14:26:49.830790+00:00",
+  "status": "passed",
+  "scope": "local-manuscripts-only",
+  "books": 10,
+  "pages": 180,
+  "languages": [
+    "zh",
+    "en"
+  ],
+  "checks": {
+    "selectionExplicitlyConfirmed": true,
+    "approvedTitleIdOrder": true,
+    "tenBooksAnd180BilingualPages": true,
+    "uniqueBookIdsAndTitles": true,
+    "noExistingCatalogTitleOrIdConflict": true,
+    "eighteenConsecutivePagesPerBook": true,
+    "nonemptyBilingualTextAndScenes": true,
+    "noDuplicatePageTextWithinOrAcrossBooks": true,
+    "validPageCastReferences": true,
+    "childReadAloudLengthScreen": true,
+    "draftMetadataAndCreationDate": true,
+    "markdownMatchesEveryStructuredPageInOrder": true,
+    "markdownOverviewMatchesTenBooks": true,
+    "noTrailingWhitespaceOrConflictMarkers": true
+  },
+  "catalogCheck": {
+    "currentChengyuBookCount": 74,
+    "duplicateTitles": [],
+    "duplicateIds": [],
+    "thirdBatchIntegrated": false
+  },
+  "sha256InputNote": "Text hashes use the corresponding page text joined by LF, encoded as UTF-8; they are not audio content hashes.",
+  "files": {
+    "chengyu-91-100.json": "6a13cafde8693ba1bb7dea2ba283f0a52e6077cea454647a9e65888844a7d47e",
+    "chengyu-91-100-manuscript.md": "19798759ac8cbbdec961f1afeece6252fd1ef0d94b542f41f7e36bc565e186f0"
+  },
+  "bookReports": [
+    {
+      "id": "wen-gu-zhi-xin",
+      "title": "温故知新",
+      "order": 91,
+      "pages": 18,
+      "zhCharacterRange": [
+        18,
+        24
+      ],
+      "enWordRange": [
+        11,
+        17
+      ],
+      "zhTextSha256": "8f1e4699b3f428abcee7295cb95e76fc65f47724d0e519b9ba4f29ad36856790",
+      "enTextSha256": "5072eecb6f616fd9cb4bf897a0a4ba41857a8baa6676ebdc600d166f862d5983"
+    },
+    {
+      "id": "bu-chi-xia-wen",
+      "title": "不耻下问",
+      "order": 92,
+      "pages": 18,
+      "zhCharacterRange": [
+        18,
+        30
+      ],
+      "enWordRange": [
+        14,
+        19
+      ],
+      "zhTextSha256": "3f93cb6af9d14022dad1976335a2386de71c6bafa4ce2575688138a8cf2b6e20",
+      "enTextSha256": "332afd58ccc1d68cfd848c46b9abfc5a41d6e334d9ae29e8fe03bcfb66ab7137"
+    },
+    {
+      "id": "ji-si-guang-yi",
+      "title": "集思广益",
+      "order": 93,
+      "pages": 18,
+      "zhCharacterRange": [
+        21,
+        27
+      ],
+      "enWordRange": [
+        10,
+        21
+      ],
+      "zhTextSha256": "40a7a37e142af6c11378f561610966cfb0e4b7ddcb9920d7abb7a5529c079138",
+      "enTextSha256": "d1c0538411655f32905e183413e2da6ed844160dedd4c8ca6d11d49cb3b2c7f1"
+    },
+    {
+      "id": "jian-ting-ze-ming",
+      "title": "兼听则明",
+      "order": 94,
+      "pages": 18,
+      "zhCharacterRange": [
+        18,
+        27
+      ],
+      "enWordRange": [
+        11,
+        19
+      ],
+      "zhTextSha256": "cc20d51241d3c20755423c715e2e00e850e3b0848ac429354ff39d9abfff5f9e",
+      "enTextSha256": "a7f44850636785795ade3ff3a878e16fe18776b81789237c39fc9ee699f6f69f"
+    },
+    {
+      "id": "shi-shi-qiu-shi",
+      "title": "实事求是",
+      "order": 95,
+      "pages": 18,
+      "zhCharacterRange": [
+        18,
+        25
+      ],
+      "enWordRange": [
+        13,
+        20
+      ],
+      "zhTextSha256": "60b9e97ba434054683308b2de0794e0d4adb46096c0fc09f6ed2aba033a8c334",
+      "enTextSha256": "2555e4f7455040eb563fe001c5328887860d0eddb48d13c29aea1845ba6cc28c"
+    },
+    {
+      "id": "liang-li-er-xing",
+      "title": "量力而行",
+      "order": 96,
+      "pages": 18,
+      "zhCharacterRange": [
+        19,
+        26
+      ],
+      "enWordRange": [
+        12,
+        20
+      ],
+      "zhTextSha256": "77b8827bf1ab53aa4af19fd8b54cbb3c76df95b4edfe36cd4182b1288823304a",
+      "enTextSha256": "4341f7c682569b6ec3e7a7bf262c225a2f3e6c285331a0e6d0ebe145675d632c"
+    },
+    {
+      "id": "chi-zhi-yi-heng",
+      "title": "持之以恒",
+      "order": 97,
+      "pages": 18,
+      "zhCharacterRange": [
+        21,
+        27
+      ],
+      "enWordRange": [
+        14,
+        21
+      ],
+      "zhTextSha256": "5b5eec7e7e61fc11958e73d45977b007984538baf0d1d3d98f22e0c4808e7ffc",
+      "enTextSha256": "1a74f19a3ab173a7832ba821e9a1edfb6f5f3b20e9dc49d6612e39b6356b1d37"
+    },
+    {
+      "id": "jian-xian-si-qi",
+      "title": "见贤思齐",
+      "order": 98,
+      "pages": 18,
+      "zhCharacterRange": [
+        19,
+        27
+      ],
+      "enWordRange": [
+        13,
+        22
+      ],
+      "zhTextSha256": "e57130ffa35adfbedecdc1d514d8662be0b471c5ac4d78f32b9e182e5293866b",
+      "enTextSha256": "a85d64ea8e9ecf821fef865e3e2774e6a35fa4abae251667114b6092970f4385"
+    },
+    {
+      "id": "li-shang-wang-lai",
+      "title": "礼尚往来",
+      "order": 99,
+      "pages": 18,
+      "zhCharacterRange": [
+        18,
+        26
+      ],
+      "enWordRange": [
+        9,
+        20
+      ],
+      "zhTextSha256": "939fd4e03eeeca92279b0ad371281cbc809030b4e7579ba37ee5a88a338bf86b",
+      "enTextSha256": "07ed1111361ccfb4ff05a172ca84601977b162149715bfbd7d085a2365f22d0b"
+    },
+    {
+      "id": "kai-cheng-bu-gong",
+      "title": "开诚布公",
+      "order": 100,
+      "pages": 18,
+      "zhCharacterRange": [
+        21,
+        29
+      ],
+      "enWordRange": [
+        13,
+        23
+      ],
+      "zhTextSha256": "9ec9f2227be686446133b64aae50fe34dc9754edab40e0b28d4a4e05c83bf8be",
+      "enTextSha256": "3de6ffb93eca68ae6e4269ddb997b2d3fe90d3e1b6b5578fbe9b7c0e3258d88f"
+    }
+  ],
+  "editorialReview": {
+    "reviewer": "Codex",
+    "humanReviewPerformed": false,
+    "topics": [
+      "中英逐页语义与自然表达",
+      "成语含义与故事重点",
+      "前后时间与道具状态",
+      "原创故事与历史典故区分",
+      "求助休息与自愿回应"
+    ],
+    "revisions": [
+      "不耻下问英文释义改为年幼、地位或学识方面，避免less privileged引入经济处境含义。",
+      "集思广益的通风提问对应已提出的单侧遮阳，避免把单侧误写为遮住所有侧面。",
+      "兼听则明结尾包含不同意见与经过，并保留核对事实。"
+    ]
+  },
+  "limitations": [
+    "稿件尚未经过教师或家长内容审阅及儿童共读。",
+    "逐页插画说明已写入正文JSON，但尚未生成插画、封面或配音，第三批未接入书库。"
+  ]
+}

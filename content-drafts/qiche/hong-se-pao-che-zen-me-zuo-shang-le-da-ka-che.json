@@ -1,0 +1,195 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che",
+    "seriesId": "qiche",
+    "title": "红色跑车，怎么坐上了大卡车？",
+    "subtitle": "去另一座城市参展的出发发现",
+    "question": "红色跑车明明自己会跑，为什么还要坐上大卡车？",
+    "moral": {
+      "zh": "不同的车辆有不同的分工；把展车稳稳固定在汽车运输车上，就能把几辆车一起送到远方参展。",
+      "en": "Different vehicles have different jobs. By securing show cars on a car carrier, several vehicles can travel together to a distant exhibition."
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 38,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 12,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 38,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "跑车",
+        "汽车运输车",
+        "车辆固定",
+        "坡道装卸",
+        "双层平台",
+        "积木实验"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "车展结束后的另一个周末上午，安安抱着小熊，和妈妈散步经过银顶展馆外的小广场。她忽然停住脚步：“妈妈，是那辆红色跑车！”",
+        "enText": "On another weekend morning after the car show, An'an held Bear as she and Mom walked past the plaza outside the silver-roofed exhibition hall. She suddenly stopped. “Mom, it's the red sports car!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Sunny weekend morning outside the familiar exhibition hall with a low silver curved roof and blank colorful entrance flags. An'an (holding her brown bear with blue scarf and yellow crescent behind one ear) and Mom stand on the pedestrian walkway behind a neat yellow-and-white safety railing, looking toward the cordoned loading court where the red two-door, two-seat sports car with black roof and silver five-spoke wheels is visible. No text or logos."
+      },
+      {
+        "page": 2,
+        "zhText": "这回，红色跑车没有在道路上奔跑，也没停在展台旁，而是安静地待在一辆长长的大卡车背上。安安睁大了眼睛。",
+        "enText": "This time, the red sports car was neither driving on the road nor resting beside a display stage. Instead, it sat quietly on the back of a long truck. An'an's eyes grew wide.",
+        "illustrationPrompt": "Wide three-quarter view of the cordoned loading court. A stationary blue flat-nose tractor cab pulls a long silver-gray two-level open car-carrier trailer. The familiar red two-door sports car rests on the lower deck, along with two other generic show cars in white and yellow. An'an and Mom observe from the pedestrian side outside the barrier. No vehicle faces or text."
+      },
+      {
+        "page": 3,
+        "zhText": "穿白上衣、海蓝色长裤的张姐姐从参观区旁走过来，微笑着向安安挥挥手。安安连忙问：“红色跑车坏了吗？它怎么自己不开走呀？”",
+        "enText": "Wearing her white polo shirt and sea-blue trousers, Zhang walked over beside the viewing area and waved with a smile. An'an asked right away, “Is the red sports car broken? Why isn't it driving by itself?”",
+        "illustrationPrompt": "Medium scene on the pedestrian side outside the safety railing. Zhang (short black hair, white polo shirt, sea-blue trousers) greets An'an and Mom warmly. An'an points curiously toward the stationary car carrier in the background while holding Bear. The loading zone remains separated by a continuous barrier. No text or brand marks."
+      },
+      {
+        "page": 4,
+        "zhText": "张姐姐笑着摇头：“它没有坏，也能在公路上正常开。只是这次，它要和几辆展车一起去另一座很远的城市参加车展。”",
+        "enText": "Zhang smiled and shook her head. “It isn't broken, and it can drive on roads too. This time, though, it's traveling with several other show cars to an exhibition in a distant city.”",
+        "illustrationPrompt": "Warm medium view beside a wordless graphic route board on the pedestrian walkway showing a simple illustrated line connecting two distant city skylines without any letters or numbers. Zhang explains calmly to An'an and Mom while the red sports car remains parked on the stationary carrier trailer behind the barrier. Clear sunny daylight, no text."
+      },
+      {
+        "page": 5,
+        "zhText": "“那辆长长的大卡车，叫汽车运输车。”张姐姐指着远处的车架说，“它一次能带好几辆汽车出门，就像汽车们一起坐大巴去远方。”",
+        "enText": "“That long truck is called a car carrier,” Zhang said, pointing toward the trailer frame. “It can take several cars on one trip, almost like cars riding a coach together to a faraway place.”",
+        "illustrationPrompt": "Clear side-profile wide view of the stationary blue tractor cab and silver-gray two-deck open car-carrier trailer in the cordoned court. Three generic cars sit neatly on the upper deck and two on the lower deck, including the red two-door sports car. An'an, Mom and Zhang watch from behind the foreground pedestrian railing. Physical structure of the carrier is crisp and realistic."
+      },
+      {
+        "page": 6,
+        "zhText": "安安数了数运输车上的汽车：“一、二、三、四、五！原来一辆运输车出发，这些展车就不用各自跑那么远的路啦。”",
+        "enText": "An'an counted the cars on the carrier. “One, two, three, four, five! When one carrier sets off, all these show cars don't each have to drive that long distance.”",
+        "illustrationPrompt": "Medium-close view of An'an holding up one hand to count while Bear rests against her arm, Mom smiling beside her. Behind the safety railing, the two-level silver-gray car-carrier trailer holds five distinct non-branded cars (white, silver, yellow on top; red sports car and dark-green coupe below). No numbers or text in the air."
+      },
+      {
+        "page": 7,
+        "zhText": "安安歪着头看向上下两层：“汽车又不会蹦跳，它们是怎么爬到运输车上面去的呢？”张姐姐请她来到旁边的讲解桌前。",
+        "enText": "An'an tilted her head toward the two levels. “Cars can't jump—how did they climb onto the carrier?” Zhang invited her over to a nearby demonstration table.",
+        "illustrationPrompt": "Scene at a covered visitor demonstration table on the pedestrian plaza, well outside the loading barrier. On the pale tabletop sits a detailed scale model of a blue-and-silver two-level car carrier and two miniature model cars. Zhang stands beside the table inviting An'an and Mom to look closely. Keep the tabletop model clearly miniature and distinct from the real truck."
+      },
+      {
+        "page": 8,
+        "zhText": "讲解桌上摆着一辆运输车教学模型。张姐姐轻轻放下模型车尾的斜板：“你看，尾板放下来，就变成了一条平缓的坡道。”",
+        "enText": "A teaching model of a car carrier sat on the table. Zhang gently lowered the hinged ramp at the back. “Look—when the tail ramp comes down, it becomes a gentle slope.”",
+        "illustrationPrompt": "Close-up of the pale demonstration tabletop. Zhang's hands lower the hinged rear loading ramp of the miniature silver-gray car-carrier model until it touches the table surface smoothly. A tiny red sports-car model waits behind the ramp. An'an leans in from the side of the table to observe, holding Bear safely back from the model."
+      },
+      {
+        "page": 9,
+        "zhText": "张姐姐推着小模型车，顺着坡道慢慢开上第一层平台，再把上层平台稳稳托起、锁好。安安说：“上层像坐电梯一样升起来了！”",
+        "enText": "Zhang rolled a miniature car slowly up the ramp onto the deck, then raised and locked the upper platform in place. “The upper deck went up like a little elevator!” said An'an.",
+        "illustrationPrompt": "Close tabletop view of the car-carrier model with its upper deck raised and locked on miniature support posts, holding one small model car on top while Zhang guides the tiny red sports-car model onto the lower deck. An'an and Mom watch with delight. No letters, labels or arrows."
+      },
+      {
+        "page": 10,
+        "zhText": "安安看看模型的两层车架：“上面一层，下面一层，每辆车都有自己的位置，头顶和前后还留着空隙，不会互相碰着。”",
+        "enText": "An'an looked at the two levels of the model frame. “One level above and one below—each car has its own spot, with space overhead and between them so they don't bump.”",
+        "illustrationPrompt": "Clean side close-up of the tabletop car-carrier model showing clear vertical headroom between the lower-deck miniature red sports car and the upper deck structure, plus even spacing between front and rear bumpers of the miniature cars. An'an points gently with one finger without touching the moving hinges."
+      },
+      {
+        "page": 11,
+        "zhText": "“光停上去，可以出发了吗？”张姐姐先把模型上的小车直接摆在平台中央，没有扣上固定块，再把模型底座轻轻抬高一点点。",
+        "enText": "“Once they're parked on the deck, are they ready to go?” Zhang left a miniature car loose on the model platform without wheel stops, then tilted the model base just a little.",
+        "illustrationPrompt": "Tabletop experiment close-up: Zhang tilts the wooden base under the miniature car-carrier model slightly to simulate a road slope. Because no wheel blocks or straps are attached yet, the tiny loose model car begins to roll backward toward the edge while Zhang's hand stays ready to catch it. An'an watches with surprised eyes."
+      },
+      {
+        "page": 12,
+        "zhText": "骨碌碌！小模型车顺着平台往后滑，被张姐姐稳稳接住。安安倒吸一口气：“哇，路上要是遇到上下坡或者刹车，它会滑动呀！”",
+        "enText": "Roll, roll! The tiny model car slid backward along the deck until Zhang caught it safely. An'an gasped. “Oh! On a real hill or when braking, an unsecured car could slide!”",
+        "illustrationPrompt": "Medium-close view at the demonstration table: Zhang's palm safely catches the tiny red model car at the rear of the tilted miniature deck. An'an holds Bear close and looks attentive, while Mom nods beside her. Warm daylight, clear cause-and-effect storytelling."
+      },
+      {
+        "page": 13,
+        "zhText": "张姐姐拿出小小的止退块和车轮固定带模型，把小模型车的四个轮子稳稳固定在平台孔位上，再轻轻倾斜底座——这回，小车纹丝不动。",
+        "enText": "Zhang placed miniature wheel chocks and wheel straps over all four wheels of the model car, anchoring them to the deck slots, then tilted the base again. This time, the little car did not budge.",
+        "illustrationPrompt": "Detailed tabletop close-up of the miniature car-carrier deck: tiny orange wheel chocks sit in front of and behind the miniature red sports car's wheels, and yellow miniature wheel straps hold the tires snugly to the perforated deck. Even with the base slightly tilted, the miniature car stays completely still."
+      },
+      {
+        "page": 14,
+        "zhText": "回到隔离栏旁，安安看向真正的汽车运输车。两位穿反光背心的工作人员正在做最后检查，每辆展车的车轮都扣着结实的固定带。",
+        "enText": "Back beside the safety barrier, An'an looked at the full-size car carrier. Two crew members in high-visibility vests were doing a final check, with sturdy straps around every show car's wheels.",
+        "illustrationPrompt": "Wide view from behind the pedestrian barrier: two adult transport crew members wearing orange high-visibility vests and white helmets inspect the yellow wheel straps and orange wheel chocks securing the full-size red two-door sports car on the lower deck of the stationary silver-gray carrier trailer. An'an, Mom and Zhang stay well behind the pedestrian railing."
+      },
+      {
+        "page": 15,
+        "zhText": "工作人员确认所有车辆都固定妥当，操作收起后方的坡道尾板，再锁好安全栓。长长的运输车做好了出发准备。",
+        "enText": "After confirming that every car was secured, the crew raised the rear loading ramp and locked the safety latches. The long car carrier was ready for departure.",
+        "illustrationPrompt": "Medium-wide view of the rear of the stationary silver-gray car-carrier trailer as an adult crew member in an orange vest and white helmet stands at the side control area with the rear ramp folded upright and locked. The red sports car is visible inside the lower deck with wheel straps attached. No children inside the work zone."
+      },
+      {
+        "page": 16,
+        "zhText": "蓝色牵引车头平稳启动，带着一车展车慢慢驶出广场。安安向红色跑车挥挥手：“上次你在展台上，这次你也成了稳稳的小乘客！”",
+        "enText": "The blue tractor cab started smoothly, pulling its load of show cars out of the plaza. An'an waved to the red sports car. “Last time you were on the stage—today you're a steady passenger!”",
+        "illustrationPrompt": "Sunny wide view as the blue tractor cab and two-level silver-gray car-carrier trailer drive smoothly along the exit roadway away from the silver curved-roof exhibition hall. From the sidewalk behind the railing, An'an, Mom and Zhang wave goodbye toward the secured red sports car on the lower deck. Calm traffic, no text."
+      },
+      {
+        "page": 17,
+        "zhText": "中午回到家，安安把积木倒在客厅地毯上，给玩具大卡车搭起一层长长的平板，又把玩具小跑车和小轿车摆了上去。",
+        "enText": "Back home at midday, An'an poured her blocks onto the living-room rug. She built a long flat platform on a toy truck and placed her toy sports car and toy sedan on top.",
+        "illustrationPrompt": "Warm indoor scene on a soft living-room rug at midday. An'an kneels beside Bear, assembling a colorful wooden-block flatbed carrier truck with two small toy cars resting loosely on its flat top board. Mom sits nearby watching kindly. No real traffic; everything is clearly a safe home floor game."
+      },
+      {
+        "page": 18,
+        "zhText": "安安刚推着积木卡车经过地毯边的小斜坡，上面的玩具跑车就往后滑了下来。“哎呀，我忘了给车轮加挡块啦！”她恍然大悟。",
+        "enText": "As soon as An'an pushed her block truck over a little ramp on the rug, the toy sports car slid off the back. “Oh! I forgot to put stops by the wheels!” she realized.",
+        "illustrationPrompt": "Close indoor floor view: An'an pushes her block carrier truck gently up a low cardboard slope on the living-room rug, and the small red toy car slides down the smooth wooden platform onto the soft rug. Bear sits beside her. An'an smiles in realization, reaching for small orange rectangular blocks."
+      },
+      {
+        "page": 19,
+        "zhText": "她在每辆玩具车的前后车轮旁，都嵌进两块长条小积木当止退块。再推着积木大卡车上坡、转弯，上面的玩具车都稳稳当当！",
+        "enText": "She fitted two small block strips in front of and behind each toy car's wheels as chocks. When she pushed the block truck up the slope and around a turn again, the toy cars stayed right in place!",
+        "illustrationPrompt": "Close view on the living-room rug: small orange block strips are slotted snugly in front of and behind the wheels of the two miniature toy cars on the block carrier truck. An'an pushes the block truck smoothly over the low slope while the toy cars stay steady. Mom claps softly in the background."
+      },
+      {
+        "page": 20,
+        "zhText": "下午，妈妈带安安去山那边的汽车养护中心给家里的小汽车做检查。刚坐进后排儿童安全座椅驶上街道，前车闪动的小灯又让她好奇起来。",
+        "enText": "That afternoon, Mom took An'an to the car care center beyond the mountain for their family car's checkup. Soon after An'an buckled into her rear child seat and they drove onto the street, a blinking light on the car ahead sparked her next question.",
+        "illustrationPrompt": "Interior-to-exterior view from the light-blue five-door hatchback driving calmly on a sunny afternoon city street. Mom drives in the left front seat with her seatbelt on; An'an sits properly buckled in her rear dark-blue child restraint with Bear in her lap and her orange backpack stowed away from the straps. Ahead in their lane, a silver sedan's left amber rear light blinks. No text."
+      }
+    ],
+    "parentGuide": {
+      "goal": "认识汽车运输车的双层平台、尾板坡道与车轮固定装置，理解为什么会自己开的汽车在跨城参展或集中调运时也会“坐大卡车”。",
+      "reminder": "不要把跑车说成不能在普通道路行驶的车辆；集中运输是为了长途调运或多车同行。真实装卸区属于专业作业范围，孩子只在隔离区外观察，通过桌面模型或家中积木体验斜坡与止退固定。",
+      "questions": [
+        "红色跑车明明自己会开，为什么这次要坐上汽车运输车去另一座城市？",
+        "如果没有止退块和固定带，运输车在上下坡或刹车时，平台上的车会发生什么？",
+        "你在家里给积木卡车装玩具车时，想用什么办法帮它们稳稳停住？"
+      ],
+      "activity": "在地毯或桌面上用硬纸板和积木搭一辆带斜坡尾板的“汽车运输车”，先把玩具小车直接放在光滑纸板上轻轻倾斜，观察滑动；再用小积木条或防滑垫挡在玩具车轮前后，对比固定前后的变化。全程在室内地面或桌面缓慢操作，不攀爬家具、不计时。",
+      "ageTips": {
+        "age4to5": "一起找一找运输车的上层、下层、尾板坡道和固定带，用玩具车体验“顺坡上去、挡住车轮、稳稳出发”。",
+        "age6to8": "讨论一车多运在长途参展中的好处，并尝试在积木平台上同时安排两辆不同高矮的玩具车，思考怎样留出高度和前后间距。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay-like animated children's picture-book illustration, tactile rounded materials, sunny weekend daylight transitioning to warm midday home light and afternoon street light, varied wide, medium and close compositions, physically believable vehicles and structures. No comic panels, speech bubbles or readable writing.",
+    "characterConsistency": "An'an is the same six-year-old Chinese girl on every page: round face, ear-length straight black bob, yellow star hair clip on her left side, teal-green hooded jacket, blue jeans, small orange backpack, white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag. The brown plush bear wears a blue scarf and has a small yellow crescent behind one ear. Zhang is the same adult professional with short black hair, white polo shirt and sea-blue trousers. The red sports car is a generic brandless two-door, two-seat sports car with black low roof, silver five-spoke alloy wheels and slim headlights. The car carrier is a blue flat-nose tractor cab pulling a silver-gray two-level open car-carrier trailer with hinged rear ramp, orange wheel chocks and yellow wheel straps. Adult transport crew wear orange high-visibility vests and white helmets. Their family car is a left-hand-drive light-blue five-door hatchback with beige interior; Mom drives in the left front seat with her seatbelt fastened, and An'an rides in the rear dark-blue age-appropriate child restraint with fitted straps and her orange backpack stowed away from the straps. Include only the cast required by each page.",
+    "negative": "No text, letters, numbers, captions, logos, brand marks, readable license plates or watermarks. No anthropomorphic car faces. No children inside active loading zones, on truck ramps or under raised decks. No unsecured cars falling on people, crashes, reckless driving, unrestrained child passengers, backpack under child-restraint straps, driver phone use while moving, duplicate characters or distorted anatomy."
+  }
+}

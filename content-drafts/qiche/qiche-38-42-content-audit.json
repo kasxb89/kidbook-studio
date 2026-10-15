@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-11",
+  "seriesId": "qiche",
+  "scope": "Approved story plan for books 38-42 expanded into complete local bilingual manuscripts and per-page illustration prompts.",
+  "bookCount": 5,
+  "pageCount": 88,
+  "books": [
+    {
+      "order": 38,
+      "id": "hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che",
+      "title": "红色跑车，怎么坐上了大卡车？",
+      "pages": 20,
+      "draftPath": "content-drafts/qiche/hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che.json",
+      "sha256": "48b33571aaeaa407050a64f976fc35e6bf7f2a09b54d61fdcc6dc785ff2fa5b8"
+    },
+    {
+      "order": 39,
+      "id": "xiao-qi-che-de-deng-hui-shuo-hua-ma",
+      "title": "小汽车的灯，会说话吗？",
+      "pages": 16,
+      "draftPath": "content-drafts/qiche/xiao-qi-che-de-deng-hui-shuo-hua-ma.json",
+      "sha256": "a55da29110c8e0ea0b2398662cef32f379d5290fb5bbaea5a857c8332629f621"
+    },
+    {
+      "order": 40,
+      "id": "xiao-qi-che-zuan-jin-shan-li-le-ma",
+      "title": "小汽车钻进山里了吗？",
+      "pages": 20,
+      "draftPath": "content-drafts/qiche/xiao-qi-che-zuan-jin-shan-li-le-ma.json",
+      "sha256": "6b6931920bd39c73d23a31c78bad7b75e3d15c8ed710d1f323a9c4e4301ecdca"
+    },
+    {
+      "order": 41,
+      "id": "lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi",
+      "title": "轮胎上的花纹，藏着什么秘密？",
+      "pages": 16,
+      "draftPath": "content-drafts/qiche/lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi.json",
+      "sha256": "80463978729666a434f61b3e5c73c79193e0cf35f1062ac7736be915d47bb87d"
+    },
+    {
+      "order": 42,
+      "id": "xiao-qi-che-xi-zao-la",
+      "title": "小汽车洗澡啦！",
+      "pages": 16,
+      "draftPath": "content-drafts/qiche/xiao-qi-che-xi-zao-la.json",
+      "sha256": "9f65dd3fb8031692382e70d15862a954ddefb184fe65137357719c635ef2adcb"
+    }
+  ],
+  "validation": {
+    "jsonAndFields": "passed",
+    "pagination": "passed",
+    "bilingualPages": 88,
+    "uniquePageTextAndPrompts": "passed",
+    "parentGuides": "passed",
+    "readableManuscript": "passed",
+    "existingLibraryAndVisualNotesUnchanged": "passed"
+  },
+  "preservedFiles": {
+    "src/lib/library/qiche.ts": true,
+    "docs/library-prompts/qiche/characters.md": true,
+    "src/lib/library-book-audio.ts": true,
+    "miniprogram/chinese-audio-manifest.json": true,
+    "content-drafts/qiche/local-audio.json": true,
+    "content-drafts/qiche/qiche-33-37-manuscript.md": true,
+    "content-drafts/qiche/qiche-33-37-content-audit.json": true
+  },
+  "textLengthNotes": [],
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "saved",
+    "illustrationPrompts": "saved",
+    "illustrations": "complete-88-webp-and-5-contact-sheets",
+    "audio": "complete-bailian-qwen-audio-3.0-tts-plus-local-and-manifest",
+    "libraryIntegration": "complete",
+    "upload": "library-audio-public-verified",
+    "publication": "not-performed",
+    "commit": "not-performed"
+  },
+  "editorialReview": {
+    "method": "Agent content review and cross-book continuity review; no human educator or traffic authority review is claimed.",
+    "bilingualMeaning": "reviewed",
+    "trafficAndMechanicalConditions": "reviewed",
+    "crossBookContinuity": "reviewed",
+    "checks": [
+      "第38册明确跑车可在公路正常行驶，坐汽车运输车是为了与多辆展车一起跨城参展；真实装卸在隔离区外观察，模型与家中积木体现坡道、双层平台及车轮止退固定。",
+      "第39册区分一闪一闪的转向灯与常亮的红色刹车灯，明确打转向灯只表达意图而非优先通行权，右转仍需礼让斑马线行人与直行骑车人。",
+      "第40册包含进隧道前开启前照灯并减速、隧道照明过渡、按车道标线保持车距、通风风机与应急指示设施，并区分穿山隧道与地下、过江隧道。",
+      "第41册区分黑色橡胶轮胎与银色金属轮毂，用浅水盘实验说明沟槽排水作用，包含磨损指示与气压检查，并明确有花纹也不能保证车辆绝对不打滑。",
+      "第42册在玻璃等候区观察先冲浮尘、喷涂泡沫、轻柔刷洗、清水冲净、吹干擦拭与地面排水格栅废水收集处理，回家后用拧干软布擦拭玩具车并停进积木车库。",
+      "全套保持安安、妈妈、小熊、浅蓝色左舵五门家用车、后排深蓝色儿童安全座椅（背包单独存放不压系带）、张姐姐、红色双座跑车、蓝绿公交车及周叔叔形象一致。"
+    ]
+  }
+}

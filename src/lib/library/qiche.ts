@@ -2,6 +2,16 @@ import type { StoryPage } from "@/types";
 import type { LibraryBook, LibrarySeries } from "@/types/library";
 import ferryTaxiDraft from "../../../content-drafts/qiche/shan-dian-chu-zu-che-song-wo-men-qu-zuo-chuan.json";
 import ferryPickupDraft from "../../../content-drafts/qiche/da-zhong-pi-ka-zuo-lun-chuan-mu-ou-xi-qu-xiao-dao.json";
+import expresswayCarDraft from "../../../content-drafts/qiche/xiao-qi-che-shang-gao-su-qu-kan-pao-che-la.json";
+import elevatedRoadDraft from "../../../content-drafts/qiche/qi-che-kai-dao-tian-shang-qu-le-ma.json";
+import greenLightWaitDraft from "../../../content-drafts/qiche/lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng.json";
+import parkingBayDraft from "../../../content-drafts/qiche/xiao-qi-che-zhao-dao-le-ting-che-wei.json";
+import redSportsCarDraft from "../../../content-drafts/qiche/hong-se-pao-che-wei-shen-me-pa-de-di-di-de.json";
+import carCarrierDraft from "../../../content-drafts/qiche/hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che.json";
+import carLightsDraft from "../../../content-drafts/qiche/xiao-qi-che-de-deng-hui-shuo-hua-ma.json";
+import mountainTunnelDraft from "../../../content-drafts/qiche/xiao-qi-che-zuan-jin-shan-li-le-ma.json";
+import tireTreadDraft from "../../../content-drafts/qiche/lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi.json";
+import carWashDraft from "../../../content-drafts/qiche/xiao-qi-che-xi-zao-la.json";
 import piKaShuMiaoDraft from "../../../content-drafts/qiche/da-zhong-pi-ka-song-xiao-shu-miao.json";
 import piKaMuOuDraft from "../../../content-drafts/qiche/da-zhong-pi-ka-he-mu-ou-xi-de-da-ban-jia.json";
 import anQuanDaiDraft from "../../../content-drafts/qiche/an-quan-dai-bao-hu-shui.json";
@@ -120,6 +130,16 @@ export const QICHE_BOOKS: LibraryBook[] = [
   gongChengCheDraft,
   ferryTaxiDraft,
   ferryPickupDraft,
+  expresswayCarDraft,
+  elevatedRoadDraft,
+  greenLightWaitDraft,
+  parkingBayDraft,
+  redSportsCarDraft,
+  carCarrierDraft,
+  carLightsDraft,
+  mountainTunnelDraft,
+  tireTreadDraft,
+  carWashDraft,
 ].map((draft) => draftToLibraryBook(draft as QicheDraft));
 
 export const QICHE_SERIES: LibrarySeries = {

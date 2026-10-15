@@ -1,0 +1,170 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事走向；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "xiao-qi-che-zhao-dao-le-ting-che-wei",
+    "seriesId": "qiche",
+    "title": "小汽车找到了停车位",
+    "subtitle": "把小汽车留在合适的地方",
+    "question": "汽车展门前的车位满了，小汽车还能停在哪里？",
+    "moral": {
+      "zh": "耐心寻找合适车位，尊重为特定需求保留的空间；由成人停妥并确认安全后再下车，沿人行路线走，也记住回来的线索。",
+      "en": "Patiently find a suitable bay and respect spaces reserved for particular needs. Let an adult park and check before getting out, follow pedestrian paths, and remember clues for the return."
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "汽车展门前，彩旗在风里轻轻摆。安安已经看见展馆的大门，可小汽车还没有停下来。她问：“我们在哪里下车呀？”",
+        "enText": "Colorful flags fluttered outside the car exhibition. An'an could already see the doors, but their little car had not parked yet. “Where will we get out?” she asked.",
+        "illustrationPrompt": "Wide sunny establishing view of the low silver car exhibition hall with a broad curved roof and its marked vehicle access lane. The light-blue hatchback approaches the parking entrance slowly, Mom attentive at the wheel, An'an secured in the dark-blue rear restraint holding teddy. Show inviting exhibition flags and separate pedestrian access, no readable event title and no child outside the car."
+      },
+      {
+        "page": 2,
+        "zhText": "离大门最近的停车区满了，一辆辆车整齐站在格子里。安安有点着急：“就在这里停一下呢？”妈妈看着通道，轻轻摇头。",
+        "enText": "The parking area nearest the doors was full, with cars neatly in every bay. An'an felt impatient. “Could we stop right here?” Mom looked at the access lane and gently shook her head.",
+        "illustrationPrompt": "Interior view of the slowly approaching family car beside a full convenient parking area. Through the windshield show every ordinary parking bay occupied and the vehicle access aisle kept clear. An'an is impatient but seated with restraint correctly fastened; Mom looks forward and responds calmly, hands on the wheel. Do not show the car blocking a pedestrian crossing or stopping illegally."
+      },
+      {
+        "page": 3,
+        "zhText": "“通道要留给大家通过。我们再找找。”妈妈沿着停车指引继续开。安安望见一个弯弯的箭头，原来还有另一片停车区。",
+        "enText": "“Everyone needs this lane to get through. Let's keep looking,” said Mom. She followed the parking directions. An'an spotted a curved arrow pointing toward another parking area.",
+        "illustrationPrompt": "Wide overhead route view of the light-blue car following a simple curved parking-direction arrow toward a second marked parking area. The full entrance parking bays are behind, vehicle aisle is clear, sidewalks physically separate. Mom drives, An'an remains secured inside. Use arrows and a simple parking symbol only, with no readable numbers or letters."
+      },
+      {
+        "page": 4,
+        "zhText": "小汽车绕过一排树，驶进另一片停车区。这里离大门远一点，却有空位。安安松了口气：“原来，换个地方也能找到！”",
+        "enText": "The car passed a row of trees and entered another parking area. It was a little farther from the doors, but some bays were empty. An'an relaxed. “We found somewhere else!”",
+        "illustrationPrompt": "Wide three-quarter establishing view of the second exhibition parking area with leafy trees, several legal empty ordinary parking bays and protected pedestrian routes. The light-blue hatchback moves slowly along its aisle; exhibition hall remains visible at a believable walking distance. An'an smiles from her secured rear seat. Warm green shade; no doors open while moving."
+      },
+      {
+        "page": 5,
+        "zhText": "安安先看见一个宽宽的空位，地上有轮椅图案，旁边还留着一条空带。“那个位置很好呀！”她隔着车窗说。",
+        "enText": "An'an first noticed a wide empty bay with a wheelchair symbol. An extra strip of space lay beside it. “That looks like a good place!” she said through the window.",
+        "illustrationPrompt": "Child's-eye view from An'an's secured rear seat through the closed side window at a designated accessible parking bay. Show a simple blue-and-white wheelchair pictogram on the ground and the adjoining striped access aisle clearly, without lettering. The bay is empty; the family car stays in the driving aisle without entering either space. Teddy rests on An'an's lap."
+      },
+      {
+        "page": 6,
+        "zhText": "妈妈说：“这是无障碍车位，按规定留给有使用资格、需要它的车辆。旁边的空间，也方便人上下车。”安安点点头：“那我们找普通车位。”",
+        "enText": "“That's an accessible bay,” Mom said. “It's reserved for vehicles that qualify to use it and need it. The space beside it helps people get in and out.” An'an nodded. “We'll find an ordinary bay.”",
+        "illustrationPrompt": "Medium side interior view of Mom explaining calmly while continuing very slowly through the parking area, eyes toward the driving path, hands on wheel. An'an remains restrained and understands. Outside the window the accessible parking bay and clear striped access aisle stay unoccupied and untouched. Keep explanation visually respectful, no invented wheelchair user needed and no readable permit text."
+      },
+      {
+        "page": 7,
+        "zhText": "前面，一个普通车位空着，两侧的车也停得整齐。妈妈慢慢靠近，看清车位、行人和周围车辆，决定在这里停车。",
+        "enText": "Ahead was an empty ordinary bay, with the cars on either side parked neatly. Mom approached slowly and checked the bay, nearby vehicles, and anyone walking before deciding to park there.",
+        "illustrationPrompt": "Wide slightly raised view of Mom's light-blue hatchback approaching one empty ordinary parking bay between two correctly parked cars. Its dimensions and clearance are believable, neighboring vehicle doors are closed, and the nearby protected pedestrian path is visible and clear. An'an remains correctly secured. Show Mom attentive; no child standing behind the car or guiding the maneuver."
+      },
+      {
+        "page": 8,
+        "zhText": "安安把小熊放在腿上，坐好等着。妈妈自己看车位，也看后视镜。安安想：“停车是妈妈的工作，我和小熊做安静的小乘客。”",
+        "enText": "An'an settled her teddy on her lap and waited in her seat. Mom checked the bay and her mirrors herself. An'an thought, “Mom will do the parking. Bear and I can be quiet passengers.”",
+        "illustrationPrompt": "Close rear-seat interior scene with An'an patiently secured in the dark-blue child restraint, teddy resting on her lap and backpack safely stowed. Mom is a secondary forward-facing adult checking a mirror and the parking surroundings herself. No child pointing commands, no phone, no reversing assistant, and no open doors."
+      },
+      {
+        "page": 9,
+        "zhText": "小汽车慢慢转进车位。窗外的白线一点点靠近，两侧的车之间还留着空隙。安安发现，停车需要的不是快，而是看清和小心。",
+        "enText": "The car turned slowly into the bay. The white lines came closer outside the window, with room left beside the neighboring cars. An'an noticed that parking needed careful looking, not speed.",
+        "illustrationPrompt": "High three-quarter exterior view of the light-blue hatchback moving very slowly front-first into the chosen ordinary parking bay. Show physically plausible turning radius, moderate steering angle and ample side clearance between it and the two parked cars. Mom is the sole driver; An'an remains visibly secured through the rear side glass. No speed lines, contact, pedestrian in maneuvering area, or child guiding."
+      },
+      {
+        "page": 10,
+        "zhText": "车身终于摆正了，四个车轮都停在车位里。妈妈检查周围的空间，小汽车停得整整齐齐，给旁边的车也留出了上下车的位置。",
+        "enText": "The car straightened, with all four wheels inside the bay. Mom checked the space around it. Their little car was parked neatly, leaving room beside the neighboring vehicles for people to get in and out.",
+        "illustrationPrompt": "Clear overhead view of the light-blue hatchback now completely still and centered within its ordinary parking-bay lines. All four wheels are inside the marked bay and realistic side gaps remain to adjacent cars. Mom and An'an are still seated with doors closed, child restraint still secured. Include the nearby pedestrian path, but nobody between moving vehicles."
+      },
+      {
+        "page": 11,
+        "zhText": "妈妈把车停稳，做好驻车，再关掉发动机。四周安静下来，她说：“车停好啦，等我看看外面。”安安没有急着解开系带。",
+        "enText": "Mom brought the car to a complete stop, secured it for parking, and switched off the engine. Everything grew quiet. “We're parked. Let me check outside,” she said. An'an waited with her straps still fastened.",
+        "illustrationPrompt": "Medium interior view of the fully stationary beige car. Mom has just set the parking brake and switched off the engine, shown through clear simple physical actions without readable dashboard text. An'an remains fastened in her dark-blue rear restraint, patiently holding teddy. Doors are still shut and the car sits within its bay; no ambiguous rolling or moving-wheel depiction."
+      },
+      {
+        "page": 12,
+        "zhText": "妈妈先确认身旁没有来往车辆，再下车查看安安这侧。车门外有足够空间，也没有人经过。她绕到后排车门，准备接安安。",
+        "enText": "Mom checked that no vehicles were passing beside her before getting out. She then checked An'an's side. There was room by the door and no one passing, so she came to the rear door to help An'an out.",
+        "illustrationPrompt": "Wide view of the completely parked light-blue hatchback with engine off in its ordinary bay. Mom has safely exited after checking and now stands beside An'an's rear door within the clear space of their parking bay, not in a vehicle aisle or at a blind corner. An'an remains seated and strapped inside awaiting assistance. Show no passing vehicles nearby, and doors of adjacent cars closed."
+      },
+      {
+        "page": 13,
+        "zhText": "妈妈打开后排车门，帮安安解开系带。安安抱着小熊，慢慢下车，马上来到妈妈身边。她们牵好手，沿着车位旁的安全步行路线走。",
+        "enText": "Mom opened the rear door and helped An'an undo her straps. Holding her teddy, An'an got out slowly and stayed beside Mom. They held hands and followed the safe walking route beside the bays.",
+        "illustrationPrompt": "Close clear unloading scene at the stationary hatchback's rear passenger door. Mom helps An'an, now released from the child restraint, step into the clear side space directly beside her within their parking bay. They are immediately beside the marked pedestrian connector, away from the vehicle aisle and rear blind area. Teddy is held securely, Mom holds An'an's hand; no child alone between cars."
+      },
+      {
+        "page": 14,
+        "zhText": "走到人行通道上，安安回头看见一根橙色柱子。“这根柱子像大胡萝卜！”她笑了。妈妈说：“它还能帮我们记住，小汽车停在哪里。”",
+        "enText": "Once they reached the pedestrian path, An'an looked back at an orange pillar. “It looks like a giant carrot!” she laughed. “It can help us remember where our car is,” said Mom.",
+        "illustrationPrompt": "Warm medium view of An'an and Mom standing together entirely on a protected parking pedestrian path. They look back at a tall orange pillar near their parked light-blue hatchback. Mom holds An'an's hand; An'an holds teddy and wears her orange backpack now that she is out of the car. A curb or low barrier separates them from the vehicle aisle. Pillar has no readable identifiers."
+      },
+      {
+        "page": 15,
+        "zhText": "妈妈在人行通道上拍下停车区域和车位标记，照片里还装进了橙色柱子。安安补充：“柱子旁边，还有三棵小树。”她们把线索都收好了。",
+        "enText": "From the pedestrian path, Mom photographed the parking-area and bay markers, keeping the orange pillar in the picture too. An'an added, “And there are three little trees beside it.” They had gathered their clues.",
+        "illustrationPrompt": "Medium scene on the protected pedestrian path, safely away from moving vehicles. Mom, who is no longer driving, photographs the parking-area and bay markers together with the orange pillar in one frame. Markers may show simple identifying shapes but no readable letters or numbers; phone screen is angled away. An'an stays beside her with teddy and points to three small trees. Their light-blue car is parked in the background, making the bay identifiable; no child wandering into an aisle."
+      },
+      {
+        "page": 16,
+        "zhText": "她们沿人行通道来到展馆门前。安安向停车场挥挥手：“小汽车，你在橙色柱子旁等我们！”妈妈牵着她推开大门，汽车展的故事开始啦。",
+        "enText": "They followed the pedestrian path to the exhibition doors. An'an waved toward the parking area. “Wait for us beside the orange pillar, little car!” Mom held her hand as they opened the door. Their car-show adventure was about to begin.",
+        "illustrationPrompt": "Inviting closing view at the exhibition entrance, An'an and Mom together on a broad pedestrian plaza leading directly from the protected parking path. An'an waves back toward a distant glimpse of the orange pillar and parked light-blue car, then enters holding Mom's hand and her teddy. Bright colorful exhibition flags, glass doors and glimpses of unbranded car exhibits beyond; no driving aisle crossing or child alone, no readable title."
+      }
+    ],
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 36,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 10,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 36,
+      "personalizationEnabled": false,
+      "tags": [
+        "汽车",
+        "停车场",
+        "无障碍车位",
+        "乘车安全",
+        "空间观察",
+        "汽车展"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "parentGuide": {
+      "goal": "理解寻找合适车位、尊重特殊车位、停妥后再下车、记住停车位置的完整顺序，体会耐心寻找也能顺利到达。",
+      "reminder": "无障碍车位及相邻通行空间有特定用途，应依当地规定使用。现实停车与倒车由成人负责，孩子不在车道、车头车尾或盲区观察、指挥；车辆停妥并由成人确认外部安全后，才解除儿童约束并下车。拍照记位只发生在停车后的人行通道上。",
+      "questions": [
+        "如果最近的停车区满了，还能怎样寻找合适的地方？",
+        "无障碍车位旁为什么需要额外空间？把这片空间留出来，可能帮到谁？",
+        "除了橙色柱子，你还会选哪些线索，帮助一家人回来找到车？"
+      ],
+      "activity": "在桌面用纸画停车格和人行通道，用积木作橙色柱子、小树与展馆，推一辆玩具车寻找普通空位。给一个特殊车位留出较宽的上下车空间，再用小人从车位旁走向人行通道。让孩子轮流记住颜色、区域图案与位置，回到桌面找车；不在真实停车场练习停车或指挥车辆。",
+      "ageTips": {
+        "age4to5": "用玩具演出“找到车位、停好、和大人下车、记住柱子”四个动作，允许多试几次。",
+        "age6to8": "请孩子设计车道与步行路线，解释为什么通道和特殊车位要留空，再用两种以上线索记住玩具车位置。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay animated children's picture-book illustration, tactile rounded materials, gentle cinematic daylight, varied clear wide, medium and close compositions, physically believable vehicles and city roads. The same sunny Saturday morning on the journey to a city car exhibition. Use only characters required by the current page.",
+    "characterConsistency": "An'an is a six-year-old Chinese girl with an ear-length straight black bob, a yellow star hair clip on her left side, teal hooded jacket, blue jeans, orange small backpack, and white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag; she is the sole driver of the family's light-blue five-door hatchback with beige interior. During driving she watches the road and never uses a phone. An'an rides in the rear seat in a dark-blue age-appropriate child restraint with correctly fitted straps, always secured while the vehicle is moving or waiting in traffic; her backpack is secured away from the restraint straps. The brown teddy bear has a blue scarf and a small yellow crescent behind one ear. The red two-door two-seat sports car has a black roof, silver wheels and slim headlights. Its driver, professional driver Zhang, has short black hair, a white polo shirt and sea-blue trousers, and drives normally on public streets. All vehicles are realistic, without faces or brand features. Mom's bag is stowed while driving. Keep the child's restraint appropriate and visually consistent. Their exhibition hall has a low silver curved roof and blank colorful entrance flags. Generic city buses are teal-blue. The dark-blue child restraint and fitted straps stay clear of the bear and stowed bags. Keep the same people and vehicles across these connected books; include only the cast required by the current page. While riding, secure the orange backpack away from An'an and the child-restraint straps; she does not wear it under the restraint. The family car and sports car are left-hand-drive; adult drivers use the left front seat.",
+    "negative": "No readable words, numbers, captions, letters, road text, license-plate text, logos, brands or watermarks. No anthropomorphic vehicle faces. No unsafe traffic advice, crashes, near misses, racing on public roads, distracted driving, phone use while driving, unrestrained child, backpack beneath restraint straps, child directing real parking, child in a parking aisle or blind spot, independent child road crossing, duplicate characters, or distorted anatomy. Signal colors and direction arrows may be visible and must match the page."
+  }
+}

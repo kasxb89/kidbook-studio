@@ -45,6 +45,16 @@ const EXPECTED_BOOKS = [
   { id: "gong-cheng-che-xiao-dui-jian-hao-xin-gong-yuan", pages: 20 },
   { id: "shan-dian-chu-zu-che-song-wo-men-qu-zuo-chuan", pages: 20 },
   { id: "da-zhong-pi-ka-zuo-lun-chuan-mu-ou-xi-qu-xiao-dao", pages: 20 },
+  { id: "xiao-qi-che-shang-gao-su-qu-kan-pao-che-la", pages: 20 },
+  { id: "qi-che-kai-dao-tian-shang-qu-le-ma", pages: 20 },
+  { id: "lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng", pages: 16 },
+  { id: "xiao-qi-che-zhao-dao-le-ting-che-wei", pages: 16 },
+  { id: "hong-se-pao-che-wei-shen-me-pa-de-di-di-de", pages: 20 },
+  { id: "hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che", pages: 20 },
+  { id: "xiao-qi-che-de-deng-hui-shuo-hua-ma", pages: 16 },
+  { id: "xiao-qi-che-zuan-jin-shan-li-le-ma", pages: 20 },
+  { id: "lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi", pages: 16 },
+  { id: "xiao-qi-che-xi-zao-la", pages: 16 },
 ] as const;
 
 describe("Qiche city vehicle library", () => {
@@ -89,13 +99,13 @@ describe("Qiche city vehicle library", () => {
     expect(books.every((book) => book.metadata?.seriesOrder === book.order)).toBe(true);
   });
 
-  it("publishes thirty-two ordered variable-length bilingual books", () => {
+  it("publishes forty-two ordered variable-length bilingual books", () => {
     const series = getSeries("qiche");
     const books = getPublishedBooks("qiche");
 
     expect(series).toMatchObject({
       title: "城市汽车小队",
-      bookCount: 32,
+      bookCount: 42,
       ageRange: "4–8 岁",
     });
     expect(books.map(({ id, pages }) => ({ id, pages: pages.length }))).toEqual(
@@ -188,6 +198,52 @@ describe("Qiche city vehicle library", () => {
     }
   });
 
+  it("connects the five urban car-show books across expressway, elevated road, traffic lights, parking, and sports car topics", () => {
+    const books = getPublishedBooks("qiche").filter((book) => book.order >= 33 && book.order <= 37);
+    expect(books.map((book) => ({ id: book.id, pages: book.pages.length }))).toEqual([
+      { id: "xiao-qi-che-shang-gao-su-qu-kan-pao-che-la", pages: 20 },
+      { id: "qi-che-kai-dao-tian-shang-qu-le-ma", pages: 20 },
+      { id: "lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng", pages: 16 },
+      { id: "xiao-qi-che-zhao-dao-le-ting-che-wei", pages: 16 },
+      { id: "hong-se-pao-che-wei-shen-me-pa-de-di-di-de", pages: 20 },
+    ]);
+    expect(books.reduce((count, book) => count + book.pages.length, 0)).toBe(92);
+    const series = getSeries("qiche")!;
+    const summaries = books.map((book) => createLibraryBookSummary(series, book));
+    for (const [query, id] of [
+      ["高速公路 服务区", "xiao-qi-che-shang-gao-su-qu-kan-pao-che-la"],
+      ["高架 匝道", "qi-che-kai-dao-tian-shang-qu-le-ma"],
+      ["红绿灯 礼让", "lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng"],
+      ["停车场 无障碍车位", "xiao-qi-che-zhao-dao-le-ting-che-wei"],
+      ["红色跑车 重心", "hong-se-pao-che-wei-shen-me-pa-de-di-di-de"],
+    ] as const) {
+      expect(filterLibraryBooks(summaries, { query }).map((book) => book.id)).toEqual([id]);
+    }
+  });
+
+  it("connects the five car-care journey books across car carrier, vehicle lights, mountain tunnel, tire tread, and car wash topics", () => {
+    const books = getPublishedBooks("qiche").filter((book) => book.order >= 38 && book.order <= 42);
+    expect(books.map((book) => ({ id: book.id, pages: book.pages.length }))).toEqual([
+      { id: "hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che", pages: 20 },
+      { id: "xiao-qi-che-de-deng-hui-shuo-hua-ma", pages: 16 },
+      { id: "xiao-qi-che-zuan-jin-shan-li-le-ma", pages: 20 },
+      { id: "lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi", pages: 16 },
+      { id: "xiao-qi-che-xi-zao-la", pages: 16 },
+    ]);
+    expect(books.reduce((count, book) => count + book.pages.length, 0)).toBe(88);
+    const series = getSeries("qiche")!;
+    const summaries = books.map((book) => createLibraryBookSummary(series, book));
+    for (const [query, id] of [
+      ["汽车运输车 车辆固定", "hong-se-pao-che-zen-me-zuo-shang-le-da-ka-che"],
+      ["转向灯 刹车灯", "xiao-qi-che-de-deng-hui-shuo-hua-ma"],
+      ["道路隧道 通风设备", "xiao-qi-che-zuan-jin-shan-li-le-ma"],
+      ["轮胎花纹 轮胎与轮毂", "lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi"],
+      ["洗车流程 废水处理", "xiao-qi-che-xi-zao-la"],
+    ] as const) {
+      expect(filterLibraryBooks(summaries, { query }).map((book) => book.id)).toEqual([id]);
+    }
+  });
+
   it("ships every square WebP illustration within the library budget", async () => {
     for (const { id, pages } of EXPECTED_BOOKS) {
       const book = getBook("qiche", id);
@@ -215,7 +271,7 @@ describe("Qiche city vehicle library", () => {
     }
   });
 
-  it("includes the series and all thirty-two books in the sitemap", () => {
+  it("includes the series and all forty-two books in the sitemap", () => {
     const urls = sitemap().map((entry) => entry.url);
     expect(urls.some((url) => url.endsWith("/library/qiche"))).toBe(true);
     for (const { id } of EXPECTED_BOOKS) {

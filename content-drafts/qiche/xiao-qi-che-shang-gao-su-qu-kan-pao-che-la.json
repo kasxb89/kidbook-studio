@@ -1,0 +1,193 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文草稿，插图、音频及书库接入尚待制作和验收。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "xiao-qi-che-shang-gao-su-qu-kan-pao-che-la",
+    "seriesId": "qiche",
+    "title": "小汽车上高速，去看跑车啦！",
+    "subtitle": "错过一个出口，也能继续向前",
+    "question": "去看跑车的路上，错过高速出口怎么办？",
+    "moral": {
+      "zh": "旅途不必一路着急。坐好、休息、按规则前进；错过出口，也可以从下一个出口驶离，再在安全停车处重新安排路线。",
+      "en": "A journey need not be a rush. Sit safely, take a break, and follow the road rules. If you miss an expressway exit, continue to the next one and plan again after parking safely."
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "星期六上午，阳光照在汽车展门票上。安安把门票放进橙色背包，又抱起小熊：“今天，我们去看红色跑车！”",
+        "enText": "On Saturday morning, sunshine fell across the car-show tickets. An'an tucked them into her orange backpack and picked up Bear. “Today we're going to see the red sports car!”",
+        "illustrationPrompt": "Warm square morning scene at the family home's entry table: An'an carefully puts two small car-show tickets with a simple red sports-car silhouette and no writing into her orange backpack, holding the brown teddy with blue scarf and a yellow moon patch behind one ear. Mom waits beside her with a brown shoulder bag. Sunlight falls through the doorway; no other people or vehicles in this scene."
+      },
+      {
+        "page": 2,
+        "zhText": "浅蓝色小汽车等在车位里。安安坐进后排儿童座椅，妈妈帮她检查肩带和腰带。小熊也坐在安安的怀里，准备出发。",
+        "enText": "Their light-blue car waited in its parking space. An'an settled into her rear child seat, and Mom checked the shoulder and lap straps. Bear rested in An'an's lap, ready for the trip.",
+        "illustrationPrompt": "Close eye-level view through the fully open rear door of the stationary light-blue five-door family car with beige interior. Mom checks the correctly fitted dark-blue age-appropriate child restraint around seated An'an: shoulder straps lie flat, lap restraint low, no strap obscured by the teddy resting gently in her lap. Orange backpack is secured away from the restraint. Show only An'an and Mom; car safely parked, no traffic nearby."
+      },
+      {
+        "page": 3,
+        "zhText": "妈妈系好安全带，开着小汽车离开熟悉的街区。面包店、梧桐树，一样样滑过车窗。安安轻声问：“高速公路是什么样的？”",
+        "enText": "Mom buckled up and drove out of their familiar neighborhood. A bakery and plane trees passed the window. “What is an expressway like?” An'an asked softly.",
+        "illustrationPrompt": "Gentle interior view from the front passenger side of the moving family car: Mom is the only driver, eyes on the road and both hands placed safely on the wheel, wearing her belt. An'an sits correctly restrained in the rear dark-blue child seat, gazing through the closed side window at a wordless bakery facade and plane trees. Teddy stays in her lap; no phone visible and no extra passengers."
+      },
+      {
+        "page": 4,
+        "zhText": "前面出现高速入口。妈妈沿着引导的车道前进，确认路况后平稳汇入主线。安安坐稳看着窗外：“我们的远行开始啦！”",
+        "enText": "The expressway entrance came into view. Mom followed the entry lane, checked the traffic, and merged smoothly onto the main roadway. An'an stayed seated. “Our long trip has begun!”",
+        "illustrationPrompt": "Wide elevated three-quarter view of the same light-blue family car entering an expressway along a realistic curved entry ramp and acceleration lane, merging smoothly with generous space into calm main-road traffic. Mom is a small correctly belted driver looking forward; An'an stays belted in the rear. Separate traffic streams and show unobstructed merge geometry; signs contain only abstract blocks, no writing, and no vehicle faces."
+      },
+      {
+        "page": 5,
+        "zhText": "一条长长的隔离带，把两个方向的车流分开了。安安看见远处的汽车朝另一边走：“它们有它们的路，我们有我们的路。”",
+        "enText": "A long central barrier separated traffic traveling in opposite directions. An'an spotted cars going the other way. “They have their side, and we have ours.”",
+        "illustrationPrompt": "Clear overhead establishing view of a realistic divided expressway in sunny countryside. A continuous central barrier separates two opposite traffic directions, with light-blue family car on the correct side and small neutral cars on the other. Lane markings and vehicle orientation make the separation easy to understand without arrows or text. No exposed people and no intersection; generous gaps between vehicles."
+      },
+      {
+        "page": 6,
+        "zhText": "小汽车跟着车道向前走，和前面的车留出距离。妈妈说：“这里也有速度规定。我们看清标志，开得平稳，不用追着谁跑。”",
+        "enText": "Their car followed its lane, leaving space behind the vehicle ahead. “There are speed rules here too,” said Mom. “We follow the signs and drive smoothly. We don't need to chase anyone.”",
+        "illustrationPrompt": "Long-lens rear three-quarter exterior view along the expressway: light-blue family car remains centered in one marked lane with a plainly generous following gap behind a neutral gray hatchback. A roadside circular regulatory sign is visible only as a distant non-readable shape. Mom faces forward and An'an remains in her rear restraint if visible through glass. Calm moderate traffic, no dramatic speed blur, no racing or tailgating."
+      },
+      {
+        "page": 7,
+        "zhText": "安安看了又看：“怎么没遇到街上的十字路口？”妈妈回答：“高速主线上，别的路不会在地面直接横穿过来，车流也不用等路口红绿灯。”",
+        "enText": "An'an kept looking. “Where are the crossroads like the ones in town?” Mom answered, “On the expressway's main roadway, other roads do not cross at the same level, and there are no intersection lights to wait for.”",
+        "illustrationPrompt": "Wide landscape-like square composition from above a safe expressway section: the light-blue car travels beneath a small local-road overpass, showing the two roads at clearly different heights without a same-level crossing. Green slopes, bridge railings, and simple realistic lane markings. No traffic lights on this main-road section, no lettering, no pedestrians, no cutaway vehicle interiors."
+      },
+      {
+        "page": 8,
+        "zhText": "一辆大客车从邻近车道驶过，远处还有装货的卡车。安安把小熊扶好：“车子的模样不一样，大家都要沿着各自的车道走。”",
+        "enText": "A coach passed in the neighboring lane, and a truck carried goods farther ahead. An'an settled Bear in her lap. “The vehicles look different, but they all have lanes to follow.”",
+        "illustrationPrompt": "Rear-seat window perspective with correctly restrained An'an and Teddy as the foreground focus, watching a realistic cream coach in the adjacent lane and a small distant cargo truck ahead. Closed window, believable separation and relative scale, all vehicles aligned with their own lanes. Mom is not shown in this crop; no extra child, no writing on the coach or truck, no child leaning outside."
+      },
+      {
+        "page": 9,
+        "zhText": "走了一段路，妈妈说：“前面有服务区，我们去休息一下。”小汽车沿出口车道离开主线，驶向有停车场和小房子的地方。",
+        "enText": "After a while, Mom said, “There's a service area ahead. Let's take a break.” Their car followed the exit lane off the main roadway toward a parking lot and low buildings.",
+        "illustrationPrompt": "Sunny high-angle view of an expressway service-area entrance: the light-blue car follows a clearly separated exit lane into a spacious facility with low buildings, toilets indicated only by architectural context without icons or text, and a distant parking area. Main-road cars continue separately in the background. No person outside a vehicle and no stopping on the shoulder."
+      },
+      {
+        "page": 10,
+        "zhText": "妈妈把车停进车位，确认停稳后才解开安全带。她来到后排：“我们到了。等我看好车外，再一起下车。”安安点点头。",
+        "enText": "Mom parked in a marked space and made sure the car was fully still before unbuckling. She came to the rear door. “We're here. Let me check outside, then we'll get out together.” An'an nodded.",
+        "illustrationPrompt": "Medium view of the completely stationary family car parked neatly within service-area parking lines. Mom stands beside the rear door on the safe aisle side and looks carefully around before helping An'an out; An'an remains seated in the dark-blue child restraint with belt fastened. Teddy rests in her lap. Clear calm surroundings, no moving vehicle close by, no premature child exit."
+      },
+      {
+        "page": 11,
+        "zhText": "安安和妈妈沿着人行道走到休息处。洗过手，喝一口水，安安的小腿也不再蜷着了。她拍拍小熊：“你也歇一歇吧。”",
+        "enText": "An'an and Mom followed the walkway to a rest spot. After washing her hands, An'an took a sip of water and relaxed her legs. She patted Bear. “You can have a rest too.”",
+        "illustrationPrompt": "Cozy service-area rest bench beneath a tree, physically separated from parked cars by a planter. An'an sits drinking water from a small bottle, legs relaxed and teddy beside her; Mom sits nearby with her brown shoulder bag. A handwashing building sits distant without words or symbols. Only these two people; no child walking among cars and no food or bottle held inside a moving car."
+      },
+      {
+        "page": 12,
+        "zhText": "远处的应急车道上没有人玩耍。妈妈说：“应急车道是应对紧急情况的地方。我们喝水、活动身体，要到这样的服务区来。”",
+        "enText": "No one was playing on the distant emergency lane. “That lane is for emergencies,” Mom explained. “For water and a stretch, we come to a service area like this one.”",
+        "illustrationPrompt": "Ground-level service-area walkway scene: An'an makes a small comfortable stretch beside Mom on a protected paved rest area, with Teddy held by Mom. Across a far fence and planted strip, a tiny section of expressway shoulder is visible, empty and clearly separate from this resting place. Calm and sunny; no child or parked family car on the expressway shoulder, no warning text, no imaginary emergency."
+      },
+      {
+        "page": 13,
+        "zhText": "重新坐好、系好安全带，小汽车又出发了。过了好一会儿，安安忽然看见去汽车展方向的出口，已经从窗边滑到了身后。",
+        "enText": "With everyone seated and buckled again, the car set off. Some time later, An'an suddenly noticed the exit toward the car show slipping past the window and falling behind them.",
+        "illustrationPrompt": "Quiet rear-side interior view of the moving light-blue car just beyond an expressway exit. Properly restrained An'an looks back only with her eyes toward the closed window, noticing the branching exit lane now receding behind. Teddy stays in her lap. Mom is a small forward-facing driver in the front, hands on wheel; road geometry shows family car continuing safely on the main road. No abrupt maneuver or readable sign."
+      },
+      {
+        "page": 14,
+        "zhText": "“出口过去了！”安安的声音变小了，“我们是不是到不了啦？”妈妈仍看着前方，平稳开车：“到得了，只是要换一条路。”",
+        "enText": "“The exit has gone!” An'an's voice grew small. “Does that mean we can't get there?” Mom kept her eyes ahead and drove smoothly. “We can. We'll take another way.”",
+        "illustrationPrompt": "Intimate interior composition linking worried An'an in her correctly fitted rear child seat with Mom's calm face in profile at the wheel. An'an gently holds Teddy close without lifting or covering the harness. Mom looks only at the road, correctly belted, hands safely on wheel; warm daylight softens the mood. No map or phone use, no crying panic, only An'an and Mom."
+      },
+      {
+        "page": 15,
+        "zhText": "安安问：“能把车倒回去吗？”妈妈轻轻摇头：“在高速上不能为了找出口停车、倒车或掉头。我们向前走，去下一个出口。”",
+        "enText": "“Could we back up?” An'an asked. Mom gently shook her head. “We mustn't stop, reverse, or turn around on the expressway to find an exit. We keep going to the next one.”",
+        "illustrationPrompt": "Wide reassuring exterior shot of the light-blue family car proceeding normally forward in a marked expressway lane, a passed exit far behind and a gentle bend ahead. Use forward vehicle orientation and open space to illustrate the safe choice; never depict an unsafe reversal, U-turn, or stopped vehicle even as an inset. Tiny Mom looks ahead and rear-seat An'an remains restrained if visible; no other people."
+      },
+      {
+        "page": 16,
+        "zhText": "又一个出口出现在前方。这一次，妈妈按照标志提前进入合适的车道，再平稳驶向出口。安安松开皱着的眉头：“找到了！”",
+        "enText": "Another exit appeared ahead. This time, Mom followed the signs and moved into the correct lane in good time, then smoothly took the exit. An'an's worried frown eased. “We found one!”",
+        "illustrationPrompt": "Clear high three-quarter view of the family car already properly positioned in the exit lane well before a new expressway branch. Show a smooth lane continuation into the ramp, a guardrail and a wordless sign panel, realistic gaps from other cars. Mom's forward focus and An'an's restraint remain correct; no sharp cutting across lanes, no text, no high-speed dramatization."
+      },
+      {
+        "page": 17,
+        "zhText": "小汽车沿着弯弯的出口匝道慢慢离开高速。窗外的景色也变了：低低的屋顶多起来，远处出现了城市的高楼。",
+        "enText": "The car followed the curved exit ramp away from the expressway. The view began to change: more low rooftops appeared, and city towers rose in the distance.",
+        "illustrationPrompt": "Sunny wide view of a realistic gently curving expressway exit ramp descending toward the city outskirts. The same light-blue car follows the ramp at a calm pace, bordered by safe rails; low roofs and distant high-rises establish the transition. Vehicle remains on paved ramp with no stopping; no pedestrians, logos, license-plate writing, or anthropomorphic features."
+      },
+      {
+        "page": 18,
+        "zhText": "离开高速后，妈妈找到一处停车场，把车停妥。车子不动了，她才拿出手机查看路线。安安抱着小熊，等新的路线出现。",
+        "enText": "After leaving the expressway, Mom found a parking lot and parked safely. Only once the car was still did she take out her phone to check the route. An'an held Bear and waited for the new way to appear.",
+        "illustrationPrompt": "View through the open front passenger-side window of the safely parked family car in an off-road parking lot. Mom sits in the driver's seat using her phone only after parking, hands away from wheel; screen shows abstract road lines without labels. Wheels lie within parking lines and surroundings clearly establish no motion. An'an remains secured in her rear child restraint, holding Teddy; no other people or passing nearby traffic."
+      },
+      {
+        "page": 19,
+        "zhText": "“看，汽车展还在这里。”妈妈给安安看一眼地图。新路线弯了一点，却仍能到达。安安笑了：“原来，多走一点也没有关系。”",
+        "enText": "“Look, the car show is still here.” Mom let An'an see the map. The new route curved a little farther, but it would still take them there. An'an smiled. “A little extra travel is all right.”",
+        "illustrationPrompt": "Same safely parked-car scene, closer rear-seat viewpoint: Mom turns slightly from the front seat to show An'an a phone map made only of abstract colored route curves and a building-shaped destination icon, no text or numbers. An'an smiles while staying in her correctly fitted rear restraint with Teddy in lap. Show a small slice of parking-space line through the window to make the stationary context unmistakable; no other people."
+      },
+      {
+        "page": 20,
+        "zhText": "手机收好了，小汽车再次上路。安安望着越来越近的城市：“红色跑车，等我们哦！”前方一条向上弯的路，又引出了她的新问题。",
+        "enText": "With the phone put away, the car set off again. An'an watched the city grow closer. “Wait for us, red sports car!” Ahead, a road curving upward gave her a new question.",
+        "illustrationPrompt": "Hopeful closing wide view of the light-blue family car traveling normally on a city-outskirts surface road toward distant towers and the start of an elevated-road ramp ahead. Through rear glass An'an is securely seated with Teddy, watching the approaching city; Mom faces forward at the wheel, no phone visible. Warm same-Saturday sunlight, realistic road connections, no sports car yet and no extra people."
+      }
+    ],
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 33,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 12,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 33,
+      "personalizationEnabled": false,
+      "tags": [
+        "汽车",
+        "高速公路",
+        "服务区",
+        "出口",
+        "安心出行"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "parentGuide": {
+      "goal": "在完整旅程中认识高速主线、分隔车道、服务区和出口，理解错过出口时可以保持正常行驶，再从下一个出口驶离；感受旅途中的等待和调整。",
+      "reminder": "把重点放在安安如何从着急变得安心，不要求孩子背诵驾驶规则。高速入口可能有收费或控制设施；本书的无平面十字路口、无路口红绿灯说明仅针对高速主线。乘车时使用适合孩子年龄、身高和体重的约束装置；具体驾驶与停车由成人按当地法规负责。",
+      "questions": [
+        "出口过去时，安安心里可能是什么感觉？妈妈的哪句话让她安心了？",
+        "服务区里的休息地方，和路边的应急车道有什么不同？",
+        "如果玩具汽车也错过了出口，你想替它找到怎样的新路线？"
+      ],
+      "activity": "在桌面用积木和纸带搭一条有分隔带的双向道路，留出两个出口，再用几块积木搭服务区和汽车展。让玩具车错过第一个出口，继续到第二个出口；停车后一起用手指找通向汽车展的新路。让孩子自由重复和改路，不计时。",
+      "ageTips": {
+        "age4to5": "一起找小汽车、小熊和休息处，用玩具车演一演“继续向前、到下一出口、停好再看路”。允许孩子用表情或简单词语说出安安的心情。",
+        "age6to8": "请孩子画出两条都能到汽车展的路线，讨论为什么“多走一点”仍能完成旅程。可以比较高速主线与熟悉的街道路口，避免把真实驾驶判断交给孩子。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Premium warm square 3D clay-animation children's picture-book illustration, tactile rounded materials, gentle cinematic daylight, readable uncluttered composition, realistic Chinese expressway and city-outskirts infrastructure. Same sunny Saturday morning journey to a city car show across all five connected books. Vehicles and roads must be physically believable, never anthropomorphic. Each page depicts one scene and one principal action; use varied coherent camera angles and include only people present in that page's prompt.",
+    "characterConsistency": "An'an is a six-year-old Chinese girl with a round face, ear-length straight black bob, yellow star hair clip on the left side of her hair, teal-green hooded jacket, blue jeans, orange small backpack, and white sneakers with red trim. Mom has shoulder-length straight black hair, coral cardigan, cream trousers, and brown shoulder bag. Mom is the only driver of the same light-blue five-door family car with beige interior. During travel Mom faces the road, wears her seat belt, and never operates a phone. An'an always rides in the rear in the same dark-blue age- and size-appropriate child restraint, correctly secured with flat fitted straps; no loose straps or teddy obscuring the harness. Her brown teddy has a blue scarf and a small yellow moon patch behind one ear. Keep identities, clothes, car color, interior, and props consistent; no other family member or extra passenger. Their exhibition hall has a low silver curved roof and blank colorful entrance flags. Generic city buses are teal-blue. The dark-blue child restraint and fitted straps stay clear of the bear and stowed bags. Keep the same people and vehicles across these connected books; include only the cast required by the current page. While riding, secure the orange backpack away from An'an and the child-restraint straps; she does not wear it under the restraint. The family car and sports car are left-hand-drive; adult drivers use the left front seat.",
+    "negative": "No text, letters, numbers, captions, labels, logos, brands, readable signs or plates, watermarks, vehicle faces, expressive vehicle eyes, distorted anatomy, duplicate people, unbelted passengers, child in front passenger seat, child outside a moving vehicle, open doors while moving, child leaning out or climbing near roads, child alone in traffic, driver phone use while driving, reckless speed, racing, tailgating, abrupt lane cuts, reverse travel, U-turn on expressway, family car stopping on expressway shoulder, pedestrian on main roadway, collisions, injury, frightening emergency scenes, impossible road connections, or conflicting traffic directions. Keep dangerous actions out of the pictures even when the narration mentions them."
+  }
+}

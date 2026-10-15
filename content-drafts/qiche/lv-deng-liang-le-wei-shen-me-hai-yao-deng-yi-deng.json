@@ -1,0 +1,171 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事走向；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng",
+    "seriesId": "qiche",
+    "title": "绿灯亮了，为什么还要等一等？",
+    "subtitle": "去汽车展的路口发现",
+    "question": "绿灯亮了，为什么转弯的小汽车还要等一等？",
+    "moral": {
+      "zh": "看自己行驶方向的信号，还要观察周围、礼让该先通行的人，并为路口留出空间；耐心也能帮助大家到达。",
+      "en": "Follow the signal for your direction, look around, yield to those who should go first, and keep the intersection clear. Patience helps everyone arrive."
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "驶下高架，小汽车停在了地面路口。红灯刚变成圆圆的绿灯，妈妈准备右转，却仍稳稳停在停止线后。安安抱着小熊，望向前方。",
+        "enText": "After coming down from the elevated road, their car stopped at a city intersection. The red light changed to a round green one. Mom was ready to turn right, but she stayed behind the line. An'an held her bear and looked ahead.",
+        "illustrationPrompt": "Wide three-quarter front view of the light-blue family hatchback stopped in the right-turn lane behind a clear stop line at a calm city intersection. A round green vehicle signal is clearly visible and there is no right-turn prohibition sign. The elevated road recedes behind. Mom watches the crossing from her driving seat; An'an and the teddy are visible through the rear side window with her restraint correctly secured. Sunny morning; no other main characters needed."
+      },
+      {
+        "page": 2,
+        "zhText": "“绿灯亮了，为什么还要等一等？”安安问。她记得，绿灯告诉这个方向的车可以通行，可妈妈的双手仍安稳地握着方向盘。",
+        "enText": "“The light is green. Why are we still waiting?” asked An'an. She remembered that green lets traffic in this direction go. Yet Mom kept both hands calmly on the steering wheel.",
+        "illustrationPrompt": "Medium interior view from the rear passenger side of the stationary beige car interior. An'an, properly secured in the dark-blue rear child restraint, asks a curious question while holding her small brown teddy. Mom sits at the wheel with both hands on it, eyes on the road. Through the windshield the round green signal and the right-turn crossing are visible. Do not portray Mom turning to look backward."
+      },
+      {
+        "page": 3,
+        "zhText": "妈妈看着右转要经过的斑马线：“先看看那边。”安安顺着妈妈的目光，发现几个行人正在过街，他们的小人信号也是绿色的。",
+        "enText": "“Look over there first,” Mom said, watching the zebra crossing in their turning path. An'an followed her gaze. Several people were crossing, and their pedestrian signal showed a green walking figure too.",
+        "illustrationPrompt": "View outward through the stationary family car's windshield toward the zebra crossing across the road they will turn into. Two adults walk on that crossing under a clear green walking-figure pedestrian signal. The round vehicle green is also visible in a coherent orientation. Mom's hands and steering wheel form a foreground edge; An'an stays restrained in the rear and is not outside. Make the pedestrians' crossing path clearly intersect the future right turn."
+      },
+      {
+        "page": 4,
+        "zhText": "后面那辆红色跑车也停下了。张姐姐安静地等着，没有催促。安安笑了：“小汽车和跑车，都在等同一条斑马线呀！”",
+        "enText": "The red sports car behind them stopped too. Zhang waited quietly without hurrying anyone. An'an smiled. “Our little car and the sports car are both waiting for the same crossing!”",
+        "illustrationPrompt": "Wide street-side view of the light-blue hatchback waiting at the first intersection with the red two-door sports car stopped safely behind it in the same right-turn lane. Professional driver Zhang, short black hair, white polo and sea-blue trousers, is visible seated normally in the sports car. An'an smiles from her secured rear seat, Mom watches the road. Pedestrians remain on the right-turn zebra crossing, green round signal above; generous safe spacing."
+      },
+      {
+        "page": 5,
+        "zhText": "斑马线上，一位叔叔扶着爷爷慢慢走。安安把小熊放稳，没有伸手催他们。她想：“我们多等一会儿，爷爷就能安心走过去。”",
+        "enText": "On the zebra crossing, a man walked slowly beside an older man. An'an settled her teddy bear on her lap. She thought, “If we wait a little longer, the older man can get across comfortably.”",
+        "illustrationPrompt": "Close rear-seat window view of properly restrained An'an settling the brown blue-scarfed teddy in her lap. Outside the glass, an adult man and an older man walk calmly together along the zebra crossing in front of the car's right-turn path. They are upright and comfortable, not in danger. An'an observes patiently; Mom remains a small forward-facing figure at the wheel."
+      },
+      {
+        "page": 6,
+        "zhText": "两个人走到了对面的人行道。安安刚想说“可以啦”，又看见一辆自行车从右边的车窗前经过。骑车人正沿自己的车道直行。",
+        "enText": "The two people reached the opposite sidewalk. An'an was about to say, “Now we can go!” Then she saw a bicycle pass outside the right-hand window. The cyclist was continuing straight in the bicycle lane.",
+        "illustrationPrompt": "Passenger-side interior view through the right-hand window of the stationary light-blue hatchback. A helmeted adult cyclist proceeds straight along the marked bicycle lane and its intersection crossing, across the car's future right-turn path. The pedestrians have reached the far sidewalk. An'an remains secured in the rear child restraint, watching with new understanding. Show the separate bicycle lane clearly and no close contact between bicycle and car."
+      },
+      {
+        "page": 7,
+        "zhText": "妈妈继续等待，让直行的骑车人先过去。安安跟着看：“原来，右转的车还要留意身旁。”小熊的蓝围巾轻轻搭在她手上。",
+        "enText": "Mom kept waiting and let the cyclist going straight pass first. An'an watched too. “So a turning car needs to notice who is beside it.” Her teddy bear's blue scarf rested softly on her hand.",
+        "illustrationPrompt": "High three-quarter view explaining one single moment at the first intersection: light-blue hatchback remains stopped behind its line while one adult cyclist travels straight through the marked cycle crossing across the car's intended right-turn path. Mom watches the cyclist; An'an and teddy stay in the rear restraint. Red sports car waits behind. Round vehicle green and compatible cyclist signal are visible without words; clear geometry, calm space."
+      },
+      {
+        "page": 8,
+        "zhText": "骑车人经过，斑马线也空出来了。妈妈再看清前方和两侧，才平稳右转。安安说：“绿灯亮了，也要看清楚，才能安全地走。”",
+        "enText": "The cyclist passed, and the zebra crossing was clear. Mom checked ahead and to both sides before turning smoothly. “Even with a green light, we need to look carefully to go safely,” An'an said.",
+        "illustrationPrompt": "Wide curb-height view of Mom beginning a gentle right turn only after the zebra crossing and bicycle crossing are fully clear. The light-blue hatchback follows a physically correct curved path, front wheels turned slightly, no speed blur. The cyclist is already far beyond the conflict area, pedestrians safely on the far sidewalk. An'an remains correctly restrained in the rear; red sports car still waits behind. Round green signal visible."
+      },
+      {
+        "page": 9,
+        "zhText": "下一个路口，有两条不同的车道。妈妈沿着直行车道慢慢靠近。安安抬头发现，前面竟有直箭头和弯箭头两种信号灯。",
+        "enText": "At the next intersection, the lanes led in different directions. Mom approached slowly in the straight-ahead lane. An'an looked up and spotted two kinds of signal: a straight arrow and a turning arrow.",
+        "illustrationPrompt": "Forward-facing interior establishing view at a second, distinct intersection. Mom approaches slowly in the straight-ahead lane of the light-blue car; An'an observes from her properly secured rear seat. Overhead signal groups have clearly separate straight and left-turn arrow shapes, with the relevant lamps coming into view. Lane arrows on the pavement are simple nonverbal shapes. A separate ordinary car is in the left-turn lane. No phone and no readable signs."
+      },
+      {
+        "page": 10,
+        "zhText": "直行箭头亮着绿色，左转箭头亮着红色。左转车道的小汽车还在等。安安指给小熊看：“要看自己要去的方向，不能只找一盏绿灯。”",
+        "enText": "The straight arrow was green, but the left-turn arrow was red. A car in the left-turn lane waited. An'an showed her teddy. “We need the signal for the way we're going, not just any green light.”",
+        "illustrationPrompt": "Clear wide view of the second intersection from behind the two approach lanes. The signal above the straight lane shows a green straight-ahead arrow; the left-turn signal shows a red left-turn arrow. An ordinary car waits behind the line in the left-turn lane. The light-blue family car is in the straight lane, An'an restrained in the rear holding teddy and looking upward. Align arrows to their actual lanes, no contradictory signals."
+      },
+      {
+        "page": 11,
+        "zhText": "路口对面的车排成了长队，暂时没有空位。妈妈在路口外停住。安安望着绿箭头问：“现在过去，会不会把横着走的路挡住？”",
+        "enText": "A queue of cars filled the road beyond the intersection. There was no room for their car on the far side, so Mom waited outside. An'an looked at the green arrow. “Would we block the crossing if we went now?”",
+        "illustrationPrompt": "High-angle view making the second intersection geometry unmistakable: the light-blue family car waits behind the stop line outside the intersection despite a green straight arrow, because the exit lane beyond the far crosswalk is filled by a calm queue of vehicles. The central intersection box and crosswalks remain entirely clear. Left-turn lane waits at its red arrow. Mom and secured An'an stay inside. No gridlock or near miss."
+      },
+      {
+        "page": 12,
+        "zhText": "“会的，所以先留出路口。”妈妈说。前面的车队慢慢向前，出口终于空出一段。绿箭头仍亮着，妈妈确认安全，再带她们穿过路口。",
+        "enText": "“Yes. Let's keep the crossing clear,” said Mom. The queue moved forward, leaving enough room beyond the intersection. The straight arrow was still green. Mom checked that it was safe, then drove across.",
+        "illustrationPrompt": "High three-quarter continuation of the same second intersection after the downstream queue has moved well forward. A full car-length-plus clear receiving space is visible beyond the far crossing. Mom now drives the light-blue hatchback smoothly straight through under the still-green straight arrow; left-turn arrow remains red. An'an is secured in the rear. Keep crosswalks empty and the turn lane separate; no sudden acceleration."
+      },
+      {
+        "page": 13,
+        "zhText": "小汽车通过后，后面的公交车也有了足够的空间，平稳向前。安安看着车窗外：“原来，等一等，还能给其他方向留一条路。”",
+        "enText": "After their car crossed, there was enough room for the bus behind them to move smoothly too. An'an looked out. “Waiting can leave a way open for people coming from another direction.”",
+        "illustrationPrompt": "Rearward side-window view from An'an's secured seat after the family car has fully cleared the second intersection. In the distance a teal-blue bus proceeds straight with ample clear receiving space under the green straight arrow, while a perpendicular approach remains safely stopped. The intersection center is unobstructed. An'an and teddy are foreground focal subjects, Mom forward-facing at the wheel. No child leaning out of the window."
+      },
+      {
+        "page": 14,
+        "zhText": "再往前，街角的人行道上，一对母女正在等自己的行人灯。汽车按车道走，行人按信号过街，城市里的许多旅程，都有自己的节奏。",
+        "enText": "Farther along, a mother and child waited on the corner sidewalk for their own pedestrian signal. Cars followed their lanes, and people crossed with their signals. The city's many journeys each had a rhythm of their own.",
+        "illustrationPrompt": "Wide calm city street view alongside the moving light-blue hatchback. A background mother and child wait together well back on a protected sidewalk corner at a red pedestrian figure; a different safely separated crossing in the distance can show orderly pedestrians. Mom drives normally, An'an watches from her secured rear seat. Make the picture focus on orderly parallel journeys without inventing simultaneous conflicting green phases."
+      },
+      {
+        "page": 15,
+        "zhText": "展馆的彩旗出现在前方。安安认出了汽车展门票上的小图案，开心地抱紧小熊：“我们没有着急抢先，也一样到啦！”",
+        "enText": "The exhibition hall's colorful flags appeared ahead. An'an recognized the little picture from their car-show ticket and hugged her teddy. “We didn't need to hurry past anyone. We got here anyway!”",
+        "illustrationPrompt": "Joyful medium rear-seat view of properly secured An'an hugging the small brown teddy while colorful flags and the low silver exhibition hall with a broad curved roof appear clearly ahead through the front windshield. A ticket with an unlettered simple car pictogram is tucked securely in her hand or lap, no writing. Mom drives with eyes forward along the access road, not parking yet. Warm sunny anticipation; no sports-car display prematurely needed."
+      },
+      {
+        "page": 16,
+        "zhText": "妈妈把小汽车开向停车入口。安安把今天的发现说给小熊听：“看对方向的灯，看看周围，再轮到我们。”接下来，要给小汽车找个位置啦！",
+        "enText": "Mom drove toward the parking entrance. An'an told her teddy what she had learned. “Find the signal for our direction, look around, then take our turn.” Next, they needed a place to park their little car.",
+        "illustrationPrompt": "Wide closing approach shot toward the exhibition parking entrance. Light-blue five-door hatchback follows a legal access lane slowly, colorful exhibition flags and a simple parking pictogram ahead. An'an remains secured in the rear, speaking warmly to her teddy; Mom drives forward attentively. Show a clear transition from city intersection journey to parking search, no parked-car door opening or child outside yet."
+      }
+    ],
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 35,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 10,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 35,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "汽车",
+        "跑车",
+        "红绿灯",
+        "路口礼让",
+        "方向信号",
+        "汽车展"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "parentGuide": {
+      "goal": "通过一次去汽车展的城市行车经历，理解绿灯需结合行驶方向与现场情况判断；转弯礼让、留出路口，都能让大家顺利到达。",
+      "reminder": "故事采用圆形绿灯允许右转、没有禁止右转标志的路口情境。不同路口以当地实际信号、标志和规则为准；行人、骑车人也要按各自信号观察通行。请成人负责驾驶与判断，孩子只在正确约束装置内观察，不把桌面游戏当作真实道路指挥。",
+      "questions": [
+        "如果你是车里的安安，除了绿灯，还会留意哪些正在移动的人或车？",
+        "为什么两盏灯一绿一红，旁边左转车道的车仍然等着？",
+        "前方没有地方停下时，先留出路口，会怎样帮助其他人的旅程？"
+      ],
+      "activity": "在桌面用积木搭一个十字路口，用纸条铺斑马线和自行车道，选一辆玩具车右转。成人移动纸片行人与玩具自行车，让孩子讨论什么时候有足够空间通过；再在出口放一排积木车，试着为交叉方向留出空路。允许反复摆放和解释，不设倒计时、不拿到真实路口练习。",
+      "ageTips": {
+        "age4to5": "找出右转路上的行人和自行车，用玩具演一遍“先等一等，再慢慢走”；不要求背术语。",
+        "age6to8": "比较直行与左转的不同信号，再讨论有绿灯却没有接收空间的情况，鼓励孩子说出自己观察到的依据。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay animated children's picture-book illustration, tactile rounded materials, gentle cinematic daylight, varied clear wide, medium and close compositions, physically believable vehicles and city roads. The same sunny Saturday morning on the journey to a city car exhibition. Use only characters required by the current page.",
+    "characterConsistency": "An'an is a six-year-old Chinese girl with an ear-length straight black bob, a yellow star hair clip on her left side, teal hooded jacket, blue jeans, orange small backpack, and white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag; she is the sole driver of the family's light-blue five-door hatchback with beige interior. During driving she watches the road and never uses a phone. An'an rides in the rear seat in a dark-blue age-appropriate child restraint with correctly fitted straps, always secured while the vehicle is moving or waiting in traffic; her backpack is secured away from the restraint straps. The brown teddy bear has a blue scarf and a small yellow crescent behind one ear. The red two-door two-seat sports car has a black roof, silver wheels and slim headlights. Its driver, professional driver Zhang, has short black hair, a white polo shirt and sea-blue trousers, and drives normally on public streets. All vehicles are realistic, without faces or brand features. Mom's bag is stowed while driving. Keep the child's restraint appropriate and visually consistent. Their exhibition hall has a low silver curved roof and blank colorful entrance flags. Generic city buses are teal-blue. The dark-blue child restraint and fitted straps stay clear of the bear and stowed bags. Keep the same people and vehicles across these connected books; include only the cast required by the current page. While riding, secure the orange backpack away from An'an and the child-restraint straps; she does not wear it under the restraint. The family car and sports car are left-hand-drive; adult drivers use the left front seat.",
+    "negative": "No readable words, numbers, captions, letters, road text, license-plate text, logos, brands or watermarks. No anthropomorphic vehicle faces. No unsafe traffic advice, crashes, near misses, racing on public roads, distracted driving, phone use while driving, unrestrained child, backpack beneath restraint straps, child directing real parking, child in a parking aisle or blind spot, independent child road crossing, duplicate characters, or distorted anatomy. Signal colors and direction arrows may be visible and must match the page."
+  }
+}

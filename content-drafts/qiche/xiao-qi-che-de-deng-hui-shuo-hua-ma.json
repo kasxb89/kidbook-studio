@@ -1,0 +1,170 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "xiao-qi-che-de-deng-hui-shuo-hua-ma",
+    "seriesId": "qiche",
+    "title": "小汽车的灯，会说话吗？",
+    "subtitle": "去汽车养护中心路上的小信号",
+    "question": "小汽车一闪一闪的灯，和亮起来的红灯，在告诉大家什么？",
+    "moral": {
+      "zh": "转向灯和刹车灯能提前告诉别人车辆的打算，但真正通行还要观察周围、礼让该先走的人。",
+      "en": "Turn signals and brake lights share what a driver plans to do, yet safe travel still depends on checking surroundings and yielding when needed."
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 39,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 10,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 39,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "转向灯",
+        "刹车灯",
+        "行车信号",
+        "路口礼让",
+        "安全观察"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "星期六下午，妈妈开着浅蓝色小汽车，带安安去山那边的汽车养护中心。安安系好后排儿童安全座椅，小熊安静地坐在她腿上。",
+        "enText": "On Saturday afternoon, Mom drove their light-blue car toward the car care center beyond the mountain. An'an sat buckled in her rear child seat, with Bear resting quietly in her lap.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Calm interior view of the moving light-blue five-door hatchback on a sunny afternoon street. Mom drives in the left front seat with both hands on the wheel and seatbelt fastened. An'an sits in the rear dark-blue child restraint with properly fitted straps, holding her brown bear with blue scarf and yellow ear crescent; her orange backpack is stowed safely on the floor away from the straps. No text."
+      },
+      {
+        "page": 2,
+        "zhText": "前面那辆银灰色小汽车的左后角，忽然有一盏小黄灯一闪、一闪。安安睁大眼睛问：“妈妈，它是在朝我们眨眼睛吗？”",
+        "enText": "At the left rear corner of the silver-gray car ahead, a small amber light began blinking on and off. An'an widened her eyes. “Mom, is that car winking at us?”",
+        "illustrationPrompt": "View through the windshield of the light-blue family car following at a safe distance behind a generic silver-gray sedan on a two-lane city street. The silver sedan's left rear amber turn signal glows brightly with subtle warm light rays indicating a blink, while its right rear light remains unlit. Mom's hands stay steady on the wheel. No text or license plate characters."
+      },
+      {
+        "page": 3,
+        "zhText": "妈妈笑着说：“那是左转向灯。它不会真的说话，却能替驾驶人告诉周围：我准备往左边转弯，或者往左边换车道啦。”",
+        "enText": "Mom smiled. “That's the left turn signal. It can't speak with words, but it lets everyone nearby know that the driver plans to turn left or move into the left lane.”",
+        "illustrationPrompt": "Clear elevated three-quarter street view showing the silver-gray sedan with both its front-left and rear-left amber turn signals illuminated, preparing to move into a left-turn lane ahead. The light-blue family hatchback follows calmly behind with generous spacing. Clean lane markings, no readable road text."
+      },
+      {
+        "page": 4,
+        "zhText": "银灰色小汽车先闪了几下左转向灯，看清左边车道有足够空间，才平平稳稳地并过去。安安点点头：“先提醒，再动作！”",
+        "enText": "After blinking its left signal several times and making sure the left lane was clear, the silver-gray car glided smoothly over. An'an nodded. “Remind others first, then move!”",
+        "illustrationPrompt": "Wide street view of the silver-gray sedan smoothly entering the left-turn lane with ample clear space around it, left amber signal still glowing. In the straight lane beside it, Mom's light-blue hatchback continues straight at an even pace. Sunny trees line the sidewalk. No text."
+      },
+      {
+        "page": 5,
+        "zhText": "不一会儿，右边车道的蓝绿色公交车亮起了右边的小黄灯，一闪一闪地靠近站台。安安马上认出来了：“它准备向右靠站！”",
+        "enText": "Soon after, a teal-blue city bus in the right lane blinked its right amber signal as it approached a bus stop. An'an recognized it right away. “It's getting ready to pull over to the right!”",
+        "illustrationPrompt": "Medium-wide street scene: a generic rounded teal-blue city bus in the right lane has its right-side amber turn signals glowing as it approaches a curbside bus shelter where two adult passengers wait on the sidewalk. Mom's light-blue hatchback travels in the adjacent center lane with safe clearance. No text or route numbers."
+      },
+      {
+        "page": 6,
+        "zhText": "继续往前走，正前方一辆深蓝色小汽车的车尾，忽然同时亮起两盏红红的灯，不闪也不灭。安安问：“这又是哪句话呀？”",
+        "enText": "Farther along, two bright red lights suddenly came on together at the back of a dark-blue car ahead, shining steadily without blinking. “What is it saying now?” asked An'an.",
+        "illustrationPrompt": "Clear forward view from behind a generic dark-blue sedan whose left and right rear red brake lights shine steadily at the same time as it slows before a crosswalk ahead. Mom's light-blue hatchback keeps a generous following gap. Distinguish the steady twin red brake lights clearly from blinking corner amber signals."
+      },
+      {
+        "page": 7,
+        "zhText": "妈妈也轻轻踩下刹车，和前车保持距离：“这是红色的刹车灯。它亮起来，是在提醒后面的车：我正在减速，或者准备停下。”",
+        "enText": "Mom gently pressed the brake pedal too, keeping a safe distance behind the car ahead. “Those are red brake lights. When they light up, they tell drivers behind: I'm slowing down or getting ready to stop.”",
+        "illustrationPrompt": "Side-angled view showing both cars slowing smoothly with a wide gap between them: the dark-blue car ahead has steady red rear brake lights on, and Mom's light-blue five-door hatchback behind it also illuminates its own steady red rear brake lights. Inside the rear seat, An'an remains securely buckled with Bear."
+      },
+      {
+        "page": 8,
+        "zhText": "到了前面的路口，一辆白色小汽车停在右转车道最前面，右边的小黄灯一闪一闪。安安说：“它亮右转向灯了，要右转啦！”",
+        "enText": "At the next intersection, a white car waited at the front of the right-turn lane with its right amber signal blinking. “Its right turn signal is on!” said An'an. “It wants to turn right!”",
+        "illustrationPrompt": "Medium-wide view of a calm city intersection: a generic white sedan waits behind the stop line in the right-turn lane with its right amber turn signal glowing. Mom's light-blue hatchback waits calmly behind it at a safe distance. A round green traffic light is visible, and no text appears on any sign."
+      },
+      {
+        "page": 9,
+        "zhText": "可是，白色小汽车的小黄灯闪了好几下，轮子却一动也没动。安安有些奇怪：“它已经告诉大家要右转了，为什么还不走呢？”",
+        "enText": "Yet even after its amber light blinked several times, the white car's wheels did not move at all. An'an wondered, “It already told everyone it plans to turn right—why isn't it going?”",
+        "illustrationPrompt": "Interior view looking out from the stationary light-blue hatchback: An'an, buckled in her rear dark-blue child seat, looks curiously toward the stationary white sedan ahead whose right amber signal is still blinking while its red brake lights also hold steady. Mom watches the intersection ahead."
+      },
+      {
+        "page": 10,
+        "zhText": "妈妈请安安看向右侧的斑马线。一位阿姨正牵着小朋友按绿色行人灯过马路，旁边的非机动车道上，还有一位叔叔骑着自行车直行。",
+        "enText": "Mom asked An'an to look at the crosswalk on the right. A woman and a child were crossing with their green pedestrian signal, and a man was riding a bicycle straight through in the bike lane beside them.",
+        "illustrationPrompt": "Clear view of the intersection corner to the right of the stationary white sedan: an adult woman holding a child's hand walks across the white zebra stripes under a green walking-figure pedestrian light, while an adult cyclist wearing a helmet rides straight along the marked bike lane. The white sedan stays completely stopped behind the line."
+      },
+      {
+        "page": 11,
+        "zhText": "妈妈温和地说：“转向灯只是说出自己的打算，不是让大家都给自己让路。转弯前，还是要看清周围，先礼让正在通行的人。”",
+        "enText": "“A turn signal only shares a driver's plan,” Mom explained gently. “It doesn't mean everyone else must get out of the way. Before turning, a driver still checks around and yields to people who have the right to go first.”",
+        "illustrationPrompt": "Balanced overhead three-quarter view of the intersection: the pedestrians finish reaching the sidewalk and the straight-through cyclist clears the crossing while the white sedan with its blinking right amber signal waits patiently behind the stop line, followed by Mom's light-blue car. Warm, orderly city atmosphere."
+      },
+      {
+        "page": 12,
+        "zhText": "等行人和骑车人都安全过去了，白色小汽车才慢慢右转。安安恍然大悟：“原来，我们看别人的车灯，也要看它是不是真的停稳、让行！”",
+        "enText": "Only after the pedestrians and cyclist were safely across did the white car turn right slowly. An'an understood. “So even when we see a car's lights, we still watch what the car is actually doing!”",
+        "illustrationPrompt": "Wide intersection view as the pedestrians walk safely on the sidewalk and the white sedan finally makes a slow, smooth right turn with clear space ahead. Mom's light-blue hatchback moves up to the stop line, pausing to check the crossing too."
+      },
+      {
+        "page": 13,
+        "zhText": "穿过路口后，前方出现了通往山脚道路的指示牌。妈妈准备向右变换车道，她先拨动转向灯杆，仪表盘上的绿色小箭头跟着轻轻闪烁。",
+        "enText": "Past the intersection, a direction sign pointed toward the mountain road ahead. Preparing to move into the right lane, Mom flicked the signal stalk first, and a small green arrow blinked on the dashboard.",
+        "illustrationPrompt": "Close driver-area view inside the left-hand-drive light-blue family car: Mom's left hand gently operates the turn-signal stalk behind the steering wheel while her eyes check the side mirror. On the simple dashboard cluster, a small right-pointing green indicator arrow glows without any letters or numbers."
+      },
+      {
+        "page": 14,
+        "zhText": "妈妈先看后视镜，确认右侧车道有足够的安全距离，才带着小汽车平稳并入右侧车道。拨杆归位，一闪一闪的转向灯也停了下来。",
+        "enText": "Mom checked her mirrors first and made sure there was plenty of safe space in the right lane before guiding the car smoothly across. As the lane change finished, the blinking turn signal clicked off.",
+        "illustrationPrompt": "Exterior three-quarter rear view of the light-blue five-door hatchback with its right amber turn signal glowing as it glides smoothly into the spacious right-hand lane leading toward green hills in the distance. Other traffic stays far back with generous room. No text."
+      },
+      {
+        "page": 15,
+        "zhText": "安安低头对怀里的小熊说：“黄灯闪一闪是提醒方向，红灯亮起来是提醒减速。回家后，我也要给玩具车贴上小灯图案，请你猜猜它想做什么！”",
+        "enText": "An'an looked down at Bear in her lap. “A blinking amber light shares a direction, and bright red lights show slowing down. When we get home, I'll put little light stickers on my toy car so you can guess what it plans to do!”",
+        "illustrationPrompt": "Warm close interior view of An'an buckled in her rear dark-blue child restraint, holding Bear and smiling as she points gently toward the window while talking to Bear. Her orange backpack stays stowed on the floor away from the restraint straps. Soft afternoon sunlight streams into the beige cabin."
+      },
+      {
+        "page": 16,
+        "zhText": "正说着，一座高高的青山出现在前方，山脚下有一道半圆形的大拱门。安安望着前面的山：“妈妈，大山挡在前面，小汽车要钻进山里去吗？”",
+        "enText": "Just then, a tall green mountain rose ahead, with a wide arched portal at its foot. An'an looked out at the mountain. “Mom, the mountain is right in front of us—is our car going to go inside it?”",
+        "illustrationPrompt": "Wide scenic view of the light-blue family hatchback approaching a lush green mountain along a two-lane road. At the base of the mountain stands a clean concrete tunnel portal with green lane-open arrows above the entrance. Inside the car, Mom drives calmly and An'an looks forward from her rear child seat. No readable words."
+      }
+    ],
+    "parentGuide": {
+      "goal": "认识汽车的左/右转向灯与红色刹车灯，理解车灯是传递行车意图的信号；同时懂得打灯不等于拥有优先权，通行仍需观察周围与礼让。",
+      "reminder": "引导孩子区分“表达打算”与“实际行动”：驾驶人打转向灯后仍须观察后视镜、礼让行人和直行车辆；行人在路上看到车辆打灯或不打灯，都不能只凭灯光猜测车辆一定停下或一定不转弯，应在成人陪同下确认安全。",
+      "questions": [
+        "看到前车左边或右边的小黄灯一闪一闪，或者车尾两盏红灯一起亮起，分别表示什么？",
+        "为什么那辆白色小汽车已经亮了右转向灯，却还在路口停着等一等？",
+        "如果你给玩具车贴上黄色和红色的小纸片，你想怎样用它们跟小熊做提醒游戏？"
+      ],
+      "activity": "在家里准备几张黄色和红色的小圆点贴纸，贴在玩具汽车的前后左右角和车尾。大人或孩子在桌面纸路推动玩具车前，先指一指要亮哪盏“小灯”，再检查纸路上的玩偶行人和其它玩具车，练习“先打灯提醒、再观察让行、最后平稳移动”。全程在桌面进行，不设倒计时。",
+      "ageTips": {
+        "age4to5": "分辨左边闪、右边闪和车尾两盏红灯同时亮，用玩具车做“闪一闪、看一看、让一让、慢慢走”的动作游戏。",
+        "age6to8": "讨论为什么“打了转向灯也不能马上转弯或变道”，以及行人过街时为什么除了看灯还要留意车辆是否真正停稳让行。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay-like animated children's picture-book illustration, tactile rounded materials, clear sunny Saturday afternoon daylight, varied wide, medium and close compositions, physically accurate vehicle lighting and calm city roads. No comic panels, speech bubbles or readable writing.",
+    "characterConsistency": "An'an is the same six-year-old Chinese girl on every page: round face, ear-length straight black bob, yellow star hair clip on her left side, teal-green hooded jacket, blue jeans, small orange backpack, white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag; she is the sole driver in the left front seat of the family's left-hand-drive light-blue five-door hatchback with beige interior. An'an rides in the rear dark-blue age-appropriate child restraint with properly fitted straps, holding her brown bear with blue scarf and yellow ear crescent; her orange backpack and Mom's bag are stowed safely away from the straps. Other street vehicles are generic and brandless: a silver-gray sedan, a teal-blue city bus, a dark-blue sedan, and a white sedan. Include only the cast required by each page.",
+    "negative": "No text, letters, numbers, captions, logos, brand marks, readable license plates or watermarks. No anthropomorphic vehicle faces. No turning across close pedestrians or cyclists, sudden cut-ins, tailgating, crashes, driver phone use while moving, unrestrained child passengers, backpack under child-restraint straps, children standing in traffic, duplicate characters or distorted anatomy."
+  }
+}

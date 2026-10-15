@@ -1,0 +1,193 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文草稿，插图、音频及书库接入尚待制作和验收。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "qi-che-kai-dao-tian-shang-qu-le-ma",
+    "seriesId": "qiche",
+    "title": "汽车开到天上去了吗？",
+    "subtitle": "跟着弯弯的路，解开城市的立体拼图",
+    "question": "高架上的汽车，怎样回到地面、到达看得见的地方？",
+    "moral": {
+      "zh": "看见目的地，还需要找到连通的路。高架有桥墩支撑，匝道连接不同高度；沿着路线一步步走，就能把城市的立体拼图接起来。",
+      "en": "Seeing a destination is only the beginning; we also need a road that connects to it. Piers support elevated roads, and ramps join different levels. Following the route step by step helps us solve the city's three-dimensional puzzle."
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "离开高速后，安安和妈妈继续向城市汽车展前进。前面一条路弯弯地向上升，安安抱紧小熊：“小汽车要爬上去吗？”",
+        "enText": "After leaving the expressway, An'an and Mom continued toward the city car show. Ahead, a road curved upward. An'an held Bear gently. “Is our car going to climb up there?”",
+        "illustrationPrompt": "Sunny square establishing shot from the family car's closed rear side window on a city-outskirts surface road. Correctly restrained An'an holds her brown teddy and notices a realistic upward-curving entrance ramp ahead. Mom is a small forward-facing driver at the front. Distant city towers continue the previous book's landscape; no other passenger or sports car, no writing on signs."
+      },
+      {
+        "page": 2,
+        "zhText": "妈妈沿着匝道平稳上行。两边有护栏，小汽车的四个轮子一直贴着路面。安安看看窗外，发现树梢离自己越来越近了。",
+        "enText": "Mom drove smoothly up the ramp. Guardrails lined both sides, and all four wheels stayed on the road. Looking out, An'an noticed that the treetops were getting closer to her window.",
+        "illustrationPrompt": "Wide side three-quarter view of the same light-blue five-door family car ascending a gently sloped urban elevated-road ramp. All four tires visibly contact the paved roadway; strong guardrails and supporting structure make the ramp realistic. Tree crowns rise beside the closed rear window, An'an remains secured inside and Mom faces forward. No flying vehicle, steep fantasy slope, or exposed pedestrians."
+      },
+      {
+        "page": 3,
+        "zhText": "地面上的公交车变得小了一点。安安睁大眼睛：“妈妈，我们开到天上了吗？”小熊的蓝围巾静静搭在她的手上。",
+        "enText": "A bus on the ground looked a little smaller now. An'an's eyes widened. “Mom, have we driven into the sky?” Bear's blue scarf lay quietly across her hand.",
+        "illustrationPrompt": "Interior rear-seat close view of securely seated An'an gazing down through a closed side window. A realistic small teal-blue city bus travels on the clearly lower surface road outside, with a visible edge of elevated-road guardrail in the middle distance. Teddy's blue scarf lies across An'an's hand without covering restraint straps. Show only An'an; no child leaning or climbing, no extreme vertigo or fantasy flight."
+      },
+      {
+        "page": 4,
+        "zhText": "妈妈笑着说：“还没有呢。我们在高架路上，这条路被架到了地面上方。”安安低头看一眼脚边，又抬头看看桥上的路。",
+        "enText": "Mom smiled. “Not into the sky. We're on an elevated road—a road built above the ground.” An'an glanced at her feet, then looked ahead at the roadway on the bridge.",
+        "illustrationPrompt": "Calm interior view from the front passenger side: Mom, the only driver, smiles slightly while keeping her eyes on the road, hands safe on wheel and seat belt fastened. An'an remains secured in the dark-blue rear child restraint, looking ahead toward the elevated roadway visible through glass. Warm beige interior, light-blue exterior glimpse, teddy in lap; no phone, no extra person, no fantasy clouds inside the car."
+      },
+      {
+        "page": 5,
+        "zhText": "高架旁的一段桥面下，站着一根根粗粗的桥墩。安安说：“像积木的柱子！”妈妈回答：“是呀，它们支撑着上面的桥和路。”",
+        "enText": "Beneath a nearby stretch of elevated roadway stood thick bridge piers. “Like pillars in my building blocks!” said An'an. “Yes,” Mom replied. “They support the bridge and the road above.”",
+        "illustrationPrompt": "Architecturally clear wide side view of parallel urban viaduct sections supported by thick evenly spaced concrete bridge piers. The family car travels on one safe deck, allowing a view of a nearby deck's piers from the roadway. Show believable beams, deck and pier connections with a gentle clay texture; no floating road, missing support, person under active roadway, or labels."
+      },
+      {
+        "page": 6,
+        "zhText": "下面的道路上，汽车沿着街区前进；上面的道路上，小汽车跟着车道走。安安伸出两只手：“城市的路，有上面，也有下面！”",
+        "enText": "On the lower roads, cars traveled through the neighborhood. Above them, their car followed its lane. An'an held up two hands. “The city has roads up here and down there!”",
+        "illustrationPrompt": "Readable three-quarter aerial urban view with two clearly separated road levels: the light-blue family car stays on the elevated deck while a few cars move along the lower neighborhood street. Strong piers, safe railings, realistic vertical clearances and separate directions. Through rear glass, An'an's small raised hands are visible while torso stays secured; no text or diagram labels, no duplicated family car."
+      },
+      {
+        "page": 7,
+        "zhText": "安安又问：“高架就是高速吗？”妈妈说：“高架说的是路架得高，高速公路还有自己的道路要求。它们不是同一个意思。”",
+        "enText": "“Does elevated mean expressway?” An'an asked. “Elevated tells us that a road is built up high,” Mom said. “An expressway has its own road requirements. The two words don't mean the same thing.”",
+        "illustrationPrompt": "Thoughtful rear-seat close-up of An'an asking a question, still correctly restrained, with Mom's calm forward-facing driving profile softly visible ahead. Out the closed side window show urban elevated-road railings and a supported deck, distinct from the countryside expressway setting of the previous book. Focus on conversation, no comparative montage, map labels, traffic-light prohibition symbol, phone, or extra passengers."
+      },
+      {
+        "page": 8,
+        "zhText": "小汽车平稳向前，经过一座楼房的窗边。安安发现，车窗像一扇会移动的画框，装进了屋顶、桥墩，还有远处亮亮的小河。",
+        "enText": "The car rolled smoothly past a building's windows. An'an found that her window was like a moving picture frame, holding rooftops, bridge piers, and a little river shining in the distance.",
+        "illustrationPrompt": "Poetic but realistic view framed by the closed rear side window: restrained An'an and Teddy in soft foreground, with rooftops at varied heights, piers supporting a neighboring viaduct, a nearby building facade, and a small distant sunlit river. The car follows the elevated road calmly. Square warm composition, no impossible view through the car floor, no child reaching out, no text or other people."
+      },
+      {
+        "page": 9,
+        "zhText": "“汽车展！”安安看见一座大大的展馆，门前的彩旗一闪一闪。它就在不远处，安安高兴地问：“我们是不是马上到了？”",
+        "enText": "“The car show!” An'an spotted a large exhibition hall with colorful flags fluttering outside. It did not look far away. “Are we almost there?” she asked happily.",
+        "illustrationPrompt": "Over-An'an's-shoulder view through the closed car window from the elevated roadway: a distinctive low silver exhibition hall with a broad curved roof and small colorful blank flags sits some distance beyond city blocks. An'an stays restrained and points gently from within her lap area, teddy nearby. The hall entrance has no brand or wording; no visible sports cars or crowds yet."
+      },
+      {
+        "page": 10,
+        "zhText": "可是，小汽车仍沿着高架往前走。安安看看展馆，再看看前面的路：“它明明在旁边，为什么不能直接开过去呀？”",
+        "enText": "But their car kept following the elevated road. An'an looked at the hall, then at the road ahead. “It's right over there. Why can't we drive straight to it?”",
+        "illustrationPrompt": "Wide high-angle city composition showing why a direct path is impossible: the elevated deck carries the light-blue family car past and above the silver exhibition hall, whose ground-level driveway is separated by blocks and landscaping. Intact continuous guardrail and proper vertical separation; roads do not cross-connect abruptly. No imaginary shortcut, car jumping, or child outside; only normal city traffic."
+      },
+      {
+        "page": 11,
+        "zhText": "妈妈说：“看得见，不一定就有路相连。我们还在上面，展馆入口在下面。要沿着连接的路，才能到它的门前。”安安想了想。",
+        "enText": "“Seeing a place doesn't always mean there's a road straight to it,” Mom said. “We're up here, and the hall's entrance is down below. We need the roads that connect to its door.” An'an thought about that.",
+        "illustrationPrompt": "Simple realistic side-on city view: family car continues along the raised roadway, while exhibition hall doorway and ground-level driveway sit below and to one side. Show supported deck and railings, an intervening landscaped block, and a distant connecting ramp, all without labels or arrows. An'an and Mom may be tiny behind closed windows, correctly seated; no unsafe direct descent or extra people."
+      },
+      {
+        "page": 12,
+        "zhText": "安安想起家里的积木路：两块积木挨得很近，却没有接头，玩具车还是过不去。“原来，真的城市也要把路接起来呀！”",
+        "enText": "An'an remembered her block roads at home: two pieces might sit close together, but without a connection, the toy car could not cross. “A real city needs connected roads too!”",
+        "illustrationPrompt": "Single present-tense car-interior scene: restrained An'an thoughtfully holds two fingers near each other above her lap, illustrating her remembered separated block-road pieces without a fantasy inset. Teddy stays in lap, Mom faces the road at wheel. Through the closed window, two adjacent but distinct elevated roadway sections reinforce the idea. No toy car loose in the moving car, no actual home scene, no map or text."
+      },
+      {
+        "page": 13,
+        "zhText": "前面的立交桥，把几条不同方向的路接在一起。妈妈按标志和已经安排好的路线前进，安安看见一条弯弯的匝道从桥旁伸出去。",
+        "enText": "An interchange ahead connected roads leading in different directions. Mom followed the signs and the route already planned. An'an spotted a curving ramp branching from the bridge.",
+        "illustrationPrompt": "Wide three-quarter aerial view of a modest, physically accurate urban interchange, with distinct supported decks and one curving connector ramp. The family car follows its preplanned route on a clearly continuous lane, with sufficient distance from neutral cars. Signs are distant abstract panels without letters or numbers. Keep structure legible and calm, no giant impossible knot of roads or driver phone use."
+      },
+      {
+        "page": 14,
+        "zhText": "有的车继续直行，有的车沿另一条路转弯。妈妈提前进入合适的车道。安安说：“这些路像拼图，得找到接得上的那一块！”",
+        "enText": "Some cars continued straight; others followed another road around a bend. Mom moved into the correct lane in good time. “These roads are like a puzzle,” An'an said. “We need the piece that fits!”",
+        "illustrationPrompt": "Clear overhead oblique view of a realistic interchange split, with the light-blue family car already centered in the correctly chosen branch lane before the separation. A few neutral vehicles continue along the other branch, each correctly oriented. Lane lines, bridge edges and continuous road geometry create a readable puzzle-like form without actual puzzle-piece graphics. No abrupt lane cut, text, or additional visible family members."
+      },
+      {
+        "page": 15,
+        "zhText": "小汽车进入出口匝道，沿着弯慢慢向下。安安没有离开座位，只透过关好的车窗看着：“树梢又一点点升到我们上面啦。”",
+        "enText": "Their car entered the exit ramp and followed its bend downward. An'an stayed in her seat and watched through the closed window. “The treetops are slowly rising above us again!”",
+        "illustrationPrompt": "Gently descending exit-ramp side view of the family car, all tires contacting realistic sloped pavement with continuous guardrails. Trees stand beside the ramp at progressively taller relative window height. Through closed rear window, An'an stays securely seated and watches, teddy in lap; Mom looks forward. No open window, exposed child, impossible drop, or exaggerated downhill speed."
+      },
+      {
+        "page": 16,
+        "zhText": "弯弯的匝道，把高高的路接回地面道路。安安仿佛找到了最后一块拼图：“先沿着桥走，再顺着这条下坡路，就能回到下面！”",
+        "enText": "The curved ramp joined the high roadway to a surface road. An'an felt as if she had found the last puzzle piece. “Follow the bridge, then this road down, and we're back at ground level!”",
+        "illustrationPrompt": "Architecturally clear wide view of one continuous descending ramp connecting the elevated deck to the ground-level city road. Light-blue family car travels near the lower part, with thick piers visible behind and ordinary street trees ahead. Show grade changes gently and physically accurately, not a vertical drop; no cross-level collision, diagram text, child outside car, or extra people."
+      },
+      {
+        "page": 17,
+        "zhText": "小汽车回到地面，树干和公交车又出现在车窗旁。刚才托着道路的桥墩，现在站在他们身边。安安抬头看看：“它们真高呀！”",
+        "enText": "Back at ground level, tree trunks and buses appeared beside their window again. The piers that had held the road above now stood alongside them. An'an looked up. “They're so tall!”",
+        "illustrationPrompt": "Ground-level rear-window perspective of An'an safely restrained in the light-blue car as it travels on a surface street beside large realistic elevated-road piers. A teal-blue bus in a separate lane and tree trunks are now near eye level; the supported roadway lies well above. Teddy stays in lap. No child under bridge outside the car, no readable bus wording, no impossible pier placement in traffic lane."
+      },
+      {
+        "page": 18,
+        "zhText": "展馆的彩旗再次出现在前方。这回，通向它的地面道路也看得见了。安安笑起来：“看见地方，还要找对通向它的路！”",
+        "enText": "The hall's colorful flags appeared ahead again. This time, An'an could also see the surface road leading toward it. She smiled. “We need to find the road to a place, as well as see the place!”",
+        "illustrationPrompt": "Hopeful forward view from inside the family car, showing a clear connected ground-level street approaching the same silver exhibition hall with curved roof and blank colorful flags. Mom drives with eyes on road, belt fitted, hands on wheel; An'an smiles in her rear restraint, visible at one edge with Teddy. Hall still at a distance, no arrival or parking yet, no lettering or crowds."
+      },
+      {
+        "page": 19,
+        "zhText": "安安给小熊讲起刚才的路：“桥墩托着高架，匝道连着上下。回家后，我也要搭一座这样的城市，让玩具车找到回地面的路。”",
+        "enText": "An'an told Bear about the roads. “Piers hold up the elevated road, and ramps connect the levels. When we get home, I'll build a city like this, so my toy cars can find their way back down.”",
+        "illustrationPrompt": "Warm present-tense rear-seat portrait of An'an sharing her discovery with Teddy while still traveling toward the car show, correctly secured in the dark-blue child restraint. She uses one small hand above her lap to indicate up and down; scarf and toy stay clear of straps. Outside the closed window, a real pier and connected ramp recede behind. Do not depict home, blocks, dream bubbles, extra people, or a return trip."
+      },
+      {
+        "page": 20,
+        "zhText": "前方到了一个有红绿灯的路口，小汽车停在停止线后。安安看向斑马线：“等这盏灯放行，我们就更近啦。”新的路口问题，也快出现了。",
+        "enText": "Ahead was an intersection with traffic lights. Their car stopped behind the stop line. An'an looked toward the crossing. “When our signal lets us go, we'll be closer.” A new question about intersections was waiting ahead.",
+        "illustrationPrompt": "Closing square city-street view of the light-blue family car fully stopped behind a clear stop line at a red light, with a zebra crossing ahead and the silver exhibition hall's curved roof distant beyond the blocks. Mom remains correctly belted and attentive at wheel; An'an stays secured in the rear, looking through the closed window with Teddy. No pedestrians or sports car added on this page, no letters, no red-light crossing, no green signal yet."
+      }
+    ],
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 34,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 12,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 34,
+      "personalizationEnabled": false,
+      "tags": [
+        "汽车",
+        "高架",
+        "匝道",
+        "立交桥",
+        "空间探索"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "parentGuide": {
+      "goal": "借安安的视角认识桥墩、桥面、匝道与立交，理解上下层道路需要真实连接，并体验“看见目的地”到“找到到达路线”的空间推理。",
+      "reminder": "高架描述道路架于地面之上，高速公路属于另一种道路概念；不要概括为高架总是更快或没有红绿灯。乘车观察时始终使用适合孩子的约束装置，不探出车窗，也不为观察在高架或匝道停车、下车。桌面活动允许孩子反复改路。",
+      "questions": [
+        "安安从哪些变化发现自己到了高处？回到地面后又看见了什么？",
+        "展馆看起来就在旁边，为什么小汽车还要沿着连接的路走？",
+        "如果你的积木道路有两层，你想怎样让玩具车从上面回到下面？"
+      ],
+      "activity": "在桌面用积木柱子托起一块稳固的硬纸板作高架，用较长纸板缓缓连接地面作匝道，把玩具展馆放在地面。先留一个没有连接的缺口，请孩子用玩具车发现哪里过不去，再一起补上连接。所有活动都在低矮桌面或地垫上完成，不爬家具、不搬重物，不计时。",
+      "ageTips": {
+        "age4to5": "先找上面、下面、桥墩和弯弯的坡，用手势或玩具车表达。大人帮忙稳住纸板，让孩子自己选择通向展馆的路线。",
+        "age6to8": "鼓励孩子从俯视和侧面各画一次自己的双层道路，检查每条路是否真的连得上。可以给展馆更换位置，让孩子重新找路，不把较短路线当成唯一答案。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Premium warm square 3D clay-animation children's picture-book illustration, tactile rounded materials, gentle cinematic daylight, readable uncluttered composition, realistic Chinese city elevated-road infrastructure. Same sunny Saturday morning journey to a city car show across all five connected books. Decks, piers, guardrails, ramps, vertical clearances and road connections must be physically plausible; vehicles never anthropomorphic. Each page depicts one scene and one principal action, with varied coherent camera angles and only people present in that page's prompt. The journey remains outbound throughout; the home block-building activity is only a future plan.",
+    "characterConsistency": "An'an is a six-year-old Chinese girl with a round face, ear-length straight black bob, yellow star hair clip on the left side of her hair, teal-green hooded jacket, blue jeans, orange small backpack, and white sneakers with red trim. Mom has shoulder-length straight black hair, coral cardigan, cream trousers, and brown shoulder bag. Mom is the only driver of the same light-blue five-door family car with beige interior. During travel Mom faces the road, wears her seat belt, and never operates a phone. An'an always rides in the rear in the same dark-blue age- and size-appropriate child restraint, correctly secured with flat fitted straps; no loose straps or teddy obscuring the harness. Her brown teddy has a blue scarf and a small yellow moon patch behind one ear. Keep identities, clothes, car color, interior, and props consistent. The car-show hall, when visible, has a low silver curved roof and blank colorful entrance flags. No other family member or extra passenger. Their exhibition hall has a low silver curved roof and blank colorful entrance flags. Generic city buses are teal-blue. The dark-blue child restraint and fitted straps stay clear of the bear and stowed bags. Keep the same people and vehicles across these connected books; include only the cast required by the current page. While riding, secure the orange backpack away from An'an and the child-restraint straps; she does not wear it under the restraint. The family car and sports car are left-hand-drive; adult drivers use the left front seat.",
+    "negative": "No text, letters, numbers, captions, labels, logos, brands, readable signs or plates, watermarks, vehicle faces, expressive vehicle eyes, distorted anatomy, duplicate people, unbelted passengers, child in front passenger seat, child outside a moving vehicle, child leaning out of a window, open doors while moving, pedestrian on elevated roadway or ramp, car stopping on ramp for observation, driver phone use while driving, racing, reckless speed, tailgating, abrupt lane cuts, car jumping between road levels, flying cars, floating unsupported roads, impossible slopes or pier positions, collisions, injury, frightening heights, frightening emergency scenes, or home-return scene before the car-show visit. Keep dangerous actions out of the pictures even when narration mentions them."
+  }
+}

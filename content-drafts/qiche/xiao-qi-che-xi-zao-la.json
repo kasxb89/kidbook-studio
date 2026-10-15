@@ -1,0 +1,170 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "xiao-qi-che-xi-zao-la",
+    "seriesId": "qiche",
+    "title": "小汽车洗澡啦！",
+    "subtitle": "隔着玻璃看泡泡，把小汽车照顾得干干净净",
+    "question": "小汽车脏了怎么洗澡，洗车流下来的脏水又去哪里了？",
+    "moral": {
+      "zh": "按顺序冲洗浮尘、涂抹泡沫、轻柔擦洗并妥善收集处理废水，既能把小汽车照顾得干干净净，也能爱护周围的环境。",
+      "en": "Rinsing away loose grit, applying foam, washing gently, and collecting wastewater properly keeps the car clean while caring for the environment."
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 42,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 10,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 42,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "汽车清洗",
+        "洗车流程",
+        "废水处理",
+        "爱护车辆",
+        "积木车库"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "做完轮胎检查，浅蓝色小汽车停在洗车房门前。跑了一路的车门和车尾沾着薄薄的灰尘，安安说：“小汽车今天也像玩了一天泥巴呀！”",
+        "enText": "After the tire check, their light-blue car stopped in front of the wash bay. A thin layer of road dust covered its doors and rear panel. “Our car looks as if it played outside all day!” said An'an.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Outside the glass-walled wash bay of the white-and-gray car care center with teal trim, the stationary light-blue five-door hatchback has a visible light dusty film along its lower doors and bumpers. An'an (holding Bear) and Mom stand on the pedestrian walkway with Technician Zhou. No text."
+      },
+      {
+        "page": 2,
+        "zhText": "安安抱紧怀里的小熊，有些担心地问：“一会儿喷水吹泡泡，我和小熊也会被淋湿吗？”妈妈笑着摸摸她的头。",
+        "enText": "An'an hugged Bear closely and asked with a little worry, “When the water and bubbles spray, will Bear and I get wet too?” Mom smiled and stroked her hair.",
+        "illustrationPrompt": "Medium view on the walkway beside the glass viewing window: An'an hugs her brown bear with blue scarf and yellow ear crescent protectively while looking toward the wash bay. Mom smiles warmly beside her, pointing toward the dry, bright indoor glass viewing lounge."
+      },
+      {
+        "page": 3,
+        "zhText": "妈妈说：“洗车时车窗和车门都会关严；而且今天我们去玻璃窗后面的等候区看，能把小汽车洗澡的每一步看得清清楚楚。”",
+        "enText": "“During a wash, all the doors and windows stay tightly closed,” Mom said. “And today we'll watch from the waiting lounge behind the glass window, so we can see every step clearly.”",
+        "illustrationPrompt": "View inside the bright, dry visitor waiting lounge looking through a floor-to-ceiling clear glass wall into the wash bay: Technician Zhou checks that all four doors, the rear hatch, and all windows of the empty light-blue hatchback are completely closed in the wash stall. An'an and Mom stand comfortably inside behind the glass."
+      },
+      {
+        "page": 4,
+        "zhText": "洗车开始啦！第一遍喷出来的不是泡泡，而是细细的清水水雾，从车顶到车门，把表面的浮尘和泥沙轻轻冲下来。",
+        "enText": "The car wash began! What sprayed out first was not foam, but a fine mist of clean water that rinsed loose dust and grit gently down from the roof and doors.",
+        "illustrationPrompt": "Through the clear glass viewing window: arched spray nozzles around the wash bay mist the closed light-blue five-door hatchback with clean water droplets, rinsing dusty water down the sides of the car. An'an and Mom watch from the dry lounge foreground. No text."
+      },
+      {
+        "page": 5,
+        "zhText": "安安好奇地问：“为什么不直接用刷子擦呢？”妈妈说：“车身上有小沙粒，先用清水冲掉浮尘，再去擦洗，才不容易刮花车漆。”",
+        "enText": "“Why doesn't it brush the car right away?” asked An'an. “Tiny grains of sand sit on the paint,” Mom explained. “Rinsing loose dust off with water first helps keep the paint from getting scratched.”",
+        "illustrationPrompt": "Close view through the glass window of clean water streams washing tiny specks of dust off the smooth light-blue door panel of the stationary car, leaving wet droplets on the paint. In the foreground corner, An'an watches attentively with Bear."
+      },
+      {
+        "page": 6,
+        "zhText": "接着，喷头喷出雪白绵密的泡沫，不一会儿就把车顶、车窗和车门盖住了。安安笑起来：“小汽车穿上一件白泡泡棉袄啦！”",
+        "enText": "Next, the nozzles sprayed thick, snowy-white foam that soon covered the roof, windows, and doors. An'an laughed. “Our little car is wearing a fluffy white bubble coat!”",
+        "illustrationPrompt": "Joyful view through the lounge glass: the light-blue hatchback is covered in fluffy white car-wash foam, with only hints of its light-blue fenders and wheels peeking through like a snowy coat. Inside the lounge, An'an giggles and holds up Bear to see."
+      },
+      {
+        "page": 7,
+        "zhText": "柔软的清洗设备沿着车身慢慢移动，像一双温柔的大手，配着泡沫把车身各处轻轻拂过。浅蓝色一会儿藏起来，一会儿又露出来。",
+        "enText": "Soft washing strips moved slowly along the car body like gentle hands, working with the foam to clean every surface. Patches of light blue hid under the bubbles and then peeked out again.",
+        "illustrationPrompt": "Medium-wide view through the glass partition: soft teal-and-white vertical microfiber wash strips move gently along the sides and roof of the foam-covered light-blue hatchback. Part of the clean light-blue hood peeks through the white foam. An'an and Mom watch safely from the lounge."
+      },
+      {
+        "page": 8,
+        "zhText": "下方的小喷头和软刷也没闲着，把四个黑色轮胎和银色轮毂上的泥印洗得干干净净。安安认出来了：“轮胎的花纹又露出来啦！”",
+        "enText": "Low nozzles and soft wheel brushes cleaned the mud marks off all four black tires and silver rims too. An'an spotted them right away. “The tire grooves are showing clearly again!”",
+        "illustrationPrompt": "Close view through the lower glass window showing low water jets and a soft wheel brush cleaning the black grooved rubber tire and silver five-spoke alloy rim of the light-blue hatchback, washing away gray dust so the crisp tread grooves shine."
+      },
+      {
+        "page": 9,
+        "zhText": "随后，清澈的水流再次从上到下冲过车身，把白泡泡一朵一朵带走。浅蓝色的车顶和明亮的车窗重新露了出来。",
+        "enText": "Then clear water flowed over the car from top to bottom once more, carrying away the white bubbles one by one. The light-blue roof and bright windows appeared again.",
+        "illustrationPrompt": "Crisp view through the viewing glass as clean rinse water cascades down the light-blue hatchback, washing away the last ribbons of white foam and revealing gleaming light-blue paint and clear glass windows."
+      },
+      {
+        "page": 10,
+        "zhText": "安安低头看洗车房的地面，带着泡沫的灰水正顺着地上一排金属排水格栅流下去。她问：“妈妈，这些脏水会流进小河里吗？”",
+        "enText": "Looking down at the wash-bay floor, An'an saw the soapy gray water flowing into a row of metal drain grates. “Mom, will that dirty water flow into the river?” she asked.",
+        "illustrationPrompt": "Downward-angled view through the glass window focusing on the sloped wash-bay floor beneath the light-blue car: foamy rinse water channels neatly into a recessed stainless-steel floor drain grate. An'an points toward the floor grate from inside the lounge."
+      },
+      {
+        "page": 11,
+        "zhText": "走过来的周叔叔摇摇头：“不会的。洗车产生的废水会顺着排水沟进入下面的收集和过滤沉淀设备，经过专门处理，不能直接排进河里。”",
+        "enText": "Stepping over, Technician Zhou shook his head. “No, it won't. Wastewater from washing cars flows through the drain into collection, settling, and filtration tanks below for proper treatment—it mustn't go straight into rivers.”",
+        "illustrationPrompt": "Clear educational cutaway view beside the wash bay showing the floor drain grate leading down into clean underground settling and filtration chambers where dirty gray water separates and clarifies inside enclosed tanks, while Technician Zhou explains to Mom and An'an in the lounge. No text or labels."
+      },
+      {
+        "page": 12,
+        "zhText": "洗车房上方的吹风口吹出平稳的风，小汽车身上的水珠一颗颗滑落。工作人员又拿来干净的软布，把后视镜和门边擦干。",
+        "enText": "Air blowers overhead sent a steady breeze across the car, rolling the water droplets right off. Then a staff member used a clean soft cloth to wipe dry the mirrors and door edges.",
+        "illustrationPrompt": "Medium view of the finished wash bay: after the overhead air-drying arch finishes, Technician Zhou uses a clean yellow microfiber towel to gently wipe water droplets from the side mirror and door frame of the stationary, gleaming light-blue hatchback."
+      },
+      {
+        "page": 13,
+        "zhText": "浅蓝色小汽车开出洗车房，在下午的阳光里亮晶晶的。安安绕着停稳的小汽车看了看：“车窗亮亮的，妈妈看后视镜也更清楚啦！”",
+        "enText": "The light-blue car rolled out of the wash bay and gleamed in the afternoon sun. Walking around the parked car with Mom, An'an smiled. “The windows are sparkling, so Mom can see the mirrors even more clearly!”",
+        "illustrationPrompt": "Sunny late-afternoon outdoor view in the car care center courtyard: the freshly washed light-blue five-door hatchback sits parked and sparkling clean with clear windows and clean tires. Mom and An'an (holding Bear) admire the clean car while Technician Zhou waves goodbye."
+      },
+      {
+        "page": 14,
+        "zhText": "傍晚，安安坐进后排儿童安全座椅系好带子，妈妈开着干干净净的小汽车穿过山体隧道，沿着熟悉的街道平安回到家门口。",
+        "enText": "In the early evening, An'an buckled into her rear child seat, and Mom drove their sparkling-clean car back through the mountain tunnel and along familiar streets, arriving safely home.",
+        "illustrationPrompt": "Warm golden-hour early-evening view as the clean light-blue hatchback parks safely in front of An'an's familiar home. Inside the rear dark-blue child restraint, An'an sits properly buckled with Bear in her lap and her orange backpack stowed safely away from the straps."
+      },
+      {
+        "page": 15,
+        "zhText": "回到家后，安安请妈妈帮忙拧干一块小软布，在客厅小桌旁轻轻擦拭自己的浅蓝色玩具小汽车，连小车窗和四个小轮子都擦得干干净净。",
+        "enText": "Back inside, An'an asked Mom to help wring out a small damp cloth. At the low living-room table, she gently wiped her own light-blue toy car until its tiny windows and four wheels were clean.",
+        "illustrationPrompt": "Cozy evening living-room scene: Mom sits beside An'an at a low table with a small bowl of clean water. Using a wrung-out soft cloth, An'an gently wipes her miniature light-blue toy car. Bear sits nearby, and An'an's tire drawing from the lounge leans against the wall."
+      },
+      {
+        "page": 16,
+        "zhText": "擦好的玩具小汽车贴上了小小车灯贴纸，穿过积木山隧道，停进积木搭好的小车库里。安安轻轻拍拍它：“今天，你也辛苦啦！”",
+        "enText": "With tiny paper light stickers added, her clean toy car drove through the block-mountain tunnel and parked inside a cozy block garage. An'an gave it a gentle pat. “Thank you for your hard work today!”",
+        "illustrationPrompt": "Warm concluding living-room rug panorama at night: An'an and Mom sit beside a completed wooden-block play scene featuring the block carrier truck with wheel stops, a block mountain with an arched tunnel passage, a toy car with tiny yellow and red paper sticker dots, and a neat block garage where the clean light-blue toy car is parked. Bear sits happily beside An'an. No text."
+      }
+    ],
+    "parentGuide": {
+      "goal": "了解洗车先冲浮尘、再打泡沫、轻柔清洗、冲净擦干的基本顺序，知道洗车废水需要专门收集与处理，并在生活中养成爱护物品的习惯。",
+      "reminder": "真实洗车房内有水雾、湿滑地面与运转设备，儿童应在玻璃等候区或安全区域由成人陪同观看，不进入作业工位玩水；家中擦拭玩具车只使用清水和拧干的软布，不接触汽车清洁剂。",
+      "questions": [
+        "为什么给小汽车洗澡时，要先用清水把浮尘和沙粒冲掉？",
+        "洗车流下来的泡沫和脏水去了哪里？为什么不能直接流进小河？",
+        "回家后，你想怎样像照顾小汽车一样整理和擦拭自己的玩具？"
+      ],
+      "activity": "准备一块拧干的干净湿软布和一块干软布，在桌面陪孩子给玩具小车做一次“温柔洗澡”：先拂去灰尘，再擦拭车身、车窗和车轮，最后擦干并停回积木车库。只用少量清水，不设倒计时。",
+      "ageTips": {
+        "age4to5": "按“冲水、泡泡、冲干净、擦干”四个步骤讲一讲小汽车洗澡的故事，再动手擦亮自己的玩具车。",
+        "age6to8": "讨论为什么先冲沙粒能保护车漆，以及洗车房收集处理废水对保护河流和环境的意义。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay-like animated children's picture-book illustration, tactile rounded materials, sunny late-afternoon light at the car care center transitioning to golden-hour return home and warm evening living-room light, varied wide, medium and close compositions. No comic panels, speech bubbles or readable writing.",
+    "characterConsistency": "An'an is the same six-year-old Chinese girl on every page: round face, ear-length straight black bob, yellow star hair clip on her left side, teal-green hooded jacket, blue jeans, small orange backpack, white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag. The brown plush bear wears a blue scarf and has a small yellow crescent behind one ear. Technician Zhou has short black hair, slate-gray work jacket with blue collar, and dark-blue trousers. Their family car is the left-hand-drive light-blue five-door hatchback with beige interior; while riding on page 14, Mom drives in the left front seat and An'an sits buckled in the rear dark-blue child restraint with her orange backpack stowed away from the straps. Include only the cast required by each page.",
+    "negative": "No text, letters, numbers, captions, logos, brand marks, readable license plates or watermarks. No anthropomorphic vehicle faces. No children inside active car-wash bays, no open car windows or doors during washing, no spraying water at people, no chemical bottles in children's hands, no unrestrained child passengers, duplicate characters or distorted anatomy."
+  }
+}

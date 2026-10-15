@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-11",
+  "seriesId": "qiche",
+  "scope": "Approved story plan expanded into complete local bilingual manuscripts and per-page illustration prompts.",
+  "bookCount": 5,
+  "pageCount": 92,
+  "books": [
+    {
+      "order": 33,
+      "id": "xiao-qi-che-shang-gao-su-qu-kan-pao-che-la",
+      "title": "小汽车上高速，去看跑车啦！",
+      "pages": 20,
+      "draftPath": "content-drafts/qiche/xiao-qi-che-shang-gao-su-qu-kan-pao-che-la.json",
+      "sha256": "e5fccb7a82d167bd17a23b85be0b271d6404376b5517596a91510e309e6c328c"
+    },
+    {
+      "order": 34,
+      "id": "qi-che-kai-dao-tian-shang-qu-le-ma",
+      "title": "汽车开到天上去了吗？",
+      "pages": 20,
+      "draftPath": "content-drafts/qiche/qi-che-kai-dao-tian-shang-qu-le-ma.json",
+      "sha256": "385a4dd3da376d7189a846d8ad3198e2ce345a3bf82c7ded4343edf55d2c677b"
+    },
+    {
+      "order": 35,
+      "id": "lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng",
+      "title": "绿灯亮了，为什么还要等一等？",
+      "pages": 16,
+      "draftPath": "content-drafts/qiche/lv-deng-liang-le-wei-shen-me-hai-yao-deng-yi-deng.json",
+      "sha256": "2eea8dc1627b02c1118193ddc7655ce103d91b28c66a1bba4830a8fb5d2fec8b"
+    },
+    {
+      "order": 36,
+      "id": "xiao-qi-che-zhao-dao-le-ting-che-wei",
+      "title": "小汽车找到了停车位",
+      "pages": 16,
+      "draftPath": "content-drafts/qiche/xiao-qi-che-zhao-dao-le-ting-che-wei.json",
+      "sha256": "e2863c8486516ff059fb51103a4ac9ca76398fea30770d610aa5e6e700fda2f5"
+    },
+    {
+      "order": 37,
+      "id": "hong-se-pao-che-wei-shen-me-pa-de-di-di-de",
+      "title": "红色跑车，为什么趴得低低的？",
+      "pages": 20,
+      "draftPath": "content-drafts/qiche/hong-se-pao-che-wei-shen-me-pa-de-di-di-de.json",
+      "sha256": "c44b0b59062dbdddebf50e6861c88bde562d6e44859a55d4a13079620ccc2a73"
+    }
+  ],
+  "validation": {
+    "jsonAndFields": "passed",
+    "pagination": "passed",
+    "bilingualPages": 92,
+    "uniquePageTextAndPrompts": "passed",
+    "parentGuides": "passed",
+    "readableManuscript": "passed",
+    "existingLibraryAndVisualNotesUnchanged": "passed"
+  },
+  "preservedFiles": {
+    "src/lib/library/qiche.ts": true,
+    "docs/library-prompts/qiche/characters.md": true,
+    "src/lib/library-book-audio.ts": true,
+    "miniprogram/chinese-audio-manifest.json": true
+  },
+  "textLengthNotes": [],
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "saved",
+    "illustrationPrompts": "saved",
+    "illustrations": "complete-92-webp-and-5-contact-sheets",
+    "audio": "complete-bailian-qwen-audio-3.0-tts-plus-local-and-manifest",
+    "libraryIntegration": "complete",
+    "upload": "library-audio-public-verified",
+    "publication": "not-performed",
+    "commit": "not-performed"
+  },
+  "editorialReview": {
+    "method": "Agent content review and cross-book review; no human educator or traffic authority review is claimed.",
+    "bilingualMeaning": "reviewed",
+    "trafficConditions": "reviewed",
+    "crossBookContinuity": "reviewed and corrected",
+    "checks": [
+      "高速主线与出入口区别；服务区休息先于错过出口；驶离高速并停妥后再查看手机路线。",
+      "高架与高速概念分开；桥墩、匝道和上下层道路真实连接；第34册全程仍在去车展途中。",
+      "圆形绿灯且无禁止右转标志的场景；行人及直行骑车人获礼让；不同方向看对应信号；出口无空间时不进入路口。",
+      "无障碍车位及相邻空间用途；成人独立停车；停妥确认安全后帮助孩子下车；在安全人行通道拍车位记录。",
+      "较低重心的稳定性表述保留轮胎、路面和驾驶条件；流线形与空气阻力不与低车身直接等同；专业展示仅在正规封闭赛道。",
+      "母女、浅蓝家用车、后排深蓝儿童约束装置、红双座跑车及张姐姐、蓝绿公交、银色曲顶展馆保持一致。",
+      "第35册路口与第37册回忆一致；第36册停车照片包含橙柱、位置标记及三树，与第37册找车画面一致；模型开合时序已修正。"
+    ]
+  }
+}

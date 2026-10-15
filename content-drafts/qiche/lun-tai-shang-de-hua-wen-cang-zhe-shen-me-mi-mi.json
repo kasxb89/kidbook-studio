@@ -1,0 +1,170 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "lun-tai-shang-de-hua-wen-cang-zhe-shen-me-mi-mi",
+    "seriesId": "qiche",
+    "title": "轮胎上的花纹，藏着什么秘密？",
+    "subtitle": "汽车养护中心里的脚印发现",
+    "question": "轮胎表面为什么要有一条条弯弯的花纹和沟槽？",
+    "moral": {
+      "zh": "轮胎和轮毂各有分工，轮胎上的沟槽能帮助排开接触面的积水；定期由成人检查磨损与气压、谨慎驾驶，才能让出行更稳妥。",
+      "en": "Tires and wheel rims each have a role, and tread grooves help channel water away where the tire meets the road. Regular adult checks and careful driving help keep trips safe."
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 41,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 10,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 41,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "汽车养护",
+        "轮胎花纹",
+        "排水沟槽",
+        "轮胎与轮毂",
+        "安全检查"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "浅蓝色小汽车在汽车养护中心停稳后，妈妈先看清四周，再带安安下车。穿深灰蓝领工作服的周叔叔笑着迎上来：“欢迎来做例行检查！”",
+        "enText": "After their light-blue car parked safely at the car care center, Mom checked around and helped An'an out. Technician Zhou, wearing a slate-gray work jacket with a blue collar, welcomed them with a smile. “Welcome in for your regular checkup!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Outside the clean white-and-light-gray car care center with teal trim, the light-blue five-door hatchback sits parked in a marked reception bay with engine off. Mom holds An'an's hand on the pedestrian walkway while Technician Zhou (short black hair, slate-gray work jacket with blue collar, dark-blue trousers) greets them warmly. An'an holds Bear and wears her orange backpack. No text."
+      },
+      {
+        "page": 2,
+        "zhText": "小汽车交由工作人员开进检查工位，妈妈牵着安安走进玻璃隔开的客户展示区。展架上摆着一个圆圆的黑色轮胎样品，安安一下子被吸引住了。",
+        "enText": "While staff drove the car into the inspection bay, Mom led An'an into the glass-separated visitor display lounge. On a display stand sat a round black sample tire that caught An'an's eye right away.",
+        "illustrationPrompt": "Bright indoor visitor display lounge separated from the service bay by a large clear glass wall. In the lounge stands a low, stable display rack holding a clean full-size black rubber sample tire with distinct curved tread grooves. An'an and Mom stand beside the display looking closely. No text or brand names on the tire."
+      },
+      {
+        "page": 3,
+        "zhText": "安安蹲下来看轮胎样品的表面。上面有一条条深深的直沟，还有许多弯弯的小槽。她好奇地问：“做得光溜溜的，不是更漂亮吗？”",
+        "enText": "An'an crouched down to look at the surface of the sample tire. Deep channels and curved little grooves ran across it. “Wouldn't it look nicer if it were completely smooth?” she asked curiously.",
+        "illustrationPrompt": "Close view of the clean black sample tire on its low display stand: crisp longitudinal channels and angled lateral tread grooves are clearly visible in the rubber surface. An'an crouches at a safe distance holding Bear, pointing curiously at the grooves without climbing on the stand."
+      },
+      {
+        "page": 4,
+        "zhText": "周叔叔走过来，指着旁边的科普小实验桌：“这些花纹和沟槽可不是为了好看，它们在路上要做很重要的工作呢。”",
+        "enText": "Technician Zhou walked over and gestured toward a small science demonstration table nearby. “Those patterns and grooves aren't just for looks—they have an important job to do on the road.”",
+        "illustrationPrompt": "Medium indoor view at a clean visitor demonstration table in the lounge: Technician Zhou stands beside a shallow transparent acrylic tray containing a thin layer of clear blue-tinted water, alongside two palm-sized black rubber blocks—one smooth on the bottom and one carved with tire-like tread grooves. An'an and Mom watch from the visitor side."
+      },
+      {
+        "page": 5,
+        "zhText": "周叔叔拿起一块底部光滑的橡胶块，轻轻按在有薄薄一层水的透明盘子里，再往前推——水被堵在下面，光滑橡胶块一下子滑开了。",
+        "enText": "Zhou picked up a rubber block with a smooth bottom, pressed it gently into the shallow tray of water, and pushed it forward. Trapped water stayed underneath, and the smooth block slid right across.",
+        "illustrationPrompt": "Close tabletop demonstration view: Zhou's hand presses the smooth-bottomed black rubber block onto the thin water film in the transparent tray. Water pools beneath the flat surface with nowhere to escape, and the block slides sideways easily. An'an watches with wide eyes."
+      },
+      {
+        "page": 6,
+        "zhText": "接着，周叔叔换上一块带沟槽的橡胶块按下去。接触处的水顺着一条条小沟向两边排开，橡胶块稳稳贴住了盘底！",
+        "enText": "Next, Zhou pressed down a rubber block carved with grooves. The water beneath escaped outward through the little channels, and the block gripped the bottom of the tray steadily!",
+        "illustrationPrompt": "Clear close-up of the transparent tabletop tray: as Zhou presses the grooved black rubber block down, tiny streams of water channel neatly out through the carved grooves to both sides, allowing the rubber ribs to touch the tray floor firmly. No text or arrows."
+      },
+      {
+        "page": 7,
+        "zhText": "“原来沟槽像小小的排水渠！”安安恍然大悟。周叔叔点头：“雨天路面有水时，许多轮胎的沟槽能帮助把接触处的水排开，帮助轮胎接触路面。”",
+        "enText": "“The grooves work like tiny water channels!” An'an exclaimed. Zhou nodded. “When a road is wet, a tire's grooves help channel water away from the contact patch so the rubber can meet the road.”",
+        "illustrationPrompt": "Medium view beside the display table: An'an traces a wavy line in the air with her finger while smiling at Mom and Technician Zhou. Behind them, the clean sample tire on the stand shows the same curved groove pattern."
+      },
+      {
+        "page": 8,
+        "zhText": "安安又看向旁边一个装好金属圈的车轮展品，指着中间银光闪闪的部分问：“那中间像小花一样的金属，也是轮胎吗？”",
+        "enText": "An'an looked at a complete wheel display nearby and pointed to its shiny silver center. “Is that flower-shaped metal part in the middle part of the tire too?” she asked.",
+        "illustrationPrompt": "Clean close-up of an educational wheel display mounted safely on a low stand in the visitor lounge: a black grooved rubber tire surrounds a distinct silver five-spoke metal wheel rim, with a partial cutaway showing where the rubber tire bead meets the metal rim. An'an points toward the silver center."
+      },
+      {
+        "page": 9,
+        "zhText": "周叔叔解释说：“它们不是同一样东西哦。外面一圈有弹性的黑色橡胶叫轮胎，中间坚固的金属部分叫轮毂，合在一起才组成车轮。”",
+        "enText": "“They're two different parts,” Zhou explained. “The flexible black rubber ring on the outside is the tire, and the sturdy metal center is the wheel rim. Together, they form the wheel.”",
+        "illustrationPrompt": "Side-by-side educational display on the lounge platform: on the left sits a standalone black rubber tire ring with tread grooves; on the right sits a standalone silver five-spoke metal wheel rim; behind them is the assembled wheel. Zhou shows the two parts clearly to An'an and Mom. No text labels."
+      },
+      {
+        "page": 10,
+        "zhText": "另一侧的展架上，并排放着两个轮胎样品：一个沟槽又深又清楚，另一个沟槽已经变浅了。安安一眼看出了不同：“这个怎么变平啦？”",
+        "enText": "On another rack stood two sample tires side by side: one had deep, crisp grooves, while the other's grooves had grown shallow. An'an spotted the difference right away. “Why did this one get flatter?”",
+        "illustrationPrompt": "Close comparison view of two black sample tires mounted side by side on a low visitor rack: the left tire has deep, sharp tread channels; the right tire has visibly shallower, worn tread grooves with small raised wear-indicator bars nearly flush with the surface. An'an and Mom compare them."
+      },
+      {
+        "page": 11,
+        "zhText": "周叔叔指着沟槽底下的小凸起说：“汽车跑的路多了，轮胎会慢慢磨损，沟槽变浅后排水和抓地本领都会下降，所以需要大人定期检查。”",
+        "enText": "Zhou pointed to the small raised bars inside the grooves. “As a car travels mile after mile, its tires gradually wear down. When the grooves get too shallow, they can't drain water or grip as well, so adults need to check them regularly.”",
+        "illustrationPrompt": "Detailed close-up of Technician Zhou's gloved finger pointing to a small raised tread-wear indicator bridge inside the groove of the clean sample tire on the display stand, while An'an and Mom look on from the visitor side. Crisp lighting, no text."
+      },
+      {
+        "page": 12,
+        "zhText": "周叔叔还认真提醒：“轮胎里还要保持合适的气压。而且，就算轮胎花纹很好，遇到雨天或湿滑路面也不能开太快，花纹并不能保证汽车绝对不打滑。”",
+        "enText": "Zhou added an important reminder: “Tires also need proper air pressure. And even with good tread, a car can still slip on wet or slick roads if driven too fast—tread grooves alone can't guarantee a car will never skid.”",
+        "illustrationPrompt": "Warm medium view in the visitor lounge: Technician Zhou holds a simple mechanical tire-pressure gauge beside the display wheel while speaking earnestly to Mom and An'an. Mom nods in agreement, and An'an hugs Bear attentively."
+      },
+      {
+        "page": 13,
+        "zhText": "随后，周叔叔回到玻璃窗另一侧的检查工位，用工具仔细检查浅蓝色小汽车的四个轮胎。安安隔着大玻璃窗，一个轮子一个轮子地数过去。",
+        "enText": "Then Zhou returned to the inspection bay on the other side of the glass window and carefully checked all four tires of their light-blue car. Through the large window, An'an counted each wheel one by one.",
+        "illustrationPrompt": "View from the comfortable visitor lounge looking through a wide clear glass partition into the clean service bay: the light-blue five-door hatchback rests stationary on a ground-level inspection bay while Technician Zhou crouches beside the front tire with a tread-depth gauge and pressure gauge. An'an and Mom watch safely from inside the lounge."
+      },
+      {
+        "page": 14,
+        "zhText": "不一会儿，周叔叔隔着窗口向妈妈比了个放心的手势，走出来告诉她们：“四个轮胎的花纹深度和气压都正常，状态很好！”",
+        "enText": "Before long, Zhou gave Mom a reassuring thumbs-up through the window and stepped out to tell them, “All four tires have healthy tread depth and proper air pressure—they're in great shape!”",
+        "illustrationPrompt": "Medium view at the lounge doorway: Technician Zhou holds a clipboard with abstract checkmarks (no readable text) and smiles reassuringly at Mom and An'an, while through the glass window behind him the light-blue hatchback sits neatly in the bay."
+      },
+      {
+        "page": 15,
+        "zhText": "等待的工夫，安安坐在休息区的小画桌旁画画。她先画出浅蓝色小汽车和圆圆的银色轮毂，再认真给四个黑色轮胎添上一条条弯弯的花纹。",
+        "enText": "While waiting in the lounge, An'an sat at a small drawing table. First she drew their light-blue car and its round silver rims, and then she carefully added curved tread lines to all four black tires.",
+        "illustrationPrompt": "Warm close view at a low children's drawing table inside the visitor lounge: An'an uses colored pencils to draw a picture of the light-blue hatchback on white paper, carefully sketching curved tread lines onto the four black tires around silver centers. Bear sits on the table corner, and Mom smiles beside her. No text on the drawing."
+      },
+      {
+        "page": 16,
+        "zhText": "安安举起画对妈妈说：“回家我要把这张画贴在玩具车库旁！”这时，她看见小汽车车身上沾着一路的灰尘——接下来，该去洗车房洗澡啦！",
+        "enText": "An'an held up her drawing for Mom. “When we get home, I'll hang this beside my toy garage!” Just then, she noticed road dust on their real car's body—next, it was time for the car wash!",
+        "illustrationPrompt": "Medium-wide view as Mom and An'an walk along the indoor visitor corridor toward the adjacent glass-walled wash viewing room. Through the window, the light-blue hatchback with faint road dust on its lower doors is being guided slowly by an adult staff member toward the wash bay entrance. No text."
+      }
+    ],
+    "parentGuide": {
+      "goal": "区分车轮中的黑色橡胶轮胎与金属轮毂，理解轮胎沟槽帮助排开接触面积水的作用，并知道轮胎需要成人定期检查磨损与气压。",
+      "reminder": "轮胎花纹有助于湿地排水与抓地，但不能保证车辆在任何速度和路况下都不打滑；真实车辆轮胎检查与气压维护由专业人员或成人完成，孩子不触碰行驶后发热的车轮或举升中的车辆。",
+      "questions": [
+        "车轮外面的黑色部分和中间的银色金属部分，分别叫什么？",
+        "在浅水盘实验里，有沟槽的橡胶块和光滑的橡胶块有什么不一样？",
+        "为什么轮胎有了花纹，雨天开车仍然不能太快？"
+      ],
+      "activity": "在家里用橡皮泥或厚海绵做两个小印章：一个表面留平，一个用安全塑料小刀压出几条沟槽。在浅盘里放薄薄一层水，让孩子分别按压两个小印章观察水流方向；再在纸上给画好的小汽车轮胎添上花纹。不触碰真实道路上的车辆轮胎，不计时。",
+      "ageTips": {
+        "age4to5": "分清黑黑的轮胎和亮亮的轮毂，用手指在纸上画出弯弯的排水沟槽。",
+        "age6to8": "观察新旧轮胎花纹深浅的差异，讨论为什么成人需要定期检查轮胎磨损与气压，以及湿滑路面的安全边界。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay-like animated children's picture-book illustration, tactile rounded materials, bright clean indoor lighting at a modern car care center with sunny afternoon windows, varied wide, medium and close compositions. No comic panels, speech bubbles or readable writing.",
+    "characterConsistency": "An'an is the same six-year-old Chinese girl on every page: round face, ear-length straight black bob, yellow star hair clip on her left side, teal-green hooded jacket, blue jeans, small orange backpack, white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag. The brown plush bear wears a blue scarf and has a small yellow crescent behind one ear. Technician Zhou is an adult mechanic with short black hair, slate-gray work jacket with a blue collar, dark-blue trousers and work shoes. Their family car is the left-hand-drive light-blue five-door hatchback with beige interior. The car care center has clean white-and-light-gray walls with teal-blue trim and a large glass window separating the visitor lounge from the service bay. Include only the cast required by each page.",
+    "negative": "No text, letters, numbers, captions, logos, tire brand names, readable license plates or watermarks. No anthropomorphic vehicle faces. No children inside active repair bays or underneath lifted vehicles, no touching dirty or hot road tires on active cars, no claims that tire tread prevents all skidding, duplicate characters or distorted anatomy."
+  }
+}

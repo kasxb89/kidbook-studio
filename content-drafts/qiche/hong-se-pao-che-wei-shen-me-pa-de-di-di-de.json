@@ -1,0 +1,197 @@
+{
+  "_draft": {
+    "description": "选题与故事走向已由用户确认；本文件为待复核的逐页中英正文草稿。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "hong-se-pao-che-wei-shen-me-pa-de-di-di-de",
+    "seriesId": "qiche",
+    "title": "红色跑车，为什么趴得低低的？",
+    "subtitle": "从汽车展到积木小城市",
+    "question": "许多跑车为什么车身低、线条流畅，它们和家用车有什么不同？",
+    "moral": {
+      "zh": "许多跑车的设计注重运动表现，不同汽车各有适合的用途；公共道路上都要守规则，赛道展示也需要专业人员和安全安排。",
+      "en": "Many sports cars are designed for performance, while different cars suit different jobs. Every car must follow road rules, and track demonstrations need professionals and safe arrangements."
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "走进汽车展，安安一眼就找到了那抹红色。“妈妈，是刚才在路口等行人的跑车！”它停在展台旁，阳光在车身上亮了一小片。",
+        "enText": "At the car show, An'an spotted a flash of red. “Mom, it's the sports car that waited for people at the crossing!” It stood beside a display, with sunlight shining on its body.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. A spacious car-show pavilion under a broad silver curved roof on the same sunny Saturday morning, gentle skylight and blank colorful display panels. An'an and Mom enter from a pedestrian aisle and recognize the stationary red two-door, two-seat sports car with black roof, silver alloy wheels, narrow headlights and no logos. Show the full car in a welcoming wide view, with An'an pointing excitedly from outside the low display boundary. No readable text, vehicle faces or unsafe access."
+      },
+      {
+        "page": 2,
+        "zhText": "“又见面啦！”刚停好车的张姐姐走过来。她是今天的讲解员，也是专业车手。安安抱紧小熊，悄悄问：“它怎么趴得这么低呀？”",
+        "enText": "“Hello again!” said Zhang, who had just parked the car. She was today's guide and a professional driver. An'an hugged her bear and whispered, “Why does it sit so low?”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Medium view beside the fully parked red sports car at the pavilion display. Zhang, an adult professional with short black hair, white polo shirt and sea-blue trousers, greets An'an and Mom from the pedestrian side. An'an holds her brown bear with a blue scarf and a yellow crescent behind one ear and looks curiously at the low car roof. All three remain clear of the vehicle; the car doors are closed and wheels still. No text or logos."
+      },
+      {
+        "page": 3,
+        "zhText": "安安绕着展台慢慢看。跑车的车顶低低的，车身宽宽的，银色轮毂像一朵朵小花。她踮起脚：“它和我们的小汽车，长得真不一样。”",
+        "enText": "An'an walked slowly around the display. The sports car had a low roof, a wide body and silver wheels like little flowers. She rose on her toes. “It looks so different from our car.”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Low three-quarter exterior view of the same stationary red sports car showing its low black roof, broad body and silver alloy wheels with simple spoke patterns. An'an, beside Mom beyond the low display boundary, rises slightly on tiptoe to inspect the car without touching it. Frame the car prominently and retain enough space to show the safe pedestrian aisle. Soft bright skylight, no car face, readable text, brand marks or exaggerated racing accessories."
+      },
+      {
+        "page": 4,
+        "zhText": "张姐姐请安安用眼睛沿着车头看到车尾。圆滑的曲线一段接一段，像小河拐过弯。“这些线条，除了好看，还有别的用处吗？”安安问。",
+        "enText": "Zhang invited An'an to follow the body from the nose to the tail with her eyes. The smooth curves flowed like a winding stream. “Do these lines do more than look pretty?” An'an asked.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Clean close side profile of the same red sports car, low black roof, silver wheels, narrow headlights and gently flowing body contours. Reflected skylight follows the contours naturally, with no arrows or fantasy wind. Keep the full side silhouette visible against a simple pale pavilion backdrop. Vehicle detail only, no people required, no text, labels, logos, readable plates or anthropomorphic features."
+      },
+      {
+        "page": 5,
+        "zhText": "张姐姐拿来一个可以打开的汽车模型。“许多跑车会把较重的部件安排得比较低，让重心靠近地面。”安安蹲下来，认真看模型的肚子。",
+        "enText": "Zhang brought a car model that opened up. “Many sports cars place heavy parts fairly low, keeping the center of gravity close to the ground.” An'an crouched to inspect the model.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. At a safe child-height exhibit table, Zhang opens the upper shell of a small red sports-car teaching model to reveal simplified heavy components arranged low inside. An'an crouches beside Mom to view the components at eye level, hands clear of the model hinges. Focus on the model and her curious face, with the real parked red car softly behind. No exposed real-car machinery, labels, arrows, text or logos."
+      },
+      {
+        "page": 6,
+        "zhText": "“较低的重心，可以帮助汽车在转弯时保持稳定，但轮胎、路面和驾驶也很重要。”张姐姐说。安安点点头：“不是看起来矮，就什么都行！”",
+        "enText": "“A lower center of gravity can help a car stay stable in turns, but tires, the road and driving matter too,” Zhang said. An'an nodded. “Looking low doesn't mean it can do anything!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. One tabletop learning scene: the opened red teaching model rests on a gently curved miniature road, its low internal mass visible; a textured model tire and two small contrasting road-surface samples sit nearby. Zhang calmly gestures toward these three factors while An'an and Mom observe. Everything stationary on the safe exhibit table, no tipping demonstrations, labels, text, real driving, logos or vehicle faces."
+      },
+      {
+        "page": 7,
+        "zhText": "张姐姐又指着模型的外壳：“流畅的外形能帮助空气顺着车身流过。合适的设计可以减小空气阻力，具体效果还要看整辆车的形状。”",
+        "enText": "Zhang pointed to the model's shell. “A smooth shape helps air flow around the body. A well-designed shape can reduce air resistance, but the effect depends on the whole car.”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Clear close-up of the opened red sports-car teaching model on a pale table, its smoothly curved detachable upper shell resting alongside it, not yet replaced. A few subtle translucent educational airflow ribbons curve from nose to tail around the detached shell to illustrate its streamlined contour, without claiming measured results. Keep the low internal components visible in the open model. This is a wordless model explanation, not a real wind experiment. No people needed, blowing hair, racing motion, arrows, numbers, labels, brands or text."
+      },
+      {
+        "page": 8,
+        "zhText": "“所以，低车顶和漂亮曲线，不能替我们判断所有本领。”张姐姐合上模型。安安望着真跑车笑了：“你的秘密，原来藏在好多地方！”",
+        "enText": "“So a low roof and lovely curves don't tell us everything a car can do,” Zhang said, closing the model. An'an smiled at the real sports car. “Your secrets are hidden in lots of places!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Medium intimate pavilion scene: Zhang gently closes the red model on the exhibit table while An'an smiles toward the real stationary red sports car beyond it. Mom listens beside her. Connect model and real car through matching black roofs and silver wheels, with uncluttered warm skylight. One quiet action only, no text, labels, visible mechanical hazards, logos or car faces."
+      },
+      {
+        "page": 9,
+        "zhText": "另一张展桌上，三辆模型排成一行：跑车、家用车和皮卡。安安先把小熊放在家用车模型旁：“我们一家的座位，还有行李，都有地方放。”",
+        "enText": "On another table stood three models: a sports car, a family car and a pickup. An'an put her bear beside the family car. “There's room for our family and our bags.”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Child-height table with exactly three recognizable vehicle models in one row: the red two-seat sports car with black roof, a light-blue five-door family car with beige interior, and a plain ochre pickup with open cargo bed. An'an sets her brown bear with blue scarf and yellow crescent behind one ear beside the family-car model; Mom stands close. The bear is larger than the model and stays beside it, not inside. No text, labels, brands or vehicle faces."
+      },
+      {
+        "page": 10,
+        "zhText": "跑车模型只有两个座位。安安比了比橙色背包，又想想今天带来的水和零食。“如果要带上更多家人，还得看看座位和装东西的空间。”",
+        "enText": "The sports-car model had only two seats. An'an looked at her orange backpack and thought of their water and snacks. “To bring more family members, we'd need to check the seats and luggage space.”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Close overhead view of the same red two-door sports-car model with its black roof lifted aside to reveal exactly two front seats and no rear seats. An'an's orange backpack rests separately on the exhibit table near the model, while her pointing hand stays outside it. Make the limited seating visibly understandable without labels. No readable text, luggage crammed into passenger seats, brands or extra seats."
+      },
+      {
+        "page": 11,
+        "zhText": "安安把几块玩具木箱放进皮卡模型的货斗，正好装得下。她笑着说：“你擅长装货，它方便一家人出门，跑车有运动的本领。大家各有工作！”",
+        "enText": "An'an placed toy crates in the pickup model's cargo bed. They fitted neatly. “You're good at carrying cargo, the family car takes us out together, and the sports car is built for performance. Each has its own job!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Medium tabletop view as An'an carefully places the last small wooden toy crate in the plain ochre pickup model's open cargo bed. Keep crates low and securely within the bed. The light-blue family model and red sports-car model remain nearby for comparison; Mom and Zhang observe calmly. No real loading activity, readable labels, logos, anthropomorphic vehicles or children in cargo beds."
+      },
+      {
+        "page": 12,
+        "zhText": "“刚才绿灯亮了，跑车还在让行人呀。”安安说。张姐姐点头：“公共道路上，每辆车都要守规则。汽车的本领，也包括照顾路上的人。”",
+        "enText": "“At the crossing, your sports car let people pass even when the light was green,” An'an said. Zhang nodded. “Every car must follow the rules on public roads. Caring for other road users matters too.”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Present-time pavilion conversation beside the still-parked red sports car: An'an raises one thoughtful finger while speaking to Zhang, and Mom smiles beside her. A small plain traffic-signal model stands on the exhibit table as a visual reminder of the morning crossing, without a flashback or second scene. Warm daylight, clear faces, no text, unsafe traffic, racing on public roads, logos or vehicle faces."
+      },
+      {
+        "page": 13,
+        "zhText": "下午，展会的跑车展示开始了。妈妈带安安走进配套的正规封闭赛道观众区。结实的护栏和隔离围网，把观众席与赛道清楚地分开。",
+        "enText": "That afternoon, it was time for the demonstration. Mom took An'an to the spectator area of the show's proper closed circuit. Strong barriers and fencing clearly separated the seats from the track.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Wide establishing view of a dedicated closed motorsport circuit attached to the car show on a sunny afternoon, with a broad clean asphalt course, grass run-off, safety barriers and tall catch fencing. An'an and Mom enter a clearly separated seated spectator terrace via its pedestrian aisle. There are no public-road junctions, parking-bay markings or ordinary traffic on the course. No readable signs, text or logos."
+      },
+      {
+        "page": 14,
+        "zhText": "张姐姐换好展示所需的防护装备，戴上头盔，坐进红色跑车。工作人员完成检查后，才按安全安排开始。安安坐在隔离观众区，抱着小熊等待。",
+        "enText": "Zhang put on the required protective gear and helmet, then sat in the red sports car. After the crew finished their checks, the demonstration began as planned. An'an waited in the separated spectator area, hugging her bear.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. View from An'an and Mom's protected spectator terrace through substantial safety separation toward the circuit's controlled preparation area. The same red two-door sports car is stationary, Zhang sits properly restrained at the wheel wearing a fitted helmet and appropriate protective suit, and one adult marshal completes a calm final check from beside the parked car. An'an remains seated in the foreground holding her bear. No children in pit or track areas, text, logos, smoke or stunts."
+      },
+      {
+        "page": 15,
+        "zhText": "红色跑车沿赛道驶来，转过一个宽宽的弯。安安看着车身顺着弯道移动，忍不住轻轻“哇”了一声。它的本领，这次在合适的地方展示出来了。",
+        "enText": "The red sports car came along the circuit and followed a broad bend. An'an watched its body move smoothly around the curve and whispered, “Wow!” This was the right place to show what it could do.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Wide view of the same red black-roofed sports car following one broad curve on the dedicated closed circuit under controlled professional driving. Show all tires on the asphalt, adequate run-off and clear safety barriers; no drifting or extreme lean. An'an and Mom appear small and seated far behind the spectator catch fence, watching with quiet wonder. Zhang is helmeted inside. No racing opponents, skids, smoke, jumps, public-road scenery, text or brands."
+      },
+      {
+        "page": 16,
+        "zhText": "展示结束，跑车驶回准备区停稳。安安隔着观众区的护栏挥挥手：“刚才路口等一等，现在赛道跑一跑，你和张姐姐都知道该怎么做！”",
+        "enText": "When the demonstration ended, the sports car returned to the preparation area and stopped. An'an waved from behind the spectator barrier. “You waited at the crossing and drove on the track. You and Zhang knew what to do in each place!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Gentle closing track scene viewed from the protected spectator terrace. An'an waves beside Mom behind the fixed spectator railing and catch fence; in the distant controlled preparation area the same red sports car is fully stopped with helmeted Zhang visible at the wheel. Strong physical separation and a clear empty course remain visible. No people crossing barriers, child track access, text, logos, stunts or unsafe gestures while moving."
+      },
+      {
+        "page": 17,
+        "zhText": "该回家了。妈妈在人行道上停下，查看上午拍的停车记录。安安找到了照片里的橙色柱子：“我们的小汽车在那里！”浅蓝车身正静静等着她们。",
+        "enText": "It was time to go home. Mom stopped on the walkway to check the parking photo from that morning. An'an spotted the orange pillar. “Our car is over there!” Their light-blue car was waiting quietly.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Late-afternoon car-show parking area: Mom and An'an stand still together on a protected pedestrian walkway while Mom checks the same parking photo taken that morning. The screen shows the orange pillar, light-blue parked car, abstract area and bay markers, and the same three small trees, without readable screen text. In the background the light-blue five-door family car with beige interior is parked beside that matching orange pillar and three trees. Other parked cars are quiet; no moving-car lanes under the child's feet, brands, readable plates or vehicle faces."
+      },
+      {
+        "page": 18,
+        "zhText": "傍晚，小汽车在家门口停稳。安安还系着儿童约束装置的带子，小熊安静地靠在一旁。她望望窗外的家：“今天走了好多路，我们平安回来啦！”",
+        "enText": "That evening, their little car stopped outside their home. An'an was still buckled into her child restraint, with Bear beside her. She looked at the house. “We traveled so far today, and now we're safely home!”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Exterior three-quarter view through the rear side window of the same light-blue five-door family car, now fully parked in a residential driveway at early evening. Beige interior; An'an sits correctly secured in her dark-blue age-appropriate rear child restraint with visibly proper straps, her small bear safely beside her. Mom is at the wheel with her seat belt fastened; sunset warmth and the home entrance visible beyond. One arrival moment only, no driver phone use, text, readable plates or logos."
+      },
+      {
+        "page": 19,
+        "zhText": "晚上，安安把积木倒在地毯上。长长的高速有隔开的车道，高架用桥墩撑起来。她还搭了红绿灯、停车场，最后给跑车留出一个小展台。",
+        "enText": "That evening, An'an poured blocks onto the rug. Her expressway had separated lanes, and pillars held up her elevated road. She added traffic lights, a parking lot and a little display for the sports car.",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Cozy home living room at night under warm lamps. An'an builds one tabletop-scale block city on a rug beside Mom: a divided ground-level motorway, a distinct elevated road held up by sturdy block piers with connecting ramps, a simple traffic-signal intersection, a parking area and a small display platform. Show her placing the final platform block, toy bear beside her. No city labels, readable text, screens, logos or vehicle faces."
+      },
+      {
+        "page": 20,
+        "zhText": "小汽车找到了停车位，红色跑车停上展台，小熊坐在积木观众席。安安看看妈妈：“我的小城市完成啦！每辆车有自己的路，也有该等一等的时候。”",
+        "enText": "The family car found a parking space, the red sports car rested on its display, and the bear sat in the block spectator seats. An'an looked at Mom. “My little city is ready! Every car has a route—and a time to wait.”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Warm overhead three-quarter closing view of An'an's completed block city on the living-room rug at night. A light-blue five-door toy family car occupies a clear parking space, the red black-roofed sports-car toy rests on its separate display, and the brown bear with blue scarf and yellow crescent behind one ear sits beside a miniature fenced spectator terrace. A divided motorway, elevated bridge with supports, connecting ramps and traffic-signal crossing make coherent toy routes. An'an and Mom smile together at the finished city. No text, labels, brands or vehicle faces."
+      }
+    ],
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 37,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 12,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 37,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "汽车展",
+        "跑车",
+        "车型用途",
+        "重心",
+        "空气阻力",
+        "封闭赛道",
+        "道路规则",
+        "积木城市"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "parentGuide": {
+      "goal": "通过安安的汽车展旅行，观察车型与用途的关系，初步了解重心和空气流动，并区分公共道路与正规封闭赛道的不同使用安排。",
+      "reminder": "不以速度或价格评判汽车好坏，也不把外形低矮直接等同于更稳定或阻力更小。专业赛道展示不适合在道路、停车场或儿童活动中模仿；活动只用桌面模型和积木，不进行真实车辆试验。",
+      "questions": [
+        "如果要带一家人出门，或者运几只大箱子，你会怎样挑选汽车，为什么？",
+        "同一辆红色跑车，在路口和封闭赛道分别做了什么？你觉得这些地方有什么不同？",
+        "如果你来搭一座小城市，会把汽车展、停车场和观众席放在哪里，怎样让大家安全到达？"
+      ],
+      "activity": "在桌面或地毯上用积木搭一座小城市：摆出分隔车道的高速、带桥墩和匝道的高架、红绿灯路口、停车场和汽车展台；另设有围栏的玩具赛道与观众席。给家用车、跑车和皮卡安排不同任务，用手缓慢推动玩具车，练习按路线到达、路口等待和把车停进车位。不要把搭建活动变成比速度的比赛。",
+      "ageTips": {
+        "age4to5": "找一找低车顶、车轮、两个座位和皮卡货斗；让孩子为小熊选择出行的车，用积木演一演等待与到达。允许用动作回答，不要求记住重心或阻力的术语。",
+        "age6to8": "比较座位、货物空间和车型用途，请孩子解释自己的选择；讨论为什么只看外形不能判断全部性能，再为玩具城市设计相连的道路和隔离的观众区。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Premium warm 3D clay-like animated-film children's picture-book illustration, tactile rounded materials, varied coherent wide, medium and close compositions, square format. Chinese city car show on one sunny Saturday from morning to afternoon, late-afternoon parking return, early-evening arrival home, then a warm night-time block city. Realistic generic vehicles and believable exhibit and circuit safety; no anthropomorphic vehicle faces. Each page depicts one clear moment, with no comic panels, captions or readable writing.",
+    "characterConsistency": "An'an is the same six-year-old Chinese girl on every page: round face, ear-length straight black bob, yellow star hair clip on her left side, teal-green hooded jacket, blue jeans, small orange backpack, white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag. Their family car is always the same generic light-blue five-door compact car with beige interior; An'an rides only in the rear dark-blue age-appropriate child restraint with correctly fitted straps. The brown toy bear wears a blue scarf and has a yellow crescent behind one ear. The same red sports car is a generic two-door, two-seat vehicle with black roof, silver alloy wheels and narrow headlights, no rear seats and no brands. Zhang is the same adult professional who drove this car at the earlier crossing: short black hair, white polo shirt and sea-blue trousers while guiding; properly fitted helmet and appropriate protective equipment while professionally driving on the controlled closed circuit. Plain vehicle or model close-ups do not require extra people. Keep toy models recognizable as models and distinct from full-size vehicles. Their exhibition hall has a low silver curved roof and blank colorful entrance flags. Generic city buses are teal-blue. The dark-blue child restraint and fitted straps stay clear of the bear and stowed bags. Keep the same people and vehicles across these connected books; include only the cast required by the current page. While riding, secure the orange backpack away from An'an and the child-restraint straps; she does not wear it under the restraint. The family car and sports car are left-hand-drive; adult drivers use the left front seat.",
+    "negative": "No text, letters, numbers, captions, labels, readable signs or plates, brands, logos, watermarks, anthropomorphic car faces, public-road racing, parking-lot racing, drifting, tire smoke, jumps, crashes, extreme speed effects, flames, children driving, children in track or preparation areas, spectators crossing barriers, unbelted moving passengers, child sports-car rides, additional sports-car rear seats, unsafe car-show access, oversized toy bear inside tiny models, driver phone use while moving, blowing-hair wind demonstrations, claims that low body alone proves stability or low drag, duplicated characters or distorted anatomy."
+  }
+}

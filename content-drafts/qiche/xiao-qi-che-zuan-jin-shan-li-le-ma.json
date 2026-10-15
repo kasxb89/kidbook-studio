@@ -1,0 +1,194 @@
+{
+  "_draft": {
+    "note": "用户已确认选题与故事规划；本文件为逐页中英正文及插画提示草稿，尚未进入图片、音频制作或书库发布。",
+    "createdAt": "2026-10-11"
+  },
+  "productionStatus": {
+    "plan": "user-approved",
+    "manuscript": "complete",
+    "illustrations": "complete",
+    "audio": "complete",
+    "libraryIntegration": "complete"
+  },
+  "book": {
+    "id": "xiao-qi-che-zuan-jin-shan-li-le-ma",
+    "seriesId": "qiche",
+    "title": "小汽车钻进山里了吗？",
+    "subtitle": "穿过长长的隧道，到山的另一边",
+    "question": "前面的大山挡住了路，小汽车怎样穿过去？",
+    "moral": {
+      "zh": "隧道在山体或地下开辟出安全的通道，把两端的道路连接起来；配合照明、通风与守规驾驶，就能平稳穿过去。",
+      "en": "Tunnels create a safe passage through mountains or underground to connect roads on both ends. With lighting, ventilation, and careful driving, cars travel smoothly through."
+    },
+    "ageLabel": "4–8 岁",
+    "publishedAt": "2026-10-11",
+    "order": 40,
+    "comingSoon": false,
+    "metadata": {
+      "category": "science",
+      "ageRange": {
+        "min": 4,
+        "max": 8
+      },
+      "estimatedMinutes": 12,
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "seriesId": "qiche",
+      "seriesOrder": 40,
+      "personalizationEnabled": false,
+      "tags": [
+        "城市交通",
+        "道路隧道",
+        "隧道照明",
+        "通风设备",
+        "穿山通道",
+        "安全行车"
+      ],
+      "featured": false,
+      "bedtimeSuitable": false
+    },
+    "pages": [
+      {
+        "page": 1,
+        "zhText": "去汽车养护中心的路，一直朝青山脚下延伸。安安抱着小熊望向高高的大山：“妈妈，山这么高，小汽车要爬到山顶上去吗？”",
+        "enText": "The road to the car care center stretched toward the foot of a green mountain. An'an held Bear and looked up at the high slope. “Mom, the mountain is so tall—will our car have to climb over the top?”",
+        "illustrationPrompt": "Square warm 3D clay-like picture-book illustration. Wide scenic view of the light-blue five-door hatchback driving calmly along a smooth two-lane road toward a tall tree-covered green mountain on a sunny Saturday afternoon. Inside, Mom drives in the left front seat and An'an sits buckled in her rear dark-blue child seat with Bear. No text."
+      },
+      {
+        "page": 2,
+        "zhText": "妈妈指了指山脚：“不用爬山顶。你看前面，山脚下留好了一条穿过去的路。”一道整洁的半圆形入口出现在眼前。",
+        "enText": "Mom pointed toward the base of the mountain. “We don't need to climb the peak. Look ahead—there's a road built right through the foot of the mountain.” A neat arched portal came into view.",
+        "illustrationPrompt": "Medium-wide forward view as the light-blue hatchback approaches a clean stone-and-concrete mountain tunnel portal set into the green hillside. Above the two entry lanes, simple green downward lane-open arrows glow clearly without any words or numbers. Trees frame the hillside."
+      },
+      {
+        "page": 3,
+        "zhText": "进入隧道前，妈妈先平稳放慢车速，又开启了小汽车的前照灯。仪表盘上亮起一盏绿色的小灯图案，车头前方照出温暖的光。",
+        "enText": "Before entering the tunnel, Mom smoothly slowed the car and switched on the headlights. A small green headlight icon lit up on the dashboard, and warm beams shone ahead.",
+        "illustrationPrompt": "Close driver-perspective view inside the left-hand-drive beige cabin as the car approaches the tunnel portal: Mom's hand turns the headlight switch, a simple green headlight symbol glows on the dashboard without text, and the car's low-beam headlights cast a soft glow toward the portal entrance."
+      },
+      {
+        "page": 4,
+        "zhText": "小汽车顺着车道驶进隧道口。窗外明亮的阳光一下子留在了身后，安安轻轻说：“哇，我们真的钻进大山肚子里啦！”",
+        "enText": "Their little car followed its lane into the tunnel entrance. The bright outdoor sunshine stayed behind them, and An'an whispered, “Wow, we really drove inside the mountain!”",
+        "illustrationPrompt": "Split-light transition view just inside the arched tunnel entrance: warm outdoor daylight stays behind the rear of the light-blue hatchback while the curved concrete tunnel ceiling arches overhead. Mom drives steadily in her lane; An'an looks out through the closed rear window from her dark-blue child seat."
+      },
+      {
+        "page": 5,
+        "zhText": "隧道顶上和两侧墙壁上，一排排照明灯整整齐齐地亮着。虽然没有太阳，前面的路面和车流依然看得清清楚楚。",
+        "enText": "Along the tunnel ceiling and side walls, neat rows of lights shone steadily. Even without sunshine, the road surface and traffic ahead remained clear to see.",
+        "illustrationPrompt": "Wide interior view of the modern two-lane one-way mountain tunnel: continuous warm-white LED light strips along the arched ceiling illuminate the clean asphalt roadway. Mom's light-blue hatchback follows in the right lane with generous space behind a silver sedan ahead. No text."
+      },
+      {
+        "page": 6,
+        "zhText": "安安问：“为什么刚进隧道时，这里的灯排得特别密呀？”妈妈说：“从太阳底下进来，眼睛要适应光线，亮一点能帮大家看清路。”",
+        "enText": "“Why are the lights spaced so closely near the entrance?” An'an asked. “When we come in from bright sunlight, our eyes need a moment to adjust,” Mom replied. “Extra light helps drivers see clearly.”",
+        "illustrationPrompt": "Medium interior-to-exterior view from the rear passenger side of the light-blue hatchback inside the entrance transition zone of the tunnel, showing closely spaced overhead light fixtures transitioning smoothly along the curved ceiling. An'an sits securely buckled with Bear in her lap, looking upward through the window."
+      },
+      {
+        "page": 7,
+        "zhText": "安安低头看路面，两条长长的白色实线把车道分得清清楚楚。妈妈稳稳握着方向盘，跟前面的车留出长长一段距离。",
+        "enText": "Looking down at the road, An'an saw two continuous white lines separating the lanes. Mom held the steering wheel steadily and left plenty of space behind the car ahead.",
+        "illustrationPrompt": "Elevated three-quarter view inside the tunnel showing crisp white solid lane lines on the pavement. Mom's light-blue five-door hatchback stays centered in its lane with a long, safe following gap behind the car ahead. Both cars have their headlights and taillights illuminated."
+      },
+      {
+        "page": 8,
+        "zhText": "“在隧道里，能换到别的车道去看风景吗？”安安问。妈妈轻轻摇头：“隧道里要按标线在本车道平稳行驶，不随意变道，也不随便停车。”",
+        "enText": "“Can we switch lanes in the tunnel just to look around?” asked An'an. Mom gently shook her head. “In a tunnel, we follow the lane markings and stay smoothly in our lane, without changing lanes or stopping casually.”",
+        "illustrationPrompt": "Calm interior cabin view of the moving light-blue hatchback inside the illuminated tunnel: Mom keeps her eyes forward and both hands on the steering wheel, while An'an listens attentively from her rear dark-blue child restraint with Bear resting on her lap and her orange backpack stowed on the floor."
+      },
+      {
+        "page": 9,
+        "zhText": "抬头再看，安安发现隧道拱顶上挂着几台圆筒形的大机器。“妈妈，那像不像大吹风机？”她隔着关好的车窗指了指。",
+        "enText": "Looking up again, An'an spotted cylindrical machines mounted beneath the tunnel arch. “Mom, don't those look like giant hair dryers?” she asked, pointing from behind the closed window.",
+        "illustrationPrompt": "Upward-angled medium view inside the tunnel showing twin silver cylindrical jet ventilation fans mounted securely high on the arched ceiling above the traffic lanes. Below, the light-blue family car travels smoothly in its lane. Keep the fans realistic and mechanical, with no faces or text."
+      },
+      {
+        "page": 10,
+        "zhText": "妈妈解释说：“那是隧道的通风设备。汽车从这里经过，通风设备能推动空气流动，把外面的新鲜空气送进来，让里面的空气保持流通。”",
+        "enText": "“Those are tunnel ventilation fans,” Mom explained. “As cars pass through, the fans keep air moving so fresh air flows in and the air inside stays clear.”",
+        "illustrationPrompt": "Educational cutaway-style tunnel view showing the overhead cylindrical ventilation fans with a few subtle, gentle translucent blue air-current ribbons flowing along the upper tunnel vault to illustrate air circulation above the cars. Mom's light-blue car drives calmly below. No arrows, text or numbers."
+      },
+      {
+        "page": 11,
+        "zhText": "隧道侧壁每隔一段，还能看见绿色的小人指示灯和整齐的安全设备箱。安安点点头：“原来隧道里还准备了这么多保护大家的东西。”",
+        "enText": "Along the tunnel wall at regular intervals, green running-figure indicator lights and neat safety cabinets glowed softly. An'an nodded. “The tunnel has so many things ready to keep people safe.”",
+        "illustrationPrompt": "Medium side view from inside the moving car looking toward the clean tiled tunnel wall: a green illuminated emergency-exit figure icon and a recessed safety cabinet pass by beside a raised maintenance walkway. No words or numbers appear on the wall."
+      },
+      {
+        "page": 12,
+        "zhText": "安安摸着小熊的蓝围巾，又想出一个问题：“妈妈，是不是所有的隧道，都是从大山肚子里穿过去的呀？”",
+        "enText": "Touching Bear's blue scarf, An'an thought of another question. “Mom, do all tunnels go through the middle of a mountain?”",
+        "illustrationPrompt": "Close interior view of An'an in her rear dark-blue child restraint inside the softly lit tunnel cabin, holding Bear with the blue scarf and yellow ear crescent while looking thoughtfully toward the front seat. Warm lighting from the tunnel lamps."
+      },
+      {
+        "page": 13,
+        "zhText": "妈妈说：“不一定哦。我们现在走的是穿山隧道；在城市里，有的隧道修在地面道路底下；还有的隧道，会从江水或海水下面穿过去。”",
+        "enText": "“Not always,” said Mom. “Right now we're in a mountain tunnel. In cities, some tunnels run beneath busy streets, and others pass deep under rivers or bays.”",
+        "illustrationPrompt": "Warm imaginative visual thought-panel free illustration: while the light-blue car drives smoothly in the foreground, the background gently illustrates a clean architectural cross-section comparison of a mountain tunnel and an urban underground road tunnel beneath green park trees—rendered as a cohesive storybook visual without comic frames or text."
+      },
+      {
+        "page": 14,
+        "zhText": "“不管修在山里还是地下，隧道都是把原本被挡住的两端道路连接起来。”妈妈说。安安笑了：“就像给道路开了一扇秘密小门！”",
+        "enText": "“Whether a tunnel is built through a mountain or underground, its job is to connect roads that would otherwise be blocked,” said Mom. An'an smiled. “It's like opening a secret doorway for the road!”",
+        "illustrationPrompt": "Wide view inside the gently curving mountain tunnel: the light-blue hatchback and a teal-blue city bus ahead follow their separate lanes smoothly around a broad curve. Warm ceiling lights trace the curve ahead."
+      },
+      {
+        "page": 15,
+        "zhText": "顺着平缓的弯道往前走，安安忽然看见正前方出现了一小团白亮的光。“妈妈快看，前面亮起来了！”",
+        "enText": "As they followed the gentle curve ahead, An'an suddenly spotted a bright circle of daylight in the distance. “Look, Mom—it's getting bright ahead!”",
+        "illustrationPrompt": "Forward view through the windshield of the light-blue hatchback inside the tunnel: at the end of the straight final stretch, a bright semi-circular arch of natural daylight and green trees shines clearly. Mom's hands remain steady on the steering wheel."
+      },
+      {
+        "page": 16,
+        "zhText": "小汽车越走越近，那团亮光也像拉开窗帘一样越来越大。隧道里的灯光渐渐柔和，外面的蓝天和绿树已经在向她们招手。",
+        "enText": "As the car drew closer, the circle of daylight grew wider and wider, like curtains opening. The tunnel lights softened, and blue sky and green trees waited just ahead.",
+        "illustrationPrompt": "Medium-wide view near the tunnel exit portal: natural afternoon sunlight pours into the last section of the arched tunnel as the light-blue five-door hatchback approaches the exit in its lane. Lush green trees and blue sky fill the opening ahead."
+      },
+      {
+        "page": 17,
+        "zhText": "呼——小汽车平稳驶出隧道口，温暖的阳光重新洒在车窗上。妈妈关掉前照灯，安安回头看了一眼身后的大山。",
+        "enText": "Whoosh—their little car glided smoothly out of the tunnel portal, and warm sunlight fell across the windows again. Mom switched off the headlights as An'an looked back at the mountain behind them.",
+        "illustrationPrompt": "Bright outdoor wide view just outside the mountain tunnel exit: the light-blue hatchback emerges onto the sunny road on the far side of the green mountain. Through the rear side window, An'an looks back fondly at the stone arch of the tunnel portal."
+      },
+      {
+        "page": 18,
+        "zhText": "“我们没有爬上高高的山顶，也没有绕好远好远的路，真的从山那头来到山这头啦！”安安开心地拍拍小熊。",
+        "enText": "“We didn't have to climb over the high peak or take a long, winding detour—we came right through from the other side of the mountain!” An'an patted Bear happily.",
+        "illustrationPrompt": "Scenic elevated view showing the green mountain ridge with the road emerging from the tunnel portal at its base into a sunny valley. The light-blue family car travels smoothly along the valley road surrounded by trees."
+      },
+      {
+        "page": 19,
+        "zhText": "安安把今天的新发现讲给小熊听：“照明灯照亮路，通风机送来风。回家后，我也要在积木大山底下留一条通道，让玩具车穿过去！”",
+        "enText": "An'an shared her discovery with Bear. “The lights brighten the road, and the fans keep the air moving. When we get home, I'll leave a passage under my block mountain so my toy cars can drive through too!”",
+        "illustrationPrompt": "Close warm interior view of An'an buckled in her rear dark-blue child seat, curving her hands like a little arch over Bear to show how a tunnel works. Sunlight warms the beige interior; her orange backpack stays safely stowed on the floor."
+      },
+      {
+        "page": 20,
+        "zhText": "不远处，一座灰白配色、带蓝绿饰边的汽车养护中心出现在路旁。妈妈把车稳稳开进接待区，接下来，要看看小汽车脚下的秘密啦！",
+        "enText": "Not far ahead, a neat white-and-gray car care center with teal trim appeared beside the road. Mom drove smoothly into the reception area. Next, they were going to discover the secret beneath their car's wheels!",
+        "illustrationPrompt": "Wide welcoming view of a clean modern white-and-light-gray car care center with teal architectural trim at the foot of the green hills. The light-blue five-door hatchback pulls smoothly into the marked reception parking bay. No text or brand signs."
+      }
+    ],
+    "parentGuide": {
+      "goal": "认识道路隧道连接两端道路的作用，了解隧道内的照明、车道标线与通风设施，区分穿山隧道与地下、过江隧道。",
+      "reminder": "隧道并不都穿山，也可能修在城市地面以下或江河下方。真实行车进入隧道前由成人开启车灯、减速并保持车距，不在隧道内随意变道、停车或探窗张望。",
+      "questions": [
+        "有了隧道，小汽车经过大山或大河时有什么方便的地方？",
+        "隧道里没有太阳，为什么还能看清道路、保持空气流通？",
+        "你在家里用积木和纸盒搭一座山时，想怎样给玩具车留出安全的隧道通道？"
+      ],
+      "activity": "在桌面或地垫上用硬纸盒或积木拱门搭一座“小山隧道”，在隧道两端铺上纸带道路，并用小手电筒从侧面照亮盒内。让孩子推着玩具小车练习“进洞前慢一点、沿着车道线走、不在隧道里停下堵路、从另一端稳稳出来”。允许反复改建，不计时。",
+      "ageTips": {
+        "age4to5": "一起找一找隧道入口、顶上的灯、地上的白线和出口的亮光，用玩具车体验从盒子里穿过去。",
+        "age6to8": "讨论穿山隧道、城市地下隧道和过江隧道的相同点与不同点，再为玩具隧道设计车道线和通风口。"
+      }
+    }
+  },
+  "imagePromptKit": {
+    "globalStyle": "Use case: illustration-story. Square 1:1 warm premium 3D clay-like animated children's picture-book illustration, tactile rounded materials, sunny mountain daylight transitioning into a warmly illuminated modern road tunnel and back out into bright afternoon sun, varied wide, medium and close compositions. No comic panels, speech bubbles or readable writing.",
+    "characterConsistency": "An'an is the same six-year-old Chinese girl on every page: round face, ear-length straight black bob, yellow star hair clip on her left side, teal-green hooded jacket, blue jeans, small orange backpack, white sneakers with red trim. Mom has shoulder-length black hair, coral cardigan, cream trousers and brown shoulder bag; she drives in the left front seat of the left-hand-drive light-blue five-door hatchback with beige interior. An'an rides in the rear dark-blue age-appropriate child restraint with fitted straps, holding her brown bear with blue scarf and yellow ear crescent; her orange backpack is stowed safely on the floor away from the straps. The car care center at the end is a clean white-and-light-gray building with teal-blue trim. Include only the cast required by each page.",
+    "negative": "No text, letters, numbers, captions, logos, brand marks, readable license plates or watermarks. No anthropomorphic vehicle faces. No dark scary tunnel monsters, collisions, stopping inside tunnel lanes, lane-crossing over solid lines, unrestrained child passengers, open windows in tunnels, driver phone use while moving, duplicate characters or distorted anatomy."
+  }
+}

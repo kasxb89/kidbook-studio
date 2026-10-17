@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { LibraryBook, LibrarySeries } from "@/types/library";
 
 export default function LibraryBookCard({
@@ -20,7 +21,7 @@ export default function LibraryBookCard({
         style={{ backgroundColor: `${series.accent}22` }}
       >
         {cover ? (
-          <img src={cover} alt={`${book.title}封面`} loading="lazy" />
+          <Image src={cover} alt={`${book.title}封面`} width={320} height={320} sizes="(max-width: 580px) 44vw, 280px" />
         ) : (
           <span
             className="library-book-cover-fallback"

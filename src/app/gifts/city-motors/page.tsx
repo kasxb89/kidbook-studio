@@ -1,8 +1,13 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { QICHE_BOOKS } from "@/lib/library/qiche";
 import CityMotorsGift from "@/components/gifts/CityMotorsGift";
 import type { GiftPage } from "@/components/gifts/GiftReader";
-export const metadata: Metadata = { title:"城市汽车小队 · 全集典藏版 | StoryBloom 礼物绘本", description:"26 个完整故事，跟着安安探索城市交通与工程的小秘密。", openGraph:{title:"城市汽车小队 · 全集典藏版",images:["/library/qiche/hong-lu-deng-wei-shen-me-hui-bian-se/1.webp"]} };
+export const metadata = pageMetadata({
+  path: "/gifts/city-motors",
+  title: "城市汽车小队 · 全集典藏版 | StoryBloom 礼物绘本",
+  description: "跟着安安探索城市交通与工程的小秘密，把汽车科普故事珍藏成一本礼物绘本。",
+  image: "/library/qiche/hong-lu-deng-wei-shen-me-hui-bian-se/1.webp",
+});
 export default function Page(){
   const pages: GiftPage[] = [
     {page:1,imageUrl:"/gift-books/city-motors/opening.png",half:"left",text:"早安，城市！跟着安安，一起出发。"},

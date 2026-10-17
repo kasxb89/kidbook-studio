@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import styles from "../privacy/TrustDocument.module.css";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
+  path: "/child-family-data",
   title: "儿童与家庭数据说明 | StoryBloom",
-  description:
-    "面向家长与监护人说明 StoryBloom 中儿童故事、成长照片、家庭角色、声音、云端档案和公开分享的边界。",
-};
+  description: "面向家长与监护人说明 StoryBloom 中儿童故事、成长照片、家庭角色、声音、云端档案和公开分享的边界。",
+  image: "/gift-books/summer-pocket/cover.webp",
+});
 
 export default function ChildFamilyDataPage() {
   return (

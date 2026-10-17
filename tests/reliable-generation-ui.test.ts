@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 
 const pageSource = readFileSync(
-  new URL("../src/app/page.tsx", import.meta.url),
+  new URL("../src/components/home/HomeExperience.tsx", import.meta.url),
   "utf8",
 );
 const bookPreviewSource = readFileSync(

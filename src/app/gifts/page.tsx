@@ -1,11 +1,15 @@
+import Image from "next/image";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { illustratedGifts } from "@/components/gifts/illustrated-gifts";
 import styles from "./page.module.css";
 
-export const metadata = {
-  title: "精品绘本 | StoryBloom",
-  description: "探索可以翻阅、赠送与珍藏的精品电子绘本：毕业纪念、六一礼物、生日礼物、城市汽车与经典故事。",
-};
+export const metadata = pageMetadata({
+  path: "/gifts",
+  title: "儿童礼物绘本 | 幼儿园毕业、六一与生日礼物 - StoryBloom",
+  description: "探索可以翻阅、赠送与珍藏的儿童礼物绘本：幼儿园毕业纪念、六一礼物、生日礼物、城市汽车与经典故事。",
+  image: "/gift-books/summer-pocket/cover.webp",
+});
 
 const books = [
   {
@@ -14,7 +18,7 @@ const books = [
     theme: "毕业纪念",
     detail: "10 页 · 图文一体",
     description: "把第一次勇敢、最好的朋友和舍不得的告别，留成一份毕业礼物。",
-    image: "/gift-books/summer-pocket/cover.png",
+    image: "/gift-books/summer-pocket/cover.webp",
   },
   ...illustratedGifts.map((book) => ({
     id: book.slug,
@@ -64,7 +68,7 @@ export default function Gifts() {
                   <div className={styles.coverStage}>
                     <div className={`${styles.cover} ${(book.id === "city-motors" || book.id === "journey-to-the-west") ? `${styles.cityCover} ${book.id === "journey-to-the-west" ? styles.journeyCover : ""}` : ""}`}>
                       {(book.id === "city-motors" || book.id === "journey-to-the-west") ? <div className={styles.cityTitle}><small>STORYBLOOM</small><strong>{book.title}</strong><span>{book.detail}</span></div> : null}
-                      <img src={book.image} alt={`${book.title}封面`} width={book.id === "city-motors" ? 1200 : 1086} height={book.id === "city-motors" ? 1200 : 1448} />
+                      <Image src={book.image} alt={`${book.title}封面`} width={book.id === "city-motors" ? 1200 : 1086} height={book.id === "city-motors" || book.id === "journey-to-the-west" ? 1200 : 1448} sizes="(max-width: 720px) 40vw, 240px" />
                       {(book.id === "city-motors" || book.id === "journey-to-the-west") ? <span className={styles.imprint}>{book.id === "journey-to-the-west" ? "从石猴出世，到五圣成真" : "给小小探索家的城市发现之旅"}</span> : null}
                     </div>
                   </div>

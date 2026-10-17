@@ -226,7 +226,7 @@ describe("library access functions", () => {
   });
 
   it("includes exactly the published chengyu books in sitemap order", () => {
-    const entries = sitemap();
+    const entries = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/"));
     const baseUrl = entries[0].url.replace(/\/$/, "");
     const bookUrlPrefix = `${baseUrl}/library/chengyu/`;
     const bookUrls = entries
@@ -518,7 +518,7 @@ describe("xiyouji and haoqi published series (tasks B/C)", () => {
   });
 
   it("includes every published xiyouji and haoqi route in the sitemap", () => {
-    const urls = sitemap().map((entry) => entry.url);
+    const urls = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/")).map((entry) => entry.url);
     const xiyoujiUrls = urls.filter((url) => url.includes("/library/xiyouji/"));
     const xiyoujiUrlPrefix = xiyoujiUrls[0]?.replace(/\/[^/]+$/, "/") ?? "";
     const haoqiUrls = urls.filter((url) => url.includes("/library/haoqi/"));

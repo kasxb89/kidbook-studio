@@ -577,7 +577,7 @@ describe("Tang poetry library series", () => {
   });
 
   it("includes the series and all forty-four books in the sitemap", () => {
-    const urls = sitemap().map((entry) => entry.url);
+    const urls = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/")).map((entry) => entry.url);
     expect(urls.some((url) => url.endsWith("/library/tangshi"))).toBe(true);
     expect(
       urls.filter((url) => url.includes("/library/tangshi/")),

@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd";
+import { bookMetadata as createBookMetadata, bookStructuredData } from "@/lib/library/seo";
 import { getLibraryContentId } from "@/lib/library/content-id";
 import { getLibraryChineseAudio } from "@/lib/library-book-audio";
 import { getLibraryFeedbackConfig } from "@/lib/email/library-feedback";
@@ -47,35 +49,7 @@ export async function generateMetadata({
     return {};
   }
 
-  const description =
-    book.idiomMeaning?.zh ||
-    book.poem?.appreciation.zh ||
-    book.classic?.childExplanation.zh ||
-    book.moral?.zh ||
-    `${book.title} · ${book.subtitle}`;
-  const coverPage = book.pages[0];
-  const cover =
-    coverPage?.imageStatus === "complete" ? coverPage.imageUrl : undefined;
-  // 「为什么」类问题句是高价值搜索词（任务 C），有 question 时直接作标题主体
-  const title = book.question
-    ? `${book.question} - 儿童科普双语绘本 | StoryBloom`
-    : book.poem
-      ? `${book.title} - ${book.poem.author}唐诗双语绘本 | StoryBloom`
-      : `${book.title} - 中英双语${series.title}绘本 | StoryBloom`;
-
-  return {
-    title,
-    description: `${description} 免费在线阅读 ${book.pages.length} 页中英双语儿童绘本，适合 ${book.ageLabel}亲子共读。`,
-    alternates: { canonical: `/library/${series.id}/${book.id}` },
-    // 未正式发布的书不进搜索引擎
-    robots: book.comingSoon ? { index: false, follow: false } : undefined,
-    openGraph: {
-      title: `${book.title} | StoryBloom 绘本馆`,
-      description,
-      type: "article",
-      ...(cover ? { images: [{ url: cover }] } : {}),
-    },
-  };
+  return createBookMetadata(book, series);
 }
 
 export default async function LibraryBookPage({
@@ -105,9 +79,6 @@ export default async function LibraryBookPage({
           .slice(bookIndex + 1)
           .find((item) => item.comingSoon) ?? null)
       : null;
-  const coverPage = book.pages[0];
-  const coverImage =
-    coverPage?.imageStatus === "complete" ? coverPage.imageUrl : undefined;
   const previewReadyForReview =
     book.pages.length > 0 &&
     book.pages.every(
@@ -118,41 +89,16 @@ export default async function LibraryBookPage({
     `${series.id}/${book.id}`,
   )}#story-creation`;
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Book",
-    name: book.title,
-    alternativeHeadline: book.subtitle,
-    inLanguage: ["zh-CN", "en"],
-    numberOfPages: book.pages.length,
-    datePublished: book.publishedAt,
-    ...(book.poem
-      ? { author: { "@type": "Person", name: book.poem.author } }
-      : {}),
-    isPartOf: {
-      "@type": "BookSeries",
-      name: `StoryBloom ${series.title}`,
-    },
-    audience: {
-      "@type": "PeopleAudience",
-      suggestedMinAge: bookMetadata.ageRange.min,
-      suggestedMaxAge: bookMetadata.ageRange.max,
-    },
-    ...(coverImage ? { image: toAbsoluteAppUrl(coverImage) } : {}),
-  };
-
   return (
     <main className="library-page">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd data={bookStructuredData(book, series)} />
 
       <nav className="library-topbar" aria-label="页面导航">
         <LibraryDetailBackLink
           fallbackHref={`/library/${series.id}`}
           fallbackLabel={series.title}
         />
+        {!book.comingSoon ? <Link href={`/en/library/${series.id}/${book.id}`} hrefLang="en" className="library-back">English →</Link> : null}
       </nav>
 
       <LibraryBookStickyTitle

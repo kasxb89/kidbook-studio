@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ListBullets } from "@phosphor-icons/react";
 import { useEffect, useRef } from "react";
 
@@ -35,8 +36,8 @@ export default function LibraryPlaylist({ books, currentId, playing = false }: {
             <li key={item.id}>
               <Link href={item.href} prefetch={false} aria-current={item.id === currentId ? "page" : undefined} onClick={() => { if (ref.current) ref.current.open = false; }}>
                 <span className="library-playlist-cover" aria-hidden="true">
-                  <span>{item.title.slice(0, 1)}</span>
-                  {item.cover ? <img src={item.cover} alt="" width={64} height={64} loading="lazy" onError={(event) => { event.currentTarget.hidden = true; }} /> : null}
+                  <span aria-hidden="true">{item.title.slice(0, 1)}</span>
+                  {item.cover ? <Image src={item.cover} alt="" width={64} height={64} sizes="64px" loading="lazy" onError={(event) => { event.currentTarget.hidden = true; }} /> : null}
                 </span>
                 <span className="library-playlist-copy">
                   <span>{item.title}</span>

@@ -17,6 +17,7 @@ import {
 
 export default function AnalyticsConsentManager() {
   const pathname = usePathname();
+  const english = pathname === "/en" || pathname.startsWith("/en/");
   const [status, setStatus] = useState<AnalyticsConsentStatus | "loading">(
     "loading",
   );
@@ -62,26 +63,27 @@ export default function AnalyticsConsentManager() {
       {showPrompt ? (
         <aside
           className="analytics-consent-banner"
-          aria-label="匿名访问分析设置"
+          aria-label={english ? "Anonymous analytics preferences" : "匿名访问分析设置"}
+          lang={english ? "en" : "zh-CN"}
           role="region"
         >
           <div>
-            <strong>是否允许匿名访问分析？</strong>
+            <strong>{english ? "Allow anonymous analytics?" : "是否允许匿名访问分析？"}</strong>
             <p>
-              默认不加载分析。允许后也只统计绘本馆、每日灵感和隐私说明等公开页面；创作、成长、家庭、账户、登录和分享页面始终不记录或发送访问事件。
+              {english ? "Analytics are off by default. If allowed, only public reading and information pages may send events. Creation, family records, accounts, sign-in and shared private books stay excluded." : "默认不加载分析。允许后也只统计绘本馆、每日灵感和隐私说明等公开页面；创作、成长、家庭、账户、登录和分享页面始终不记录或发送访问事件。"}
             </p>
-            <Link href="/privacy#analytics-controls">查看或随时更改设置</Link>
+            <Link href="/privacy#analytics-controls">{english ? "Review or change preferences" : "查看或随时更改设置"}</Link>
           </div>
           <div className="analytics-consent-actions">
             <button type="button" onClick={() => choose("denied")}>
-              仅必要功能
+              {english ? "Essential only" : "仅必要功能"}
             </button>
             <button
               type="button"
               className="analytics-consent-allow"
               onClick={() => choose("granted")}
             >
-              允许匿名分析
+              {english ? "Allow analytics" : "允许匿名分析"}
             </button>
           </div>
         </aside>

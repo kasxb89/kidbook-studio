@@ -1,0 +1,12 @@
+.introduction { width: min(1120px, 100%); margin: 56px auto 32px; padding: clamp(22px, 4vw, 42px); border: 1px solid #e6ddcd; border-radius: 24px; background: #fffcf6; color: #554b3d; }
+.introduction header > p:first-child { color: #8b7652; font-size: 11px; letter-spacing: .12em; }
+.introduction h2 { font-family: Georgia, "Songti SC", serif; font-size: clamp(22px, 3vw, 30px); line-height: 1.5; }
+.introduction p, .introduction li { font-size: 14px; line-height: 1.9; }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-block: 24px; }
+.columns ol { padding-left: 22px; }
+.links { display: flex; flex-wrap: wrap; gap: 12px 20px; }
+.links a { color: #456849; font-size: 14px; padding-block: 12px; }
+.faq details { padding: 14px 0; border-top: 1px solid #e6ddcd; }
+.faq summary { cursor: pointer; line-height: 1.7; }
+.faq p { margin-bottom: 0; }
+@media (max-width: 640px) { .columns { grid-template-columns: 1fr; gap: 8px; } .introduction { margin-top: 32px; } }

@@ -1,4 +1,7 @@
-import type { Metadata } from "next";
+import JsonLd from "@/components/seo/JsonLd";
+import { pageMetadata } from "@/lib/seo";
+import { libraryBreadcrumbs } from "@/lib/library/seo";
+import { toAbsoluteAppUrl } from "@/lib/site-url";
 import Link from "next/link";
 import LibraryCatalogExperience from "@/components/library/LibraryCatalogExperience";
 import {
@@ -12,45 +15,32 @@ import { createLibraryBookSummary } from "@/lib/library/catalog";
 const PUBLISHED_BOOK_COUNT = getPublishedBookCount();
 const HAS_PUBLISHED_BOOKS = PUBLISHED_BOOK_COUNT > 0;
 
-export const metadata: Metadata = HAS_PUBLISHED_BOOKS
-  ? {
-      title: "绘本馆 | 免费中英双语儿童绘本在线阅读 - StoryBloom",
-      description:
-        "StoryBloom 绘本馆：成语故事、谚语故事、唐诗启蒙、经典名著、自然科普、城市汽车与日常生活等系列化中英双语绘本，免费在线阅读，适合 4-8 岁亲子共读。",
-      alternates: { canonical: "/library" },
-      openGraph: {
-        title: "StoryBloom 绘本馆",
-        description: "成语、唐诗、名著、自然科普、城市汽车与日常生活系列中英双语儿童绘本，免费在线阅读。",
-        type: "website",
-      },
-    }
-  : {
-      title: "绘本馆 | 中英双语儿童绘本即将上线 - StoryBloom",
-      description:
-        "StoryBloom 绘本馆首批中英双语儿童绘本正在制作中，可提前查看成语故事等系列书目。",
-      alternates: { canonical: "/library" },
-      openGraph: {
-        title: "StoryBloom 绘本馆 · 即将上线",
-        description: "首批系列化中英双语儿童绘本正在制作中。",
-        type: "website",
-      },
-    };
+export const metadata = pageMetadata({
+  path: "/library", bilingual: true,
+  title: HAS_PUBLISHED_BOOKS ? "绘本馆 | 免费中英双语儿童绘本在线阅读 - StoryBloom" : "绘本馆 | 中英双语儿童绘本即将上线 - StoryBloom",
+  description: "StoryBloom 绘本馆：成语故事、谚语故事、唐诗启蒙、经典名著、自然科普、城市汽车与日常生活等系列化中英双语绘本，免费在线阅读，适合 4-8 岁亲子共读。",
+});
 
 export default function LibraryPage() {
   const series = getAllSeries();
   const upcoming = getUpcomingSeries();
   const books = series.flatMap((item) =>
     getSeriesBooks(item.id).map((book) =>
-      createLibraryBookSummary(item, book),
+      ({ ...createLibraryBookSummary(item, book), searchText: "" }),
     ),
   );
 
   return (
     <main className="library-page library-index-page">
+      <JsonLd data={{ "@context": "https://schema.org", "@graph": [
+        { "@type": "CollectionPage", name: "StoryBloom 绘本馆", url: toAbsoluteAppUrl("/library"), mainEntity: { "@type": "ItemList", numberOfItems: series.length, itemListElement: series.map((item, index) => ({ "@type": "ListItem", position: index + 1, name: item.title, url: toAbsoluteAppUrl(`/library/${item.id}`) })) } },
+        libraryBreadcrumbs(),
+      ] }} />
       <nav className="library-topbar" aria-label="页面导航">
         <Link href="/" className="library-back">
           ← 返回首页
         </Link>
+        <Link href="/en/library" hrefLang="en" className="library-back">English →</Link>
         <Link href="/library/reading" className="library-back">阅读记录与收藏 →</Link>
       </nav>
 

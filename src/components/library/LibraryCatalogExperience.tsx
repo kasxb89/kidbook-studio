@@ -302,9 +302,12 @@ export default function LibraryCatalogExperience({
                     </h3>
                     <p>{item.subtitle}</p>
                   </div>
+                  <Link href={`/library/${item.id}`} className="library-series-view-all">
+                    查看全部 {allSeriesBooks.length} 本 →
+                  </Link>
                 </header>
                 <LibraryBookGroups
-                  books={allSeriesBooks}
+                  books={allSeriesBooks.slice(0, 4)}
                   renderBook={(book) => renderCard(book, true, true)}
                   headingLevel="h4"
                 />

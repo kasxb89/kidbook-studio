@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./HomeGiftShowcase.module.css";
 
@@ -16,14 +17,14 @@ export default function HomeGiftShowcase({ locale }: { locale: "zh" | "en" }) {
       </div>
       <div className={styles.books}>
         <Link className={styles.book} href="/gifts/summer-pocket" aria-label={zh ? "阅读精品绘本《把夏天装进口袋》" : "Read A Pocketful of Summer"}>
-          <div className={styles.cover}><img src="/gift-books/summer-pocket/cover.png" alt={zh ? "把夏天装进口袋封面" : "A Pocketful of Summer cover"} width={1086} height={1448} loading="lazy" /></div>
+          <div className={styles.cover}><Image src="/gift-books/summer-pocket/cover.webp" alt={zh ? "把夏天装进口袋封面" : "A Pocketful of Summer cover"} width={1086} height={1448} sizes="(max-width: 640px) 40vw, 240px" /></div>
           <span className={styles.category}>{zh ? "毕业纪念 · 10 页" : "Graduation · 10 pages"}</span>
           <strong>{zh ? "把夏天装进口袋" : "A Pocketful of Summer"}</strong>
         </Link>
         <Link className={styles.book} href="/gifts/city-motors" aria-label={zh ? "阅读精品绘本《城市汽车小队》" : "Read City Vehicle Crew"}>
           <div className={`${styles.cover} ${styles.city}`}>
             <span className={styles.cityHeading}><small>STORYBLOOM</small><b>城市汽车小队</b><small>26 个故事 · 全集典藏版</small></span>
-            <img src="/library/qiche/hong-lu-deng-wei-shen-me-hui-bian-se/1.webp" alt={zh ? "安安与妈妈观察城市交通" : "An’an explores city traffic with her mother"} width={1200} height={1200} loading="lazy" />
+            <Image src="/library/qiche/hong-lu-deng-wei-shen-me-hui-bian-se/1.webp" alt={zh ? "安安与妈妈观察城市交通" : "An’an explores city traffic with her mother"} width={1200} height={1200} sizes="(max-width: 640px) 40vw, 240px" />
           </div>
           <span className={styles.category}>{zh ? "好奇心收藏 · 26 个故事" : "For curious minds · 26 stories"}</span>
           <strong>{zh ? "城市汽车小队" : "City Vehicle Crew"}</strong>

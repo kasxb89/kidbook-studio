@@ -10,7 +10,7 @@ const minimalEntrySource = readFileSync(
   "utf8",
 );
 const pageSource = readFileSync(
-  new URL("../src/app/page.tsx", import.meta.url),
+  new URL("../src/components/home/HomeExperience.tsx", import.meta.url),
   "utf8",
 );
 

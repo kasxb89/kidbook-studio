@@ -7531,7 +7531,14 @@ img {
 
 .library-topbar {
   margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 20px;
 }
+
+.library-page[lang="en"] .library-topbar a { color: var(--muted); font-size: .9rem; line-height: 1.5; text-decoration: none; }
 
 .library-back {
   display: inline-flex;
@@ -12172,3 +12179,6 @@ body:has([data-gift-module]) .family-platform-nav, body:has([data-gift-module]) 
 .library-playlist-equalizer.is-playing i:nth-child(4) { animation-delay: -.2s; }
 @keyframes library-playlist-pulse { from { transform: scaleY(.25); } to { transform: scaleY(1); } }
 @media (prefers-reduced-motion: reduce) { .library-playlist-equalizer.is-playing i { animation: none; } }
+
+.library-series-view-all { flex-shrink: 0; padding: 12px 0; color: #456849; font-size: 13px; text-decoration: none; }
+.home-language-toggle { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }

@@ -56,14 +56,13 @@ describe("library series card product boundary", () => {
     expect(cardSource).toContain("library-catalog-minimal-progress");
   });
 
-  it("renders every series book immediately without expansion controls", () => {
-    expect(catalogSource).toContain(
-      "allSeriesBooks.map((book) => renderCard(book, true, true))",
-    );
+  it("previews four books per series and links to the complete series catalog", () => {
+    expect(catalogSource).toContain("books={allSeriesBooks.slice(0, 4)}");
+    expect(catalogSource).toContain('href={`/library/${item.id}`}');
+    expect(catalogSource).toContain("查看全部 {allSeriesBooks.length} 本");
     expect(catalogSource).not.toContain("expandedSeriesIds");
     expect(catalogSource).not.toContain("library-series-expand");
     expect(catalogSource).not.toContain("展开全部");
-    expect(catalogSource).not.toContain("查看全部");
     expect(catalogSource).not.toContain("item.href");
   });
 

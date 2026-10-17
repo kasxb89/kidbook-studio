@@ -24,7 +24,7 @@ export const PUBLIC_DAILY_INSPIRATION_COLUMNS = [
   "story_prompt_en",
 ].join(",");
 
-const dailyInspirationRowSchema = z.object({
+export const dailyInspirationRowSchema = z.object({
   id: z.string().uuid(),
   issue_date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
   theme: z.string(),

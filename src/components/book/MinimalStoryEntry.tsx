@@ -1685,13 +1685,13 @@ export default function MinimalStoryEntry({
             ? (
                 <>
                   <span>把今天的小事，</span>
-                  <span>写进故事里</span>
+                  <span>写成 AI 儿童绘本</span>
                 </>
               )
             : (
                 <>
                   <span>Turn today’s little moment</span>
-                  <span>into a story</span>
+                  <span>into an AI storybook</span>
                 </>
               )
           : personalizationContext

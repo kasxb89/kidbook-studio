@@ -83,7 +83,7 @@ describe("Everyday human-character library", () => {
     const books = getPublishedBooks("richang");
     const summaries = books.map((book) => createLibraryBookSummary(series, book));
     expect(filterLibraryBooks(summaries, { query: "烂苹果", filters: { category: "family-growth", seriesId: "richang", language: "bilingual" } }).map((book) => book.id)).toEqual([IDS[0]]);
-    const urls = sitemap().map((entry) => entry.url);
+    const urls = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/")).map((entry) => entry.url);
     expect(urls.some((url) => url.endsWith("/library/richang"))).toBe(true);
     for (const [index, id] of IDS.entries()) {
       expect(urls.some((url) => url.endsWith(`/library/richang/${id}`))).toBe(true);

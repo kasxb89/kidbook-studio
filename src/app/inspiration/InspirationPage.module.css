@@ -105,6 +105,15 @@
   margin: 0;
 }
 
+.archive { width: min(1000px, 100%); margin: 48px auto 24px; }
+.archive h2 { font-family: Georgia, "Songti SC", serif; }
+.archive ol { padding: 0; list-style: none; }
+.archive li { border-top: 1px solid rgba(76, 56, 42, .12); }
+.archive li a { display: flex; gap: 18px; padding: 18px 0; color: #55473b; text-decoration: none; line-height: 1.6; }
+.archive time { color: #8b765c; font-size: 13px; white-space: nowrap; }
+.pagination { display: flex; justify-content: space-between; gap: 20px; }
+.pagination a { padding: 14px 0; color: #456849; }
+
 @media (max-width: 640px) {
   .page {
     padding-right: 14px;

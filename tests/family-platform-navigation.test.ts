@@ -18,16 +18,16 @@ describe("family story platform navigation", () => {
   });
 
   it("gives the home page equal reading and creation entry points", () => {
-    const home = source("../src/app/page.tsx");
+    const home = source("../src/components/home/HomeExperience.tsx");
     const creation = source("../src/components/book/MinimalStoryEntry.tsx");
     expect(home).toContain("今晚读一本");
     expect(creation).toContain("把今天的小事，");
-    expect(creation).toContain("写进故事里");
+    expect(creation).toContain("写成 AI 儿童绘本");
     expect(home).toContain("home-header-mode-toggle");
     expect(creation).toContain("生成绘本并保存为成长记录");
     expect(creation).toContain('role="switch"');
     expect(creation).not.toContain("minimal-home-growth-option");
-    expect(home).toContain('href="/library"');
+    expect(home).toContain('localizedPath("/library", locale)');
     expect(home).toContain("https://github.com/valleylmh/storybloom");
     expect(home).toContain('id="story-creation"');
     expect(home).not.toContain('href="/me/books"');

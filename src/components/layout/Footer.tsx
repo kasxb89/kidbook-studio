@@ -10,7 +10,7 @@ export default function Footer() {
         <Link href="/library" className="footer-link">
           绘本馆
         </Link>
-        <Link href="/?mode=minimal#story-creation" className="footer-link">
+        <Link href="/#story-creation" className="footer-link">
           创作
         </Link>
         <Link href="/inspiration" className="footer-link">

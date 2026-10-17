@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { XIYOUJI_BOOKS } from "@/lib/library/xiyouji";
 import JourneyWestGift from "@/components/gifts/JourneyWestGift";
 import type { GiftPage } from "@/components/gifts/GiftReader";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
+  path: "/gifts/journey-to-the-west",
   title: "西游记 · 全集典藏版 | StoryBloom 精品绘本",
-  description: "从石猴出世到五圣成真，60 回西游故事合订成一本可以翻阅与珍藏的精品电子绘本。",
-  openGraph: { title: "西游记 · 全集典藏版", images: ["/library/xiyouji/shi-hou-chu-shi/1.webp"] },
-};
+  description: "从石猴出世到五圣成真，西游故事合订成一本可以翻阅与珍藏的精品电子绘本。",
+  image: "/library/xiyouji/shi-hou-chu-shi/1.webp",
+});
 
 export default function Page() {
   const pages: GiftPage[] = [];

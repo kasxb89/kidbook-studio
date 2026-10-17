@@ -1,3 +1,5 @@
+import JsonLd from "@/components/seo/JsonLd";
+import { seriesMetadata, seriesStructuredData } from "@/lib/library/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -23,16 +25,7 @@ export async function generateMetadata({
     return {};
   }
 
-  return {
-    title: `${series.title}绘本 | 中英双语在线阅读 - StoryBloom`,
-    description: series.description,
-    alternates: { canonical: `/library/${series.id}` },
-    openGraph: {
-      title: `StoryBloom 绘本馆 · ${series.title}`,
-      description: series.description,
-      type: "website",
-    },
-  };
+  return seriesMetadata(series, getSeriesBooks(series.id));
 }
 
 export default async function LibrarySeriesPage({
@@ -54,10 +47,12 @@ export default async function LibrarySeriesPage({
 
   return (
     <main className="library-page">
+      <JsonLd data={seriesStructuredData(series, books)} />
       <nav className="library-topbar" aria-label="页面导航">
         <Link href="/library" className="library-back">
           ← 绘本馆
         </Link>
+        <Link href={`/en/library/${series.id}`} hrefLang="en" className="library-back">English →</Link>
       </nav>
 
       <header className="library-hero">

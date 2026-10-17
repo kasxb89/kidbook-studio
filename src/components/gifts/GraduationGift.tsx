@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import GiftReader, { type GiftPage } from "./GiftReader";
@@ -51,7 +52,7 @@ export default function GraduationGift() {
     <nav className={styles.topbar}><Link href="/gifts" className={styles.brand}>STORYBLOOM <span>礼物绘本</span></Link><button onClick={share}>分享这本礼物 ↗</button></nav>
     {!open ? <section className={styles.hero}>
       <div className={styles.intro}><p className={styles.eyebrow}>THE LITTLE SUMMER COLLECTION · 01</p><span className={styles.tag}>幼儿园毕业纪念 · 公开样书</span><h1>有些夏天，<br />值得装进<span>口袋。</span></h1><p className={styles.description}>把第一次勇敢、最好的朋友、舍不得的告别，<br />留成一本长大以后，还想翻开的礼物。</p><div className={styles.dedication}><span>TO · 即将毕业的小小的你</span><p>愿你带着被爱过的勇气，<br />走向更大的世界。</p><small>一份献给成长的毕业礼物</small></div><button className={styles.primary} disabled={opening} onClick={() => setOpening(true)}>拆开这份礼物 <span>↗</span></button><p className={styles.note}>原创插画 · 图文一体 · 立体翻阅</p></div>
-      <div className={styles.stage}><button ref={coverRef} className={`${styles.cover} ${opening ? styles.opening : ""}`} disabled={opening} onClick={() => setOpening(true)} aria-label="打开把夏天装进口袋"><img src="/gift-books/summer-pocket/cover.png" alt="把夏天装进口袋，幼儿园毕业纪念绘本封面" /></button><span className={styles.seal}>给成长<br />一个拥抱</span></div>
+      <div className={styles.stage}><button ref={coverRef} className={`${styles.cover} ${opening ? styles.opening : ""}`} disabled={opening} onClick={() => setOpening(true)} aria-label="打开把夏天装进口袋"><Image src="/gift-books/summer-pocket/cover.webp" alt="把夏天装进口袋，幼儿园毕业纪念绘本封面" width={1086} height={1448} sizes="(max-width: 640px) 70vw, 440px" priority /></button><span className={styles.seal}>给成长<br />一个拥抱</span></div>
     </section> : <section className={styles.reading}><header><div><p className={styles.eyebrow}>A GIFT TO KEEP</p><h1>把夏天装进口袋</h1></div><button ref={closeRef} onClick={() => { setOpen(false); requestAnimationFrame(() => coverRef.current?.focus({ preventScroll: true })); }}>合上绘本</button></header><GiftReader title="把夏天装进口袋" pages={pages} /><p className={styles.readingGift}>送给即将毕业的你：谢谢你，把平凡的日子变成闪闪发光的回忆。</p></section>}
     <p role="status" className={styles.message}>{message}</p>
     <section className={styles.commission}><div><p className={styles.eyebrow}>MADE FOR YOUR STORY</p><h2>下一本，写你们的故事。</h2><p>班级毕业礼、孩子成长纪念、送给老师的感谢。<br />把名字、共同经历和祝福，设计成属于你们的一本。</p></div><div className={styles.actions}><Link href="/custom">了解绘本定制 ↗</Link><a href="/gift-books/summer-pocket/summer-pocket-artwork.zip" download>下载样书原图 ↓</a><small>本册为虚构人物公开样书 · 封面 + 10 页正文</small></div></section>

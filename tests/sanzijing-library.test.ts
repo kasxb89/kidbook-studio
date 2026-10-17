@@ -137,7 +137,7 @@ describe("Sanzijing parenting library", () => {
   });
 
   it("includes the series and six books in the sitemap", () => {
-    const urls = sitemap().map((entry) => entry.url);
+    const urls = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/")).map((entry) => entry.url);
     expect(urls.some((url) => url.endsWith("/library/sanzijing"))).toBe(true);
     for (const { id } of EXPECTED_BOOKS) {
       expect(

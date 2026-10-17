@@ -98,7 +98,7 @@ describe("Second approved parenting batch", () => {
     expect(groups.map((group) => ({ title: group.subseries?.title, count: group.books.length }))).toEqual([
       { title: "三字经", count: 6 }, { title: "亲子相处", count: 10 }, { title: "学会新本领", count: 10 },
     ]);
-    const urls = sitemap().map((entry) => entry.url);
+    const urls = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/")).map((entry) => entry.url);
     for (const item of plan.books) {
       const index = all.findIndex((book) => book.id === item.id);
       expect(urls.some((url) => url.endsWith(`/library/sanzijing/${item.id}`))).toBe(true);

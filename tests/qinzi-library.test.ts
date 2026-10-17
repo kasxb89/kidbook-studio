@@ -93,7 +93,7 @@ describe("Approved parenting and skill stories", () => {
       { title: "三字经", count: 6 }, { title: "亲子相处", count: 10 }, { title: "学会新本领", count: 10 },
     ]);
     expect(filterLibraryBooks(summaries, { query: "跳绳", filters: { category: "family-growth", seriesId: "sanzijing", language: "bilingual" } }).map((book) => book.id)).toContain("sheng-zi-shua-de-yi-sheng");
-    const urls = sitemap().map((entry) => entry.url);
+    const urls = sitemap().filter((entry) => !new URL(entry.url).pathname.startsWith("/en/")).map((entry) => entry.url);
     for (let i = 6; i < books.length; i++) {
       expect(urls.some((url) => url.endsWith(`/library/sanzijing/${books[i].id}`))).toBe(true);
       expect(getAdjacentBooks("sanzijing", books[i].id).previous?.id).toBe(books[i - 1].id);

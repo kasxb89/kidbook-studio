@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import AnalyticsPrivacyControls from "@/components/analytics/AnalyticsPrivacyControls";
 import styles from "./TrustDocument.module.css";
 
-export const metadata: Metadata = {
+export const metadata = pageMetadata({
+  path: "/privacy",
   title: "隐私与数据说明 | StoryBloom",
-  description:
-    "了解 StoryBloom 如何处理本机资料、可选私有云、AI 生成、分析工具与公开分享。",
-};
+  description: "了解 StoryBloom 如何处理本机资料、可选私有云、AI 生成、分析工具与公开分享。",
+  image: "/gift-books/summer-pocket/cover.webp",
+});
 
 const DATA_ROWS = [
   {

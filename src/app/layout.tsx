@@ -1,6 +1,4 @@
 import type { Metadata, Viewport } from "next";
-import AnalyticsConsentManager from "@/components/analytics/AnalyticsConsentManager";
-import TawkToChat from "@/components/analytics/TawkToChat";
 import FamilyPlatformNav from "@/components/layout/FamilyPlatformNav";
 import Footer from "@/components/layout/Footer";
 import { APP_METADATA_BASE } from "@/lib/site-url";
@@ -57,8 +55,8 @@ export default function RootLayout({
           <Footer />
         </Providers>
         <WebAppRuntime />
-        <AnalyticsConsentManager />
-        <TawkToChat />
+
+
       </body>
     </html>
   );

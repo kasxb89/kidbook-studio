@@ -91,9 +91,10 @@ export default function WorkbenchBook({
   onNavigate: (page: number) => void;
   immersive?: boolean;
 }) {
+  const endCover = draft.pageCount + 2;
   const [ended, setEnded] = useState(false);
   useEffect(() => setEnded(false), [page, draft.pageCount]);
-  const target = ended ? 100 : openingForPage(page);
+  const target = ended ? endCover : openingForPage(page);
   const [current, setCurrent] = useState(target);
   const [turn, setTurn] = useState<{ from: number; to: number } | null>(null);
   const touch = useRef<{ x: number; y: number } | null>(null);
@@ -113,10 +114,10 @@ export default function WorkbenchBook({
     }, 820);
     return () => clearTimeout(timer);
   }, [target, current]);
-  const openings = [...bookOpenings(draft.pageCount), 100];
+  const openings = [...bookOpenings(draft.pageCount), endCover];
   const selectOpening = (next: number) => {
-    setEnded(next === 100);
-    if (next !== 100) onNavigate(next);
+    setEnded(next === endCover);
+    if (next !== endCover) onNavigate(next);
   };
   const index = openings.indexOf(target);
   const move = (direction: number) => {
@@ -125,7 +126,7 @@ export default function WorkbenchBook({
   };
   const [w, h] = pageDimensions(draft.format);
   const leaf = (opening: number, side: "left" | "right") => {
-    if (opening === 100)
+    if (opening === endCover)
       return (
         <div
           className={`${s.paper} ${s[side]} ${side === "right" ? s.invisible : s.hardcover}`}
@@ -174,7 +175,7 @@ export default function WorkbenchBook({
       style={{ "--ratio": (2 * w) / h, "--leaf-ratio": w / h } as CSSProperties}
     >
       <div
-        className={`${s.book} ${turn?.to === 100 ? s.finishClosing : turn?.from === 100 ? s.finishOpening : current === 100 ? s.backClosed : turn?.from === 0 ? s.opening : turn?.to === 0 ? s.closing : current === 0 ? s.closed : ""}`}
+        className={`${s.book} ${turn?.to === endCover ? s.finishClosing : turn?.from === endCover ? s.finishOpening : current === endCover ? s.backClosed : turn?.from === 0 ? s.opening : turn?.to === 0 ? s.closing : current === 0 ? s.closed : ""}`}
         tabIndex={0}
         aria-label="可翻页绘本，使用左右方向键翻阅"
         onKeyDown={(e) => {
@@ -222,7 +223,7 @@ export default function WorkbenchBook({
           ←
         </button>
         <span>
-          {target === 100
+          {target === endCover
             ? "封底 · 全书完"
             : target === 0
               ? "封面 · 翻开故事"
@@ -246,7 +247,7 @@ export default function WorkbenchBook({
           <button
             key={p}
             aria-label={
-              p === 100
+              p === endCover
                 ? "合上书本，查看封底"
                 : p === 0
                   ? "跳到封面"

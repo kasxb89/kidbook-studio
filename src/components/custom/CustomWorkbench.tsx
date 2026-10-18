@@ -1,5 +1,16 @@
 "use client";
 import Link from "next/link";
+import { BookOpen } from "@phosphor-icons/react/dist/csr/BookOpen";
+import { SquaresFour } from "@phosphor-icons/react/dist/csr/SquaresFour";
+import { PaintBrush } from "@phosphor-icons/react/dist/csr/PaintBrush";
+import { Printer } from "@phosphor-icons/react/dist/csr/Printer";
+import { Plus } from "@phosphor-icons/react/dist/csr/Plus";
+import { FloppyDisk } from "@phosphor-icons/react/dist/csr/FloppyDisk";
+import { ArrowSquareOut } from "@phosphor-icons/react/dist/csr/ArrowSquareOut";
+import { ArrowRight } from "@phosphor-icons/react/dist/csr/ArrowRight";
+import { HardDrives } from "@phosphor-icons/react/dist/csr/HardDrives";
+import { CheckCircle } from "@phosphor-icons/react/dist/csr/CheckCircle";
+import { CaretRight } from "@phosphor-icons/react/dist/csr/CaretRight";
 import integratedSample from "../../../public/sample-books/integrated-garden/draft.json";
 import {
   Children,
@@ -15,7 +26,6 @@ import {
 import {
   createWorkbenchDraft,
   makeAsset,
-  nextWeeklyReset,
   serializeWorkbench,
   setWorkbenchPageCount,
   spreadStart,
@@ -26,13 +36,27 @@ import {
 } from "@/lib/custom-workbench";
 import { normalizeFamilyImageCrop } from "@/lib/family-image-crop";
 import WorkbenchCanvas from "./WorkbenchCanvas";
-import WorkbenchBook, { ImmersiveWorkbenchReader } from "./WorkbenchBook";
+import { ImmersiveWorkbenchReader } from "./WorkbenchBook";
+import { useLocalWorkbench } from "@/hooks/useLocalWorkbench";
+import BookStudioWorkspace from "./BookStudioWorkspace";
+import QuickBookStart from "./QuickBookStart";
+import PrintExportPanel from "./PrintExportPanel";
+import PageCountField from "./PageCountField";
+import DomainBriefFields from "./DomainBriefFields";
+import { briefErrors } from "@/lib/book-domain";
 import { useCustomBook } from "@/hooks/useCustomBook";
 import { exportCustomBookPdf } from "@/lib/custom-book/pdf";
 import s from "./CustomWorkbench.module.css";
 import { BOOK_LAYOUTS, type BookLayout } from "@/lib/custom-book/layout";
 
 const steps = ["基础信息", "人物与素材", "故事分镜", "画风排版", "确认生成"];
+const workspacePanels = [
+  { id: "create", label: "创作设定", icon: BookOpen, description: "讲述故事，交给 AI 整理创作设定。" },
+  { id: "board", label: "故事分镜", icon: SquaresFour, description: "从封面到最后一页，检查整本故事的节奏。" },
+  { id: "canvas", label: "单页画布", icon: PaintBrush, description: "专注一页，调整画面、正文与图片版本。" },
+  { id: "print", label: "印刷交付", icon: Printer, description: "检查清晰度，选择装订，导出 A4 成册文件。" },
+] as const;
+type WorkspacePanel = typeof workspacePanels[number]["id"];
 const styles = {
   watercolor: "温柔水彩",
   cartoon: "趣味卡通",
@@ -105,69 +129,75 @@ function Modal({
   );
 }
 export default function CustomWorkbench() {
-  const [draft, setDraft] = useState(() => createWorkbenchDraft());
+  const local = useLocalWorkbench();
+  const { draft, setDraft } = local;
   const [step, setStep] = useState(0);
-  const [page, setPage] = useState(0);
-  const [mobile, setMobile] = useState("config");
-  const [modal, setModal] = useState<"read" | "pay" | "reset" | null>(null);
+  const [manual, setManual] = useState(false);
+  const [preparing, setPreparing] = useState(false);
+  const [printBusy, setPrintBusy] = useState(false);
+  const page = Math.min(draft.pageCount, draft.studio?.selectedPage || 0);
+  function setPage(value: number | ((page: number) => number)) {
+    if (!local.ready || printBusy) return;
+    setDraft(d => ({ ...d, studio: { ...d.studio, selectedPage: Math.max(0, Math.min(d.pageCount, typeof value === "function" ? value(d.studio?.selectedPage || 0) : value)) } }));
+  }
+  const [modal, setModal] = useState<"read" | "reset" | null>(null);
   const [editing, setEditing] = useState<{
     target: AssetTarget;
     asset: WorkbenchAsset;
   } | null>(null);
   const [message, setMessage] = useState("");
-  const [dirty, setDirty] = useState(false);
   const [exporting, setExporting] = useState(false);
   const [proofread, setProofread] = useState(false);
-  useEffect(() => setProofread(false), [draft]);
+  const proofreadContent = JSON.stringify({title:draft.title,subtitle:draft.subtitle,cover:draft.cover,pages:draft.pages.slice(0,draft.pageCount),format:draft.format,typography:draft.typography,spreads:draft.spreads,design:Object.fromEntries(Object.entries(draft.studio?.pages||{}).map(([key,value])=>[key,value.typography]))});
+  useEffect(() => setProofread(false), [proofreadContent]);
+  const activePanel: WorkspacePanel = draft.studio?.activePanel || (draft.studio?.workspace === "edit" ? "canvas" : draft.cover ? "board" : "create");
+  const panel = workspacePanels.find(item => item.id === activePanel)!;
+  function goToPanel(next: WorkspacePanel) {
+    if (!local.ready || printBusy || preparing) return;
+    setDraft(d => ({...d,studio:{...d.studio,activePanel:next,...(next === "board" ? {workspace:"board" as const} : next === "canvas" ? {workspace:"edit" as const,view:"canvas" as const} : {})}}));
+  }
   const hasEmbeddedArtwork =
     !!draft.cover?.embeddedText ||
     draft.pages.slice(0, draft.pageCount).some((p) => p.asset?.embeddedText);
-  const [resetDate, setResetDate] = useState("");
-  const urls = useRef(new Set<string>());
-  const [redeemCode, setRedeemCode] = useState("");
+
+
   const live = useCustomBook((result) => {
-    setDraft(result);
-    setDirty(false);
-  }, setMessage);
-  const activeJob = live.job?.quotaState === "reserved";
+    setDraft(d => ({ ...result, studio: d.studio }));
+  }, setMessage, local.projectId);
+  const currentJob = live.job || live.jobs.find(j => !["complete", "failed"].includes(j.status)) || live.jobs[0] || null;
+  const activeJob = !!currentJob && !["complete", "failed"].includes(currentJob.status);
   useEffect(() => {
     if (live.job?.status === "review") setStep(2);
   }, [live.job?.status]);
-  useEffect(() => {
-    setResetDate(
-      new Intl.DateTimeFormat("zh-CN", {
-        timeZone: "Asia/Shanghai",
-        month: "long",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false,
-      }).format(new Date(nextWeeklyReset())),
-    );
-    return () => {
-      urls.current.forEach((url) => URL.revokeObjectURL(url));
-    };
-  }, []);
-  useEffect(() => {
-    const warn = (event: BeforeUnloadEvent) => {
-      if (dirty) {
-        event.preventDefault();
-        event.returnValue = "";
-      }
-    };
-    window.addEventListener("beforeunload", warn);
-    return () => window.removeEventListener("beforeunload", warn);
-  }, [dirty]);
+  async function prepareWithAI() {
+    if (!local.ready || live.busy || preparing || printBusy || activeJob) return;
+    setPreparing(true);
+    try {
+      await local.flush();
+      const response = await fetch("/api/local/prepare", {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({draft})});
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "AI 整理失败，请重试。");
+      setDraft(data.draft);setMessage("AI 已起草设定，请核对后生成分镜。");
+    } catch(e) {setMessage(e instanceof Error?e.message:"AI 整理失败，原内容已保留。");}
+    finally {setPreparing(false);}
+  }
   function update(fn: (d: CustomWorkbenchDraft) => CustomWorkbenchDraft) {
-    if (live.busy || (activeJob && live.job?.status !== "review")) {
+    if (!local.ready || preparing || printBusy) return;
+    if (live.busy || (activeJob && currentJob?.status !== "review")) {
       setMessage("生成期间配置已锁定；完成后可以继续调整文字与排版。");
       return;
     }
     setDraft(fn);
-    setDirty(true);
   }
   function patch(value: Partial<CustomWorkbenchDraft>) {
     update((d) => ({ ...d, ...value }));
+  }
+  async function openOutlineReview() {
+    try {
+      await local.flush();
+      if (currentJob && live.job?.id !== currentJob.id) await live.resume(currentJob.id, draft);
+      goToPanel("board");
+    } catch (e) { setMessage(e instanceof Error ? e.message : "分镜读取失败，请重试。"); }
   }
   function characterPatch(id: string, value: Partial<WorkbenchCharacter>) {
     update((d) => ({
@@ -200,22 +230,18 @@ export default function CustomWorkbench() {
       setMessage("请选择 15 MB 以内的 JPG、PNG 或 WebP 图片。");
       return;
     }
-    const src = URL.createObjectURL(file);
-    urls.current.add(src);
-    const img = new Image();
-    img.src = src;
     try {
-      await img.decode();
-      setEditing({ target, asset: makeAsset(src, file.name, target.kind) });
-    } catch {
-      URL.revokeObjectURL(src);
-      urls.current.delete(src);
-      setMessage("无法读取这张图片，请选择其他图片。");
-    }
+      const form = new FormData(); form.append("file", file);
+      const response = await fetch("/api/local/assets", {method:"POST",body:form});
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "图片保存失败");
+      setEditing({target,asset:{...makeAsset(result.src,file.name,target.kind),storagePath:result.storagePath,origin:"uploaded"}});
+    } catch(e) {setMessage(e instanceof Error ? e.message : "图片保存失败，请重试。");}
   }
+
   function assetControl(target: AssetTarget, asset?: WorkbenchAsset) {
     return (
-      <fieldset className={s.assetRow} disabled={activeJob || live.busy}>
+      <fieldset className={s.assetRow} disabled={activeJob || live.busy || printBusy}>
         {asset ? (
           <img src={asset.src} alt={asset.name} />
         ) : (
@@ -302,75 +328,70 @@ export default function CustomWorkbench() {
     }
   }
   return (
-    <main className={s.workbench}>
-      <header className={s.topbar}>
-        <Link href="/" className={s.brand}>
-          ✳{" "}
-          <span>
-            StoryBloom<small>让每个故事，都有你的名字</small>
-          </span>
+    <main className={s.workbench} data-local-workbench>
+      <aside className={s.sidebar}>
+        <Link href="/custom" className={s.brand}>
+          <BookOpen size={25} weight="duotone" aria-hidden="true" />
+          <span>StoryBloom<small>绘本创作工作室</small></span>
         </Link>
+        <div className={s.projectPicker}>
+          <label htmlFor="local-project">当前项目</label>
+          <select id="local-project" aria-label="本机项目" value={local.projectId} disabled={!local.ready || live.busy || preparing || printBusy || activeJob} onChange={e=>{setManual(false);void local.selectProject(e.target.value).catch(e=>setMessage(e.message));}}>
+            {local.projects.map(p=><option key={p.id} value={p.id}>{p.title}</option>)}
+          </select>
+          <button disabled={!local.ready || live.busy || preparing || printBusy || activeJob} onClick={() => setModal("reset")}><Plus size={17} aria-hidden="true" />新建 / 载入示例</button>
+        </div>
+        <nav className={s.workspaceNav} aria-label="工作区导航">
+          <span className={s.navLabel}>制作流程</span>
+          {workspacePanels.map(({id,label,icon:Icon},index)=><button key={id} aria-label={label} aria-current={activePanel===id?"page":undefined} disabled={!local.ready||printBusy||preparing} onClick={()=>goToPanel(id)}><Icon size={20} aria-hidden="true"/><span>{label}</span><small aria-hidden="true">0{index+1}</small></button>)}
+        </nav>
+        <div className={s.sidebarFooter}>
+          <div><HardDrives size={18} aria-hidden="true"/><span>本机工作空间<small>自动保存 · 刷新可恢复</small></span></div>
+          <button disabled={!local.ready} onClick={() => {download(new Blob([serializeWorkbench(draft)], {type:"application/json"}),"绘本配置.json");setMessage("已导出配置。跨电脑迁移时请一并备份本机 .local-data 数据目录。");}}><ArrowSquareOut size={16} aria-hidden="true"/>导出项目配置</button>
+        </div>
+      </aside>
+      <div className={s.mainArea}>
+      <header className={s.topbar}>
+        <div className={s.projectHeading}><span>我的绘本 <CaretRight size={13} aria-hidden="true" /></span><strong>{draft.title || "未命名绘本"}</strong></div>
         <div className={s.topActions}>
-          <span className={s.quota}>
-            {!live.session
-              ? "登录后每周免费 1 本"
-              : live.quota
-                ? `本周免费 ${live.quota.remaining} 本 · 兑换机会 ${live.quota.credits} 本`
-                : "正在读取账号额度"}
-            <small>{resetDate || "每周一 00:00"} 重置（北京时间）</small>
-          </span>
-          <button
-            onClick={() => {
-              download(
-                new Blob([serializeWorkbench(draft)], {
-                  type: "application/json",
-                }),
-                "绘本配置.json",
-              );
-              setMessage(
-                "已导出 JSON 配置，不包含图片文件；请另外保存原图。本地图片离开页面后需重新上传。",
-              );
-            }}
-          >
-            导出配置 ↗
-          </button>
+          <span className={s.quota} data-saved={local.status==="已保存到本机"}>{local.status==="已保存到本机"?<CheckCircle size={16} aria-hidden="true"/>:<FloppyDisk size={16} aria-hidden="true"/>}<small role="status">{local.status}</small></span>
+          <button disabled={!local.ready || live.busy || printBusy} onClick={()=>void local.flush().catch(e=>setMessage(e.message))}><FloppyDisk size={16} aria-hidden="true"/>立即保存</button>
+          <button disabled={!local.ready} onClick={()=>setModal("read")}><BookOpen size={17} aria-hidden="true"/>整本阅读</button>
         </div>
       </header>
+      <div className={s.content}>
       <section className={s.heading}>
         <div>
-          <span className={s.eyebrow}>YOUR LITTLE BOOK STUDIO</span>
-          <h1>
-            绘本定制工作台 <em>GPT Image 2</em>
-          </h1>
-          <p>从一个小小的想法，开始一本属于你的绘本。</p>
+          <span className={s.eyebrow}>本地绘本工作台</span>
+          <h1>{panel.label}</h1>
+          <p>{panel.description}</p>
         </div>
-        <button
-          disabled={live.busy || activeJob}
-          onClick={() => setModal("reset")}
-        >
-          新建 / 载入示例
-        </button>
+        <div className={s.bookMeta}><span>{{habits:"养成好习惯",memories:"真实经历",learning:"认知启蒙"}[draft.brief?.domain||"habits"]}</span><span>{draft.pageCount} 页正文</span></div>
       </section>
-      <div className={s.mobileTabs}>
-        <button
-          aria-pressed={mobile === "config"}
-          onClick={() => setMobile("config")}
-        >
-          配置绘本
-        </button>
-        <button
-          aria-pressed={mobile === "preview"}
-          onClick={() => setMobile("preview")}
-        >
-          查看预览
-        </button>
-      </div>
-      <div className={s.workspace}>
+      {local.error && <div role="alert" className={s.note}>{local.error}<button onClick={()=>{if(!local.ready)local.reload();else void local.flush().catch(e=>setMessage(e.message));}}>{local.ready?"重试保存":"重新读取"}</button></div>}
+      {!local.ready && <p role="status">正在读取本机数据。读取完成后即可编辑。</p>}
+      <div className={s.workspace} data-panel={activePanel}>
         <section
-          className={`${s.editor} ${mobile !== "config" ? s.mobileHidden : ""}`}
+          className={s.editor}
+          hidden={activePanel!=="create"}
           aria-label="绘本配置"
         >
-          <nav className={s.steps} aria-label="定制步骤">
+          <QuickBookStart
+            draft={draft}
+            onChange={next => update(() => next)}
+            onPrepare={prepareWithAI}
+            onUpload={file => void upload(file, { kind: "character", id: draft.characters[0].id })}
+            onGenerate={() => void local.flush().then(() => live.start(draft)).catch(e => setMessage(e.message))}
+            onReview={() => void openOutlineReview()}
+            onResume={() => { if (currentJob) void local.flush().then(() => live.resume(currentJob.id, draft)).catch(e => setMessage(e.message)); }}
+            onRetry={() => { if (live.job) void live.retry(); else if (currentJob) void live.resume(currentJob.id, draft); }}
+            job={currentJob}
+            disabled={!local.ready || live.busy || preparing || printBusy}
+            preparing={preparing}
+          />
+          <button className={s.advancedToggle} onClick={()=>setManual(!manual)} aria-expanded={manual}>{manual?"收起高级设置":"需要改人物、页数或画风？展开高级设置"}</button>
+          {manual && <>
+          {manual && <nav className={s.steps} aria-label="定制步骤">
             {steps.map((label, i) => (
               <button
                 key={label}
@@ -384,8 +405,8 @@ export default function CustomWorkbench() {
                 <span>{label}</span>
               </button>
             ))}
-          </nav>
-          <div className={s.panel}>
+          </nav>}
+          <div className={s.panel} id="story-detail-panel">
             <div className={s.panelTitle}>
               <span>STEP 0{step + 1}</span>
               <h2>{steps[step]}</h2>
@@ -404,12 +425,13 @@ export default function CustomWorkbench() {
             <fieldset
               className={s.controls}
               disabled={
-                live.busy ||
-                !!(activeJob && (live.job?.status !== "review" || step !== 2))
+                !local.ready || preparing || printBusy || live.busy ||
+                !!(activeJob && (currentJob?.status !== "review" || step !== 2))
               }
             >
               {step === 0 && (
                 <>
+                  <DomainBriefFields draft={draft} onChange={brief=>patch({brief})} />
                   <Field label="绘本标题">
                     <input
                       value={draft.title}
@@ -464,22 +486,16 @@ export default function CustomWorkbench() {
                     </Field>
                   </div>
                   <Field label={`正文页数 · ${draft.pageCount} 页`}>
-                    <input
-                      aria-label="正文页数"
-                      type="range"
-                      min="4"
-                      max="12"
-                      step="1"
+                    <PageCountField
                       value={draft.pageCount}
-                      onChange={(e) => {
-                        const count = Number(e.target.value);
+                      onChange={(count) => {
                         update((d) => setWorkbenchPageCount(d, count));
                         setPage((p) => Math.min(p, count));
                       }}
                     />
                     <div className={s.rangeLabels}>
-                      <span>4 页 · 短故事</span>
-                      <span>12 页 · 完整冒险</span>
+                      <span>1–200 页自定义</span>
+                      <span>封面另外计算</span>
                     </div>
                   </Field>
                   <p className={s.hint}>
@@ -602,10 +618,10 @@ export default function CustomWorkbench() {
                       </p>
                       <button
                         className={s.primary}
-                        disabled={live.busy}
+                        disabled={live.busy || printBusy}
                         onClick={() => {
                           setStep(4);
-                          void live.confirm(draft);
+                          void local.flush().then(() => live.confirm(draft)).catch(e => setMessage(e.message));
                         }}
                       >
                         确认分镜，生成插图
@@ -1065,55 +1081,21 @@ export default function CustomWorkbench() {
                   </p>
                   <p>
                     生图模型：
-                    {live.job?.model || live.quota?.model || "gpt-image-2"}
+                    {live.job?.model || live.configured.model}
                   </p>
                 </div>
                 <div className={s.note}>
-                  <strong>每周一本，慢慢创作</strong>
-                  <p>
-                    登录账号每周免费一本，周一北京时间 00:00
-                    重置。兑换码可增加额外生成机会。
-                  </p>
-                  <p>
-                    先生成故事分镜，确认后处理人物与插图。编辑和 PDF
-                    下载不限次，失败保留完成的内容，最终失败退还机会。
-                  </p>
-                  <p>
-                    参考照片会私密上传并发送给模型服务用于本次生成。开启生成前请确认已获得照片使用许可。
-                  </p>
+                  <strong>本机保存，确认后生成</strong>
+                  <p>项目与照片保存在这台电脑，不需要登录，没有生成次数限制。模型调用仍由你的接口计费。</p>
+                  <p>先审核故事分镜，再生成插图。未配置模型时，可以填写创作内容、手动编辑分镜、上传已有插画和导出预览。</p>
+                  <p>模型状态：故事模型{live.configured.text ? "已配置" : "未配置"} · 生图模型{live.configured.image ? "已配置" : "未配置"}。调用时会发送相关文字与参考图片。</p>
                 </div>
-                {live.error && (
-                  <p role="alert" className={s.hint}>
-                    {live.error}
-                  </p>
-                )}
-                {!live.session ? (
-                  <Link href="/login?next=/custom" className={s.upload}>
-                    登录后开始生成 →
-                  </Link>
-                ) : (
-                  !activeJob && (
-                    <button
-                      className={s.primary}
-                      disabled={live.busy || !live.quota}
-                      onClick={() => {
-                        if (
-                          live.quota &&
-                          live.quota.remaining + live.quota.credits === 0
-                        )
-                          setModal("pay");
-                        else void live.start(draft);
-                      }}
-                    >
-                      {live.busy
-                        ? "正在提交…"
-                        : live.quota &&
-                            live.quota.remaining + live.quota.credits === 0
-                          ? "兑换生成机会"
-                          : "生成故事分镜 →"}
-                    </button>
-                  )
-                )}
+                {briefErrors(draft.brief).map(issue=><p className={s.hint} key={issue}>{issue}</p>)}
+                {live.error && <p role="alert" className={s.hint}>{live.error}</p>}
+                {!activeJob && <button className={s.primary} disabled={!local.ready || live.busy || printBusy || !live.configured.text || briefErrors(draft.brief).length>0}
+                  onClick={()=>void local.flush().then(()=>live.start(draft)).catch(e=>setMessage(e.message))}>
+                  {live.busy ? "正在提交…" : live.configured.text ? "生成故事分镜 →" : "等待配置故事模型"}
+                </button>}
                 {live.job && (
                   <div className={s.summary} aria-live="polite">
                     <strong>
@@ -1135,21 +1117,18 @@ export default function CustomWorkbench() {
                       （含人物参考图和封面）
                     </p>
                     {live.job.error && <p>{live.job.error}</p>}
-                    {live.job.quotaState === "refunded" && (
-                      <p>本次生成机会已退还。</p>
-                    )}
                     {live.job.status === "review" && (
                       <button
                         className={s.primary}
-                        disabled={live.busy}
-                        onClick={() => void live.confirm(draft)}
+                        disabled={live.busy || printBusy || !live.configured.image}
+                        onClick={() => void local.flush().then(()=>live.confirm(draft)).catch(e=>setMessage(e.message))}
                       >
                         确认分镜，生成插图
                       </button>
                     )}
                     {activeJob && live.job.status !== "review" && (
                       <button
-                        disabled={live.busy}
+                        disabled={live.busy || printBusy}
                         onClick={() => void live.retry()}
                       >
                         {live.busy
@@ -1159,11 +1138,11 @@ export default function CustomWorkbench() {
                     )}
                     {activeJob && (
                       <button
-                        disabled={live.busy}
+                        disabled={live.busy || printBusy}
                         onClick={() => {
                           if (
                             window.confirm(
-                              "取消任务？AI 已开始工作时将使用本次机会，已完成内容仍会保留。",
+                              "取消任务？已完成内容仍保存在本机。",
                             )
                           )
                             void live.cancel();
@@ -1174,27 +1153,16 @@ export default function CustomWorkbench() {
                     )}
                   </div>
                 )}
-                {live.job?.status === "complete" && (
-                  <button
-                    disabled={live.busy}
-                    onClick={() => void live.saveLayout(draft)}
-                  >
-                    保存文字与排版
-                  </button>
-                )}
-                {live.session && (
-                  <button onClick={() => setModal("pay")}>我有兑换码</button>
-                )}
-                {!!live.quota?.jobs.length && (
+                {!!live.jobs.length && (
                   <details className={s.demo}>
-                    <summary>我的绘本任务 · 刷新后可从这里恢复</summary>
-                    {live.quota.jobs.map((j) => (
+                    <summary>本项目生成任务 · 载入结果 / 继续处理</summary>
+                    {live.jobs.map((j) => (
                       <button
                         key={j.id}
-                        disabled={live.busy}
-                        onClick={() => void live.resume(j.id)}
+                        disabled={live.busy || printBusy}
+                        onClick={() => void local.flush().then(()=>live.resume(j.id,draft)).catch(e=>setMessage(e.message))}
                       >
-                        {new Date(j.created_at).toLocaleDateString("zh-CN")} ·{" "}
+                        {new Date(j.updatedAt).toLocaleDateString("zh-CN")} ·{" "}
                         {
                           (
                             {
@@ -1214,7 +1182,7 @@ export default function CustomWorkbench() {
                 )}
               </>
             )}
-            <div className={s.stepFooter}>
+            {manual && <div className={s.stepFooter}>
               <span>0{step + 1} / 05</span>
               <button
                 className={s.primary}
@@ -1227,84 +1195,67 @@ export default function CustomWorkbench() {
               >
                 {step < 4 ? `下一步：${steps[step + 1]} →` : "查看整本绘本 →"}
               </button>
-            </div>
+            </div>}
           </div>
+          </>}
         </section>
+        <aside className={s.bookSummary} hidden={activePanel!=="create"} aria-label="当前绘本概况">
+          <div className={s.summaryCover}>{draft.cover?<img src={draft.cover.src} alt="当前绘本封面"/>:<BookOpen size={48} weight="light" aria-hidden="true"/>}</div>
+          <div className={s.summaryBody}>
+            <span className={s.eyebrow}>当前绘本</span>
+            <h2>{draft.title||"你的下一本绘本"}</h2>
+            <p>{draft.theme||"从孩子的一个小故事开始。"}</p>
+            <dl><div><dt>适读年龄</dt><dd>{draft.age}</dd></div><div><dt>插图进度</dt><dd>{draft.pages.slice(0,draft.pageCount).filter(p=>p.asset).length} / {draft.pageCount} 页</dd></div><div><dt>创作场景</dt><dd>{draft.brief?.scenario||"AI 帮你推荐"}</dd></div></dl>
+            <button className={s.primary} disabled={!local.ready||printBusy||preparing} onClick={()=>goToPanel("board")}>前往故事分镜<ArrowRight size={16} aria-hidden="true"/></button>
+          </div>
+          <ol className={s.workflowGuide}>
+            <li><b>1</b><span>说说孩子的故事<small>选领域，写经历，AI 起草设定</small></span></li>
+            <li><b>2</b><span>确认分镜与画面<small>逐页编辑，保留每次图片版本</small></span></li>
+            <li><b>3</b><span>校对后印刷成册<small>A4 排版，自选装订与交付方式</small></span></li>
+          </ol>
+        </aside>
         <section
-          className={`${s.preview} ${mobile !== "preview" ? s.mobileHidden : ""}`}
+          className={s.preview}
+          hidden={activePanel!=="board"&&activePanel!=="canvas"}
           aria-label="实时绘本预览"
         >
-          <header className={s.previewHeader}>
-            <div>
-              <span className={s.liveDot} />
-              实时预览 <small>每一个小改动，都看得见</small>
-            </div>
-            <button onClick={() => setModal("read")}>整本阅读 ↗</button>
-          </header>
-          <div className={s.stage}>
-            <WorkbenchBook draft={draft} page={page} onNavigate={navigate} />
-          </div>
-          <div className={s.thumbnails}>
-            {Array.from({ length: draft.pageCount + 1 }, (_, i) => (
-              <button
-                key={i}
-                aria-label={i ? `预览第 ${i} 页` : "预览封面"}
-                aria-pressed={page === i}
-                onClick={() => navigate(i)}
-              >
-                <span>
-                  {(i === 0
-                    ? draft.cover
-                    : draft.pages[(spreadStart(draft, i) || i) - 1]?.asset
-                  )?.src ? (
-                    <img
-                      src={
-                        (i === 0
-                          ? draft.cover
-                          : draft.pages[(spreadStart(draft, i) || i) - 1]?.asset
-                        )?.src
-                      }
-                      alt=""
-                    />
-                  ) : (
-                    <b>✧</b>
-                  )}
-                </span>
-                {i === 0 ? "封面" : String(i).padStart(2, "0")}
-              </button>
-            ))}
-          </div>
+          {currentJob?.status==="review"&&<div className={s.reviewBanner}><div><strong>故事分镜已就绪</strong><p>逐页检查正文和画面描述，确认后开始绘制插图。</p></div><button className={s.primary} disabled={live.busy||printBusy} onClick={()=>{if(live.job?.id!==currentJob.id)void openOutlineReview();else void local.flush().then(()=>live.confirm(draft)).catch(e=>setMessage(e.message));}}>{live.job?.id===currentJob.id?"确认分镜，生成插图":"载入待确认分镜"}</button></div>}
+          <fieldset className={s.studioWrapper} disabled={printBusy}>
+          <BookStudioWorkspace key={local.projectId} draft={draft} page={page} mode={activePanel==="canvas"?"edit":"board"} onEditPage={()=>goToPanel("canvas")} onNavigate={navigate} onUpdate={update} onUpload={(file, target) => void upload(file, target === 0 ? {kind:"cover"} : {kind:"page",index:target-1})} disabled={!local.ready || live.busy || preparing || printBusy || !!(activeJob&&(currentJob?.status!=="review"||live.job?.id!==currentJob?.id))} />
+          </fieldset>
+        </section>
+        <section className={s.printWorkspace} hidden={activePanel!=="print"} aria-label="印刷交付工作区">
+          <div className={s.printMain}>
+          <div className={s.printIntro}><Printer size={24} aria-hidden="true"/><div><h2>准备交给制作人员</h2><p>先完成逐页校对，再检查清晰度并导出文件。</p></div></div>
           {hasEmbeddedArtwork && (
             <label className={s.proofread}>
               <input
                 type="checkbox"
                 checked={proofread}
+                disabled={printBusy}
                 onChange={(e) => setProofread(e.target.checked)}
               />
               我已逐页核对错字、漏字、人物和中缝。此为人工校对确认。
             </label>
           )}
-          <footer className={s.previewFooter}>
+          <details className={s.previewExport}><summary>下载快速预览文件</summary><footer className={s.previewFooter}>
             <span>
               {draft.pageCount} 页正文 ＋ 封面
-              <small>图文一体 · 整本 PDF 下载</small>
+              <small>{draft.renderingMode === "integrated" ? "图文一体" : "可编辑图文"} · 预览 PDF 下载</small>
             </span>
             <button
               onClick={() => void exportPdf()}
-              disabled={exporting || live.busy || !!activeJob}
+              disabled={exporting || live.busy || printBusy || !!activeJob}
             >
-              {exporting ? "正在排版…" : "下载整本 PDF ↓"}
+              {exporting ? "正在排版…" : "下载预览 PDF"}
             </button>
-          </footer>
-          <div className={s.context}>
-            ✦ {draft.theme} ·{" "}
-            {draft.characters.map((c) => c.name || "未命名角色").join("、")}
-            {page > 0 && <p>{current.scene || "为这一页写下画面描述…"}</p>}
-            <small>
-              语言和人物设定用于后续生成；修改不会自动翻译或重绘已有内容。
-            </small>
+          </footer></details>
+          <PrintExportPanel key={local.projectId} draft={draft} projectId={local.projectId} disabled={!local.ready || live.busy || preparing || activeJob} proofread={proofread} onChange={print=>patch({print})} onFlush={local.flush} onProject={local.acceptServerProject} onBusy={setPrintBusy}/>
           </div>
+          <aside className={s.deliveryGuide}><span className={s.eyebrow}>交付清单</span><h2>一本书，一份完整交付</h2><ul><li><CheckCircle size={17} aria-hidden="true"/>A4 整本 PDF 与封面、内页文件</li><li><CheckCircle size={17} aria-hidden="true"/>高清插图与可编辑文稿</li><li><CheckCircle size={17} aria-hidden="true"/>清晰度报告与装订制作说明</li></ul><p>装订方式在左侧选择，出血和内侧留白随设置处理。骑马订可导出双面拼版。</p><button onClick={()=>goToPanel("board")}>返回分镜检查<ArrowRight size={16} aria-hidden="true"/></button></aside>
         </section>
+      </div>
+      </div>
       </div>
       {message && (
         <div className={s.message} role="status">
@@ -1481,37 +1432,6 @@ export default function CustomWorkbench() {
           onClose={() => setModal(null)}
         />
       )}
-      {modal === "pay" && (
-        <Modal title="兑换绘本生成机会" onClose={() => setModal(null)}>
-          <div className={s.summary}>
-            <h3>一个兑换码 · 一本绘本</h3>
-            <p>
-              兑换码一次有效，兑换后绑定当前登录账号。每周免费额度用完后，可使用兑换机会。
-            </p>
-          </div>
-          {!live.session ? (
-            <Link href="/login?next=/custom">先登录再兑换</Link>
-          ) : (
-            <>
-              <Field label="兑换码">
-                <input
-                  value={redeemCode}
-                  onChange={(e) => setRedeemCode(e.target.value)}
-                  placeholder="输入你的兑换码"
-                  autoComplete="off"
-                />
-              </Field>
-              <button
-                className={s.primary}
-                disabled={live.busy || !redeemCode.trim()}
-                onClick={() => void live.redeem(redeemCode)}
-              >
-                {live.busy ? "正在兑换…" : "兑换 1 次生成机会"}
-              </button>
-            </>
-          )}
-        </Modal>
-      )}
       {modal === "reset" && (
         <Modal title="从这里，开始一本书" onClose={() => setModal(null)}>
           <p className={s.startIntro}>
@@ -1523,12 +1443,9 @@ export default function CustomWorkbench() {
               aria-label="载入精品样书：雨后的小小花园"
               onClick={() => {
                 live.clearJob();
-                setDraft(
-                  structuredClone(integratedSample) as CustomWorkbenchDraft,
-                );
+                void local.createProject(structuredClone(integratedSample) as CustomWorkbenchDraft).catch(e=>setMessage(e.message));
                 setPage(0);
                 setStep(3);
-                setDirty(true);
                 setModal(null);
                 setMessage(
                   "已载入真实 GPT 图文一体样书：封面＋4页正文，包含2–3页跨页。可翻阅、校对并导出 PDF。",
@@ -1559,10 +1476,9 @@ export default function CustomWorkbench() {
                 className={s.startChoice}
                 onClick={() => {
                   live.clearJob();
-                  setDraft(createWorkbenchDraft(false));
+                  void local.createProject(createWorkbenchDraft(false)).catch(e=>setMessage(e.message));
                   setPage(0);
                   setStep(0);
-                  setDirty(true);
                   setModal(null);
                 }}
               >
@@ -1579,9 +1495,8 @@ export default function CustomWorkbench() {
                 className={s.startChoice}
                 onClick={() => {
                   live.clearJob();
-                  setDraft(createWorkbenchDraft());
+                  void local.createProject(createWorkbenchDraft()).catch(e=>setMessage(e.message));
                   setPage(0);
-                  setDirty(true);
                   setModal(null);
                 }}
               >

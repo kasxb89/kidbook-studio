@@ -12182,3 +12182,16 @@ body:has([data-gift-module]) .family-platform-nav, body:has([data-gift-module]) 
 
 .library-series-view-all { flex-shrink: 0; padding: 12px 0; color: #456849; font-size: 13px; text-decoration: none; }
 .home-language-toggle { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
+
+/* The internal workbench uses a quiet neutral shell, not the public gift theme. */
+body:has([data-local-workbench]) {
+  background: #f3f5f4;
+  color: #192823;
+  --text: #192823;
+  --muted: #50615b;
+  --line: #dce4df;
+}
+body:has([data-local-workbench]) .site-footer {
+  display: none;
+}
+body:has([data-local-workbench]) .site-footer a { color: #303b47; }

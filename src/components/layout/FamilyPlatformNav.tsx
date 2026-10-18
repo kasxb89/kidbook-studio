@@ -2,7 +2,10 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Books, CalendarDots, House, MagicWand } from "@phosphor-icons/react";
+import { Books } from "@phosphor-icons/react/dist/csr/Books";
+import { CalendarDots } from "@phosphor-icons/react/dist/csr/CalendarDots";
+import { House } from "@phosphor-icons/react/dist/csr/House";
+import { MagicWand } from "@phosphor-icons/react/dist/csr/MagicWand";
 
 function isReaderDetail(pathname: string) {
   const parts = pathname.split("/").filter(Boolean);
@@ -13,6 +16,7 @@ function isReaderDetail(pathname: string) {
 export default function FamilyPlatformNav() {
   const pathname = usePathname();
   if (
+    pathname === "/custom" ||
     isReaderDetail(pathname) ||
     pathname.startsWith("/s/") ||
     pathname.startsWith("/auth/") ||

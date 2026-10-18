@@ -13,12 +13,12 @@ describe('custom workbench page preservation', () => {
     expect(restored.pages[6]).toEqual(draft.pages[6]);
     expect(spreadStart(restored, 7)).toBe(6);
   });
-  it('bounds input to 4–12 integer pages without trimming stored content', () => {
+  it('supports 1–200 integer pages and grows storage without trimming hidden content', () => {
     const draft = createWorkbenchDraft();
-    for (const [input, expected] of [[0, 4], [99, 12], [7.6, 8], [NaN, 8]]) {
+    for (const [input, expected] of [[0, 1], [99, 99], [999, 200], [7.6, 8], [NaN, 8]]) {
       const next = setWorkbenchPageCount(draft, input);
       expect(next.pageCount).toBe(expected);
-      expect(next.pages).toHaveLength(12);
+      expect(next.pages).toHaveLength(Math.max(12,expected));
     }
   });
   it('only pairs physical facing pages and leaves cover, first and trailing pages independent', () => {

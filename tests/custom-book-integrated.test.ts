@@ -8,13 +8,15 @@ import {
 } from "../src/lib/custom-book/integrated";
 function draft() {
   const d = createWorkbenchDraft();
+  d.renderingMode = "integrated";
   delete d.cover;
   d.pages.forEach((p) => delete p.asset);
   d.characters.forEach((c) => delete c.asset);
   return customDraftSchema.parse(d);
 }
 describe("integrated picture book generation", () => {
-  it("defaults new drafts to integrated while old drafts retain editable behavior", () => {
+  it("defaults local drafts to editable while explicitly integrated drafts remain supported", () => {
+    expect(createWorkbenchDraft(false).renderingMode).toBe("editable");
     expect(draft().renderingMode).toBe("integrated");
     const old = draft();
     delete old.renderingMode;

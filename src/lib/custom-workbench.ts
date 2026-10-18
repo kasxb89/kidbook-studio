@@ -1,3 +1,5 @@
+import { createBookBrief, type BookBrief } from "./book-domain";
+import { MIN_BOOK_PAGES, MAX_BOOK_PAGES } from "./book-config";
 import {
   normalizeFamilyImageCrop,
   type FamilyImageCrop,
@@ -40,6 +42,10 @@ export type WorkbenchPage = {
 };
 export type CustomWorkbenchDraft = {
   version: 1;
+  print?: import("./custom-book/print-settings").PrintSettings;
+  studio?: import("./book-studio").BookStudio;
+  brief?: BookBrief;
+  localJobId?: string;
   renderingMode?: "integrated" | "editable";
   title: string;
   subtitle: string;
@@ -96,7 +102,8 @@ export function makeAsset(
 export function createWorkbenchDraft(sample = true): CustomWorkbenchDraft {
   return {
     version: 1,
-    renderingMode: "integrated",
+    renderingMode: "editable",
+    brief: createBookBrief(),
     title: sample ? "小云朵勇敢飞" : "",
     subtitle: sample ? "给每一次勇敢出发的你" : "",
     author: "",
@@ -153,12 +160,14 @@ export function setWorkbenchPageCount(
   draft: CustomWorkbenchDraft,
   count: number,
 ): CustomWorkbenchDraft {
+  const pageCount = Math.min(MAX_BOOK_PAGES, Math.max(MIN_BOOK_PAGES, Math.round(Number.isFinite(count) ? count : 8)));
+  const pages = [...draft.pages];
+  while(pages.length < pageCount) pages.push({text:"",scene:"",characters:[draft.characters[0]?.id || "hero"]});
   return {
     ...draft,
-    pageCount: Math.min(
-      12,
-      Math.max(4, Math.round(Number.isFinite(count) ? count : 8)),
-    ),
+    pageCount,
+    pages,
+    studio: draft.studio ? {...draft.studio,selectedPage:Math.min(draft.studio.selectedPage||0,pageCount)} : undefined,
   };
 }
 export function spreadStart(

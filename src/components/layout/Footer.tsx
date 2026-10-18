@@ -1,35 +1,7 @@
 import Link from "next/link";
-
 export default function Footer() {
-  return (
-    <footer className="site-footer">
-      <div className="footer-inner">
-        <span className="footer-text">
-          {new Date().getFullYear()}&copy; StoryBloom
-        </span>
-        <Link href="/library" className="footer-link">
-          绘本馆
-        </Link>
-        <Link href="/#story-creation" className="footer-link">
-          创作
-        </Link>
-        <Link href="/inspiration" className="footer-link">
-          每日灵感
-        </Link>
-        <Link href="/custom" className="footer-link">
-          绘本定制工作台
-        </Link>
-        <Link href="/install" className="footer-link">添加到主屏幕</Link>
-        <Link href="/privacy" className="footer-link">
-          隐私与数据
-        </Link>
-        <Link href="/privacy#analytics-controls" className="footer-link">
-          分析设置
-        </Link>
-        <Link href="/child-family-data" className="footer-link">
-          儿童与家庭数据
-        </Link>
-      </div>
-    </footer>
-  );
+  return <footer className="site-footer"><div className="footer-inner">
+    <span>StoryBloom · 本地内部工作台</span><Link href="/custom">绘本创作</Link>
+    <span>项目与图片保存在本机 · 请定期备份 .local-data</span>
+  </div></footer>;
 }

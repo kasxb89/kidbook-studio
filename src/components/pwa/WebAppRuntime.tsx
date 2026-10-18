@@ -20,5 +20,5 @@ export default function WebAppRuntime() {
       window.removeEventListener("offline", sync);
     };
   }, []);
-  return offline ? <div className="webapp-offline" role="status">当前离线 · 创作、登录与在线朗读需恢复网络</div> : null;
+  return offline ? <div className="webapp-offline" role="status">当前离线 · 本机保存与编辑可用，模型生成需连接接口</div> : null;
 }

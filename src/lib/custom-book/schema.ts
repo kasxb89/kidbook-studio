@@ -1,4 +1,7 @@
+import { bookBriefSchema } from "../book-domain";
 import { z } from "zod";
+import { MIN_BOOK_PAGES, MAX_BOOK_PAGES } from "../book-config";
+import { printSettingsSchema } from "./print-settings";
 
 const asset = z.object({
   embeddedText: z.array(z.string().max(2500)).max(3).optional(),
@@ -32,6 +35,8 @@ export const customPageSchema = z.object({
 export const customDraftSchema = z
   .object({
     version: z.literal(1),
+    print: printSettingsSchema.optional(),
+    brief: bookBriefSchema.optional(),
     renderingMode: z.enum(["integrated", "editable"]).optional(),
     title: z.string().trim().min(1).max(100),
     subtitle: z.string().max(200),
@@ -39,7 +44,7 @@ export const customDraftSchema = z
     theme: z.string().trim().min(1).max(300),
     age: z.enum(["2–3 岁", "4–5 岁", "6–8 岁"]),
     language: z.enum(["中文", "英文", "中英双语"]),
-    pageCount: z.number().int().min(4).max(12),
+    pageCount: z.number().int().min(MIN_BOOK_PAGES).max(MAX_BOOK_PAGES),
     story: z.string().max(15000),
     characters: z
       .array(
@@ -55,9 +60,9 @@ export const customDraftSchema = z
       )
       .min(1)
       .max(6),
-    pages: z.array(customPageSchema).length(12),
+    pages: z.array(customPageSchema).min(MIN_BOOK_PAGES).max(MAX_BOOK_PAGES),
     cover: asset.optional(),
-    spreads: z.array(z.number().int().min(2).max(10)).max(5),
+    spreads: z.array(z.number().int().min(2).max(MAX_BOOK_PAGES-1)).max(Math.floor(MAX_BOOK_PAGES/2)),
     style: z.enum(["watercolor", "cartoon", "fairytale"]),
     format: z.enum(["square", "portrait", "landscape"]),
     typography: z.object({
@@ -70,6 +75,7 @@ export const customDraftSchema = z
     }),
   })
   .superRefine((draft, ctx) => {
+    if(draft.pages.length < draft.pageCount) ctx.addIssue({code:"custom",message:"正文页数超过已保存的页面数量"});
     const ids = new Set(draft.characters.map((c) => c.id));
     if (ids.size !== draft.characters.length)
       ctx.addIssue({ code: "custom", message: "人物标识重复" });

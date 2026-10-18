@@ -8,6 +8,7 @@ import {
 
 import { artworkText, artworkMatchesText } from "@/lib/custom-book/integrated";
 import { layoutTextBox } from "@/lib/custom-book/layout";
+import { wrapBookText } from "@/lib/custom-book/text-wrap";
 
 export function pageDimensions(
   format: CustomWorkbenchDraft["format"],
@@ -33,6 +34,8 @@ export async function drawWorkbench(
   page: number,
   hideText = false,
 ) {
+  const studioPage = spreadStart(draft, page) || page;
+  draft = { ...draft, typography: { ...draft.typography, ...draft.studio?.pages?.[studioPage]?.typography } };
   const [pw, h] = pageDimensions(draft.format);
   const start = spreadStart(draft, page);
   const w = start ? pw * 2 : pw;
@@ -86,7 +89,7 @@ export async function drawWorkbench(
     if (layout === "minimal") {
       const inset = pw * 0.09,
         panelHeight = h * 0.58;
-      const scale = Math.max((w - inset * 2) / sw, panelHeight / sh);
+      const scale = Math.min((w - inset * 2) / sw, panelHeight / sh);
       ctx.beginPath();
       ctx.rect(inset, inset, w - inset * 2, panelHeight);
       ctx.clip();
@@ -166,17 +169,7 @@ export async function drawWorkbench(
     const margin = 48,
       maxWidth = box.width,
       lineHeight = size * 1.55;
-    const lines: string[] = [];
-    for (const paragraph of text.split("\n")) {
-      let line = "";
-      for (const character of Array.from(paragraph)) {
-        if (line && ctx.measureText(line + character).width > maxWidth) {
-          lines.push(line);
-          line = character;
-        } else line += character;
-      }
-      lines.push(line);
-    }
+    const lines = wrapBookText(text, maxWidth, value => ctx.measureText(value).width);
     if (!text) return;
     const boxHeight = lines.length * lineHeight + 32;
     if (boxHeight > box.height) overflow = true;
@@ -230,8 +223,15 @@ export default function WorkbenchCanvas({
 }) {
   const ref = useRef<HTMLCanvasElement>(null);
   const [warning, setWarning] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [pageWidth, pageHeight] = pageDimensions(draft.format);
+  const spread = spreadStart(draft, page);
+  const width = spread ? pageWidth * 2 : pageWidth;
+  const asset = page === 0 ? draft.cover : draft.pages[(spread || page) - 1]?.asset;
   useEffect(() => {
     let active = true;
+    setLoading(true);
+    setWarning("");
     const buffer = document.createElement("canvas");
     drawWorkbench(buffer, draft, page, hideText)
       .then(({ overflow, contentMismatch }) => {
@@ -239,6 +239,7 @@ export default function WorkbenchCanvas({
         ref.current.width = buffer.width;
         ref.current.height = buffer.height;
         ref.current.getContext("2d")?.drawImage(buffer, 0, 0);
+        setLoading(false);
         const message = contentMismatch
           ? "正文已修改，但图中文字尚未更新；请重新生成后导出。"
           : overflow
@@ -250,6 +251,7 @@ export default function WorkbenchCanvas({
       .catch((error) => {
         if (active) {
           setWarning(error.message);
+          setLoading(false);
           onStatus?.(error.message);
         }
       });
@@ -259,16 +261,22 @@ export default function WorkbenchCanvas({
   }, [draft, page, onStatus, hideText]);
   return (
     <>
+      <div style={{position:"relative",width:"100%",aspectRatio:`${width} / ${pageHeight}`}} aria-busy={loading}>
       <canvas
         ref={ref}
+        width={width}
+        height={pageHeight}
+        data-render-state={loading?"loading":"ready"}
         role="img"
         aria-label={
           page === 0
             ? `封面：${draft.title}`
             : `第 ${page} 页：${draft.pages[page - 1]?.text}`
         }
-        style={{ width: "100%", height: "auto", display: "block" }}
+        style={{ width: "100%", height: "auto", display: "block",opacity:loading?0:1 }}
       />
+      {loading&&<div style={{position:"absolute",inset:0,display:"grid",placeItems:"center",background:draft.typography.background}}>{asset&&<img src={asset.src} alt="" style={{position:"absolute",inset:0,width:"100%",height:"100%",objectFit:"contain"}}/>}<span role="status" style={{position:"absolute",bottom:12,padding:"5px 10px",borderRadius:5,background:"#ffffffed",color:"#294a35",fontSize:12}}>正在载入书页…</span></div>}
+      </div>
       {warning && <p role="alert">{warning}</p>}
     </>
   );

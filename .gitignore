@@ -21,6 +21,8 @@ build/
 .env
 .env.local
 .env.*.local
+.env.*
+!.env.example
 
 # vercel
 .vercel
@@ -74,3 +76,18 @@ miniprogram/book-audio-cache/
 
 # Local redemption-code plaintext and issuance records (never commit)
 .private/
+# Internal workbench data (SQLite, photos, generated books)
+.local-data/
+
+# Local evaluation material and customer examples
+/artifacts/
+/design-qa.md
+/docs/three-domain-evaluation.md
+
+# Local database files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal

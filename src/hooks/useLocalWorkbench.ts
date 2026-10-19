@@ -117,5 +117,5 @@ export function useLocalWorkbench() {
     if(JSON.stringify(current.current)!==saved.current)throw new Error("仍有本机修改未保存，请先保存再读取高清结果。");
     localStorage.removeItem(RECOVERY+p.id);apply(p);void refreshList().catch(()=>{});
   }
-  return {draft,setDraft,projectId,projects,ready:ready&&!switching,status,error,flush,createProject,selectProject,acceptServerProject,reload:()=>{setReady(false);setLoadAttempt(n=>n+1);}};
+  return {draft,setDraft,projectId,projects,ready:ready&&!switching,status,error,flush,savedRevision:()=>record.current?.revision||0,createProject,selectProject,acceptServerProject,reload:()=>{setReady(false);setLoadAttempt(n=>n+1);}};
 }

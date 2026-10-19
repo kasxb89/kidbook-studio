@@ -1,6 +1,7 @@
 import { afterEach, expect, it, vi } from "vitest";
 import { prepareBookInput } from "@/lib/custom-book/prepare";
 import { createWorkbenchDraft } from "@/lib/custom-workbench";
+import directionFixture from "./fixtures/book-direction.json";
 vi.mock("@/lib/custom-book/text-endpoint", () => ({
   getStoryTextEndpoint: () => ({
     baseUrl: "https://text.example/v1",
@@ -15,8 +16,9 @@ function response(brief:Record<string,unknown>={}) {
         {
           message: {
             content: JSON.stringify({
-              title: "若汐的小沙堡",
+              title: "小禾的小沙堡",
               theme: "换个办法再试",
+              direction: directionFixture.direction,
               brief: {
                 domain: "habits",
                 habitGoal: "换个办法再试",
@@ -25,7 +27,7 @@ function response(brief:Record<string,unknown>={}) {
               },
               characters: [
                 {
-                  name: "若汐",
+                  name: "小禾",
                   role: "主角",
                   appearance: "插画建议",
                   personality: "好奇",
@@ -41,7 +43,7 @@ function response(brief:Record<string,unknown>={}) {
 }
 it("prepares settings while retaining uploaded identity, page IDs and original source", async () => {
   const d = createWorkbenchDraft(false);
-  d.characters[0].name = "若汐";
+  d.characters[0].name = "小禾";
   d.characters[0].appearance = "已确认的短发形象";
   d.characters[0].outfit = "蓝色裙子";
   d.story = "先用干沙，失败后改用湿沙。";
@@ -55,11 +57,12 @@ it("prepares settings while retaining uploaded identity, page IDs and original s
   expect(r.characters[0].outfit).toBe("蓝色裙子");
   expect(r.story).toBe(d.story);
   expect(r.studio?.aiPrepared).toBe(true);
+  expect(r.direction).toEqual(directionFixture.direction);
   expect(d.title).toBe("");
 });
 it("does not automatically confirm real memories or invent quotes", async () => {
   const d = createWorkbenchDraft(false);
-  d.characters[0].name = "若汐";
+  d.characters[0].name = "小禾";
   d.story = "孩子在沙池堆沙堡。";
   d.brief!.domain = "memories";
   vi.stubGlobal(
@@ -73,7 +76,7 @@ it("does not automatically confirm real memories or invent quotes", async () => 
   expect(r.brief?.childQuote).toBe("");
 });
 it("retains the chosen scenario and recognition type when the model suggests another",async()=>{
-  const d=createWorkbenchDraft(false);d.characters[0].name="若汐";d.story="用家人的称呼学习爸、妈。";
+  const d=createWorkbenchDraft(false);d.characters[0].name="小禾";d.story="用家人的称呼学习爸、妈。";
   Object.assign(d.brief!,{domain:"learning",scenario:"家庭称呼汉字",learningKind:"characters"});
   const fetcher=vi.fn(async(_input:RequestInfo|URL,_init?:RequestInit)=>response({domain:"learning",scenario:"交通工具",learningKind:"objects",targets:"爸、妈"}));vi.stubGlobal("fetch",fetcher);
   const r=await prepareBookInput(d);
@@ -82,7 +85,22 @@ it("retains the chosen scenario and recognition type when the model suggests ano
   expect(input.selectedScenario).toBe("家庭称呼汉字");expect(input.availableScenarios).toHaveLength(20);
 });
 it("lets AI recommend a scene and aligns its learning type with the catalog",async()=>{
-  const d=createWorkbenchDraft(false);d.characters[0].name="若汐";d.story="观察开心、难过和生气的表情。";d.brief!.domain="learning";
+  const d=createWorkbenchDraft(false);d.characters[0].name="小禾";d.story="观察开心、难过和生气的表情。";d.brief!.domain="learning";
   vi.stubGlobal("fetch",vi.fn(async()=>response({domain:"learning",scenario:"认识表情",learningKind:"characters"})));
   const r=await prepareBookInput(d);expect(r.brief?.scenario).toBe("认识表情");expect(r.brief?.learningKind).toBe("pictures");
+});
+it("rejects invented supporting cast while retaining people explicitly named in the source",async()=>{
+  const d=createWorkbenchDraft(false);d.characters[0].name="小禾";d.story="小禾和奶奶一起认识苹果。";
+  const fetcher=vi.fn(async(_input:RequestInfo|URL,init?:RequestInit)=>{
+    const sent=JSON.parse(init!.body as string),input=JSON.parse(sent.messages[1].content);
+    expect(input.pageCount).toBe(d.pageCount);expect(input.language).toBe(d.language);
+    expect(sent.messages[0].content).toContain("You cannot see uploaded photographs");
+    const raw=await response().json(),proposal=JSON.parse(raw.choices[0].message.content);
+    proposal.characters.push({...proposal.characters[0],name:"妈妈"},{...proposal.characters[0],name:"奶奶"});
+    raw.choices[0].message.content=JSON.stringify(proposal);
+    return new Response(JSON.stringify(raw));
+  });
+  vi.stubGlobal("fetch",fetcher);
+  const result=await prepareBookInput(d);
+  expect(result.characters.map(c=>c.name)).toEqual(["小禾","奶奶"]);
 });

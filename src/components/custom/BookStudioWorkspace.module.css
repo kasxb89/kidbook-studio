@@ -205,16 +205,21 @@
 }
 
 .surface  {
+  position:relative;
   display:flex;
   align-items:center;
   justify-content:center;
   flex-direction:column;
   min-width:0;
   min-height:600px;
-  padding:32px;
+  padding:64px 32px 32px;
   background:#e7ece8;
   overflow:hidden
 }
+.canvasTools {position:absolute;top:14px;left:18px;right:18px;display:flex;align-items:center;gap:5px;flex-wrap:wrap;z-index:2}
+.canvasTools button {font-size:12px;min-height:32px;padding:5px 9px}
+.canvasTools button[aria-pressed=true] {color:#17482f;background:#fff;border-color:#477b5a;box-shadow:0 1px 3px #233c2b12}
+.canvasTools small {font-size:11px;color:#3d5849;margin-left:6px}
 
 .paper  {
   width:100%;
@@ -987,12 +992,12 @@
 .editWorkspace {--canvas-height:clamp(560px,calc(100dvh - 315px),820px);height:var(--canvas-height)}
 .editWorkspace .workspace {height:var(--canvas-height);min-height:0}
 .editWorkspace .pageRail {height:var(--canvas-height);max-height:none;min-height:0}
-.editWorkspace .surface {min-height:0;height:100%;padding:28px}
+.editWorkspace .surface {min-height:0;height:100%;padding:64px 28px 28px}
 .editWorkspace .inspector {height:100%;min-height:0;overflow:auto;overscroll-behavior:contain}
-.editWorkspace .paper {max-width:min(490px,calc((var(--canvas-height) - 56px) * var(--page-ratio,1)))}
+.editWorkspace .paper {max-width:min(490px,calc((var(--canvas-height) - 92px) * var(--page-ratio,1)))}
 .boardWorkspace>.workspace {max-height:calc(100dvh - 300px);overflow:auto;overscroll-behavior:contain}
-@media(max-width:1050px){.editWorkspace{height:auto}.editWorkspace .pageRail{height:auto;max-height:112px}.editWorkspace .surface{padding:22px}.editWorkspace .paper{max-width:min(490px,calc((var(--canvas-height) - 44px) * var(--page-ratio,1)))}}
-@media(max-width:760px){.editWorkspace .workspace{height:auto}.editWorkspace .surface{height:auto;min-height:300px;padding:22px}.editWorkspace .inspector{height:auto;overflow:visible}.editWorkspace .paper{max-width:400px}.boardWorkspace>.workspace{max-height:none;overflow:visible}.boardWorkspace .controls input,.boardWorkspace .controls textarea{font-size:16px}}
+@media(max-width:1050px){.editWorkspace{height:auto}.editWorkspace .pageRail{height:auto;max-height:112px}.editWorkspace .surface{padding:76px 22px 22px}.editWorkspace .paper{max-width:min(490px,calc((var(--canvas-height) - 44px) * var(--page-ratio,1)))}}
+@media(max-width:760px){.editWorkspace .workspace{height:auto}.editWorkspace .surface{height:auto;min-height:300px;padding:76px 22px 22px}.editWorkspace .inspector{height:auto;overflow:visible}.editWorkspace .paper{max-width:400px}.boardWorkspace>.workspace{max-height:none;overflow:visible}.boardWorkspace .controls input,.boardWorkspace .controls textarea{font-size:16px}}
 .comparisonStage {display:grid;grid-template-columns:1fr 1fr;gap:18px;width:100%;max-width:680px}
 .comparisonStage figure {margin:0;min-width:0;padding:12px;background:#fff;border:1px solid #d4e1d7;border-radius:7px}
 .comparisonStage figcaption {display:flex;align-items:center;justify-content:space-between;gap:7px;margin-bottom:12px;font-size:13px;font-weight:600;color:#294d33}

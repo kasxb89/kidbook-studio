@@ -2,6 +2,7 @@ import { bookBriefSchema } from "../book-domain";
 import { z } from "zod";
 import { MIN_BOOK_PAGES, MAX_BOOK_PAGES } from "../book-config";
 import { printSettingsSchema } from "./print-settings";
+import { bookDirectionSchema,pageDirectionSchema } from "./direction";
 
 const asset = z.object({
   embeddedText: z.array(z.string().max(2500)).max(3).optional(),
@@ -24,6 +25,7 @@ const asset = z.object({
   origin: z.enum(["uploaded", "generated"]).optional(),
 });
 export const customPageSchema = z.object({
+  directing: pageDirectionSchema.optional(),
   artDirection: z.string().max(1800).optional(),
   layout: z.enum(["panorama", "sidebar", "embrace", "minimal"]).optional(),
   textTreatment: z.enum(["natural", "soft"]).optional(),
@@ -37,7 +39,9 @@ export const customDraftSchema = z
     version: z.literal(1),
     print: printSettingsSchema.optional(),
     brief: bookBriefSchema.optional(),
+    direction: bookDirectionSchema.optional(),
     renderingMode: z.enum(["integrated", "editable"]).optional(),
+    visualStyle: z.enum(["realistic", "anime"]).optional(),
     title: z.string().trim().min(1).max(100),
     subtitle: z.string().max(200),
     author: z.string().max(100),
@@ -66,6 +70,12 @@ export const customDraftSchema = z
     style: z.enum(["watercolor", "cartoon", "fairytale"]),
     format: z.enum(["square", "portrait", "landscape"]),
     typography: z.object({
+      fontFamily: z.enum(["sans", "kai"]).optional(),
+      backingColor: z.string().regex(/^#[0-9a-f]{6}$/i).optional(),
+      backingOpacity: z.number().min(0).max(1).optional(),
+      backingStyle: z.enum(["soft", "solid"]).optional(),
+      lineHeight: z.number().min(1.2).max(2).optional(),
+      textBox: z.object({ x:z.number().min(0).max(100), y:z.number().min(0).max(100), width:z.number().min(20).max(100) }).nullable().optional(),
       size: z.number().min(18).max(60),
       position: z.enum(["top", "middle", "bottom"]),
       color: z.string().regex(/^#[0-9a-f]{6}$/i),

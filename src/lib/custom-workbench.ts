@@ -32,6 +32,7 @@ export type WorkbenchCharacter = {
   asset?: WorkbenchAsset;
 };
 export type WorkbenchPage = {
+  directing?: import("./custom-book/direction").PageDirection;
   artDirection?: string;
   layout?: import("./custom-book/layout").BookLayout;
   textTreatment?: "natural" | "soft";
@@ -41,12 +42,14 @@ export type WorkbenchPage = {
   asset?: WorkbenchAsset;
 };
 export type CustomWorkbenchDraft = {
+  direction?: import("./custom-book/direction").BookDirection;
   version: 1;
   print?: import("./custom-book/print-settings").PrintSettings;
   studio?: import("./book-studio").BookStudio;
   brief?: BookBrief;
   localJobId?: string;
   renderingMode?: "integrated" | "editable";
+  visualStyle?: import("./custom-book/visual-style").VisualStyle;
   title: string;
   subtitle: string;
   author: string;
@@ -62,6 +65,12 @@ export type CustomWorkbenchDraft = {
   style: "watercolor" | "cartoon" | "fairytale";
   format: "square" | "portrait" | "landscape";
   typography: {
+    fontFamily?: import("./custom-book/typography").BookFont;
+    backingColor?: string;
+    backingOpacity?: number;
+    backingStyle?: "soft" | "solid";
+    lineHeight?: number;
+    textBox?: { x: number; y: number; width: number } | null;
     size: number;
     position: "top" | "middle" | "bottom";
     color: string;
@@ -103,6 +112,7 @@ export function createWorkbenchDraft(sample = true): CustomWorkbenchDraft {
   return {
     version: 1,
     renderingMode: "editable",
+    visualStyle: sample ? "anime" : "realistic",
     brief: createBookBrief(),
     title: sample ? "小云朵勇敢飞" : "",
     subtitle: sample ? "给每一次勇敢出发的你" : "",
@@ -151,7 +161,7 @@ export function createWorkbenchDraft(sample = true): CustomWorkbenchDraft {
       position: "bottom",
       color: "#343b32",
       align: "left",
-      backing: true,
+      backing: sample,
       background: "#f7f0df",
     },
   };

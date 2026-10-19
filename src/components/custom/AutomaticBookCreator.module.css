@@ -1,0 +1,40 @@
+.creator {grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:24px;align-items:start;min-width:0;color:#192823}
+.formCard,.progressCard {min-width:0;background:#fff;border:1px solid #dce4df;border-radius:10px;padding:26px}
+.productionCard {min-width:0;background:#fff;border:1px solid #dce4df;border-radius:10px;padding:26px}
+.creator[data-production=true] {grid-template-columns:minmax(0,1fr) 270px}
+.creator .newBook {margin-top:14px;width:100%;font-size:12px}
+.formCard header>span,.progressCard>span {font-size:11px;color:#28634f;font-weight:650;letter-spacing:1px}
+.formCard h2 {font-size:21px;line-height:1.5;margin:6px 0 10px;font-weight:650}
+.formCard header p,.empty {font-size:13px;line-height:1.85;color:#456052;margin:0 0 20px}
+.formCard fieldset {padding:0;margin:0;border:0;min-width:0}
+.formCard label {display:flex;flex-direction:column;gap:7px;margin:12px 0;font-size:13px;font-weight:600;min-width:0}
+.formCard input,.formCard select,.formCard textarea {width:100%;min-width:0;box-sizing:border-box;border:1px solid #b4c7ba;border-radius:6px;background:#fff;color:#192823;font:inherit;font-size:14px;font-weight:400;padding:9px 10px;line-height:1.6}
+.formCard textarea {min-height:130px;resize:vertical;line-height:1.8}
+.formCard input::placeholder,.formCard textarea::placeholder {color:#68796f}
+.row {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 18px}
+.formCard small {font-size:11px;font-weight:400;line-height:1.7;color:#4f6557}
+.photoRow {display:flex;gap:13px;align-items:center;padding:16px 0;border-block:1px solid #e3eae5;margin:17px 0}
+.photoRow img,.photoPlaceholder {width:60px;height:72px;object-fit:contain;border:1px solid #cad9cf;border-radius:5px;background:#f0f5f2;flex:none}
+.photoPlaceholder {display:grid;place-items:center;color:#557d63}
+.photoRow .upload {position:relative;flex:1;margin:0}
+.upload span {padding:9px;border:1px dashed #8fae9a;border-radius:6px;text-align:center;background:#f6faf7;color:#315c43;cursor:pointer}
+.upload input {position:absolute;inset:auto 0 0;height:41px;opacity:0;cursor:pointer}
+.upload:focus-within span {outline:3px solid #529c7e;outline-offset:2px}
+.creator .confirm {flex-direction:row;align-items:flex-start;font-size:12px;line-height:1.8;font-weight:400;margin:14px 0}
+.confirm input {flex:none;width:16px;height:16px;margin:3px 0 0;accent-color:#28634f}
+.creator .start {width:100%;min-height:44px;background:#28634f;color:#fff;border-color:#28634f;font-weight:650;font-size:14px;margin-top:15px}
+.creator .start:hover {background:#1e503d}.creator .start:disabled {background:#dde6e0;color:#516658;border-color:#cbd9cf;opacity:1}
+.saved {font-size:11px;color:#356149;margin:12px 0 6px}.note {display:block}.alert {font-size:12px;color:#883f27;background:#fff6ee;border:1px solid #eed9c6;border-radius:6px;padding:9px;line-height:1.8}
+.progressCard {position:sticky;top:24px;padding:23px}.progressCard h2 {font-size:18px}
+.progressCard ol {list-style:none;padding:0;margin:22px 0}.progressCard li {display:flex;align-items:center;gap:11px;padding:11px 0;color:#5e7065;font-size:12px;line-height:1.6}
+.progressCard li b {width:27px;height:27px;display:grid;place-items:center;border-radius:50%;background:#f0f3f1;flex:none;font-size:12px;font-weight:500}
+.progressCard li[data-state=active] {color:#184b32;font-weight:650}.progressCard li[data-state=active] b {background:#28634f;color:#fff}
+.progressCard li[data-state=done] {color:#28634f}.progressCard li[data-state=done] b {background:#e7f1eb}
+.result {border-top:1px solid #e0e7e2;padding-top:18px}.result>strong {display:block;font-size:15px}.result p {font-size:12px;line-height:1.8;color:#385344}
+.result>img {width:100%;max-height:220px;object-fit:contain;border-radius:5px;background:#f1f5f2;margin:10px 0}
+.result progress {display:block;width:100%;height:6px;accent-color:#28634f;margin:15px 0}.actions {display:flex;gap:7px;flex-wrap:wrap}.actions button {font-size:12px}
+@media(max-width:1150px){.creator {grid-template-columns:minmax(0,1fr) 270px;gap:18px}.formCard {padding:22px}.progressCard {padding:19px}}
+@media(max-width:960px){.creator {grid-template-columns:1fr}.progressCard {position:static}.progressCard ol {display:grid;grid-template-columns:1fr 1fr;gap:0 15px;margin:15px 0}}
+@media(max-width:960px){.creator[data-production=true] {grid-template-columns:1fr}}
+@media(max-width:540px){.productionCard {padding:20px 16px}}
+@media(max-width:540px){.formCard,.progressCard {padding:20px 17px}.row {gap:0 12px}.formCard input,.formCard select,.formCard textarea {font-size:16px}.photoRow>small {display:none}.formCard h2 {font-size:20px}}

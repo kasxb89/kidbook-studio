@@ -11,8 +11,9 @@ const localAsset = base.shape.cover.unwrap().extend({
 export const localDraftSchema = base.extend({
   studio: z.object({
     aiPrepared: z.boolean().optional(),
+    completedAutomaticJob: z.string().uuid().optional(),
     workspace: z.enum(["board", "edit"]).optional(),
-    activePanel: z.enum(["create", "board", "canvas", "print"]).optional(),
+    activePanel: z.enum(["ai", "create", "board", "canvas", "print"]).optional(),
     selectedPage: z.number().int().min(0).max(MAX_BOOK_PAGES).optional(),
     view: z.enum(["book", "canvas"]).optional(),
     pages: z.record(z.string().regex(/^(?:0|[1-9]\d{0,2})$/).refine(key=>Number(key)<=MAX_BOOK_PAGES), z.object({

@@ -1,0 +1,27 @@
+.settings {padding:16px 0;border-block:1px solid #dce4df;margin:15px 0;color:#1c3026}
+.settings header {display:flex;align-items:center;justify-content:space-between;margin-bottom:9px;gap:8px}
+.settings header strong {font-size:13px}.settings header span {font-size:11px;color:#53645b}
+.settings fieldset {margin:0;padding:0;border:0;min-width:0}
+.settings .fields {display:block}
+.settings .row {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px}
+.settings fieldset label {display:flex;flex-direction:column;gap:6px;font-size:12px;color:#263e30;margin:8px 0;font-weight:500;min-width:0}
+.settings fieldset select,.settings fieldset input[type=number] {box-sizing:border-box;width:100%;min-width:0;height:36px;margin-top:0;padding:6px 8px;border:1px solid #b5c6bb;border-radius:5px;background:#fff;color:#1a2d22;font:inherit;font-size:13px}
+.settings fieldset input[type=color] {width:40px;height:30px;border:1px solid #c3cec7;border-radius:5px;background:#fff;padding:3px;cursor:pointer}
+.settings fieldset input[type=range] {width:100%;min-width:0;accent-color:#28634f}
+.settings .colourRow {display:flex;align-items:center;justify-content:space-between;gap:12px}
+.colourRow label {flex-direction:row;align-items:center;gap:12px}
+.settings .swatches {display:flex;align-items:center;gap:8px}
+.settings .swatches button {min-width:22px;width:22px;height:22px;min-height:22px;padding:0;border:1px solid #aebfb3;border-radius:50%}
+.settings .swatches button[aria-pressed=true] {outline:2px solid #28634f;outline-offset:2px}
+.backing {margin:12px 0}.backing>span {display:block;font-size:12px;font-weight:500;margin-bottom:7px}
+.segmented {display:flex;border:1px solid #bacbc0;border-radius:6px;overflow:hidden}
+.settings .segmented button {flex:1;min-width:0;min-height:32px;padding:6px 4px;border:0;border-radius:0;background:#fff;color:#344f3e;font-size:12px}
+.settings .segmented button+button {border-left:1px solid #dce4df}
+.settings .segmented button[aria-pressed=true] {background:#e2eee5;color:#174b33;font-weight:650}
+.backingOptions {display:grid;grid-template-columns:60px minmax(0,1fr);gap:0 12px;padding:6px 10px 12px;border-radius:6px;background:#f4f7f5}
+.backingOptions .swatches {grid-column:1/-1;margin-top:6px}.settings output {font-size:11px;color:#435f4b}
+.settings .more {margin:9px 0;border-top:1px solid #e5ebe7;padding-top:9px}.more summary {font-size:12px;color:#3e5948;cursor:pointer}
+.settings .apply {width:100%;margin-top:12px;min-height:35px;border:1px solid #a7c2b0;border-radius:6px;background:#f0f6f2;color:#23533a;font-size:12px;font-weight:600}
+.settings button:disabled {opacity:.5}.settings :focus-visible {outline:2px solid #2e7a57;outline-offset:3px}
+.settings .positionHint {font-size:11px;line-height:1.65;color:#456052;margin:6px 0}
+@media(max-width:760px){.settings fieldset select,.settings fieldset input[type=number] {font-size:16px;height:40px}}

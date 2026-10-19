@@ -15,9 +15,10 @@ export type StudioPage = {
 };
 export type BookStudio = {
   aiPrepared?: boolean;
+  completedAutomaticJob?: string;
   selectedPage?: number;
   workspace?: "board" | "edit";
-  activePanel?: "create" | "board" | "canvas" | "print";
+  activePanel?: "ai" | "create" | "board" | "canvas" | "print";
   view?: "book" | "canvas";
   pages?: Record<string, StudioPage>;
 };

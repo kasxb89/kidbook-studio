@@ -184,6 +184,10 @@
   font-size:12px;
   color:#d4e1d8
 }
+.sidebar .aiSidebarButton {justify-content:flex-start;gap:10px;background:#2b493c;border-color:#658a76;color:#f1fff6;margin-top:22px;font-size:13px;padding:11px}
+.sidebar .aiSidebarButton:hover {background:#375d49;border-color:#91bca3}
+.sidebar .aiSidebarButton[aria-current] {background:#e2f0e6;color:#163c28;border-color:#e2f0e6;font-weight:650}
+.automaticWorkspace {grid-column:1/-1;min-width:0}
 
 .sidebarFooter>div  {
   display:flex;
@@ -1491,6 +1495,7 @@
     height:auto;
     padding:16px 16px 0
   }
+  .sidebar .aiSidebarButton {margin:10px 0;font-size:12px;justify-content:center;min-height:34px;padding:7px}
 
   .brand {
     padding:0;

@@ -30,7 +30,7 @@ export default function PrintExportPanel({draft,projectId,disabled,proofread,onC
         setMessage("正在生成 A4 印刷文件，请稍候…");
         const response=await api({action:"export",format:action,proofread}),blob=await response.blob();
         const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=`${draft.title||"绘本"}_A4_${settings.mode==="press"?"印刷":"办公打印"}.${action}`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
-        setMessage(action==="zip"?"交付包已下载，包含整本、内页、封面、高清插图、文稿和制作说明。":"A4 PDF 已下载，请按制作说明选择纸张和双面方式。");return;
+        setMessage(action==="zip"?"交付包已保存到本书文件夹的“交付包”，整本、内页和封面 PDF 已归档到“成品PDF”；同时已下载。":"A4 PDF 已保存到本书文件夹的“成品PDF”，同时已下载。请按制作说明选择纸张和双面方式。");return;
       }
       setMessage("正在检查原图像素、版式和字体…");
       let next:PrintReport=await (await api({action:"preflight"})).json();setReport(next);

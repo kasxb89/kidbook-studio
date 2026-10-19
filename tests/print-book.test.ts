@@ -3,7 +3,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import sharp from "sharp";
-import { PDFDocument,PDFName,PDFDict } from "pdf-lib";
+import { PDFDocument,PDFName,PDFDict,PDFArray,PDFRawStream,decodePDFRawStream } from "pdf-lib";
 import { unzipSync,strFromU8 } from "fflate";
 import { createWorkbenchDraft,setWorkbenchPageCount } from "@/lib/custom-workbench";
 import { database,saveAsset,readAsset } from "@/lib/local/store";
@@ -14,10 +14,10 @@ let root:string;
 beforeAll(()=>{root=fs.mkdtempSync(path.join(os.tmpdir(),"storybook-print-"));vi.stubEnv("STORYBLOOM_LOCAL_DATA_DIR",root);});
 afterAll(()=>{database().close();fs.rmSync(root,{recursive:true,force:true});vi.unstubAllEnvs();});
 async function fixture(pixels=3000) {
-  const draft=setWorkbenchPageCount(createWorkbenchDraft(false),1);draft.title="若汐的小沙堡";draft.characters[0].name="若汐";
+  const draft=setWorkbenchPageCount(createWorkbenchDraft(false),1);draft.title="小禾的小沙堡";draft.characters[0].name="小禾";
   const stored=saveAsset(await sharp({create:{width:pixels,height:pixels,channels:3,background:"#c8dfec"}}).jpeg().toBuffer(),"print-fixture");
   const asset={...stored,name:"插图",purpose:"page" as const,origin:"uploaded" as const,crop:{x:50,y:50,zoom:1},ratio:"page" as const,appearance:"original" as const,anthropomorphic:false,retouch:[],instructions:""};
-  draft.cover={...asset,purpose:"cover"};draft.pages[0]={text:"若汐收拾好玩具，带着小黄鸡，高高兴兴地回家了。",scene:"Test",characters:["hero"],asset};
+  draft.cover={...asset,purpose:"cover"};draft.pages[0]={text:"小禾收拾好玩具，带着小黄鸡，高高兴兴地回家了。",scene:"Test",characters:["hero"],asset};
   draft.print=defaultPrintSettings();return draft;
 }
 it("uses A4 trim, 3mm bleed, mirrored inner margins and separate office media",()=>{
@@ -41,6 +41,27 @@ it("blocks low-resolution output instead of calling a resized bitmap 300ppi",asy
   const draft=await fixture(640),report=await preflightPrint(draft);
   expect(report.ready).toBe(false);expect(report.checks[0].ppi).toBeLessThan(100);
   await expect(exportPrintBook(draft)).rejects.toThrow("300 ppi");
+});
+it("embeds the selected handwritten font in printed pages",async()=>{
+  const draft=await fixture();
+  draft.typography={...draft.typography,fontFamily:"kai",color:"#624536",backing:true,backingColor:"#e5efdf",backingStyle:"solid",backingOpacity:.7};
+  const output=await exportPrintBook(draft,false);expect(output.report.ready).toBe(true);
+  const pdf=await PDFDocument.load(output.pdf);
+  const fonts=pdf.getPage(2).node.Resources()!.lookup(PDFName.of("Font"),PDFDict);
+  const names=fonts.entries().map(([,ref])=>pdf.context.lookup(ref,PDFDict).get(PDFName.of("BaseFont"))?.toString()).join(" ");
+  expect(names).toContain("LXGWWenKai");
+});
+it("moves printed text to its saved free position inside binding-safe margins",async()=>{
+  const draft=await fixture();
+  draft.studio={pages:{"1":{typography:{textBox:{x:15,y:20,width:65}}}}};
+  const output=await exportPrintBook(draft,false),pdf=await PDFDocument.load(output.pdf);
+  const page=pdf.getPage(2),contents=page.node.Contents() as PDFArray;
+  const stream=Array.from({length:contents.size()},(_,i)=>Buffer.from(decodePDFRawStream(pdf.context.lookup(contents.get(i),PDFRawStream)).decode()).toString()).join("\n");
+  const match=/1 0 0 1 ([\d.]+) ([\d.]+) Tm/.exec(stream);expect(match).not.toBeNull();
+  const safe=printGeometry(defaultPrintSettings(),3).safe;
+  expect(Number(match![1])).toBeCloseTo(safe.x+safe.width*.15,3);
+  expect(Number(match![2])).toBeGreaterThan(safe.y+safe.height*.6);
+  expect(Number(match![2])).toBeLessThan(safe.y+safe.height*.8);
 });
 it("exports embedded Chinese text, correct PDF boxes, and a production bundle",async()=>{
   const draft=await fixture();const output=await exportPrintBook(draft);expect(output.report.ready).toBe(true);

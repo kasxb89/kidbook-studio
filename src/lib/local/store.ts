@@ -4,6 +4,8 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import type { CustomWorkbenchDraft } from "../custom-workbench";
+import { syncBookFiles,writeBookOutputs } from "./book-files";
+import type { ProductionBook } from "../book-production";
 
 export class LocalError extends Error {
   constructor(message: string, public status = 400) { super(message); }
@@ -50,14 +52,44 @@ export function getProject(id: string) {
 export function createProject(draft: CustomWorkbenchDraft) {
   const id = crypto.randomUUID();
   database().prepare("INSERT INTO projects(id,draft,updated_at) VALUES(?,?,?)").run(id, JSON.stringify(draft), new Date().toISOString());
-  return getProject(id);
+  scheduleBookFolder(id);return getProject(id);
 }
 export function saveProject(id: string, draft: CustomWorkbenchDraft, revision: number) {
   validateDraftAssets(draft);
   const r = database().prepare("UPDATE projects SET draft=?,revision=revision+1,updated_at=? WHERE id=? AND revision=?")
     .run(JSON.stringify(draft), new Date().toISOString(), requireId(id), revision);
   if (!r.changes) throw new LocalError("此项目已在另一个窗口更新。请先保留当前配置，再刷新载入最新项目。", 409);
-  return getProject(id);
+  scheduleBookFolder(id);return getProject(id);
+}
+function folderSnapshot(db:DatabaseSync,id:string) {
+  const row=db.prepare("SELECT * FROM projects WHERE id=?").get(requireId(id));
+  if(!row)throw new LocalError("本地项目不存在。",404);
+  const project={id,draft:JSON.parse(row.draft as string) as CustomWorkbenchDraft,revision:Number(row.revision),updatedAt:String(row.updated_at)};
+  const jobRow=db.prepare("SELECT data FROM jobs WHERE project_id=? ORDER BY rowid DESC LIMIT 1").get(id);
+  const job=jobRow?JSON.parse(String(jobRow.data)):null;
+  const result=job&&job.status!=="failed"&&job.updatedAt>project.updatedAt?job.result:project.draft;
+  const book:ProductionBook={result,source:job?.source,outlinePlan:job?.outlinePlan,outlineCursor:job?.outlineCursor,status:job?.status||"saved"};
+  return {project,book};
+}
+const pendingFolders=new Set<string>();
+export function scheduleBookFolder(id:string) {
+  const root=dataDirectory(),db=database(),key=`${root}:${id}`;
+  if(pendingFolders.has(key))return;pendingFolders.add(key);
+  // Run after any enclosing SQLite transaction commits, and coalesce rapid
+  // progress updates. SQLite remains the authoritative refresh-recovery store.
+  queueMicrotask(()=>{
+    pendingFolders.delete(key);if(!fs.existsSync(root))return;
+    try{const {project,book}=folderSnapshot(db,id);syncBookFiles(db,root,project,book);}
+    catch(e){console.error("Book folder sync failed",id,e instanceof Error?e.message:"UnknownError");}
+  });
+}
+export function getProjectBookFolder(id:string) {
+  const db=database(),{project,book}=folderSnapshot(db,id);
+  return syncBookFiles(db,dataDirectory(),project,book);
+}
+export function saveProjectBookOutputs(id:string,draft:CustomWorkbenchDraft,files:Record<string,Uint8Array>) {
+  const location=getProjectBookFolder(id);writeBookOutputs(location,draft,files);
+  return getProjectBookFolder(id);
 }
 export function saveAsset(bytes: Uint8Array, name: string) {
   const id = crypto.randomUUID();

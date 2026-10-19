@@ -11,19 +11,31 @@ import { artworkMatchesText, artworkText } from "../custom-book/integrated";
 import { wrapBookText } from "../custom-book/text-wrap";
 import { PRINT_PPI, MM_TO_PT as MM, printGeometry, printLeaves, bookletPairs, printSettingsSchema, type PrintSettings, type PrintLeaf } from "../custom-book/print-settings";
 import { readAsset, LocalError } from "./store";
+import { BOOK_FONTS, effectiveTextBacking, type BookFont, type BookTypography } from "../custom-book/typography";
+import { normalizeTextPlacement } from "../custom-book/text-position";
+import { bookProductionText } from "../book-production";
 
 export type PrintCheck = { page:number; upgradePage:number; label:string; pixels:string; ppi:number; requiredPpi:number; needsUpgrade:boolean; sourceId:string; };
 export type PrintReport = { ready:boolean; settings:PrintSettings; totalPages:number; blankPages:number[]; checks:PrintCheck[]; errors:string[]; physicalPages:{physical:number;kind:string;sourcePage?:number}[]; };
 type Rect={x:number;y:number;width:number;height:number};
-type TextBlock={lines:string[];size:number;height:number};
+type TextBlock={lines:string[];size:number;height:number;leading:number};
 type Artwork={bytes:Buffer;width:number;height:number;sourceId:string;upgradePage:number};
-let fontBytes:Promise<Uint8Array>|undefined;
-async function printFont(pdf:PDFDocument) {
+const fontBytes=new Map<BookFont,Promise<Uint8Array>>();
+const fontsByDocument=new WeakMap<PDFDocument,Map<BookFont,Promise<PDFFont>>>();
+async function printFont(pdf:PDFDocument,family:BookFont="sans") {
   pdf.registerFontkit(fontkit);
-  fontBytes ||= fs.readFile(path.join(process.cwd(),"public/fonts/print/NotoSansSC-Regular.ttf"));
+  let fonts=fontsByDocument.get(pdf);
+  if(!fonts){fonts=new Map();fontsByDocument.set(pdf,fonts);}
+  if(fonts.has(family))return fonts.get(family)!;
+  if(!fontBytes.has(family))fontBytes.set(family,fs.readFile(path.join(process.cwd(),"public/fonts/print",BOOK_FONTS[family].file)));
   // fontkit's CJK subset can omit visible glyphs even when ToUnicode is valid.
-  return pdf.embedFont(await fontBytes,{subset:false});
+  const embedded=fontBytes.get(family)!.then(bytes=>pdf.embedFont(bytes,{subset:false}));
+  fonts.set(family,embedded);return embedded;
 }
+function pageTypography(draft:CustomWorkbenchDraft,page:number):BookTypography {
+  return {...draft.typography,...draft.studio?.pages?.[sourceForPrint(draft,page).upgradePage]?.typography};
+}
+function textColour(hex:string){return rgb(parseInt(hex.slice(1,3),16)/255,parseInt(hex.slice(3,5),16)/255,parseInt(hex.slice(5,7),16)/255);}
 export async function artworkBytes(asset:WorkbenchAsset) {
   if(asset.storagePath) return readAsset(asset.storagePath);
   if(asset.origin==="sample" && /^\/sample-books\/[a-zA-Z0-9_./-]+$/.test(asset.src) && !asset.src.includes(".."))
@@ -61,37 +73,40 @@ async function artwork(draft:CustomWorkbenchDraft,page:number,render=true):Promi
   const cropped=render&&!unchangedJpeg?await sharp(bytes).extract({left,top,width,height}).jpeg({quality:98,chromaSubsampling:"4:4:4"}).toBuffer():bytes;
   return {bytes:cropped,width,height,sourceId:asset.storagePath||asset.src,upgradePage};
 }
-function block(text:string,size:number,width:number,font:PDFFont):TextBlock {
+function block(text:string,size:number,width:number,font:PDFFont,lineHeight=1.55):TextBlock {
   const lines=text?wrapBookText(text,width,t=>font.widthOfTextAtSize(t,size)):[];
-  return {lines,size,height:lines.length*size*1.55};
+  return {lines,size,height:lines.length*size*lineHeight,leading:size*lineHeight};
 }
 function pagePlan(draft:CustomWorkbenchDraft,leaf:PrintLeaf,settings:PrintSettings,font:PDFFont,image:Artwork) {
   const geometry=printGeometry(settings,leaf.physical), safe=geometry.safe;
   const source=leaf.sourcePage!;
   const asset=sourceForPrint(draft,source).asset!;
-  const design={...draft.typography,...draft.studio?.pages?.[sourceForPrint(draft,source).upgradePage]?.typography};
-  const size=settings.bodyPt*design.size/draft.typography.size;
+  const design=pageTypography(draft,source);
+  const placement=design.textBox?normalizeTextPlacement(design.textBox):undefined;
+  const textRect=placement?{...safe,x:safe.x+placement.x/100*safe.width,width:placement.width/100*safe.width}:safe;
+  const size=settings.bodyPt*design.size/28;
   const blocks=asset.embeddedText?[]:source===0
-    ? [block(draft.title,34,safe.width,font),block(draft.subtitle,18,safe.width,font),block(draft.author?`作者 · ${draft.author}`:"",12,safe.width,font)]
-    : [block(draft.pages[source-1].text,size,safe.width,font)];
+    ? [block(draft.title,34*design.size/28,textRect.width,font,design.lineHeight),block(draft.subtitle,18*design.size/28,textRect.width,font,design.lineHeight),block(draft.author?`作者 · ${draft.author}`:"",12,textRect.width,font,design.lineHeight)]
+    : [block(draft.pages[source-1].text,size,textRect.width,font,design.lineHeight)];
   const textHeight=blocks.reduce((n,b)=>n+b.height+(b.lines.length?3*MM:0),0);
   if(textHeight>safe.height*.38) throw new LocalError(`${source?`第 ${source} 页`:"封面"}正文过长或字号过大，请缩小印刷字号或拆页。`);
   const footer=source?10*MM:0, gap=textHeight?8*MM:0;
   const topText=source>0&&design.position==="top";
-  const textBottom=topText?safe.y+safe.height-textHeight:safe.y+footer;
+  const textBottom=placement?Math.max(safe.y+footer,safe.y+safe.height*(1-placement.y/100)-textHeight):topText?safe.y+safe.height-textHeight:safe.y+footer;
   const imageWidth=Math.min(safe.width,settings.imageWidthMm*MM);
   const area={x:safe.x+(safe.width-imageWidth)/2,y:topText?safe.y+footer:safe.y+footer+textHeight+gap,width:imageWidth,height:safe.height-footer-textHeight-gap};
   const scale=Math.min(area.width/image.width,area.height/image.height);
   const imageRect={x:area.x+(area.width-image.width*scale)/2,y:area.y+(area.height-image.height*scale)/2,width:image.width*scale,height:image.height*scale};
-  return {geometry,blocks,textBottom,textHeight,imageRect,design,ppi:Math.min(image.width/(imageRect.width/72),image.height/(imageRect.height/72))};
+  return {geometry,blocks,textBottom,textHeight,textRect,imageRect,design,ppi:Math.min(image.width/(imageRect.width/72),image.height/(imageRect.height/72))};
 }
 function label(page:number){return page?`正文第 ${page} 页`:"封面";}
-async function scan(draft:CustomWorkbenchDraft,settings:PrintSettings,font:PDFFont) {
+async function scan(draft:CustomWorkbenchDraft,settings:PrintSettings,pdf:PDFDocument) {
   const leaves=printLeaves(draft.pageCount,settings.binding);
   const report:PrintReport={ready:false,settings,totalPages:leaves.length,blankPages:leaves.filter(p=>["inside-front","inside-back","padding"].includes(p.kind)).map(p=>p.physical),checks:[],errors:[],physicalPages:leaves};
-  const charSet=new Set(font.getCharacterSet());
   for(const leaf of leaves) if(leaf.sourcePage!==undefined) {
     try {
+      const font=await printFont(pdf,pageTypography(draft,leaf.sourcePage).fontFamily);
+      const charSet=new Set(font.getCharacterSet());
       const image=await artwork(draft,leaf.sourcePage,false), plan=pagePlan(draft,leaf,settings,font,image);
       const text=leaf.sourcePage===0?[draft.title,draft.subtitle,draft.author].join(""):draft.pages[leaf.sourcePage-1].text;
       const missing=[...new Set(Array.from(text).filter(c=>!/[\r\n\t]/.test(c)&&!charSet.has(c.codePointAt(0)!)))];
@@ -103,8 +118,8 @@ async function scan(draft:CustomWorkbenchDraft,settings:PrintSettings,font:PDFFo
   return report;
 }
 export async function preflightPrint(draft:CustomWorkbenchDraft) {
-  const pdf=await PDFDocument.create(),font=await printFont(pdf);
-  return scan(draft,printSettingsSchema.parse(draft.print||{}),font);
+  const pdf=await PDFDocument.create();
+  return scan(draft,printSettingsSchema.parse(draft.print||{}),pdf);
 }
 function marks(page:import("pdf-lib").PDFPage,geometry:ReturnType<typeof printGeometry>,settings:PrintSettings) {
   if(settings.mode!=="press"||!settings.cropMarks)return;
@@ -115,19 +130,29 @@ function marks(page:import("pdf-lib").PDFPage,geometry:ReturnType<typeof printGe
     page.drawLine({start:{x,y:y+dy*(bleed+MM)},end:{x,y:y+dy*(bleed+5*MM)},thickness:.25,color:rgb(0,0,0)});
   }
 }
-function drawBlocks(page:import("pdf-lib").PDFPage,font:PDFFont,blocks:TextBlock[],safe:Rect,bottom:number,height:number,align:"left"|"center"|"right"="left") {
+function drawBlocks(page:import("pdf-lib").PDFPage,font:PDFFont,blocks:TextBlock[],safe:Rect,bottom:number,height:number,align:"left"|"center"|"right"="left",colour=rgb(.07,.09,.11)) {
   let top=bottom+height;
   for(const b of blocks){
     for(const [i,line]of b.lines.entries()){
       const width=font.widthOfTextAtSize(line,b.size);
-      page.drawText(line,{font,size:b.size,x:align==="center"?safe.x+(safe.width-width)/2:align==="right"?safe.x+safe.width-width:safe.x,y:top-b.size-i*b.size*1.55,color:rgb(.07,.09,.11)});
+      page.drawText(line,{font,size:b.size,x:align==="center"?safe.x+(safe.width-width)/2:align==="right"?safe.x+safe.width-width:safe.x,y:top-b.size-i*b.leading,color:colour});
     }
     top-=b.height+(b.lines.length?3*MM:0);
   }
 }
+function drawTextBacking(page:import("pdf-lib").PDFPage,design:BookTypography,safe:Rect,bottom:number,height:number) {
+  if(!height)return;
+  const colour=textColour(design.backingColor||"#fffcf3"),opacity=design.backingOpacity??.92;
+  const area={x:safe.x-2*MM,y:bottom-2*MM,width:safe.width+4*MM,height:height+4*MM};
+  if(design.backingStyle==="solid"){page.drawRectangle({...area,color:colour,opacity});return;}
+  for(let i=0;i<40;i++){
+    const middle=(i+.5)/40,fade=Math.min(1,middle/.15,(1-middle)/.15);
+    page.drawRectangle({x:area.x,y:area.y+area.height*i/40,width:area.width,height:area.height/40+.01,color:colour,opacity:opacity*fade});
+  }
+}
 export async function exportPrintBook(draft:CustomWorkbenchDraft,includeBundle=true) {
-  const settings=printSettingsSchema.parse(draft.print||{}),pdf=await PDFDocument.create(),font=await printFont(pdf);
-  const report=await scan(draft,settings,font);
+  const settings=printSettingsSchema.parse(draft.print||{}),pdf=await PDFDocument.create(),font=await printFont(pdf,draft.typography.fontFamily);
+  const report=await scan(draft,settings,pdf);
   if(!report.ready) throw new LocalError(report.errors[0]||`还有 ${report.checks.filter(c=>c.needsUpgrade).length} 页插图未达到 300 ppi，请先准备高清图。`,422);
   pdf.setTitle(`${draft.title} · A4 ${settings.mode==="press"?"印刷版":"办公打印版"}`);
   pdf.setAuthor(draft.author||"StoryBloom");pdf.setCreator("StoryBloom Local Print Studio");
@@ -140,10 +165,12 @@ export async function exportPrintBook(draft:CustomWorkbenchDraft,includeBundle=t
     page.setTrimBox(trim.x,trim.y,trim.width,trim.height);page.setBleedBox(bleed.x,bleed.y,bleed.width,bleed.height);page.setArtBox(safe.x,safe.y,safe.width,safe.height);
     page.drawRectangle({x:0,y:0,width:geometry.mediaWidth,height:geometry.mediaHeight,color:settings.mode==="office"?rgb(1,1,1):rgb(1,.992,.976)});
     if(leaf.sourcePage!==undefined) {
-      const image=await artwork(draft,leaf.sourcePage),plan=pagePlan(draft,leaf,settings,font,image);
+      const pageFont=await printFont(pdf,pageTypography(draft,leaf.sourcePage).fontFamily);
+      const image=await artwork(draft,leaf.sourcePage),plan=pagePlan(draft,leaf,settings,pageFont,image);
       page.drawImage(await pdf.embedJpg(image.bytes),plan.imageRect);
       if(includeBundle)imageFiles[`05_高清插图/${String(leaf.sourcePage).padStart(3,"0")}_${leaf.sourcePage?"正文":"封面"}.jpg`]=image.bytes;
-      drawBlocks(page,font,plan.blocks,safe,plan.textBottom,plan.textHeight,plan.design.align);
+      if(effectiveTextBacking(draft,sourceForPrint(draft,leaf.sourcePage).upgradePage))drawTextBacking(page,plan.design,plan.textRect,plan.textBottom,plan.textHeight);
+      drawBlocks(page,pageFont,plan.blocks,plan.textRect,plan.textBottom,plan.textHeight,plan.design.align,textColour(plan.design.color));
       if(leaf.sourcePage) {
         const number=String(leaf.sourcePage),width=font.widthOfTextAtSize(number,9);
         page.drawText(number,{font,size:9,x:safe.x+(safe.width-width)/2,y:safe.y,color:rgb(.3,.33,.35)});
@@ -175,5 +202,7 @@ export async function exportPrintBook(draft:CustomWorkbenchDraft,includeBundle=t
   }
   const specs=[`书名：${draft.title}`,`正文：${draft.pageCount} 页；整本：${leaves.length} 面（封面、内封、封底和补白已列入）`,"成品尺寸：210 × 297 mm（A4竖版）",`模式：${settings.mode==="press"?`印厂版，四边 ${settings.bleedMm} mm 出血${settings.cropMarks?"，带裁切标记":"，裁切标记由印厂拼版时添加"}`:"办公版，A4纸，实际大小/100%，无出血裁切标记"}`,`装订：${settings.binding==="left"?"左侧装订，A4双面长边翻转":"骑马订；印厂版为阅读顺序，交由印厂拼版；办公版附A3纸短边翻转拼版，折后为A4"}`,`版心：内侧 ${settings.innerMm} mm、外侧 ${settings.outerMm} mm、上 ${settings.topMm} mm、下 ${settings.bottomMm} mm；奇偶页镜像`,"中文字体已嵌入，正文为可复制矢量文字；插图按有效300ppi检查，不插值冒充高清",`最低有效插图分辨率：${Math.min(...report.checks.map(c=>c.ppi))} ppi`,"图像保持RGB；需要特定CMYK/PDF-X或胶装书脊展开时，由制作人员按印厂ICC、纸厚与实际书脊宽另行处理。封面文件为四面单页。",`补白面：${report.blankPages.join("、")}；补白不印提示文字`,"全部PDF为单面阅读顺序，除明确命名的A3骑马订拼版外，不要重复拼版。",...leaves.map(p=>`${p.physical}: ${p.sourcePage===0?"封面":p.sourcePage?`正文${p.sourcePage}`:p.kind==="back"?"封底":"留白"}`)];
   files["制作说明.txt"]=strToU8(specs.join("\n"));
+  files["编导稿.txt"]=strToU8("\uFEFF"+bookProductionText({result:draft,status:"complete"}));
+  files["项目配置.json"]=strToU8(JSON.stringify(draft,null,2));
   return {pdf:bytes,zip:zipSync(files,{level:0}),report};
 }

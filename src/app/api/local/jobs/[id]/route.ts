@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { MAX_BOOK_PAGES } from "@/lib/book-config";
-import { advanceJob, getJob, updateJob } from "@/lib/local/jobs";
+import { advanceJob, getJob, updateJob,saveJobProduction } from "@/lib/local/jobs";
+import { productionEditSchema } from "@/lib/book-production";
 import { assertLocalRequest,localError,localJson } from "@/lib/local/http";
 import { customPageSchema } from "@/lib/custom-book/schema";
 import { smallJson } from "@/lib/local/http";
@@ -10,6 +11,8 @@ export async function GET(request:Request,c:Context){try{assertLocalRequest(requ
 const action=z.discriminatedUnion("action",[
   z.object({action:z.literal("advance"),retry:z.boolean().optional()}),
   z.object({action:z.literal("cancel")}),
+  z.object({action:z.literal("pause")}),
+  z.object({action:z.literal("save-production"),edit:productionEditSchema,expectedUpdatedAt:z.string().datetime(),projectRevision:z.number().int().positive()}),
   z.object({action:z.literal("confirm"),pages:z.array(customPageSchema.omit({asset:true})).min(1).max(MAX_BOOK_PAGES)}),
 ]);
-export async function POST(request:Request,c:Context){try{assertLocalRequest(request);const id=(await c.params).id;const b=action.parse(await smallJson(request));return localJson(b.action==="advance"?await advanceJob(id,b.retry):updateJob(id,b));}catch(e){return localError(e);}}
+export async function POST(request:Request,c:Context){try{assertLocalRequest(request);const id=(await c.params).id;const b=action.parse(await smallJson(request));return localJson(b.action==="advance"?await advanceJob(id,b.retry):b.action==="save-production"?saveJobProduction(id,b.edit,b.expectedUpdatedAt,b.projectRevision):updateJob(id,b));}catch(e){return localError(e);}}

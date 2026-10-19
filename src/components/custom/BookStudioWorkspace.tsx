@@ -1,4 +1,5 @@
 "use client";
+import { chineseProductionScene } from "@/lib/book-production";
 import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { ArrowLeft } from "@phosphor-icons/react/dist/csr/ArrowLeft";
 import { ArrowRight } from "@phosphor-icons/react/dist/csr/ArrowRight";
@@ -14,6 +15,9 @@ import type {
 import { spreadStart } from "@/lib/custom-workbench";
 import { assetForPage, type StudioPage } from "@/lib/book-studio";
 import { BOOK_LAYOUTS, type BookLayout } from "@/lib/custom-book/layout";
+import { applyBookTypography, effectiveTextBacking } from "@/lib/custom-book/typography";
+import BookTextSettings from "./BookTextSettings";
+import { placementFromRegion, type TextRegion } from "@/lib/custom-book/text-position";
 import WorkbenchCanvas, { pageDimensions } from "./WorkbenchCanvas";
 import s from "./BookStudioWorkspace.module.css";
 type Draft = CustomWorkbenchDraft;
@@ -21,6 +25,12 @@ type Snapshot = {
   asset?: WorkbenchAsset;
   design?: StudioPage["typography"];
   layout?: BookLayout;
+  treatment?: Draft["pages"][number]["textTreatment"];
+  allDesign?: {
+    typography: Draft["typography"];
+    pages: Record<string, StudioPage["typography"]>;
+    treatments: Array<Draft["pages"][number]["textTreatment"]>;
+  };
 };
 export default function BookStudioWorkspace({
   draft,
@@ -44,6 +54,9 @@ export default function BookStudioWorkspace({
   const [inspectorTab, setInspectorTab] = useState<"content" | "history">("content");
   const [candidate, setCandidate] = useState("");
   const [undo, setUndo] = useState<Snapshot[]>([]);
+  const [notice, setNotice] = useState("");
+  const [canvasTool,setCanvasTool]=useState<"text"|"image">("text");
+  const [textRegions,setTextRegions]=useState<TextRegion[]>([]);
   const drag = useRef<{
     x: number;
     y: number;
@@ -62,14 +75,21 @@ export default function BookStudioWorkspace({
   useEffect(() => {
     setCandidate("");
     setUndo([]);
+    setNotice("");
   }, [page]);
-  function snapshot() {
+  function snapshot(all = false) {
     setUndo((u) => [
       ...u.slice(-29),
       {
         asset: asset && structuredClone(asset),
         design: entry.typography && { ...entry.typography },
         layout: target ? draft.pages[target - 1].layout : undefined,
+        treatment: target ? draft.pages[target - 1].textTreatment : undefined,
+        ...(all ? { allDesign: {
+          typography: { ...draft.typography },
+          pages: structuredClone(Object.fromEntries(Object.entries(draft.studio?.pages || {}).map(([key, value])=>[key,value.typography]))),
+          treatments: draft.pages.map(p=>p.textTreatment),
+        } } : {}),
       },
     ]);
   }
@@ -88,6 +108,7 @@ export default function BookStudioWorkspace({
                 ? {
                     ...p,
                     ...(layout ? { layout } : {}),
+                    ...(design && "backing" in design ? {textTreatment: undefined} : {}),
                     asset: crop && p.asset ? { ...p.asset, crop } : p.asset,
                   }
                 : p,
@@ -175,10 +196,10 @@ export default function BookStudioWorkspace({
           className={s.surface}
           aria-label="当前页面画布"
           style={{
-            touchAction: mode==="edit" && !locked && !comparing ? "none" : "auto",
+            touchAction: mode==="edit" && canvasTool==="image" && !locked && !comparing ? "none" : "auto",
           }}
           onPointerDown={(e) => {
-            if (mode!=="edit" || locked || !asset || comparing) return;
+            if (mode!=="edit" || canvasTool!=="image" || locked || !asset || comparing || !(e.target as HTMLElement).closest("[data-book-paper]")) return;
             snapshot();
             drag.current = {
               x: e.clientX,
@@ -217,9 +238,15 @@ export default function BookStudioWorkspace({
             drag.current = null;
           }}
         >
+          {mode==="edit"&&!asset?.embeddedText&&!comparing&&<div className={s.canvasTools} role="group" aria-label="画布移动工具">
+            <button disabled={locked} aria-pressed={canvasTool==="text"} onClick={()=>setCanvasTool("text")}><TextT size={15} aria-hidden="true"/>移动文字</button>
+            <button disabled={locked} aria-pressed={canvasTool==="image"} onClick={()=>setCanvasTool("image")}><ImageIcon size={15} aria-hidden="true"/>调整图片</button>
+            <small>{canvasTool==="text"?"拖动文字框，方向键微调":"拖动画面调整取景"}</small>
+          </div>}
           {mode==="edit"&&compare&&inspectorTab==="history" ? <div className={s.comparisonStage} aria-label="图片版本对比"><figure><figcaption>当前图片</figcaption>{asset&&<img src={asset.src} alt="当前图片"/>}</figure><figure><figcaption>历史版本 <small>{new Date(compare.createdAt).toLocaleDateString("zh-CN")}</small></figcaption><img src={compare.asset.src} alt="历史版本图片"/></figure></div> : mode==="board" ? <div className={s.selectedPreview}>{asset?<img src={asset.src} alt={page?`第 ${page} 页插图`:"封面插图"}/>:<div><ImageIcon size={36} aria-hidden="true"/><p>这页还没有插图</p></div>}</div> : (
-            <div className={s.paper} style={{"--page-ratio":paperRatio} as CSSProperties}>
-              <WorkbenchCanvas draft={draft} page={page} />
+            <div data-book-paper className={s.paper} style={{"--page-ratio":paperRatio,cursor:canvasTool==="image"?"grab":"default"} as CSSProperties}>
+              <WorkbenchCanvas draft={draft} page={page} onTextRegions={setTextRegions}
+                textEditing={!locked&&canvasTool==="text"?{onStart:()=>snapshot(),onMove:placement=>composition(undefined,{textBox:placement})}:undefined}/>
             </div>
           )}
         </div>
@@ -229,7 +256,34 @@ export default function BookStudioWorkspace({
           <div className={s.inspectorTabs} role="tablist" aria-label="页面设置面板" onKeyDown={e=>{if(["ArrowLeft","ArrowRight","Home","End"].includes(e.key)){e.preventDefault();const next=e.key==="Home"?"content":e.key==="End"?"history":inspectorTab==="content"?"history":"content";setInspectorTab(next);document.getElementById(next==="content"?"page-content-tab":"page-history-tab")?.focus();}}}><button role="tab" id="page-content-tab" tabIndex={inspectorTab==="content"?0:-1} aria-selected={inspectorTab==="content"} aria-controls="page-content-panel" onClick={()=>setInspectorTab("content")}><TextT size={16} aria-hidden="true"/>本页内容</button><button role="tab" id="page-history-tab" tabIndex={inspectorTab==="history"?0:-1} aria-selected={inspectorTab==="history"} aria-controls="page-history-panel" onClick={()=>setInspectorTab("history")}><ClockCounterClockwise size={16} aria-hidden="true"/>图片版本 <small>{versions.length}</small></button></div>
           <div role="tabpanel" id="page-content-panel" aria-labelledby="page-content-tab" hidden={inspectorTab!=="content"}>
           <fieldset className={s.controls} disabled={disabled}>
+            <label>
+              {page === 0 ? "书名" : "本页正文"}
+              <textarea
+                aria-label="画布正文"
+                maxLength={page === 0 ? 100 : 2500}
+                value={page === 0 ? draft.title : draft.pages[page - 1].text}
+                onChange={(e) =>
+                  onUpdate((d) =>
+                    page === 0
+                      ? { ...d, title: e.target.value }
+                      : {
+                          ...d,
+                          pages: d.pages.map((p, i) =>
+                            i === page - 1 ? { ...p, text: e.target.value } : p,
+                          ),
+                        },
+                  )
+                }
+              />
+            </label>
             {mode==="edit"&&<>
+            {asset?.embeddedText&&<p className={s.spreadNote}>这页文字已绘入图片，字体和底色需重新生成图片后修改。</p>}
+            <BookTextSettings typography={typography} backing={effectiveTextBacking(draft,target)} disabled={locked} placement={textRegions[0]?placementFromRegion(textRegions[0],pageWidth,pageHeight):undefined}
+              onChange={design=>{snapshot();composition(undefined,design);setNotice("");}}
+              onApplyAll={()=>{snapshot(true);onUpdate(d=>applyBookTypography(d,{...typography,backing:effectiveTextBacking(draft,target)}));setNotice("已应用到整本的可编辑文字，并自动保存。");}}/>
+            {notice&&<p role="status" className={s.spreadNote}>{notice}</p>}
+            <details className={s.composition}>
+              <summary>图片、取景与版式</summary>
             <label className={s.uploadField}>
               本页插图
               <span className={s.uploadButton}><ImageIcon size={17} aria-hidden="true"/>上传 / 替换图片</span>
@@ -249,8 +303,6 @@ export default function BookStudioWorkspace({
                 ? "图文一体成品可切换版本；画面内文字和裁剪保持完整。"
                 : "拖动画面调整取景；修改会自动保存。"}
             </p>
-            <details className={s.composition}>
-              <summary>画面取景与文字排版</summary>
               <fieldset disabled={locked}>
               {(
                 [
@@ -272,7 +324,7 @@ export default function BookStudioWorkspace({
                     step={step}
                     value={asset?.crop[key] ?? (key === "zoom" ? 1 : 50)}
                     disabled={!asset}
-                    onPointerDown={snapshot}
+                    onPointerDown={()=>snapshot()}
                     onKeyDown={(e) => {
                       if (e.key.startsWith("Arrow")) snapshot();
                     }}
@@ -286,39 +338,6 @@ export default function BookStudioWorkspace({
                   />
                 </label>
               ))}
-              <label>
-                本页文字位置
-                <select
-                  aria-label="本页文字位置"
-                  value={typography.position}
-                  onChange={(e) => {
-                    snapshot();
-                    composition(undefined, {
-                      position: e.target
-                        .value as Draft["typography"]["position"],
-                    });
-                  }}
-                >
-                  <option value="top">上方</option>
-                  <option value="middle">居中</option>
-                  <option value="bottom">下方</option>
-                </select>
-              </label>
-              <label>
-                本页字号
-                <input
-                  aria-label="本页字号"
-                  type="range"
-                  min="18"
-                  max="48"
-                  value={typography.size}
-                  onPointerDown={snapshot}
-                  onChange={(e) =>
-                    composition(undefined, { size: Number(e.target.value) })
-                  }
-                />
-                <output>{typography.size}</output>
-              </label>
               {target > 0 && (
                 <label>
                   本页版式
@@ -349,6 +368,12 @@ export default function BookStudioWorkspace({
               onClick={() => {
                 const last = undo.at(-1)!;
                 setUndo((u) => u.slice(0, -1));
+                setNotice("");
+                if(last.allDesign){
+                  const saved=last.allDesign;
+                  onUpdate(d=>({...d,typography:saved.typography,pages:d.pages.map((p,i)=>({...p,textTreatment:saved.treatments[i]})),studio:{...d.studio,pages:Object.fromEntries(Object.entries(d.studio?.pages||{}).map(([key,entry])=>[key,{...entry,typography:saved.pages[key]}]))}}));
+                  return;
+                }
                 onUpdate((d) => ({
                   ...d,
                   ...(target === 0
@@ -356,7 +381,7 @@ export default function BookStudioWorkspace({
                     : {
                         pages: d.pages.map((p, i) =>
                           i === target - 1
-                            ? { ...p, asset: last.asset, layout: last.layout }
+                            ? { ...p, asset: last.asset, layout: last.layout, textTreatment: last.treatment }
                             : p,
                         ),
                       }),
@@ -376,33 +401,14 @@ export default function BookStudioWorkspace({
               撤销本次编辑
             </button>
             </>}
-            <label>
-              {page === 0 ? "书名" : "本页正文"}
-              <textarea
-                aria-label="画布正文"
-                maxLength={page === 0 ? 100 : 2500}
-                value={page === 0 ? draft.title : draft.pages[page - 1].text}
-                onChange={(e) =>
-                  onUpdate((d) =>
-                    page === 0
-                      ? { ...d, title: e.target.value }
-                      : {
-                          ...d,
-                          pages: d.pages.map((p, i) =>
-                            i === page - 1 ? { ...p, text: e.target.value } : p,
-                          ),
-                        },
-                  )
-                }
-              />
-            </label>
             {page > 0 && (
+              <details className={s.composition}><summary>画面描述（可选修改）</summary>
               <label>
                 场景描述
                 <textarea
                   aria-label="画布场景描述"
                   maxLength={2500}
-                  value={draft.pages[page - 1].scene}
+                  value={chineseProductionScene(draft.pages[page - 1])}
                   onChange={(e) =>
                     onUpdate((d) => ({
                       ...d,
@@ -413,6 +419,7 @@ export default function BookStudioWorkspace({
                   }
                 />
               </label>
+              </details>
             )}
             {mode==="board"&&<button className={s.editPage} onClick={onEditPage}><PaintBrush size={17} aria-hidden="true"/>进入单页画布<ArrowRight size={15} aria-hidden="true"/></button>}
           </fieldset>

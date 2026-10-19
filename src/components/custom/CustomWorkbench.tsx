@@ -1,4 +1,5 @@
 "use client";
+import { visualStyleFor } from "@/lib/custom-book/visual-style";
 import Link from "next/link";
 import { BookOpen } from "@phosphor-icons/react/dist/csr/BookOpen";
 import { SquaresFour } from "@phosphor-icons/react/dist/csr/SquaresFour";
@@ -39,7 +40,12 @@ import WorkbenchCanvas from "./WorkbenchCanvas";
 import { ImmersiveWorkbenchReader } from "./WorkbenchBook";
 import { useLocalWorkbench } from "@/hooks/useLocalWorkbench";
 import BookStudioWorkspace from "./BookStudioWorkspace";
-import QuickBookStart from "./QuickBookStart";
+import ManualBookSetup from "./ManualBookSetup";
+import AutomaticBookCreator from "./AutomaticBookCreator";
+import LocalSaveLocation from "./LocalSaveLocation";
+import { automaticBookDraft,recoverAutomaticBook } from "@/lib/automatic-book";
+import { chineseProductionScene,type ProductionEdit } from "@/lib/book-production";
+import { Sparkle } from "@phosphor-icons/react/dist/csr/Sparkle";
 import PrintExportPanel from "./PrintExportPanel";
 import PageCountField from "./PageCountField";
 import DomainBriefFields from "./DomainBriefFields";
@@ -51,7 +57,8 @@ import { BOOK_LAYOUTS, type BookLayout } from "@/lib/custom-book/layout";
 
 const steps = ["基础信息", "人物与素材", "故事分镜", "画风排版", "确认生成"];
 const workspacePanels = [
-  { id: "create", label: "创作设定", icon: BookOpen, description: "讲述故事，交给 AI 整理创作设定。" },
+  { id: "ai", label: "AI 一键成书", icon: Sparkle, description: "填好参数、上传照片，自动完成设定、分镜和整本配图。" },
+  { id: "create", label: "创作设定", icon: BookOpen, description: "手动调整当前项目的人物、故事和排版。" },
   { id: "board", label: "故事分镜", icon: SquaresFour, description: "从封面到最后一页，检查整本故事的节奏。" },
   { id: "canvas", label: "单页画布", icon: PaintBrush, description: "专注一页，调整画面、正文与图片版本。" },
   { id: "print", label: "印刷交付", icon: Printer, description: "检查清晰度，选择装订，导出 A4 成册文件。" },
@@ -130,10 +137,13 @@ function Modal({
 }
 export default function CustomWorkbench() {
   const local = useLocalWorkbench();
+  const projectIdRef = useRef(local.projectId);
+  projectIdRef.current = local.projectId;
   const { draft, setDraft } = local;
   const [step, setStep] = useState(0);
   const [manual, setManual] = useState(false);
   const [preparing, setPreparing] = useState(false);
+  const [uploading, setUploading] = useState(false);
   const [printBusy, setPrintBusy] = useState(false);
   const page = Math.min(draft.pageCount, draft.studio?.selectedPage || 0);
   function setPage(value: number | ((page: number) => number)) {
@@ -161,25 +171,43 @@ export default function CustomWorkbench() {
     draft.pages.slice(0, draft.pageCount).some((p) => p.asset?.embeddedText);
 
 
-  const live = useCustomBook((result) => {
-    setDraft(d => ({ ...result, studio: d.studio }));
+  const live = useCustomBook((result,job) => {
+    setDraft(d => job.automatic&&job.status==="complete"?recoverAutomaticBook(d,result,job.id):({ ...result, studio: {...result.studio,...d.studio} }));
   }, setMessage, local.projectId);
-  const currentJob = live.job || live.jobs.find(j => !["complete", "failed"].includes(j.status)) || live.jobs[0] || null;
+  const currentJob = (live.job?.projectId===local.projectId?live.job:null) || live.jobs.find(j => j.projectId===local.projectId&&!["complete", "failed"].includes(j.status)) || live.jobs.find(j=>j.projectId===local.projectId) || null;
   const activeJob = !!currentJob && !["complete", "failed"].includes(currentJob.status);
+  useEffect(()=>{
+    if(!local.ready||live.busy)return;
+    const finished=live.jobs.find(j=>j.projectId===local.projectId&&j.automatic&&j.status==="complete");
+    if(finished&&draft.studio?.completedAutomaticJob!==finished.id)setDraft(d=>recoverAutomaticBook(d,finished.result,finished.id));
+  },[local.ready,local.projectId,live.busy,live.jobs,draft.studio?.completedAutomaticJob,setDraft]);
   useEffect(() => {
     if (live.job?.status === "review") setStep(2);
   }, [live.job?.status]);
-  async function prepareWithAI() {
-    if (!local.ready || live.busy || preparing || printBusy || activeJob) return;
+  async function startAutomaticBook(source:CustomWorkbenchDraft) {
+    if(!local.ready||live.busy||preparing||printBusy||activeJob)throw new Error("请先完成或结束当前制作任务。");
     setPreparing(true);
     try {
       await local.flush();
-      const response = await fetch("/api/local/prepare", {method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({draft})});
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error || "AI 整理失败，请重试。");
-      setDraft(data.draft);setMessage("AI 已起草设定，请核对后生成分镜。");
-    } catch(e) {setMessage(e instanceof Error?e.message:"AI 整理失败，原内容已保留。");}
-    finally {setPreparing(false);}
+      const input=automaticBookDraft(source),body=JSON.stringify(input);
+      const key="storybloom.local.pending-automatic";
+      let pending:{id:string;body:string}|null=null;
+      try{pending=JSON.parse(localStorage.getItem(key)||"null");}catch{}
+      const id=pending?.body===body?pending.id:crypto.randomUUID();
+      localStorage.setItem(key,JSON.stringify({id,body}));
+      const response=await fetch("/api/local/jobs",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({mode:"automatic",id,draft:input})});
+      const job=await response.json();if(!response.ok)throw new Error(job.error||"一键制作启动失败，参数已保留。");
+      await local.selectProject(job.projectId);
+      localStorage.removeItem(key);setManual(false);setMessage("已创建独立新项目，AI 将自动完成整本制作。");
+    }finally{setPreparing(false);}
+  }
+  async function saveProduction(edit:ProductionEdit,expectedUpdatedAt:string) {
+    if(!currentJob||live.busy||!local.ready||printBusy)throw new Error("请等待当前步骤保存后再修改。");
+    const id=currentJob.id,projectId=local.projectId;
+    await local.flush();
+    const saved=await live.saveProduction(id,edit,expectedUpdatedAt,local.savedRevision());
+    if(projectIdRef.current!==projectId)throw new Error("修改已保存，请重新打开刚才的项目。");
+    local.acceptServerProject(saved.project);setMessage("编导修改已保存。已生成的画面可在单页画布中重新生成。");
   }
   function update(fn: (d: CustomWorkbenchDraft) => CustomWorkbenchDraft) {
     if (!local.ready || preparing || printBusy) return;
@@ -222,7 +250,7 @@ export default function CustomWorkbench() {
     else pagePatch(target.index, { asset });
   }
   async function upload(file: File | undefined, target: AssetTarget) {
-    if (!file) return;
+    if (!file || uploading) return;
     if (
       !["image/png", "image/jpeg", "image/webp"].includes(file.type) ||
       file.size > 15 * 1024 * 1024
@@ -230,13 +258,18 @@ export default function CustomWorkbench() {
       setMessage("请选择 15 MB 以内的 JPG、PNG 或 WebP 图片。");
       return;
     }
+    const uploadProjectId=local.projectId;
+    setUploading(true);
     try {
       const form = new FormData(); form.append("file", file);
       const response = await fetch("/api/local/assets", {method:"POST",body:form});
       const result = await response.json();
       if (!response.ok) throw new Error(result.error || "图片保存失败");
-      setEditing({target,asset:{...makeAsset(result.src,file.name,target.kind),storagePath:result.storagePath,origin:"uploaded"}});
-    } catch(e) {setMessage(e instanceof Error ? e.message : "图片保存失败，请重试。");}
+      if(projectIdRef.current!==uploadProjectId)return;
+      saveAsset(target,{...makeAsset(result.src,file.name,target.kind),storagePath:result.storagePath,origin:"uploaded"});
+      setMessage("图片已保存到本机。需要裁剪时可在图片设置中调整。");
+    } catch(e) {if(projectIdRef.current===uploadProjectId)setMessage(e instanceof Error ? e.message : "图片保存失败，请重试。");}
+    finally {setUploading(false);}
   }
 
   function assetControl(target: AssetTarget, asset?: WorkbenchAsset) {
@@ -318,9 +351,12 @@ export default function CustomWorkbench() {
     }
     setExporting(true);
     try {
+      await local.flush();const exportProjectId=local.projectId,revision=local.savedRevision();
       const blob = await exportCustomBookPdf(draft, setMessage);
+      const response=await fetch(`/api/local/projects/${exportProjectId}/preview`,{method:"POST",headers:{"Content-Type":"application/pdf","X-Project-Revision":String(revision)},body:blob});
+      if(!response.ok){const result=await response.json();throw new Error(result.error||"PDF 归档失败，请重试。");}
       download(blob, `${draft.title || "我的绘本"}.pdf`);
-      setMessage("整本 PDF 已下载，包含封面、全部内页和连续跨页。");
+      setMessage("整本 PDF 已保存到本书文件夹的“成品PDF”，同时已下载。");
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "PDF 导出失败");
     } finally {
@@ -336,15 +372,17 @@ export default function CustomWorkbench() {
         </Link>
         <div className={s.projectPicker}>
           <label htmlFor="local-project">当前项目</label>
-          <select id="local-project" aria-label="本机项目" value={local.projectId} disabled={!local.ready || live.busy || preparing || printBusy || activeJob} onChange={e=>{setManual(false);void local.selectProject(e.target.value).catch(e=>setMessage(e.message));}}>
+          <select id="local-project" aria-label="本机项目" value={local.projectId} disabled={!local.ready || live.busy || preparing || printBusy || !!(activeJob&&currentJob?.status!=="paused")} onChange={e=>{setManual(false);void local.selectProject(e.target.value).catch(e=>setMessage(e.message));}}>
             {local.projects.map(p=><option key={p.id} value={p.id}>{p.title}</option>)}
           </select>
           <button disabled={!local.ready || live.busy || preparing || printBusy || activeJob} onClick={() => setModal("reset")}><Plus size={17} aria-hidden="true" />新建 / 载入示例</button>
         </div>
+        <button className={s.aiSidebarButton} aria-label="AI 一键成书" aria-current={activePanel==="ai"?"page":undefined} disabled={!local.ready||printBusy||preparing} onClick={()=>goToPanel("ai")}><Sparkle size={19} aria-hidden="true"/><span>AI 一键成书</span></button>
         <nav className={s.workspaceNav} aria-label="工作区导航">
-          <span className={s.navLabel}>制作流程</span>
-          {workspacePanels.map(({id,label,icon:Icon},index)=><button key={id} aria-label={label} aria-current={activePanel===id?"page":undefined} disabled={!local.ready||printBusy||preparing} onClick={()=>goToPanel(id)}><Icon size={20} aria-hidden="true"/><span>{label}</span><small aria-hidden="true">0{index+1}</small></button>)}
+          <span className={s.navLabel}>手动制作与成品编辑</span>
+          {workspacePanels.filter(item=>item.id!=="ai").map(({id,label,icon:Icon},index)=><button key={id} aria-label={label} aria-current={activePanel===id?"page":undefined} disabled={!local.ready||printBusy||preparing} onClick={()=>goToPanel(id)}><Icon size={20} aria-hidden="true"/><span>{label}</span><small aria-hidden="true">0{index+1}</small></button>)}
         </nav>
+
         <div className={s.sidebarFooter}>
           <div><HardDrives size={18} aria-hidden="true"/><span>本机工作空间<small>自动保存 · 刷新可恢复</small></span></div>
           <button disabled={!local.ready} onClick={() => {download(new Blob([serializeWorkbench(draft)], {type:"application/json"}),"绘本配置.json");setMessage("已导出配置。跨电脑迁移时请一并备份本机 .local-data 数据目录。");}}><ArrowSquareOut size={16} aria-hidden="true"/>导出项目配置</button>
@@ -352,11 +390,12 @@ export default function CustomWorkbench() {
       </aside>
       <div className={s.mainArea}>
       <header className={s.topbar}>
-        <div className={s.projectHeading}><span>我的绘本 <CaretRight size={13} aria-hidden="true" /></span><strong>{draft.title || "未命名绘本"}</strong></div>
+        <div className={s.projectHeading}><span>{activePanel==="ai"?"独立 AI 制作":"我的绘本"} <CaretRight size={13} aria-hidden="true" /></span><strong>{activePanel==="ai"?(currentJob?.automatic?currentJob.result.title||"AI 正在制作新绘本":"新建一本绘本"):draft.title || "未命名绘本"}</strong></div>
         <div className={s.topActions}>
           <span className={s.quota} data-saved={local.status==="已保存到本机"}>{local.status==="已保存到本机"?<CheckCircle size={16} aria-hidden="true"/>:<FloppyDisk size={16} aria-hidden="true"/>}<small role="status">{local.status}</small></span>
-          <button disabled={!local.ready || live.busy || printBusy} onClick={()=>void local.flush().catch(e=>setMessage(e.message))}><FloppyDisk size={16} aria-hidden="true"/>立即保存</button>
-          <button disabled={!local.ready} onClick={()=>setModal("read")}><BookOpen size={17} aria-hidden="true"/>整本阅读</button>
+          <LocalSaveLocation key={local.projectId} projectId={local.projectId} saved={local.status} onFlush={local.flush}/>
+          <button hidden={activePanel==="ai"} disabled={!local.ready || live.busy || printBusy} onClick={()=>void local.flush().catch(e=>setMessage(e.message))}><FloppyDisk size={16} aria-hidden="true"/>立即保存</button>
+          <button hidden={activePanel==="ai"} disabled={!local.ready} onClick={()=>setModal("read")}><BookOpen size={17} aria-hidden="true"/>整本阅读</button>
         </div>
       </header>
       <div className={s.content}>
@@ -366,30 +405,21 @@ export default function CustomWorkbench() {
           <h1>{panel.label}</h1>
           <p>{panel.description}</p>
         </div>
-        <div className={s.bookMeta}><span>{{habits:"养成好习惯",memories:"真实经历",learning:"认知启蒙"}[draft.brief?.domain||"habits"]}</span><span>{draft.pageCount} 页正文</span></div>
+        <div className={s.bookMeta} hidden={activePanel==="ai"}><span>{{habits:"养成好习惯",memories:"真实经历",learning:"认知启蒙"}[draft.brief?.domain||"habits"]}</span><span>{draft.pageCount} 页正文</span></div>
       </section>
       {local.error && <div role="alert" className={s.note}>{local.error}<button onClick={()=>{if(!local.ready)local.reload();else void local.flush().catch(e=>setMessage(e.message));}}>{local.ready?"重试保存":"重新读取"}</button></div>}
       {!local.ready && <p role="status">正在读取本机数据。读取完成后即可编辑。</p>}
       <div className={s.workspace} data-panel={activePanel}>
+        <div className={s.automaticWorkspace} hidden={activePanel!=="ai"}>
+          <AutomaticBookCreator onStart={startAutomaticBook} job={currentJob?.automatic?(["complete","failed"].includes(currentJob.status)&&draft.localJobId===currentJob.id?{...currentJob,result:draft}:currentJob):null} busy={live.busy} disabled={!local.ready||preparing||printBusy||!!(activeJob&&!currentJob?.automatic)} configured={live.configured} error={live.error} onPause={async()=>{if(currentJob)await live.pause(currentJob.id);}} onSaveProduction={saveProduction} onResume={()=>{if(currentJob)void local.flush().then(()=>live.resume(currentJob.id,draft)).catch(e=>setMessage(e.message));}} onRead={()=>setModal("read")} onEdit={()=>goToPanel("canvas")} onPrint={()=>goToPanel("print")}/>
+        </div>
         <section
           className={s.editor}
           hidden={activePanel!=="create"}
           aria-label="绘本配置"
         >
-          <QuickBookStart
-            draft={draft}
-            onChange={next => update(() => next)}
-            onPrepare={prepareWithAI}
-            onUpload={file => void upload(file, { kind: "character", id: draft.characters[0].id })}
-            onGenerate={() => void local.flush().then(() => live.start(draft)).catch(e => setMessage(e.message))}
-            onReview={() => void openOutlineReview()}
-            onResume={() => { if (currentJob) void local.flush().then(() => live.resume(currentJob.id, draft)).catch(e => setMessage(e.message)); }}
-            onRetry={() => { if (live.job) void live.retry(); else if (currentJob) void live.resume(currentJob.id, draft); }}
-            job={currentJob}
-            disabled={!local.ready || live.busy || preparing || printBusy}
-            preparing={preparing}
-          />
-          <button className={s.advancedToggle} onClick={()=>setManual(!manual)} aria-expanded={manual}>{manual?"收起高级设置":"需要改人物、页数或画风？展开高级设置"}</button>
+          <ManualBookSetup draft={draft} onChange={next=>update(()=>next)} onUpload={file=>void upload(file,{kind:"character",id:draft.characters[0].id})} onAutomatic={()=>goToPanel("ai")} disabled={!local.ready||live.busy||preparing||printBusy||uploading||activeJob}/>
+          <button className={s.advancedToggle} onClick={()=>setManual(!manual)} aria-expanded={manual}>{manual?"收起高级设置":"更多设置 · 人物细节与分镜"}</button>
           {manual && <>
           {manual && <nav className={s.steps} aria-label="定制步骤">
             {steps.map((label, i) => (
@@ -672,7 +702,7 @@ export default function CustomWorkbench() {
                   <Field label="画面描述">
                     <textarea
                       rows={3}
-                      value={current.scene}
+                      value={chineseProductionScene(current)}
                       onChange={(e) =>
                         pagePatch(activePage - 1, { scene: e.target.value })
                       }
@@ -903,34 +933,7 @@ export default function CustomWorkbench() {
                       </p>
                     </>
                   )}
-                  <div className={s.styleCards}>
-                    {(Object.keys(styles) as Array<keyof typeof styles>).map(
-                      (style, i) => (
-                        <button
-                          key={style}
-                          aria-pressed={draft.style === style}
-                          onClick={() => patch({ style })}
-                        >
-                          <span
-                            className={s.styleSwatch}
-                            style={{
-                              background: [
-                                "linear-gradient(140deg,#cfddc1,#f8deb3,#b4c9cc)",
-                                "linear-gradient(140deg,#f4bf77,#e9a5a0,#9dbb9e)",
-                                "linear-gradient(140deg,#b9b2d6,#e4c7d7,#d9ddba)",
-                              ][i],
-                            }}
-                          >
-                            ✦
-                          </span>
-                          {styles[style]}
-                        </button>
-                      ),
-                    )}
-                  </div>
-                  <p className={s.hint}>
-                    色卡为风格方向参考；已有插图不会随选择自动转换。
-                  </p>
+                  <p className={s.hint}>人物写实或动漫，在上方“生成风格”中统一选择。</p>
                   <Field label="画幅">
                     <select
                       value={draft.format}
@@ -946,116 +949,8 @@ export default function CustomWorkbench() {
                       <option value="landscape">横版 · 4:3</option>
                     </select>
                   </Field>
-                  {draft.renderingMode !== "integrated" && (
-                    <>
-                      <div className={s.note}>
-                        文字是书页画面的一部分，可随时编辑。导出时与插图合为一张图片。
-                      </div>
-                      <Field label={`字号 · ${draft.typography.size}`}>
-                        <input
-                          type="range"
-                          min="18"
-                          max="60"
-                          value={draft.typography.size}
-                          onChange={(e) =>
-                            patch({
-                              typography: {
-                                ...draft.typography,
-                                size: Number(e.target.value),
-                              },
-                            })
-                          }
-                        />
-                      </Field>
-                      <div className={s.two}>
-                        <Field label="文字位置">
-                          <select
-                            value={draft.typography.position}
-                            onChange={(e) =>
-                              patch({
-                                typography: {
-                                  ...draft.typography,
-                                  position: e.target.value as
-                                    | "top"
-                                    | "middle"
-                                    | "bottom",
-                                },
-                              })
-                            }
-                          >
-                            <option value="top">上方</option>
-                            <option value="middle">居中</option>
-                            <option value="bottom">下方</option>
-                          </select>
-                        </Field>
-                        <Field label="对齐">
-                          <select
-                            value={draft.typography.align}
-                            onChange={(e) =>
-                              patch({
-                                typography: {
-                                  ...draft.typography,
-                                  align: e.target.value as
-                                    | "left"
-                                    | "center"
-                                    | "right",
-                                },
-                              })
-                            }
-                          >
-                            <option value="left">左对齐</option>
-                            <option value="center">居中</option>
-                            <option value="right">右对齐</option>
-                          </select>
-                        </Field>
-                      </div>
-                      <div className={s.two}>
-                        <Field label="文字颜色">
-                          <input
-                            type="color"
-                            value={draft.typography.color}
-                            onChange={(e) =>
-                              patch({
-                                typography: {
-                                  ...draft.typography,
-                                  color: e.target.value,
-                                },
-                              })
-                            }
-                          />
-                        </Field>
-                        <Field label="书页底色">
-                          <input
-                            type="color"
-                            value={draft.typography.background}
-                            onChange={(e) =>
-                              patch({
-                                typography: {
-                                  ...draft.typography,
-                                  background: e.target.value,
-                                },
-                              })
-                            }
-                          />
-                        </Field>
-                      </div>
-                      <label className={s.check}>
-                        <input
-                          type="checkbox"
-                          checked={draft.typography.backing}
-                          onChange={(e) =>
-                            patch({
-                              typography: {
-                                ...draft.typography,
-                                backing: e.target.checked,
-                              },
-                            })
-                          }
-                        />
-                        添加柔和文字底衬
-                      </label>
-                    </>
-                  )}
+                  <p className={s.hint}>字体、文字颜色和底色请在单页画布中调整，可一键应用到整本。</p>
+                  <button onClick={()=>goToPanel("canvas")}>前往单页画布调整文字</button>
                 </>
               )}
             </fieldset>
@@ -1067,7 +962,7 @@ export default function CustomWorkbench() {
                     {draft.theme} · {draft.age} · {draft.language}
                   </p>
                   <p>
-                    {draft.pageCount} 页正文 ＋ 封面 · {styles[draft.style]}
+                    {draft.pageCount} 页正文 ＋ 封面 · {visualStyleFor(draft)==="realistic"?"真人写实":styles[draft.style]}
                   </p>
                   <p>
                     人物：
@@ -1102,10 +997,12 @@ export default function CustomWorkbench() {
                       {
                         (
                           {
+                            preparing: "正在整理创作设定",
                             outline: "正在生成故事分镜",
                             review: "故事分镜待确认",
                             images: "正在生成绘本插图",
                             retryable: "生成中断，可继续恢复",
+                            paused: "已暂停，可修改编导",
                             complete: "绘本生成完成",
                             failed: "任务已结束",
                           } as const
@@ -1166,10 +1063,12 @@ export default function CustomWorkbench() {
                         {
                           (
                             {
+                              preparing: "自动准备",
                               outline: "分镜生成",
                               review: "待确认",
                               images: "插图生成",
                               retryable: "可重试",
+                              paused: "已暂停",
                               complete: "已完成",
                               failed: "已结束",
                             } as const
@@ -1344,23 +1243,7 @@ export default function CustomWorkbench() {
           >
             恢复原图裁剪
           </button>
-          <Field label="外观处理">
-            <select
-              value={editing.asset.appearance}
-              onChange={(e) =>
-                setEditing({
-                  ...editing,
-                  asset: {
-                    ...editing.asset,
-                    appearance: e.target.value as "original" | "anime",
-                  },
-                })
-              }
-            >
-              <option value="original">保留原貌</option>
-              <option value="anime">动漫化</option>
-            </select>
-          </Field>
+          <p className={s.hint}>真人或动漫请在创作设定的“生成风格”中统一选择。</p>
           <label className={s.check}>
             <input
               type="checkbox"

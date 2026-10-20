@@ -133,8 +133,22 @@ export async function generateCustomOutline(
   if (!parsed.success) throw new Error("故事分镜页数或内容不完整，请重试。");
   if(draft.direction&&parsed.data.pages.some(p=>!p.directing))throw new Error("逐页编导说明不完整，请重试；已保存内容不变。");
   const ids = new Set(draft.characters.map((c) => c.id));
-  if (parsed.data.pages.some((p) => p.characters.some((id) => !ids.has(id))))
-    throw new Error("故事分镜引用了未配置的人物，请重试。");
+  const namedIds = new Map<string, string[]>();
+  for (const character of draft.characters) {
+    const name = character.name.trim();
+    if (name) namedIds.set(name, [...(namedIds.get(name) || []), character.id]);
+  }
+  // Models sometimes return a supplied cast name instead of its opaque UUID.
+  // Resolve only exact, unique names; unknown or ambiguous people still fail.
+  for (const page of parsed.data.pages) {
+    page.characters = [...new Set(page.characters.map((reference) => {
+      const value = reference.trim();
+      if (ids.has(value)) return value;
+      const matches = namedIds.get(value);
+      if (matches?.length === 1) return matches[0];
+      throw new Error("故事分镜引用了未配置或无法区分的人物，请检查人物设定后重试。");
+    }))];
+  }
   return {
     ...draft,
     pages: draft.pages.map((p, i) =>

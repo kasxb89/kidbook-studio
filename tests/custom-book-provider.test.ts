@@ -12,6 +12,34 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 describe("custom workbench GPT routing", () => {
+  it("resolves unique supplied cast names to stable IDs and preserves canonical ID precedence", async () => {
+    vi.stubEnv("CUSTOM_BOOK_TEXT_BASE_URL", "https://text.example/v1");
+    vi.stubEnv("CUSTOM_BOOK_TEXT_API_KEY", "test");
+    const draft = setWorkbenchPageCount(createWorkbenchDraft(false), 1) as ServerDraft;
+    draft.characters[0].name = "小禾";
+    const motherId = "93c04103-8528-43a0-bd43-d23253cd41c0";
+    draft.characters.push({...draft.characters[0], id:motherId, name:"妈妈"});
+    draft.characters.push({...draft.characters[0], id:"another-person", name:"hero"});
+    const fetcher = vi.fn().mockResolvedValue(new Response(JSON.stringify({choices:[{message:{content:JSON.stringify({pages:[{text:"小禾和妈妈收拾玩具。",scene:"小禾与妈妈在客厅。",characters:[" 小禾 ","妈妈",motherId,"hero"]}]})}}]})));
+    vi.stubGlobal("fetch", fetcher);
+    const result = await generateCustomOutline(draft);
+    expect(result.pages[0].characters).toEqual(["hero",motherId]);
+    expect(draft.pages[0].characters).toEqual(["hero"]);
+    const prompt = JSON.parse(fetcher.mock.calls[0][1].body).messages[0].content;
+    expect(prompt).toContain(motherId);
+    expect(prompt).toContain("complete UUID");
+  });
+  it("rejects unknown people, relationship guesses and ambiguous shared cast names", async () => {
+    vi.stubEnv("CUSTOM_BOOK_TEXT_BASE_URL", "https://text.example/v1");
+    vi.stubEnv("CUSTOM_BOOK_TEXT_API_KEY", "test");
+    const draft = setWorkbenchPageCount(createWorkbenchDraft(false), 1) as ServerDraft;
+    draft.characters[0].name = "小禾";
+    draft.characters.push({...draft.characters[0],id:"second-child",name:"小禾"});
+    for (const reference of ["不存在的人物", "主角", "小禾"]) {
+      vi.stubGlobal("fetch",vi.fn().mockResolvedValue(new Response(JSON.stringify({choices:[{message:{content:JSON.stringify({pages:[{text:"一起收玩具。",scene:"客厅。",characters:[reference]}]})}}]}))));
+      await expect(generateCustomOutline(draft)).rejects.toThrow("未配置或无法区分");
+    }
+  });
   it("rejects incomplete full-book plans and passes the saved rhythm to later batches",async()=>{
     vi.stubEnv("CUSTOM_BOOK_TEXT_BASE_URL","https://text.example/v1");vi.stubEnv("CUSTOM_BOOK_TEXT_API_KEY","test");vi.stubEnv("CUSTOM_BOOK_TEXT_MODEL","test-model");
     const draft=setWorkbenchPageCount(createWorkbenchDraft(false),24) as ServerDraft;

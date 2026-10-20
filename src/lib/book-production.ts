@@ -2,6 +2,8 @@ import { spreadStart,type CustomWorkbenchDraft } from "./custom-workbench";
 import { z } from "zod";
 import { MAX_BOOK_PAGES } from "./book-config";
 import { bookDirectionSchema,pageDirectionSchema } from "./custom-book/direction";
+import { pageTypography, BOOK_FONTS } from "./custom-book/typography";
+import { validLetteringLines, letteringEmphasis, storyTextPlacement } from "./custom-book/lettering";
 export const productionEditSchema=z.object({
   title:z.string().trim().min(1).max(100),theme:z.string().trim().min(1).max(300),
   direction:bookDirectionSchema.optional(),
@@ -49,6 +51,11 @@ export function bookProductionText(book:ProductionBook) {
   for(const p of productionPages(book)) {
     lines.push(`第 ${p.number} 页`, `故事节拍：${p.beat||"待生成"}`,`出场人物：${p.names.join("、")||"无"}`,`正文：${p.text||"待生成"}`);
     if(p.directing)lines.push(`景别与视角：${p.directing.shot}`,`动作：${p.directing.action}`,`情绪：${p.directing.emotion}`,`构图：${p.directing.composition}`,`文字位置：${p.directing.textPlacement}`,`连续性：${p.directing.continuity}`,...(p.directing.learningFocus?[`认知 / 练习目标：${p.directing.learningFocus}`]:[]));
+    const design=pageTypography(d,p.number);
+    if(design.preset==="storybook"){
+      const area=storyTextPlacement(p,design),emphasis=letteringEmphasis(p),planned=p.text.includes("\n")?p.text.split("\n"):validLetteringLines(p.text,p.lettering?.lines)?p.lettering!.lines:undefined;
+      lines.push(`文字排版：绘本叙事 · ${design.fontFamily?BOOK_FONTS[design.fontFamily].label:"原有字体"} · 字号 ${design.size}`,`文字框：距左 ${area.x}%、距上 ${area.y}%、宽 ${area.width}%（相对本页）`,...(planned?["朗读断行：",...planned]:[]),...(emphasis.length?[`重点词：${emphasis.map(word=>`${word.text}（${word.color}，${word.scale}倍）`).join("、")}`]:[]));
+    }
     lines.push(`画面编排：${p.artDirection||"待生成"}`,`中文画面描述：${chineseProductionScene(p)||"旧版任务未保存中文描述，可在编导工作台补充。"}`,`插图：${p.image?"已生成":"待生成"}`,"");
   }
   return lines.join("\n");

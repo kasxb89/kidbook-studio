@@ -32,6 +32,7 @@ export type WorkbenchCharacter = {
   asset?: WorkbenchAsset;
 };
 export type WorkbenchPage = {
+  lettering?: import("./custom-book/lettering").BookLettering;
   directing?: import("./custom-book/direction").PageDirection;
   artDirection?: string;
   layout?: import("./custom-book/layout").BookLayout;
@@ -64,20 +65,7 @@ export type CustomWorkbenchDraft = {
   spreads: number[];
   style: "watercolor" | "cartoon" | "fairytale";
   format: "square" | "portrait" | "landscape";
-  typography: {
-    fontFamily?: import("./custom-book/typography").BookFont;
-    backingColor?: string;
-    backingOpacity?: number;
-    backingStyle?: "soft" | "solid";
-    lineHeight?: number;
-    textBox?: { x: number; y: number; width: number } | null;
-    size: number;
-    position: "top" | "middle" | "bottom";
-    color: string;
-    align: "left" | "center" | "right";
-    backing: boolean;
-    background: string;
-  };
+  typography: import("./custom-book/text-style").BookTypography;
 };
 export const SAMPLE_LINES = [
   "小满在窗边看见一朵小云，它轻轻敲了敲玻璃。",
@@ -157,9 +145,10 @@ export function createWorkbenchDraft(sample = true): CustomWorkbenchDraft {
     style: "watercolor",
     format: "square",
     typography: {
-      size: 28,
+      ...(!sample ? { preset: "storybook" as const, fontFamily: "kai" as const, lineHeight: 1.35, letterSpacing: .035 } : {}),
+      size: sample ? 28 : 42,
       position: "bottom",
-      color: "#343b32",
+      color: sample ? "#343b32" : "#34452c",
       align: "left",
       backing: sample,
       background: "#f7f0df",

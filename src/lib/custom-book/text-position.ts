@@ -6,8 +6,8 @@ export type TextRegion = { x:number; y:number; width:number; height:number; side
 const clamp=(value:number,min:number,max:number)=>Math.max(min,Math.min(max,value));
 // Percentages are relative to ONE physical page, including when editing a spread.
 export function normalizeTextPlacement(value:TextPlacement):TextPlacement {
-  const width=clamp(value.width,20,92);
-  return {x:clamp(value.x,4,96-width),y:clamp(value.y,4,96),width};
+  const width=clamp(value.width,5,100);
+  return {x:clamp(value.x,0,100-width),y:clamp(value.y,0,100),width};
 }
 export function textArea(layout:BookLayout,pageWidth:number,height:number,side:number,placement?:TextPlacement|null) {
   if(!placement)return layoutTextBox(layout,pageWidth,height,side);
@@ -16,7 +16,7 @@ export function textArea(layout:BookLayout,pageWidth:number,height:number,side:n
 }
 export function textRegion(area:{x:number;y:number;width:number;height:number},design:BookTypography,contentHeight:number,pageWidth:number,height:number,side:number):TextRegion {
   const y=design.textBox
-    ? clamp(area.y,height*.04,Math.max(height*.04,height*.96-contentHeight))
+    ? clamp(area.y,0,Math.max(0,height-contentHeight))
     : design.position==="top"?area.y:design.position==="middle"?area.y+(area.height-contentHeight)/2:area.y+area.height-contentHeight;
   return {...area,y,height:contentHeight,side};
 }

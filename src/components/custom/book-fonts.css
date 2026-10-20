@@ -1,14 +1,24 @@
-@font-face {
-  font-family: "KidBook Sans";
-  src: url("/fonts/print/NotoSansSC-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "KidBook Kai";
-  src: url("/fonts/print/LXGWWenKai-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+@font-face {font-family:"KidBook Sans";src:url("/fonts/print/NotoSansSC-Regular.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Sans Thin";src:url("/fonts/print/NotoSansSC-Thin.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Sans Light";src:url("/fonts/print/NotoSansSC-Light.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Sans DemiLight";src:url("/fonts/print/NotoSansSC-DemiLight.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Sans Medium";src:url("/fonts/print/NotoSansSC-Medium.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Sans Bold";src:url("/fonts/print/NotoSansSC-Bold.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Sans Black";src:url("/fonts/print/NotoSansSC-Black.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif";src:url("/fonts/print/NotoSerifSC-Regular.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif ExtraLight";src:url("/fonts/print/NotoSerifSC-ExtraLight.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif Light";src:url("/fonts/print/NotoSerifSC-Light.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif Medium";src:url("/fonts/print/NotoSerifSC-Medium.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif SemiBold";src:url("/fonts/print/NotoSerifSC-SemiBold.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif Bold";src:url("/fonts/print/NotoSerifSC-Bold.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Serif Black";src:url("/fonts/print/NotoSerifSC-Black.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Kai";src:url("/fonts/print/LXGWWenKai-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Kai Light";src:url("/fonts/print/LXGWWenKai-Light.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Kai Medium";src:url("/fonts/print/LXGWWenKai-Medium.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook KuaiLe";src:url("/fonts/print/ZCOOLKuaiLe-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook XiaoWei";src:url("/fonts/print/ZCOOLXiaoWei-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook HuangYou";src:url("/fonts/print/ZCOOLQingKeHuangYou-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook Brush";src:url("/fonts/print/MaShanZheng-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook LongCang";src:url("/fonts/print/LongCang-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook LiuJian";src:url("/fonts/print/LiuJianMaoCao-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}
+@font-face {font-family:"KidBook ZhiMang";src:url("/fonts/print/ZhiMangXing-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap;}

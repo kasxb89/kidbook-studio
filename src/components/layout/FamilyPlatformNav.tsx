@@ -17,6 +17,7 @@ export default function FamilyPlatformNav() {
   const pathname = usePathname();
   if (
     pathname === "/custom" ||
+    pathname === "/studio-login" ||
     isReaderDetail(pathname) ||
     pathname.startsWith("/s/") ||
     pathname.startsWith("/auth/") ||

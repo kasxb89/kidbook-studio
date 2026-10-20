@@ -3,6 +3,8 @@ import { z } from "zod";
 import { MIN_BOOK_PAGES, MAX_BOOK_PAGES } from "../book-config";
 import { printSettingsSchema } from "./print-settings";
 import { bookDirectionSchema,pageDirectionSchema } from "./direction";
+import { letteringSchema } from "./lettering";
+import { bookTypographySchema } from "./text-style";
 
 const asset = z.object({
   embeddedText: z.array(z.string().max(2500)).max(3).optional(),
@@ -25,6 +27,7 @@ const asset = z.object({
   origin: z.enum(["uploaded", "generated"]).optional(),
 });
 export const customPageSchema = z.object({
+  lettering: letteringSchema.optional(),
   directing: pageDirectionSchema.optional(),
   artDirection: z.string().max(1800).optional(),
   layout: z.enum(["panorama", "sidebar", "embrace", "minimal"]).optional(),
@@ -69,20 +72,7 @@ export const customDraftSchema = z
     spreads: z.array(z.number().int().min(2).max(MAX_BOOK_PAGES-1)).max(Math.floor(MAX_BOOK_PAGES/2)),
     style: z.enum(["watercolor", "cartoon", "fairytale"]),
     format: z.enum(["square", "portrait", "landscape"]),
-    typography: z.object({
-      fontFamily: z.enum(["sans", "kai"]).optional(),
-      backingColor: z.string().regex(/^#[0-9a-f]{6}$/i).optional(),
-      backingOpacity: z.number().min(0).max(1).optional(),
-      backingStyle: z.enum(["soft", "solid"]).optional(),
-      lineHeight: z.number().min(1.2).max(2).optional(),
-      textBox: z.object({ x:z.number().min(0).max(100), y:z.number().min(0).max(100), width:z.number().min(20).max(100) }).nullable().optional(),
-      size: z.number().min(18).max(60),
-      position: z.enum(["top", "middle", "bottom"]),
-      color: z.string().regex(/^#[0-9a-f]{6}$/i),
-      align: z.enum(["left", "center", "right"]),
-      backing: z.boolean(),
-      background: z.string().regex(/^#[0-9a-f]{6}$/i),
-    }),
+    typography: bookTypographySchema,
   })
   .superRefine((draft, ctx) => {
     if(draft.pages.length < draft.pageCount) ctx.addIssue({code:"custom",message:"正文页数超过已保存的页面数量"});

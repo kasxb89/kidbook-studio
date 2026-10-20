@@ -17,6 +17,7 @@ export async function POST(request:Request,c:Context) {
     let pdf:PDFDocument;try{pdf=await PDFDocument.load(bytes);}catch{throw new LocalError("PDF 文件读取失败，请重新导出。");}
     if(pdf.getPageCount()!==pdfPageNumbers(project.draft).length)throw new LocalError("PDF 页数与当前绘本不一致，请重新导出。");
     if(getProject(id).revision!==revision)throw new LocalError("绘本在导出期间发生修改，请重新导出当前版本。",409);
-    return localJson(saveProjectBookOutputs(id,project.draft,{[`成品PDF/${bookFileName(project.draft.title,"绘本")}_阅读成品.pdf`]:bytes}));
+    const relative=`成品PDF/${bookFileName(project.draft.title,"绘本")}_阅读成品.pdf`;
+    return localJson({...saveProjectBookOutputs(id,project.draft,{[relative]:bytes}),url:`/api/local/projects/${id}/files?path=${encodeURIComponent(relative)}`});
   }catch(e){return localError(e);}
 }

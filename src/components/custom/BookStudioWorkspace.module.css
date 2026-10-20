@@ -83,6 +83,8 @@
   cursor:pointer
 }
 
+.pageNavigation button.downloadPage {width:auto;min-width:100px;white-space:nowrap;padding:6px 10px;font-size:12px}
+
 .boardWorkspace  {
   display:grid;
   grid-template-columns:minmax(0,1fr) 282px;

@@ -7,6 +7,6 @@ import AuthProvider from "@/components/auth/AuthProvider";
 
 export default function Providers({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  if (pathname === "/custom") return <>{children}</>;
+  if (pathname === "/custom" || pathname === "/studio-login") return <>{children}</>;
   return <AuthProvider><AccountSyncProvider>{children}</AccountSyncProvider></AuthProvider>;
 }

@@ -1,0 +1,4 @@
+# Preserve the original upstream font binaries and license text verbatim.
+public/fonts/print/*.otf binary
+public/fonts/print/*.ttf binary
+public/fonts/print/*OFL*.txt whitespace=-blank-at-eol

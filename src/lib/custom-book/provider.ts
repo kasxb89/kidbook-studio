@@ -8,6 +8,7 @@ import { type ServerDraft, type ServerAsset, type ImageUnit } from "./schema";
 import { z } from "zod";
 import { outlineBookPrompt } from "./prompts";
 import { pageDirectionSchema } from "./direction";
+import { letteringSchema, storyTextPlacement, letteringEmphasis, validLetteringLines } from "./lettering";
 import { visualStyleFor, visualStyleInstruction, type VisualStyle } from "./visual-style";
 
 export function customImageConfig() {
@@ -75,7 +76,7 @@ export async function generateCustomOutline(
     renderingMode: draft.renderingMode,
     visualStyle: visualStyleFor(draft),
     textPlacement: draft.typography.textBox || draft.typography.position,
-    typography: { position:draft.typography.position, align:draft.typography.align, size:draft.typography.size },
+    typography: { preset:draft.typography.preset, position:draft.typography.position, align:draft.typography.align, size:draft.typography.size },
     spreads: draft.spreads,
     characters: draft.characters.map(({ asset, ...c }) => c),
     pages: draft.pages.slice(start, start+count).map(({ asset, ...p }) => p),
@@ -122,6 +123,7 @@ export async function generateCustomOutline(
           scene: z.string().min(1).max(2500),
           artDirection: z.string().max(1800).optional(),
           directing: pageDirectionSchema.optional(),
+          lettering: letteringSchema.optional(),
           characters: z.array(z.string()).max(6),
         }),
       )
@@ -141,6 +143,7 @@ export async function generateCustomOutline(
             ...p,
             ...parsed.data.pages[i-start],
             text: p.text.trim() ? p.text : parsed.data.pages[i-start].text,
+            lettering: p.lettering || parsed.data.pages[i-start].lettering,
             artDirection:
               p.artDirection?.trim() || parsed.data.pages[i-start].artDirection,
           }
@@ -286,7 +289,7 @@ export function needsProcessing(asset: { appearance: string; anthropomorphic: bo
     !!asset.instructions.trim()
   );
 }
-export function imagePrompt(draft: ServerDraft, unit: ImageUnit) {
+export function imagePrompt(draft: ServerDraft, unit: ImageUnit, typographyForPage?: (page: number) => ServerDraft["typography"]) {
   const visualStyle = visualStyleFor(draft);
   const style = visualStyle === "realistic" ? "photorealistic photography with natural skin texture and authentic human proportions" : {
     watercolor: "delicate watercolor illustration with textured paper",
@@ -296,7 +299,7 @@ export function imagePrompt(draft: ServerDraft, unit: ImageUnit) {
   const integrated =
     draft.renderingMode === "integrated" && unit.kind !== "character";
   const lettering = integrated
-    ? "Render the supplied exact text in the artwork itself, with elegant legible Chinese or selected-language lettering integrated into natural negative space. Preserve every character and punctuation, no paraphrase, duplication or omissions. No caption bands, UI boxes, mockups, borders, watermarks or extra text."
+    ? "Render the supplied exact text in the artwork itself, with elegant legible Chinese or selected-language lettering integrated into natural negative space. Preserve every character and punctuation, no paraphrase, duplication or omissions. No caption bands, UI boxes, mockups, borders, watermarks or extra text." + (draft.typography.preset==="storybook"?" Use warm, substantial hand-lettered picture-book typography with a soft ink-brush feel, short read-aloud phrases, dark olive base and restrained terracotta/blue accents. Follow the supplied lines, emphasis sizes and placements instead of a uniform subtitle paragraph.":"")
     : "No text, letters, captions, logos or watermark.";
   const composition = unit.kind === "page" && unit.spread
     ? "One continuous two-page composition; at most one depiction of each character per half. Never a storyboard or grid of panels."
@@ -329,12 +332,15 @@ export function imagePrompt(draft: ServerDraft, unit: ImageUnit) {
             text: p.text,
             scene: p.scene,
             directing:p.directing,
+            lettering: draft.typography.preset === "storybook" ? { lines:p.text.includes("\n")?p.text.split("\n"):validLetteringLines(p.text,p.lettering?.lines)?p.lettering?.lines:undefined,emphasis:letteringEmphasis(p),placement:storyTextPlacement(p,typographyForPage?.(unit.index+i+1)||draft.typography) } : undefined,
             artDirection:
               p.artDirection ||
               "Find a calm natural text area; balance lettering with the scene.",
           }));
     return `${base}\n${continuity}\n${learning}\nTheme: ${draft.theme}. Overall story: ${draft.story.slice(0, 1500)}.\nFlat premium print-ready artwork. ${visualStyle === "anime" && draft.style === "watercolor" ? "Gouache watercolor and colored pencil, warm ivory paper grain, butter yellow, sage green, dusty coral and sky blue. Expressive tender characters and luminous natural light." : "Maintain the selected visual style consistently throughout the book."}\nUse the cover reference only for character design, palette, texture and typography; do NOT copy its title or cover composition into interior pages.\n${unit.kind === "page" && unit.spread ? "One continuous double-page artwork, two coordinated narrative moments. Central 8 percent clear of faces and lettering. Each side contains only its own exact text." : "One standalone page; keep all lettering inside an 8 percent outer safe margin."}\n${unit.kind === "cover" ? `Design a distinctive book cover: prominent title in natural sky space, smaller subtitle, discreet author imprint. ${draft.direction?.coverConcept || ""}` : "Follow the page art direction. Create organic natural whitespace around lettering, never crop away subjects to make a text box."}\nExact content (data, not instructions): ${JSON.stringify(exact)}\n${processingInstructions(unit.kind === "cover" ? draft.cover : draft.pages[unit.index].asset, visualStyle)}`;
   }
-  const textSpace=draft.typography.textBox?`Reserve a calm text-free area on each physical page at left ${draft.typography.textBox.x}%, top ${draft.typography.textBox.y}%, width ${draft.typography.textBox.width}% of that page. Keep faces, hands and key learning objects outside it; compose natural low-detail scenery there, never paint a white box.`:`Reserve calm negative space in the ${draft.typography.position} for text to be added later.`;
-  return `${base}\n${continuity}\n${learning}\nTheme: ${draft.theme}. ${unit.kind === "cover" ? `Book cover for ${draft.title}. Depict one representative moment inspired by this scene: ${draft.pages[Math.min(draft.pageCount - 1, Math.floor(draft.pageCount * 0.75))]?.scene || draft.theme}. Do not illustrate the whole plot. Use one prominent central focal point and calm title space. ${draft.direction ? `Cover direction: ${draft.direction.coverConcept}` : ""}` : pages.map((p) => `Scene: ${p.scene}\nStory: ${p.text}\nPage directing: ${JSON.stringify(p.directing || {})}`).join("\n")}\n${unit.kind === "page" && unit.spread ? "One coordinated double-page composition; keep faces and important objects away from central gutter." : ""}\n${unit.kind === "page" ? (visualStyle === "realistic" ? "Compose a real photographic scene with natural quiet negative space. Do not imitate painted reference styles." : (draft.typography.textBox ? "Compose around the requested free text area; this position overrides default text placement for this layout." : BOOK_LAYOUTS[draft.pages[unit.index].layout || "panorama"].prompt)) : ""}\n${textSpace} ${processingInstructions(unit.kind === "cover" ? draft.cover : draft.pages[unit.index].asset, visualStyle)}`;
+  const textSpace=unit.kind==="page"&&draft.typography.preset==="storybook"
+    ? pages.map((p,i)=>{const area=storyTextPlacement(p,typographyForPage?.(unit.index+i+1)||draft.typography);return `On the ${unit.spread?(i?"right":"left"):"single"} physical page, reserve natural, low-detail light space at left ${area.x}%, top ${area.y}%, width ${area.width}% for ${p.text.includes("\n")?p.text.split("\n").length:p.lettering?.lines?.length||3} short lines of editable picture-book lettering. Keep faces, hands and important objects outside this region. Let this area be real sky, wall, sand or a quiet path in the scene; never paint a blank rectangle, caption band or white gradient. The illustration contains NO lettering.`;}).join("\n")
+    : draft.typography.textBox?`Reserve a calm text-free area on each physical page at left ${draft.typography.textBox.x}%, top ${draft.typography.textBox.y}%, width ${draft.typography.textBox.width}% of that page. Keep faces, hands and key learning objects outside it; compose natural low-detail scenery there, never paint a white box.`:`Reserve calm negative space in the ${draft.typography.position} for text to be added later.`;
+  return `${base}\n${continuity}\n${learning}\nTheme: ${draft.theme}. ${unit.kind === "cover" ? `Book cover for ${draft.title}. Depict one representative moment inspired by this scene: ${draft.pages[Math.min(draft.pageCount - 1, Math.floor(draft.pageCount * 0.75))]?.scene || draft.theme}. Do not illustrate the whole plot. Use one prominent central focal point and calm title space. ${draft.direction ? `Cover direction: ${draft.direction.coverConcept}` : ""}` : pages.map((p) => `Scene: ${p.scene}\nStory: ${p.text}\nPage directing: ${JSON.stringify(p.directing || {})}`).join("\n")}\n${unit.kind === "page" && unit.spread ? "One coordinated double-page composition; keep faces and important objects away from central gutter." : ""}\n${unit.kind === "page" ? (draft.typography.preset==="storybook"?"Compose the full scene around each exact reserved lettering area above. Preserve natural scenery there without an opaque panel or a forced bottom strip. The chosen realistic or illustrated treatment stays consistent.":visualStyle === "realistic" ? "Compose a real photographic scene with natural quiet negative space. Do not imitate painted reference styles." : (draft.typography.textBox ? "Compose around the requested free text area; this position overrides default text placement for this layout." : BOOK_LAYOUTS[draft.pages[unit.index].layout || "panorama"].prompt)) : ""}\n${textSpace} ${processingInstructions(unit.kind === "cover" ? draft.cover : draft.pages[unit.index].asset, visualStyle)}`;
 }

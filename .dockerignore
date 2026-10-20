@@ -1,0 +1,17 @@
+.git
+node_modules
+.next
+.next-*
+.env
+.env.*
+.local-data
+.private
+artifacts
+output
+.codex
+miniprogram
+*.log
+*.tsbuildinfo
+*.sqlite*
+*.db*
+public/gift-books/**/*.zip

@@ -63,6 +63,23 @@ it("moves printed text to its saved free position inside binding-safe margins",a
   expect(Number(match![2])).toBeGreaterThan(safe.y+safe.height*.6);
   expect(Number(match![2])).toBeLessThan(safe.y+safe.height*.8);
 });
+it("keeps coloured picture-book lettering inside its illustration as vector text",async()=>{
+  const draft=await fixture();
+  draft.pages[0].text="她扶起一朵低着头的小花。";
+  draft.pages[0].lettering={lines:["她扶起一朵","低着头","的小花。"],emphasis:[{text:"扶",color:"#987028"},{text:"低着头",color:"#b75b36"},{text:"小花",color:"#2e667b"}],placement:{x:9,y:10,width:59}};
+  const output=await exportPrintBook(draft,false),pdf=await PDFDocument.load(output.pdf);
+  const page=pdf.getPage(2),contents=page.node.Contents() as PDFArray;
+  const stream=Array.from({length:contents.size()},(_,i)=>Buffer.from(decodePDFRawStream(pdf.context.lookup(contents.get(i),PDFRawStream)).decode()).toString()).join("\n");
+  const colours=[...stream.matchAll(/([\d.]+) ([\d.]+) ([\d.]+) rg/g)].map(m=>m.slice(1).map(v=>Math.round(Number(v)*255)));
+  expect(colours).toContainEqual([183,91,54]);expect(colours).toContainEqual([46,102,123]);
+  const sizes=[...stream.matchAll(/\/[^\s]+ ([\d.]+) Tf/g)].map(m=>Number(m[1]));
+  expect(new Set(sizes.filter(size=>size>10)).size).toBeGreaterThan(1);
+  const glyphCount=Array.from(draft.pages[0].text).length;
+  const locations=[...stream.matchAll(/1 0 0 1 ([\d.]+) ([\d.]+) Tm/g)].slice(0,glyphCount).map(m=>({x:Number(m[1]),y:Number(m[2])}));
+  expect(locations).toHaveLength(glyphCount);
+  const safe=printGeometry(defaultPrintSettings(),3).safe;
+  expect(locations.every(p=>p.x>safe.x&&p.x<safe.x+safe.width&&p.y>safe.y+safe.height*.5&&p.y<safe.y+safe.height)).toBe(true);
+});
 it("exports embedded Chinese text, correct PDF boxes, and a production bundle",async()=>{
   const draft=await fixture();const output=await exportPrintBook(draft);expect(output.report.ready).toBe(true);
   const pdf=await PDFDocument.load(output.pdf);expect(pdf.getPageCount()).toBe(6);

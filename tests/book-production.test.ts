@@ -21,9 +21,11 @@ it("exports the full storyline, cast, art bible and every page including pending
   expect(productionPages(book)).toHaveLength(200);expect(productionPages(book)[1].written).toBe(false);
 });
 it("feeds the approved storyline into both whole-book planning and detailed page direction",async()=>{
-  const d=draft();const fetcher=vi.fn(async(_url:unknown,init?:RequestInit)=>{const payload=JSON.parse(init!.body as string),data=JSON.parse(payload.messages[1].content);expect(data.productionBible).toEqual(d.direction);return new Response(JSON.stringify({choices:[{message:{content:JSON.stringify(fetcher.mock.calls.length===1?{beats:fixture.beats.slice(0,2)}:{pages:Array.from({length:2},()=>({text:"小禾换成湿沙再试。",scene:"Child pressing damp sand.",characters:["hero"],directing:fixture.pageDirection,artDirection:"上方沙面留白，两行排字。"}))})}}]}));});
+  const lettering={lines:["小禾换成","湿沙再试。"],emphasis:[{text:"湿沙",color:"#2e667b"}],placement:{x:9,y:12,width:59}};
+  const d=draft();const fetcher=vi.fn(async(_url:unknown,init?:RequestInit)=>{const payload=JSON.parse(init!.body as string),data=JSON.parse(payload.messages[1].content);expect(data.productionBible).toEqual(d.direction);return new Response(JSON.stringify({choices:[{message:{content:JSON.stringify(fetcher.mock.calls.length===1?{beats:fixture.beats.slice(0,2)}:{pages:Array.from({length:2},()=>({text:"小禾换成湿沙再试。",scene:"Child pressing damp sand.",characters:["hero"],directing:fixture.pageDirection,lettering,artDirection:"上方沙面留白，两行排字。"}))})}}]}));});
   vi.stubGlobal("fetch",fetcher);const plan=await generateCustomOutlinePlan(customDraftSchema.parse(d));const result=await generateCustomOutline(customDraftSchema.parse(d),{start:0,count:2,plan});
   expect(result.pages[1].directing).toEqual(fixture.pageDirection);
+  expect(result.pages[1].lettering).toEqual(lettering);
   const prompt=imagePrompt(result,{kind:"page",index:1,spread:false});expect(prompt).toContain(fixture.direction.palette);expect(prompt).toContain(fixture.pageDirection.composition);
 });
 it("rejects a new directed book's incomplete page instructions before spending on images",async()=>{

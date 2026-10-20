@@ -1,5 +1,11 @@
 import { pageMetadata } from "@/lib/seo";
 import CustomWorkbench from '@/components/custom/CustomWorkbench';
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
+import { workbenchLoginEnabled } from "@/lib/workbench-access";
+import { workbenchSession } from "@/lib/local/workbench-auth";
+export const dynamic="force-dynamic";
+export const runtime="nodejs";
 
 export const metadata = pageMetadata({
   path: "/custom",
@@ -8,6 +14,8 @@ export const metadata = pageMetadata({
   image: "/gift-books/summer-pocket/cover.webp",
 });
 
-export default function CustomPage() {
+export default async function CustomPage() {
+  const incoming=await headers();
+  if(workbenchLoginEnabled()&&!workbenchSession(new Request("http://localhost/custom",{headers:new Headers(incoming)})))redirect("/studio-login");
   return <CustomWorkbench />;
 }

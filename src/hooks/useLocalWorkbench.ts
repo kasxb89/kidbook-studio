@@ -15,9 +15,11 @@ function cacheRecovery(projectId:string,value:RecoveryDraft) {
 }
 async function request(path:string,init?:RequestInit) {
   const r=await fetch(`/api/local/projects${path}`,{...init,headers:{"Content-Type":"application/json"},cache:"no-store"});
+  if(r.status===401&&typeof window!=="undefined")window.location.assign("/studio-login");
   const data=await r.json();if(!r.ok) throw new Error(data.error||"本地保存失败");return data;
 }
 export function useLocalWorkbench() {
+  const [storageMode,setStorageMode]=useState<"local"|"server">("local");
   const [draft,stateDraft]=useState(()=>createWorkbenchDraft(false));
   const [projectId,setProjectId]=useState("");
   const [projects,setProjects]=useState<ProjectSummary[]>([]);
@@ -30,7 +32,7 @@ export function useLocalWorkbench() {
   const inFlight=useRef<CustomWorkbenchDraft|undefined>(undefined);
   const current=useRef(draft), record=useRef<Project|null>(null), saved=useRef("");
   const saving=useRef<Promise<void>|null>(null), mounted=useRef(true), blocked=useRef(false);
-  const refreshList=useCallback(async()=>{const data=await request("");if(mounted.current)setProjects(data.projects);},[]);
+  const refreshList=useCallback(async()=>{const data=await request("");if(mounted.current){setProjects(data.projects);setStorageMode(data.storageMode||"local");}},[]);
   function apply(p:Project) {
     p.draft={...p.draft,brief:p.draft.brief||createBookBrief()};
     inFlight.current=undefined;record.current=p;saved.current=JSON.stringify(p.draft);current.current=p.draft;
@@ -77,7 +79,7 @@ export function useLocalWorkbench() {
     (async()=>{
       try {
         const list=await request("");if(cancelled)return;
-        setProjects(list.projects);
+        setProjects(list.projects);setStorageMode(list.storageMode||"local");
         const active=localStorage.getItem(ACTIVE);
         const id=list.projects.find((p:ProjectSummary)=>p.id===active)?.id||list.projects[0]?.id;
         const p:Project=id?await request(`/${id}`):await request("",{method:"POST",body:JSON.stringify({draft:createWorkbenchDraft(false)})});
@@ -117,5 +119,5 @@ export function useLocalWorkbench() {
     if(JSON.stringify(current.current)!==saved.current)throw new Error("仍有本机修改未保存，请先保存再读取高清结果。");
     localStorage.removeItem(RECOVERY+p.id);apply(p);void refreshList().catch(()=>{});
   }
-  return {draft,setDraft,projectId,projects,ready:ready&&!switching,status,error,flush,savedRevision:()=>record.current?.revision||0,createProject,selectProject,acceptServerProject,reload:()=>{setReady(false);setLoadAttempt(n=>n+1);}};
+  return {draft,setDraft,projectId,projects,storageMode,isSaved:status==="已保存到本机",ready:ready&&!switching,status:storageMode==="server"?status.replaceAll("本机","服务器"):status,error,flush,savedRevision:()=>record.current?.revision||0,createProject,selectProject,acceptServerProject,reload:()=>{setReady(false);setLoadAttempt(n=>n+1);}};
 }

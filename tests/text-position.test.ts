@@ -21,8 +21,8 @@ describe("movable book text",()=>{
     const d=createWorkbenchDraft(),textBox=normalizeTextPlacement({x:98,y:98,width:70});
     const design={...d.typography,textBox};
     const region=textRegion(textArea("panorama",720,900,1,textBox),design,200,720,900,1);
-    expect(region.x).toBeGreaterThan(720);expect(region.x+region.width).toBeLessThan(1440);
-    expect(region.y+region.height).toBeLessThanOrEqual(900*.96);
+    expect(region.x).toBeGreaterThanOrEqual(720);expect(region.x+region.width).toBeLessThanOrEqual(1440);
+    expect(region.y+region.height).toBeLessThanOrEqual(900);
   });
   it("sends the chosen negative space and only the visible character bible to the image model",()=>{
     const d=createWorkbenchDraft(false);d.characters[0].name="小禾";d.title="水果乐园";

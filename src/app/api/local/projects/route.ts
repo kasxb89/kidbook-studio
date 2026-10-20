@@ -4,8 +4,9 @@ import { createProject, listProjects, validateDraftAssets } from "@/lib/local/st
 import { assertLocalRequest, localError, localJson } from "@/lib/local/http";
 import { localDraftSchema } from "@/lib/local/schema";
 import { smallJson } from "@/lib/local/http";
+import { workbenchServerMode } from "@/lib/workbench-access";
 export const runtime = "nodejs";
-export async function GET(request: Request) { try { assertLocalRequest(request); return localJson({ projects: listProjects() }); } catch(e) { return localError(e); } }
+export async function GET(request: Request) { try { assertLocalRequest(request); return localJson({ projects:listProjects(),storageMode:workbenchServerMode()?"server":"local" }); } catch(e) { return localError(e); } }
 export async function POST(request: Request) { try {
   assertLocalRequest(request);
   const body = await smallJson(request, LOCAL_DRAFT_BYTES);

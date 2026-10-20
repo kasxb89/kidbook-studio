@@ -87,8 +87,8 @@ export function getProjectBookFolder(id:string) {
   const db=database(),{project,book}=folderSnapshot(db,id);
   return syncBookFiles(db,dataDirectory(),project,book);
 }
-export function saveProjectBookOutputs(id:string,draft:CustomWorkbenchDraft,files:Record<string,Uint8Array>) {
-  const location=getProjectBookFolder(id);writeBookOutputs(location,draft,files);
+export function saveProjectBookOutputs(id:string,draft:CustomWorkbenchDraft,files:Record<string,Uint8Array>,outdated=false) {
+  const location=getProjectBookFolder(id);writeBookOutputs(location,draft,files,outdated);
   return getProjectBookFolder(id);
 }
 export function saveAsset(bytes: Uint8Array, name: string) {

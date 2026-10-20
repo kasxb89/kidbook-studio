@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  ...(process.env.STORYBLOOM_STANDALONE === "1" ? { output: "standalone", experimental: { cpus: 1 } } : {}),
   async headers() {
     return [{ source: "/sw.js", headers: [
       { key: "Cache-Control", value: "no-cache, no-store, must-revalidate" },

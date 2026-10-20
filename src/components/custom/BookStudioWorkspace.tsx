@@ -15,13 +15,16 @@ import type {
 import { spreadStart } from "@/lib/custom-workbench";
 import { assetForPage, type StudioPage } from "@/lib/book-studio";
 import { BOOK_LAYOUTS, type BookLayout } from "@/lib/custom-book/layout";
-import { applyBookTypography, effectiveTextBacking } from "@/lib/custom-book/typography";
+import { applyBookTypography, effectiveTextBacking, pageTypography } from "@/lib/custom-book/typography";
 import BookTextSettings from "./BookTextSettings";
 import { placementFromRegion, type TextRegion } from "@/lib/custom-book/text-position";
-import WorkbenchCanvas, { pageDimensions } from "./WorkbenchCanvas";
+import WorkbenchCanvas, { pageDimensions, drawWorkbench } from "./WorkbenchCanvas";
+import { downloadBlob } from "@/lib/browser-download";
 import s from "./BookStudioWorkspace.module.css";
 type Draft = CustomWorkbenchDraft;
 type Snapshot = {
+  designPage: number;
+  lettering?: Draft["pages"][number]["lettering"];
   asset?: WorkbenchAsset;
   design?: StudioPage["typography"];
   layout?: BookLayout;
@@ -57,6 +60,7 @@ export default function BookStudioWorkspace({
   const [notice, setNotice] = useState("");
   const [canvasTool,setCanvasTool]=useState<"text"|"image">("text");
   const [textRegions,setTextRegions]=useState<TextRegion[]>([]);
+  const [downloading,setDownloading]=useState(false);
   const drag = useRef<{
     x: number;
     y: number;
@@ -67,7 +71,7 @@ export default function BookStudioWorkspace({
   const paperRatio = pageWidth * (spreadStart(draft,page)?2:1) / pageHeight;
   const asset = assetForPage(draft, target);
   const entry = draft.studio?.pages?.[target] || {};
-  const typography = { ...draft.typography, ...entry.typography };
+  const typography = pageTypography(draft, page);
   const versions = entry.versions || [];
   const compare = versions.find((v) => v.id === candidate);
   const comparing = mode==="edit" && inspectorTab==="history" && !!compare;
@@ -76,15 +80,18 @@ export default function BookStudioWorkspace({
     setCandidate("");
     setUndo([]);
     setNotice("");
+    setTextRegions([]);
   }, [page]);
-  function snapshot(all = false) {
+  function snapshot(all = false, designPage = page) {
     setUndo((u) => [
       ...u.slice(-29),
       {
+        designPage,
+        lettering: designPage ? structuredClone(draft.pages[designPage - 1].lettering) : undefined,
         asset: asset && structuredClone(asset),
-        design: entry.typography && { ...entry.typography },
+        design: draft.studio?.pages?.[designPage]?.typography && { ...draft.studio.pages[designPage].typography },
         layout: target ? draft.pages[target - 1].layout : undefined,
-        treatment: target ? draft.pages[target - 1].textTreatment : undefined,
+        treatment: designPage ? draft.pages[designPage - 1].textTreatment : undefined,
         ...(all ? { allDesign: {
           typography: { ...draft.typography },
           pages: structuredClone(Object.fromEntries(Object.entries(draft.studio?.pages || {}).map(([key, value])=>[key,value.typography]))),
@@ -97,6 +104,7 @@ export default function BookStudioWorkspace({
     crop?: WorkbenchAsset["crop"],
     design?: StudioPage["typography"],
     layout?: BookLayout,
+    designPage = page,
   ) {
     onUpdate((d) => ({
       ...d,
@@ -104,26 +112,19 @@ export default function BookStudioWorkspace({
         ? { cover: crop && d.cover ? { ...d.cover, crop } : d.cover }
         : {
             pages: d.pages.map((p, i) =>
-              i === target - 1
-                ? {
-                    ...p,
-                    ...(layout ? { layout } : {}),
-                    ...(design && "backing" in design ? {textTreatment: undefined} : {}),
-                    asset: crop && p.asset ? { ...p.asset, crop } : p.asset,
-                  }
-                : p,
+              ({...p,...(i===target-1?{...(layout?{layout}:{}),asset:crop&&p.asset?{...p.asset,crop}:p.asset}:{}),...(i===designPage-1&&design&&"backing" in design?{textTreatment:undefined}:{})}),
             ),
           }),
       studio: {
         ...d.studio,
         pages: {
           ...d.studio?.pages,
-          [target]: {
-            ...d.studio?.pages?.[target],
+          [designPage]: {
+            ...d.studio?.pages?.[designPage],
             ...(design
               ? {
                   typography: {
-                    ...d.studio?.pages?.[target]?.typography,
+                    ...d.studio?.pages?.[designPage]?.typography,
                     ...design,
                   },
                 }
@@ -150,11 +151,22 @@ export default function BookStudioWorkspace({
   function toggleReview() {
     onUpdate(d=>({...d,studio:{...d.studio,pages:{...d.studio?.pages,[page]:{...d.studio?.pages?.[page],review:d.studio?.pages?.[page]?.review==="approved"?"draft":"approved"}}}}));
   }
+  async function downloadPage() {
+    setDownloading(true);
+    try {
+      const canvas=document.createElement("canvas"),result=await drawWorkbench(canvas,draft,target,false,4);
+      if(result.overflow||result.contentMismatch)throw new Error("请先处理本页文字超出画面或图文不一致的问题。");
+      const blob=await new Promise<Blob>((resolve,reject)=>canvas.toBlob(value=>value?resolve(value):reject(new Error("图片编码失败，请重试。")),"image/png"));
+      downloadBlob(blob,`${draft.title||"绘本"}_${target?`第${target}${spreadStart(draft,page)?`-${target+1}`:""}页`:"封面"}.png`);
+      setNotice("本页PNG已开始下载，包含当前文字和背景样式。高分辨率原图也可在“文件与下载”中获取。");
+    }catch(e){setNotice(`导出失败：${e instanceof Error?e.message:"请重试。"}`);}finally{setDownloading(false);}
+  }
   return (
     <div className={s.studio} data-mode={mode}>
       <div className={s.toolbar}>
         <div className={s.boardInfo}><strong>{mode==="board"?"整本分镜板":"页面编辑"}</strong><span>{draft.pageCount} 页正文 ＋ 封面</span></div>
         <div className={s.pageNavigation}>
+          {mode==="edit"&&<button className={s.downloadPage} disabled={downloading||!asset||disabled} onClick={()=>void downloadPage()}>{downloading?"正在导出…":"下载本页PNG"}</button>}
           <button aria-label="上一页" disabled={page===0} onClick={()=>onNavigate(page-1)}><ArrowLeft size={16} aria-hidden="true"/></button>
           <select aria-label="当前工作页" value={page} onChange={e=>onNavigate(Number(e.target.value))}>{Array.from({length:draft.pageCount+1},(_,n)=><option key={n} value={n}>{n?`第 ${n} 页`:"封面"}</option>)}</select>
           <button aria-label="下一页" disabled={page===draft.pageCount} onClick={()=>onNavigate(page+1)}><ArrowRight size={16} aria-hidden="true"/></button>
@@ -246,13 +258,13 @@ export default function BookStudioWorkspace({
           {mode==="edit"&&compare&&inspectorTab==="history" ? <div className={s.comparisonStage} aria-label="图片版本对比"><figure><figcaption>当前图片</figcaption>{asset&&<img src={asset.src} alt="当前图片"/>}</figure><figure><figcaption>历史版本 <small>{new Date(compare.createdAt).toLocaleDateString("zh-CN")}</small></figcaption><img src={compare.asset.src} alt="历史版本图片"/></figure></div> : mode==="board" ? <div className={s.selectedPreview}>{asset?<img src={asset.src} alt={page?`第 ${page} 页插图`:"封面插图"}/>:<div><ImageIcon size={36} aria-hidden="true"/><p>这页还没有插图</p></div>}</div> : (
             <div data-book-paper className={s.paper} style={{"--page-ratio":paperRatio,cursor:canvasTool==="image"?"grab":"default"} as CSSProperties}>
               <WorkbenchCanvas draft={draft} page={page} onTextRegions={setTextRegions}
-                textEditing={!locked&&canvasTool==="text"?{onStart:()=>snapshot(),onMove:placement=>composition(undefined,{textBox:placement})}:undefined}/>
+                textEditing={!locked&&canvasTool==="text"?{onStart:designPage=>snapshot(false,designPage),onMove:(placement,designPage)=>composition(undefined,{textBox:placement},undefined,designPage)}:undefined}/>
             </div>
           )}
         </div>
         <aside className={s.inspector} aria-label="当前页面设置">
           <header className={s.inspectorHeading}><strong>{page?`第 ${page} 页`:"封面"}</strong><button disabled={disabled} className={s.reviewButton} aria-pressed={draft.studio?.pages?.[page]?.review==="approved"} onClick={toggleReview}><CheckCircle size={16} aria-hidden="true"/>{draft.studio?.pages?.[page]?.review==="approved"?"撤销审核":"标记已审核"}</button></header>
-          {spreadStart(draft,page)&&<p className={s.spreadNote}>跨页 {target}–{target+1} 共用画面与排版</p>}
+          {spreadStart(draft,page)&&<p className={s.spreadNote}>跨页 {target}–{target+1} 共用插图，两页文字分别排版。</p>}
           <div className={s.inspectorTabs} role="tablist" aria-label="页面设置面板" onKeyDown={e=>{if(["ArrowLeft","ArrowRight","Home","End"].includes(e.key)){e.preventDefault();const next=e.key==="Home"?"content":e.key==="End"?"history":inspectorTab==="content"?"history":"content";setInspectorTab(next);document.getElementById(next==="content"?"page-content-tab":"page-history-tab")?.focus();}}}><button role="tab" id="page-content-tab" tabIndex={inspectorTab==="content"?0:-1} aria-selected={inspectorTab==="content"} aria-controls="page-content-panel" onClick={()=>setInspectorTab("content")}><TextT size={16} aria-hidden="true"/>本页内容</button><button role="tab" id="page-history-tab" tabIndex={inspectorTab==="history"?0:-1} aria-selected={inspectorTab==="history"} aria-controls="page-history-panel" onClick={()=>setInspectorTab("history")}><ClockCounterClockwise size={16} aria-hidden="true"/>图片版本 <small>{versions.length}</small></button></div>
           <div role="tabpanel" id="page-content-panel" aria-labelledby="page-content-tab" hidden={inspectorTab!=="content"}>
           <fieldset className={s.controls} disabled={disabled}>
@@ -278,9 +290,10 @@ export default function BookStudioWorkspace({
             </label>
             {mode==="edit"&&<>
             {asset?.embeddedText&&<p className={s.spreadNote}>这页文字已绘入图片，字体和底色需重新生成图片后修改。</p>}
-            <BookTextSettings typography={typography} backing={effectiveTextBacking(draft,target)} disabled={locked} placement={textRegions[0]?placementFromRegion(textRegions[0],pageWidth,pageHeight):undefined}
+            <BookTextSettings typography={typography} backing={effectiveTextBacking(draft,page)} disabled={locked} page={page?draft.pages[page-1]:undefined} placement={textRegions[page>target?1:0]?placementFromRegion(textRegions[page>target?1:0],pageWidth,pageHeight):undefined}
+              onLetteringChange={lettering=>{snapshot();onUpdate(d=>({...d,pages:d.pages.map((p,i)=>i===page-1?{...p,lettering}:p)}));setNotice("");}}
               onChange={design=>{snapshot();composition(undefined,design);setNotice("");}}
-              onApplyAll={()=>{snapshot(true);onUpdate(d=>applyBookTypography(d,{...typography,backing:effectiveTextBacking(draft,target)}));setNotice("已应用到整本的可编辑文字，并自动保存。");}}/>
+              onApplyAll={()=>{snapshot(true);onUpdate(d=>applyBookTypography(d,{...typography,backing:effectiveTextBacking(draft,page)}));setNotice(typography.preset==="storybook"?"已统一正文样式，各页位置与封面排版分别保留，并自动保存。":"已应用到整本的可编辑文字，并自动保存。");}}/>
             {notice&&<p role="status" className={s.spreadNote}>{notice}</p>}
             <details className={s.composition}>
               <summary>图片、取景与版式</summary>
@@ -379,18 +392,14 @@ export default function BookStudioWorkspace({
                   ...(target === 0
                     ? { cover: last.asset }
                     : {
-                        pages: d.pages.map((p, i) =>
-                          i === target - 1
-                            ? { ...p, asset: last.asset, layout: last.layout, textTreatment: last.treatment }
-                            : p,
-                        ),
+                        pages: d.pages.map((p,i)=>({...p,...(i===target-1?{asset:last.asset,layout:last.layout}:{}),...(i===last.designPage-1?{textTreatment:last.treatment,lettering:last.lettering}:{})})),
                       }),
                   studio: {
                     ...d.studio,
                     pages: {
                       ...d.studio?.pages,
-                      [target]: {
-                        ...d.studio?.pages?.[target],
+                      [last.designPage]: {
+                        ...d.studio?.pages?.[last.designPage],
                         typography: last.design,
                       },
                     },

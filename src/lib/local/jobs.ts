@@ -13,6 +13,7 @@ import { prepareBookInput } from "../custom-book/prepare";
 import { automaticBookDraft } from "../automatic-book";
 import { applyProductionEdits,productionEditSchema,type ProductionEdit } from "../book-production";
 import { localDraftSchema } from "./schema";
+import { pageTypography } from "../custom-book/typography";
 
 export type LocalJob = {
   id:string;projectId:string;inputHash:string;status:"preparing"|"outline"|"review"|"images"|"paused"|"retryable"|"complete"|"failed";
@@ -143,7 +144,7 @@ export async function advanceJob(id:string,retry=false) {
         }
         const designPage=unit.kind==="cover"?0:unit.kind==="page"?unit.index+1:undefined;
         const promptDraft=designPage===undefined?parsed:{...parsed,typography:{...parsed.typography,...job.result.studio?.pages?.[designPage]?.typography}};
-        const bytes=await requestCustomImage(imagePrompt(promptDraft,unit),refs,imageSize(parsed,unit),job.model,`${job.id}:${job.cursor}`);
+        const bytes=await requestCustomImage(imagePrompt(promptDraft,unit,page=>pageTypography(job.result,page)),refs,imageSize(parsed,unit),job.model,`${job.id}:${job.cursor}`);
         const stored=saveAsset(bytes,`generated-${job.id}-${job.cursor}`);
         output={id:stored.id,storagePath:stored.storagePath,src:stored.src,name:"本机生成插图",purpose:unit.kind,origin:"generated",crop:{x:50,y:50,zoom:1},ratio:"page",appearance:"original",anthropomorphic:false,retouch:[],instructions:""};
         // Persist output and cursor in one SQLite write. Never erase completed units on retry.

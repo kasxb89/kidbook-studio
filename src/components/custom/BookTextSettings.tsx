@@ -1,53 +1,44 @@
 "use client";
-import { BOOK_FONTS, type BookFont, type BookTypography } from "@/lib/custom-book/typography";
-import s from "./BookTextSettings.module.css";
+import { useEffect, useId, useState } from "react";
+import { BOOK_FONTS, canvasFontFamily, type BookFont, type BookTypography } from "@/lib/custom-book/typography";
+import { FONT_CATEGORIES } from "@/lib/custom-book/font-catalog";
+import { DEFAULT_TEXT_EFFECTS, TEXT_PALETTES } from "@/lib/custom-book/text-style";
 import { normalizeTextPlacement, type TextPlacement } from "@/lib/custom-book/text-position";
+import { letteringEmphasis, STORYBOOK_TYPOGRAPHY, type BookLettering } from "@/lib/custom-book/lettering";
+import type { WorkbenchPage } from "@/lib/custom-workbench";
+import s from "./BookTextSettings.module.css";
 
-export default function BookTextSettings({ typography, backing, disabled, onChange, onApplyAll, placement }: {
-  typography: BookTypography;
-  backing: boolean;
-  disabled?: boolean;
-  onChange: (patch: Partial<BookTypography>) => void;
-  onApplyAll: () => void;
-  placement?:TextPlacement;
-}) {
-  const mode = !backing ? "none" : typography.backingStyle || "soft";
+function NumberSetting({label,value,min,max,step=1,unit="",onChange}:{label:string;value:number;min:number;max:number;step?:number;unit?:string;onChange:(value:number)=>void}) {
+  const [text,setText]=useState(String(Number(value.toFixed(3))));
+  useEffect(()=>setText(String(Number(value.toFixed(3)))),[value]);
+  return <label className={s.numberSetting}><span>{label}{unit&&<small>{unit}</small>}</span><span className={s.numberInputs}><input aria-label={`${label}滑块`} type="range" value={value} min={min} max={max} step={step} onChange={e=>onChange(Number(e.target.value))}/><input aria-label={label} type="number" value={text} min={min} max={max} step={step} onChange={e=>{setText(e.target.value);const n=e.currentTarget.valueAsNumber;if(Number.isFinite(n)&&n>=min&&n<=max)onChange(n);}} onBlur={()=>{const n=text.trim()?Number(text):value,safe=Number.isFinite(n)?Math.max(min,Math.min(max,n)):value;setText(String(Number(safe.toFixed(3))));if(safe!==value)onChange(safe);}}/></span></label>;
+}
+function ColourSetting({label,value,onChange}:{label:string;value:string;onChange:(value:string)=>void}) {
+  const [text,setText]=useState(value),[palette,setPalette]=useState<keyof typeof TEXT_PALETTES>("常用");
+  const id=useId();useEffect(()=>setText(value),[value]);
+  return <div className={s.colourSetting}><div className={s.colourInput}><label htmlFor={id}>{label}</label><input id={id} type="color" value={value} onChange={e=>onChange(e.target.value)}/><input className={s.hex} aria-label={`${label}色值`} value={text} maxLength={7} spellCheck={false} onChange={e=>{setText(e.target.value);if(/^#[0-9a-f]{6}$/i.test(e.target.value))onChange(e.target.value);}} onBlur={()=>{const hex=text.startsWith("#")?text:"#"+text;if(/^#[0-9a-f]{6}$/i.test(hex))onChange(hex);else setText(value);}}/></div><details className={s.palette}><summary>展开色板 · 48色</summary><select aria-label={`${label}色板`} value={palette} onChange={e=>setPalette(e.target.value as keyof typeof TEXT_PALETTES)}>{Object.keys(TEXT_PALETTES).map(name=><option key={name}>{name}</option>)}</select><div className={s.swatches} role="group" aria-label={`${label}预设颜色`}>{TEXT_PALETTES[palette].map(colour=><button type="button" key={colour} title={colour} aria-label={`${label} ${colour}`} aria-pressed={value.toLowerCase()===colour} style={{background:colour}} onClick={()=>onChange(colour)}/>)}</div></details></div>;
+}
+
+export default function BookTextSettings({typography,backing,disabled,onChange,onApplyAll,placement,page,onLetteringChange}:{typography:BookTypography;backing:boolean;disabled?:boolean;onChange:(patch:Partial<BookTypography>)=>void;onApplyAll:()=>void;placement?:TextPlacement;page?:WorkbenchPage;onLetteringChange?:(lettering:BookLettering)=>void}) {
+  const [fontSearch,setFontSearch]=useState("");
+  const storybook=typography.preset==="storybook",emphasis=page?letteringEmphasis(page):[],mode=!backing?"none":typography.backingStyle||"soft";
   const current=placement||typography.textBox||{x:6,y:80,width:88};
-  return <section className={s.settings} aria-label="文字样式">
-    <header><strong>文字样式</strong><span>改完立即预览</span></header>
-    <fieldset className={s.fields} disabled={disabled}>
-      <div className={s.row}>
-        <label>字体<select aria-label="本页字体" value={typography.fontFamily || "sans"} onChange={e=>onChange({fontFamily:e.target.value as BookFont})}>
-          {Object.entries(BOOK_FONTS).map(([key,font])=><option key={key} value={key}>{font.label}</option>)}
-        </select></label>
-        <label>字号<input aria-label="本页字号" type="number" min={18} max={60} value={typography.size} onChange={e=>{const value=e.currentTarget.valueAsNumber;if(Number.isFinite(value)&&value>=18&&value<=60)onChange({size:value});}}/></label>
-      </div>
-      <div className={s.colourRow}><label>文字颜色<input type="color" aria-label="本页文字颜色" value={typography.color} onChange={e=>onChange({color:e.target.value})}/></label>
-        <div className={s.swatches} role="group" aria-label="常用文字颜色">
-          {[["#202722","黑色"],["#343b32","深绿"],["#624536","棕色"],["#ffffff","白色"]].map(([colour,label])=><button key={colour} aria-label={`文字${label}`} aria-pressed={typography.color.toLowerCase()===colour} style={{background:colour}} onClick={()=>onChange({color:colour})}/>)}</div>
-      </div>
-      <div className={s.backing}><span>文字底色</span><div className={s.segmented} role="group" aria-label="文字底色方式">
-        {[["none","无底色"],["soft","柔和"],["solid","实色"]].map(([key,label])=><button key={key} aria-pressed={mode===key} onClick={()=>onChange(key==="none"?{backing:false}:{backing:true,backingStyle:key as "soft"|"solid"})}>{label}</button>)}
-      </div></div>
-      {backing&&<div className={s.backingOptions}>
-        <label>底色<input type="color" aria-label="本页文字底色" value={typography.backingColor || "#fffcf3"} onChange={e=>onChange({backingColor:e.target.value})}/></label>
-        <label>不透明度 <output>{Math.round((typography.backingOpacity??.92)*100)}%</output><input aria-label="文字底色不透明度" type="range" min={0} max={100} value={Math.round((typography.backingOpacity??.92)*100)} onChange={e=>onChange({backingOpacity:Number(e.target.value)/100})}/></label>
-        <div className={s.swatches} role="group" aria-label="常用文字底色">{[["#fffcf3","米白"],["#e5efdf","浅绿"],["#f9e4de","浅粉"]].map(([colour,label])=><button key={colour} aria-label={`底色${label}`} aria-pressed={(typography.backingColor||"#fffcf3")===colour} style={{background:colour}} onClick={()=>onChange({backingColor:colour})}/>)}</div>
-      </div>}
-      <div className={s.row}>
-        <label>文字位置<select aria-label="本页文字位置" value={typography.textBox?"custom":typography.position} onChange={e=>onChange({position:e.target.value as BookTypography["position"],textBox:null})}><option value="top">上方</option><option value="middle">居中</option><option value="bottom">下方</option>{typography.textBox&&<option value="custom" disabled>自由位置</option>}</select></label>
-        <label>对齐<select aria-label="本页文字对齐" value={typography.align} onChange={e=>onChange({align:e.target.value as BookTypography["align"]})}><option value="left">左对齐</option><option value="center">居中</option><option value="right">右对齐</option></select></label>
-      </div>
-      <p className={s.positionHint}>在画布上拖动文字框，或选中文字框后用方向键微调。</p>
-      <details className={s.more}><summary>精细调整位置与宽度</summary>
-        {([["x","左右位置",4,96-current.width],["y","上下位置",4,96],["width","文字框宽度",20,92]] as const).map(([key,label,min,max])=><label key={key}>{label} <output>{Math.round(current[key])}%</output><input type="range" aria-label={label} min={min} max={max} value={current[key]} onChange={e=>onChange({textBox:normalizeTextPlacement({...current,[key]:Number(e.target.value)})})}/></label>)}
-        <button onClick={()=>onChange({textBox:null,position:"bottom"})}>重置文字位置</button>
-      </details>
-      <details className={s.more}><summary>行距与书页底色</summary>
-        <label>行距 <output>{(typography.lineHeight??1.55).toFixed(2)}</output><input aria-label="本页行距" type="range" min={1.2} max={2} step={.05} value={typography.lineHeight??1.55} onChange={e=>onChange({lineHeight:Number(e.target.value)})}/></label>
-        <label>书页底色<input aria-label="本页书页底色" type="color" value={typography.background} onChange={e=>onChange({background:e.target.value})}/></label>
-      </details>
-      <button className={s.apply} onClick={onApplyAll}>应用到整本（含封面）</button>
-    </fieldset>
-  </section>;
+  const fonts=Object.entries(BOOK_FONTS).filter(([id,font])=>font.label.toLowerCase().includes(fontSearch.toLowerCase())||font.category.includes(fontSearch)||id.includes(fontSearch.toLowerCase())||id===(typography.fontFamily||"sans"));
+  return <section className={s.settings} aria-label="文字样式"><header><strong>文字与排版</strong><span>即时预览 · 自动保存</span></header><fieldset className={s.fields} disabled={disabled}>
+    {page&&<div className={s.presets} role="group" aria-label="文字排版风格"><button type="button" aria-pressed={storybook} onClick={()=>onChange({...STORYBOOK_TYPOGRAPHY,textBox:typography.textBox||null})}><strong>绘本叙事</strong><small>按朗读节奏分行</small></button><button type="button" aria-pressed={!storybook} onClick={()=>onChange({preset:"paragraph",fontFamily:"sans",size:28,lineHeight:1.55,letterSpacing:0,color:"#202722"})}><strong>普通正文</strong><small>整齐的段落排版</small></button></div>}
+    <label>字体库 <small>24种样式 · 随项目自带</small><input type="search" aria-label="搜索字体" placeholder="搜索黑体、宋体、手写、书法…" value={fontSearch} onChange={e=>setFontSearch(e.target.value)}/><select aria-label="本页字体" value={typography.fontFamily||"sans"} onChange={e=>onChange({fontFamily:e.target.value as BookFont})}>{FONT_CATEGORIES.map(category=><optgroup key={category} label={category}>{fonts.filter(([,font])=>font.category===category).map(([key,font])=><option key={key} value={key}>{font.label}</option>)}</optgroup>)}</select></label>
+    <div className={s.fontPreview} style={{fontFamily:canvasFontFamily(typography.fontFamily)}}>把故事讲给你听。<small>若汐 · 蔺澍 · Aa 123</small></div>
+    <NumberSetting label="本页字号" value={typography.size} min={8} max={180} step={.5} onChange={size=>onChange({size})}/><ColourSetting label="文字颜色" value={typography.color} onChange={color=>onChange({color})}/>
+    <div className={s.row}><label>对齐<select aria-label="本页文字对齐" value={typography.align} onChange={e=>onChange({align:e.target.value as BookTypography["align"]})}><option value="left">左对齐</option><option value="center">居中</option><option value="right">右对齐</option></select></label><label>文字位置<select aria-label="本页文字位置" value={typography.textBox?"custom":storybook&&page?"auto":typography.position} onChange={e=>{const v=e.target.value;onChange(v==="auto"?{textBox:null}:v==="custom"?{textBox:current}:{position:v as BookTypography["position"],textBox:{...current,y:v==="top"?8:v==="middle"?40:78}});}}>{storybook&&page&&<option value="auto">随画面留白</option>}<option value="top">上方</option><option value="middle">中间</option><option value="bottom">下方</option><option value="custom">自由位置</option></select></label></div>
+    <div className={s.toggleRow}><button type="button" aria-pressed={!!typography.italic} onClick={()=>onChange({italic:!typography.italic})}>斜体</button><button type="button" aria-pressed={!!typography.underline} onClick={()=>onChange({underline:!typography.underline})}>下划线</button></div>
+    <div className={s.backing}><span>文字背景</span><div className={s.segmented} role="group" aria-label="文字底色方式">{[["none","无底色"],["soft","柔和渐隐"],["solid","实色背景"]].map(([key,label])=><button type="button" key={key} aria-pressed={mode===key} onClick={()=>onChange(key==="none"?{backing:false}:{backing:true,backingStyle:key as "soft"|"solid"})}>{label}</button>)}</div></div>
+    {backing&&<div className={s.backingOptions}><ColourSetting label="背景颜色" value={typography.backingColor||"#fffcf3"} onChange={backingColor=>onChange({backingColor})}/><NumberSetting label="背景不透明度" value={(typography.backingOpacity??.92)*100} min={0} max={100} unit="%" onChange={n=>onChange({backingOpacity:n/100})}/></div>}
+    <details className={s.more}><summary>字距、行距与笔画</summary><NumberSetting label="字距" value={(typography.letterSpacing??(storybook?.035:0))*typography.size} min={-typography.size*.1} max={typography.size} step={.1} unit="px" onChange={n=>onChange({letterSpacing:n/typography.size})}/><NumberSetting label="本页行距" value={typography.lineHeight??1.55} min={.8} max={3} step={.01} unit="倍" onChange={lineHeight=>onChange({lineHeight})}/><NumberSetting label="文字不透明度" value={(typography.opacity??1)*100} min={0} max={100} unit="%" onChange={n=>onChange({opacity:n/100})}/><NumberSetting label="笔画加粗" value={(typography.inkWeight??(storybook?.02:0))*100} min={0} max={12} step={.1} unit="%" onChange={n=>onChange({inkWeight:n/100})}/></details>
+    <details className={s.more}><summary>文字描边与阴影</summary><NumberSetting label="描边宽度" value={typography.strokeWidth??0} min={0} max={12} step={.1} unit="px" onChange={strokeWidth=>onChange({strokeWidth})}/><ColourSetting label="描边颜色" value={typography.strokeColor||"#ffffff"} onChange={strokeColor=>onChange({strokeColor})}/><label className={s.check}><input type="checkbox" checked={!!typography.shadow} onChange={e=>onChange({shadow:e.target.checked})}/> 开启文字阴影</label>{typography.shadow&&<><ColourSetting label="阴影颜色" value={typography.shadowColor||"#17221c"} onChange={shadowColor=>onChange({shadowColor})}/><NumberSetting label="阴影不透明度" value={(typography.shadowOpacity??.45)*100} min={0} max={100} unit="%" onChange={n=>onChange({shadowOpacity:n/100})}/><NumberSetting label="阴影左右偏移" value={typography.shadowX??2} min={-40} max={40} step={.1} unit="px" onChange={shadowX=>onChange({shadowX})}/><NumberSetting label="阴影上下偏移" value={typography.shadowY??3} min={-40} max={40} step={.1} unit="px" onChange={shadowY=>onChange({shadowY})}/></>}</details>
+    <details className={s.more}><summary>背景留白、圆角与边框</summary>{!backing?<p className={s.hint}>先在上方选择文字背景，即可调整背景外观。</p>:<><NumberSetting label="背景左右留白" value={typography.backingPaddingX??16} min={0} max={80} step={.5} unit="px" onChange={backingPaddingX=>onChange({backingPaddingX})}/><NumberSetting label="背景上下留白" value={typography.backingPaddingY??12} min={0} max={80} step={.5} unit="px" onChange={backingPaddingY=>onChange({backingPaddingY})}/><NumberSetting label="背景圆角" value={typography.backingRadius??0} min={0} max={80} step={.5} unit="px" onChange={backingRadius=>onChange({backingRadius})}/><NumberSetting label="背景边框宽度" value={typography.backingBorderWidth??0} min={0} max={12} step={.1} unit="px" onChange={backingBorderWidth=>onChange({backingBorderWidth})}/><ColourSetting label="背景边框颜色" value={typography.backingBorderColor||"#53675b"} onChange={backingBorderColor=>onChange({backingBorderColor})}/></>}</details>
+    <details className={s.more}><summary>精确位置、宽度与旋转</summary><p className={s.hint}>拖动文字框移动。方向键微调，Shift加速；数值支持小数。</p>{([["x","左右位置",0,100-current.width],["y","上下位置",0,100],["width","文字框宽度",5,100]] as const).map(([key,label,min,max])=><NumberSetting key={key} label={label} value={current[key]} min={min} max={max} step={.1} unit="%" onChange={n=>onChange({textBox:normalizeTextPlacement({...current,[key]:n})})}/>)}<NumberSetting label="文字旋转" value={typography.rotation??0} min={-180} max={180} step={.1} unit="°" onChange={rotation=>onChange({rotation})}/><button type="button" onClick={()=>onChange({textBox:null,position:"bottom",rotation:0})}>恢复自动位置</button></details>
+    {storybook&&page&&<details className={s.more}><summary>重点词颜色与大小</summary><p className={s.hint}>正文中按回车自定断行，重点词可分别配色和放大。</p><label>重点词<input aria-label="本页重点词" maxLength={300} placeholder="例如：蝴蝶，小花" value={page.lettering?.words??emphasis.map(item=>item.text).join("，")} onChange={e=>onLetteringChange?.({...page.lettering,words:e.target.value})}/></label>{emphasis.map((item,i)=><div className={s.emphasis} key={item.text}><strong>{item.text}</strong><ColourSetting label={`“${item.text}”颜色`} value={item.color} onChange={color=>onLetteringChange?.({...page.lettering,words:undefined,emphasis:emphasis.map((word,j)=>j===i?{...word,color}:word)})}/><NumberSetting label={`“${item.text}”字号倍数`} value={item.scale} min={.5} max={2.5} step={.05} onChange={scale=>onLetteringChange?.({...page.lettering,words:undefined,emphasis:emphasis.map((word,j)=>j===i?{...word,scale}:word)})}/></div>)}</details>}
+    <details className={s.more}><summary>书页底色与样式重置</summary><ColourSetting label="书页底色" value={typography.background} onChange={background=>onChange({background})}/><button type="button" onClick={()=>onChange({...DEFAULT_TEXT_EFFECTS,inkWeight:storybook?.02:0,letterSpacing:storybook?.035:0,lineHeight:storybook?1.35:1.55})}>重置文字特效</button></details>
+    <button type="button" className={s.apply} onClick={onApplyAll}>{storybook?"将样式应用到全部正文":"应用到整本（含封面）"}</button><p className={s.hint}>{storybook?"统一字体、颜色和特效，各页位置与断行保留，封面单独排版。":"当前设置会自动保存；字体和排版会随下载文件保留。"}</p>
+  </fieldset></section>;
 }

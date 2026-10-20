@@ -11,7 +11,7 @@ type Context={params:Promise<{id:string}>};
 const input=z.discriminatedUnion("action",[
   z.object({action:z.literal("preflight")}),
   z.object({action:z.literal("enhance"),page:z.number().int().min(0).max(MAX_BOOK_PAGES)}),
-  z.object({action:z.literal("export"),format:z.enum(["pdf","zip"]),proofread:z.boolean().optional()}),
+  z.object({action:z.literal("export"),format:z.enum(["pdf","zip"]),proofread:z.boolean().optional(),download:z.enum(["attachment","link"]).optional()}),
 ]);
 export async function POST(request:Request,c:Context) {try{
   assertLocalRequest(request);const {id}=await c.params;const body=input.parse(await smallJson(request,4000));
@@ -20,7 +20,8 @@ export async function POST(request:Request,c:Context) {try{
   if(body.action==="preflight")return localJson(await preflightPrint(project.draft));
   if(!body.proofread&&[project.draft.cover,...project.draft.pages.slice(0,project.draft.pageCount).map(p=>p.asset)].some(a=>a?.embeddedText))throw new LocalError("图文一体成品请先逐页核对并勾选校对确认。",422);
   const zip=body.format==="zip",output=await exportPrintBook(project.draft,zip);
-  savePrintOutputs(id,project.draft,output,zip);
+  const saved=savePrintOutputs(id,project.draft,output,zip);
+  if(body.download==="link")return localJson({url:`/api/local/projects/${id}/files?path=${encodeURIComponent(zip?saved.archiveRelative:saved.pdfRelative)}`,name:(zip?saved.archiveRelative:saved.pdfRelative).split("/").at(-1),bytes:zip?output.zip.length:output.pdf.length});
   const name=`${project.draft.title||"绘本"}_A4_${project.draft.print?.mode==="office"?"办公打印":"印刷"}.${zip?"zip":"pdf"}`;
   return new Response(new Uint8Array(zip?output.zip:output.pdf),{headers:{"Content-Type":zip?"application/zip":"application/pdf","Content-Disposition":`attachment; filename*=UTF-8''${encodeURIComponent(name)}`,"Cache-Control":"no-store"}});
 }catch(e){return localError(e);}}

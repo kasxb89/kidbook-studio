@@ -2,22 +2,19 @@ import { NextResponse } from "next/server";
 import { ZodError } from "zod";
 import { LocalError } from "./store";
 import { LOCAL_DRAFT_BYTES } from "../book-config";
+import { workbenchRequestError } from "../workbench-access";
+import { assertWorkbenchSession } from "./workbench-auth";
 
-// No login for a loopback-only workbench, but reject foreign origins and non-loopback hosts.
+// Session enforcement also lives in each Node route, independent of middleware.
 export function assertLocalRequest(request: Request) {
-  const url = new URL(request.url);
-  const host = request.headers.get("host") || url.host;
-  let actual:URL;
-  try { actual = new URL(`${url.protocol}//${host}`); } catch { throw new LocalError("无效的本机地址。",403); }
-  if (!["localhost", "127.0.0.1", "[::1]"].includes(actual.hostname) || actual.host !== host) throw new LocalError("本地工作台仅允许本机访问。", 403);
-  const origin = request.headers.get("origin");
-  if ((origin && origin !== actual.origin) || request.headers.get("sec-fetch-site") === "cross-site") throw new LocalError("不接受其他网站发起的本地操作。", 403);
+  const error=workbenchRequestError(request);if(error)throw new LocalError(error.message,error.status);
+  assertWorkbenchSession(request);
 }
 export function localJson(data: unknown, status = 200) {
   return NextResponse.json(data, { status, headers: { "Cache-Control": "no-store" } });
 }
 export function localError(error: unknown) {
-  if (error instanceof LocalError) return localJson({ error: error.message }, error.status);
+  if (error instanceof LocalError) return localJson({error:error.message},error.status);
   if (error instanceof ZodError) return localJson({ error: "请检查填写内容、页数与素材格式。" }, 400);
   console.error("Local workbench request failed", error instanceof Error ? error.name : "UnknownError");
   return localJson({ error: "本地保存或读取失败，请检查数据目录和磁盘空间后重试。" }, 500);

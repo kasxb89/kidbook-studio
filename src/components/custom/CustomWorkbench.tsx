@@ -9,6 +9,7 @@ import { Plus } from "@phosphor-icons/react/dist/csr/Plus";
 import { FloppyDisk } from "@phosphor-icons/react/dist/csr/FloppyDisk";
 import { ArrowSquareOut } from "@phosphor-icons/react/dist/csr/ArrowSquareOut";
 import { ArrowRight } from "@phosphor-icons/react/dist/csr/ArrowRight";
+import { SignOut } from "@phosphor-icons/react/dist/csr/SignOut";
 import { HardDrives } from "@phosphor-icons/react/dist/csr/HardDrives";
 import { CheckCircle } from "@phosphor-icons/react/dist/csr/CheckCircle";
 import { CaretRight } from "@phosphor-icons/react/dist/csr/CaretRight";
@@ -27,7 +28,6 @@ import {
 import {
   createWorkbenchDraft,
   makeAsset,
-  serializeWorkbench,
   setWorkbenchPageCount,
   spreadStart,
   toggleWorkbenchSpread,
@@ -53,6 +53,7 @@ import { briefErrors } from "@/lib/book-domain";
 import { useCustomBook } from "@/hooks/useCustomBook";
 import { exportCustomBookPdf } from "@/lib/custom-book/pdf";
 import s from "./CustomWorkbench.module.css";
+import { downloadUrl } from "@/lib/browser-download";
 import { BOOK_LAYOUTS, type BookLayout } from "@/lib/custom-book/layout";
 
 const steps = ["基础信息", "人物与素材", "故事分镜", "画风排版", "确认生成"];
@@ -94,14 +95,7 @@ function Field({ label, children }: { label: string; children: ReactNode }) {
     </div>
   );
 }
-function download(blob: Blob, name: string) {
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = name;
-  a.click();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
-}
+
 function Modal({
   title,
   children,
@@ -156,7 +150,12 @@ export default function CustomWorkbench() {
     asset: WorkbenchAsset;
   } | null>(null);
   const [message, setMessage] = useState("");
+  const [loginAccount,setLoginAccount]=useState<string|null>(null);
+  const [loggingOut,setLoggingOut]=useState(false);
+  useEffect(()=>{void fetch("/api/local/auth/session",{cache:"no-store"}).then(response=>response.json()).then(body=>setLoginAccount(body.username||null)).catch(()=>{});},[]);
   const [exporting, setExporting] = useState(false);
+  const [importing,setImporting]=useState(false);
+  const importInput=useRef<HTMLInputElement>(null);
   const [proofread, setProofread] = useState(false);
   const proofreadContent = JSON.stringify({title:draft.title,subtitle:draft.subtitle,cover:draft.cover,pages:draft.pages.slice(0,draft.pageCount),format:draft.format,typography:draft.typography,spreads:draft.spreads,design:Object.fromEntries(Object.entries(draft.studio?.pages||{}).map(([key,value])=>[key,value.typography]))});
   useEffect(() => setProofread(false), [proofreadContent]);
@@ -344,6 +343,15 @@ export default function CustomWorkbench() {
   function navigate(next: number) {
     setPage(Math.min(draft.pageCount, Math.max(0, next)));
   }
+  async function downloadProject() {
+    try{await local.flush();downloadUrl(`/api/local/projects/${local.projectId}/download?kind=project`);setMessage("完整项目备份已开始下载，包含原图、分镜、文字样式和图片历史，可导入后继续编辑。");}catch(e){setMessage(e instanceof Error?e.message:"下载失败，请重试。");}
+  }
+  async function importProject(file:File|undefined) {
+    if(!file)return;
+    if(!file.name.toLowerCase().endsWith(".zip")||file.size>512*1024*1024){setMessage("请选择工作台导出的项目备份ZIP，最大512MB。");return;}
+    setImporting(true);setMessage("正在导入项目与原图，请稍候…");
+    try{await local.flush();const response=await fetch("/api/local/projects/import",{method:"POST",headers:{"Content-Type":"application/zip"},body:file});const result=await response.json();if(!response.ok)throw new Error(result.error||"项目导入失败。");await local.selectProject(result.id);goToPanel("board");setMessage("项目已导入为一本新绘本，原有项目保留。原图、文字样式和版本历史已恢复。");}catch(e){setMessage(e instanceof Error?e.message:"项目导入失败，请重试。");}finally{setImporting(false);}
+  }
   async function exportPdf() {
     if (hasEmbeddedArtwork && !proofread) {
       setMessage("请先逐页核对图中文字和人物，再确认校对并下载。");
@@ -355,8 +363,8 @@ export default function CustomWorkbench() {
       const blob = await exportCustomBookPdf(draft, setMessage);
       const response=await fetch(`/api/local/projects/${exportProjectId}/preview`,{method:"POST",headers:{"Content-Type":"application/pdf","X-Project-Revision":String(revision)},body:blob});
       if(!response.ok){const result=await response.json();throw new Error(result.error||"PDF 归档失败，请重试。");}
-      download(blob, `${draft.title || "我的绘本"}.pdf`);
-      setMessage("整本 PDF 已保存到本书文件夹的“成品PDF”，同时已下载。");
+      const savedFile=await response.json();downloadUrl(savedFile.url);
+      setMessage("阅读PDF已生成并归档，已开始下载；可在“文件与下载”中重新下载。");
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "PDF 导出失败");
     } finally {
@@ -384,16 +392,18 @@ export default function CustomWorkbench() {
         </nav>
 
         <div className={s.sidebarFooter}>
-          <div><HardDrives size={18} aria-hidden="true"/><span>本机工作空间<small>自动保存 · 刷新可恢复</small></span></div>
-          <button disabled={!local.ready} onClick={() => {download(new Blob([serializeWorkbench(draft)], {type:"application/json"}),"绘本配置.json");setMessage("已导出配置。跨电脑迁移时请一并备份本机 .local-data 数据目录。");}}><ArrowSquareOut size={16} aria-hidden="true"/>导出项目配置</button>
+          <div><HardDrives size={18} aria-hidden="true"/><span>{local.storageMode==="server"?"服务器工作空间":"本机工作空间"}<small>自动保存 · 刷新可恢复</small></span></div>
+          <button disabled={!local.ready||importing} onClick={()=>void downloadProject()}><ArrowSquareOut size={16} aria-hidden="true"/>下载完整项目备份</button>
+          <button disabled={!local.ready||importing||live.busy||printBusy||!!activeJob} onClick={()=>importInput.current?.click()}>{importing?"正在导入…":"导入项目备份"}</button><input ref={importInput} type="file" accept=".zip,application/zip" hidden aria-label="选择项目备份ZIP" onChange={e=>{const file=e.target.files?.[0];e.target.value="";void importProject(file);}}/>
         </div>
       </aside>
       <div className={s.mainArea}>
       <header className={s.topbar}>
         <div className={s.projectHeading}><span>{activePanel==="ai"?"独立 AI 制作":"我的绘本"} <CaretRight size={13} aria-hidden="true" /></span><strong>{activePanel==="ai"?(currentJob?.automatic?currentJob.result.title||"AI 正在制作新绘本":"新建一本绘本"):draft.title || "未命名绘本"}</strong></div>
         <div className={s.topActions}>
-          <span className={s.quota} data-saved={local.status==="已保存到本机"}>{local.status==="已保存到本机"?<CheckCircle size={16} aria-hidden="true"/>:<FloppyDisk size={16} aria-hidden="true"/>}<small role="status">{local.status}</small></span>
-          <LocalSaveLocation key={local.projectId} projectId={local.projectId} saved={local.status} onFlush={local.flush}/>
+          {loginAccount&&<button disabled={loggingOut||live.busy||printBusy||!!activeJob} title={`当前账号：${loginAccount}`} onClick={async()=>{setLoggingOut(true);try{await local.flush();const response=await fetch("/api/local/auth/logout",{method:"POST"});if(!response.ok)throw new Error("退出失败，请重试。");window.location.assign("/studio-login");}catch(error){setMessage(error instanceof Error?error.message:"退出失败，请重试。");setLoggingOut(false);}}}><SignOut size={16} aria-hidden="true"/>{loggingOut?"正在退出…":"退出登录"}</button>}
+          <span className={s.quota} data-saved={local.isSaved}>{local.isSaved?<CheckCircle size={16} aria-hidden="true"/>:<FloppyDisk size={16} aria-hidden="true"/>}<small role="status">{local.status}</small></span>
+          <LocalSaveLocation key={local.projectId} projectId={local.projectId} saved={local.status} onFlush={local.flush} importing={importing} onImport={!local.ready||live.busy||printBusy||!!activeJob?undefined:()=>importInput.current?.click()}/>
           <button hidden={activePanel==="ai"} disabled={!local.ready || live.busy || printBusy} onClick={()=>void local.flush().catch(e=>setMessage(e.message))}><FloppyDisk size={16} aria-hidden="true"/>立即保存</button>
           <button hidden={activePanel==="ai"} disabled={!local.ready} onClick={()=>setModal("read")}><BookOpen size={17} aria-hidden="true"/>整本阅读</button>
         </div>
@@ -401,7 +411,7 @@ export default function CustomWorkbench() {
       <div className={s.content}>
       <section className={s.heading}>
         <div>
-          <span className={s.eyebrow}>本地绘本工作台</span>
+          <span className={s.eyebrow}>{local.storageMode==="server"?"绘本制作工作台":"本地绘本工作台"}</span>
           <h1>{panel.label}</h1>
           <p>{panel.description}</p>
         </div>

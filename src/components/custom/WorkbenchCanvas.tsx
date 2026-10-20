@@ -9,18 +9,16 @@ import {
 import { artworkText, artworkMatchesText } from "@/lib/custom-book/integrated";
 import { textArea, textRegion, placementFromRegion, normalizeTextPlacement, type TextPlacement, type TextRegion } from "@/lib/custom-book/text-position";
 import { wrapBookText } from "@/lib/custom-book/text-wrap";
-import { canvasFontFamily, effectiveTextBacking, loadBookFont } from "@/lib/custom-book/typography";
+import { effectiveTextBacking, loadBookFont, pageTypography } from "@/lib/custom-book/typography";
+import { storyTextPlan, layoutStoryText, bookPageDimensions } from "@/lib/custom-book/lettering";
+import { canvasTextFont, drawCanvasText, rotatedTextBounds } from "@/lib/custom-book/text-canvas";
 import "./book-fonts.css";
 import s from "./WorkbenchCanvas.module.css";
 
 export function pageDimensions(
   format: CustomWorkbenchDraft["format"],
 ): [number, number] {
-  return format === "portrait"
-    ? [720, 900]
-    : format === "landscape"
-      ? [960, 720]
-      : [800, 800];
+  return bookPageDimensions(format);
 }
 function loadImage(src: string): Promise<HTMLImageElement> {
   return new Promise((resolve, reject) => {
@@ -36,18 +34,21 @@ export async function drawWorkbench(
   draft: CustomWorkbenchDraft,
   page: number,
   hideText = false,
+  pixelRatio = 1,
 ) {
   const studioPage = spreadStart(draft, page) || page;
-  draft = { ...draft, typography: { ...draft.typography, ...draft.studio?.pages?.[studioPage]?.typography } };
-  await loadBookFont(draft.typography.fontFamily);
+  const baseDesign = pageTypography(draft, studioPage);
+  await loadBookFont(baseDesign.fontFamily);
   const [pw, h] = pageDimensions(draft.format);
   const start = spreadStart(draft, page);
+  const storyMode = baseDesign.preset === "storybook" || !!start && pageTypography(draft, start + 1).preset === "storybook";
   const w = start ? pw * 2 : pw;
-  canvas.width = w;
-  canvas.height = h;
+  canvas.width = Math.round(w*pixelRatio);
+  canvas.height = Math.round(h*pixelRatio);
   const ctx = canvas.getContext("2d");
   if (!ctx) throw new Error("浏览器暂不支持画布。");
-  ctx.fillStyle = draft.typography.background;
+  ctx.scale(pixelRatio,pixelRatio);
+  ctx.fillStyle = baseDesign.background;
   ctx.fillRect(0, 0, w, h);
   const asset: WorkbenchAsset | undefined =
     page === 0 ? draft.cover : draft.pages[(start || page) - 1]?.asset;
@@ -91,7 +92,7 @@ export async function drawWorkbench(
     const dw = sw * scale,
       dh = sh * scale;
     ctx.save();
-    if (layout === "minimal") {
+    if (layout === "minimal" && !storyMode) {
       const inset = pw * 0.09,
         panelHeight = h * 0.58;
       const scale = Math.min((w - inset * 2) / sw, panelHeight / sh);
@@ -122,7 +123,7 @@ export async function drawWorkbench(
     ctx.textAlign = "center";
     ctx.fillText("在这里放入你的故事画面", w / 2, h * 0.4);
   }
-  if (layout === "sidebar") {
+  if (layout === "sidebar" && !storyMode) {
     ctx.fillStyle = draft.typography.background;
     ctx.beginPath();
     ctx.moveTo(0, h * 0.68);
@@ -132,7 +133,7 @@ export async function drawWorkbench(
     ctx.closePath();
     ctx.fill();
   }
-  if (layout === "embrace") {
+  if (layout === "embrace" && !storyMode) {
     const mist = ctx.createLinearGradient(0, h * 0.48, 0, h);
     mist.addColorStop(0, draft.typography.background + "00");
     mist.addColorStop(0.55, draft.typography.background + "e6");
@@ -140,7 +141,7 @@ export async function drawWorkbench(
     ctx.fillStyle = mist;
     ctx.fillRect(0, h * 0.48, w, h * 0.52);
   }
-  if (layout === "minimal") {
+  if (layout === "minimal" && !storyMode) {
     ctx.strokeStyle = draft.typography.color + "55";
     ctx.lineWidth = 1;
     for (let side = 0; side < (start ? 2 : 1); side++) {
@@ -167,48 +168,32 @@ export async function drawWorkbench(
       : start
         ? [draft.pages[start - 1].text, draft.pages[start].text]
         : [draft.pages[page - 1].text];
-  texts.forEach((text, index) => {
-    const size =
-      page === 0 ? draft.typography.size * 1.5 : draft.typography.size;
-    ctx.font = `${page === 0 ? "600" : "400"} ${size}px ${canvasFontFamily(draft.typography.fontFamily)}`;
-    const box = textArea(layout, pw, h, index, draft.typography.textBox);
-    const maxWidth = box.width,
-      lineHeight = size * (draft.typography.lineHeight ?? 1.55);
-    const lines = wrapBookText(text, maxWidth, value => ctx.measureText(value).width);
-    if (!text) return;
-    const boxHeight = lines.length * lineHeight + 32;
-    const region=textRegion(box,draft.typography,boxHeight,pw,h,index);
-    textRegions.push(region);
-    if (boxHeight > box.height || region.y+boxHeight>h*.98) overflow = true;
-    const {x,y}=region;
-    const backing = effectiveTextBacking(draft, studioPage);
-    if (backing && (layout === "panorama" || draft.typography.backingStyle)) {
-      const colour = draft.typography.backingColor || "#fffcf3";
-      const opacity = Math.round((draft.typography.backingOpacity ?? .92) * 255).toString(16).padStart(2, "0");
-      const gradient = ctx.createLinearGradient(
-        0,
-        y - 12,
-        0,
-        y + boxHeight + 12,
-      );
-      gradient.addColorStop(0, colour + "00");
-      gradient.addColorStop(0.15, colour + opacity);
-      gradient.addColorStop(0.85, colour + opacity);
-      gradient.addColorStop(1, colour + "00");
-      ctx.fillStyle = draft.typography.backingStyle === "solid" ? colour + opacity : gradient;
-      ctx.fillRect(x - 16, y - 12, maxWidth + 32, boxHeight + 24);
+  for (const [index, text] of texts.entries()) {
+    const physicalPage = start ? start + index : page;
+    const design = pageTypography(draft, physicalPage);
+    await loadBookFont(design.fontFamily);
+    const measure=(value:string,size:number)=>{ctx.font=canvasTextFont(design,size);return Array.from(value).reduce((width,c)=>width+ctx.measureText(c).width,0);};
+    let region:TextRegion;
+    if (physicalPage > 0 && design.preset === "storybook") {
+      const plan=storyTextPlan(draft.pages[physicalPage-1],design,pw,h,index,measure);
+      if(!text.trim())continue;
+      region=plan.region;overflow ||= plan.overflow;
+      drawCanvasText(ctx,design,region,plan.lettering.glyphs,effectiveTextBacking(draft,physicalPage));
+    } else {
+      const size=page===0?design.size*1.5:design.size,box=textArea(layout,pw,h,index,design.textBox);
+      const spacing=design.letterSpacing??0;
+      const lines=wrapBookText(text,box.width,value=>measure(value,size)+Math.max(0,Array.from(value).length-1)*size*spacing);
+      if(!text.trim())continue;
+      const lettering=layoutStoryText(text,{...design,size,letterSpacing:spacing},{lines},[],box.width,measure);
+      region=textRegion(box,design,lettering.height+32,pw,h,index);
+      overflow ||= lettering.height+32>box.height;
+      drawCanvasText(ctx,design,region,lettering.glyphs.map(g=>({...g,baseline:g.baseline+16})),effectiveTextBacking(draft,physicalPage));
     }
-    ctx.fillStyle = draft.typography.color;
-    ctx.textAlign = draft.typography.align;
-    ctx.textBaseline = "top";
-    const tx =
-      draft.typography.align === "left"
-        ? x
-        : draft.typography.align === "right"
-          ? x + maxWidth
-          : x + maxWidth / 2;
-    lines.forEach((line, i) => ctx.fillText(line, tx, y + 16 + i * lineHeight));
-  });
+    textRegions.push(region);
+    const bounds=rotatedTextBounds(region,design.rotation);
+    overflow ||= bounds.left<-.1||bounds.right>w+.1||bounds.top<-.1||bounds.bottom>h+.1;
+  }
+
   return { overflow, textRegions };
 }
 export default function WorkbenchCanvas({
@@ -224,7 +209,7 @@ export default function WorkbenchCanvas({
   hideText?: boolean;
   onStatus?: (error: string) => void;
   onTextRegions?: (regions:TextRegion[]) => void;
-  textEditing?: { onStart:()=>void; onMove:(placement:TextPlacement)=>void };
+  textEditing?: { onStart:(page:number)=>void; onMove:(placement:TextPlacement, page:number)=>void };
 }) {
   const ref = useRef<HTMLCanvasElement>(null);
   const paintedKey=useRef("");
@@ -291,12 +276,12 @@ export default function WorkbenchCanvas({
       {textEditing&&!asset?.embeddedText&&regions.map((region,index)=><button key={index} className={s.textHandle} type="button"
         aria-label={regions.length>1?`拖动${index===0?"左页":"右页"}文字位置`:"拖动文字位置"}
         title="拖动移动文字；方向键微调，Shift 加速"
-        style={{left:`${region.x/width*100}%`,top:`${region.y/pageHeight*100}%`,width:`${region.width/width*100}%`,height:`${region.height/pageHeight*100}%`}}
-        onPointerDown={e=>{e.preventDefault();e.stopPropagation();e.currentTarget.focus({preventScroll:true});const r=ref.current!.getBoundingClientRect();textEditing.onStart();textDrag.current={pointer:e.pointerId,x:e.clientX,y:e.clientY,placement:placementFromRegion(region,pageWidth,pageHeight),scaleX:width/r.width/pageWidth*100,scaleY:100/r.height};e.currentTarget.setPointerCapture(e.pointerId);}}
-        onPointerMove={e=>{const drag=textDrag.current;if(!drag||drag.pointer!==e.pointerId)return;e.stopPropagation();textEditing.onMove(normalizeTextPlacement({...drag.placement,x:drag.placement.x+(e.clientX-drag.x)*drag.scaleX,y:drag.placement.y+(e.clientY-drag.y)*drag.scaleY}));}}
+        style={{left:`${region.x/width*100}%`,top:`${region.y/pageHeight*100}%`,width:`${region.width/width*100}%`,height:`${region.height/pageHeight*100}%`,transform:`rotate(${pageTypography(draft,(spread||page)+region.side).rotation||0}deg)`}}
+        onPointerDown={e=>{e.preventDefault();e.stopPropagation();e.currentTarget.focus({preventScroll:true});const r=ref.current!.getBoundingClientRect();textEditing.onStart((spread||page)+region.side);textDrag.current={pointer:e.pointerId,x:e.clientX,y:e.clientY,placement:placementFromRegion(region,pageWidth,pageHeight),scaleX:width/r.width/pageWidth*100,scaleY:100/r.height};e.currentTarget.setPointerCapture(e.pointerId);}}
+        onPointerMove={e=>{const drag=textDrag.current;if(!drag||drag.pointer!==e.pointerId)return;e.stopPropagation();textEditing.onMove(normalizeTextPlacement({...drag.placement,x:drag.placement.x+(e.clientX-drag.x)*drag.scaleX,y:drag.placement.y+(e.clientY-drag.y)*drag.scaleY}),(spread||page)+region.side);}}
         onPointerUp={e=>{e.stopPropagation();textDrag.current=null;}}
         onPointerCancel={()=>{textDrag.current=null;}}
-        onKeyDown={e=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.key))return;e.preventDefault();e.stopPropagation();const p=placementFromRegion(region,pageWidth,pageHeight),step=e.shiftKey?5:1;textEditing.onStart();textEditing.onMove(normalizeTextPlacement({...p,x:p.x+(e.key==="ArrowLeft"?-step:e.key==="ArrowRight"?step:0),y:p.y+(e.key==="ArrowUp"?-step:e.key==="ArrowDown"?step:0)}));}}
+        onKeyDown={e=>{if(!["ArrowUp","ArrowDown","ArrowLeft","ArrowRight"].includes(e.key))return;e.preventDefault();e.stopPropagation();const p=placementFromRegion(region,pageWidth,pageHeight),step=e.altKey?.1:e.shiftKey?5:1;textEditing.onStart((spread||page)+region.side);textEditing.onMove(normalizeTextPlacement({...p,x:p.x+(e.key==="ArrowLeft"?-step:e.key==="ArrowRight"?step:0),y:p.y+(e.key==="ArrowUp"?-step:e.key==="ArrowDown"?step:0)}),(spread||page)+region.side);}}
       ><span>拖动文字</span></button>)}
       {loading&&<div style={{position:"absolute",inset:0,display:"grid",placeItems:"center",background:draft.typography.background}}>{asset&&<img src={asset.src} alt="" style={{position:"absolute",inset:0,width:"100%",height:"100%",objectFit:"contain"}}/>}<span role="status" style={{position:"absolute",bottom:12,padding:"5px 10px",borderRadius:5,background:"#ffffffed",color:"#294a35",fontSize:12}}>正在载入书页…</span></div>}
       </div>

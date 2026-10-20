@@ -111,13 +111,13 @@ export function syncBookFiles(db:DatabaseSync,root:string,project:Project,book?:
   const pdfs=pdfFiles(target(directory,"成品PDF")),signature=bookContentSignature(draft);
   return {projectId:project.id,title:draft.title||"未命名绘本",directory,images:target(directory,"图片"),pdfs:target(directory,"成品PDF"),manuscript:target(directory,"编导稿.txt"),configuration:target(directory,"项目配置.json"),pdfCount:pdfs.length,pdfOutdated:Object.values(manifest.exports).some(item=>item.content!==signature),warnings};
 }
-export function writeBookOutputs(location:BookFolder,draft:CustomWorkbenchDraft,files:Record<string,Uint8Array>) {
+export function writeBookOutputs(location:BookFolder,draft:CustomWorkbenchDraft,files:Record<string,Uint8Array>,outdated=false) {
   const manifest=readManifest(location.directory);if(!manifest||manifest.projectId!==location.projectId)throw new Error("绘本文件夹标识不一致。");
   for(const [relative,bytes]of Object.entries(files)) {
     if(!/^(成品PDF|交付包)\//.test(relative))throw new Error("成品文件路径无效。");
     const dest=target(location.directory,relative);
     if(fs.existsSync(dest)&&!fs.readFileSync(dest).equals(Buffer.from(bytes)))archive(location.directory,relative,`${relative.split("/")[0]}/历史版本`);
-    atomic(dest,bytes);manifest.exports[relative]={content:bookContentSignature(draft),exportedAt:new Date().toISOString()};
+    atomic(dest,bytes);manifest.exports[relative]={content:outdated?"restored-outdated":bookContentSignature(draft),exportedAt:new Date().toISOString()};
   }
   atomic(target(location.directory,".book-files.json"),JSON.stringify(manifest,null,2));
 }

@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { CustomWorkbenchDraft } from "@/lib/custom-workbench";
 import type { ProductionEdit } from "@/lib/book-production";
+import { needsAutomaticJobRefresh } from "@/lib/automatic-job-progress";
 export type LiveCustomJob = {
   id:string;projectId:string;status:"preparing"|"outline"|"review"|"images"|"paused"|"retryable"|"complete"|"failed";
   automatic?:boolean;
@@ -74,7 +75,7 @@ export function useCustomBook(onResult:(draft:CustomWorkbenchDraft,job:LiveCusto
     void resume(candidate.id);
   },[jobs,busy,job]);
   useEffect(()=>{
-    if(busy||!jobs.some(j=>j.automatic&&!["complete","failed","retryable","paused","review"].includes(j.status)))return;
+    if(busy||!jobs.some(j=>needsAutomaticJobRefresh(j)))return;
     const timer=setInterval(()=>{void refresh().catch(()=>{});},3000);return()=>clearInterval(timer);
   },[jobs,busy,refresh]);
   const stored=job&&jobs.find(j=>j.id===job.id&&j.updatedAt>job.updatedAt);
